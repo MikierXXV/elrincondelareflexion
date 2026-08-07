@@ -1,0 +1,58 @@
+{
+  "id": "el-numero-como-orden",
+  "corriente_id": "presocraticos",
+  "titulo": "El número como orden del mundo",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "pitagoras",
+      "rol": "principal",
+      "aporte": "Generaliza el hallazgo de las proporciones musicales a una tesis sobre la estructura de la realidad."
+    }
+  ],
+  "pregunta": "¿Por qué las matemáticas describen tan bien un mundo que no está hecho de números?",
+  "cita": {
+    "texto": "Todo es número.",
+    "obra": "Atribuida a los pitagóricos por Aristóteles",
+    "autor_id": "pitagoras",
+    "atribucion": "tradicional",
+    "nota": "Pitágoras no dejó escritos. Aristóteles atribuye la tesis a los pitagóricos en conjunto, no a él personalmente."
+  },
+  "resumen": "Los intervalos musicales que nos suenan armónicos corresponden a proporciones numéricas simples. De ese hallazgo comprobable sale una idea enorme: que la realidad tiene una estructura matemática.",
+  "desarrollo": "El punto de partida se puede verificar en cinco minutos. Si divides una cuerda tensa justo por la mitad, suena la misma nota una octava más aguda. Si la divides en dos tercios, suena una quinta. Las proporciones sencillas producen los sonidos que percibimos como consonantes, y las que no lo son producen algo áspero. Lo desconcertante es que una relación puramente numérica, que no pesa ni ocupa espacio, gobierne algo tan físico como el sonido. Los pitagóricos generalizaron: si el número ordena la armonía, quizá ordene también el movimiento de los astros, las estaciones y el alma. La intuición resultó extraordinariamente productiva y llega intacta hasta la física actual, donde las leyes fundamentales se escriben como ecuaciones. Nadie ha explicado del todo por qué funciona tan bien.",
+  "ejemplo_real": "Afinar una guitarra a oído es exactamente esto: no comparas frecuencias, escuchas cuándo el batido entre dos cuerdas desaparece, y ese silencio del batido es una proporción exacta que tu oído detecta sin que sepas calcularla. Lo mismo ocurre cuando una foto 'cuadra' o cuando un edificio parece bien proporcionado.",
+  "matiz_experto": "El propio programa encontró su límite desde dentro: el descubrimiento de las magnitudes inconmensurables —la diagonal de un cuadrado no es expresable como razón de enteros— contradecía la tesis de que todo se reduce a proporciones numéricas.",
+  "visualizacion": {
+    "id": "vis-monocordio-pitagoras",
+    "idea_id": "el-numero-como-orden",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "El usuario desliza un puente a lo largo de una cuerda y la pulsa. La simulación resuelve la onda real: en las proporciones exactas 1:2, 2:3 y 3:4 la vibración se estabiliza en un patrón limpio y el sonido es consonante; entre esas posiciones la onda se ve batir y el sonido es áspero. El orden numérico se oye y se ve antes de explicarse.",
+    "invitacion": "Desliza el puente y escucha dónde se asienta",
+    "alternativa_textual": "Una cuerda simulada cuya vibración se vuelve estable y su sonido consonante solo en divisiones de proporción simple: demuestra que relaciones numéricas exactas gobiernan un fenómeno físico que percibimos como belleza.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Una cuerda con un puente móvil que divide su longitud",
+      "etiquetaPuente": "Posición del puente sobre la cuerda",
+      "escuchar": "Escuchar el intervalo",
+      "sinProporcion": "sin proporción simple",
+      "consonancias": [
+        "octava (1:2)",
+        "quinta (2:3)",
+        "cuarta (3:4)",
+        "duodécima (1:3)"
+      ],
+      "estabilizada": "la vibración se ha estabilizado sola. Es una proporción exacta.",
+      "resolucionFinal": "Las posiciones en que la cuerda se estabiliza son exactamente las de razón simple. Ahí nace la sospecha de que el número ordena la realidad.",
+      "resolucionEstatica": "Dividida por la mitad, la cuerda suena una octava más aguda: la consonancia corresponde a una razón numérica simple.",
+      "alternativaTexto": "Una cuerda simulada cuya vibración se vuelve estable y su sonido consonante solo en divisiones de proporción simple: demuestra que relaciones numéricas exactas gobiernan un fenómeno físico que percibimos como belleza."
+    }
+  },
+  "ideas_relacionadas": [
+    "mundo-de-las-ideas",
+    "razon-suficiente"
+  ]
+}

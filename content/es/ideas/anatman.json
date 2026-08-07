@@ -1,0 +1,101 @@
+{
+  "id": "anatman",
+  "corriente_id": "filosofia-india",
+  "titulo": "Anatman: el no-yo",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "buda",
+      "rol": "principal",
+      "aporte": "Sostiene que al examinar la experiencia solo hay procesos cambiantes, sin propietario detrás."
+    },
+    {
+      "id": "hume",
+      "rol": "convergente",
+      "aporte": "Veintitrés siglos después y desde el empirismo, tampoco encuentra el yo al mirar dentro."
+    },
+    {
+      "id": "upanishads-vedanta",
+      "rol": "contrapunto",
+      "aporte": "Dentro de la misma tradición india, afirma justo lo contrario: hay un sujeto último y permanente."
+    }
+  ],
+  "pregunta": "Si buscas al 'yo' dentro de ti, ¿qué encuentras exactamente?",
+  "cita": {
+    "texto": "Todos los fenómenos carecen de un yo propio.",
+    "obra": "Dhammapada, 279",
+    "autor_id": "buda",
+    "atribucion": "directa"
+  },
+  "resumen": "Al examinar la experiencia solo aparecen sensaciones, percepciones y pensamientos cambiando sin cesar, sin nadie detrás que los tenga. El yo sería el nombre de un proceso, como 'carro' lo es de un conjunto de piezas.",
+  "desarrollo": "El argumento clásico usa un carro. Busca el carro: no son las ruedas, ni el eje, ni la caja, ni la suma amontonada de todo ello. 'Carro' es el nombre que damos a esas piezas ensambladas y funcionando; útil, real como convención, pero no una cosa aparte que exista además de las piezas. Lo mismo con la persona. Al mirar dentro aparecen un calor, una molestia, un recuerdo, una intención, todos cambiando, y ninguno permanente. El yo sería ese nombre. Lo notable es que Hume, desde el empirismo británico y sin contacto alguno con esta tradición, describe exactamente lo mismo: solo tropieza con percepciones concretas y nunca con el que las tiene. Y lo notable en la otra dirección es que los Upanishads, dentro de la propia India, sostienen lo contrario: que sí hay un sujeto último. La discusión no es entre Oriente y Occidente, es interna a ambos.",
+  "ejemplo_real": "Piensa en un equipo de fútbol. Cambian todos los jugadores, el entrenador, el estadio y hasta los colores, y sigue siendo el mismo club: nadie duda de eso y a nadie se le ocurre buscar dónde está el club, aparte de sus miembros y su continuidad. Con una persona hacemos lo mismo todo el tiempo, salvo que ahí sí nos parece que tiene que haber algo más.",
+  "matiz_experto": "La tradición se planteó enseguida el problema: cómo hay renacimiento y responsabilidad kármica sin un sujeto que persista. De ahí salieron la doctrina del origen dependiente y respuestas discutidas como la pudgalavada. En filosofía analítica, Parfit reabrió el debate en términos muy próximos.",
+  "visualizacion": {
+    "id": "vis-anatman-buda",
+    "idea_id": "anatman",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario desmonta pieza a pieza algo compuesto —primero un carro, después una experiencia mental— buscando dónde reside la cosa. Al retirar la última pieza no queda ningún núcleo y el nombre desaparece con el ensamblaje. Entonces puede hacer correr el proceso: bajo el mismo nombre desfilan estados que entran y salen, los cuatro del principio se van uno tras otro y el flujo sigue siendo el mismo sin que ninguna pieza permanezca.",
+    "invitacion": "Desmóntalo pieza a pieza y busca el núcleo",
+    "alternativa_textual": "Un objeto y luego una experiencia mental que se desmontan pieza a pieza sin que aparezca ningún núcleo, y un flujo de estados que conserva identidad práctica sin elementos permanentes: demuestra que el yo puede ser el nombre de un proceso y no una cosa.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "centro": "el yo",
+      "vinculos": [
+        {
+          "nombre": "la forma",
+          "perdida": "El cuerpo cambia entero y nadie deja de reconocerte por eso."
+        },
+        {
+          "nombre": "las sensaciones",
+          "perdida": "Aparecen y se van sin que nada las posea."
+        },
+        {
+          "nombre": "las percepciones",
+          "perdida": "Reconocer no exige un reconocedor aparte del reconocer."
+        },
+        {
+          "nombre": "las disposiciones",
+          "perdida": "Los hábitos continúan sin que haya nadie sosteniéndolos."
+        },
+        {
+          "nombre": "la conciencia",
+          "perdida": "También surge y cesa: es un proceso más, no su dueño."
+        }
+      ],
+      "resolucion": "Retiradas las piezas, no queda ningún núcleo. «Yo» era el nombre del ensamblaje, como «carro» lo es de sus partes.",
+      "alternativaTexto": "Un objeto y luego una experiencia mental que se desmontan pieza a pieza sin que aparezca ningún núcleo, y un flujo de estados que conserva identidad práctica sin elementos permanentes: demuestra que el yo puede ser el nombre de un proceso y no una cosa.",
+      "flujo": {
+        "estados": [
+          "un calor",
+          "una molestia",
+          "un recuerdo",
+          "una intención",
+          "un ruido",
+          "un cansancio",
+          "una idea",
+          "un impulso"
+        ],
+        "avanzar": "Dejar correr el proceso",
+        "bloqueado": "Retira antes todas las piezas",
+        "nota": "Cada estado se va y otro ocupa su sitio, y el nombre sigue puesto encima.",
+        "conclusion": "No queda ninguno de los estados del principio y el proceso sigue respondiendo al mismo nombre: la identidad estaba en la continuidad, no en una pieza que permaneciera."
+      },
+      "restituir": "Restituir las relaciones",
+      "etiqueta": "Anatman: el no-yo",
+      "etiquetaNodo": "Cortar el vínculo con {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "identidad-personal",
+    "atman-y-brahman",
+    "vacuidad",
+    "flujo-y-permanencia"
+  ]
+}

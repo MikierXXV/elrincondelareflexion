@@ -1,0 +1,97 @@
+{
+  "id": "dialectica-del-reconocimiento",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "The dialectic of recognition",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "hegel",
+      "rol": "principal",
+      "aporte": "Shows that self-consciousness is built in relation to another, not alone."
+    }
+  ],
+  "pregunta": "Can you know who you are if nobody recognises you?",
+  "cita": {
+    "texto": "The owl of Minerva takes flight only as dusk falls.",
+    "obra": "Philosophy of Right, preface",
+    "autor_id": "hegel",
+    "atribucion": "directa"
+  },
+  "resumen": "Two consciousnesses confront each other seeking recognition and one subjugates the other. But the victor is trapped: the only recognition on offer comes from someone he has degraded, and that is worthless.",
+  "desarrollo": "The master-and-slave passage is the most read thing Hegel wrote, and it works as a demonstration by reduction to absurdity. If identity needs another's recognition, the apparently most efficient route is to force someone to recognise you. The master succeeds: he subjugates and is recognised. But he discovers that recognition from someone he has reduced to an instrument is worth nothing, because what he wanted was to be recognised by an equal. Meanwhile something unexpected happens on the other side: the subjugated one, forced to work, transforms the world with his hands, sees his own mark in the objects he produces, and gains thereby a self-consciousness the master, who only consumes, does not have. The general conclusion is that identity is not produced alone and cannot be extracted by force: it is built in relations that only work if they are reciprocal.",
+  "ejemplo_real": "A boss who commands respect through fear gets exactly what he asked for and none of what he wanted: praise he cannot believe, because he knows nobody is in a position to say anything else. He ends up depending on the judgement of people whose judgement he has himself cancelled, which is the trap the passage describes.",
+  "matiz_experto": "The 'thesis–antithesis–synthesis' scheme used to summarise Hegel is not his; it comes from Fichte by way of Chalybäus. And the great interpretive divide remains open between reading Spirit as a cosmic subject or as a theory of social normativity.",
+  "visualizacion": {
+    "id": "vis-reconocimiento-hegel",
+    "idea_id": "dialectica-del-reconocimiento",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Two meters start level because recognition was mutual. The user imposes the conditions of subjection one by one and sees that they do not move both alike: the dominator’s stalls and falls, because recognition wrung out by force does not count as recognition, while the subjected one’s grows through being formed in work, until they cross.",
+    "invitacion": "Impose submission and watch both meters",
+    "alternativa_textual": "Two identity meters that depend on mutual recognition, in which subjugating the other stalls the dominator's while the subjugated one grows through work: it shows that forced recognition does not do the job asked of it.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "ilustracion-idealismo",
+      "modo": "medidores",
+      "figuraA": "the one who subjects",
+      "figuraB": "the one subjected",
+      "medidores": [
+        "what their identity receives",
+        "what their identity receives"
+      ],
+      "condicionesMedidor": [
+        {
+          "nombre": "Force them to recognise you",
+          "deltaA": -0.05,
+          "deltaB": -0.1,
+          "efecto": "You get it. And in the same act the recognition stops counting: it comes from someone you have stripped of the standing to judge."
+        },
+        {
+          "nombre": "Reduce them to an instrument",
+          "deltaA": 0,
+          "deltaB": -0.05,
+          "efecto": "Now they are a means. A means recognises nobody, so there is no longer anyone to receive it from."
+        },
+        {
+          "nombre": "Set them to work your material",
+          "deltaA": -0.15,
+          "deltaB": 0.35,
+          "efecto": "In shaping the material they recognise themselves in what they have made. You merely consume what arrives already made."
+        },
+        {
+          "nombre": "Live off what they produce",
+          "deltaA": -0.2,
+          "deltaB": 0.25,
+          "efecto": "You depend on them for everything, and they have learnt to do everything. The dependence has changed sides without anyone moving it."
+        }
+      ],
+      "reversion": "The subjected one’s meter has passed the dominator’s, and without a single blow: you produced it yourself by imposing each condition.",
+      "condiciones": [
+        {
+          "nombre": "force them to recognise you",
+          "efecto": "You get it, and the recognition loses its value in the same act.",
+          "peso": 0.4
+        },
+        {
+          "nombre": "reduce them to an instrument",
+          "efecto": "You wanted an equal to recognise you, and you have just stopped having one.",
+          "peso": 0.4
+        }
+      ],
+      "coste": "recognition that no longer counts",
+      "etiqueta": "The dialectic of recognition",
+      "resolucion": "Forced recognition does not do the job asked of it, because it requires the giver to hold the very standing just taken from them. The one who subjects is left with nobody to receive it from; the one subjected is formed by the task imposed on them.",
+      "alternativaTexto": "Two identity meters that depend on mutual recognition, in which subjugating the other stalls the dominator's while the subjugated one grows through work: it shows that forced recognition does not do the job asked of it."
+    }
+  },
+  "ideas_relacionadas": [
+    "animal-politico",
+    "alienacion",
+    "la-sombra",
+    "aceptacion-y-cambio"
+  ]
+}

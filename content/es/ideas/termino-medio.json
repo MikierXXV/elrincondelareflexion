@@ -1,0 +1,71 @@
+{
+  "id": "termino-medio",
+  "corriente_id": "clasica-griega",
+  "titulo": "El término medio",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "aristoteles",
+      "rol": "principal",
+      "aporte": "Define la virtud como un punto de equilibrio que depende de la situación y se adquiere por hábito."
+    }
+  ],
+  "pregunta": "¿Se aprende a ser buena persona como se aprende un oficio?",
+  "cita": {
+    "texto": "La virtud es un medio entre el exceso y el defecto.",
+    "obra": "Ética a Nicómaco II, 6",
+    "autor_id": "aristoteles",
+    "atribucion": "directa"
+  },
+  "resumen": "La virtud no es una regla que se aplique igual siempre, sino un punto de equilibrio entre dos excesos, que cambia con cada situación y que se adquiere repitiendo actos, no comprendiendo teorías.",
+  "desarrollo": "Aristóteles no busca definir el Bien en abstracto, sino describir qué hace que una vida humana florezca. Su respuesta es que las virtudes son disposiciones estables situadas entre dos defectos opuestos: la valentía entre la temeridad y la cobardía, la generosidad entre el derroche y la tacañería. La clave está en que ese medio no es aritmético ni fijo. Lo que en una situación es valentía, en otra es imprudencia, y acertar en cada caso concreto es tarea de la prudencia, un saber práctico que no se deduce de principios. De ahí la consecuencia más útil de toda su ética: las virtudes se adquieren como los oficios, practicándolas. Uno se vuelve justo haciendo cosas justas, igual que se vuelve carpintero haciendo muebles. Nadie aprende a tocar un instrumento leyendo sobre música.",
+  "ejemplo_real": "Decirle a alguien lo que piensas de verdad. Callártelo siempre es cobardía; soltarlo todo sin filtro no es sinceridad, es falta de tacto. Y el punto correcto se mueve: no es el mismo con tu jefe, con tu pareja o con alguien que acaba de recibir una mala noticia. Nadie te puede dar la regla; solo se afina practicando.",
+  "matiz_experto": "Sigue abierto el debate sobre si la vida buena aristotélica es 'inclusiva' —integra varios bienes— o culmina en la vida contemplativa del libro X, lo que dejaría al término medio como algo preparatorio.",
+  "visualizacion": {
+    "id": "vis-medio-aristoteles",
+    "idea_id": "termino-medio",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario mueve un deslizador entre dos extremos —'temeridad' y 'cobardía'— y ve cómo responde una escena concreta. Al cambiar la situación de fondo (un incendio, una discusión, una decisión médica) el punto acertado se desplaza por el eje sin avisar, de modo que la posición que antes funcionaba deja de hacerlo. Repetir la misma situación varias veces estrecha la zona de acierto.",
+    "invitacion": "Busca el punto justo y luego cambia de situación",
+    "alternativa_textual": "Un eje con dos extremos viciosos cuyo punto correcto se desplaza al cambiar la situación, y cuya zona de acierto se estrecha con la práctica: demuestra que la virtud no es una regla fija sino un juicio afinado por el hábito.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Eje entre dos excesos con un marcador desplazable",
+      "etiquetaMarcador": "Posición de tu respuesta entre los dos excesos",
+      "resolucionFinal": "El punto correcto se ha movido en cada caso. No aprendiste una regla: afinaste un juicio.",
+      "alternativaTexto": "Un eje con dos extremos viciosos cuyo punto correcto se desplaza al cambiar la situación, y cuya zona de acierto se estrecha con la práctica: demuestra que la virtud no es una regla fija sino un juicio afinado por el hábito.",
+      "situaciones": [
+        {
+          "nombre": "Un incendio en tu edificio",
+          "medio": 0.62,
+          "extremoBajo": "cobardía",
+          "extremoAlto": "temeridad",
+          "acierto": "Avisar y salir ayudando a quien puedas, sin entrar a apagarlo."
+        },
+        {
+          "nombre": "Una discusión con tu jefe",
+          "medio": 0.44,
+          "extremoBajo": "sumisión",
+          "extremoAlto": "insolencia",
+          "acierto": "Decir lo que piensas sin convertirlo en un pulso."
+        },
+        {
+          "nombre": "Una decisión médica difícil",
+          "medio": 0.3,
+          "extremoBajo": "pasividad",
+          "extremoAlto": "imprudencia",
+          "acierto": "Preguntar, esperar el dato que falta y no precipitarse."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "animal-politico",
+    "ren-y-li",
+    "calculo-de-la-felicidad"
+  ]
+}

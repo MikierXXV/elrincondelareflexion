@@ -1,0 +1,112 @@
+{
+  "id": "placeres-superiores",
+  "corriente_id": "utilitarismo",
+  "titulo": "Higher pleasures",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "mill",
+      "rol": "principal",
+      "aporte": "Introduces the idea that pleasures differ in quality, and proposes as judge whoever knows both."
+    },
+    {
+      "id": "bentham",
+      "rol": "contrapunto",
+      "aporte": "His purely quantitative calculus is exactly what Mill considers insufficient."
+    }
+  ],
+  "pregunta": "Is every way of enjoying yourself worth the same?",
+  "cita": {
+    "texto": "It is better to be Socrates dissatisfied than a fool satisfied.",
+    "obra": "Utilitarianism, 1863",
+    "autor_id": "mill",
+    "atribucion": "directa"
+  },
+  "resumen": "Mill corrects the calculus: quantity of pleasure is not enough, quality counts too. And he proposes a way of settling it that is empirical rather than dogmatic: ask whoever knows both.",
+  "desarrollo": "Mill was raised in utilitarianism from the age of three and at twenty suffered a crisis: he realised that even if he achieved every goal of the social reform he was pursuing, he was not sure it would make him happy. His correction to the system is to distinguish quantity from quality. Some pleasures demand cultivation — understanding something difficult, creating, feeling deeply — and others do not. And he holds that whoever has experienced both would not trade the first for the second, even though the latter give more immediate satisfaction. What matters is how he justifies the criterion: he does not impose it from above but makes it depend on the judgement of those who know both, which is the only tribunal available. His line about the dissatisfied Socrates sums up the wager: whoever knows only one side is in no position to compare.",
+  "ejemplo_real": "A whole afternoon of short videos versus finishing a book you are struggling with. The first is more pleasurable minute by minute and leaves a worse aftertaste; the second is hard work and leaves something behind. Almost nobody who has tried both would defend trading every book in their life for more hours of scrolling, and yet scrolling wins almost every time in the moment.",
+  "matiz_experto": "It is the most fragile point of his system: by introducing a criterion of quality he seems to need a standard of value external to pleasure, which would break the unity of the principle of utility. Moore also accused him of the naturalistic fallacy for moving from the desired to the desirable.",
+  "visualizacion": {
+    "id": "vis-placeres-mill",
+    "idea_id": "placeres-superiores",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user divides time between activities and sees two simultaneous curves: immediate satisfaction and satisfaction remembered a week later. They can consult virtual judges who have tried both and see what they choose. On trying to let a judge decide who knows only one of the two options, the interface discards their vote and explains why they are in no position to compare.",
+    "invitacion": "Move the line between what tempts and what lasts",
+    "alternativa_textual": "A movable boundary between what appeals now and what leaves something afterwards, reclassifying every activity at once as it moves: it shows that Mill’s criterion separates quality from quantity and cannot be drawn à la carte.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "eje",
+    "parametros": {
+      "corrienteId": "utilitarismo",
+      "escenarios": [
+        {
+          "nombre": "A free afternoon",
+          "extremoBajo": "appeals right now",
+          "extremoAlto": "leaves something after",
+          "casos": [
+            {
+              "texto": "Endless scrolling",
+              "posicion": 0.1
+            },
+            {
+              "texto": "A series you have already seen",
+              "posicion": 0.26
+            },
+            {
+              "texto": "Cooking unhurriedly",
+              "posicion": 0.5
+            },
+            {
+              "texto": "A difficult book",
+              "posicion": 0.72
+            },
+            {
+              "texto": "Learning an instrument",
+              "posicion": 0.88
+            }
+          ],
+          "acierto": "The easy thing wins minute by minute and leaves a worse taste; the demanding one costs and leaves something."
+        },
+        {
+          "nombre": "A whole life",
+          "extremoBajo": "constant satisfaction",
+          "extremoAlto": "lasting cultivation",
+          "casos": [
+            {
+              "texto": "Comfort without upsets",
+              "posicion": 0.16
+            },
+            {
+              "texto": "Easy company",
+              "posicion": 0.34
+            },
+            {
+              "texto": "A craft that demands",
+              "posicion": 0.62
+            },
+            {
+              "texto": "Friends who argue with you",
+              "posicion": 0.82
+            }
+          ],
+          "acierto": "Almost nobody who has tried both would trade all their books for more hours of scrolling."
+        }
+      ],
+      "ladoBajo": "pleasure of quantity",
+      "ladoAlto": "pleasure of quality",
+      "resolucion": "Mill does not impose the criterion from above: it is settled by whoever knows both. Someone who knows only one side is in no position to compare.",
+      "alternativaTexto": "A movable boundary between what appeals now and what leaves something afterwards, reclassifying every activity at once as it moves: it shows that Mill’s criterion separates quality from quantity and cannot be drawn à la carte.",
+      "etiqueta": "Higher pleasures",
+      "etiquetaTirador": "Where you place the boundary"
+    }
+  },
+  "ideas_relacionadas": [
+    "calculo-de-la-felicidad",
+    "limite-del-placer",
+    "termino-medio",
+    "aceptacion-y-cambio"
+  ]
+}

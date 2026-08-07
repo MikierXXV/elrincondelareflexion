@@ -1,0 +1,37 @@
+{
+  "id": "schopenhauer",
+  "nombre": "Arthur Schopenhauer",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1788–1860",
+  "region": "Danzig, Fráncfort",
+  "preguntas_filosoficas": [
+    "¿Qué hay detrás de la apariencia del mundo?",
+    "¿Nos mueve la razón o algo anterior a ella?"
+  ],
+  "citas": [
+    {
+      "texto": "La vida oscila como un péndulo entre el dolor y el hastío.",
+      "obra": "El mundo como voluntad y representación, §57",
+      "atribucion": "tradicional",
+      "nota": "Condensación muy difundida de un pasaje más extenso; no es una frase literal del texto."
+    }
+  ],
+  "nivel_1_resumen": "Contra la idea de una historia racional en marcha, sostuvo que el fondo de la realidad es un impulso ciego —la voluntad— que nunca se sacia, y que por eso el deseo produce más insatisfacción que felicidad.",
+  "nivel_2_desarrollo": "Schopenhauer parte de Kant y le añade una vuelta de tuerca: creía saber qué es la cosa en sí. Lo descubrimos, dice, en nosotros mismos, porque nos conocemos por dentro no como representación sino como querer. Ese mismo impulso, sin fin ni propósito, sería el fondo de todo lo que existe. De ahí su pesimismo: querer implica carencia, satisfacer un deseo abre el siguiente, y el intervalo entre ambos suele ser aburrimiento. Hay, sin embargo, formas de suspensión temporal: la contemplación estética, donde por un momento se mira sin querer nada —y sitúa la música por encima de las demás artes, porque no representa el mundo sino que expresa directamente ese impulso—, y la compasión, en la que el límite entre yo y otro se debilita. Fue de los primeros filósofos europeos en dialogar seriamente con el budismo y el pensamiento indio.",
+  "nivel_3_experto": "Su sistema arrastra una dificultad reconocida: si la cosa en sí es incognoscible e independiente del principio de individuación, identificarla con la voluntad supone aplicarle una categoría tomada de la autoconciencia, problema que él intenta paliar diciendo que se trata solo de la manifestación más inmediata. Su recepción actual insiste en distinguir su pesimismo filosófico, con argumentos sobre la estructura del deseo y el balance del sufrimiento, del temperamento personal con que suele despacharse. Su relación con las fuentes orientales es motivo de estudio y de cautela: leía traducciones del siglo XIX —el Oupnek'hat, versión latina de una traducción persa de los Upanishads— y su lectura del budismo está mediada por ese filtro, de modo que las convergencias que él celebra deben tratarse como reelaboración, no como transmisión fiel. Su influencia es desproporcionada respecto a su reconocimiento académico en vida: Nietzsche parte de él y se define contra él; Freud reconoció en la voluntad un anticipo del inconsciente pulsional; Wittgenstein, Wagner, Tolstói, Borges y Beckett lo leyeron con atención. Su teoría de la compasión como base de la moral es hoy una alternativa discutida frente al kantismo y al utilitarismo.",
+  "debate_abierto": "La legitimidad de identificar la cosa en sí kantiana con la voluntad es su punto más criticado; también se discute el grado de fidelidad de su interpretación del budismo y el vedanta.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Arthur Schopenhauer",
+      "url": "https://plato.stanford.edu/entries/schopenhauer/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Arthur Schopenhauer",
+      "url": "https://iep.utm.edu/schopenh/"
+    },
+    {
+      "titulo": "App, Schopenhauer's Compass (sobre sus fuentes orientales)",
+      "url": null
+    }
+  ]
+}

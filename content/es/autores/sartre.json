@@ -1,0 +1,37 @@
+{
+  "id": "sartre",
+  "nombre": "Jean-Paul Sartre",
+  "corriente_id": "existencialismo",
+  "periodo": "1905–1980",
+  "region": "París",
+  "preguntas_filosoficas": [
+    "¿Tenemos una naturaleza dada o nos hacemos?",
+    "¿Hasta dónde llega nuestra responsabilidad?"
+  ],
+  "citas": [
+    {
+      "texto": "El infierno son los otros.",
+      "obra": "A puerta cerrada, 1944",
+      "atribucion": "directa",
+      "nota": "Él mismo aclaró que no significa que la convivencia sea un infierno, sino que lo es depender de la mirada ajena para saber quién se es."
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que no venimos con un manual de instrucciones: primero existimos y luego, con lo que hacemos, definimos lo que somos. Por eso somos responsables incluso de no elegir.",
+  "nivel_2_desarrollo": "La fórmula 'la existencia precede a la esencia' se entiende comparando con un objeto fabricado: un cuchillo existe porque alguien tenía antes su función en la cabeza. Con las personas, dice Sartre, ocurre al revés, y de ahí se sigue que estamos 'condenados a ser libres': no podemos no elegir, porque incluso abstenerse es una elección. Esa libertad viene con angustia, porque nadie garantiza que la decisión sea correcta, y con desamparo, porque no hay instancia superior que la avale. Llama mala fe al mecanismo con que huimos de todo eso, cuando fingimos que nuestro papel, nuestro carácter o las circunstancias nos obligaban. Añade una dimensión social incómoda: bajo la mirada del otro me convierto en objeto de su interpretación, y ahí sitúa buena parte del conflicto entre personas.",
+  "nivel_3_experto": "El aparato técnico de El ser y la nada procede de Husserl y Heidegger y opone el en-sí, macizo y pleno, al para-sí, que existe como falta y como negación; esa ontología dualista y la tesis de una libertad casi ilimitada —hasta afirmar que nunca fuimos tan libres como bajo la ocupación— recibieron críticas contundentes, incluida la de Heidegger, que rechazó la etiqueta existencialista y la lectura humanista de su propia obra. Merleau-Ponty objetó que una libertad sin grados ignora la inercia del cuerpo y de la situación, y Simone de Beauvoir desarrolló, en El segundo sexo y en su ética de la ambigüedad, un análisis mucho más fino de cómo la opresión limita el campo real de elección; buena parte de la crítica actual considera esa aportación conceptualmente autónoma y no derivada de Sartre. Su propia trayectoria posterior, en la Crítica de la razón dialéctica, intenta reconciliar libertad individual y determinaciones materiales tras su acercamiento al marxismo, y su valoración política —sus posiciones sobre la URSS, su compromiso anticolonial en Argelia, su rechazo del Nobel— sigue siendo objeto de juicios encontrados.",
+  "debate_abierto": "El alcance real de la libertad sartreana frente a las condiciones materiales, y la reevaluación del papel filosófico propio de Beauvoir, son discusiones vigentes.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Jean-Paul Sartre",
+      "url": "https://plato.stanford.edu/entries/sartre/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Existentialism",
+      "url": "https://plato.stanford.edu/entries/existentialism/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Jean-Paul Sartre",
+      "url": "https://iep.utm.edu/sartre-ex/"
+    }
+  ]
+}

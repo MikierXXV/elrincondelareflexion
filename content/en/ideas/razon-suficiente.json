@@ -1,0 +1,95 @@
+{
+  "id": "razon-suficiente",
+  "corriente_id": "racionalismo",
+  "titulo": "Sufficient reason and possible worlds",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "leibniz",
+      "rol": "principal",
+      "aporte": "Holds that nothing happens without a reason, and that evils cannot be removed one at a time."
+    }
+  ],
+  "pregunta": "Why is there something rather than nothing, and why precisely this?",
+  "cita": {
+    "texto": "Why is there something rather than nothing?",
+    "obra": "Principles of Nature and Grace, 7",
+    "autor_id": "leibniz",
+    "atribucion": "directa"
+  },
+  "resumen": "If nothing happens without a reason that explains it, then why this world exists and not another must be explained too. Leibniz answers that goods and evils are interwoven and not chosen separately.",
+  "desarrollo": "The principle of sufficient reason says that for everything there is a why, even if we do not know it. Applied to the whole, it forces the widest possible question, and Leibniz's answer is that this world was chosen among infinitely many complete alternatives as the one that maximises overall perfection. The part usually caricatured is the conclusion — the best of all possible worlds — and the part almost never quoted is the argument: the elements of a world are not independent. You cannot remove a particular evil and leave the rest unchanged, because each thing is linked to others, and suppressing it drags consequences along. Whole packages are chosen, not pieces. Out of that machinery of possible worlds, much mocked in its day, came a tool that twentieth-century logic adopted as standard.",
+  "ejemplo_real": "Anyone who has redesigned something that worked knows the feeling: you remove the part that was in the way and three problems appear that you had not foreseen, because that part was holding up things you did not know it was holding up. The same happens when you try to redo an episode of your life: you cannot keep what you learned and delete what it cost you to learn it.",
+  "matiz_experto": "Voltaire satirised him in Candide, and the theodicy is still criticised for its apparent insensitivity to concrete suffering. Internally the problem is a different one: if in every true proposition the predicate is contained in the subject, it is hard to see where contingency is left.",
+  "visualizacion": {
+    "id": "vis-mundos-leibniz",
+    "idea_id": "razon-suficiente",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "A world is shown as a network of linked elements, one of them a particular evil. The user removes whichever they like and pieces they never touched go with it in a chain: the ties that bound them only become visible once they have already pulled. On the right, the marker for the whole falls below where it started, and the gap left at the top is the world there would be if that evil could have been removed on its own. Putting the piece back brings the whole package with it.",
+    "invitacion": "Remove the one evil and see what goes with it",
+    "alternativa_textual": "A network of linked elements in which removing one particular evil drags unforeseen consequences and makes the whole worse: it shows why a world is chosen entire and not piece by piece.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "centro": "this world",
+      "vinculos": [
+        {
+          "nombre": "a particular evil",
+          "valor": -3,
+          "arrastra": [
+            1,
+            2
+          ],
+          "perdida": "Remove it and goods that depended on that same piece fall with it."
+        },
+        {
+          "nombre": "what made it possible",
+          "valor": 4,
+          "arrastra": [
+            4
+          ],
+          "perdida": "Nothing was loose: the elements came linked."
+        },
+        {
+          "nombre": "what you learned from it",
+          "valor": 5,
+          "perdida": "You cannot keep what you learned and delete what it cost to learn it."
+        },
+        {
+          "nombre": "a good nobody disputes",
+          "valor": 4,
+          "arrastra": [
+            2
+          ],
+          "perdida": "Even what nobody objects to was tied to the rest: it cannot be left intact either."
+        },
+        {
+          "nombre": "its sufficient reason",
+          "valor": 3,
+          "perdida": "With no reason to explain it, there stops being a why for this rather than something else."
+        }
+      ],
+      "perfeccion": {
+        "rotulo": "Overall perfection",
+        "arrastre": "It takes what depended on it.",
+        "suelto": "The whole drops all the same."
+      },
+      "resolucion": "Whole packages are chosen, not pieces. That is the argument behind «the best of all possible worlds» that is almost never quoted.",
+      "alternativaTexto": "A network of linked elements in which removing one particular evil drags unforeseen consequences and makes the whole worse: it shows why a world is chosen entire and not piece by piece.",
+      "restituir": "Restore the relations",
+      "etiqueta": "Sufficient reason and possible worlds",
+      "etiquetaNodo": "Cut the link with {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "el-mal-como-privacion",
+    "razon-y-fe",
+    "el-numero-como-orden",
+    "velo-de-la-ignorancia"
+  ]
+}

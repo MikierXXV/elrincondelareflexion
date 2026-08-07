@@ -1,0 +1,462 @@
+{
+  "$schema": "../schema/corrientes.schema.json",
+  "idioma": "es",
+  "bloques": [
+    {
+      "id": "occidental",
+      "nombre": "Tradición occidental",
+      "nota_cronologica": "Secuencia continua desde la Grecia arcaica hasta el siglo XX."
+    },
+    {
+      "id": "no-occidental",
+      "nombre": "Otras tradiciones",
+      "nota_cronologica": "Cada tradición tiene su propia cronología interna y sus propias preguntas de partida; no se presentan como derivaciones ni apéndices de la línea europea."
+    },
+    {
+      "id": "psicologia",
+      "nombre": "Psicología del siglo XX",
+      "nota_cronologica": "Corriente científica moderna incluida por su diálogo directo con preguntas filosóficas de fondo: mente, conducta, libre albedrío e identidad."
+    }
+  ],
+  "corrientes": [
+    {
+      "id": "presocraticos",
+      "bloque_id": "occidental",
+      "nombre": "Presocráticos",
+      "periodo": "s. VI–V a.C.",
+      "orden_cronologico": 1,
+      "tradicion": "Grecia arcaica",
+      "region": "Jonia, Magna Grecia",
+      "contexto": "En las ciudades griegas de Asia Menor y del sur de Italia aparece un modo de explicar el mundo que ya no recurre a la voluntad de los dioses, sino a principios impersonales que pueden discutirse y refutarse. Es el momento en que la explicación empieza a exigir razones.",
+      "idea_central": "El mundo tiene un orden inteligible y un principio (arjé) que la razón puede rastrear por debajo de la apariencia cambiante.",
+      "pregunta_guia": "¿De qué está hecha la realidad y por qué cambia?",
+      "color_acento": {
+        "claro": "#A65B29",
+        "oscuro": "#C36B31"
+      },
+      "autores": [
+        "heraclito",
+        "parmenides",
+        "pitagoras"
+      ],
+      "ideas": [
+        "flujo-y-permanencia",
+        "imposibilidad-del-cambio",
+        "el-numero-como-orden"
+      ]
+    },
+    {
+      "id": "clasica-griega",
+      "bloque_id": "occidental",
+      "nombre": "Filosofía clásica griega",
+      "periodo": "s. V–IV a.C.",
+      "orden_cronologico": 2,
+      "tradicion": "Grecia clásica",
+      "region": "Atenas",
+      "contexto": "La Atenas democrática, y luego la Atenas derrotada tras la guerra del Peloponeso, convierte el debate público en un problema filosófico: si cualquiera puede persuadir a la asamblea, ¿qué distingue el saber de la mera opinión hábil?",
+      "idea_central": "La filosofía deja de preguntar solo por la naturaleza y se vuelve hacia el conocimiento, la virtud y la organización de la vida en común.",
+      "pregunta_guia": "¿Qué es saber de verdad y cómo debemos vivir?",
+      "color_acento": {
+        "claro": "#3270BC",
+        "oscuro": "#4884CE"
+      },
+      "autores": [
+        "socrates",
+        "platon",
+        "aristoteles"
+      ],
+      "ideas": [
+        "saber-que-no-se-sabe",
+        "mundo-de-las-ideas",
+        "termino-medio",
+        "animal-politico"
+      ]
+    },
+    {
+      "id": "helenismo",
+      "bloque_id": "occidental",
+      "nombre": "Helenismo",
+      "periodo": "s. IV a.C.–s. II d.C.",
+      "orden_cronologico": 3,
+      "tradicion": "Escuelas helenísticas y romanas",
+      "region": "Mediterráneo oriental, Roma",
+      "contexto": "Tras Alejandro Magno, la ciudad-estado deja de ser el marco donde uno decide su destino. La filosofía se reorienta hacia una pregunta práctica y urgente: cómo vivir bien cuando casi nada de lo importante depende de ti.",
+      "idea_central": "La filosofía es sobre todo una terapia: un entrenamiento para alcanzar la serenidad distinguiendo lo que está en nuestro poder de lo que no.",
+      "pregunta_guia": "¿Cómo se vive sin angustia en un mundo que no controlamos?",
+      "color_acento": {
+        "claro": "#277D60",
+        "oscuro": "#2E9271"
+      },
+      "autores": [
+        "epicuro",
+        "epicteto",
+        "marco-aurelio",
+        "pirron"
+      ],
+      "ideas": [
+        "dicotomia-del-control",
+        "limite-del-placer",
+        "suspension-del-juicio",
+        "vista-desde-arriba"
+      ]
+    },
+    {
+      "id": "escolastica",
+      "bloque_id": "occidental",
+      "nombre": "Patrística y escolástica medieval",
+      "periodo": "s. IV–XIII",
+      "orden_cronologico": 4,
+      "tradicion": "Cristianismo latino",
+      "region": "Norte de África, Europa occidental",
+      "contexto": "El pensamiento cristiano hereda el aparato conceptual griego y debe decidir qué hacer con él. La entrada de Aristóteles en las universidades europeas del siglo XIII —vía traducciones árabes y comentaristas islámicos— obliga a rehacer la relación entre fe y razón.",
+      "idea_central": "Fe y razón no son rivales: la razón puede recorrer buena parte del camino por sí sola, y la revelación completa lo que no alcanza.",
+      "pregunta_guia": "¿Hasta dónde llega la razón cuando se pregunta por Dios y por el alma?",
+      "color_acento": {
+        "claro": "#876B24",
+        "oscuro": "#9F7E2A"
+      },
+      "autores": [
+        "agustin",
+        "tomas-de-aquino"
+      ],
+      "ideas": [
+        "el-tiempo-en-el-alma",
+        "el-mal-como-privacion",
+        "razon-y-fe"
+      ]
+    },
+    {
+      "id": "racionalismo",
+      "bloque_id": "occidental",
+      "nombre": "Racionalismo",
+      "periodo": "s. XVII",
+      "orden_cronologico": 5,
+      "tradicion": "Modernidad europea continental",
+      "region": "Francia, Países Bajos, Alemania",
+      "contexto": "La revolución científica desmonta la física heredada y deja al descubierto un vacío: si los sentidos engañan y la autoridad ya no basta, hace falta un método nuevo para saber algo con certeza.",
+      "idea_central": "Hay verdades que la razón alcanza por sí misma, con la seguridad de una demostración matemática, sin depender de la experiencia sensible.",
+      "pregunta_guia": "¿Existe algún punto de partida absolutamente seguro para el conocimiento?",
+      "color_acento": {
+        "claro": "#7C5ACB",
+        "oscuro": "#8F72D2"
+      },
+      "autores": [
+        "descartes",
+        "spinoza",
+        "leibniz"
+      ],
+      "ideas": [
+        "duda-metodica",
+        "problema-mente-cuerpo",
+        "libertad-como-comprension",
+        "razon-suficiente"
+      ]
+    },
+    {
+      "id": "empirismo",
+      "bloque_id": "occidental",
+      "nombre": "Empirismo británico",
+      "periodo": "s. XVII–XVIII",
+      "orden_cronologico": 6,
+      "tradicion": "Modernidad europea insular",
+      "region": "Inglaterra, Irlanda, Escocia",
+      "contexto": "Frente a la confianza continental en la razón pura, en las islas británicas se impone una sospecha metódica: cada idea debe poder rastrearse hasta la experiencia que la originó, y lo que no supere esa prueba queda bajo sospecha.",
+      "idea_central": "Todo el material del pensamiento procede de la experiencia; nada hay en la mente que no haya pasado antes por los sentidos.",
+      "pregunta_guia": "¿Cuánto de lo que creemos saber resiste el examen de la experiencia?",
+      "color_acento": {
+        "claro": "#277791",
+        "oscuro": "#2E8CAC"
+      },
+      "autores": [
+        "locke",
+        "berkeley",
+        "hume"
+      ],
+      "ideas": [
+        "tabula-rasa",
+        "identidad-personal",
+        "ser-es-ser-percibido",
+        "causalidad-como-habito",
+        "ley-de-hume"
+      ]
+    },
+    {
+      "id": "ilustracion-idealismo",
+      "bloque_id": "occidental",
+      "nombre": "Ilustración e idealismo alemán",
+      "periodo": "s. XVIII–XIX",
+      "orden_cronologico": 7,
+      "tradicion": "Modernidad tardía europea",
+      "region": "Francia, Prusia, Suiza",
+      "contexto": "La confianza ilustrada en la razón convive con dos golpes: la constatación de que el conocimiento tiene límites estructurales y la sospecha de que la civilización no ha hecho mejores a los seres humanos. De ahí sale tanto el sistema kantiano como sus críticos.",
+      "idea_central": "La mente no copia el mundo: lo organiza. A partir de ahí, la libertad, la historia y la voluntad se convierten en los grandes problemas filosóficos.",
+      "pregunta_guia": "¿Qué podemos conocer, qué debemos hacer y qué mueve realmente al ser humano?",
+      "color_acento": {
+        "claro": "#C93C2F",
+        "oscuro": "#D65B50"
+      },
+      "autores": [
+        "rousseau",
+        "kant",
+        "hegel",
+        "schopenhauer"
+      ],
+      "ideas": [
+        "contrato-y-voluntad-general",
+        "condiciones-a-priori",
+        "imperativo-categorico",
+        "dialectica-del-reconocimiento",
+        "voluntad-y-pesimismo"
+      ]
+    },
+    {
+      "id": "utilitarismo",
+      "bloque_id": "occidental",
+      "nombre": "Utilitarismo",
+      "periodo": "s. XVIII–XIX",
+      "orden_cronologico": 8,
+      "tradicion": "Reformismo británico",
+      "region": "Inglaterra",
+      "contexto": "En plena industrialización, con un sistema penal brutal y leyes heredadas sin más justificación que la costumbre, un grupo de reformadores busca un criterio único y verificable para decidir si una ley o una institución merece existir.",
+      "idea_central": "Una acción o una ley es correcta en la medida en que produce el mayor bienestar para el mayor número de afectados, contando a cada uno por uno.",
+      "pregunta_guia": "¿Se pueden sumar los bienes y los males de todos para decidir qué hacer?",
+      "color_acento": {
+        "claro": "#5F7726",
+        "oscuro": "#708D2C"
+      },
+      "autores": [
+        "bentham",
+        "mill"
+      ],
+      "ideas": [
+        "calculo-de-la-felicidad",
+        "placeres-superiores",
+        "principio-del-dano"
+      ]
+    },
+    {
+      "id": "marxismo",
+      "bloque_id": "occidental",
+      "nombre": "Marxismo",
+      "periodo": "s. XIX",
+      "orden_cronologico": 9,
+      "tradicion": "Hegelianismo de izquierda y economía política",
+      "region": "Alemania, Reino Unido",
+      "contexto": "La industrialización produce a la vez una riqueza sin precedentes y una miseria concentrada en las ciudades fabriles. El problema deja de ser cómo pensar el mundo y pasa a ser por qué el mundo produce, sistemáticamente, ese resultado.",
+      "idea_central": "Las ideas, las instituciones y la conciencia de una época no flotan libres: se explican por la forma en que esa sociedad organiza la producción de su vida material.",
+      "pregunta_guia": "¿Pensamos lo que pensamos, o lo piensa por nosotros el lugar que ocupamos?",
+      "color_acento": {
+        "claro": "#BD3F7E",
+        "oscuro": "#C95D93"
+      },
+      "autores": [
+        "marx"
+      ],
+      "ideas": [
+        "alienacion",
+        "ideologia",
+        "materialismo-historico"
+      ]
+    },
+    {
+      "id": "existencialismo",
+      "bloque_id": "occidental",
+      "nombre": "Existencialismo y vitalismo",
+      "periodo": "s. XIX–XX",
+      "orden_cronologico": 10,
+      "tradicion": "Contemporánea continental",
+      "region": "Dinamarca, Alemania, Francia",
+      "contexto": "Con el descrédito de los grandes sistemas y la crisis de las certezas religiosas, la filosofía se desplaza al individuo concreto: alguien que tiene que decidir sin garantías y que carga con las consecuencias.",
+      "idea_central": "La existencia concreta precede a cualquier definición de lo que somos: nadie nos entrega hecho el sentido de nuestra vida.",
+      "pregunta_guia": "Si no hay un sentido dado de antemano, ¿qué hacemos con nuestra libertad?",
+      "color_acento": {
+        "claro": "#AD40B5",
+        "oscuro": "#BE5AC5"
+      },
+      "autores": [
+        "kierkegaard",
+        "nietzsche",
+        "sartre"
+      ],
+      "ideas": [
+        "angustia-y-libertad",
+        "genealogia-de-la-moral",
+        "eterno-retorno",
+        "mala-fe"
+      ]
+    },
+    {
+      "id": "analitica",
+      "bloque_id": "occidental",
+      "nombre": "Filosofía analítica",
+      "periodo": "s. XX",
+      "orden_cronologico": 11,
+      "tradicion": "Contemporánea anglosajona",
+      "region": "Reino Unido, Austria",
+      "contexto": "Los avances en lógica formal a comienzos del siglo XX ofrecen una herramienta nueva y muy afilada. Con ella, varios filósofos sospechan que buena parte de los problemas heredados no son problemas reales, sino efectos ópticos del lenguaje.",
+      "idea_central": "Antes de responder a una pregunta filosófica hay que examinar el lenguaje en que está formulada: muchas veces el enredo estaba ahí.",
+      "pregunta_guia": "¿Cuántos problemas filosóficos son en realidad problemas de lenguaje?",
+      "color_acento": {
+        "claro": "#5A69B8",
+        "oscuro": "#727EC2"
+      },
+      "autores": [
+        "russell",
+        "wittgenstein"
+      ],
+      "ideas": [
+        "hablar-de-lo-que-no-existe",
+        "limites-del-lenguaje",
+        "significado-como-uso"
+      ]
+    },
+    {
+      "id": "etica-politica-contemporanea",
+      "bloque_id": "occidental",
+      "nombre": "Ética y filosofía política contemporánea",
+      "periodo": "s. XX",
+      "orden_cronologico": 12,
+      "tradicion": "Contemporánea",
+      "region": "Estados Unidos, Alemania",
+      "contexto": "Después de los totalitarismos y de dos guerras mundiales, pensar la justicia y el mal deja de ser un ejercicio abstracto. La pregunta ya no es solo qué sociedad sería ideal, sino cómo fue posible lo que ocurrió.",
+      "idea_central": "La justicia y la responsabilidad política tienen que reconstruirse sabiendo de lo que las sociedades modernas son capaces.",
+      "pregunta_guia": "¿Qué hace justa a una sociedad y qué convierte a personas corrientes en cómplices?",
+      "color_acento": {
+        "claro": "#2C7D4E",
+        "oscuro": "#34945C"
+      },
+      "autores": [
+        "rawls",
+        "arendt"
+      ],
+      "ideas": [
+        "velo-de-la-ignorancia",
+        "principio-de-diferencia",
+        "banalidad-del-mal"
+      ]
+    },
+    {
+      "id": "filosofia-china",
+      "bloque_id": "no-occidental",
+      "nombre": "Filosofía china clásica",
+      "periodo": "s. VI–III a.C.",
+      "orden_cronologico": 13,
+      "cronologia_paralela_a": [
+        "presocraticos",
+        "clasica-griega",
+        "helenismo"
+      ],
+      "tradicion": "China preimperial",
+      "region": "Llanura central china",
+      "contexto": "Durante los siglos de guerra entre reinos que preceden a la unificación imperial, distintas escuelas compiten por responder a una misma urgencia práctica: cómo restaurar el orden. De ahí surge lo que la tradición llamó las 'cien escuelas de pensamiento'.",
+      "idea_central": "El orden del mundo y el orden de la conducta son el mismo problema, y se resuelve cultivando la persona, no solo legislando.",
+      "pregunta_guia": "¿Cómo se restaura la armonía: puliendo la conducta o dejando de forzarla?",
+      "color_acento": {
+        "claro": "#C63C53",
+        "oscuro": "#D05D70"
+      },
+      "autores": [
+        "confucio",
+        "laozi",
+        "zhuangzi"
+      ],
+      "ideas": [
+        "ren-y-li",
+        "wu-wei",
+        "relatividad-de-las-perspectivas"
+      ]
+    },
+    {
+      "id": "filosofia-india",
+      "bloque_id": "no-occidental",
+      "nombre": "Filosofía india",
+      "periodo": "s. VIII a.C.–s. II d.C.",
+      "orden_cronologico": 14,
+      "cronologia_paralela_a": [
+        "presocraticos",
+        "clasica-griega",
+        "helenismo"
+      ],
+      "tradicion": "Tradiciones védicas y budistas",
+      "region": "Subcontinente indio",
+      "contexto": "Las especulaciones de los Upanishads y la ruptura budista comparten un diagnóstico: la existencia ordinaria es insatisfactoria y está sostenida por una comprensión errónea de uno mismo. Discrepan radicalmente en qué hay al fondo.",
+      "idea_central": "El sufrimiento nace de una identificación equivocada con lo que creemos ser; liberarse consiste en ver eso con claridad.",
+      "pregunta_guia": "¿Hay un 'yo' real detrás de la experiencia, o es la propia pregunta la que está mal planteada?",
+      "color_acento": {
+        "claro": "#72721E",
+        "oscuro": "#878724"
+      },
+      "autores": [
+        "upanishads-vedanta",
+        "buda",
+        "nagarjuna"
+      ],
+      "ideas": [
+        "atman-y-brahman",
+        "las-cuatro-verdades",
+        "anatman",
+        "vacuidad"
+      ]
+    },
+    {
+      "id": "filosofia-islamica",
+      "bloque_id": "no-occidental",
+      "nombre": "Filosofía islámica medieval",
+      "periodo": "s. X–XII",
+      "orden_cronologico": 15,
+      "cronologia_paralela_a": [
+        "escolastica"
+      ],
+      "tradicion": "Falsafa y kalam",
+      "region": "Persia, Al-Ándalus, Magreb",
+      "contexto": "El mundo islámico traduce, comenta y discute el corpus griego mucho antes que la Europa latina, y le devuelve a esta un Aristóteles ya trabajado durante siglos. En su interior se libra un debate de primer orden sobre los límites de la razón demostrativa.",
+      "idea_central": "La razón filosófica y la revelación buscan la misma verdad, pero cuánto puede demostrar realmente la razón es objeto de una disputa abierta y feroz.",
+      "pregunta_guia": "¿Puede la filosofía demostrar lo que la religión afirma, o se extralimita al intentarlo?",
+      "color_acento": {
+        "claro": "#247B78",
+        "oscuro": "#2A918D"
+      },
+      "autores": [
+        "avicena",
+        "al-ghazali",
+        "averroes"
+      ],
+      "ideas": [
+        "esencia-y-existencia",
+        "critica-de-la-causalidad",
+        "dos-niveles-de-lectura"
+      ]
+    },
+    {
+      "id": "psicologia-siglo-xx",
+      "bloque_id": "psicologia",
+      "nombre": "Psicología del siglo XX",
+      "periodo": "s. XX",
+      "orden_cronologico": 16,
+      "tradicion": "Ciencia moderna de la mente y la conducta",
+      "region": "Europa central, Estados Unidos",
+      "contexto": "Al independizarse de la filosofía como disciplina empírica, la psicología no abandona sus preguntas: las reformula en términos de método, medida y clínica. El resultado son cuatro programas que discrepan sobre qué es una persona.",
+      "idea_central": "Buena parte de lo que somos no es transparente para nosotros mismos, y cada escuela sitúa esa opacidad en un lugar distinto: el inconsciente, la historia de refuerzos, lo simbólico colectivo o el sentido aún no realizado.",
+      "pregunta_guia": "¿Somos dueños de nuestra conducta, y quién es el 'yo' que se supone que decide?",
+      "color_acento": {
+        "claro": "#9253BC",
+        "oscuro": "#A26CC6"
+      },
+      "autores": [
+        "freud",
+        "jung",
+        "skinner",
+        "maslow",
+        "rogers",
+        "frankl"
+      ],
+      "ideas": [
+        "lo-inconsciente",
+        "la-sombra",
+        "condicionamiento-operante",
+        "aceptacion-y-cambio",
+        "voluntad-de-sentido"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "kierkegaard",
+  "nombre": "Søren Kierkegaard",
+  "corriente_id": "existencialismo",
+  "periodo": "1813–1855",
+  "region": "Copenhague",
+  "preguntas_filosoficas": [
+    "¿Puede un sistema abstracto decirme cómo vivir mi vida?",
+    "¿Qué es la angustia y de qué informa?"
+  ],
+  "citas": [
+    {
+      "texto": "La vida solo se comprende mirando atrás, pero ha de vivirse hacia adelante.",
+      "obra": "Diarios, 1843",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Reprochó a la filosofía haberse olvidado del individuo concreto que tiene que decidir, y describió la angustia no como enfermedad sino como el vértigo de saberse libre.",
+  "nivel_2_desarrollo": "Kierkegaard escribió contra los grandes sistemas —Hegel en particular— con un argumento sencillo: por muy completo que sea un sistema, yo sigo teniendo que elegir, y esa elección no la hace nadie por mí. Describe tres modos de vivir: el estético, entregado al instante y a la variedad, que acaba en hastío; el ético, que asume compromisos y deberes; y el religioso, que exige un salto que la razón no puede garantizar. Su análisis de la angustia es su aportación psicológica más citada: no es miedo a algo determinado, sino el mareo que produce advertir que somos capaces de cualquier cosa, que nada nos obliga. Y la desesperación, para él, no es un ataque puntual sino el estado de quien no consigue ser sí mismo. Publicó gran parte de su obra bajo seudónimos que defienden posiciones distintas, para que el lector no pudiera limitarse a acatar una doctrina.",
+  "nivel_3_experto": "La estrategia de la comunicación indirecta —seudónimos con voces autónomas como Johannes de Silentio, Vigilius Haufniensis o Anti-Climacus— es constitutiva, no decorativa, y cualquier interpretación debe decidir qué atribuir al autor; él mismo pidió expresamente que no se le citara como responsable de esas voces. Su lectura del sacrificio de Isaac en Temor y temblor plantea la 'suspensión teleológica de lo ético', la posibilidad de un deber absoluto que quede por encima de lo ético universal, y es el foco de la objeción más grave contra él: el peligro de un irracionalismo que legitime cualquier convicción individual, discusión que Levinas y Derrida han retomado desde ángulos distintos. Su relación con Hegel también se ha matizado: parte de la crítica actual sostiene que su blanco era más el hegelianismo danés de su tiempo que el propio Hegel. Su influencia se bifurca: hacia la teología dialéctica (Barth), hacia el existencialismo ateo de Sartre —que toma la estructura de la elección y prescinde de la fe— y hacia la fenomenología de Heidegger, cuyos análisis de la angustia y la cotidianidad le deben más de lo que reconoció.",
+  "debate_abierto": "Cómo evitar que la 'suspensión teleológica de lo ético' derive en irracionalismo, y qué peso dar a los seudónimos, siguen siendo problemas interpretativos centrales.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Søren Kierkegaard",
+      "url": "https://plato.stanford.edu/entries/kierkegaard/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Søren Kierkegaard",
+      "url": "https://iep.utm.edu/kierkega/"
+    },
+    {
+      "titulo": "Hannay & Marino (eds.), The Cambridge Companion to Kierkegaard",
+      "url": null
+    }
+  ]
+}

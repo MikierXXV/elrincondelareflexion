@@ -1,0 +1,36 @@
+{
+  "id": "leibniz",
+  "nombre": "Gottfried Wilhelm Leibniz",
+  "corriente_id": "racionalismo",
+  "periodo": "1646–1716",
+  "region": "Leipzig, Hanover, Paris",
+  "preguntas_filosoficas": [
+    "Why does anything exist rather than nothing?",
+    "Can a world with so much evil be the best possible one?"
+  ],
+  "citas": [
+    {
+      "texto": "Why is there something rather than nothing?",
+      "obra": "Principles of Nature and Grace, 7",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He held that nothing happens without a reason explaining it, and that this world, with all its evils, is the best of those God could create as a whole.",
+  "nivel_2_desarrollo": "Leibniz rests his system on two principles: nothing is both true and false, and nothing happens without a sufficient reason. From the second he draws his most famous question — why is there something rather than nothing — and his metaphysical answer: ultimate reality is composed of monads, simple partless units each of which mirrors the whole universe from its own point of view. Since they do not interact, their coordination is explained by a pre-established harmony, like clocks synchronised from the start. His most disputed thesis is that of the best of all possible worlds: God evaluated infinitely many combinations and, since goods and evils are interwoven, chose the one that maximises overall perfection. He is not saying there is no evil, but that there is no complete alternative that is better. He was also co-discoverer of the infinitesimal calculus and a forerunner of formal logic.",
+  "nivel_3_experto": "Leibniz published little in his lifetime and his thought is reconstructed from an enormous mass of manuscripts and correspondence still under critical edition, so the picture of the system has changed several times: twentieth-century readings, with Couturat and then Russell, stressed the logical root of the system — the thesis that in every true proposition the predicate is contained in the subject — from which would follow the theory of the complete notion of each individual substance, with the attendant problem of whether that makes all its properties necessary and leaves no room for contingency. His distinction between absolute necessity and 'moral' or hypothetical necessity is the proposed way out, and its sufficiency is still debated. The theodicy was satirised by Voltaire in Candide and criticised for its apparent insensitivity to concrete suffering, but the conceptual machinery of possible worlds he introduced became, by way of Kripke and modal logic, a standard tool of contemporary analytic philosophy. His correspondence with Clarke also fixes the classic debate over whether space is absolute (Newton) or relational (Leibniz), a discussion later physics reactivated.",
+  "debate_abierto": "How Leibniz rescues contingency within his theory of the complete notion is a central and unresolved interpretive problem.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Gottfried Wilhelm Leibniz",
+      "url": "https://plato.stanford.edu/entries/leibniz/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Leibniz on the Problem of Evil",
+      "url": "https://plato.stanford.edu/entries/leibniz-evil/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Gottfried Leibniz",
+      "url": "https://iep.utm.edu/leib-met/"
+    }
+  ]
+}

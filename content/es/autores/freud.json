@@ -1,0 +1,37 @@
+{
+  "id": "freud",
+  "nombre": "Sigmund Freud",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1856–1939",
+  "region": "Viena, Londres",
+  "preguntas_filosoficas": [
+    "¿Somos transparentes para nosotros mismos?",
+    "¿Qué queda del libre albedrío si nuestras razones no son las verdaderas?"
+  ],
+  "dialogo_filosofico": "Ataca directamente el supuesto cartesiano de una mente transparente a sí misma y reabre, en clave clínica, el problema del autoconocimiento y de la responsabilidad por lo que uno no sabe de sí.",
+  "citas": [
+    {
+      "texto": "El yo no es dueño en su propia casa.",
+      "obra": "Lecciones de introducción al psicoanálisis, 1917",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que buena parte de lo que nos mueve no es accesible a la conciencia, y que los motivos que damos para explicar nuestra conducta suelen llegar después de la decisión.",
+  "nivel_2_desarrollo": "A partir de su práctica clínica, Freud llegó a la conclusión de que existen contenidos activos que la conciencia no puede alcanzar directamente y que se manifiestan de forma indirecta: en los sueños, en los lapsus, en los síntomas. La represión sería el mecanismo que los mantiene fuera, con un coste. Para explicar el conflicto interior propuso un modelo de tres instancias: el ello, sede del impulso; el superyó, que interioriza las prohibiciones; y el yo, que negocia entre ambos y con la realidad. Su método terapéutico, la asociación libre, busca precisamente eludir el control consciente del discurso. Y planteó una tesis cultural incómoda: la civilización exige renunciar a satisfacciones inmediatas, de modo que un cierto malestar no es un fallo del sistema, sino su precio.",
+  "nivel_3_experto": "El estatuto científico del psicoanálisis es objeto de una impugnación sostenida: Popper lo consideró irrefutable y por tanto no científico, Grünbaum lo criticó desde dentro cuestionando el valor probatorio del material clínico, y las revisiones históricas de Borch-Jacobsen, Crews y otros han documentado problemas serios en los historiales fundacionales y en las tasas de éxito reportadas. Del lado contrario, hay líneas de trabajo empírico que reivindican versiones acotadas de sus tesis —el procesamiento no consciente está sólidamente establecido en psicología cognitiva, aunque el 'inconsciente cognitivo' no coincide con el inconsciente dinámico freudiano—, y el neuropsicoanálisis de Solms intenta un puente explícito. Filosóficamente, Ricoeur lo integró en una 'hermenéutica de la sospecha' junto a Marx y Nietzsche, leyéndolo como interpretación del sentido más que como ciencia natural, mientras Habermas lo situó entre las ciencias reconstructivas. Sus tesis sobre la sexualidad femenina y el abandono de la teoría de la seducción han sido objeto de crítica feminista e historiográfica de primer orden. Su impacto cultural es indiscutible incluso donde su aparato teórico se rechaza.",
+  "debate_abierto": "El estatuto científico del psicoanálisis y la fiabilidad de los casos fundacionales están seriamente cuestionados; la existencia de procesamiento no consciente, en cambio, está bien establecida en términos distintos a los suyos.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Sigmund Freud",
+      "url": "https://plato.stanford.edu/entries/freud/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Sigmund Freud",
+      "url": "https://iep.utm.edu/freud/"
+    },
+    {
+      "titulo": "Grünbaum, The Foundations of Psychoanalysis: A Philosophical Critique",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "la-sombra",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "La sombra",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "jung",
+      "rol": "principal",
+      "aporte": "Nombra la parte de uno mismo que se rechaza y que acaba viéndose proyectada en los demás."
+    },
+    {
+      "id": "freud",
+      "rol": "contrapunto",
+      "aporte": "Su lectura del impulso en clave sexual es lo que Jung considera demasiado estrecho, y motivó la ruptura."
+    }
+  ],
+  "pregunta": "¿Qué dice de ti aquello que más te irrita de los demás?",
+  "cita": {
+    "texto": "Hasta que lo inconsciente no se haga consciente, dirigirá tu vida y lo llamarás destino.",
+    "obra": "Atribución muy difundida, sin pasaje localizado",
+    "autor_id": "jung",
+    "atribucion": "dudosa",
+    "nota": "Circula masivamente como cita de Jung, pero no se ha localizado con esta formulación en su obra. Recoge una idea suya; la frase, probablemente, no lo es."
+  },
+  "resumen": "Lo que rechazamos de nosotros mismos no desaparece: se acumula fuera de la vista y tiende a aparecer proyectado sobre los demás, en forma de aquello que más nos irrita de ellos.",
+  "desarrollo": "Jung rompió con Freud sobre todo por la interpretación del impulso: no aceptaba reducirlo todo a lo sexual y entendía la energía psíquica de forma más amplia. Su hipótesis central es que, además de nuestra biografía, hay una capa compartida por toda la especie, hecha de arquetipos, disposiciones a organizar la experiencia en figuras recurrentes. La sombra es la más accesible de todas: la parte de uno que no encaja en la imagen que quiere dar, y que se aparta sin dejar de existir. Su rasgo característico es la proyección: lo apartado tiende a percibirse en los demás y con una intensidad desproporcionada, porque lo que se está combatiendo fuera es algo propio. De ahí su noción de individuación, que consiste en integrar lo apartado en lugar de perfeccionar la fachada.",
+  "ejemplo_real": "Esa persona que te resulta insoportable por algo que, visto de fuera, tampoco es tan grave. Vale la pena mirar si es algo que tú te has prohibido: quien se ha exigido no descansar nunca suele detestar a los que descansan, y quien no se permite pedir suele despreciar a los que piden. La desproporción de la reacción es la pista.",
+  "matiz_experto": "La hipótesis del inconsciente colectivo se considera empíricamente inverificable en su formulación original y la psicología académica la rechaza. Hay además un problema historiográfico serio con sus escritos de los años treinta sobre la 'psicología aria' y su papel en la sociedad psicoterapéutica alemana bajo el nazismo.",
+  "visualizacion": {
+    "id": "vis-sombra-jung",
+    "idea_id": "la-sombra",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Tres personas están ahí desde el principio, con su nombre y nada más. El usuario aparta rasgos de la figura para sostener la imagen que da de sí: cada rasgo apartado engorda un cúmulo pegado a sus pies y, desde ese cúmulo, algo viaja por un hilo hasta una de esas personas y se queda encima de ella como lo que más le molesta de ella. Reintegrar el rasgo —con su botón o tirando del propio cúmulo— retira el reproche y encoge lo acumulado.",
+    "invitacion": "Aparta un rasgo y mira dónde va a parar",
+    "alternativa_textual": "Una figura cuyos rasgos descartados se acumulan en una sombra que después aparece proyectada sobre los demás personajes como aquello que más le molesta de ellos, y que disminuye al reintegrarlos: demuestra el mecanismo de la proyección.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "modo": "proyeccion",
+      "figuraA": "lo que has apartado",
+      "figuraB": "la imagen que das",
+      "coste": "lo proyectado sobre los demás",
+      "proyeccion": {
+        "reintegrar": "reintegrar lo apartado",
+        "otros": [
+          {
+            "nombre": "quien levanta la voz",
+            "molesta": "lo poco que se contiene"
+          },
+          {
+            "nombre": "quien pide ayuda",
+            "molesta": "lo mucho que necesita"
+          },
+          {
+            "nombre": "quien descansa",
+            "molesta": "lo poco que se esfuerza"
+          }
+        ]
+      },
+      "condiciones": [
+        {
+          "nombre": "yo nunca me enfado",
+          "efecto": "Lo descartado no desaparece: empieza a irritarte en los demás.",
+          "peso": 0.34
+        },
+        {
+          "nombre": "yo no necesito a nadie",
+          "efecto": "Cuanto más apartas, más te molesta verlo fuera.",
+          "peso": 0.33
+        },
+        {
+          "nombre": "yo no descanso",
+          "efecto": "La desproporción de tu reacción ante otros es la pista de lo que hay aquí.",
+          "peso": 0.33
+        }
+      ],
+      "resolucion": "Al reintegrar lo apartado, la proyección baja. Lo que más te irrita de los demás suele ser algo que te has prohibido.",
+      "alternativaTexto": "Una figura cuyos rasgos descartados se acumulan en una sombra que después aparece proyectada sobre los demás personajes como aquello que más le molesta de ellos, y que disminuye al reintegrarlos: demuestra el mecanismo de la proyección.",
+      "etiqueta": "La sombra"
+    }
+  },
+  "ideas_relacionadas": [
+    "lo-inconsciente",
+    "dialectica-del-reconocimiento",
+    "aceptacion-y-cambio",
+    "mala-fe"
+  ]
+}

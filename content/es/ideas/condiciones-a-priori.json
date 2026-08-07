@@ -1,0 +1,68 @@
+{
+  "id": "condiciones-a-priori",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "Las condiciones a priori",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "kant",
+      "rol": "principal",
+      "aporte": "Invierte la pregunta: no cómo el conocimiento se ajusta al mundo, sino qué pone la mente para que haya experiencia."
+    }
+  ],
+  "pregunta": "¿Percibimos el mundo tal como es, o tal como podemos percibirlo?",
+  "cita": {
+    "texto": "Sapere aude: ten el valor de servirte de tu propio entendimiento.",
+    "obra": "Respuesta a la pregunta: ¿qué es la Ilustración?",
+    "autor_id": "kant",
+    "atribucion": "directa"
+  },
+  "resumen": "La mente no copia el mundo: lo organiza. El espacio, el tiempo y la causalidad no son cosas que encontremos ahí fuera, sino las condiciones bajo las cuales podemos tener experiencia de algo.",
+  "desarrollo": "Kant se encuentra con un bloqueo: los racionalistas confiaban en una razón que no comprobaba nada, y Hume había mostrado que la experiencia no basta para justificar ni siquiera la causalidad. Su salida es invertir la pregunta. En lugar de preguntar cómo nuestro conocimiento se ajusta a los objetos, examina qué tienen que cumplir los objetos para que podamos conocerlos. Su respuesta es que el espacio y el tiempo no son propiedades que descubramos, sino la forma en que recibimos cualquier dato, y que categorías como la de causa son requisitos que el entendimiento impone para que la experiencia sea coherente en vez de un caos. De ahí se sigue lo decisivo y lo incómodo: conocemos fenómenos, las cosas tal como se nos aparecen bajo esas condiciones, y no las cosas en sí mismas. No es una limitación que podamos superar mirando mejor.",
+  "ejemplo_real": "Nadie puede imaginar un objeto que no esté en ningún sitio ni dure nada. Puedes imaginar un objeto invisible, gigantesco o imposible, pero no uno sin espacio ni tiempo, porque son las condiciones en que tu imaginación funciona. Es como intentar quitarte unas gafas que no están sobre la nariz, sino detrás de los ojos.",
+  "matiz_experto": "La cosa en sí genera la objeción de Jacobi: sin ella no se entra en el sistema, con ella se aplica la causalidad más allá de su ámbito legítimo. Las respuestas van desde la lectura de 'dos mundos' hasta la de 'dos aspectos', hoy mayoritaria pero no unánime.",
+  "visualizacion": {
+    "id": "vis-a-priori-kant",
+    "idea_id": "condiciones-a-priori",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "La idea es que se mira a través de algo, y eso exige que exista un 'a través' real: capas interpuestas entre el observador y la escena, con profundidad efectiva. Retirar una y comprobar que lo que queda no es 'el mundo desnudo' sino algo irrepresentable solo funciona si antes ha habido un volumen que atravesar; en plano, retirar una capa parece simplemente quitar un filtro de color.",
+    "descripcion_interaccion": "Una escena tridimensional se observa a través de tres capas superpuestas: espacio, tiempo y causalidad. El usuario puede examinarlas por separado y retirarlas. Al hacerlo, la escena no muestra una versión más pura, sino que deja de ser representable: se descompone en datos que ya no forman objetos. Reponer la capa devuelve el mundo, no lo ensucia.",
+    "invitacion": "Retira una capa y mira qué queda de la escena",
+    "alternativa_textual": "Una escena que solo puede representarse mientras se observa a través de las capas de espacio, tiempo y causalidad, y que al retirarlas no se muestra más pura sino que deja de formar objetos: demuestra que esas condiciones no deforman la experiencia, la hacen posible.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "Una escena observada a través de tres capas: espacio, tiempo y causalidad",
+      "retirar": "Retirar",
+      "reponer": "Reponer",
+      "inicial": "Miras la escena a través de tres capas. Retira una y comprueba qué queda.",
+      "resolucionFinal": "Ninguna retirada mostró un mundo más puro: cada una hizo que la escena dejara de poder representarse. No deforman la experiencia, la hacen posible.",
+      "resolucionRespaldo": "Retiradas las condiciones de espacio, tiempo y causalidad, la escena no se vuelve más pura: deja de poder representarse.",
+      "alternativaTexto": "Una escena que solo puede representarse mientras se observa a través de las capas de espacio, tiempo y causalidad, y que al retirarlas no se muestra más pura sino que deja de formar objetos: demuestra que esas condiciones no deforman la experiencia, la hacen posible.",
+      "capas": [
+        {
+          "nombre": "espacio",
+          "nota": "Sin espacio los objetos no tienen dónde estar: no aparece un mundo sin lugar, aparece algo que no se deja ordenar."
+        },
+        {
+          "nombre": "tiempo",
+          "nota": "Sin tiempo el movimiento no se compone: cada instante deja de enlazar con el siguiente."
+        },
+        {
+          "nombre": "causalidad",
+          "nota": "Sin causalidad nada responde a nada: los cuerpos se atraviesan y la escena deja de ser una escena."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "tabula-rasa",
+    "mundo-de-las-ideas",
+    "imperativo-categorico",
+    "el-tiempo-en-el-alma"
+  ]
+}

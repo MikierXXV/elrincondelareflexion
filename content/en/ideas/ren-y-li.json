@@ -1,0 +1,77 @@
+{
+  "id": "ren-y-li",
+  "corriente_id": "filosofia-china",
+  "titulo": "Ren and li: cultivating the self",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "confucio",
+      "rol": "principal",
+      "aporte": "Locates the moral life in the cultivation of character within concrete relations, not in following rules."
+    }
+  ],
+  "pregunta": "Do you become a good person from the inside, or by practising on the outside?",
+  "cita": {
+    "texto": "Do not impose on others what you would not desire yourself.",
+    "obra": "Analects XV, 24",
+    "autor_id": "confucio",
+    "atribucion": "directa"
+  },
+  "resumen": "Two linked notions: ren, the human disposition towards others, and li, the forms and rites that give it expression. The forms do not decorate the feeling: they educate it.",
+  "desarrollo": "Confucius lived in an age of war between kingdoms and concluded that public disorder begins in the disorder of personal relations. His answer is not a code of rules but a programme for forming character within concrete bonds: son, brother, friend, ruler. Ren is usually translated as benevolence or humaneness, and li covers rites, courtesies and manners. What is interesting is the relation between them: form is neither hypocrisy nor wrapping, it is the route by which feeling is learned. Practising the right gesture over years gradually shapes the disposition, in the way a trade is learned. Hence his figure of the junzi, the exemplary person, defined by conduct rather than birth — a weighty claim in his context: excellence is cultivated, not inherited.",
+  "ejemplo_real": "Saying good morning to someone you do not feel like talking to. At first it is pure form and you know it. After months of doing it the relationship has genuinely changed, and not because you decided to like that person: the practice came before the feeling and ended up producing it. That is exactly what li maintains.",
+  "matiz_experto": "Translating ren and li is a philosophical problem, not merely a linguistic one: 'benevolence' or 'ritual' drag in Christian or Kantian connotations foreign to the text, and much of sinology prefers to leave them untranslated. The Analects are moreover a stratified compilation assembled over generations.",
+  "visualizacion": {
+    "id": "vis-cultivo-confucio",
+    "idea_id": "ren-y-li",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user repeats the gestures of the chain, which can be cycled through, and a character gauge rises with each one. If they stop practising, the gauge falls by itself, with no button asking for it: the disposition is not lost by a decision but by disuse, and practising again restores it.",
+    "invitacion": "Repeat the gesture and watch the meter",
+    "alternativa_textual": "A network of bonds in which one can only act through repeated gestures and in which character changes by accumulation and reverts when practice stops: it shows that moral disposition is educated through form and not the other way round.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "cadena",
+    "parametros": {
+      "corrienteId": "filosofia-china",
+      "pasos": [
+        {
+          "nombre": "Monday",
+          "aislado": "You say good morning to someone you do not feel like talking to. Pure form, and you know it."
+        },
+        {
+          "nombre": "Week 4",
+          "aislado": "It is still an empty gesture, but it no longer costs you anything."
+        },
+        {
+          "nombre": "Month 3",
+          "aislado": "You ask something beyond the greeting. You did not decide to: it came out."
+        },
+        {
+          "nombre": "Month 8",
+          "aislado": "You care how they are doing. Nobody asked you to."
+        }
+      ],
+      "verConjunto": "Look at the eight months together",
+      "conjunto": "The practice came before the feeling, and ended up producing it.",
+      "resolucion": "Li does not decorate ren: it educates it. Practising the right gesture gradually shapes the disposition, in the way a trade is learned. That is why excellence is cultivated and not inherited.",
+      "alternativaTexto": "A network of bonds in which one can only act through repeated gestures and in which character changes by accumulation and reverts when practice stops: it shows that moral disposition is educated through form and not the other way round.",
+      "siguiente": "Next step",
+      "verConjuntoBloqueado": "Look at the eight months together (walk all {n} steps)",
+      "caracter": {
+        "rotulo": "Character",
+        "avisoAlto": "The disposition has formed. You did not decide it: you made it, gesture by gesture.",
+        "avisoCaido": "You stopped practising and it fell by itself. It is not lost by decision, it is lost by disuse."
+      },
+      "etiqueta": "Ren and li: cultivating the self"
+    }
+  },
+  "ideas_relacionadas": [
+    "termino-medio",
+    "wu-wei",
+    "animal-politico",
+    "imperativo-categorico"
+  ]
+}

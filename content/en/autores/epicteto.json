@@ -1,0 +1,36 @@
+{
+  "id": "epicteto",
+  "nombre": "Epictetus",
+  "corriente_id": "helenismo",
+  "periodo": "c. 50–135 CE",
+  "region": "Phrygia, Rome, Nicopolis",
+  "preguntas_filosoficas": [
+    "What is really in our power?",
+    "Can someone without outward liberty be free?"
+  ],
+  "citas": [
+    {
+      "texto": "It is not things that disturb us, but our opinions about things.",
+      "obra": "Enchiridion, 5",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Born a slave, he held that freedom does not depend on circumstances but on distinguishing precisely what depends on us from what does not.",
+  "nivel_2_desarrollo": "The starting point of Epictetus's Stoicism is a sharp division: our opinions, desires and decisions depend on us; the body, reputation, possessions and other people's actions do not. Almost all suffering, he argues, is born of treating as our own what is not, and of neglecting the one thing we do control. From this follows an uncomfortable idea: we are disturbed not by facts but by the judgements we make about them, and those judgements can be revised. He taught that life is like a part assigned in a play: we do not choose which one falls to us, only how we play it. He wrote nothing; his lessons reach us through the notes of his student Arrian, which preserve an oral, direct and often abrasive tone.",
+  "nivel_3_experto": "Epictetus works with the concept of prohairesis — the faculty of choice or rational volition — which carries more weight in him than in early Stoicism and which some interpreters read as an antecedent of modern notions of will and person. His ethics is set within a deterministic physics: if everything happens according to the rational providence of the cosmos, freedom consists not in altering the course of events but in assenting to them, which reactivates the classical problem of Stoic compatibilism and the criticism that 'inner freedom' can function as resignation in the face of injustice. That political objection — that Stoicism disarms social criticism by relocating the whole problem into the subject's judgement — is the most persistent one against his programme. His practical influence is notable in contemporary psychotherapy: cognitive behavioural therapy explicitly acknowledges its debt to the thesis that disturbance comes from the evaluation and not the event, which connects him directly to the twentieth-century psychology section.",
+  "debate_abierto": "Whether Stoic 'inner freedom' is an ethical achievement or a rationalisation of political powerlessness is a live objection; how much of Epictetus's vocabulary is his own innovation against the early Stoa is also debated.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Epictetus",
+      "url": "https://plato.stanford.edu/entries/epictetus/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Epictetus",
+      "url": "https://iep.utm.edu/epictetu/"
+    },
+    {
+      "titulo": "Long, Epictetus: A Stoic and Socratic Guide to Life, Oxford University Press",
+      "url": null
+    }
+  ]
+}

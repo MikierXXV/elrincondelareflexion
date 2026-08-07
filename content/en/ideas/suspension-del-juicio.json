@@ -1,0 +1,51 @@
+{
+  "id": "suspension-del-juicio",
+  "corriente_id": "helenismo",
+  "titulo": "The suspension of judgement",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "pirron",
+      "rol": "principal",
+      "aporte": "Proposes ceasing to assert when arguments balance out, and observes that calm follows from it."
+    }
+  ],
+  "pregunta": "What if giving up your opinion on something were a relief rather than a defeat?",
+  "cita": {
+    "texto": "To every argument another of equal force is opposed.",
+    "obra": "Pyrrhonian formula transmitted by Sextus Empiricus",
+    "autor_id": "pirron",
+    "atribucion": "tradicional",
+    "nota": "Pyrrho wrote nothing. The formulation comes from Sextus Empiricus, almost five centuries later."
+  },
+  "resumen": "The sceptic does not deny that anything can be known — that would already be asserting something: he finds that for every argument there is another of comparable weight, suspends judgement, and discovers that tranquillity arrives there.",
+  "desarrollo": "The procedure consists in systematically setting opposing appearances and reasons against each other until no position weighs more. Honey tastes sweet to one person and bitter to someone ill, and there is no neutral criterion to arbitrate that does not presuppose what is under dispute. Faced with that tie, the Pyrrhonist does not conclude that nothing can be known — that would be one more dogmatic thesis — but stops pronouncing and goes on investigating. And he observes an effect he was not after: serenity does not arrive on finding certainty, but on abandoning the demand for it. This does not prevent living, because one goes on acting according to how things appear, according to custom and need; one simply stops asserting how they are underneath. The calm is a consequence, not a goal pursued.",
+  "ejemplo_real": "A long political argument with someone who has read as much as you and reaches the opposite conclusion. You can spend hours looking for the decisive argument, or you can admit that on this particular point you do not have what it takes to decide. The second usually feels far better than you expect, and it does not stop you voting.",
+  "matiz_experto": "The classical objection is apraxia: without beliefs no action would be possible. The sceptical reply distinguishes assenting to an appearance from asserting a truth, and whether that distinction holds is still debated.",
+  "visualizacion": {
+    "id": "vis-balanza-pirron",
+    "idea_id": "suspension-del-juicio",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "A physical balance receives weights the user places for and against a thesis. Each weight automatically drags its equivalent counterweight along, and the beam swings with real inertia until it settles level. While the user keeps adding, the needle trembles; when they stop trying to tip it, the oscillation damps out on its own and the scene passes into a state of calm.",
+    "invitacion": "Add weights for and against, then wait",
+    "alternativa_textual": "A balance that returns to equilibrium at every argument because each drags its counterweight with it, and that stops trembling only when the attempt to tip it is abandoned: it shows that calm comes from ceasing to demand certainty.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "A balance that returns to equilibrium at every argument",
+      "aFavor": "Argument for",
+      "enContra": "Argument against",
+      "resolucion": "It stopped when you stopped pushing it. The calm did not come from winning the argument but from letting it go.",
+      "resolucionEstatica": "Every argument drags its counterweight along: the balance settles level.",
+      "alternativaTexto": "A balance that returns to equilibrium at every argument because each drags its counterweight with it, and that stops trembling only when the attempt to tip it is abandoned: it shows that calm comes from ceasing to demand certainty."
+    }
+  },
+  "ideas_relacionadas": [
+    "saber-que-no-se-sabe",
+    "duda-metodica",
+    "relatividad-de-las-perspectivas"
+  ]
+}

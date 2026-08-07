@@ -1,0 +1,38 @@
+{
+  "id": "locke",
+  "nombre": "John Locke",
+  "corriente_id": "empirismo",
+  "periodo": "1632–1704",
+  "region": "Inglaterra, Provincias Unidas",
+  "preguntas_filosoficas": [
+    "¿Nacemos con ideas o las adquirimos todas?",
+    "¿Qué me hace ser la misma persona que ayer?",
+    "¿De dónde saca su legitimidad un gobierno?"
+  ],
+  "citas": [
+    {
+      "texto": "Ningún conocimiento humano puede ir más allá de su experiencia.",
+      "obra": "Condensación del Ensayo sobre el entendimiento humano, libro II",
+      "atribucion": "tradicional",
+      "nota": "Formulación condensada de una tesis que Locke desarrolla a lo largo de varios capítulos, no una frase literal."
+    }
+  ],
+  "nivel_1_resumen": "Negó que naciéramos con ideas puestas: la mente empieza como una hoja en blanco y todo su contenido llega por la experiencia. Y sostuvo que un gobierno solo es legítimo si cuenta con el consentimiento de los gobernados.",
+  "nivel_2_desarrollo": "Locke ataca la doctrina de las ideas innatas con un argumento sencillo: si hubiera principios grabados en toda mente, niños y personas de otras culturas los reconocerían, y no ocurre. Todo el material del pensamiento vendría entonces de dos fuentes, la sensación y la reflexión sobre nuestras propias operaciones mentales. De ahí distingue las cualidades primarias de los cuerpos —extensión, número, movimiento, que estarían en ellos— de las secundarias como el color o el sabor, que dependen de nuestro aparato perceptivo. Su aportación más original quizá sea la identidad personal: lo que me hace ser la misma persona no es el cuerpo ni un alma sustancial, sino la continuidad de la conciencia y la memoria. En política defiende que los individuos tienen derechos previos al Estado y que el poder es un encargo revocable, base del liberalismo posterior.",
+  "nivel_3_experto": "Su teoría de las ideas plantea el problema del 'velo de las ideas': si lo inmediatamente conocido son ideas, no está claro cómo se justifica la inferencia a los objetos externos, y esa fisura es la que explotarán Berkeley y Hume. El criterio de la memoria para la identidad personal recibió la objeción clásica de Reid con el caso del oficial que recuerda su infancia y del general que recuerda al oficial pero no la infancia, lo que rompe la transitividad; los neolockeanos contemporáneos responden con cadenas de conexiones psicológicas solapadas, y el debate sigue plenamente vivo en la literatura sobre identidad personal, incluidos los casos de Parfit. Su noción de 'persona' como término forense —definido por la imputabilidad— es cada vez más subrayada por la crítica reciente. En política, su justificación de la propiedad por el trabajo y sus capítulos sobre la tierra 'no cultivada' han sido leídos como legitimación de la colonización, un punto agravado por su implicación personal en la administración colonial y su inversión en compañías vinculadas a la esclavitud; cómo se relaciona esa práctica con su teoría de la libertad es hoy un debate historiográfico serio.",
+  "debate_abierto": "La objeción de Reid al criterio de la memoria y la relación entre la teoría de la propiedad de Locke y la práctica colonial siguen discutiéndose activamente.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — John Locke",
+      "url": "https://plato.stanford.edu/entries/locke/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Locke on Personal Identity",
+      "url": "https://plato.stanford.edu/entries/locke-personal-identity/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — John Locke",
+      "url": "https://iep.utm.edu/locke/"
+    }
+  ]
+}

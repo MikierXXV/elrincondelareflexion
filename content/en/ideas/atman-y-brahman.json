@@ -1,0 +1,78 @@
+{
+  "id": "atman-y-brahman",
+  "corriente_id": "filosofia-india",
+  "titulo": "Atman and brahman",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "upanishads-vedanta",
+      "rol": "principal",
+      "aporte": "Shifts attention from outward ritual to the subject standing behind all experience."
+    }
+  ],
+  "pregunta": "Who is it that perceives when you perceive?",
+  "cita": {
+    "texto": "You are that.",
+    "obra": "Chandogya Upanishad VI",
+    "autor_id": "upanishads-vedanta",
+    "atribucion": "directa",
+    "nota": "Tat tvam asi. Exactly what that identity means is precisely what divides the Vedanta schools from one another."
+  },
+  "resumen": "Withdraw everything that can be observed — the body, the senses, thoughts — and what remains is that which observes. The Vedanta thesis is that this innermost ground and the ground of the real are one and the same.",
+  "desarrollo": "The characteristic procedure is elimination, and it can be followed step by step. I am not the body, because it changes and because I can observe it. Nor the senses, which switch off in sleep. Nor thoughts, which come and go while something stays present, watching them pass. Withdrawing everything that can become an object of observation, what remains is that which observes, the atman, which by definition can never be observed, because the moment you look at it, it is one more object. The central claim of the Vedanta tradition is that this ground is identical with brahman, the single principle of everything real, and that feeling separate is the error that sustains suffering. Liberation then consists not in getting somewhere else or acquiring something new, but in ceasing to identify with what one is not.",
+  "ejemplo_real": "Notice that you can observe your own anger. If you can look at it, then you are not exactly it, because someone is needed to look. Try the same with the body, with your mood, with your plans. And then try turning round to look at the one who looks: it will not let you, it is always one step behind.",
+  "matiz_experto": "Speaking of 'Vedanta' in the singular is inaccurate: Shankara's Advaita, Ramanuja's qualified non-dualism and Madhva's dualism read the same texts in incompatible ways. Western reception is moreover mediated by Vivekananda's neo-Vedanta, adapted for a European audience.",
+  "visualizacion": {
+    "id": "vis-neti-vedanta",
+    "idea_id": "atman-y-brahman",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Concentric labelled layers — body, sensations, emotions, thoughts, memory — surround a centre. The user removes each layer, first confirming that they can observe it and therefore that it is not what observes. When there is nothing left to remove, the centre is not displayed as an object: the interface stops offering the gesture of pointing, because there is nothing there to point at.",
+    "invitacion": "Peel each layer and ask who is watching it",
+    "alternativa_textual": "Layers of experience removed one by one after confirming that they can be observed, until the interface stops allowing the centre to be pointed at: it shows that what observes cannot become an object of observation.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "capas",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "capas": [
+        {
+          "nombre": "the body",
+          "motivo": "You can observe it, so you are not exactly it."
+        },
+        {
+          "nombre": "sensations",
+          "motivo": "They come and go while something stays present, watching them pass."
+        },
+        {
+          "nombre": "emotions",
+          "motivo": "You can look at your own anger: someone is needed to look."
+        },
+        {
+          "nombre": "thoughts",
+          "motivo": "They are observed too, so they are not the observer either."
+        },
+        {
+          "nombre": "memory",
+          "motivo": "It is content, and all content can become an object."
+        }
+      ],
+      "nucleo": null,
+      "resolucion": "There is nothing left to point at. What observes cannot become an object of observation.",
+      "alternativaTexto": "Layers of experience removed one by one after confirming that they can be observed, until the interface stops allowing the centre to be pointed at: it shows that what observes cannot become an object of observation.",
+      "reiniciar": "Start again",
+      "nadaQueRetirar": "Nothing left to remove",
+      "retirarUna": "Remove “{nombre}”",
+      "etiqueta": "Atman and brahman",
+      "sinNucleo": "nothing underneath"
+    }
+  },
+  "ideas_relacionadas": [
+    "anatman",
+    "identidad-personal",
+    "duda-metodica",
+    "vacuidad"
+  ]
+}

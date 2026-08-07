@@ -1,0 +1,94 @@
+{
+  "id": "la-sombra",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "The shadow",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "jung",
+      "rol": "principal",
+      "aporte": "Names the part of oneself that is refused and ends up being seen projected onto other people."
+    },
+    {
+      "id": "freud",
+      "rol": "contrapunto",
+      "aporte": "His reading of the drive in sexual terms is what Jung considers too narrow, and it drove the break."
+    }
+  ],
+  "pregunta": "What does the thing that most irritates you about others say about you?",
+  "cita": {
+    "texto": "Until the unconscious is made conscious, it will direct your life and be called fate.",
+    "obra": "Widely circulated attribution, no located passage",
+    "autor_id": "jung",
+    "atribucion": "dudosa",
+    "nota": "It circulates massively as a quotation from Jung, but has not been located in this form anywhere in his work. It captures an idea of his; the sentence, probably, is not."
+  },
+  "resumen": "What we refuse in ourselves does not disappear: it piles up out of sight and tends to show up projected onto other people, in the form of whatever most irritates us about them.",
+  "desarrollo": "Jung broke with Freud above all over the interpretation of the drive: he would not accept reducing everything to the sexual and understood psychic energy more broadly. His central hypothesis is that, besides our biography, there is a layer shared by the whole species, made of archetypes, dispositions to organise experience into recurring figures. The shadow is the most accessible of them: the part of you that does not fit the image you want to project, and that is set aside without ceasing to exist. Its characteristic feature is projection: what has been set aside tends to be perceived in others, and with a disproportionate intensity, because what is being fought outside is one's own. Hence his notion of individuation, which consists in integrating what was set aside rather than perfecting the façade.",
+  "ejemplo_real": "That person you find unbearable for something that, seen from outside, is not all that serious. It is worth checking whether it is something you have forbidden yourself: people who have demanded of themselves never to rest usually detest those who rest, and people who will not let themselves ask usually despise those who do. The disproportion of the reaction is the clue.",
+  "matiz_experto": "The collective unconscious hypothesis is considered empirically unverifiable in its original formulation and academic psychology rejects it. There is also a serious historiographical problem with his writings of the 1930s on 'Aryan psychology' and his role in the German psychotherapeutic society under Nazism.",
+  "visualizacion": {
+    "id": "vis-sombra-jung",
+    "idea_id": "la-sombra",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Three people are there from the start, with their name and nothing else. The user sets traits aside so the figure can hold up the image it gives: each discarded trait swells a heap gathered at its feet, and from that heap something travels along a thread to one of those people and settles on them as whatever most bothers the figure about them. Reintegrating the trait — with its button or by pulling on the heap itself — takes the reproach away and shrinks what had piled up.",
+    "invitacion": "Set a trait aside and see where it ends up",
+    "alternativa_textual": "A figure whose discarded traits accumulate in a shadow that then appears projected onto the other characters as what most bothers it about them, and that diminishes when they are reintegrated: it demonstrates the mechanism of projection.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "modo": "proyeccion",
+      "figuraA": "what you have set aside",
+      "figuraB": "the image you project",
+      "coste": "what is projected onto others",
+      "proyeccion": {
+        "reintegrar": "reintegrate what was set aside",
+        "otros": [
+          {
+            "nombre": "who raises their voice",
+            "molesta": "how little they hold back"
+          },
+          {
+            "nombre": "who asks for help",
+            "molesta": "how much they need"
+          },
+          {
+            "nombre": "who takes a rest",
+            "molesta": "how little they try"
+          }
+        ]
+      },
+      "condiciones": [
+        {
+          "nombre": "I never get angry",
+          "efecto": "What is discarded does not disappear: it starts irritating you in other people.",
+          "peso": 0.34
+        },
+        {
+          "nombre": "I don't need anyone",
+          "efecto": "The more you set aside, the more it bothers you to see it outside.",
+          "peso": 0.33
+        },
+        {
+          "nombre": "I don't rest",
+          "efecto": "The disproportion of your reaction to others is the clue to what is here.",
+          "peso": 0.33
+        }
+      ],
+      "resolucion": "Reintegrate what was set aside and the projection drops. What most irritates you about others is usually something you have forbidden yourself.",
+      "alternativaTexto": "A figure whose discarded traits accumulate in a shadow that then appears projected onto the other characters as what most bothers it about them, and that diminishes when they are reintegrated: it demonstrates the mechanism of projection.",
+      "etiqueta": "The shadow"
+    }
+  },
+  "ideas_relacionadas": [
+    "lo-inconsciente",
+    "dialectica-del-reconocimiento",
+    "aceptacion-y-cambio",
+    "mala-fe"
+  ]
+}

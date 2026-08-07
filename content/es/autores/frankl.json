@@ -1,0 +1,38 @@
+{
+  "id": "frankl",
+  "nombre": "Viktor Frankl",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1905–1997",
+  "region": "Viena",
+  "preguntas_filosoficas": [
+    "¿Puede haber sentido en el sufrimiento inevitable?",
+    "¿Qué margen de libertad queda en condiciones extremas?"
+  ],
+  "dialogo_filosofico": "Es el puente explícito entre la psicología clínica y el existencialismo: recoge la pregunta por el sentido tras la 'muerte de Dios' y la traslada al terreno terapéutico, con una respuesta distinta a la de Sartre.",
+  "citas": [
+    {
+      "texto": "Al ser humano se le puede arrebatar todo salvo la elección de su actitud.",
+      "obra": "El hombre en busca de sentido, 1946",
+      "atribucion": "directa",
+      "nota": "En cambio, la célebre frase sobre «el espacio entre estímulo y respuesta» que se le atribuye no aparece en ninguna de sus obras: los investigadores no han conseguido localizarla."
+    }
+  ],
+  "nivel_1_resumen": "Neurólogo y superviviente de los campos de exterminio, sostuvo que el motor fundamental de una persona no es el placer ni el poder, sino encontrar un sentido, incluso donde no queda nada más.",
+  "nivel_2_desarrollo": "Frankl había desarrollado sus ideas antes de la deportación, y su experiencia en los campos —donde perdió a su mujer, a sus padres y a su hermano— las puso a prueba en el peor escenario imaginable. Su observación fue que, entre condiciones igual de atroces, quienes conservaban una tarea pendiente, un vínculo o una razón para el día siguiente resistían de otro modo. De ahí su tesis de que entre lo que nos ocurre y cómo respondemos queda siempre un margen, por estrecho que sea, que constituye la última libertad. Su logoterapia invierte la pregunta habitual: no se trata de qué espera uno de la vida, sino de qué espera la vida de uno en cada situación concreta. Y distingue tres vías de sentido: lo que uno crea o realiza, lo que ama o encuentra, y la actitud que adopta ante un sufrimiento que no puede evitarse.",
+  "nivel_3_experto": "La logoterapia se sitúa deliberadamente frente a Freud y a Adler —la 'voluntad de sentido' contra la voluntad de placer y la voluntad de poder—, y se apoya en una antropología con dimensión espiritual (noológica) irreducible a lo psíquico, lo que la vincula a la fenomenología y a la tradición existencial más que al programa empírico dominante. Su estatuto científico es limitado: el constructo de sentido en la vida sí ha sido operacionalizado en investigación posterior, con instrumentos como el Purpose in Life Test y su desarrollo en psicología positiva, y hay evidencia de asociación entre sentido percibido y bienestar; pero la inferencia clínica desde su testimonio en los campos tiene un problema metodológico evidente de sesgo de supervivencia, señalado por diversos críticos, y él mismo advirtió contra lecturas que culpabilizaran a las víctimas. La investigación histórica ha discutido además detalles de su relato biográfico y su posición profesional en la Viena de los años treinta, con valoraciones enfrentadas. Su técnica de la intención paradójica, en cambio, se anticipó a procedimientos hoy validados en el tratamiento del insomnio y de los trastornos de ansiedad.",
+  "debate_abierto": "La generalización clínica desde la experiencia de los campos tiene un problema de sesgo de supervivencia reconocido; el constructo de 'sentido' que popularizó sí es hoy objeto de investigación empírica estándar.",
+  "fuentes": [
+    {
+      "titulo": "Frankl, El hombre en busca de sentido (Ein Psycholog erlebt das Konzentrationslager, 1946)",
+      "url": null
+    },
+    {
+      "titulo": "Batthyány & Russo-Netzer (eds.), Meaning in Positive and Existential Psychology, Springer",
+      "url": null
+    },
+    {
+      "titulo": "Pytell, Viktor Frankl's Search for Meaning: An Emblematic 20th-Century Life, Berghahn",
+      "url": null
+    }
+  ]
+}

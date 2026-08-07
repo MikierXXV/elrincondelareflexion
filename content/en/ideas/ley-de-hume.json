@@ -1,0 +1,93 @@
+{
+  "id": "ley-de-hume",
+  "corriente_id": "empirismo",
+  "titulo": "From is to ought",
+  "orden": 5,
+  "autores": [
+    {
+      "id": "hume",
+      "rol": "principal",
+      "aporte": "Points out the unjustified leap between describing how things are and prescribing how they ought to be."
+    }
+  ],
+  "pregunta": "Can what we ought to do be deduced from how things are?",
+  "cita": {
+    "texto": "From propositions about what is, what ought to be does not follow.",
+    "obra": "Condensed from A Treatise of Human Nature III, 1, 1",
+    "autor_id": "hume",
+    "atribucion": "tradicional",
+    "nota": "The standard formulation of a passage in which Hume observes that authors move from 'is' to 'ought' without justifying it; the compact formula is later."
+  },
+  "resumen": "Many arguments slide without warning from describing how things are to prescribing how they ought to be. Hume observes that this step needs a premise that is almost never declared.",
+  "desarrollo": "The warning is surgically precise. Hume says that in reading works of morality he finds authors starting out talking about what there is and then suddenly, with no transition, talking about what ought to be done. And since that change of copula introduces something new, where it comes from ought to be explained. He does not say morality cannot be grounded, nor that facts are irrelevant; he says explicit normative premises are needed, and that smuggling them into a description is a trick. His own answer is that morality is founded not on reason but on sentiment: reason tells us how to get where we want to go, and approval or revulsion at cruelty or generosity are things we feel, not things we deduce. This two-paragraph observation structures all subsequent metaethics.",
+  "ejemplo_real": "You hear it daily: 'in nature the strong prevail, so competition is right.' Or the reverse: 'it has always been done this way, so it should go on being done.' In both cases the missing piece is the one nobody states: why what happens should settle what we do. The moment you ask for that piece, the argument stands alone.",
+  "matiz_experto": "It is debated whether Hume was formulating an impassable logical barrier or a demand for explicitness. Moore reformulated it as the naturalistic fallacy, and there are current lines — ethical naturalism, theories of function — that claim to build bridges without making the leap.",
+  "visualizacion": {
+    "id": "vis-ser-deber-hume",
+    "idea_id": "ley-de-hume",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user picks one of three real arguments, shown as a single block: descriptive premise on top, normative conclusion tucked right below it. On checking the step, the conclusion drops and an empty gap opens between the two, which the user can fill — with the button or by pressing the gap itself — by adding the normative premise that was missing. Only then does it close. The third argument states that premise outright and comes closed from the start.",
+    "invitacion": "Pick an argument and check the step",
+    "alternativa_textual": "An argument builder that leaves a visible gap between descriptive premises and normative conclusions and does not close it until an explicit normative premise is added: it shows that ought does not follow from is without an additional piece.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "modo": "argumento",
+      "peticion": "Pick an argument that reaches an «ought»",
+      "nombrePrueba": "Check the step",
+      "argumento": {
+        "anadir": "Add the missing premise",
+        "hueco": "Nothing here holds it up",
+        "descriptivo": "is",
+        "normativo": "ought"
+      },
+      "candidatos": [
+        {
+          "texto": "Nature",
+          "sobrevive": false,
+          "premisa": "In nature the strong prevail",
+          "conclusion": "So competition is right",
+          "puente": "And what happens in nature ought to be imitated",
+          "puenteDeclarado": false,
+          "veredicto": "The missing piece is the one nobody states: why what happens should settle what we do.",
+          "veredictoCerrado": "Now it does follow. But look at what you had to accept for it to follow: nobody had said it out loud."
+        },
+        {
+          "texto": "Custom",
+          "sobrevive": false,
+          "premisa": "It has always been done this way",
+          "conclusion": "So it ought to go on being done",
+          "puente": "And what has always been done ought to be kept",
+          "puenteDeclarado": false,
+          "veredicto": "Custom describes; on its own it does not say the custom must be kept.",
+          "veredictoCerrado": "The gap closes, and with it comes into view what the conclusion really rested on."
+        },
+        {
+          "texto": "Avoidable suffering",
+          "sobrevive": true,
+          "premisa": "This practice causes avoidable suffering",
+          "conclusion": "So it ought to stop",
+          "puente": "And avoidable suffering ought to be avoided",
+          "puenteDeclarado": true,
+          "veredicto": "Here the normative premise is declared, not smuggled in. The step is legitimate.",
+          "veredictoCerrado": "Nothing had to be added: the normative piece came inside the argument, where it can be argued with."
+        }
+      ],
+      "resolucion": "Hume does not say morality cannot be grounded: he says an explicit normative premise is needed, and that slipping it inside a description is a trick.",
+      "alternativaTexto": "An argument builder that leaves a visible gap between descriptive premises and normative conclusions and does not close it until an explicit normative premise is added: it shows that ought does not follow from is without an additional piece.",
+      "etiqueta": "From is to ought",
+      "aplicadaTexto": ": applied"
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "imperativo-categorico",
+    "calculo-de-la-felicidad",
+    "genealogia-de-la-moral"
+  ]
+}

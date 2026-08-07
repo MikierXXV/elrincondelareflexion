@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "visualizacion.schema.json",
+  "title": "Representación visual de una idea",
+  "description": "La técnica se elige por adecuación a la idea, no por espectacularidad ni por cuota. Ver docs/MAPA-DE-IDEAS.md §Criterio de técnica.",
+  "type": "object",
+  "required": [
+    "id",
+    "idea_id",
+    "tipo_visualizacion",
+    "descripcion_interaccion",
+    "alternativa_textual",
+    "nivel_asociado",
+    "complejidad"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": { "tipo_visualizacion": { "const": "three-js" } },
+        "required": ["tipo_visualizacion"]
+      },
+      "then": {
+        "required": ["justificacion_3d"],
+        "properties": { "complejidad": { "const": "destacada" } }
+      }
+    }
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "idea_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "La visualización cuelga de la idea, no del autor: un autor puede tener varias ideas y una idea puede tener varios autores."
+    },
+    "alternativa_textual": {
+      "type": "string",
+      "minLength": 60,
+      "description": "Qué demuestra la interacción, para quien no puede o no quiere usarla (prefers-reduced-motion, lector de pantalla, fallo de carga). No es una descripción de la imagen."
+    },
+    "tipo_visualizacion": {
+      "type": "string",
+      "enum": ["svg-interactivo", "canvas-fisica", "three-js", "css-animation"],
+      "description": "svg-interactivo: ideas lógicas, relacionales o cuantitativas; nodos del DOM enfocables y tematizables. canvas-fisica: ideas que se entienden por inercia, colisión, oscilación o acumulación, donde la simulación ES el argumento. three-js: solo si la comprensión depende de profundidad, oclusión o punto de vista del observador. css-animation: transiciones simples sin estado."
+    },
+    "justificacion_3d": {
+      "type": "string",
+      "minLength": 60,
+      "description": "Obligatoria en three-js. Debe explicar por qué la idea NO se entiende igual en 2D. Si la respuesta es 'queda mejor', la técnica es incorrecta."
+    },
+    "mecanica": {
+      "type": "string",
+      "enum": ["capas", "red", "repeticion", "recipientes", "dos-figuras"],
+      "description": "Mecánica reutilizable que implementa la pieza. Es la vía preferente: el parecido de familia entre las 59 queda garantizado por construcción y añadir una idea no toca código. Si falta, la idea necesita implementación propia registrada en src/vis/registro.ts."
+    },
+    "parametros": {
+      "type": "object",
+      "description": "Contenido que la mecánica necesita: etiquetas, motivos, textos de resolución. Son contenido, no código, y por eso viven aquí.",
+      "required": ["corrienteId", "resolucion", "alternativaTexto"],
+      "properties": {
+        "corrienteId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "resolucion": { "type": "string", "minLength": 20 },
+        "alternativaTexto": { "type": "string", "minLength": 60 }
+      }
+    },
+    "descripcion_interaccion": {
+      "type": "string",
+      "minLength": 80,
+      "description": "Qué hace el usuario y qué comprende al hacerlo. Si no se puede responder a lo segundo, la visualización no está justificada."
+    },
+    "nivel_asociado": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "integer", "enum": [1, 2, 3] }
+    },
+    "complejidad": {
+      "type": "string",
+      "enum": ["ligera", "destacada"],
+      "description": "'destacada' señala una pieza con coste de producción alto (3D o simulación elaborada) y está sujeta al tope de rendimiento."
+    }
+  }
+}

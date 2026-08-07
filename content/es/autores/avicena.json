@@ -1,0 +1,36 @@
+{
+  "id": "avicena",
+  "nombre": "Avicena (Ibn Sina)",
+  "corriente_id": "filosofia-islamica",
+  "periodo": "c. 980–1037",
+  "region": "Persia (Bujará, Isfahán)",
+  "preguntas_filosoficas": [
+    "¿Qué diferencia hay entre lo que algo es y el hecho de que exista?",
+    "¿Es la conciencia de uno mismo anterior a la percepción del cuerpo?"
+  ],
+  "citas": [
+    {
+      "texto": "Lo necesario por sí mismo no tiene causa.",
+      "obra": "Metafísica de La curación",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Distinguió entre la esencia de una cosa y su existencia: saber qué es un caballo no dice nada sobre si hay caballos. Sobre esa diferencia construyó su prueba de un ser necesario.",
+  "nivel_2_desarrollo": "El punto de partida de Avicena es que en cualquier cosa que conocemos podemos separar dos preguntas: qué es y si es. La existencia no forma parte de la definición, y por tanto todo lo que nos rodea es posible: podría no haber existido, y necesita una causa que lo haga existir. Si todo fuera así, la totalidad quedaría sin explicación; debe haber entonces un ser cuya esencia sea existir, un necesario por sí mismo, y de él dependen los demás. Es un argumento que no parte del movimiento ni de un primer momento del tiempo, sino de la estructura misma de lo contingente. Su otro aporte célebre es el experimento del 'hombre volante': imagina a alguien creado en el aire, sin ver, sin tocar nada, sin sentir su cuerpo, y sostiene que aun así afirmaría que existe, prueba para él de que la conciencia de uno mismo no depende de los sentidos.",
+  "nivel_3_experto": "La distinción entre esencia y existencia es la aportación de Avicena con mayor recorrido histórico: pasa a la escolástica latina y es reelaborada por Tomás de Aquino, que la convierte en distinción real, mientras Averroes la criticó por tratar la existencia como un accidente añadido a la esencia. Su tesis de la esencia considerada en sí misma, indiferente a la universalidad y a la particularidad, es el origen de una discusión medieval de largo alcance sobre los universales. En noética sostiene que las formas inteligibles no se abstraen sin más, sino que las otorga el Intelecto Agente separado, doctrina que plantea el problema de cuánto queda del aporte cognitivo individual. El hombre volante es objeto de una polémica interpretativa activa: si es un argumento sustancial a favor del dualismo, una intuición de la autoconciencia primitiva o solo un recurso pedagógico; su parecido estructural con el cogito ha alimentado tanto comparaciones fértiles como anacronismos. Al-Ghazali dirigió contra él, entre otras, las tesis de la eternidad del mundo, la negación del conocimiento divino de los particulares y la negación de la resurrección corporal, y la falsafa posterior —incluida la escuela iluminativa y Mulla Sadra— se construye en diálogo permanente con su sistema.",
+  "debate_abierto": "El estatuto del hombre volante y la naturaleza exacta de la distinción esencia/existencia siguen discutiéndose; también la continuidad entre su sistema y la escolástica latina.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ibn Sina's Metaphysics",
+      "url": "https://plato.stanford.edu/entries/ibn-sina-metaphysics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ibn Sina (Avicenna)",
+      "url": "https://iep.utm.edu/avicenna-ibn-sina/"
+    },
+    {
+      "titulo": "Adamson, Philosophy in the Islamic World (A History of Philosophy Without Any Gaps), Oxford University Press",
+      "url": null
+    }
+  ]
+}

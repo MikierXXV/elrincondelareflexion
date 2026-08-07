@@ -1,0 +1,94 @@
+{
+  "id": "relatividad-de-las-perspectivas",
+  "corriente_id": "filosofia-china",
+  "titulo": "La relatividad de las perspectivas",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "zhuangzi",
+      "rol": "principal",
+      "aporte": "Muestra con historias que nuestras categorías dependen del punto de vista desde el que se miran."
+    }
+  ],
+  "pregunta": "¿Hay algún punto de vista desde el que se vean las cosas como son?",
+  "cita": {
+    "texto": "¿Soy un hombre que soñó ser mariposa, o una mariposa que sueña?",
+    "obra": "Zhuangzi, capítulo 2",
+    "autor_id": "zhuangzi",
+    "atribucion": "directa"
+  },
+  "resumen": "Grande, útil, lejos, peligroso: ninguna de esas etiquetas está en las cosas. Zhuangzi usa historias, no argumentos, para aflojar la certeza de que nuestra escala es la medida.",
+  "desarrollo": "Zhuangzi no razona como un tratadista: cuenta anécdotas que descolocan. Sueña que es una mariposa y al despertar no sabe si es un hombre que soñó ser mariposa o una mariposa que sueña ser hombre, y no resuelve la historia, porque el objetivo no es concluir sino aflojar. Un pez enorme y un pajarillo se ríen mutuamente de sus vuelos, cada uno midiendo el mundo con su escala. Un cocinero descuartiza un buey durante años sin desafilar el cuchillo, porque no corta contra la estructura del animal sino a través de sus huecos: la maestría consiste en ajustarse a lo que hay. De ahí sale una libertad particular, la de quien deja de imponer sus preferencias al mundo, y una desconfianza sistemática hacia el lenguaje, que fija distinciones donde la realidad no las tiene marcadas.",
+  "ejemplo_real": "Un año es una eternidad para un niño de seis y un suspiro para alguien de setenta. Ninguno de los dos se equivoca. Lo mismo con la altura de una escalera para quien sube cargado y para quien sube ligero: no discrepan sobre los centímetros, sino que ocupan posiciones distintas, y no hay una tercera posición neutral desde la que arbitrar.",
+  "matiz_experto": "El consenso atribuye solo los capítulos internos a Zhuangzi o su círculo. Y sigue disputándose si defiende un relativismo, un escepticismo o una terapia antidogmática que no formula tesis, con el problema de fondo de si su posición se autorrefuta.",
+  "visualizacion": {
+    "id": "vis-perspectivas-zhuangzi",
+    "idea_id": "relatividad-de-las-perspectivas",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "La tesis es que la posición del observador determina lo que hay, y demostrarlo exige ocupar realmente esas posiciones: la escala de un pájaro, de un pez o de un árbol no se transmite con etiquetas, se transmite estando ahí. Una versión plana obligaría a mostrar las perspectivas una al lado de otra desde un punto de vista externo, que es precisamente el punto neutral que Zhuangzi niega que exista.",
+    "descripcion_interaccion": "Una misma escena tridimensional se recorre encarnando distintos observadores: un pez, un pájaro, un árbol, una persona. Con cada cambio, la cámara adopta su escala, su altura y su velocidad, y las etiquetas de 'grande', 'lejos', 'útil' y 'peligroso' se reescriben sin que la escena varíe. Al intentar fijar una etiqueta como la verdadera, la interfaz pide desde qué punto de vista y no admite 'ninguno'.",
+    "invitacion": "Cambia de observador y mira si el árbol es grande",
+    "alternativa_textual": "Una escena recorrida desde la escala y la altura de distintos seres, en la que las etiquetas de tamaño, distancia y peligro cambian sin que nada en la escena varíe y sin que exista un punto de vista neutral disponible: demuestra que esas categorías dependen de la posición del observador.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "Un claro con un árbol y un charco, recorrido desde distintos observadores",
+      "ser": "Ser",
+      "grande": "grande",
+      "lejos": "lejos",
+      "util": "útil",
+      "cualEsLaVerdadera": "¿Cuál es la verdadera?",
+      "respuestaVerdadera": "La interfaz necesita saber desde qué punto de vista, y no admite «ninguno». Eso es toda la tesis de Zhuangzi.",
+      "resolucionFinal": "Nada en la escena ha cambiado. «Grande», «lejos» y «útil» se han reescrito cuatro veces, y no hay una quinta posición desde la que arbitrar.",
+      "resolucionRespaldo": "Las etiquetas de grande, lejos y útil cambian con el observador sin que nada en la escena varíe.",
+      "alternativaTexto": "Una escena recorrida desde la escala y la altura de distintos seres, en la que las etiquetas de tamaño, distancia y peligro cambian sin que nada en la escena varíe y sin que exista un punto de vista neutral disponible: demuestra que esas categorías dependen de la posición del observador.",
+      "observadores": [
+        {
+          "nombre": "una persona",
+          "etiquetas": {
+            "grande": "el árbol",
+            "lejos": "el otro extremo del claro",
+            "util": "la sombra"
+          },
+          "nota": "Desde aquí el árbol es grande y el charco, un detalle del suelo."
+        },
+        {
+          "nombre": "un pájaro",
+          "etiquetas": {
+            "grande": "el claro entero",
+            "lejos": "el horizonte",
+            "util": "la rama alta"
+          },
+          "nota": "A esta altura el árbol es un objeto pequeño y lo grande es el claro."
+        },
+        {
+          "nombre": "un pez",
+          "etiquetas": {
+            "grande": "el charco",
+            "lejos": "la orilla",
+            "util": "la sombra del junco"
+          },
+          "nota": "Aquí el charco es el mundo entero y el árbol no cuenta como nada."
+        },
+        {
+          "nombre": "el árbol",
+          "etiquetas": {
+            "grande": "un siglo",
+            "lejos": "la próxima estación",
+            "util": "la lluvia"
+          },
+          "nota": "Para quien dura doscientos años, «lejos» deja de medirse en metros."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "suspension-del-juicio",
+    "wu-wei",
+    "vista-desde-arriba",
+    "ser-es-ser-percibido"
+  ]
+}

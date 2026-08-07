@@ -1,0 +1,37 @@
+{
+  "id": "skinner",
+  "nombre": "B. F. Skinner",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1904–1990",
+  "region": "United States",
+  "preguntas_filosoficas": [
+    "Does freedom exist, or are we merely ignorant of our conditions?",
+    "Do we need to talk about mental states to explain behaviour?"
+  ],
+  "dialogo_filosofico": "He raises the problem of free will and determinism in a radical form, and with it the question of whether mental states have any explanatory role or are merely a dispensable vocabulary.",
+  "citas": [
+    {
+      "texto": "The question is not whether machines think, but whether men do.",
+      "obra": "Contingencies of Reinforcement, 1969",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He held that behaviour is explained by its consequences: what is reinforced is repeated. And he took the thesis to its end, claiming that the freedom we believe we have is ignorance of what conditions us.",
+  "nivel_2_desarrollo": "Skinner distinguished his approach from Pavlov's classical conditioning: he was not interested in the response triggered by a prior stimulus, but in the behaviour the organism emits, which is maintained or extinguished according to what happens afterwards. In his experimental chamber, an animal that presses a lever and receives food repeats the action; if the reinforcement disappears, the behaviour dies out. He also discovered that intermittent, unpredictable reinforcement produces behaviour far more resistant than constant reinforcement, a finding that explains everything from the persistence of certain routines to the design of gambling machines. His methodological conclusion was that no internal states need be posited to explain and predict: the history of reinforcement and the environment suffice. In his popular works he argued that deliberately designing environments is more effective — and more honest — than appealing to willpower.",
+  "nivel_3_experto": "His position is radical behaviourism, which does not deny the existence of private events but their role as initiating causes, treating them as behaviour subject to the same laws; this precision is constantly omitted in popular presentations, which confuse him with methodological behaviourism. The decisive blow to his programme was Chomsky's 1959 review of Verbal Behavior, arguing that language learning — its productivity and the poverty of the stimulus — is not explained by reinforcement; that criticism is regarded as a founding moment of the cognitive revolution, though contemporary behaviourists hold that it targeted a version Skinner did not defend. In philosophy his theses connect with Ryle's logical behaviourism and with the later debate on eliminativism. His experimental analysis of behaviour remains scientifically productive in applied fields — applied behaviour analysis, behavioural economics, treatment of problem behaviours — with ethical controversies of its own. Beyond Freedom and Dignity concentrated the political rejection of his work, with critics accusing him of justifying social control; he replied that control already exists and that the only real choice is whether it is designed knowingly or blindly.",
+  "debate_abierto": "The scope of Chomsky's critique and how far it refutes radical behaviourism or only a simplified version is still discussed; the applied effectiveness of his methods is not in question, his reading of free will is.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Behaviorism",
+      "url": "https://plato.stanford.edu/entries/behaviorism/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Behaviorism",
+      "url": "https://iep.utm.edu/behaviorism/"
+    },
+    {
+      "titulo": "Chomsky, review of Verbal Behavior, Language 35 (1959)",
+      "url": null
+    }
+  ]
+}

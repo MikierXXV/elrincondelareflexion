@@ -1,0 +1,93 @@
+{
+  "id": "ley-de-hume",
+  "corriente_id": "empirismo",
+  "titulo": "Del ser al deber",
+  "orden": 5,
+  "autores": [
+    {
+      "id": "hume",
+      "rol": "principal",
+      "aporte": "Señala el salto injustificado entre describir cómo son las cosas y prescribir cómo deben ser."
+    }
+  ],
+  "pregunta": "¿Se puede deducir lo que debemos hacer a partir de cómo son las cosas?",
+  "cita": {
+    "texto": "De proposiciones sobre lo que es no se sigue lo que debe ser.",
+    "obra": "Condensación del Tratado de la naturaleza humana III, 1, 1",
+    "autor_id": "hume",
+    "atribucion": "tradicional",
+    "nota": "Formulación estándar de un pasaje en el que Hume observa que los autores pasan de 'es' a 'debe' sin justificarlo; la fórmula compacta es posterior."
+  },
+  "resumen": "Muchos razonamientos pasan sin avisar de describir cómo son las cosas a prescribir cómo deben ser. Hume observa que ese paso necesita una premisa que casi nunca se declara.",
+  "desarrollo": "El aviso es de una precisión quirúrgica. Hume dice que al leer tratados de moral encuentra que los autores empiezan hablando de lo que hay y de pronto, sin transición, empiezan a hablar de lo que debe hacerse. Y como ese cambio de cópula introduce algo nuevo, debería explicarse de dónde sale. No dice que sea imposible fundamentar la moral, ni que los hechos sean irrelevantes; dice que hacen falta premisas normativas explícitas, y que colarlas de contrabando en una descripción es un truco. Su propia respuesta es que la moral no se funda en la razón sino en el sentimiento: la razón nos dice cómo llegar a donde queremos, y la aprobación o el rechazo ante la crueldad o la generosidad son cosas que sentimos, no que deducimos. Esta observación de dos párrafos estructura toda la metaética posterior.",
+  "ejemplo_real": "Se oye a diario: «en la naturaleza el fuerte se impone, así que la competencia es lo correcto». O al revés: «esto siempre se ha hecho así, luego debe seguir haciéndose». En ambos casos falta la pieza que nadie enuncia: por qué lo que ocurre debería marcar lo que hacemos. En cuanto pides esa pieza, el argumento se queda solo.",
+  "matiz_experto": "Se discute si Hume formulaba una barrera lógica infranqueable o una exigencia de explicitación. Moore lo reformuló como falacia naturalista, y hay líneas actuales —naturalismo ético, teorías de la función— que sostienen tender puentes sin cometer el salto.",
+  "visualizacion": {
+    "id": "vis-ser-deber-hume",
+    "idea_id": "ley-de-hume",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario elige uno de tres argumentos reales, que se muestra de una pieza: premisa descriptiva arriba, conclusión normativa pegada debajo. Al comprobar el paso, la conclusión baja y entre las dos queda un hueco vacío que el usuario puede rellenar, con el botón o pulsando el propio hueco, añadiendo la premisa normativa que faltaba. Solo entonces se cierra. El tercer argumento la trae declarada y aparece cerrado desde el principio.",
+    "invitacion": "Elige un argumento y comprueba el paso",
+    "alternativa_textual": "Un constructor de argumentos que deja un hueco visible entre premisas descriptivas y conclusiones normativas y no lo cierra hasta que se añade una premisa normativa explícita: demuestra que del ser no se sigue el deber sin una pieza adicional.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "modo": "argumento",
+      "peticion": "Elige un argumento que llegue a un «debe»",
+      "nombrePrueba": "Comprobar el paso",
+      "argumento": {
+        "anadir": "Añadir la premisa que falta",
+        "hueco": "Aquí no hay nada que lo sostenga",
+        "descriptivo": "es",
+        "normativo": "debe"
+      },
+      "candidatos": [
+        {
+          "texto": "La naturaleza",
+          "sobrevive": false,
+          "premisa": "En la naturaleza se impone el fuerte",
+          "conclusion": "Luego la competencia es correcta",
+          "puente": "Y lo que ocurre en la naturaleza debe imitarse",
+          "puenteDeclarado": false,
+          "veredicto": "Falta la pieza que nadie enuncia: por qué lo que ocurre debería marcar lo que hacemos.",
+          "veredictoCerrado": "Ahora sí se sigue. Pero mira lo que has tenido que aceptar para que se siguiera: nadie lo había dicho en voz alta."
+        },
+        {
+          "texto": "La costumbre",
+          "sobrevive": false,
+          "premisa": "Esto siempre se ha hecho así",
+          "conclusion": "Luego debe seguir haciéndose",
+          "puente": "Y lo que se ha hecho siempre debe conservarse",
+          "puenteDeclarado": false,
+          "veredicto": "La costumbre describe; no dice por sí sola que haya que conservarla.",
+          "veredictoCerrado": "El hueco se cierra, y con él queda a la vista de qué dependía en realidad la conclusión."
+        },
+        {
+          "texto": "El sufrimiento evitable",
+          "sobrevive": true,
+          "premisa": "Esta práctica causa sufrimiento evitable",
+          "conclusion": "Luego debe dejar de hacerse",
+          "puente": "Y el sufrimiento evitable debe evitarse",
+          "puenteDeclarado": true,
+          "veredicto": "Aquí la premisa normativa está declarada, no colada de contrabando. El paso es legítimo.",
+          "veredictoCerrado": "No hacía falta añadir nada: la pieza normativa venía dentro del argumento y se puede discutir."
+        }
+      ],
+      "resolucion": "Hume no dice que la moral no pueda fundamentarse: dice que hace falta una premisa normativa explícita, y que colarla dentro de una descripción es un truco.",
+      "alternativaTexto": "Un constructor de argumentos que deja un hueco visible entre premisas descriptivas y conclusiones normativas y no lo cierra hasta que se añade una premisa normativa explícita: demuestra que del ser no se sigue el deber sin una pieza adicional.",
+      "etiqueta": "Del ser al deber",
+      "aplicadaTexto": ": aplicado"
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "imperativo-categorico",
+    "calculo-de-la-felicidad",
+    "genealogia-de-la-moral"
+  ]
+}

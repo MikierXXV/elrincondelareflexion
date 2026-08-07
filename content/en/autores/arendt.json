@@ -1,0 +1,37 @@
+{
+  "id": "arendt",
+  "nombre": "Hannah Arendt",
+  "corriente_id": "etica-politica-contemporanea",
+  "periodo": "1906–1975",
+  "region": "Germany, United States",
+  "preguntas_filosoficas": [
+    "Do you have to be a monster to commit atrocities?",
+    "What distinguishes political action from work and survival?"
+  ],
+  "citas": [
+    {
+      "texto": "Nobody has the right to obey.",
+      "obra": "Formulation recorded in interviews after Eichmann in Jerusalem",
+      "atribucion": "tradicional",
+      "nota": "It circulates as an isolated maxim; in context it answers Eichmann's defence based on the duty of obedience."
+    }
+  ],
+  "nivel_1_resumen": "Covering the trial of a senior Nazi official, she described what she called the banality of evil: the capacity to take part in enormous crimes with no particular hatred, simply without thinking about what one is doing.",
+  "nivel_2_desarrollo": "Arendt expected to meet a fanatic in Jerusalem and was struck to find a bureaucrat worried about his career, who spoke in ready-made formulas and seemed incapable of imagining his victims' point of view. Her thesis was not that evil is slight, but that it does not always require a monstrous motive: obeying, fitting in and ceasing to think can be enough. In her political work she distinguishes three activities: labour, which attends to biological necessity; work, which fabricates the world of durable objects; and action, which is what happens when someone appears before others in words and deeds and begins something unforeseeable. That capacity to begin — natality — is for her the foundation of political freedom. And she warned that totalitarianism installs itself by destroying the shared space in which such action is possible.",
+  "nivel_3_experto": "The banality of evil is her most discussed and most distorted concept. Later research on the Eichmann documentation, especially the Sassen interviews in Argentina and Bettina Stangneth's work, has shown an ideologically convinced antisemite who deliberately constructed his role as an obedient functionary before the court, leading many to conclude that Arendt was taken in by the performance; her defenders reply that the philosophical core — the disconnection between the magnitude of the harm and the depth of the motive, and the relation between thoughtlessness and evil — survives independently of the particular case. Her book also provoked a bitter controversy over its pages on the Jewish councils. In political theory, her distinction between labour, work and action has been criticised as a nostalgic idealisation of the Greek polis that excludes the social and the economic from the properly political sphere, a central objection in feminist and Marxist readings of her work; her treatment of the racial question in the United States, particularly her essay on Little Rock, is also debated. Her analysis of statelessness and of the 'right to have rights' is today an obligatory reference in debates about refugees.",
+  "debate_abierto": "Whether the portrait of Eichmann invalidates the banality-of-evil thesis, and whether her separation of the social from the political is defensible, are live controversies.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Hannah Arendt",
+      "url": "https://plato.stanford.edu/entries/arendt/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Hannah Arendt",
+      "url": "https://iep.utm.edu/hannah-arendt/"
+    },
+    {
+      "titulo": "Stangneth, Eichmann Before Jerusalem, Knopf",
+      "url": null
+    }
+  ]
+}

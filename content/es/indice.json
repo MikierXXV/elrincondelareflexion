@@ -1,0 +1,584 @@
+{
+  "$comment": "GENERADO por scripts/generar-indices.mjs. No editar a mano.",
+  "autores": {
+    "agustin": {
+      "nombre": "Agustín de Hipona",
+      "periodo": "354–430",
+      "corriente_id": "escolastica",
+      "cita": "¿Qué es el tiempo? Si nadie me lo pregunta, lo sé."
+    },
+    "al-ghazali": {
+      "nombre": "Al-Ghazali",
+      "periodo": "1058–1111",
+      "corriente_id": "filosofia-islamica",
+      "cita": "La conexión entre lo que llamamos causa y efecto no es necesaria."
+    },
+    "arendt": {
+      "nombre": "Hannah Arendt",
+      "periodo": "1906–1975",
+      "corriente_id": "etica-politica-contemporanea",
+      "cita": "Nadie tiene derecho a obedecer."
+    },
+    "aristoteles": {
+      "nombre": "Aristóteles",
+      "periodo": "384–322 a.C.",
+      "corriente_id": "clasica-griega",
+      "cita": "El ser humano es por naturaleza un animal político."
+    },
+    "averroes": {
+      "nombre": "Averroes (Ibn Rushd)",
+      "periodo": "1126–1198",
+      "corriente_id": "filosofia-islamica",
+      "cita": "La verdad no contradice a la verdad, sino que concuerda con ella."
+    },
+    "avicena": {
+      "nombre": "Avicena (Ibn Sina)",
+      "periodo": "c. 980–1037",
+      "corriente_id": "filosofia-islamica",
+      "cita": "Lo necesario por sí mismo no tiene causa."
+    },
+    "bentham": {
+      "nombre": "Jeremy Bentham",
+      "periodo": "1748–1832",
+      "corriente_id": "utilitarismo",
+      "cita": "La naturaleza ha puesto al hombre bajo el gobierno del dolor y el placer."
+    },
+    "berkeley": {
+      "nombre": "George Berkeley",
+      "periodo": "1685–1753",
+      "corriente_id": "empirismo",
+      "cita": "Ser es ser percibido."
+    },
+    "buda": {
+      "nombre": "Siddhartha Gautama (el Buda)",
+      "periodo": "c. 480–400 a.C. (datación discutida)",
+      "corriente_id": "filosofia-india",
+      "cita": "Todo lo compuesto es impermanente."
+    },
+    "confucio": {
+      "nombre": "Confucio (Kongzi)",
+      "periodo": "551–479 a.C.",
+      "corriente_id": "filosofia-china",
+      "cita": "No impongas a otro lo que no desearías para ti."
+    },
+    "descartes": {
+      "nombre": "René Descartes",
+      "periodo": "1596–1650",
+      "corriente_id": "racionalismo",
+      "cita": "Pienso, luego existo."
+    },
+    "epicteto": {
+      "nombre": "Epicteto",
+      "periodo": "c. 50–135 d.C.",
+      "corriente_id": "helenismo",
+      "cita": "No nos perturban las cosas, sino las opiniones sobre las cosas."
+    },
+    "epicuro": {
+      "nombre": "Epicuro",
+      "periodo": "341–270 a.C.",
+      "corriente_id": "helenismo",
+      "cita": "Mientras existimos, la muerte no está; cuando llega, ya no estamos."
+    },
+    "frankl": {
+      "nombre": "Viktor Frankl",
+      "periodo": "1905–1997",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "Al ser humano se le puede arrebatar todo salvo la elección de su actitud."
+    },
+    "freud": {
+      "nombre": "Sigmund Freud",
+      "periodo": "1856–1939",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "El yo no es dueño en su propia casa."
+    },
+    "hegel": {
+      "nombre": "Georg Wilhelm Friedrich Hegel",
+      "periodo": "1770–1831",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "El búho de Minerva emprende su vuelo al caer el crepúsculo."
+    },
+    "heraclito": {
+      "nombre": "Heráclito de Éfeso",
+      "periodo": "c. 540–480 a.C.",
+      "corriente_id": "presocraticos",
+      "cita": "No es posible bañarse dos veces en el mismo río."
+    },
+    "hume": {
+      "nombre": "David Hume",
+      "periodo": "1711–1776",
+      "corriente_id": "empirismo",
+      "cita": "La razón es, y solo debe ser, esclava de las pasiones."
+    },
+    "jung": {
+      "nombre": "Carl Gustav Jung",
+      "periodo": "1875–1961",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "Hasta que lo inconsciente no se haga consciente, dirigirá tu vida y lo llamarás destino."
+    },
+    "kant": {
+      "nombre": "Immanuel Kant",
+      "periodo": "1724–1804",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "Sapere aude: ten el valor de servirte de tu propio entendimiento."
+    },
+    "kierkegaard": {
+      "nombre": "Søren Kierkegaard",
+      "periodo": "1813–1855",
+      "corriente_id": "existencialismo",
+      "cita": "La vida solo se comprende mirando atrás, pero ha de vivirse hacia adelante."
+    },
+    "laozi": {
+      "nombre": "Laozi",
+      "periodo": "atribución tradicional s. VI a.C.; texto compilado h. s. IV–III a.C.",
+      "corriente_id": "filosofia-china",
+      "cita": "El dao que puede nombrarse no es el dao permanente."
+    },
+    "leibniz": {
+      "nombre": "Gottfried Wilhelm Leibniz",
+      "periodo": "1646–1716",
+      "corriente_id": "racionalismo",
+      "cita": "¿Por qué hay algo en vez de nada?"
+    },
+    "locke": {
+      "nombre": "John Locke",
+      "periodo": "1632–1704",
+      "corriente_id": "empirismo",
+      "cita": "Ningún conocimiento humano puede ir más allá de su experiencia."
+    },
+    "marco-aurelio": {
+      "nombre": "Marco Aurelio",
+      "periodo": "121–180 d.C.",
+      "corriente_id": "helenismo",
+      "cita": "Muy pronto lo habrás olvidado todo; muy pronto todos te habrán olvidado."
+    },
+    "marx": {
+      "nombre": "Karl Marx",
+      "periodo": "1818–1883",
+      "corriente_id": "marxismo",
+      "cita": "Los filósofos se han limitado a interpretar el mundo; se trata de transformarlo."
+    },
+    "maslow": {
+      "nombre": "Abraham Maslow",
+      "periodo": "1908–1970",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "Si solo tienes un martillo, todo empieza a parecerte un clavo."
+    },
+    "mill": {
+      "nombre": "John Stuart Mill",
+      "periodo": "1806–1873",
+      "corriente_id": "utilitarismo",
+      "cita": "Es mejor ser un Sócrates insatisfecho que un necio satisfecho."
+    },
+    "nagarjuna": {
+      "nombre": "Nāgārjuna",
+      "periodo": "c. s. II d.C.",
+      "corriente_id": "filosofia-india",
+      "cita": "Nada hay que surja sin depender de otra cosa."
+    },
+    "nietzsche": {
+      "nombre": "Friedrich Nietzsche",
+      "periodo": "1844–1900",
+      "corriente_id": "existencialismo",
+      "cita": "Quien tiene un porqué para vivir soporta casi cualquier cómo."
+    },
+    "parmenides": {
+      "nombre": "Parménides de Elea",
+      "periodo": "c. 515–450 a.C.",
+      "corriente_id": "presocraticos",
+      "cita": "Lo mismo es pensar y ser."
+    },
+    "pirron": {
+      "nombre": "Pirrón de Elis",
+      "periodo": "c. 360–270 a.C.",
+      "corriente_id": "helenismo",
+      "cita": "A todo argumento se opone otro de igual fuerza."
+    },
+    "pitagoras": {
+      "nombre": "Pitágoras de Samos",
+      "periodo": "c. 570–495 a.C.",
+      "corriente_id": "presocraticos",
+      "cita": "Todo es número."
+    },
+    "platon": {
+      "nombre": "Platón",
+      "periodo": "c. 427–347 a.C.",
+      "corriente_id": "clasica-griega",
+      "cita": "Para ellos, la verdad no sería otra cosa que las sombras."
+    },
+    "rawls": {
+      "nombre": "John Rawls",
+      "periodo": "1921–2002",
+      "corriente_id": "etica-politica-contemporanea",
+      "cita": "La justicia es la primera virtud de las instituciones sociales."
+    },
+    "rogers": {
+      "nombre": "Carl Rogers",
+      "periodo": "1902–1987",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "La curiosa paradoja es que al aceptarme tal como soy, puedo cambiar."
+    },
+    "rousseau": {
+      "nombre": "Jean-Jacques Rousseau",
+      "periodo": "1712–1778",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "El ser humano nace libre, y en todas partes está encadenado."
+    },
+    "russell": {
+      "nombre": "Bertrand Russell",
+      "periodo": "1872–1970",
+      "corriente_id": "analitica",
+      "cita": "Los necios están seguros; los sabios, llenos de dudas."
+    },
+    "sartre": {
+      "nombre": "Jean-Paul Sartre",
+      "periodo": "1905–1980",
+      "corriente_id": "existencialismo",
+      "cita": "El infierno son los otros."
+    },
+    "schopenhauer": {
+      "nombre": "Arthur Schopenhauer",
+      "periodo": "1788–1860",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "La vida oscila como un péndulo entre el dolor y el hastío."
+    },
+    "skinner": {
+      "nombre": "B. F. Skinner",
+      "periodo": "1904–1990",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "La cuestión no es si las máquinas piensan, sino si lo hacen los hombres."
+    },
+    "socrates": {
+      "nombre": "Sócrates",
+      "periodo": "470–399 a.C.",
+      "corriente_id": "clasica-griega",
+      "cita": "Una vida sin examen no merece ser vivida."
+    },
+    "spinoza": {
+      "nombre": "Baruch Spinoza",
+      "periodo": "1632–1677",
+      "corriente_id": "racionalismo",
+      "cita": "No reír, no llorar, no detestar, sino comprender."
+    },
+    "tomas-de-aquino": {
+      "nombre": "Tomás de Aquino",
+      "periodo": "1225–1274",
+      "corriente_id": "escolastica",
+      "cita": "La gracia no destruye la naturaleza, sino que la perfecciona."
+    },
+    "upanishads-vedanta": {
+      "nombre": "Los Upanishads y la tradición Vedanta",
+      "periodo": "Upanishads antiguos c. s. VIII–IV a.C.; sistematización Vedanta s. VIII d.C. en adelante",
+      "corriente_id": "filosofia-india",
+      "cita": "Tú eres eso."
+    },
+    "wittgenstein": {
+      "nombre": "Ludwig Wittgenstein",
+      "periodo": "1889–1951",
+      "corriente_id": "analitica",
+      "cita": "De lo que no se puede hablar, hay que callar."
+    },
+    "zhuangzi": {
+      "nombre": "Zhuangzi",
+      "periodo": "c. 369–286 a.C.",
+      "corriente_id": "filosofia-china",
+      "cita": "¿Soy un hombre que soñó ser mariposa, o una mariposa que sueña?"
+    }
+  },
+  "ideas": {
+    "aceptacion-y-cambio": {
+      "titulo": "Aceptación y cambio",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 4
+    },
+    "alienacion": {
+      "titulo": "La alienación",
+      "corriente_id": "marxismo",
+      "orden": 1
+    },
+    "anatman": {
+      "titulo": "Anatman: el no-yo",
+      "corriente_id": "filosofia-india",
+      "orden": 3
+    },
+    "angustia-y-libertad": {
+      "titulo": "La angustia como vértigo de la libertad",
+      "corriente_id": "existencialismo",
+      "orden": 1
+    },
+    "animal-politico": {
+      "titulo": "El animal político",
+      "corriente_id": "clasica-griega",
+      "orden": 4
+    },
+    "atman-y-brahman": {
+      "titulo": "Atman y brahman",
+      "corriente_id": "filosofia-india",
+      "orden": 1
+    },
+    "banalidad-del-mal": {
+      "titulo": "La banalidad del mal",
+      "corriente_id": "etica-politica-contemporanea",
+      "orden": 3
+    },
+    "calculo-de-la-felicidad": {
+      "titulo": "El cálculo de la felicidad",
+      "corriente_id": "utilitarismo",
+      "orden": 1
+    },
+    "causalidad-como-habito": {
+      "titulo": "La causalidad como hábito",
+      "corriente_id": "empirismo",
+      "orden": 4
+    },
+    "condicionamiento-operante": {
+      "titulo": "El condicionamiento operante",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 3
+    },
+    "condiciones-a-priori": {
+      "titulo": "Las condiciones a priori",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 2
+    },
+    "contrato-y-voluntad-general": {
+      "titulo": "Contrato social y voluntad general",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 1
+    },
+    "critica-de-la-causalidad": {
+      "titulo": "La crítica de la causalidad",
+      "corriente_id": "filosofia-islamica",
+      "orden": 2
+    },
+    "dialectica-del-reconocimiento": {
+      "titulo": "La dialéctica del reconocimiento",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 4
+    },
+    "dicotomia-del-control": {
+      "titulo": "La dicotomía del control",
+      "corriente_id": "helenismo",
+      "orden": 1
+    },
+    "dos-niveles-de-lectura": {
+      "titulo": "Dos niveles de lectura",
+      "corriente_id": "filosofia-islamica",
+      "orden": 3
+    },
+    "duda-metodica": {
+      "titulo": "La duda metódica",
+      "corriente_id": "racionalismo",
+      "orden": 1
+    },
+    "el-mal-como-privacion": {
+      "titulo": "El mal como privación",
+      "corriente_id": "escolastica",
+      "orden": 2
+    },
+    "el-numero-como-orden": {
+      "titulo": "El número como orden del mundo",
+      "corriente_id": "presocraticos",
+      "orden": 3
+    },
+    "el-tiempo-en-el-alma": {
+      "titulo": "El tiempo existe en el alma",
+      "corriente_id": "escolastica",
+      "orden": 1
+    },
+    "esencia-y-existencia": {
+      "titulo": "Esencia y existencia",
+      "corriente_id": "filosofia-islamica",
+      "orden": 1
+    },
+    "eterno-retorno": {
+      "titulo": "El eterno retorno",
+      "corriente_id": "existencialismo",
+      "orden": 3
+    },
+    "flujo-y-permanencia": {
+      "titulo": "Flujo y permanencia",
+      "corriente_id": "presocraticos",
+      "orden": 1
+    },
+    "genealogia-de-la-moral": {
+      "titulo": "La genealogía de la moral",
+      "corriente_id": "existencialismo",
+      "orden": 2
+    },
+    "hablar-de-lo-que-no-existe": {
+      "titulo": "Hablar de lo que no existe",
+      "corriente_id": "analitica",
+      "orden": 1
+    },
+    "identidad-personal": {
+      "titulo": "La identidad personal",
+      "corriente_id": "empirismo",
+      "orden": 2
+    },
+    "ideologia": {
+      "titulo": "La ideología",
+      "corriente_id": "marxismo",
+      "orden": 2
+    },
+    "imperativo-categorico": {
+      "titulo": "El imperativo categórico",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 3
+    },
+    "imposibilidad-del-cambio": {
+      "titulo": "La imposibilidad del cambio",
+      "corriente_id": "presocraticos",
+      "orden": 2
+    },
+    "la-sombra": {
+      "titulo": "La sombra",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 2
+    },
+    "las-cuatro-verdades": {
+      "titulo": "Las cuatro verdades",
+      "corriente_id": "filosofia-india",
+      "orden": 2
+    },
+    "ley-de-hume": {
+      "titulo": "Del ser al deber",
+      "corriente_id": "empirismo",
+      "orden": 5
+    },
+    "libertad-como-comprension": {
+      "titulo": "La libertad como comprensión de las causas",
+      "corriente_id": "racionalismo",
+      "orden": 3
+    },
+    "limite-del-placer": {
+      "titulo": "El límite del placer",
+      "corriente_id": "helenismo",
+      "orden": 2
+    },
+    "limites-del-lenguaje": {
+      "titulo": "Los límites del lenguaje",
+      "corriente_id": "analitica",
+      "orden": 2
+    },
+    "lo-inconsciente": {
+      "titulo": "Lo inconsciente",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 1
+    },
+    "mala-fe": {
+      "titulo": "La mala fe",
+      "corriente_id": "existencialismo",
+      "orden": 4
+    },
+    "materialismo-historico": {
+      "titulo": "El materialismo histórico",
+      "corriente_id": "marxismo",
+      "orden": 3
+    },
+    "mundo-de-las-ideas": {
+      "titulo": "El mundo de las Ideas",
+      "corriente_id": "clasica-griega",
+      "orden": 2
+    },
+    "placeres-superiores": {
+      "titulo": "Placeres superiores",
+      "corriente_id": "utilitarismo",
+      "orden": 2
+    },
+    "principio-de-diferencia": {
+      "titulo": "El principio de diferencia",
+      "corriente_id": "etica-politica-contemporanea",
+      "orden": 2
+    },
+    "principio-del-dano": {
+      "titulo": "El principio del daño",
+      "corriente_id": "utilitarismo",
+      "orden": 3
+    },
+    "problema-mente-cuerpo": {
+      "titulo": "El problema mente-cuerpo",
+      "corriente_id": "racionalismo",
+      "orden": 2
+    },
+    "razon-suficiente": {
+      "titulo": "Razón suficiente y mundos posibles",
+      "corriente_id": "racionalismo",
+      "orden": 4
+    },
+    "razon-y-fe": {
+      "titulo": "Razón y fe, dos vías",
+      "corriente_id": "escolastica",
+      "orden": 3
+    },
+    "relatividad-de-las-perspectivas": {
+      "titulo": "La relatividad de las perspectivas",
+      "corriente_id": "filosofia-china",
+      "orden": 3
+    },
+    "ren-y-li": {
+      "titulo": "Ren y li: el cultivo de sí",
+      "corriente_id": "filosofia-china",
+      "orden": 1
+    },
+    "saber-que-no-se-sabe": {
+      "titulo": "Saber que no se sabe",
+      "corriente_id": "clasica-griega",
+      "orden": 1
+    },
+    "ser-es-ser-percibido": {
+      "titulo": "Ser es ser percibido",
+      "corriente_id": "empirismo",
+      "orden": 3
+    },
+    "significado-como-uso": {
+      "titulo": "El significado es el uso",
+      "corriente_id": "analitica",
+      "orden": 3
+    },
+    "suspension-del-juicio": {
+      "titulo": "La suspensión del juicio",
+      "corriente_id": "helenismo",
+      "orden": 3
+    },
+    "tabula-rasa": {
+      "titulo": "La mente como página en blanco",
+      "corriente_id": "empirismo",
+      "orden": 1
+    },
+    "termino-medio": {
+      "titulo": "El término medio",
+      "corriente_id": "clasica-griega",
+      "orden": 3
+    },
+    "vacuidad": {
+      "titulo": "La vacuidad",
+      "corriente_id": "filosofia-india",
+      "orden": 4
+    },
+    "velo-de-la-ignorancia": {
+      "titulo": "El velo de la ignorancia",
+      "corriente_id": "etica-politica-contemporanea",
+      "orden": 1
+    },
+    "vista-desde-arriba": {
+      "titulo": "La vista desde arriba",
+      "corriente_id": "helenismo",
+      "orden": 4
+    },
+    "voluntad-de-sentido": {
+      "titulo": "La voluntad de sentido",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 5
+    },
+    "voluntad-y-pesimismo": {
+      "titulo": "La voluntad y el pesimismo",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 5
+    },
+    "wu-wei": {
+      "titulo": "Wu wei: la eficacia de no forzar",
+      "corriente_id": "filosofia-china",
+      "orden": 2
+    }
+  }
+}

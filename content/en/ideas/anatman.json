@@ -1,0 +1,101 @@
+{
+  "id": "anatman",
+  "corriente_id": "filosofia-india",
+  "titulo": "Anatman: not-self",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "buda",
+      "rol": "principal",
+      "aporte": "Holds that examining experience turns up only changing processes, with no owner behind them."
+    },
+    {
+      "id": "hume",
+      "rol": "convergente",
+      "aporte": "Twenty-three centuries later and from empiricism, he too fails to find the self on looking within."
+    },
+    {
+      "id": "upanishads-vedanta",
+      "rol": "contrapunto",
+      "aporte": "Within the same Indian tradition, asserts precisely the opposite: there is an ultimate, permanent subject."
+    }
+  ],
+  "pregunta": "If you look for the 'self' inside you, what exactly do you find?",
+  "cita": {
+    "texto": "All phenomena are without a self of their own.",
+    "obra": "Dhammapada, 279",
+    "autor_id": "buda",
+    "atribucion": "directa"
+  },
+  "resumen": "Examining experience turns up only sensations, perceptions and thoughts changing ceaselessly, with nobody behind them having them. The self would be the name of a process, as 'cart' is the name of an assembly of parts.",
+  "desarrollo": "The classic argument uses a cart. Look for the cart: it is not the wheels, nor the axle, nor the box, nor the heaped-up sum of all of them. 'Cart' is the name we give to those parts assembled and working; useful, real as a convention, but not a separate thing existing in addition to the parts. The same with a person. Look inside and there is a warmth, a discomfort, a memory, an intention, all changing, none permanent. The self would be that name. What is striking is that Hume, from British empiricism and with no contact whatever with this tradition, describes exactly the same thing: he stumbles only on particular perceptions and never on the one who has them. And what is striking in the other direction is that the Upanishads, within India itself, hold the opposite: that there is an ultimate subject. The argument is not between East and West, it is internal to both.",
+  "ejemplo_real": "Think of a football club. Every player changes, the manager, the ground, even the colours, and it is still the same club: nobody doubts that, and it occurs to nobody to hunt for where the club is, apart from its members and its continuity. We do exactly the same with a person all the time, except that there it seems to us there must be something more.",
+  "matiz_experto": "The tradition faced the problem immediately: how there can be rebirth and karmic responsibility with no persisting subject. Out of this came the doctrine of dependent origination and contested answers such as the Pudgalavada. In analytic philosophy, Parfit reopened the debate in very close terms.",
+  "visualizacion": {
+    "id": "vis-anatman-buda",
+    "idea_id": "anatman",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user takes something composite apart piece by piece — first a cart, then a mental experience — looking for where the thing resides. Removing the last piece leaves no core, and the name disappears with the assembly. Then they can let the process run: under the same name, states file past, entering and leaving, the first four go one after another, and the flow is still the same one without a single piece persisting.",
+    "invitacion": "Take it apart piece by piece and look for the core",
+    "alternativa_textual": "An object and then a mental experience taken apart piece by piece with no core appearing, and a flow of states that keeps a practical identity without permanent elements: it shows that the self can be the name of a process and not a thing.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "centro": "the self",
+      "vinculos": [
+        {
+          "nombre": "form",
+          "perdida": "The body changes entirely and nobody stops recognising you for it."
+        },
+        {
+          "nombre": "sensations",
+          "perdida": "They appear and go without anything owning them."
+        },
+        {
+          "nombre": "perceptions",
+          "perdida": "Recognising does not require a recogniser apart from the recognising."
+        },
+        {
+          "nombre": "dispositions",
+          "perdida": "Habits carry on with nobody holding them up."
+        },
+        {
+          "nombre": "consciousness",
+          "perdida": "It too arises and ceases: one more process, not its owner."
+        }
+      ],
+      "resolucion": "With the pieces removed, no core is left. 'Self' was the name of the assembly, as 'cart' is the name of its parts.",
+      "alternativaTexto": "An object and then a mental experience taken apart piece by piece with no core appearing, and a flow of states that keeps a practical identity without permanent elements: it shows that the self can be the name of a process and not a thing.",
+      "flujo": {
+        "estados": [
+          "a warmth",
+          "a discomfort",
+          "a memory",
+          "an intention",
+          "a noise",
+          "a tiredness",
+          "an idea",
+          "an urge"
+        ],
+        "avanzar": "Let the process run",
+        "bloqueado": "Take all the pieces apart first",
+        "nota": "Each state leaves and another takes its place, and the name stays on top.",
+        "conclusion": "Not one of the states it started with is left, and the process still answers to the same name: identity was in the continuity, not in any piece that persisted."
+      },
+      "restituir": "Restore the relations",
+      "etiqueta": "Anatman: not-self",
+      "etiquetaNodo": "Cut the link with {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "identidad-personal",
+    "atman-y-brahman",
+    "vacuidad",
+    "flujo-y-permanencia"
+  ]
+}

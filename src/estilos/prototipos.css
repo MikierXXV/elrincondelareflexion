@@ -1,0 +1,122 @@
+@import '../../design/tokens.css';
+/* El marco de las piezas es el mismo que en el sitio y vive en un solo sitio. Ver su cabecera. */
+@import './visualizacion.css';
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: var(--e8) var(--e6) var(--e24);
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: var(--fuente-texto);
+  font-size: var(--t-base);
+  line-height: var(--il-texto);
+  transition: background var(--m-rapido) var(--curva-suave), color var(--m-rapido) var(--curva-suave);
+}
+
+.cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e4);
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto var(--e12);
+}
+
+h1 {
+  font-family: var(--fuente-titulo);
+  font-weight: var(--peso-semibold);
+  font-size: var(--t-grande);
+  line-height: var(--il-titulo);
+  margin: 0;
+}
+
+.entradilla {
+  max-width: var(--medida-texto);
+  color: var(--texto-secundario);
+  margin: var(--e2) 0 0;
+}
+
+.piezas {
+  display: grid;
+  gap: var(--e16);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pieza {
+  border-top: 1px solid var(--separador);
+  padding-top: var(--e6);
+}
+
+.pieza h2 {
+  font-family: var(--fuente-titulo);
+  font-weight: var(--peso-semibold);
+  font-size: var(--t-medio);
+  line-height: var(--il-titulo);
+  margin: 0 0 var(--e1);
+}
+
+.pieza .pregunta {
+  font-family: var(--fuente-titulo);
+  font-size: var(--t-base);
+  color: var(--texto);
+  max-width: var(--medida-corta);
+  margin: 0 0 var(--e4);
+}
+
+.pieza .meta {
+  font-size: var(--t-micro);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--texto-secundario);
+  margin: 0 0 var(--e6);
+}
+
+/* Panel de lectura de las escenas 3D: vive en el DOM y no en la escena porque es texto, y el texto
+   debe ser seleccionable y legible por un lector de pantalla. */
+.vis-panel-percepcion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e2);
+  margin-top: var(--e3);
+  font-size: var(--t-micro);
+}
+.vis-panel-percepcion span {
+  padding: var(--e1) var(--e2);
+  border-radius: var(--r-sutil);
+  border: 1px solid var(--separador);
+}
+.vis-panel-percepcion .si { color: var(--texto); }
+.vis-panel-percepcion .no {
+  color: var(--texto-secundario);
+  border-style: dashed;
+}
+
+.vis-respaldo {
+  padding: var(--e6);
+  border: 1px dashed var(--borde-interactivo);
+  border-radius: var(--r-card);
+  font-size: var(--t-pequeno);
+}
+.vis-respaldo p { margin: 0; }
+
+#alternar-tema {
+  font: inherit;
+  font-size: var(--t-pequeno);
+  color: var(--texto);
+  background: transparent;
+  border: 1px solid var(--borde-interactivo);
+  border-radius: var(--r-card);
+  padding: var(--e2) var(--e4);
+  cursor: pointer;
+}
+
+@media (min-width: 900px) {
+  /* Las tres al mismo ancho. Antes la escena 3D ocupaba la fila entera y eso exageraba la
+     diferencia de registro: parecía un problema de sistema cuando era del banco de pruebas.
+     En el producto cada idea tiene su propia pantalla, así que aquí deben medir lo mismo. */
+  .piezas { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "calculo-de-la-felicidad",
+  "corriente_id": "utilitarismo",
+  "titulo": "El cálculo de la felicidad",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "bentham",
+      "rol": "principal",
+      "aporte": "Propone un criterio único y verificable: sumar el bienestar y el sufrimiento de todos los afectados."
+    }
+  ],
+  "pregunta": "¿Se pueden sumar los bienes y los males de todos para decidir qué hacer?",
+  "cita": {
+    "texto": "La naturaleza ha puesto al hombre bajo el gobierno del dolor y el placer.",
+    "obra": "Introducción a los principios de la moral y la legislación, 1789",
+    "autor_id": "bentham",
+    "atribucion": "directa"
+  },
+  "resumen": "Una ley o una acción es correcta en la medida en que produce el mayor bienestar para el mayor número, contando a cada persona por una y a ninguna por más de una.",
+  "desarrollo": "Bentham no discutía en abstracto: quería desmontar un sistema legal que ahorcaba por robar una oveja y que se justificaba apelando a la costumbre. Frente a eso propone una prueba que cualquiera puede aplicar y discutir: sumar el bienestar y el sufrimiento que una medida produce en todos los afectados, considerando su intensidad, su duración y a cuánta gente alcanza. Lo verdaderamente radical no es el cálculo, es a quién incluye en él. Entraban las mujeres, las personas sin propiedades y también los animales, sobre los que escribió que la pregunta relevante no es si pueden razonar o hablar, sino si pueden sufrir. Rechazó la idea de derechos naturales por considerarla retórica sin contenido verificable. De ese criterio salieron reformas penales, penitenciarias y electorales concretas.",
+  "ejemplo_real": "Es el razonamiento de cualquier decisión de salud pública: repartir un número limitado de vacunas, decidir dónde poner un paso de peatones, fijar un límite de velocidad. Nadie lo resuelve consultando principios abstractos; se cuentan personas afectadas y magnitud del daño evitado. El cálculo utilitarista es la gramática de esas decisiones aunque nadie lo nombre.",
+  "matiz_experto": "La objeción estructural es que un criterio puramente agregativo puede justificar sacrificar a una minoría si la suma sale favorable. Es exactamente el punto contra el que Rawls construye su teoría, al acusar al utilitarismo de no tomar en serio la distinción entre personas.",
+  "visualizacion": {
+    "id": "vis-calculo-bentham",
+    "idea_id": "calculo-de-la-felicidad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario decide sobre un caso y ve el resultado como una suma visible de bienestar y sufrimiento repartidos entre personas concretas. Puede ampliar o reducir el círculo de afectados —¿entran los ausentes? ¿los animales?— y observar cómo la decisión óptima cambia. Un aviso aparece cuando la suma total sale favorable a costa de hundir a una minoría concreta.",
+    "invitacion": "Reparte el bienestar y vigila los tres indicadores",
+    "alternativa_textual": "Una suma de bienestar y sufrimiento repartida entre personas concretas, cuyo resultado óptimo cambia al ampliar el círculo de afectados y que señala los casos en que el total mejora hundiendo a una minoría: demuestra el criterio utilitarista y su punto débil.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "recipientes",
+    "parametros": {
+      "corrienteId": "utilitarismo",
+      "unidad": "bienestar",
+      "recipientes": [
+        {
+          "nombre": "la mayoría",
+          "capacidad": 9,
+          "nota": "Cada unidad cuenta por una, venga de quien venga."
+        },
+        {
+          "nombre": "unos pocos",
+          "capacidad": 9,
+          "nota": "También cuentan por uno: nadie vale más de uno."
+        },
+        {
+          "nombre": "una minoría",
+          "capacidad": 9,
+          "nota": "Si la suma sale favorable, el criterio no impide dejarla a cero. Ahí está la objeción."
+        }
+      ],
+      "indicadores": [
+        "total",
+        "media",
+        "suelo"
+      ],
+      "resolucion": "El total puede subir mientras el suelo se queda en cero. Ese es el criterio de Bentham, y también lo que Rawls le reprocha: no toma en serio la distinción entre personas.",
+      "alternativaTexto": "Una suma de bienestar repartida entre personas concretas, con indicadores simultáneos de total, media y peor situado, que pueden moverse en direcciones opuestas: demuestra el criterio utilitarista y su punto débil.",
+      "vaciar": "Vaciar y empezar de nuevo",
+      "etiqueta": "El cálculo de la felicidad",
+      "etiquetaZona": "Añadir a {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "placeres-superiores",
+    "velo-de-la-ignorancia",
+    "imperativo-categorico",
+    "principio-de-diferencia"
+  ]
+}

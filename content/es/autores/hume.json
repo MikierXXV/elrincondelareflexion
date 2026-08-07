@@ -1,0 +1,37 @@
+{
+  "id": "hume",
+  "nombre": "David Hume",
+  "corriente_id": "empirismo",
+  "periodo": "1711–1776",
+  "region": "Escocia, Francia",
+  "preguntas_filosoficas": [
+    "¿Vemos alguna vez la causalidad o solo la suponemos?",
+    "¿Se puede deducir lo que debe ser de lo que es?",
+    "¿Existe un yo o solo un flujo de estados?"
+  ],
+  "citas": [
+    {
+      "texto": "La razón es, y solo debe ser, esclava de las pasiones.",
+      "obra": "Tratado de la naturaleza humana II, 3, 3",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Mostró que nunca observamos la causa: solo vemos que una cosa sigue a otra muchas veces y es la costumbre, no la razón, la que añade el vínculo.",
+  "nivel_2_desarrollo": "Hume examina la idea de causa y no encuentra ninguna impresión que le corresponda: vemos la bola golpear y la otra moverse, pero no vemos el 'porque'. Lo que hay es contigüidad, sucesión y repetición, y a partir de ahí un hábito mental que nos hace esperar el efecto. De ahí su problema de la inducción: fiarnos de que el futuro se parecerá al pasado no tiene justificación racional, porque cualquier argumento a favor ya presupone esa regularidad. Aplica el mismo bisturí al yo: al mirar dentro no encuentra una sustancia, sino una sucesión de percepciones. Y en ética observa que muchos razonamientos pasan sin aviso de describir cómo son las cosas a prescribir cómo deben ser, un salto que no se sostiene solo. Para él la moral no se funda en la razón sino en el sentimiento, y la razón está al servicio de nuestras pasiones.",
+  "nivel_3_experto": "La lectura de Hume ha oscilado entre el escéptico destructivo y el 'naturalista' que describe cómo funciona de hecho la mente humana; esta segunda interpretación, impulsada por Kemp Smith, es hoy dominante pero no unánime. La cuestión del 'nuevo Hume' añade otra capa: si niega la existencia de conexiones causales objetivas o solo nuestra capacidad de conocerlas, lo que lo convertiría en un realista escéptico. Su problema de la inducción sigue siendo un núcleo activo de la epistemología, y las respuestas —de Popper a los enfoques bayesianos— se miden todavía contra su formulación. La ley de Hume, o falacia naturalista según la versión de Moore, estructura la metaética contemporánea. Su teoría del haz de percepciones lo dejó insatisfecho a él mismo: en el apéndice del Tratado reconoce no poder explicar qué unifica esas percepciones, un pasaje muy trabajado por los especialistas. Su Diálogos sobre la religión natural, publicados póstumamente, contienen la crítica más influyente del argumento del diseño. Kant afirmó que Hume lo despertó de su 'sueño dogmático', y toda la Crítica de la razón pura puede leerse como respuesta a su desafío.",
+  "debate_abierto": "El debate del 'nuevo Hume' sobre si es antirrealista o realista escéptico acerca de la causalidad está abierto, igual que el problema de la inducción que él planteó.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — David Hume",
+      "url": "https://plato.stanford.edu/entries/hume/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — The Problem of Induction",
+      "url": "https://plato.stanford.edu/entries/induction-problem/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — David Hume",
+      "url": "https://iep.utm.edu/hume/"
+    }
+  ]
+}

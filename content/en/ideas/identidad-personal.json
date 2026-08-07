@@ -1,0 +1,106 @@
+{
+  "id": "identidad-personal",
+  "corriente_id": "empirismo",
+  "titulo": "Personal identity",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "locke",
+      "rol": "principal",
+      "aporte": "Makes identity depend on the continuity of consciousness and memory, not on the body or the soul."
+    },
+    {
+      "id": "hume",
+      "rol": "contrapunto",
+      "aporte": "Goes further: looking inward he finds no self at all, only a succession of perceptions."
+    }
+  ],
+  "pregunta": "What makes you the same person you were twenty years ago?",
+  "cita": {
+    "texto": "The identity of a person reaches as far as their consciousness reaches.",
+    "obra": "Essay Concerning Human Understanding II, 27",
+    "autor_id": "locke",
+    "atribucion": "directa"
+  },
+  "resumen": "It is not the body, which has been entirely renewed, nor a soul that nobody can examine. Locke proposes that what makes you the same is the continuity of your consciousness; Hume replies that not even that is there.",
+  "desarrollo": "Locke moves the question from the ground of substance to that of memory: I am the same person as that child insofar as I can recognise his memories as mine. It is a proposal with immediate practical consequences, because it ties identity to responsibility: punishing someone for something they cannot recognise as their own stops making sense. Hume goes one step further and removes the floor as well. He says that when he looks inside himself for the self, he never finds it: he only stumbles on particular perceptions — a warmth, a discomfort, a memory — following one another without rest. The self would be the name of that succession, not something that owns it. And in the appendix to his own book he admits that he cannot explain what unifies them, a rare piece of honesty.",
+  "ejemplo_real": "You read a message you wrote fifteen years ago and do not recognise the person who wrote it: you do not think that way, that does not worry you, you do not talk like that. And yet it was your name. At the same time, if tomorrow someone had your complete memories and you did not, it is hard to say which of the two would be you.",
+  "matiz_experto": "The memory criterion drew Reid's objection: the officer who remembers his childhood and the general who remembers the officer but not the childhood break transitivity. Neo-Lockeans answer with chains of overlapping psychological connections, and the debate remains fully open.",
+  "visualizacion": {
+    "id": "vis-identidad-locke",
+    "idea_id": "identidad-personal",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "A life-line with threads of memory: the short ones join neighbouring moments and the long ones leap over them, overlapping. The user cuts whichever thread they like and sees whether the ends are still linked by some other route. Cutting one stretch separates nothing while something still covers it; when the overlap goes too, the line breaks in two. Between the first moment and the last there is never a direct thread at all.",
+    "invitacion": "Cut a thread and see if the ends stay joined",
+    "alternativa_textual": "A life-line joined by threads of memory that can be broken in stretches, showing that identity can be sustained by overlapping links even when the ends do not recognise one another.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "modo": "linea",
+      "centro": "the same person",
+      "momentos": [
+        "childhood",
+        "your twenties",
+        "your forties",
+        "last year",
+        "today"
+      ],
+      "vinculos": [
+        {
+          "nombre": "childhood and your twenties",
+          "desde": 0,
+          "hasta": 1,
+          "perdida": "You no longer remember at first hand the child you were: only what you have been told about him."
+        },
+        {
+          "nombre": "your twenties and your forties",
+          "desde": 1,
+          "hasta": 2,
+          "perdida": "You read what you wrote back then and do not recognise the person who wrote it."
+        },
+        {
+          "nombre": "your forties and last year",
+          "desde": 2,
+          "hasta": 3,
+          "perdida": "A whole stretch is left with nobody remembering it from the inside."
+        },
+        {
+          "nombre": "last year and today",
+          "desde": 3,
+          "hasta": 4,
+          "perdida": "Cut the nearest link and even yesterday stops being yours."
+        },
+        {
+          "nombre": "childhood and your forties",
+          "desde": 0,
+          "hasta": 2,
+          "perdida": "This was the long thread covering the middle stretch: without it the beginning comes loose."
+        },
+        {
+          "nombre": "your forties and today",
+          "desde": 2,
+          "hasta": 4,
+          "perdida": "The overlap that was holding up the second half of the line."
+        }
+      ],
+      "unida": "The ends do not recognise each other and stay linked: each stretch overlaps the next one.",
+      "rota": "With no thread covering the stretch, the line breaks into two different people.",
+      "resolucion": "It is not the body nor a soul nobody can examine: what holds identity up are overlapping links of consciousness. Hume goes further and says not even that remains.",
+      "alternativaTexto": "A life-line joined by threads of memory that can be broken in stretches, showing that identity can be sustained by overlapping links even when the ends do not recognise one another.",
+      "restituir": "Restore the threads",
+      "etiqueta": "Personal identity",
+      "etiquetaNodo": "Cut the thread between {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "tabula-rasa",
+    "anatman",
+    "flujo-y-permanencia",
+    "el-tiempo-en-el-alma"
+  ]
+}

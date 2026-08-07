@@ -1,0 +1,99 @@
+{
+  "id": "tabula-rasa",
+  "corriente_id": "empirismo",
+  "titulo": "The mind as a blank page",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "locke",
+      "rol": "principal",
+      "aporte": "Denies innate ideas and derives all mental content from experience."
+    }
+  ],
+  "pregunta": "Do we arrive with something already written, or does experience put it all there?",
+  "cita": {
+    "texto": "No human knowledge can go beyond its experience.",
+    "obra": "Condensed from An Essay Concerning Human Understanding, Book II",
+    "autor_id": "locke",
+    "atribucion": "tradicional",
+    "nota": "A condensed formulation of a thesis Locke develops across several chapters, not a literal sentence."
+  },
+  "resumen": "Locke holds that we are not born with ideas already in place: the mind begins empty and all its content enters through experience, whether of the senses or of observing our own mental operations.",
+  "desarrollo": "His attack on innate ideas uses a simple, checkable argument: if there were principles engraved in every human mind, children and people from very different cultures would recognise them on hearing them, and they do not. All the material of thought would then come from two sources: sensation, which supplies colours, sounds and resistances, and reflection, which supplies the observation of what we do when we think, doubt or want. Out of those simple elements the mind composes the rest by combining, comparing and abstracting. From this he also draws an influential distinction between qualities that would be in bodies — extension, number, motion — and those that depend on our perceptual apparatus, like colour or taste. The political consequence is enormous: if nothing is given, education and conditions matter more than birth.",
+  "ejemplo_real": "Try to imagine a colour you have never seen. Not an odd shade: a genuinely new one. It cannot be done. You can imagine a unicorn because you combine horse and horn, but you cannot manufacture a simple element that has not entered first. That is where the limit Locke describes becomes visible.",
+  "matiz_experto": "The strong thesis has not held up: there is solid evidence today of biases and capacities present very early, from sensitivity to grammar to basic expectations about physical objects. What did hold up is the method: requiring every idea to show where it came from.",
+  "visualizacion": {
+    "id": "vis-tabula-locke",
+    "idea_id": "tabula-rasa",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user offers ideas to a gate that decomposes them and checks whether all their elements have already come in. A complex idea offered first is turned away, and the same idea offered after its elements is admitted. The only ones requiring nothing prior are those coming from the senses.",
+    "invitacion": "Offer a complex idea before its parts",
+    "alternativa_textual": "A panel that admits only content derived from previous experiences and that breaks every complex idea into elements that must have entered first: it demonstrates the thesis that nothing is in the mind that has not passed through experience.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "descomponer",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "modo": "puerta",
+      "conjunto": "Offer an idea to the gate",
+      "accion": "Offer",
+      "piezas": [],
+      "candidatos": [
+        {
+          "nombre": "Colours and sounds",
+          "requiere": [],
+          "admitido": "Admitted. It decomposes into nothing prior because it arrives from outside: it is the way everything else comes in.",
+          "rechazado": ""
+        },
+        {
+          "nombre": "Doubting and comparing",
+          "requiere": [
+            "Colours and sounds"
+          ],
+          "admitido": "Admitted. It does not come from outside but from watching what the mind does with what it already received.",
+          "rechazado": "Turned away: there is nothing yet to doubt or to compare."
+        },
+        {
+          "nombre": "A mountain of gold",
+          "requiere": [
+            "Colours and sounds",
+            "Doubting and comparing"
+          ],
+          "admitido": "Admitted. Nobody has seen one, but both its pieces did come in, and joining them is an operation of the mind.",
+          "rechazado": "Turned away: joining two seen things requires being able to compare them, and that has not come in yet."
+        },
+        {
+          "nombre": "The idea of substance",
+          "requiere": [
+            "Colours and sounds",
+            "Doubting and comparing",
+            "A mountain of gold"
+          ],
+          "admitido": "Admitted, and with this none has come in whole on its own.",
+          "rechazado": "Turned away: it is a supposed support of qualities, and the qualities must be there before their supposed support."
+        }
+      ],
+      "dentro": "Inside: {lista}",
+      "dentroVacio": "Nothing is inside yet.",
+      "porLosSentidos": "Comes in through the senses",
+      "veredicto": "",
+      "etiqueta": "The mind as a blank page",
+      "veredictos": {
+        "verdadero": "holds",
+        "falso": "does not hold",
+        "indeterminado": "undetermined"
+      },
+      "resolucion": "None came in whole on its own. What looked as if it had been in the mind from the start turned out to be a composition of what had come in before, and the order in which they are admitted is not negotiable.",
+      "alternativaTexto": "A panel that admits only content derived from previous experiences and that breaks every complex idea into elements that must have entered first: it demonstrates the thesis that nothing is in the mind that has not passed through experience."
+    }
+  },
+  "ideas_relacionadas": [
+    "identidad-personal",
+    "ser-es-ser-percibido",
+    "causalidad-como-habito",
+    "condiciones-a-priori"
+  ]
+}

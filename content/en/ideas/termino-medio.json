@@ -1,0 +1,71 @@
+{
+  "id": "termino-medio",
+  "corriente_id": "clasica-griega",
+  "titulo": "The mean between extremes",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "aristoteles",
+      "rol": "principal",
+      "aporte": "Defines virtue as a point of balance that depends on the situation and is acquired by habit."
+    }
+  ],
+  "pregunta": "Do you learn to be a good person the way you learn a trade?",
+  "cita": {
+    "texto": "Virtue is a mean between excess and deficiency.",
+    "obra": "Nicomachean Ethics II, 6",
+    "autor_id": "aristoteles",
+    "atribucion": "directa"
+  },
+  "resumen": "Virtue is not a rule applied identically every time, but a point of balance between two excesses, one that shifts with each situation and is acquired by repeating acts rather than by grasping theories.",
+  "desarrollo": "Aristotle is not trying to define the Good in the abstract, but to describe what makes a human life flourish. His answer is that the virtues are stable dispositions lying between two opposite failings: courage between recklessness and cowardice, generosity between extravagance and meanness. The crucial point is that this mean is neither arithmetical nor fixed. What counts as courage in one situation is imprudence in another, and getting it right in each concrete case is the work of practical wisdom, a know-how that cannot be deduced from principles. Hence the most useful consequence of his whole ethics: the virtues are acquired the way trades are, by practising them. You become just by doing just things, as you become a carpenter by making furniture. Nobody learns to play an instrument by reading about music.",
+  "ejemplo_real": "Telling someone what you actually think. Always swallowing it is cowardice; blurting everything out unfiltered is not sincerity, it is tactlessness. And the right point moves: it is not the same with your boss, with your partner, or with someone who has just had bad news. Nobody can hand you the rule; it is only tuned by practice.",
+  "matiz_experto": "It remains debated whether the Aristotelian good life is 'inclusive' — integrating several goods — or culminates in the contemplative life of Book X, which would leave the mean as something preparatory.",
+  "visualizacion": {
+    "id": "vis-medio-aristoteles",
+    "idea_id": "termino-medio",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user moves a slider between two extremes — 'recklessness' and 'cowardice' — and sees how a concrete scene responds. Change the underlying situation (a fire, an argument, a medical decision) and the right point shifts along the axis without warning, so the position that worked before stops working. Repeating the same situation several times narrows the zone of success.",
+    "invitacion": "Find the right point, then change the situation",
+    "alternativa_textual": "An axis with two vicious extremes whose correct point shifts when the situation changes, and whose zone of success narrows with practice: it shows that virtue is not a fixed rule but a judgement tuned by habit.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "An axis between two excesses with a movable marker",
+      "etiquetaMarcador": "Where your response sits between the two excesses",
+      "resolucionFinal": "The right point moved in every case. You did not learn a rule: you tuned a judgement.",
+      "alternativaTexto": "An axis with two vicious extremes whose correct point shifts when the situation changes, and whose zone of success narrows with practice: it shows that virtue is not a fixed rule but a judgement tuned by habit.",
+      "situaciones": [
+        {
+          "nombre": "A fire in your building",
+          "medio": 0.62,
+          "extremoBajo": "cowardice",
+          "extremoAlto": "recklessness",
+          "acierto": "Raise the alarm and get out, helping whoever you can, without going in to fight it."
+        },
+        {
+          "nombre": "An argument with your boss",
+          "medio": 0.44,
+          "extremoBajo": "submission",
+          "extremoAlto": "insolence",
+          "acierto": "Say what you think without turning it into a trial of strength."
+        },
+        {
+          "nombre": "A hard medical decision",
+          "medio": 0.3,
+          "extremoBajo": "passivity",
+          "extremoAlto": "rashness",
+          "acierto": "Ask, wait for the missing piece of information, and do not rush."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "animal-politico",
+    "ren-y-li",
+    "calculo-de-la-felicidad"
+  ]
+}

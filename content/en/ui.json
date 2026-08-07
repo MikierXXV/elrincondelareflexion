@@ -1,0 +1,112 @@
+{
+  "documento": {
+    "titulo": "El Rincón de la Reflexión — The Thinking Corner",
+    "descripcion": "An interactive journey through the history of philosophy, organised by ideas: from the Presocratics to twentieth-century psychology, with the Chinese, Indian and Islamic traditions on their own timelines."
+  },
+  "barra": {
+    "saltar_a_contenido": "Skip to the journey",
+    "tema_a_oscuro": "Switch to dark theme",
+    "tema_a_claro": "Switch to light theme",
+    "idioma": "Idioma: cambiar a español",
+    "idioma_corto": "ES"
+  },
+  "hero": {
+    "titular": "Twenty-five centuries of questions that are still open.",
+    "cifras": "{ideas} ideas · {corrientes} schools · {autores} thinkers",
+    "entradilla": "A journey through the ideas, not the names. The West, China, India, the Islamic world and twentieth-century psychology, each tradition on its own timeline. Every idea can be handled: it isn't illustrated, it's tested.",
+    "entrar": "Walk through the ideas",
+    "cromos": "See the cards",
+    "escena": "A seated figure leaning forward, elbow on knee, in the attitude of thinking",
+    "seguir": "Continue at «{donde}»",
+    "seguir_cromos": "Continue at the cards"
+  },
+  "recorrido": {
+    "contemporanea_de": "Contemporary with {corrientes}",
+    "entrar_en_las_ideas": "Enter the ideas",
+    "saltar_a": "Skip to {corriente} →",
+    "ir_a_cromos": "Go to the cards →",
+    "situacion_idea": "{corriente} · idea {n} of {total}",
+    "atribucion": "attribution",
+    "en_la_vida_real": "In real life",
+    "lo_que_simplifica": "What this simplifies",
+    "siguiente_idea": "Next idea →",
+    "ver_ficha": "see profile →",
+    "vis_fallida": "The visualisation could not be loaded.",
+    "roles": {
+      "principal": "lead",
+      "contrapunto": "counterpoint",
+      "convergente": "convergent",
+      "desarrollo": "development"
+    }
+  },
+  "ficha": {
+    "volver_a_idea": "back to the idea",
+    "volver_a_cromos": "back to the cards",
+    "cerrar": "Close",
+    "preguntas_de_fondo": "Underlying questions",
+    "ideas_de_su_corriente": "Ideas from their school in the journey",
+    "estas_aqui": "{titulo} ← you are here",
+    "modo_experto": "Expert mode — nuances, scholarly debate, sources",
+    "en_disputa": "Contested",
+    "fuentes": "Sources"
+  },
+  "widget": {
+    "etiqueta": "Position in the journey",
+    "ir_a_cromos": "The thinkers →",
+    "inicio": "Start",
+    "posicion_idea": "{corriente}, idea {idea}"
+  },
+  "umbral": {
+    "cierre": "So far, the ideas in order.",
+    "cambio": "From here on, the people who thought them."
+  },
+  "cromos": {
+    "titulo": "The {autores}",
+    "camino": "Path of schools",
+    "pista_inicial": "Point at a card to see which school it belongs to.",
+    "pista_corriente": "{corriente} · {autores} thinkers · {ideas} ideas",
+    "pista_bloque": "{bloque} · {corrientes} schools · {autores} thinkers",
+    "todos": "All"
+  },
+  "vis": {
+    "respaldo_3d": "<p><strong>Static version.</strong> This device cannot show the 3D scene, or you have asked for reduced motion.</p>",
+    "ampliar": "View larger",
+    "ampliada": "Full-screen visualisation",
+    "cerrar_ampliada": "✕ Close",
+    "alternativa_resumen": "What this piece demonstrates"
+  },
+  "pie": {
+    "copyright": "© 2026 M. Gutiérrez",
+    "creditos": "Sources and credits"
+  },
+  "creditos": {
+    "titulo": "Sources and credits",
+    "intro": "What on this site is its own work and what is not, and on what terms the rest is used.",
+    "volver": "back to the site",
+    "secciones": [
+      {
+        "titulo": "The content",
+        "cuerpo": "The texts are written and synthesised from academic sources, never copied. Quotations are short excerpts with their work named, and those of traditional or doubtful attribution are flagged as such within the profile itself.",
+        "enlace": null
+      },
+      {
+        "titulo": "The visualisations",
+        "cuerpo": "The fifty-nine pieces along the journey are our own geometry, physics and animation. There are no third-party illustrations.",
+        "enlace": null
+      },
+      {
+        "titulo": "The hero figure",
+        "cuerpo": "Based on a photogrammetry scan of Rodin’s The Thinker by Rigsters, used under a Creative Commons Attribution licence (CC BY). Modifications: mesh reduced from 50,974 to 25,486 triangles, textures removed, and recentred and rescaled for the framing. The bronze and the lighting are our own. Rodin’s sculpture is in the public domain — he died in 1917; what is licensed is the scan, which is a separate work.",
+        "enlace": {
+          "texto": "The Thinker by Auguste Rodin, by Rigsters",
+          "url": "https://sketchfab.com/3d-models/the-thinker-by-auguste-rodin-08a1e693c9674a3292dec2298b09e0ae"
+        }
+      },
+      {
+        "titulo": "Typefaces",
+        "cuerpo": "Newsreader and Inter, both under the SIL Open Font License 1.1. They are served from this site, not from a third party. Modifications: trimmed to the Latin alphabets, optical size axis pinned and weight axis limited to the three the design uses, from 415 kB to 82 kB. Neither licence reserves the family name, so both keep their own.",
+        "enlace": null
+      }
+    ]
+  }
+}

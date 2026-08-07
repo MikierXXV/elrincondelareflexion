@@ -1,0 +1,36 @@
+{
+  "id": "wittgenstein",
+  "nombre": "Ludwig Wittgenstein",
+  "corriente_id": "analitica",
+  "periodo": "1889–1951",
+  "region": "Vienna, Cambridge",
+  "preguntas_filosoficas": [
+    "Where do words get their meaning from?",
+    "Can there be a language only I understand?"
+  ],
+  "citas": [
+    {
+      "texto": "Whereof one cannot speak, thereof one must be silent.",
+      "obra": "Tractatus Logico-Philosophicus, 7",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He changed his mind about his own work: first he thought language works as a picture of the world, and later that its sense comes from the use we make of it in practice.",
+  "nivel_2_desarrollo": "In his first period Wittgenstein held that a proposition has sense because it shares a structure with the fact it represents, as a plan does with the ground; what cannot be said that way — ethics, the meaning of life — fell outside language. Years later he dismantled that model. His mature idea is that the meaning of a word is its use in a context of shared activity, which he calls language games: 'water' does not mean the same in a warning, a request or a label. He adds that many concepts have no single definition but a family resemblance, as with 'game', where no feature appears in every case. And he argues that a strictly private language would be impossible, because without a public criterion there is no difference between using a word correctly and believing you are.",
+  "nivel_3_experto": "The relation between the Tractatus and the Philosophical Investigations is one of the great problems of exegesis: the traditional reading sees two successive philosophies, while the 'New Wittgenstein' of Diamond and Conant proposes a resolute reading of the first according to which its metaphysical propositions are deliberately nonsensical — not ineffable truths — a much-disputed thesis. The private language argument and the rule-following paradox have generated an enormous literature since Kripke's sceptical reading — 'Kripkenstein', which many consider an original construction rather than exegesis — and the communitarian answer against the individualist one of Baker and Hacker. His influence on the Vienna Circle was decisive but based, on his own account, on a misunderstanding of his intentions, and his conception of philosophy as a therapeutic activity that dissolves problems rather than solving them separates him both from positivism and from later analytic metaphysics. His last notes, published as On Certainty, reformulate scepticism by showing that doubting presupposes practical certainties that are not justified but acted.",
+  "debate_abierto": "The resolute reading of the Tractatus and the interpretation of rule-following — individualist against communitarian — are fully open controversies.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ludwig Wittgenstein",
+      "url": "https://plato.stanford.edu/entries/wittgenstein/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Private Language",
+      "url": "https://plato.stanford.edu/entries/private-language/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ludwig Wittgenstein",
+      "url": "https://iep.utm.edu/wittgens/"
+    }
+  ]
+}

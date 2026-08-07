@@ -1,0 +1,74 @@
+{
+  "id": "hablar-de-lo-que-no-existe",
+  "corriente_id": "analitica",
+  "titulo": "Hablar de lo que no existe",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "russell",
+      "rol": "principal",
+      "aporte": "Muestra que una frase sobre algo inexistente puede analizarse sin postular entidades fantasma."
+    }
+  ],
+  "pregunta": "Si no hay ningún rey de Francia, ¿de qué habla la frase «el rey de Francia es calvo»?",
+  "cita": {
+    "texto": "Los necios están seguros; los sabios, llenos de dudas.",
+    "obra": "The Triumph of Stupidity, 1933",
+    "autor_id": "russell",
+    "atribucion": "directa"
+  },
+  "resumen": "Parecía que para tener sentido, una frase sobre algo inexistente debía referirse a algo. Russell la desarma en tres afirmaciones y el problema desaparece: simplemente es falsa.",
+  "desarrollo": "El caso es el que hizo escuela. «El actual rey de Francia es calvo» tiene sentido, se entiende perfectamente, y sin embargo no hay ningún rey de Francia. La tentación es concluir que debe existir algún tipo de objeto no real al que la frase se refiere, y hay filósofos que lo defendieron. Russell propone leerla de otro modo: como la conjunción de tres afirmaciones. Existe al menos un rey de Francia; existe como mucho uno; y ese es calvo. Al fallar la primera, la frase entera es sencillamente falsa, sin necesidad de postular nada. El interés no está en el ejemplo, sino en el método: traducir el lenguaje ordinario a una forma lógica explícita revela que la gramática de una frase no siempre coincide con lo que realmente afirma. Ese procedimiento define el estilo de la filosofía analítica.",
+  "ejemplo_real": "«¿Has dejado ya de saltarte las normas?» Cualquier respuesta directa concede algo que no habías aceptado. La trampa está en que la pregunta cuela una afirmación dentro de otra, y responder «sí» o «no» la da por buena. Desarmar la frase en las piezas que realmente afirma es lo que te deja contestar.",
+  "matiz_experto": "Strawson objetó que la existencia se presupone y no se afirma, y Donnellan distinguió usos referenciales y atributivos. Kripke reorientó luego todo el campo con su crítica a las teorías descriptivistas del nombre propio, así que el análisis russelliano ya no es la posición estándar.",
+  "visualizacion": {
+    "id": "vis-descripciones-russell",
+    "idea_id": "hablar-de-lo-que-no-existe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario introduce una frase con un sujeto que no existe y la visualización la desarma en sus tres condiciones lógicas, cada una con su interruptor de verdadero o falso. Al fallar la primera, la frase entera se marca como falsa sin que aparezca ninguna entidad fantasma en la escena: el objeto inexistente nunca llega a hacer falta.",
+    "invitacion": "Desarma la frase y comprueba cada condición",
+    "alternativa_textual": "Una frase sobre algo inexistente descompuesta en tres condiciones lógicas independientes, de modo que resulta falsa sin necesidad de postular ningún objeto al que se refiera: demuestra que la gramática de una frase no coincide con lo que afirma.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "descomponer",
+    "parametros": {
+      "corrienteId": "analitica",
+      "conjunto": "El actual rey de Francia es calvo",
+      "accion": "Separar en lo que realmente afirma",
+      "piezas": [
+        {
+          "nombre": "Existe un rey de Francia",
+          "estado": "falso",
+          "nota": "Aquí falla. Y con esto basta para que la frase entera sea falsa."
+        },
+        {
+          "nombre": "Existe como mucho uno",
+          "estado": "verdadero",
+          "nota": "Trivialmente cierto: no hay ninguno, así que no hay dos."
+        },
+        {
+          "nombre": "Ese es calvo",
+          "estado": "indeterminado",
+          "nota": "No llega a evaluarse, porque no hay de quién predicarlo."
+        }
+      ],
+      "veredicto": "La frase es falsa. No hizo falta ningún objeto inexistente.",
+      "resolucion": "La gramática de una frase no coincide con lo que afirma. Al desarmarla, el objeto fantasma nunca llega a hacer falta.",
+      "alternativaTexto": "Una frase sobre algo inexistente descompuesta en tres condiciones lógicas independientes, de modo que resulta falsa sin necesidad de postular ningún objeto al que se refiera: demuestra que la gramática de una frase no coincide con lo que afirma.",
+      "etiqueta": "Hablar de lo que no existe",
+      "veredictos": {
+        "verdadero": "se cumple",
+        "falso": "no se cumple",
+        "indeterminado": "sin determinar"
+      }
+    }
+  },
+  "ideas_relacionadas": [
+    "limites-del-lenguaje",
+    "significado-como-uso",
+    "esencia-y-existencia"
+  ]
+}

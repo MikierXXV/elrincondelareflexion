@@ -1,0 +1,36 @@
+{
+  "id": "spinoza",
+  "nombre": "Baruch Spinoza",
+  "corriente_id": "racionalismo",
+  "periodo": "1632–1677",
+  "region": "Ámsterdam, La Haya",
+  "preguntas_filosoficas": [
+    "¿Y si Dios y la naturaleza fueran lo mismo?",
+    "¿Somos libres o solo ignoramos las causas que nos mueven?"
+  ],
+  "citas": [
+    {
+      "texto": "No reír, no llorar, no detestar, sino comprender.",
+      "obra": "Tratado político I, 4",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que solo existe una realidad única —a la que llamó indistintamente Dios o Naturaleza— y que la libertad no consiste en escapar de las causas, sino en comprenderlas.",
+  "nivel_2_desarrollo": "Spinoza escribió su Ética con la forma de un tratado de geometría: definiciones, axiomas y proposiciones demostradas. De ahí deduce que no puede haber más que una sustancia infinita, y que todo lo demás —los cuerpos, las mentes, los acontecimientos— son modos suyos. No hay, por tanto, un creador aparte del mundo ni un plan con propósitos. Su tesis sobre la libertad es igual de radical: nos creemos libres porque somos conscientes de nuestros deseos e ignoramos qué los causó, como una piedra lanzada que creyera estar volando por decisión propia. Pero su conclusión no es resignada: entender las causas de lo que sentimos transforma la emoción que padecemos en una que comprendemos, y ahí sitúa él la única libertad posible y la vida más gozosa.",
+  "nivel_3_experto": "El paralelismo spinoziano —pensamiento y extensión como dos atributos del mismo orden único— evita el problema cartesiano de la interacción al precio de negar la causalidad entre mente y cuerpo, y es el motivo por el que se lo lee como precursor de las teorías de doble aspecto en filosofía de la mente. El conatus, tendencia de cada cosa a perseverar en su ser, funciona como principio unificador de su psicología y su ética, y su análisis genético de los afectos anticipa aspectos del enfoque psicoanalítico y de la teoría cognitiva de las emociones. Las disputas interpretativas de peso incluyen si su necesitarismo es tan estricto que elimina toda contingencia, el significado del 'amor intelectual de Dios' y de la eternidad de la mente en la parte quinta —que muchos consideran la sección más oscura del libro—, y hasta qué punto su Tratado teológico-político, con su crítica histórica de la Escritura y su defensa de la libertad de expresión, lo convierte en fundador de la Ilustración radical, tesis defendida con fuerza por Jonathan Israel y matizada por otros. Fue expulsado de su comunidad judía a los veintitrés años y publicó casi toda su obra póstumamente.",
+  "debate_abierto": "El alcance de su necesitarismo y la lectura de la parte V de la Ética están abiertos; la tesis de Spinoza como núcleo de una 'Ilustración radical' es influyente pero discutida.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Baruch Spinoza",
+      "url": "https://plato.stanford.edu/entries/spinoza/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Spinoza's Psychological Theory",
+      "url": "https://plato.stanford.edu/entries/spinoza-psychological/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Benedict de Spinoza",
+      "url": "https://iep.utm.edu/spinoza/"
+    }
+  ]
+}

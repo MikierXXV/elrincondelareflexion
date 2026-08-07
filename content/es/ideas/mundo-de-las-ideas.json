@@ -1,0 +1,54 @@
+{
+  "id": "mundo-de-las-ideas",
+  "corriente_id": "clasica-griega",
+  "titulo": "El mundo de las Ideas",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "platon",
+      "rol": "principal",
+      "aporte": "Distingue entre las cosas sensibles, cambiantes, y las Formas estables de las que participan."
+    }
+  ],
+  "pregunta": "Lo que percibes, ¿es la realidad o solo su sombra?",
+  "cita": {
+    "texto": "Para ellos, la verdad no sería otra cosa que las sombras.",
+    "obra": "República VII, 515c",
+    "autor_id": "platon",
+    "atribucion": "directa"
+  },
+  "resumen": "Los objetos concretos cambian y son imperfectos, pero cuando hablamos de 'círculo' o de 'justicia' nos referimos a algo que no varía. Platón concluye que esas realidades estables existen, y que lo que vemos son copias suyas.",
+  "desarrollo": "Ningún círculo dibujado es perfectamente circular, y sin embargo entendemos qué es un círculo mejor que cualquier dibujo. Lo mismo ocurre con la justicia: reconocemos actos más o menos justos porque los medimos contra algo que no coincide con ninguno de ellos. Platón responde que existen Formas o Ideas, patrones inmutables de los que las cosas participan, y que conocer es pasar de la copia al patrón. La alegoría de la caverna traduce eso en imagen: unos prisioneros encadenados desde siempre solo ven sombras proyectadas en un muro y las toman por la realidad entera. Quien logra girarse y salir descubre los objetos y la luz que los hacía visibles; al volver a contarlo, no le creen y les resulta insoportable. La alegoría es epistemológica y política a la vez: explica los grados del conocimiento y por qué quien pregunta demasiado molesta a la ciudad.",
+  "ejemplo_real": "Es lo que ocurre cuando conoces a alguien solo por lo que publica. No estás viendo a esa persona: ves una proyección que ella controla, recortada y encuadrada. Y si un día la tratas de verdad, la primera reacción no suele ser curiosidad, sino incomodidad, porque desmiente la imagen con la que llevabas tiempo tratando.",
+  "matiz_experto": "El propio Platón somete la teoría a crítica en el Parménides, donde el 'argumento del tercer hombre' amenaza con una regresión infinita. Y leer la República como un programa político literal choca con su forma dialogada, en la que él nunca habla en primera persona.",
+  "visualizacion": {
+    "id": "vis-caverna-platon",
+    "idea_id": "mundo-de-las-ideas",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "La relación entre la fuente de luz, el objeto que la intercepta y la sombra proyectada en el muro es el contenido mismo de la idea, no su ilustración. En 2D habría que dibujar de antemano la sombra correcta; en 3D la sombra se produce sola, y el usuario descubre girando la cámara que lo que tomaba por real era una proyección.",
+    "descripcion_interaccion": "Escena en primera persona desde dentro de la caverna: al principio solo se ven formas moviéndose en el muro. El usuario puede desplazar la fuente de luz y comprobar cómo cambian, y al girar la cámara descubre que había objetos y una hoguera a su espalda. Un segundo gesto permite salir; fuera, la luz deslumbra y la escena tarda unos segundos en volverse legible.",
+    "invitacion": "Mueve la luz y luego gírate a mirar detrás",
+    "alternativa_textual": "Una escena tridimensional en la que lo que parecían objetos resultan ser sombras proyectadas por una luz situada a espaldas del observador, y en la que salir al exterior exige un tiempo de adaptación: demuestra que una representación puede tomarse por la realidad completa mientras no se cambie de posición.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "Interior de una caverna con sombras proyectadas en el muro",
+      "moverLuz": "Mover la fuente de luz",
+      "girar": "Girarte y mirar detrás",
+      "volver": "Volver a mirar el muro",
+      "resolucionLuz": "Las sombras cambian de forma y tamaño. Nada de lo que ves se ha movido.",
+      "resolucionGiro": "Lo que tomabas por objetos eran sombras. Los objetos estaban a tu espalda, y la luz también.",
+      "resolucionEstatica": "Las sombras del muro no eran objetos: eran proyecciones de algo situado a tu espalda.",
+      "alternativaTexto": "Una escena tridimensional en la que lo que parecían objetos resultan ser sombras proyectadas por una luz situada a espaldas del observador, y en la que salir al exterior exige un tiempo de adaptación: demuestra que una representación puede tomarse por la realidad completa mientras no se cambie de posición."
+    }
+  },
+  "ideas_relacionadas": [
+    "saber-que-no-se-sabe",
+    "el-numero-como-orden",
+    "condiciones-a-priori",
+    "ser-es-ser-percibido"
+  ]
+}

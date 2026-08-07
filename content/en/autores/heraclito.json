@@ -1,0 +1,37 @@
+{
+  "id": "heraclito",
+  "nombre": "Heraclitus of Ephesus",
+  "corriente_id": "presocraticos",
+  "periodo": "c. 540–480 BCE",
+  "region": "Ephesus (Ionia)",
+  "preguntas_filosoficas": [
+    "What endures when everything changes?",
+    "Is conflict a fault in the world or its engine?"
+  ],
+  "citas": [
+    {
+      "texto": "You cannot step into the same river twice.",
+      "obra": "Traditional formulation based on fragment DK B12",
+      "atribucion": "tradicional",
+      "nota": "The surviving fragment is more careful: it speaks of ever-different waters flowing over those who step into the same rivers. The famous version is a later condensation."
+    }
+  ],
+  "nivel_1_resumen": "He held that nothing stands still: reality is a constant process, and the stability we think we see is in fact a balance of forces in tension.",
+  "nivel_2_desarrollo": "Heraclitus wrote in a deliberately obscure style, in short sayings that force you to think. His best-known idea is that everything flows: a river looks the same, but the water composing it never is. From this he draws something less obvious: if change is constant, the identity of things cannot consist in their matter but in the pattern they hold while they renew themselves. That is what his notion of logos points to, a common reason or measure that orders the process and that most people, he says, do not perceive even with it in front of them. The conflict between opposites is not a defect of the world: it is exactly what holds it up, just as the opposing tension of the string makes the bow sound.",
+  "nivel_3_experto": "Of Heraclitus we have only some hundred and twenty fragments, almost all quoted by much later authors with polemical intent, which makes any reconstruction a hypothesis. The formula 'everything flows' (panta rhei) does not appear literally in the fragments: it comes from Plato's reading, which attributes to him a flux so radical it would make knowledge impossible, and that caricature shaped his reception for centuries. The most disputed interpretation today is whether he defended a universal, indiscriminate flux or, as several scholars maintain, a finer thesis about the 'unity of opposites', in which the stability of a thing depends precisely on a regulated exchange of its components. Fire, his privileged element, would then work less as a substance than as a model of process: something that exists only while it is transforming. His influence runs through Stoicism (which inherits the cosmic logos), through Hegel and Nietzsche, and in the twentieth century through process ontologies.",
+  "debate_abierto": "There is no consensus on whether Heraclitus defended a radical flux or a doctrine of balance between opposites; much of the disagreement turns on how much credit is given to the Platonic portrait against the direct fragments.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Heraclitus",
+      "url": "https://plato.stanford.edu/entries/heraclitus/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Heraclitus",
+      "url": "https://iep.utm.edu/heraclit/"
+    },
+    {
+      "titulo": "Kirk, Raven & Schofield, The Presocratic Philosophers, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

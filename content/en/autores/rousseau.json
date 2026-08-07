@@ -1,0 +1,36 @@
+{
+  "id": "rousseau",
+  "nombre": "Jean-Jacques Rousseau",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1712–1778",
+  "region": "Geneva, France",
+  "preguntas_filosoficas": [
+    "Has progress made us better?",
+    "How can you obey others and remain free?"
+  ],
+  "citas": [
+    {
+      "texto": "Man is born free, and everywhere he is in chains.",
+      "obra": "The Social Contract I, 1",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Against the optimism of his age, he argued that civilisation has not made us better, and looked for a form of common life in which obeying the law does not mean obeying a master.",
+  "nivel_2_desarrollo": "Rousseau made his name defending a thesis uncomfortable among the enlightened: the progress of the sciences and arts has not improved morals. His diagnosis is that human beings are not evil by nature, but that on living in society they begin to exist through other people's eyes, and comparison, prestige and inequality appear, especially after the emergence of property. His political problem is then how to associate without losing freedom. His answer is the social contract and the general will: if the laws are made by all and apply to all equally, obeying them is obeying oneself. He adds that freedom is not doing as you please, but giving yourself your own rule. In education, his Emile proposes accompanying a child's development rather than moulding it from outside.",
+  "nivel_3_experto": "Rousseau's state of nature is not a historical hypothesis but a counterfactual model for isolating what society adds, and he says so himself; reading it as anthropology is a frequent error. The distinction between amour de soi — non-comparative self-preservation — and amour-propre — esteem dependent on comparison — is the key to his moral psychology, and much recent interpretation stresses that the second is not intrinsically corrupt but corruptible, which opens a less pessimistic reading. The notion of the general will concentrates the hardest political debate: its distinction from the will of all, the role of the legislator, and above all the formula that whoever resists will be 'forced to be free' have supported totalitarian readings (Talmon, and with qualifications Berlin) against republican readings that understand it as non-domination and self-legislation. The coherence between his ideal of communal transparency and his own autobiographical practice is also debated, as is the subordinate position he assigns to women in Book V of Emile, criticised already by Wollstonecraft. His influence on Kant, on the French Revolution and on Romanticism is direct.",
+  "debate_abierto": "Whether the general will contains an authoritarian germ or is the classic formulation of democratic autonomy is a persistent interpretive controversy.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Jean Jacques Rousseau",
+      "url": "https://plato.stanford.edu/entries/rousseau/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Jean-Jacques Rousseau",
+      "url": "https://iep.utm.edu/rousseau/"
+    },
+    {
+      "titulo": "Neuhouser, Rousseau's Theodicy of Self-Love, Oxford University Press",
+      "url": null
+    }
+  ]
+}

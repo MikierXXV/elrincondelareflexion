@@ -1,0 +1,76 @@
+{
+  "id": "duda-metodica",
+  "corriente_id": "racionalismo",
+  "titulo": "Methodical doubt",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "descartes",
+      "rol": "principal",
+      "aporte": "Doubts everything deliberately in order to find what doubt cannot touch."
+    }
+  ],
+  "pregunta": "Is anything left standing if you doubt absolutely everything?",
+  "cita": {
+    "texto": "I think, therefore I am.",
+    "obra": "Discourse on the Method, IV",
+    "autor_id": "descartes",
+    "atribucion": "directa"
+  },
+  "resumen": "Descartes deliberately doubts everything that can be doubted — the senses, the world, even mathematics — to see whether anything holds. One thing holds: that someone is doing the doubting.",
+  "desarrollo": "Cartesian doubt is not scepticism, it is a tool. The point is to strip away layer by layer until the floor is found. First the senses go, since they sometimes deceive and therefore do not deserve full trust. Then perception as a whole, because nothing lets us tell waking apart with certainty from a very vivid dream. And finally even mathematical truths, by imagining an evil genius powerful enough to make him err in every sum. When it seems nothing is left, what he was looking for appears: if I am being deceived, I must exist in order to be. Thought cannot deny itself without exercising itself. That is the minimal certainty from which he tries to rebuild everything, and from it comes his conclusion that what we essentially are is a thinking thing.",
+  "ejemplo_real": "When you wake from a very realistic dream, for a few seconds you do not know which of the two worlds was the real one. What is never in doubt at that moment is that someone is confused. You can be wrong about absolutely all the content of your experience, but not about the fact that you are having it.",
+  "matiz_experto": "The cogito raises a structural problem: if it is an inference it needs a universal premise that doubt would already have suspended; if it is an immediate intuition, one has to explain what licenses the move from thinking to a substantial subject — the objection Lichtenberg, Hume and Nietzsche would press.",
+  "visualizacion": {
+    "id": "vis-duda-descartes",
+    "idea_id": "duda-metodica",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The screen shows stacked layers of certainty: perceptions, one's own body, the external world, mathematical truths. Each click removes a layer by applying the corresponding reason for doubt, and the user sees which one takes which down with it. At the end a single point remains that refuses to be deleted: trying to erase it brings it back, because someone is needed to try.",
+    "invitacion": "Remove each certainty and see what holds underneath",
+    "alternativa_textual": "A stack of certainties removed one by one until a single point remains that resists erasure because erasing it requires someone to do it: it shows that doubt cannot reach the one who doubts.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "capas",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "capas": [
+        {
+          "nombre": "the senses",
+          "motivo": "They sometimes deceive, and what deceives once does not deserve full trust."
+        },
+        {
+          "nombre": "the external world",
+          "motivo": "Nothing tells waking apart with certainty from a very vivid dream."
+        },
+        {
+          "nombre": "my own body",
+          "motivo": "It reaches me through the senses too, which I have just discarded."
+        },
+        {
+          "nombre": "mathematics",
+          "motivo": "A deceiver powerful enough could make me err in every sum."
+        }
+      ],
+      "nucleo": {
+        "nombre": "someone is doubting",
+        "alRetirar": "Trying to remove it brings it back: someone is needed to try."
+      },
+      "resolucion": "You can doubt all the content of your experience, but not that you are having it.",
+      "alternativaTexto": "A stack of certainties removed one by one until a single point remains that resists erasure because erasing it requires someone to do it: it shows that doubt cannot reach the one who doubts.",
+      "reiniciar": "Start again",
+      "nadaQueRetirar": "Nothing left to remove",
+      "retirarUna": "Remove “{nombre}”",
+      "etiqueta": "Methodical doubt",
+      "sinNucleo": "nothing underneath"
+    }
+  },
+  "ideas_relacionadas": [
+    "problema-mente-cuerpo",
+    "suspension-del-juicio",
+    "imposibilidad-del-cambio",
+    "esencia-y-existencia"
+  ]
+}

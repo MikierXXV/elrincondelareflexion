@@ -1,0 +1,82 @@
+{
+  "id": "voluntad-de-sentido",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "La voluntad de sentido",
+  "orden": 5,
+  "autores": [
+    {
+      "id": "frankl",
+      "rol": "principal",
+      "aporte": "Sitúa la búsqueda de sentido como motor fundamental, y la pone a prueba en condiciones extremas."
+    },
+    {
+      "id": "nietzsche",
+      "rol": "convergente",
+      "aporte": "La frase sobre el porqué y el cómo, que Frankl convierte en el eje de su terapia, es suya."
+    }
+  ],
+  "pregunta": "¿Puede haber sentido en un sufrimiento que no se puede evitar?",
+  "cita": {
+    "texto": "Al ser humano se le puede arrebatar todo salvo la elección de su actitud.",
+    "obra": "El hombre en busca de sentido, 1946",
+    "autor_id": "frankl",
+    "atribucion": "directa",
+    "nota": "En cambio, la célebre frase sobre «el espacio entre estímulo y respuesta» que se le atribuye no aparece en ninguna de sus obras: los investigadores no han conseguido localizarla."
+  },
+  "resumen": "Frankl sostiene que el motor fundamental no es el placer ni el poder, sino encontrar un sentido. Y que entre lo que nos ocurre y cómo respondemos queda siempre un margen, por estrecho que sea.",
+  "desarrollo": "Había desarrollado sus ideas antes de la deportación, y su experiencia en los campos —donde perdió a su mujer, a sus padres y a su hermano— las puso a prueba en el peor escenario imaginable. Su observación fue que, entre condiciones igual de atroces, quienes conservaban una tarea pendiente, un vínculo o una razón para el día siguiente resistían de otro modo. De ahí su logoterapia, que invierte la pregunta habitual: no qué espera uno de la vida, sino qué espera la vida de uno en cada situación concreta. Y distingue tres vías de sentido: lo que uno crea o realiza, lo que ama o encuentra, y la actitud que adopta ante un sufrimiento que no puede evitarse. Es el puente explícito entre el existencialismo y la clínica: recoge la pregunta por el sentido sin garantías y le da una respuesta distinta a la de Sartre.",
+  "ejemplo_real": "Alguien que cuida a un familiar con una enfermedad larga. No puede cambiar el diagnóstico, ni el pronóstico, ni el cansancio. Y sin embargo hay una diferencia enorme entre quien vive esos meses como un tiempo perdido y quien los vive como algo que está haciendo por alguien. Los hechos son los mismos; lo que cambia es lo único que quedaba disponible.",
+  "matiz_experto": "La generalización clínica desde su testimonio tiene un problema evidente de sesgo de supervivencia, que él mismo advirtió al rechazar lecturas que culpabilizaran a las víctimas. El constructo de sentido en la vida sí ha sido operacionalizado después en psicología positiva, con instrumentos y evidencia propios.",
+  "visualizacion": {
+    "id": "vis-sentido-frankl",
+    "idea_id": "voluntad-de-sentido",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Una situación irreversible avanza sin que el usuario pueda alterarla: los controles sobre los hechos aparecen deshabilitados y la interfaz explica por qué. Lo único activo es un margen estrecho entre lo que ocurre y lo que se responde, donde sí puede elegir. El medidor no registra efectos sobre los hechos, que no cambian, sino sobre el propio agente.",
+    "invitacion": "Busca qué puedes cambiar todavía",
+    "alternativa_textual": "Una situación irreversible con todos los controles sobre los hechos deshabilitados salvo un margen de respuesta, cuyo efecto se mide sobre el agente y no sobre los acontecimientos: demuestra dónde sitúa Frankl la libertad que queda cuando no queda ninguna otra.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "margen",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "situacion": "Cuidar a alguien con una enfermedad larga",
+      "bloqueados": [
+        {
+          "nombre": "Cambiar el diagnóstico",
+          "porque": "No está en tu mano, y fingir que sí lo está solo añade culpa."
+        },
+        {
+          "nombre": "Cambiar el pronóstico",
+          "porque": "Tampoco. Los hechos aquí son irreversibles."
+        },
+        {
+          "nombre": "Quitarte el cansancio",
+          "porque": "El agotamiento es real y no se elige."
+        }
+      ],
+      "margen": "la actitud con la que lo vives",
+      "opciones": [
+        {
+          "texto": "Vivirlo como tiempo perdido",
+          "efecto": "Los meses son los mismos. Lo que cambia es en qué te conviertes durante ellos."
+        },
+        {
+          "texto": "Vivirlo como algo que haces por alguien",
+          "efecto": "Tampoco altera un solo hecho, y sin embargo la diferencia es enorme."
+        }
+      ],
+      "resolucion": "Entre lo que ocurre y cómo respondes queda un margen, por estrecho que sea. Al ser humano se le puede arrebatar todo salvo la elección de su actitud.",
+      "alternativaTexto": "Una situación irreversible con todos los controles sobre los hechos deshabilitados salvo un margen de respuesta, cuyo efecto se mide sobre el agente y no sobre los acontecimientos: demuestra dónde sitúa Frankl la libertad que queda cuando no queda ninguna otra.",
+      "etiqueta": "La voluntad de sentido"
+    }
+  },
+  "ideas_relacionadas": [
+    "eterno-retorno",
+    "angustia-y-libertad",
+    "dicotomia-del-control",
+    "aceptacion-y-cambio"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "spinoza",
+  "nombre": "Baruch Spinoza",
+  "corriente_id": "racionalismo",
+  "periodo": "1632–1677",
+  "region": "Amsterdam, The Hague",
+  "preguntas_filosoficas": [
+    "What if God and nature were the same thing?",
+    "Are we free, or merely ignorant of the causes that move us?"
+  ],
+  "citas": [
+    {
+      "texto": "Not to laugh, not to weep, not to hate, but to understand.",
+      "obra": "Political Treatise I, 4",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He held that only one reality exists — which he called indifferently God or Nature — and that freedom consists not in escaping causes but in understanding them.",
+  "nivel_2_desarrollo": "Spinoza wrote his Ethics in the form of a geometry treatise: definitions, axioms and demonstrated propositions. From these he deduces that there can be only one infinite substance, and that everything else — bodies, minds, events — are modes of it. There is therefore no creator apart from the world and no plan with purposes. His thesis about freedom is equally radical: we believe ourselves free because we are aware of our desires and ignorant of what caused them, like a thrown stone that believed it was flying by its own decision. But his conclusion is not resigned: understanding the causes of what we feel transforms an emotion we suffer into one we understand, and there he locates the only possible freedom and the most joyful life.",
+  "nivel_3_experto": "Spinozist parallelism — thought and extension as two attributes of the same single order — avoids the Cartesian problem of interaction at the price of denying causation between mind and body, and is why he is read as a forerunner of dual-aspect theories in philosophy of mind. The conatus, each thing's tendency to persevere in its being, works as the unifying principle of his psychology and his ethics, and his genetic analysis of the affects anticipates aspects of the psychoanalytic approach and of the cognitive theory of emotions. Weighty interpretive disputes include whether his necessitarianism is so strict that it eliminates all contingency, the meaning of the 'intellectual love of God' and of the eternity of the mind in Part V — which many consider the most obscure section of the book — and how far his Theological-Political Treatise, with its historical criticism of Scripture and its defence of free expression, makes him the founder of the Radical Enlightenment, a thesis defended forcefully by Jonathan Israel and qualified by others. He was expelled from his Jewish community at twenty-three and published almost all his work posthumously.",
+  "debate_abierto": "The scope of his necessitarianism and the reading of Part V of the Ethics are open; the thesis of Spinoza as the core of a 'Radical Enlightenment' is influential but contested.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Baruch Spinoza",
+      "url": "https://plato.stanford.edu/entries/spinoza/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Spinoza's Psychological Theory",
+      "url": "https://plato.stanford.edu/entries/spinoza-psychological/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Benedict de Spinoza",
+      "url": "https://iep.utm.edu/spinoza/"
+    }
+  ]
+}

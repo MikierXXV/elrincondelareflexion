@@ -1,0 +1,98 @@
+{
+  "id": "libertad-como-comprension",
+  "corriente_id": "racionalismo",
+  "titulo": "La libertad como comprensión de las causas",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "spinoza",
+      "rol": "principal",
+      "aporte": "Redefine la libertad: no es escapar de las causas, sino entender las que nos mueven."
+    }
+  ],
+  "pregunta": "¿Eres libre, o simplemente no sabes qué te está moviendo?",
+  "cita": {
+    "texto": "No reír, no llorar, no detestar, sino comprender.",
+    "obra": "Tratado político I, 4",
+    "autor_id": "spinoza",
+    "atribucion": "directa"
+  },
+  "resumen": "Nos creemos libres porque somos conscientes de nuestros deseos e ignoramos qué los produjo. Para Spinoza la libertad no consiste en no tener causas, sino en comprenderlas.",
+  "desarrollo": "Su imagen es una piedra lanzada al aire que fuera consciente de su vuelo: creería estar volando por decisión propia, simplemente porque no percibe la mano que la lanzó. Spinoza sostiene que nuestro caso es ese: sentimos el deseo, no su origen, y a esa ignorancia la llamamos libre albedrío. Hasta aquí suena desolador, pero su conclusión no lo es. Distingue entre padecer una emoción y comprenderla. Mientras no entiendo por qué me irrita algo, la irritación me tiene; cuando reconstruyo de dónde viene —qué la disparó, con qué la asocio, a qué historia responde—, deja de ser algo que me ocurre y pasa a ser algo que entiendo, y su fuerza cambia. Esa es toda la libertad que hay disponible, y a diferencia de la otra, esta se puede ejercer y aumentar.",
+  "ejemplo_real": "Alguien te contesta seco y se te arruina la mañana. Si al rato caes en que llevabas dos días durmiendo mal y en que esa persona te recuerda a otra, la irritación no desaparece por arte de magia, pero deja de dirigirte: ya no estás discutiendo mentalmente con ella, estás mirando de dónde salió.",
+  "matiz_experto": "Su necesitarismo es más estricto de lo que sugiere esta presentación: se discute si deja algún espacio a la contingencia. Y no todos aceptan que comprender una emoción baste para transformarla, aunque la terapia cognitiva contemporánea trabaja con un supuesto parecido.",
+  "visualizacion": {
+    "id": "vis-causas-spinoza",
+    "idea_id": "libertad-como-comprension",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Dos capas. Arriba, la decisión tal como se siente; abajo, la cadena de causas todavía plegada; a la derecha, la emoción. Insistir en que fue libre o reprocharse la reacción agita la capa de arriba y no mueve nada abajo. Cada despliegue abre un eslabón más hacia atrás —el tono seco, el cansancio, la asociación, la escena antigua—, la sensación de espontaneidad se deshace y la emoción se va vaciando. Los eslabones abiertos no se retiran nunca: cuando la cadena está entera a la vista, la emoción cambia de padecida a comprendida con todas sus causas delante.",
+    "invitacion": "Despliega la cadena de causas y mira la emoción",
+    "alternativa_textual": "Una decisión aparentemente libre cuya cadena de causas puede desplegarse hacia atrás, y cuya emoción cambia de estado al hacerlo sin que las causas desaparezcan: demuestra que la libertad puede consistir en comprender lo que nos determina.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-capas",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "arriba": {
+        "nombre": "la decisión, tal como la sientes",
+        "intervenciones": [
+          {
+            "nombre": "Insistir en que fue libre",
+            "efecto": "La superficie se agita y abajo no se mueve nada: insistir no toca ninguna causa.",
+            "propagacion": 0.06
+          },
+          {
+            "nombre": "Reprocharte la reacción",
+            "efecto": "Pelear con la emoción la remueve y la deja donde estaba: el reproche no llega al origen.",
+            "propagacion": 0.1
+          }
+        ]
+      },
+      "abajo": {
+        "nombre": "lo que la causó: cuerpo, historia, entorno",
+        "intervenciones": [
+          {
+            "nombre": "El tono seco de esa respuesta",
+            "efecto": "El primer eslabón es el más visible, y por eso parece que la reacción empieza aquí.",
+            "propagacion": 0.4
+          },
+          {
+            "nombre": "Dos noches durmiendo mal",
+            "efecto": "Detrás del disparo hay un cuerpo cansado que ya venía predispuesto a saltar.",
+            "propagacion": 0.7
+          },
+          {
+            "nombre": "A quién te recuerda esa persona",
+            "efecto": "La reacción no responde solo a hoy: responde a una asociación que ya traías puesta.",
+            "propagacion": 0.88
+          },
+          {
+            "nombre": "Una escena antigua que no cerraste",
+            "efecto": "El eslabón más lejano no lo elegiste: estaba puesto antes de que decidieras nada.",
+            "propagacion": 1
+          }
+        ]
+      },
+      "cadena": {
+        "desplegar": "Desplegar un eslabón hacia atrás",
+        "completo": "La cadena está entera a la vista",
+        "emocion": "la irritación",
+        "padecida": "padecida",
+        "comprendida": "comprendida",
+        "avisoCausas": "La cadena está entera y ningún eslabón se ha borrado. Lo que ha cambiado no son las causas: es que ahora las miras en vez de padecerlas."
+      },
+      "resolucion": "Nos creemos libres porque conocemos el deseo e ignoramos su origen. Desplegar las causas no las suprime —siguen ahí las cuatro—: lo que cambia es que la emoción pasa de padecida a comprendida, y esa libertad sí se puede ejercer.",
+      "alternativaTexto": "Una decisión aparentemente libre cuya cadena de causas puede desplegarse hacia atrás, y cuya emoción cambia de estado al hacerlo sin que las causas desaparezcan: demuestra que la libertad puede consistir en comprender lo que nos determina.",
+      "etiqueta": "La libertad como comprensión de las causas"
+    }
+  },
+  "ideas_relacionadas": [
+    "problema-mente-cuerpo",
+    "dicotomia-del-control",
+    "lo-inconsciente",
+    "condicionamiento-operante"
+  ]
+}

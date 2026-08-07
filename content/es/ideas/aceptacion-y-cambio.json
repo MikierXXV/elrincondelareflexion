@@ -1,0 +1,75 @@
+{
+  "id": "aceptacion-y-cambio",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "Aceptación y cambio",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "rogers",
+      "rol": "principal",
+      "aporte": "Observa que las personas cambian cuando dejan de tener que defenderse, no cuando se las presiona."
+    },
+    {
+      "id": "maslow",
+      "rol": "desarrollo",
+      "aporte": "Extiende el enfoque al estudio de quienes funcionan bien, no solo de quienes sufren."
+    }
+  ],
+  "pregunta": "¿Se cambia empujándose o dejando de pelear consigo mismo?",
+  "cita": {
+    "texto": "La curiosa paradoja es que al aceptarme tal como soy, puedo cambiar.",
+    "obra": "El proceso de convertirse en persona, 1961",
+    "autor_id": "rogers",
+    "atribucion": "directa"
+  },
+  "resumen": "Rogers observó algo aparentemente contradictorio: la gente no cambia cuando se la empuja, sino cuando deja de tener que defenderse de lo que es.",
+  "desarrollo": "Su explicación es que muchos malestares nacen de la distancia entre lo que uno experimenta y lo que cree que debe ser para resultar aceptable. A eso llamó condiciones de valía, aprendidas cuando el afecto llegó condicionado: solo si eres fuerte, solo si destacas. Mantener esa distancia consume energía y obliga a no mirar lo que uno siente de verdad. Cuando la presión desaparece, la persona puede reconocer lo que le pasa y reorganizarse, y entonces el cambio ocurre sin que nadie lo fuerce. De ahí su terapia centrada en la persona, donde quien acompaña no interpreta ni dirige, sino que sostiene aceptación, empatía y congruencia. Maslow trabajó el otro lado del mismo giro: estudiar no solo la patología sino a quienes funcionan bien, con su conocida jerarquía de necesidades hasta la autorrealización.",
+  "ejemplo_real": "Cualquiera que haya intentado dejar un hábito a base de reprocharse lo sabe: cuanto más se castiga uno, más recurre justamente a eso para consolarse del castigo. Y algo cambia el día que deja de tratarse como un caso perdido y empieza a mirar para qué le servía ese hábito. La condescendencia no es lo que cambia las cosas; dejar de estar en guerra, sí.",
+  "matiz_experto": "La hipótesis fuerte de Rogers —que sus tres condiciones son necesarias y suficientes— no se ha sostenido: la investigación sobre factores comunes las respalda como relevantes en cualquier orientación, no como suficientes. Y la jerarquía de Maslow no está empíricamente respaldada en su secuencia; la pirámide con que se le identifica ni siquiera es suya.",
+  "visualizacion": {
+    "id": "vis-aceptacion-rogers",
+    "idea_id": "aceptacion-y-cambio",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Dos figuras superpuestas representan lo que una persona experimenta y lo que cree que debe mostrar. El usuario introduce condiciones —'solo si eres fuerte', 'solo si triunfas'— y las figuras se separan, con un coste de energía visible en mantener la distancia. Al retirarlas, las figuras convergen solas sin que el usuario tenga que empujarlas: el cambio no se fuerza, se deja de impedir.",
+    "invitacion": "Pon condiciones y mira cómo se separan las dos figuras",
+    "alternativa_textual": "Dos figuras, la experiencia real y la imagen exigida, que se separan al añadir condiciones de aceptación con un coste de energía visible y convergen solas al retirarlas: demuestra que el cambio aparece al levantar la presión y no al aumentarla.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "figuraA": "lo que sientes",
+      "figuraB": "lo que crees que debes ser",
+      "coste": "energía en sostener la distancia",
+      "condiciones": [
+        {
+          "nombre": "solo si eres fuerte",
+          "efecto": "Aparece una distancia que hay que sostener, y sostenerla consume.",
+          "peso": 0.34
+        },
+        {
+          "nombre": "solo si triunfas",
+          "efecto": "La distancia crece: cuanto más exigente la condición, más cuesta.",
+          "peso": 0.33
+        },
+        {
+          "nombre": "solo si no molestas",
+          "efecto": "Ya casi no queda margen para reconocer lo que de verdad te pasa.",
+          "peso": 0.33
+        }
+      ],
+      "resolucion": "Al retirar las condiciones no has empujado nada: las figuras han convergido solas. El cambio no se fuerza, se deja de impedir.",
+      "alternativaTexto": "Dos figuras, la experiencia real y la imagen exigida, que se separan al añadir condiciones de aceptación con un coste de energía visible y convergen solas al retirarlas: demuestra que el cambio aparece al levantar la presión y no al aumentarla.",
+      "etiqueta": "Aceptación y cambio"
+    }
+  },
+  "ideas_relacionadas": [
+    "la-sombra",
+    "voluntad-de-sentido",
+    "mala-fe",
+    "dicotomia-del-control"
+  ]
+}

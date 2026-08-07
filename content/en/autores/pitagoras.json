@@ -1,0 +1,37 @@
+{
+  "id": "pitagoras",
+  "nombre": "Pythagoras of Samos",
+  "corriente_id": "presocraticos",
+  "periodo": "c. 570–495 BCE",
+  "region": "Samos, Croton (Magna Graecia)",
+  "preguntas_filosoficas": [
+    "Why does mathematics describe the world so well?",
+    "Is order something we find or something we project?"
+  ],
+  "citas": [
+    {
+      "texto": "All is number.",
+      "obra": "Attributed to the Pythagoreans by Aristotle",
+      "atribucion": "tradicional",
+      "nota": "Pythagoras left no writings. Aristotle attributes the thesis to the Pythagoreans as a group, not to him personally."
+    }
+  ],
+  "nivel_1_resumen": "He discovered that the musical relations that sound harmonious to us correspond to simple numerical ratios, and concluded from this that number is the key to the order of the universe.",
+  "nivel_2_desarrollo": "The starting observation is checkable: divide a taut string in half and it sounds the same note higher, and other simple ratios produce the intervals we hear as consonant. That something as immaterial as a numerical ratio should govern an experience as physical as sound was a revelation. The Pythagoreans generalised the finding: if number orders harmony, perhaps it also orders the stars, the seasons and the soul. Their school was at once a religious community and a research group, with rules of life, a doctrine of reincarnation, and the conviction that studying mathematics purifies. From here springs an intuition that reaches present-day physics: that the deep structure of reality is mathematical.",
+  "nivel_3_experto": "Practically nothing attributed to Pythagoras can be assigned to him with confidence: he left no writings, the biographical tradition is late and hagiographical, and later Pythagoreanism itself tended to hand its own findings back to him. Historiography today distinguishes the 'acousmatics', focused on precepts for living, from the 'mathematicians', devoted to research; and several specialists hold that the historical Pythagoras would be closer to a religious teacher than to a mathematician, with Philolaus and Archytas developing the numerical doctrine. The theorem that bears his name was known centuries earlier in Mesopotamia. The most interesting episode is internal: the discovery of incommensurable magnitudes — the diagonal of a square cannot be expressed as a ratio of whole numbers — contradicted the thesis that everything reduces to numerical proportions, and forced Greek mathematics to reformulate itself in geometrical terms. The wake of the Pythagorean programme runs through Plato, Kepler, and the modern idea that natural laws have mathematical form.",
+  "debate_abierto": "How much of the 'Pythagorean' doctrine belongs to Pythagoras and how much to his later school is an open question; there is a historiographical current that drastically reduces his mathematical role.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Pythagoras",
+      "url": "https://plato.stanford.edu/entries/pythagoras/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Pythagoras",
+      "url": "https://iep.utm.edu/pythagoras/"
+    },
+    {
+      "titulo": "Huffman, Pythagoreanism (studies on Philolaus and Archytas)",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "ser-es-ser-percibido",
+  "corriente_id": "empirismo",
+  "titulo": "To be is to be perceived",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "berkeley",
+      "rol": "principal",
+      "aporte": "Takes empiricism to its limit: if we only know perceptions, unperceived matter is an empty hypothesis."
+    }
+  ],
+  "pregunta": "What content is there in saying that something exists when nobody can perceive it?",
+  "cita": {
+    "texto": "To be is to be perceived.",
+    "obra": "A Treatise Concerning the Principles of Human Knowledge, 3",
+    "autor_id": "berkeley",
+    "atribucion": "directa"
+  },
+  "resumen": "If everything we know are perceptions, talking about a matter that exists without being perceived by anyone is talking about something we have no idea of. Berkeley proposes doing without it.",
+  "desarrollo": "Berkeley accepts Locke's starting point and points out a crack in it. If the only things we have access to are our own ideas, where does the belief in a material substance sitting behind them come from — one that by definition nobody can ever perceive? His conclusion is that, for sensible things, to exist is to be perceived. This does not turn the world into a private hallucination: perceptions have order, they do not depend on our will — I cannot stop seeing the tree by closing and opening my eyes — and they are shared, and he explains that constancy by their divine origin. What he claims is a double gain: it removes an assumption nobody can verify, and it closes the door to scepticism, because the gap between appearances and a reality hidden behind them disappears.",
+  "ejemplo_real": "Think of an object in a closed room and describe it without using a single perceptual term: no colour, no shape, no texture, no felt weight, no sound. When you have finished removing them all, check what is left in your hands. Berkeley holds that nothing is left, and that this emptiness is what we were calling matter.",
+  "matiz_experto": "His inconceivability argument — trying to conceive an unperceived object presupposes a conceiver — is considered his weakest point: it probably confuses the act of conceiving with its content. And admitting spirits as substances after eliminating matter is a tension Hume would resolve by removing the self too.",
+  "visualizacion": {
+    "id": "vis-percepcion-berkeley",
+    "idea_id": "ser-es-ser-percibido",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "What the idea puts at stake is the visual field of an observer standing in a particular place, with real occlusions and objects that leave the frame when the head turns. In a flat crop the user still sees the whole scene from outside, which is exactly the position Berkeley denies exists: you have to be inside for 'the unperceived' to mean anything.",
+    "descripcion_interaccion": "The user looks from inside a scene and sees only what their visual field reaches; the rest is genuinely occluded, not cropped. On trying to describe what lies out of sight, the interface accepts only perceptual terms and strikes out those that cannot be justified, until nothing is left. An alternative mode adds a permanent observer and the scene regains continuity.",
+    "invitacion": "Turn your gaze and try to describe what you cannot see",
+    "alternativa_textual": "A scene viewed from inside in which the unperceived does not switch off but becomes indescribable, because the interface accepts only perceptual terms: it shows that the idea of unperceived matter is left with no content.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "A clearing seen from within, turning your gaze",
+      "girarIzquierda": "Turn your gaze left",
+      "girarDerecha": "Turn your gaze right",
+      "anadirObservador": "Add a permanent observer",
+      "retirarObservador": "Remove the permanent observer",
+      "conObservador": "With an observer who never stops perceiving, the scene regains continuity without your having to look at it. That is the way out Berkeley gives the problem.",
+      "sinObservador": "Without a permanent observer, each thing again depends on somebody perceiving it.",
+      "loPercibes": "you perceive it: colour, shape, distance",
+      "alguienLoPercibe": "somebody perceives it: it still has colour and shape",
+      "sinTerminos": "what is it made of? no term is left to apply",
+      "inicial": "Turn your gaze and watch what happens to whatever stops being in front of you.",
+      "fueraDelCampo": "There are {n} things outside your visual field. They have not switched off: it is that on trying to say anything about them, no perceptual term is left available.",
+      "fueraDelCampoUna": "There is {n} thing outside your visual field. It has not switched off: it is that on trying to say anything about it, no perceptual term is left available.",
+      "resolucionRespaldo": "Of what lies outside the visual field no perceptual term is left to apply: that is why Berkeley considers the idea of unperceived matter empty.",
+      "alternativaTexto": "A scene viewed from inside in which the unperceived does not switch off but becomes indescribable, because the interface accepts only perceptual terms: it shows that the idea of unperceived matter is left with no content.",
+      "objetos": [
+        "the tree",
+        "the house",
+        "the stone",
+        "the well"
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "tabula-rasa",
+    "mundo-de-las-ideas",
+    "condiciones-a-priori",
+    "relatividad-de-las-perspectivas"
+  ]
+}

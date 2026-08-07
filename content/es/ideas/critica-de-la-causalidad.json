@@ -1,0 +1,62 @@
+{
+  "id": "critica-de-la-causalidad",
+  "corriente_id": "filosofia-islamica",
+  "titulo": "La crítica de la causalidad",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "al-ghazali",
+      "rol": "principal",
+      "aporte": "Muestra en el siglo XI que la conexión necesaria entre causa y efecto no se observa."
+    },
+    {
+      "id": "averroes",
+      "rol": "contrapunto",
+      "aporte": "Responde que negar la causalidad natural destruye toda posibilidad de conocimiento."
+    }
+  ],
+  "pregunta": "Si el fuego siempre quema el algodón, ¿es porque tiene que hacerlo?",
+  "cita": {
+    "texto": "La conexión entre lo que llamamos causa y efecto no es necesaria.",
+    "obra": "La incoherencia de los filósofos, disputa 17",
+    "autor_id": "al-ghazali",
+    "atribucion": "directa"
+  },
+  "resumen": "Vemos que el algodón arde cuando se le acerca el fuego, pero de ahí no se sigue que el fuego produzca necesariamente la combustión. Lo observado es una sucesión constante, no un vínculo necesario.",
+  "desarrollo": "Al-Ghazali fue un jurista y teólogo de primer nivel que estudió a fondo a los filósofos antes de criticarlos, y su exposición de las doctrinas ajenas es tan precisa que se usó como manual. Su objeción central no es que la filosofía sea falsa, sino que se extralimita: presenta como demostrado lo que solo es constante. Y su ejemplo es exacto: mires cuanto mires el momento en que el algodón arde, encontrarás contigüidad y sucesión, nunca necesidad. Si el orden del mundo es un hábito estable establecido por la voluntad divina y no una necesidad interna de las cosas, el milagro deja de ser una contradicción lógica. Averroes le respondió punto por punto con el argumento que sigue siendo la mejor réplica: si el fuego no quema por su propia naturaleza, entonces las cosas no tienen naturaleza, y sin naturalezas no hay ciencia posible de nada.",
+  "ejemplo_real": "Es la diferencia entre saber que un ascensor siempre ha funcionado y saber por qué funciona. Lo primero es un historial; lo segundo es un mecanismo. Casi todo lo que damos por seguro en el día a día está en la primera categoría, y solo lo notamos el día en que la secuencia se rompe y descubrimos que nunca supimos qué la sostenía.",
+  "matiz_experto": "El paralelo con Hume es real en el análisis y divergente en la conclusión: donde Hume deriva un naturalismo escéptico sobre el hábito humano, Al-Ghazali funda la regularidad en la voluntad divina. También se discute el alcance de su ocasionalismo y la tesis, hoy revisada, de que causara el declive de la filosofía islámica.",
+  "visualizacion": {
+    "id": "vis-causalidad-ghazali",
+    "idea_id": "critica-de-la-causalidad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario acerca fuego al algodón tantas veces como quiera y siempre arde. Al pulsar 'buscar la necesidad', la escena se amplía al máximo detalle y solo muestra dos sucesos contiguos, sin vínculo visible. Un modo alternativo permite alterar el hábito una sola vez y comprobar que nada en lo observado lo impedía lógicamente, solo la costumbre.",
+    "invitacion": "Quema el algodón otra vez y busca la necesidad",
+    "alternativa_textual": "Una combustión repetida cuyo detalle máximo no contiene ningún vínculo observable, y que puede alterarse una vez sin contradicción lógica: demuestra que la regularidad observada no acredita una conexión necesaria.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "repeticion",
+    "parametros": {
+      "corrienteId": "filosofia-islamica",
+      "accion": "Acercar el fuego al algodón",
+      "consecuencia": "El algodón arde",
+      "examinar": "Buscar la necesidad",
+      "hallazgo": "Dos sucesos contiguos. Nada que obligue.",
+      "resolucion": "Lo observado es una sucesión constante, no un vínculo necesario. Nada en lo que has visto impedía lógicamente que fuera de otro modo.",
+      "alternativaTexto": "Una combustión repetida cuyo detalle máximo no contiene ningún vínculo observable, y que puede alterarse una vez sin contradicción lógica: demuestra que la regularidad observada no acredita una conexión necesaria.",
+      "sinOcurrir": "Todavía no ha ocurrido ninguna vez",
+      "recuentoUno": "Ha ocurrido {veces} vez · expectativa {expectativa} %",
+      "recuentoVarios": "Ha ocurrido {veces} veces · expectativa {expectativa} %",
+      "etiqueta": "La crítica de la causalidad"
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "dos-niveles-de-lectura",
+    "razon-y-fe",
+    "razon-suficiente"
+  ]
+}

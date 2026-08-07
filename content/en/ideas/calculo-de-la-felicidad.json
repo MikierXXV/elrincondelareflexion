@@ -1,0 +1,75 @@
+{
+  "id": "calculo-de-la-felicidad",
+  "corriente_id": "utilitarismo",
+  "titulo": "The calculus of happiness",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "bentham",
+      "rol": "principal",
+      "aporte": "Proposes a single verifiable criterion: adding up the well-being and suffering of everyone affected."
+    }
+  ],
+  "pregunta": "Can everyone's goods and harms be added up to decide what to do?",
+  "cita": {
+    "texto": "Nature has placed mankind under the governance of pain and pleasure.",
+    "obra": "An Introduction to the Principles of Morals and Legislation, 1789",
+    "autor_id": "bentham",
+    "atribucion": "directa"
+  },
+  "resumen": "A law or an action is right to the extent that it produces the greatest well-being for the greatest number, counting each person as one and nobody as more than one.",
+  "desarrollo": "Bentham was not arguing in the abstract: he wanted to dismantle a legal system that hanged people for stealing a sheep and justified itself by appealing to custom. Against that he proposes a test anyone can apply and argue over: adding up the well-being and suffering a measure produces in everyone affected, considering its intensity, its duration and how many people it reaches. What is genuinely radical is not the calculation but who it includes. In came women, people without property, and animals too, of whom he wrote that the relevant question is not whether they can reason or talk, but whether they can suffer. He rejected the idea of natural rights as rhetoric with no verifiable content. Out of that criterion came concrete penal, prison and electoral reforms.",
+  "ejemplo_real": "It is the reasoning behind any public health decision: distributing a limited number of vaccines, deciding where to put a pedestrian crossing, setting a speed limit. Nobody settles these by consulting abstract principles; they count people affected and the magnitude of harm avoided. The utilitarian calculus is the grammar of those decisions even when nobody names it.",
+  "matiz_experto": "The structural objection is that a purely aggregative criterion can justify sacrificing a minority if the sum comes out favourable. It is exactly the point Rawls builds his theory against, accusing utilitarianism of not taking the distinction between persons seriously.",
+  "visualizacion": {
+    "id": "vis-calculo-bentham",
+    "idea_id": "calculo-de-la-felicidad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user decides on a case and sees the result as a visible sum of well-being and suffering distributed among concrete people. They can widen or narrow the circle of those affected — do absent people count? animals? — and watch the optimal decision change. A warning appears when the total comes out favourable at the cost of sinking one particular minority.",
+    "invitacion": "Share out the wellbeing and watch the three readings",
+    "alternativa_textual": "A sum of well-being and suffering distributed among concrete people, whose optimal result changes as the circle of those affected widens and which flags the cases where the total improves by sinking a minority: it demonstrates the utilitarian criterion and its weak point.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "recipientes",
+    "parametros": {
+      "corrienteId": "utilitarismo",
+      "unidad": "well-being",
+      "recipientes": [
+        {
+          "nombre": "the majority",
+          "capacidad": 9,
+          "nota": "Each unit counts as one, whoever it comes from."
+        },
+        {
+          "nombre": "a few",
+          "capacidad": 9,
+          "nota": "They count as one too: nobody is worth more than one."
+        },
+        {
+          "nombre": "a minority",
+          "capacidad": 9,
+          "nota": "If the sum comes out favourable, the criterion does not stop you leaving them at zero. That is the objection."
+        }
+      ],
+      "indicadores": [
+        "total",
+        "average",
+        "floor"
+      ],
+      "resolucion": "The total can rise while the floor stays at zero. That is Bentham's criterion, and also what Rawls holds against it: it does not take the distinction between persons seriously.",
+      "alternativaTexto": "A sum of well-being distributed among concrete people, with simultaneous indicators of total, average and worst off, which can move in opposite directions: it demonstrates the utilitarian criterion and its weak point.",
+      "vaciar": "Empty and start over",
+      "etiqueta": "The calculus of happiness",
+      "etiquetaZona": "Add to {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "placeres-superiores",
+    "velo-de-la-ignorancia",
+    "imperativo-categorico",
+    "principio-de-diferencia"
+  ]
+}

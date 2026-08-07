@@ -1,0 +1,37 @@
+{
+  "id": "parmenides",
+  "nombre": "Parmenides of Elea",
+  "corriente_id": "presocraticos",
+  "periodo": "c. 515–450 BCE",
+  "region": "Elea (Magna Graecia)",
+  "preguntas_filosoficas": [
+    "Can reason contradict the senses and be right?",
+    "Is nothingness thinkable?"
+  ],
+  "citas": [
+    {
+      "texto": "Thinking and being are the same.",
+      "obra": "Poem, fragment DK B3",
+      "atribucion": "directa",
+      "nota": "The translation is disputed: it can be read as an identity between thought and reality or, more modestly, as the claim that only what exists can be thought."
+    }
+  ],
+  "nivel_1_resumen": "He pushed reasoning to a disconcerting conclusion: if nothingness cannot exist, then change is impossible and the world we perceive deceives us.",
+  "nivel_2_desarrollo": "Parmenides set out his philosophy in a poem in which a goddess shows him two roads: that of what is and that of what is not. The second, he argues, is impassable, because nothingness cannot be thought or spoken without turning it into something. From this he deduces in a chain that what exists could not have arisen from nothing nor can vanish into it, admits neither degrees nor divisions and therefore does not change. The consequence is brutal: birth, death and the motion we perceive would be appearances. His importance lies not in convincing anyone but in being the first to subordinate the evidence of the senses to a chain of deductions, inaugurating philosophical argument as we know it.",
+  "nivel_3_experto": "The poem divides into a proem, the 'way of truth' and the 'way of opinion', and the relation between the last two is the great interpretive problem: it is unclear whether the cosmology of the second part is a description of human error, a provisional explanation of the apparent world, or a concession made for teaching. The reading of the key line about thinking and being is also disputed: tradition read it as a strong identity between thought and reality, while much contemporary scholarship prefers the more modest thesis that only what exists can be an object of thought. Another dispute concerns the nature of Parmenidean 'being': whether it is a single entity — numerical monism — or a characterisation of whatever exists. His challenge forced the later pluralists, and above all Democritus's atomism, to build a physics that rescued motion while accepting his premise: the void as a 'non-being' that, against Parmenides, does exist.",
+  "debate_abierto": "The status of the 'way of opinion' and the scope of Parmenidean monism remain the subject of active scholarly dispute.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Parmenides",
+      "url": "https://plato.stanford.edu/entries/parmenides/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Parmenides",
+      "url": "https://iep.utm.edu/parmenid/"
+    },
+    {
+      "titulo": "Kirk, Raven & Schofield, The Presocratic Philosophers, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

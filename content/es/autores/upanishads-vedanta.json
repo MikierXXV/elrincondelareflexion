@@ -1,0 +1,38 @@
+{
+  "id": "upanishads-vedanta",
+  "nombre": "Los Upanishads y la tradición Vedanta",
+  "corriente_id": "filosofia-india",
+  "periodo": "Upanishads antiguos c. s. VIII–IV a.C.; sistematización Vedanta s. VIII d.C. en adelante",
+  "region": "Subcontinente indio",
+  "nota_autoria": "Corpus anónimo y colectivo, no obra de un autor individual; su sistematización filosófica más influyente es la de Shankara.",
+  "preguntas_filosoficas": [
+    "¿Quién es el que percibe cuando percibo?",
+    "¿Somos algo distinto del fondo de la realidad?"
+  ],
+  "citas": [
+    {
+      "texto": "Tú eres eso.",
+      "obra": "Chandogya Upanishad VI",
+      "atribucion": "directa",
+      "nota": "Tat tvam asi. Qué significa exactamente esa identidad es justamente lo que separa entre sí a las escuelas vedanta."
+    }
+  ],
+  "nivel_1_resumen": "Estos textos desplazan la atención del rito exterior a la pregunta por el sujeto que hay detrás de toda experiencia, y sostienen que ese fondo íntimo y el fondo de la realidad son lo mismo.",
+  "nivel_2_desarrollo": "Los Upanishads son diálogos y meditaciones que cierran el corpus védico y cambian su centro de gravedad: lo decisivo deja de ser el sacrificio y pasa a ser el conocimiento. Su procedimiento característico es la eliminación: no soy el cuerpo, que cambia; ni los sentidos, que se apagan al dormir; ni los pensamientos, que van y vienen; y al retirar todo aquello que puede ser objeto de observación queda lo que observa, el atman. La afirmación central de la tradición vedanta es que ese fondo es idéntico a brahman, el principio único de todo lo real, y que percibirse separado de él es el error que sostiene el sufrimiento y el ciclo de renacimientos. Liberarse no consiste entonces en llegar a otro sitio ni en obtener algo nuevo, sino en dejar de identificarse erróneamente con lo que uno no es.",
+  "nivel_3_experto": "Hablar de 'el Vedanta' en singular es inexacto: el Advaita no dualista de Shankara, el Vishishtadvaita de Ramanuja —no dualismo cualificado, que preserva la distinción entre alma y Dios— y el dualismo de Madhva ofrecen lecturas incompatibles de los mismos textos base, y su disputa exegética articula siglos de filosofía india. En Shankara la clave es maya y la distinción entre dos niveles de verdad, convencional y última, junto con la superimposición (adhyasa) por la que atribuimos al sujeto propiedades de lo objetivo; sus críticos, ya desde Ramanuja, objetan que ese esquema no explica el estatuto ontológico de maya sin caer en un tercer término inadmisible. La recepción occidental está condicionada por la lectura idealista alemana del siglo XIX —Schopenhauer accede a los Upanishads a través de una traducción latina de una versión persa— y por el neovedanta de Vivekananda, que presentó la tradición en términos universalistas adaptados al público europeo; distinguir esas capas de la exégesis clásica es hoy un requisito metodológico. Los propios Upanishads no son un sistema, sino un corpus plural y a veces contradictorio compuesto a lo largo de siglos.",
+  "debate_abierto": "El estatuto ontológico de maya en el Advaita y la legitimidad de las lecturas neovedánticas modernas son debates internos y externos plenamente vigentes.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Analytic Philosophy in Early Modern India",
+      "url": "https://plato.stanford.edu/entries/early-modern-india/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Advaita Vedanta",
+      "url": "https://iep.utm.edu/advaita-vedanta/"
+    },
+    {
+      "titulo": "Olivelle, Upanisads (traducción y estudio crítico), Oxford University Press",
+      "url": null
+    }
+  ]
+}

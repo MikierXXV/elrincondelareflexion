@@ -1,0 +1,37 @@
+{
+  "id": "socrates",
+  "nombre": "Sócrates",
+  "corriente_id": "clasica-griega",
+  "periodo": "470–399 a.C.",
+  "region": "Atenas",
+  "preguntas_filosoficas": [
+    "¿Se puede saber algo sin poder definirlo?",
+    "¿Se puede enseñar a ser bueno?"
+  ],
+  "citas": [
+    {
+      "texto": "Una vida sin examen no merece ser vivida.",
+      "obra": "Platón, Apología 38a",
+      "atribucion": "directa",
+      "nota": "La frase que suele citarse como suya, «solo sé que no sé nada», no aparece así en Platón: la Apología dice algo bastante más matizado."
+    }
+  ],
+  "nivel_1_resumen": "No escribió nada y se dedicó a preguntar. Su método consistía en mostrar, con preguntas encadenadas, que quienes creían saber algo no eran capaces de definirlo.",
+  "nivel_2_desarrollo": "Sócrates abordaba a ciudadanos que presumían de saber qué es la justicia, la valentía o la piedad, y les pedía una definición. Después iba encontrando casos que la definición no cubría, hasta que el interlocutor se quedaba sin respuesta. Ese punto de bloqueo no era una humillación gratuita: era el objetivo, porque solo quien reconoce que no sabe puede empezar a buscar. De ahí su famosa afirmación de que su única ventaja era saber que no sabía. Sostenía además que nadie obra mal a sabiendas: si alguien conociera de verdad lo bueno, lo haría. Fue condenado a muerte por la Atenas restaurada tras la guerra, acusado de impiedad y de corromper a los jóvenes, y aceptó la sentencia en lugar de huir.",
+  "nivel_3_experto": "El 'problema socrático' es el núcleo de cualquier lectura seria: todo lo que sabemos procede de fuentes que lo utilizan como personaje —Platón, Jenofonte, Aristófanes— y no hay criterio incontrovertible para separar al Sócrates histórico del portavoz platónico. La convención más extendida atribuye al primero los diálogos tempranos, aporéticos y centrados en definiciones éticas, y reserva para Platón la teoría de las Ideas de los diálogos medios; pero la datación misma de los diálogos es discutida. Su intelectualismo moral —la tesis de que la virtud es conocimiento y el vicio ignorancia— genera el problema de la akrasia, la debilidad de la voluntad, que Aristóteles considerará una refutación empírica: sí sabemos qué es mejor y aun así hacemos otra cosa. Su juicio también admite lectura política: sus vínculos con figuras del régimen oligárquico de los Treinta Tiranos hacen que la acusación de impiedad se lea a menudo como cobertura de un ajuste de cuentas político en una ciudad recién salida de la guerra civil.",
+  "debate_abierto": "Separar al Sócrates histórico del personaje literario de Platón sigue siendo un problema historiográfico sin solución definitiva.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Socrates",
+      "url": "https://plato.stanford.edu/entries/socrates/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Socrates",
+      "url": "https://iep.utm.edu/socrates/"
+    },
+    {
+      "titulo": "Vlastos, Socrates: Ironist and Moral Philosopher, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

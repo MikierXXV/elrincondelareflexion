@@ -1,0 +1,135 @@
+# Publica el sitio en GitHub Pages.
+#
+# El despliegue va DESPUÉS de las comprobaciones y en el mismo flujo, no en paralelo: si el contenido
+# no valida, si hay texto visible escrito en el código o si el contraste no llega, no se publica. Es
+# la única forma de que estas comprobaciones sirvan para algo, porque un aviso que no bloquea acaba
+# ignorándose.
+#
+# Las comprobaciones con navegador van en su propio trabajo. Tardan varios minutos por la descarga de
+# Chromium y por las 59 piezas, así que corren en paralelo con la publicación en vez de retrasarla:
+# lo que puede romper el sitio de verdad —contenido inválido, TypeScript roto, compilación fallida—
+# ya lo cubre el trabajo rápido.
+
+name: Desplegar en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Permisos mínimos para publicar en Pages con el despliegue oficial, sin usar una rama gh-pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Una publicación a la vez. `cancel-in-progress: false` porque cancelar un despliegue a medias deja
+# el sitio en un estado indeterminado; es preferible encolar.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # El contenido y sus reglas: paridad de claves entre idiomas, citas breves con atribución,
+      # mecánicas existentes, y 44 comprobaciones de contraste.
+      - name: Validar contenido y contraste
+        run: npm run validar
+
+      # Ningún texto visible escrito dentro del código. Se coló tres veces; ahora lo vigila esto.
+      - name: Comprobar que no hay texto en el código
+        run: node scripts/check-idiomas.mjs
+
+      - name: Compilar
+        env:
+          # Un sitio de proyecto se sirve en https://<usuario>.github.io/<repo>/, así que la base es
+          # el nombre del repositorio. Se deduce en vez de escribirse a mano: renombrar el
+          # repositorio no puede romper el despliegue en silencio.
+          BASE_PATH: /${{ github.event.repository.name }}/
+          URL_SITIO: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: npm run build
+
+      # La galería y los prototipos son andamiaje: la primera es el banco de pruebas de los guiones
+      # de comprobación y los segundos son las piezas de referencia de la fase de diseño. Ninguna
+      # está enlazada desde el sitio. Se compilan —los guiones las necesitan— pero no se publican.
+      # Para publicarlas, basta con borrar este paso.
+      - name: Quitar las páginas internas del artefacto
+        run: rm -f dist/galeria.html dist/prototipos.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  desplegar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4
+
+  # Las comprobaciones caras, sobre el sitio ya compilado. No bloquean la publicación, pero fallan
+  # visiblemente: sirven para enterarse, no para frenar una corrección urgente de contenido.
+  revisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run build
+
+      # El servidor y las comprobaciones van en un solo paso. Dejar un proceso en segundo plano de un
+      # paso para el siguiente depende de cómo el ejecutor limpia entre pasos, y no hay motivo para
+      # apostar. La espera es un bucle sobre curl en vez de `npx wait-on`: no hace falta traer una
+      # dependencia que no está en el package.json solo para esperar a un puerto.
+      - name: Comprobar el sitio compilado
+        env:
+          URL_BASE: http://localhost:4173/
+        run: |
+          npx vite preview --port 4173 &
+          servidor=$!
+          for i in $(seq 1 60); do
+            curl -sf -o /dev/null http://localhost:4173/ && break
+            sleep 1
+          done
+          curl -sf -o /dev/null http://localhost:4173/ || { echo 'el servidor no llegó a responder'; exit 1; }
+
+          fallos=0
+          URL_BASE=http://localhost:4173/ node scripts/capturar-sitio.mjs || fallos=1
+          URL_BASE=http://localhost:4173/galeria.html node scripts/capturar-detalle.mjs || fallos=1
+          URL_BASE=http://localhost:4173/galeria.html node scripts/check-variantes.mjs || fallos=1
+          # Legibilidad y manipulabilidad: rótulos que se pisan, trazos que los cruzan, y que las 59
+          # piezas se lean y se toquen en un móvil. Es lo que ninguna de las otras tres mira, y donde
+          # aparecieron la mayoría de los defectos: cuatro piezas con la línea tachando su rótulo, un
+          # campo de contenido que salía a pantalla como «undefined», y toda la capa táctil.
+          URL_BASE=http://localhost:4173/galeria.html node scripts/check-piezas.mjs || fallos=1
+          URL_BASE=http://localhost:4173/ node scripts/auditar.mjs || fallos=1
+
+          kill $servidor 2>/dev/null || true
+          exit $fallos
+      - name: Guardar las capturas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: capturas
+          path: capturas/
+          if-no-files-found: ignore

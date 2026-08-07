@@ -1,0 +1,38 @@
+{
+  "id": "locke",
+  "nombre": "John Locke",
+  "corriente_id": "empirismo",
+  "periodo": "1632–1704",
+  "region": "England, the Dutch Republic",
+  "preguntas_filosoficas": [
+    "Are we born with ideas or do we acquire them all?",
+    "What makes me the same person I was yesterday?",
+    "Where does a government get its legitimacy?"
+  ],
+  "citas": [
+    {
+      "texto": "No human knowledge can go beyond its experience.",
+      "obra": "Condensed from An Essay Concerning Human Understanding, Book II",
+      "atribucion": "tradicional",
+      "nota": "A condensed formulation of a thesis Locke develops across several chapters, not a literal sentence."
+    }
+  ],
+  "nivel_1_resumen": "He denied that we are born with ideas already in place: the mind begins as a blank sheet and all its content arrives through experience. And he held that a government is legitimate only with the consent of the governed.",
+  "nivel_2_desarrollo": "Locke attacks the doctrine of innate ideas with a simple argument: if there were principles engraved in every mind, children and people from other cultures would recognise them, and they do not. All the material of thought would then come from two sources, sensation and reflection on our own mental operations. From this he distinguishes the primary qualities of bodies — extension, number, motion, which would be in them — from secondary ones like colour or taste, which depend on our perceptual apparatus. His most original contribution is perhaps personal identity: what makes me the same person is neither the body nor a substantial soul but the continuity of consciousness and memory. In politics he argues that individuals have rights prior to the state and that power is a revocable trust, the basis of later liberalism.",
+  "nivel_3_experto": "His theory of ideas raises the problem of the 'veil of ideas': if what is immediately known are ideas, it is unclear how the inference to external objects is justified, and that crack is what Berkeley and Hume would exploit. The memory criterion for personal identity drew Reid's classic objection with the case of the officer who remembers his childhood and the general who remembers the officer but not the childhood, breaking transitivity; contemporary neo-Lockeans answer with chains of overlapping psychological connections, and the debate remains fully alive in the literature on personal identity, Parfit's cases included. His notion of 'person' as a forensic term — defined by accountability — is increasingly stressed by recent scholarship. In politics, his justification of property through labour and his chapters on 'uncultivated' land have been read as a legitimation of colonisation, a point aggravated by his personal involvement in colonial administration and his investment in companies tied to slavery; how that practice relates to his theory of liberty is today a serious historiographical debate.",
+  "debate_abierto": "Reid's objection to the memory criterion and the relation between Locke's theory of property and colonial practice are still actively discussed.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — John Locke",
+      "url": "https://plato.stanford.edu/entries/locke/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Locke on Personal Identity",
+      "url": "https://plato.stanford.edu/entries/locke-personal-identity/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — John Locke",
+      "url": "https://iep.utm.edu/locke/"
+    }
+  ]
+}

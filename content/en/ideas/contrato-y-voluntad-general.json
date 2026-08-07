@@ -1,0 +1,77 @@
+{
+  "id": "contrato-y-voluntad-general",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "The social contract and the general will",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "rousseau",
+      "rol": "principal",
+      "aporte": "Looks for a form of association in which obeying the law is obeying oneself."
+    }
+  ],
+  "pregunta": "How can you obey others without ceasing to be free?",
+  "cita": {
+    "texto": "Man is born free, and everywhere he is in chains.",
+    "obra": "The Social Contract I, 1",
+    "autor_id": "rousseau",
+    "atribucion": "directa"
+  },
+  "resumen": "If the laws are made by all and apply to all equally, obeying them is obeying oneself. The general will is not what the majority wants, but what is left once particular interests are discounted.",
+  "desarrollo": "Rousseau starts from a diagnosis uncomfortable among the enlightened: civilisation has not made us better. On living in society we begin to exist through other people's eyes, comparison and prestige appear, and with property inequality is consolidated. His problem is then how to associate without losing freedom, and his answer distinguishes two things we habitually confuse. The will of all is the sum of what each wants for themselves, including their conflicting private interests. The general will is what remains once those particular interests cancel each other out: what is willed as a member of the common body. That is why he distrusts factions, which prevent that cancellation. And he adds that freedom is not doing as you please, but giving yourself your own rule.",
+  "ejemplo_real": "A residents' association deciding the hours for building work. If each votes for what suits their own flat and shift pattern, the result is one nobody would defend out loud. If each asks what hours would be reasonable without knowing which flat they live in, something very similar and considerably better usually comes out. That change of question is the general will.",
+  "matiz_experto": "The formula that whoever resists will be 'forced to be free' has supported totalitarian readings, against republican readings that understand it as self-legislation. It is one of the most persistent interpretive controversies in political philosophy.",
+  "visualizacion": {
+    "id": "vis-voluntad-general-rousseau",
+    "idea_id": "contrato-y-voluntad-general",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The same vote is counted two ways at once. While each voter deviates on their own, the deviations cancel out and the two counts give the same direction, superimposed. Organising a faction stops the deviations cancelling, the sum tilts, and the counts separate by a readable angle.",
+    "invitacion": "Organise factions and watch the two counts diverge",
+    "alternativa_textual": "Two simultaneous counts of the same vote, one summing particular preferences and the other cancelling them against each other, diverging as organised factions appear: it demonstrates the difference between the will of all and the general will.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-recuentos",
+    "parametros": {
+      "corrienteId": "ilustracion-idealismo",
+      "votacion": "What suits the whole community",
+      "recuentos": [
+        "The will of all",
+        "The general will"
+      ],
+      "maniobras": [
+        {
+          "nombre": "A guild reaches agreement",
+          "votantes": 5,
+          "sesgo": 0.55,
+          "efecto": "Five voters stop deviating each their own way. What used to cancel now adds up."
+        },
+        {
+          "nombre": "The faction grows",
+          "votantes": 9,
+          "sesgo": 0.7,
+          "efecto": "The sum drifts further. Nobody has voted in bad faith: each votes what suits them."
+        },
+        {
+          "nombre": "One faction dominates",
+          "votantes": 13,
+          "sesgo": 0.8,
+          "efecto": "The sum is nearly the faction’s. The count is still legitimate and the result is no longer anyone else’s."
+        }
+      ],
+      "disolver": "Break up the factions",
+      "separacion": "Separation between the two counts: {grados}°",
+      "resolucion": "The difference is not how many vote nor how honest they are: it is whether the particular deviations cancel. Once they organise, adding up preferences stops yielding what suits everyone.",
+      "alternativaTexto": "Two simultaneous counts of the same vote, one summing particular preferences and the other cancelling them against each other, diverging as organised factions appear: it demonstrates the difference between the will of all and the general will.",
+      "etiqueta": "The social contract and the general will"
+    }
+  },
+  "ideas_relacionadas": [
+    "animal-politico",
+    "velo-de-la-ignorancia",
+    "principio-del-dano",
+    "ideologia"
+  ]
+}

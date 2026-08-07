@@ -1,0 +1,97 @@
+{
+  "id": "ideologia",
+  "corriente_id": "marxismo",
+  "titulo": "La ideología",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "marx",
+      "rol": "principal",
+      "aporte": "Nombra el mecanismo por el que los intereses de un grupo se presentan como el orden natural."
+    }
+  ],
+  "pregunta": "¿Y si lo que te parece de sentido común le conviniera a alguien en particular?",
+  "cita": {
+    "texto": "Las ideas dominantes de una época son las ideas de la clase dominante.",
+    "obra": "La ideología alemana, 1846",
+    "autor_id": "marx",
+    "atribucion": "directa"
+  },
+  "resumen": "Los intereses de un grupo pueden presentarse como el orden natural de las cosas, de modo que quien sale perjudicado los defiende también, sin que nadie le haya engañado deliberadamente.",
+  "desarrollo": "Lo que hace potente al concepto es que no describe una mentira. Una mentira tiene un mentiroso y se puede desmentir. La ideología funciona de otro modo: convierte un arreglo histórico y contingente en algo que parece evidente, y por eso quienes lo sostienen suelen creérselo de buena fe. No hace falta que nadie conspire; basta con que las ideas que circulan, se enseñan y se premian sean las que resultan cómodas para quien tiene los medios de difundirlas. La prueba de si algo es ideológico no es si es agradable o desagradable, sino qué pasa cuando preguntas de dónde salió: si la respuesta es «siempre ha sido así» o «es de sentido común», y no aguanta que le busques el origen histórico, ahí hay algo que examinar. El concepto sobrevive hoy muy lejos de cualquier compromiso político con Marx.",
+  "ejemplo_real": "La idea de que quien no prospera es porque no se ha esforzado lo suficiente. Es reconfortante para quien ha prosperado, útil para justificar cómo está repartido todo, y quien peor lo pasa suele suscribirla con más convicción que nadie. Nadie la impuso: se respira. Eso es exactamente lo que el concepto nombra.",
+  "matiz_experto": "Una crítica frecuente es que el concepto puede volverse infalsable: si aceptar la tesis la confirma y rechazarla también, deja de poder contrastarse. Las versiones más cuidadosas exigen mostrar el mecanismo concreto de transmisión, no solo la conveniencia del resultado.",
+  "visualizacion": {
+    "id": "vis-ideologia-marx",
+    "idea_id": "ideologia",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario tira hacia atrás de tres afirmaciones a la vez, sometidas al mismo rastreo histórico. Al llegar cada una a su origen, dos se descomponen —el enunciado se parte y en su lugar queda el interés al que servía— y una resiste el recorrido entero sin cambiar. Ver cuál aguanta y cuál no es el ejercicio: la prueba distingue en vez de acusarlas a todas.",
+    "invitacion": "Rastrea las tres afirmaciones hasta su origen",
+    "alternativa_textual": "Afirmaciones presentadas como sentido común que se someten a un rastreo histórico: unas resisten y otras se descomponen mostrando el interés al que servían. Demuestra cómo un arreglo contingente puede parecer el orden natural de las cosas.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "linea-temporal",
+    "parametros": {
+      "corrienteId": "marxismo",
+      "modo": "rastreo",
+      "momentos": [
+        {
+          "momento": "hoy",
+          "nota": "Las tres se presentan igual: evidentes, sin autor y sin fecha."
+        },
+        {
+          "momento": "s. XX",
+          "nota": "Una ya no aguanta: al buscarle el origen aparece el trabajo que ahorraba, y a quién."
+        },
+        {
+          "momento": "s. XIX",
+          "nota": "Otra se parte al llegar a su origen. La tercera sigue diciendo lo mismo."
+        }
+      ],
+      "afirmaciones": [
+        {
+          "texto": "quien no prospera es que no se ha esforzado",
+          "rastro": [
+            "Se repite sin fuente y la suscribe también quien peor lo pasa.",
+            "Se enseña en la escuela y se premia en el trabajo."
+          ],
+          "rompeEn": 2,
+          "interes": "Justifica el reparto de la propiedad: sirve a quien vive de ella."
+        },
+        {
+          "texto": "hacer sufrir a alguien por gusto está mal",
+          "rastro": [
+            "Se repite sin fuente y a nadie se le pide que la justifique.",
+            "Se dice igual, y también donde estorba a quien manda.",
+            "Aquí también se sostiene, y no hay grupo al que le convenga."
+          ]
+        },
+        {
+          "texto": "cuidar la casa y a los hijos no es trabajo",
+          "rastro": [
+            "Se repite sin fuente y no se discute en ninguna parte."
+          ],
+          "rompeEn": 1,
+          "interes": "Repone cada día la fuerza de trabajo, y no la paga quien la usa."
+        }
+      ],
+      "enPie": "{afirmacion}: sigue en pie.",
+      "descompuesta": "{afirmacion}: se descompone y muestra a quién servía: {interes}",
+      "resolucion": "Dos se deshacen al llegar a su origen y enseñan a quién le convenían; la tercera aguanta el mismo rastreo sin moverse. Que no caigan todas es lo que hace de esto una prueba y no una sospecha: un arreglo contingente puede parecer el orden natural, pero no todo lo es.",
+      "alternativaTexto": "Afirmaciones presentadas como sentido común que se someten a un rastreo histórico: unas resisten y otras se descomponen mostrando el interés al que servían. Demuestra cómo un arreglo contingente puede parecer el orden natural de las cosas.",
+      "atras": "Tirar hacia atrás",
+      "adelante": "Volver al presente",
+      "etiqueta": "La ideología",
+      "etiquetaMarcador": "Momento histórico"
+    }
+  },
+  "ideas_relacionadas": [
+    "alienacion",
+    "materialismo-historico",
+    "genealogia-de-la-moral",
+    "mundo-de-las-ideas"
+  ]
+}

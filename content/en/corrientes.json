@@ -1,0 +1,462 @@
+{
+  "$schema": "../schema/corrientes.schema.json",
+  "idioma": "en",
+  "bloques": [
+    {
+      "id": "occidental",
+      "nombre": "The Western tradition",
+      "nota_cronologica": "A continuous sequence from archaic Greece to the twentieth century."
+    },
+    {
+      "id": "no-occidental",
+      "nombre": "Other traditions",
+      "nota_cronologica": "Each tradition has its own internal chronology and its own starting questions; none is presented as a derivation from, or an appendix to, the European line."
+    },
+    {
+      "id": "psicologia",
+      "nombre": "Twentieth-century psychology",
+      "nota_cronologica": "A modern scientific field included for its direct dialogue with underlying philosophical questions: mind, behaviour, free will and identity."
+    }
+  ],
+  "corrientes": [
+    {
+      "id": "presocraticos",
+      "bloque_id": "occidental",
+      "nombre": "The Presocratics",
+      "periodo": "6th–5th c. BCE",
+      "orden_cronologico": 1,
+      "tradicion": "Archaic Greece",
+      "region": "Ionia, Magna Graecia",
+      "contexto": "In the Greek cities of Asia Minor and southern Italy a way of explaining the world appears that no longer appeals to the will of the gods, but to impersonal principles that can be argued over and refuted. This is the moment when explanation starts to demand reasons.",
+      "idea_central": "The world has an intelligible order and a first principle (archê) that reason can trace beneath the shifting appearances.",
+      "pregunta_guia": "What is reality made of, and why does it change?",
+      "color_acento": {
+        "claro": "#A65B29",
+        "oscuro": "#C36B31"
+      },
+      "autores": [
+        "heraclito",
+        "parmenides",
+        "pitagoras"
+      ],
+      "ideas": [
+        "flujo-y-permanencia",
+        "imposibilidad-del-cambio",
+        "el-numero-como-orden"
+      ]
+    },
+    {
+      "id": "clasica-griega",
+      "bloque_id": "occidental",
+      "nombre": "Classical Greek philosophy",
+      "periodo": "5th–4th c. BCE",
+      "orden_cronologico": 2,
+      "tradicion": "Classical Greece",
+      "region": "Athens",
+      "contexto": "Democratic Athens, and then the Athens defeated in the Peloponnesian War, turns public debate into a philosophical problem: if anyone can persuade the assembly, what separates knowledge from merely skilful opinion?",
+      "idea_central": "Philosophy stops asking only about nature and turns towards knowledge, virtue and the organisation of life in common.",
+      "pregunta_guia": "What is it to really know, and how should we live?",
+      "color_acento": {
+        "claro": "#3270BC",
+        "oscuro": "#4884CE"
+      },
+      "autores": [
+        "socrates",
+        "platon",
+        "aristoteles"
+      ],
+      "ideas": [
+        "saber-que-no-se-sabe",
+        "mundo-de-las-ideas",
+        "termino-medio",
+        "animal-politico"
+      ]
+    },
+    {
+      "id": "helenismo",
+      "bloque_id": "occidental",
+      "nombre": "Hellenistic philosophy",
+      "periodo": "4th c. BCE–2nd c. CE",
+      "orden_cronologico": 3,
+      "tradicion": "Hellenistic and Roman schools",
+      "region": "Eastern Mediterranean, Rome",
+      "contexto": "After Alexander the Great, the city-state is no longer the frame within which anyone decides their own fate. Philosophy turns towards a practical and urgent question: how to live well when almost nothing that matters depends on you.",
+      "idea_central": "Philosophy is above all a therapy: a training in serenity that begins by separating what is in our power from what is not.",
+      "pregunta_guia": "How do you live without anguish in a world you do not control?",
+      "color_acento": {
+        "claro": "#277D60",
+        "oscuro": "#2E9271"
+      },
+      "autores": [
+        "epicuro",
+        "epicteto",
+        "marco-aurelio",
+        "pirron"
+      ],
+      "ideas": [
+        "dicotomia-del-control",
+        "limite-del-placer",
+        "suspension-del-juicio",
+        "vista-desde-arriba"
+      ]
+    },
+    {
+      "id": "escolastica",
+      "bloque_id": "occidental",
+      "nombre": "Patristics and medieval scholasticism",
+      "periodo": "4th–13th c.",
+      "orden_cronologico": 4,
+      "tradicion": "Latin Christianity",
+      "region": "North Africa, Western Europe",
+      "contexto": "Christian thought inherits the Greek conceptual apparatus and has to decide what to do with it. The arrival of Aristotle in the European universities of the thirteenth century — by way of Arabic translations and Islamic commentators — forces a rebuilding of the relation between faith and reason.",
+      "idea_central": "Faith and reason are not rivals: reason can travel much of the road on its own, and revelation completes what it cannot reach.",
+      "pregunta_guia": "How far does reason go when it asks about God and the soul?",
+      "color_acento": {
+        "claro": "#876B24",
+        "oscuro": "#9F7E2A"
+      },
+      "autores": [
+        "agustin",
+        "tomas-de-aquino"
+      ],
+      "ideas": [
+        "el-tiempo-en-el-alma",
+        "el-mal-como-privacion",
+        "razon-y-fe"
+      ]
+    },
+    {
+      "id": "racionalismo",
+      "bloque_id": "occidental",
+      "nombre": "Rationalism",
+      "periodo": "17th c.",
+      "orden_cronologico": 5,
+      "tradicion": "Continental European modernity",
+      "region": "France, the Dutch Republic, Germany",
+      "contexto": "The scientific revolution dismantles inherited physics and exposes a vacuum: if the senses deceive and authority is no longer enough, a new method is needed to know anything with certainty.",
+      "idea_central": "There are truths reason reaches on its own, with the security of a mathematical demonstration, without depending on sense experience.",
+      "pregunta_guia": "Is there any absolutely secure starting point for knowledge?",
+      "color_acento": {
+        "claro": "#7C5ACB",
+        "oscuro": "#8F72D2"
+      },
+      "autores": [
+        "descartes",
+        "spinoza",
+        "leibniz"
+      ],
+      "ideas": [
+        "duda-metodica",
+        "problema-mente-cuerpo",
+        "libertad-como-comprension",
+        "razon-suficiente"
+      ]
+    },
+    {
+      "id": "empirismo",
+      "bloque_id": "occidental",
+      "nombre": "British empiricism",
+      "periodo": "17th–18th c.",
+      "orden_cronologico": 6,
+      "tradicion": "Insular European modernity",
+      "region": "England, Ireland, Scotland",
+      "contexto": "Against the continental confidence in pure reason, a methodical suspicion takes hold in the British Isles: every idea must be traceable back to the experience that produced it, and whatever fails that test falls under suspicion.",
+      "idea_central": "All the material of thought comes from experience; there is nothing in the mind that did not first pass through the senses.",
+      "pregunta_guia": "How much of what we think we know survives the test of experience?",
+      "color_acento": {
+        "claro": "#277791",
+        "oscuro": "#2E8CAC"
+      },
+      "autores": [
+        "locke",
+        "berkeley",
+        "hume"
+      ],
+      "ideas": [
+        "tabula-rasa",
+        "identidad-personal",
+        "ser-es-ser-percibido",
+        "causalidad-como-habito",
+        "ley-de-hume"
+      ]
+    },
+    {
+      "id": "ilustracion-idealismo",
+      "bloque_id": "occidental",
+      "nombre": "Enlightenment and German idealism",
+      "periodo": "18th–19th c.",
+      "orden_cronologico": 7,
+      "tradicion": "Late European modernity",
+      "region": "France, Prussia, Switzerland",
+      "contexto": "Enlightenment confidence in reason coexists with two blows: the recognition that knowledge has structural limits, and the suspicion that civilisation has not made human beings any better. Out of this come both the Kantian system and its critics.",
+      "idea_central": "The mind does not copy the world: it organises it. From there, freedom, history and the will become the great philosophical problems.",
+      "pregunta_guia": "What can we know, what ought we to do, and what really moves a human being?",
+      "color_acento": {
+        "claro": "#C93C2F",
+        "oscuro": "#D65B50"
+      },
+      "autores": [
+        "rousseau",
+        "kant",
+        "hegel",
+        "schopenhauer"
+      ],
+      "ideas": [
+        "contrato-y-voluntad-general",
+        "condiciones-a-priori",
+        "imperativo-categorico",
+        "dialectica-del-reconocimiento",
+        "voluntad-y-pesimismo"
+      ]
+    },
+    {
+      "id": "utilitarismo",
+      "bloque_id": "occidental",
+      "nombre": "Utilitarianism",
+      "periodo": "18th–19th c.",
+      "orden_cronologico": 8,
+      "tradicion": "British reformism",
+      "region": "England",
+      "contexto": "In the middle of industrialisation, with a brutal penal system and laws inherited on no better justification than custom, a group of reformers looks for a single verifiable criterion for deciding whether a law or an institution deserves to exist.",
+      "idea_central": "An action or a law is right to the extent that it produces the greatest well-being for the greatest number of those affected, counting each one as one.",
+      "pregunta_guia": "Can everyone's goods and harms be added up to decide what to do?",
+      "color_acento": {
+        "claro": "#5F7726",
+        "oscuro": "#708D2C"
+      },
+      "autores": [
+        "bentham",
+        "mill"
+      ],
+      "ideas": [
+        "calculo-de-la-felicidad",
+        "placeres-superiores",
+        "principio-del-dano"
+      ]
+    },
+    {
+      "id": "marxismo",
+      "bloque_id": "occidental",
+      "nombre": "Marxism",
+      "periodo": "19th c.",
+      "orden_cronologico": 9,
+      "tradicion": "Left Hegelianism and political economy",
+      "region": "Germany, United Kingdom",
+      "contexto": "Industrialisation produces at once an unprecedented wealth and a misery concentrated in the factory cities. The problem stops being how to think the world and becomes why the world produces that result systematically.",
+      "idea_central": "The ideas, institutions and consciousness of an age do not float free: they are explained by the way that society organises the production of its material life.",
+      "pregunta_guia": "Do we think what we think, or does the position we occupy think it for us?",
+      "color_acento": {
+        "claro": "#BD3F7E",
+        "oscuro": "#C95D93"
+      },
+      "autores": [
+        "marx"
+      ],
+      "ideas": [
+        "alienacion",
+        "ideologia",
+        "materialismo-historico"
+      ]
+    },
+    {
+      "id": "existencialismo",
+      "bloque_id": "occidental",
+      "nombre": "Existentialism and vitalism",
+      "periodo": "19th–20th c.",
+      "orden_cronologico": 10,
+      "tradicion": "Continental contemporary",
+      "region": "Denmark, Germany, France",
+      "contexto": "With the great systems discredited and religious certainties in crisis, philosophy shifts to the concrete individual: someone who has to decide without guarantees and who carries the consequences.",
+      "idea_central": "Concrete existence comes before any definition of what we are: nobody hands us the meaning of our life ready-made.",
+      "pregunta_guia": "If no meaning is given in advance, what do we do with our freedom?",
+      "color_acento": {
+        "claro": "#AD40B5",
+        "oscuro": "#BE5AC5"
+      },
+      "autores": [
+        "kierkegaard",
+        "nietzsche",
+        "sartre"
+      ],
+      "ideas": [
+        "angustia-y-libertad",
+        "genealogia-de-la-moral",
+        "eterno-retorno",
+        "mala-fe"
+      ]
+    },
+    {
+      "id": "analitica",
+      "bloque_id": "occidental",
+      "nombre": "Analytic philosophy",
+      "periodo": "20th c.",
+      "orden_cronologico": 11,
+      "tradicion": "Anglophone contemporary",
+      "region": "United Kingdom, Austria",
+      "contexto": "Advances in formal logic at the start of the twentieth century offer a new and very sharp tool. With it, several philosophers come to suspect that a good part of the inherited problems are not real problems at all, but optical effects of language.",
+      "idea_central": "Before answering a philosophical question, examine the language it is posed in: often the tangle was there all along.",
+      "pregunta_guia": "How many philosophical problems are really problems of language?",
+      "color_acento": {
+        "claro": "#5A69B8",
+        "oscuro": "#727EC2"
+      },
+      "autores": [
+        "russell",
+        "wittgenstein"
+      ],
+      "ideas": [
+        "hablar-de-lo-que-no-existe",
+        "limites-del-lenguaje",
+        "significado-como-uso"
+      ]
+    },
+    {
+      "id": "etica-politica-contemporanea",
+      "bloque_id": "occidental",
+      "nombre": "Contemporary ethics and political philosophy",
+      "periodo": "20th c.",
+      "orden_cronologico": 12,
+      "tradicion": "Contemporary",
+      "region": "United States, Germany",
+      "contexto": "After the totalitarianisms and two world wars, thinking about justice and about evil stops being an abstract exercise. The question is no longer only which society would be ideal, but how what happened was possible at all.",
+      "idea_central": "Justice and political responsibility have to be rebuilt in full knowledge of what modern societies are capable of.",
+      "pregunta_guia": "What makes a society just, and what turns ordinary people into accomplices?",
+      "color_acento": {
+        "claro": "#2C7D4E",
+        "oscuro": "#34945C"
+      },
+      "autores": [
+        "rawls",
+        "arendt"
+      ],
+      "ideas": [
+        "velo-de-la-ignorancia",
+        "principio-de-diferencia",
+        "banalidad-del-mal"
+      ]
+    },
+    {
+      "id": "filosofia-china",
+      "bloque_id": "no-occidental",
+      "nombre": "Classical Chinese philosophy",
+      "periodo": "6th–3rd c. BCE",
+      "orden_cronologico": 13,
+      "cronologia_paralela_a": [
+        "presocraticos",
+        "clasica-griega",
+        "helenismo"
+      ],
+      "tradicion": "Pre-imperial China",
+      "region": "The Central Plain",
+      "contexto": "During the centuries of war between kingdoms that precede imperial unification, rival schools compete to answer one practical urgency: how to restore order. Out of this comes what the tradition called the 'hundred schools of thought'.",
+      "idea_central": "The order of the world and the order of conduct are the same problem, and it is solved by cultivating the person, not only by legislating.",
+      "pregunta_guia": "How is harmony restored: by polishing conduct, or by stopping forcing it?",
+      "color_acento": {
+        "claro": "#C63C53",
+        "oscuro": "#D05D70"
+      },
+      "autores": [
+        "confucio",
+        "laozi",
+        "zhuangzi"
+      ],
+      "ideas": [
+        "ren-y-li",
+        "wu-wei",
+        "relatividad-de-las-perspectivas"
+      ]
+    },
+    {
+      "id": "filosofia-india",
+      "bloque_id": "no-occidental",
+      "nombre": "Indian philosophy",
+      "periodo": "8th c. BCE–2nd c. CE",
+      "orden_cronologico": 14,
+      "cronologia_paralela_a": [
+        "presocraticos",
+        "clasica-griega",
+        "helenismo"
+      ],
+      "tradicion": "Vedic and Buddhist traditions",
+      "region": "The Indian subcontinent",
+      "contexto": "The speculations of the Upanishads and the Buddhist break share a diagnosis: ordinary existence is unsatisfactory, and it is held up by a mistaken understanding of oneself. They disagree radically about what lies at the bottom.",
+      "idea_central": "Suffering is born of a mistaken identification with what we take ourselves to be; liberation consists in seeing that clearly.",
+      "pregunta_guia": "Is there a real 'self' behind experience, or is the question itself badly posed?",
+      "color_acento": {
+        "claro": "#72721E",
+        "oscuro": "#878724"
+      },
+      "autores": [
+        "upanishads-vedanta",
+        "buda",
+        "nagarjuna"
+      ],
+      "ideas": [
+        "atman-y-brahman",
+        "las-cuatro-verdades",
+        "anatman",
+        "vacuidad"
+      ]
+    },
+    {
+      "id": "filosofia-islamica",
+      "bloque_id": "no-occidental",
+      "nombre": "Medieval Islamic philosophy",
+      "periodo": "10th–12th c.",
+      "orden_cronologico": 15,
+      "cronologia_paralela_a": [
+        "escolastica"
+      ],
+      "tradicion": "Falsafa and kalam",
+      "region": "Persia, al-Andalus, the Maghreb",
+      "contexto": "The Islamic world translates, annotates and argues over the Greek corpus long before Latin Europe does, and hands back to it an Aristotle already worked on for centuries. Within it, a first-order debate is fought over the limits of demonstrative reason.",
+      "idea_central": "Philosophical reason and revelation seek the same truth, but how much reason can actually demonstrate is the subject of an open and fierce dispute.",
+      "pregunta_guia": "Can philosophy demonstrate what religion asserts, or does it overreach in trying?",
+      "color_acento": {
+        "claro": "#247B78",
+        "oscuro": "#2A918D"
+      },
+      "autores": [
+        "avicena",
+        "al-ghazali",
+        "averroes"
+      ],
+      "ideas": [
+        "esencia-y-existencia",
+        "critica-de-la-causalidad",
+        "dos-niveles-de-lectura"
+      ]
+    },
+    {
+      "id": "psicologia-siglo-xx",
+      "bloque_id": "psicologia",
+      "nombre": "Twentieth-century psychology",
+      "periodo": "20th c.",
+      "orden_cronologico": 16,
+      "tradicion": "The modern science of mind and behaviour",
+      "region": "Central Europe, United States",
+      "contexto": "In becoming independent from philosophy as an empirical discipline, psychology does not abandon its questions: it reformulates them in terms of method, measurement and the clinic. The result is four programmes that disagree about what a person is.",
+      "idea_central": "Much of what we are is not transparent to us, and each school places that opacity somewhere different: the unconscious, a history of reinforcement, the collective symbolic, or a meaning not yet realised.",
+      "pregunta_guia": "Are we the owners of our own behaviour, and who is the 'I' that is supposed to decide?",
+      "color_acento": {
+        "claro": "#9253BC",
+        "oscuro": "#A26CC6"
+      },
+      "autores": [
+        "freud",
+        "jung",
+        "skinner",
+        "maslow",
+        "rogers",
+        "frankl"
+      ],
+      "ideas": [
+        "lo-inconsciente",
+        "la-sombra",
+        "condicionamiento-operante",
+        "aceptacion-y-cambio",
+        "voluntad-de-sentido"
+      ]
+    }
+  ]
+}

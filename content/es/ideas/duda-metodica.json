@@ -1,0 +1,76 @@
+{
+  "id": "duda-metodica",
+  "corriente_id": "racionalismo",
+  "titulo": "La duda metódica",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "descartes",
+      "rol": "principal",
+      "aporte": "Duda de todo deliberadamente para encontrar aquello que la duda no puede tocar."
+    }
+  ],
+  "pregunta": "¿Queda algo en pie si dudas absolutamente de todo?",
+  "cita": {
+    "texto": "Pienso, luego existo.",
+    "obra": "Discurso del método, IV",
+    "autor_id": "descartes",
+    "atribucion": "directa"
+  },
+  "resumen": "Descartes duda a propósito de todo lo que puede ser puesto en duda —los sentidos, el mundo, hasta las matemáticas— para ver si algo resiste. Resiste una sola cosa: que hay alguien dudando.",
+  "desarrollo": "La duda cartesiana no es escepticismo, es una herramienta. Se trata de desmontar por capas para encontrar el suelo. Primero caen los sentidos, que a veces engañan y por tanto no merecen confianza plena. Después la percepción entera, porque nada permite distinguir con certeza la vigilia de un sueño muy vívido. Y por último incluso las verdades matemáticas, imaginando un genio maligno lo bastante poderoso como para hacerle errar en cada suma. Cuando parece que no queda nada, aparece lo que buscaba: si estoy siendo engañado, tengo que existir para poder serlo. El pensamiento no puede negarse a sí mismo sin ejercerse. Esa es la certeza mínima desde la que intenta reconstruirlo todo, y de ahí sale su conclusión de que lo que somos esencialmente es una cosa que piensa.",
+  "ejemplo_real": "Cuando despiertas de un sueño muy realista, durante unos segundos no sabes cuál de los dos mundos era el bueno. Lo que nunca está en duda en ese momento es que hay alguien confundido. Puedes equivocarte sobre absolutamente todo el contenido de tu experiencia, pero no sobre que la estás teniendo.",
+  "matiz_experto": "El cogito plantea un problema estructural: si es una inferencia, necesita una premisa universal que la duda ya habría suspendido; si es una intuición inmediata, hay que explicar qué autoriza a pasar del pensamiento a un sujeto sustancial, objeción que formularán Lichtenberg, Hume y Nietzsche.",
+  "visualizacion": {
+    "id": "vis-duda-descartes",
+    "idea_id": "duda-metodica",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "La pantalla muestra capas de certezas apiladas: percepciones, cuerpo propio, mundo exterior, verdades matemáticas. Cada clic retira una capa aplicando el motivo de duda que le corresponde, y el usuario ve cuál se lleva por delante a cuál. Al final queda un único punto que no se deja eliminar: al intentar borrarlo reaparece, porque hace falta alguien que lo intente.",
+    "invitacion": "Retira cada certeza y mira qué aguanta debajo",
+    "alternativa_textual": "Un apilado de certezas que se retiran una a una hasta dejar un solo punto que resiste el borrado porque borrarlo requiere que alguien lo haga: demuestra que la duda no puede alcanzar al que duda.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "capas",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "capas": [
+        {
+          "nombre": "los sentidos",
+          "motivo": "A veces engañan, y lo que engaña una vez no merece confianza plena."
+        },
+        {
+          "nombre": "el mundo exterior",
+          "motivo": "Nada distingue con certeza la vigilia de un sueño muy vívido."
+        },
+        {
+          "nombre": "mi propio cuerpo",
+          "motivo": "También me llega por los sentidos, que acabo de descartar."
+        },
+        {
+          "nombre": "las matemáticas",
+          "motivo": "Un engañador lo bastante poderoso podría hacerme errar en cada suma."
+        }
+      ],
+      "nucleo": {
+        "nombre": "alguien duda",
+        "alRetirar": "Al intentar retirarlo, reaparece: hace falta alguien que lo intente."
+      },
+      "resolucion": "Puedes dudar de todo el contenido de tu experiencia, pero no de que la estás teniendo.",
+      "alternativaTexto": "Un apilado de certezas que se retiran una a una hasta dejar un solo punto que resiste el borrado porque borrarlo requiere que alguien lo haga: demuestra que la duda no puede alcanzar al que duda.",
+      "reiniciar": "Volver a empezar",
+      "nadaQueRetirar": "No queda nada que retirar",
+      "retirarUna": "Retirar «{nombre}»",
+      "etiqueta": "La duda metódica",
+      "sinNucleo": "nada debajo"
+    }
+  },
+  "ideas_relacionadas": [
+    "problema-mente-cuerpo",
+    "suspension-del-juicio",
+    "imposibilidad-del-cambio",
+    "esencia-y-existencia"
+  ]
+}

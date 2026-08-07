@@ -1,0 +1,24 @@
+{
+  "id": "marx",
+  "nombre": "Karl Marx",
+  "corriente_id": "marxismo",
+  "periodo": "1818–1883",
+  "region": "Renania, París, Londres",
+  "preguntas_filosoficas": ["¿De dónde salen las ideas de una época?", "¿Por qué el trabajo puede volverse hostil para quien lo hace?", "¿Es la historia el resultado de decisiones o de estructuras?"],
+  "citas": [
+    {
+      "texto": "Los filósofos se han limitado a interpretar el mundo; se trata de transformarlo.",
+      "obra": "Tesis sobre Feuerbach, XI, 1845",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que las ideas y las instituciones de una época no flotan libres: se explican por cómo esa sociedad organiza la producción, y quien controla esa producción marca lo que se considera evidente.",
+  "nivel_2_desarrollo": "Marx invierte a Hegel: no es la conciencia la que determina la vida material, sino al revés. Su hipótesis es que la forma en que una sociedad produce —quién posee la tierra, las máquinas, el capital— condiciona su derecho, su moral, su religión y hasta lo que a sus miembros les parece natural. De ahí dos conceptos con mucho recorrido. La alienación describe el trabajo que se vuelve ajeno a quien lo realiza: el producto no le pertenece, el proceso no lo decide él, y la actividad que debería expresarle acaba agotándole. La ideología nombra el mecanismo por el cual los intereses de un grupo se presentan como el orden natural de las cosas, de modo que quien resulta perjudicado también los da por buenos. Su análisis del capitalismo se apoya en la idea de que el valor generado por el trabajo excede lo que se paga por él.",
+  "nivel_3_experto": "Distinguir al Marx histórico de las tradiciones que invocan su nombre es la primera exigencia metodológica: los Manuscritos de 1844, con el análisis de la alienación de raíz hegeliana y feuerbachiana, no se publicaron hasta 1932, lo que dividió la lectura del siglo XX entre un Marx humanista temprano y el Marx científico de El capital; Althusser postuló entre ambos un 'corte epistemológico' que otros intérpretes rechazan, defendiendo la continuidad. La teoría del valor-trabajo es un punto crítico: fue objetada ya por Böhm-Bawerk, el problema de la transformación de valores en precios sigue discutido, y la economía académica dominante no la sostiene, aunque el marxismo analítico de Cohen, Elster y Roemer reconstruyó partes del programa con herramientas de teoría de la elección racional y prescindiendo de ella. Sus predicciones sobre la pauperización creciente y el colapso del capitalismo no se cumplieron como fueron formuladas. Lo que ha resistido mejor es el instrumento de análisis: la sospecha de que las ideas dominantes sirven a posiciones concretas es hoy de uso corriente en historia, sociología y crítica cultural, muy por fuera de cualquier compromiso político con su obra. La relación entre su pensamiento y los regímenes que lo invocaron es un problema historiográfico que no se resuelve ni identificándolos ni desligándolos sin más.",
+  "debate_abierto": "La continuidad o ruptura entre el Marx joven y el maduro, la validez de la teoría del valor-trabajo y la relación entre su obra y los regímenes del siglo XX son debates activos y muy politizados.",
+  "fuentes": [
+    {"titulo": "Stanford Encyclopedia of Philosophy — Karl Marx", "url": "https://plato.stanford.edu/entries/marx/"},
+    {"titulo": "Stanford Encyclopedia of Philosophy — Marx's Theory of History (Analytical Marxism)", "url": "https://plato.stanford.edu/entries/marxism-analytical/"},
+    {"titulo": "Stanford Encyclopedia of Philosophy — Alienation", "url": "https://plato.stanford.edu/entries/alienation/"}
+  ]
+}

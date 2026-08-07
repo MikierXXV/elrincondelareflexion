@@ -1,0 +1,97 @@
+{
+  "id": "ideologia",
+  "corriente_id": "marxismo",
+  "titulo": "Ideology",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "marx",
+      "rol": "principal",
+      "aporte": "Names the mechanism by which one group's interests are presented as the natural order."
+    }
+  ],
+  "pregunta": "What if what strikes you as common sense happened to suit someone in particular?",
+  "cita": {
+    "texto": "The ruling ideas of an age are the ideas of the ruling class.",
+    "obra": "The German Ideology, 1846",
+    "autor_id": "marx",
+    "atribucion": "directa"
+  },
+  "resumen": "One group's interests can be presented as the natural order of things, so that the people they harm defend them too, without anyone having deliberately deceived them.",
+  "desarrollo": "What makes the concept powerful is that it does not describe a lie. A lie has a liar and can be refuted. Ideology works differently: it turns a historical, contingent arrangement into something that looks self-evident, which is why those who uphold it usually believe it in good faith. No conspiracy is needed; it is enough that the ideas circulating, taught and rewarded are the ones convenient for whoever owns the means of spreading them. The test of whether something is ideological is not whether it is pleasant or unpleasant but what happens when you ask where it came from: if the answer is 'it has always been this way' or 'it is just common sense', and it cannot survive your looking for its historical origin, there is something there to examine. The concept survives today far from any political commitment to Marx.",
+  "ejemplo_real": "The idea that people who do not get ahead simply have not tried hard enough. It is comforting for those who have got ahead, useful for justifying how everything is distributed, and those who have the worst of it often subscribe to it with more conviction than anyone. Nobody imposed it: it is in the air. That is exactly what the concept names.",
+  "matiz_experto": "A frequent criticism is that the concept can become unfalsifiable: if accepting the thesis confirms it and rejecting it does too, it can no longer be tested. More careful versions demand that the concrete mechanism of transmission be shown, not merely the convenience of the result.",
+  "visualizacion": {
+    "id": "vis-ideologia-marx",
+    "idea_id": "ideologia",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user pulls three statements backwards at once, all put through the same historical trace. As each reaches its origin, two come apart —the statement splits and the interest it served is left in its place— and one takes the whole trace unchanged. Telling which holds from which does not is the exercise: the test discriminates instead of indicting them all.",
+    "invitacion": "Trace all three claims back to their origin",
+    "alternativa_textual": "Statements presented as common sense put through a historical trace: some hold and others come apart, revealing the interest they served. It shows how a contingent arrangement can look like the natural order of things.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "linea-temporal",
+    "parametros": {
+      "corrienteId": "marxismo",
+      "modo": "rastreo",
+      "momentos": [
+        {
+          "momento": "today",
+          "nota": "All three arrive the same way: self-evident, with no author and no date."
+        },
+        {
+          "momento": "20th c.",
+          "nota": "One stops holding: looking for its origin turns up the work it saved, and for whom."
+        },
+        {
+          "momento": "19th c.",
+          "nota": "Another splits on reaching its origin. The third still says the same thing."
+        }
+      ],
+      "afirmaciones": [
+        {
+          "texto": "whoever does not get ahead did not try",
+          "rastro": [
+            "Repeated with no source, and loudest from those it hurts most.",
+            "Taught in school and rewarded at work."
+          ],
+          "rompeEn": 2,
+          "interes": "It justifies how property is split: it suits whoever lives off it."
+        },
+        {
+          "texto": "making someone suffer for fun is wrong",
+          "rastro": [
+            "Repeated with no source, and nobody asks it to prove itself.",
+            "Said the same way, including where it hampers those in charge.",
+            "It still holds here, and no group is better off for it."
+          ]
+        },
+        {
+          "texto": "keeping a house and children is not work",
+          "rastro": [
+            "Repeated with no source, and argued about nowhere."
+          ],
+          "rompeEn": 1,
+          "interes": "It renews the workforce daily, and whoever uses it pays nothing."
+        }
+      ],
+      "enPie": "{afirmacion}: still standing.",
+      "descompuesta": "{afirmacion}: comes apart and shows whom it served: {interes}",
+      "resolucion": "Two come apart on reaching their origin and show whom they suited; the third takes the same trace without moving. That not all of them fall is what makes this a test rather than a suspicion: a contingent arrangement can look like the natural order, but not everything is one.",
+      "alternativaTexto": "Statements presented as common sense put through a historical trace: some hold and others come apart, revealing the interest they served. It shows how a contingent arrangement can look like the natural order of things.",
+      "atras": "Pull backwards",
+      "adelante": "Back to the present",
+      "etiqueta": "Ideology",
+      "etiquetaMarcador": "Historical moment"
+    }
+  },
+  "ideas_relacionadas": [
+    "alienacion",
+    "materialismo-historico",
+    "genealogia-de-la-moral",
+    "mundo-de-las-ideas"
+  ]
+}

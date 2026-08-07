@@ -1,0 +1,73 @@
+{
+  "id": "limite-del-placer",
+  "corriente_id": "helenismo",
+  "titulo": "The limit of pleasure",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "epicuro",
+      "rol": "principal",
+      "aporte": "Distinguishes desires that have a ceiling from those that do not, and defines pleasure as the absence of disturbance."
+    }
+  ],
+  "pregunta": "Why is getting what you wanted so rarely enough?",
+  "cita": {
+    "texto": "While we exist death is not present; when it comes, we are not.",
+    "obra": "Letter to Menoeceus",
+    "autor_id": "epicuro",
+    "atribucion": "directa"
+  },
+  "resumen": "Some desires can be satisfied and some have no bottom. Epicurus defines pleasure not as accumulation but as the state that remains once pain and unease are withdrawn.",
+  "desarrollo": "Epicureanism drags a centuries-old misunderstanding behind it: it does not recommend excess but a sober calculation. Epicurus sorts desires into three groups. The natural and necessary — food, shelter, company — are satisfied and stay satisfied: they have a clear limit. The natural but unnecessary, such as eating well, add variety without adding fullness. And the empty ones — fame, unbounded wealth, prestige — have no ceiling by definition, because there is always somebody with more, and so they produce permanent anxiety however much they are fed. The practical conclusion is that pleasure does not grow indefinitely with quantity: once pain is removed it is already complete, and the rest only varies it. To this he adds a therapy against the two great fears, of the gods and of death, arguing that the latter never coincides with us.",
+  "ejemplo_real": "The first glass of water when you are very thirsty is intensely pleasurable; the fourth is not. Nobody is in any doubt about when to stop drinking. By contrast, nobody knows how much money or how much recognition would be enough, and that unanswerable question is exactly what Epicurus points at: a desire without a limit cannot be completed, only fed.",
+  "matiz_experto": "It is disputed whether his hedonism is 'katastematic' — the pleasure of rest — or also admits pleasure in motion, which changes the tone of the doctrine entirely. His argument about death is still debated against the deprivation objection.",
+  "visualizacion": {
+    "id": "vis-deseos-epicuro",
+    "idea_id": "limite-del-placer",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "The user pours concrete desires into three vessels and the simulation accumulates them with real volume. The natural and necessary fill a glass that completes and overflows: pouring more does not raise the level. The empty ones fall into a bottomless vessel whose contents drain away below, so the level never rises however much you insist. An unease meter responds in real time.",
+    "invitacion": "Pour in desires and see which one fills up",
+    "alternativa_textual": "Three vessels receiving desires: some fill until they overflow and others have no bottom, so they never reach a level. It shows that some desires can be satisfied and others can only be fed.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "recipientes",
+    "parametros": {
+      "corrienteId": "helenismo",
+      "unidad": "desires",
+      "recipientes": [
+        {
+          "nombre": "food and shelter",
+          "capacidad": 4,
+          "nota": "Satisfied and it stays satisfied: it has a clear limit and you reach it."
+        },
+        {
+          "nombre": "eating well",
+          "capacidad": 6,
+          "nota": "Adds variety, not fullness. It ends too."
+        },
+        {
+          "nombre": "fame and prestige",
+          "capacidad": null,
+          "nota": "The level does not rise. There is always somebody with more: no ceiling by definition."
+        }
+      ],
+      "indicadores": [
+        "unease"
+      ],
+      "resolucion": "Pleasure does not grow indefinitely with quantity: once pain is removed it is already complete. What never fills is what produces the unease.",
+      "alternativaTexto": "Three vessels receiving desires: some fill until they overflow and others have no bottom, so they never reach a level. It shows that some desires can be satisfied and others can only be fed.",
+      "vaciar": "Empty and start over",
+      "etiqueta": "The limit of pleasure",
+      "etiquetaZona": "Add to {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "dicotomia-del-control",
+    "voluntad-y-pesimismo",
+    "las-cuatro-verdades",
+    "placeres-superiores"
+  ]
+}

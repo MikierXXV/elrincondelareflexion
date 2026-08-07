@@ -1,0 +1,36 @@
+{
+  "id": "nagarjuna",
+  "nombre": "Nāgārjuna",
+  "corriente_id": "filosofia-india",
+  "periodo": "c. s. II d.C.",
+  "region": "Subcontinente indio",
+  "preguntas_filosoficas": [
+    "¿Existe algo con naturaleza propia e independiente?",
+    "¿Se puede sostener una posición sin defender ninguna tesis?"
+  ],
+  "citas": [
+    {
+      "texto": "Nada hay que surja sin depender de otra cosa.",
+      "obra": "Versos fundamentales del camino medio, 24, 19",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Llevó el análisis budista hasta el final: nada tiene existencia propia e independiente, porque todo lo que hay depende de otras cosas para ser lo que es.",
+  "nivel_2_desarrollo": "Nāgārjuna trabaja por refutación. Toma un concepto que damos por sólido —causa, movimiento, tiempo, el yo, incluso el nirvana— y muestra que, si se le atribuye una naturaleza propia e independiente, aparecen contradicciones. Su conclusión es la vacuidad: vacío no significa que nada exista, sino que nada existe por sí mismo, al margen de sus condiciones y relaciones. Un efecto no está ya contenido en su causa ni surge de la nada, así que la producción no puede pensarse en términos de entidades autosuficientes. Y añade un giro que evita el nihilismo: precisamente porque las cosas son vacías, pueden cambiar, relacionarse y funcionar; si tuvieran naturaleza fija, nada sería posible. Insiste en que él no defiende una tesis propia, sino que muestra las consecuencias de las tesis ajenas.",
+  "nivel_3_experto": "La interpretación de Madhyamaka es uno de los terrenos más disputados de la filosofía comparada. La cuestión clave es qué significa que Nāgārjuna 'no tenga tesis': las lecturas nihilistas fueron descartadas por la exégesis clásica, pero siguen enfrentadas la lectura antirrealista global, la semántica de las dos verdades y la interpretación deflacionaria de Siderits, junto con la propuesta de Garfield y Priest de leer sus conclusiones como contradicciones verdaderas de tipo dialeteísta, muy discutida. La distinción entre las escuelas Prasangika y Svatantrika, que se consolida en la exégesis tibetana posterior a Candrakirti y Bhaviveka, proyecta hacia atrás categorías que probablemente no son suyas. Su método del catuskoti —la negación de las cuatro alternativas: que algo sea, no sea, ambas o ninguna— plantea problemas lógicos serios que han generado formalizaciones rivales en lógica paraconsistente. Su relación con los sutras de la Perfección de la Sabiduría y la autenticidad de varias obras atribuidas siguen en discusión filológica. Es referencia central en el diálogo actual entre filosofía budista y metafísica analítica.",
+  "debate_abierto": "Si la vacuidad es una tesis metafísica, una terapia conceptual o una posición paraconsistente es una controversia filosófica abierta y muy técnica.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Nāgārjuna",
+      "url": "https://plato.stanford.edu/entries/nagarjuna/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Madhyamaka",
+      "url": "https://plato.stanford.edu/entries/madhyamaka/"
+    },
+    {
+      "titulo": "Garfield, The Fundamental Wisdom of the Middle Way, Oxford University Press",
+      "url": null
+    }
+  ]
+}

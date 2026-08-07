@@ -1,0 +1,77 @@
+{
+  "id": "problema-mente-cuerpo",
+  "corriente_id": "racionalismo",
+  "titulo": "The mind–body problem",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "descartes",
+      "rol": "principal",
+      "aporte": "Separates the thinking mind from the extended body as two distinct substances."
+    },
+    {
+      "id": "spinoza",
+      "rol": "contrapunto",
+      "aporte": "Denies they are two things: they would be two ways of describing a single reality."
+    }
+  ],
+  "pregunta": "If thinking and occupying space are such different things, how does your decision manage to move your arm?",
+  "cita": {
+    "texto": "We are a thinking thing, distinct from the body that occupies space.",
+    "obra": "Condensed from Meditations II and VI",
+    "autor_id": "descartes",
+    "atribucion": "tradicional",
+    "nota": "A condensed formulation of the real distinction between thinking substance and extended substance that Descartes develops across the Meditations."
+  },
+  "resumen": "If the mind takes up no space and the body does, it is unclear how they can affect each other. Descartes opened the problem by separating them, and we are still arguing about it four centuries later.",
+  "desarrollo": "The separation looked clean: the mind thinks and has no extension; the body has extension and does not think. The price appeared at once, and Elisabeth of Bohemia charged it to him in a letter that remains the sharpest objection he ever received: if the mind is not physical, what does it push with? Everything we know about causing motion involves contact, pressure, transfer. Descartes proposed the pineal gland as the meeting point, and practically nobody accepted it, starting with her. Spinoza turns the setup around: there are not two substances that must communicate, but a single reality describable in two vocabularies, that of thought and that of extension. There is no interaction left to explain, because there are not two things; but the price is giving up the mental causing the physical.",
+  "ejemplo_real": "You decide to stand up and you stand up. Nobody doubts it happened, and yet nobody can narrate the exact moment an intention becomes a muscular contraction. The same in reverse: two glasses of wine change what you feel and what you decide, though alcohol has no opinions. We live with two descriptions that do not fit together.",
+  "matiz_experto": "Substance dualism is a minority position today, but the problem is not settled: the question of why physical processes are accompanied by subjective experience — the so-called hard problem of consciousness — is its direct heir.",
+  "visualizacion": {
+    "id": "vis-mente-cuerpo-descartes",
+    "idea_id": "problema-mente-cuerpo",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user pulls the two descriptions of one and the same action apart by imposing what each of them rules out, and then tries to draw the causal arrow that would run from one to the other. The arrow sets off, slows down and stops halfway across the gap with its head pointing at nothing: it has run out of anything to carry on with. It can be tried as often as you like and always gets exactly as far. Superimposing the two descriptions does not finish the arrow: it leaves it with nowhere to go, because there are no longer two things to connect.",
+    "invitacion": "Separate the two descriptions, then try to join them",
+    "alternativa_textual": "Two descriptions of the same action, mental and physical, between which no causal arrow can be drawn without running out of vocabulary, and which on being superimposed remove the problem instead of solving it: it shows the difficulty opened by separating mind and body.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "figuraA": "what you think",
+      "figuraB": "what occupies space",
+      "coste": "unexplained distance",
+      "flecha": {
+        "intentar": "draw the causal arrow",
+        "sinVocabulario": "The arrow stops partway. To carry on you would have to say what something that takes up no space pushes with, and that is where the vocabulary runs out: pushing, pressing, transmitting are all words of the extended. This is the objection Elisabeth of Bohemia put to him.",
+        "superponer": "superimpose the two descriptions",
+        "sinDosCosas": "There are no longer two separate things, so there is no arrow to draw. Notice that the problem has not been solved: it has stopped being statable at all, and the price is giving up the mental causing the physical."
+      },
+      "condiciones": [
+        {
+          "nombre": "the mind is not extended",
+          "efecto": "If it takes up no space, it is unclear what it could push with.",
+          "peso": 0.4
+        },
+        {
+          "nombre": "the body does not think",
+          "efecto": "And if it does not think, it cannot receive an intention either.",
+          "peso": 0.4
+        }
+      ],
+      "resolucion": "Remove the separation and the problem is not solved: it disappears, because there are no longer two things to connect. That is the price Spinoza pays.",
+      "alternativaTexto": "Two descriptions of the same action, mental and physical, between which no causal arrow can be drawn without running out of vocabulary, and which on being superimposed remove the problem instead of solving it: it shows the difficulty opened by separating mind and body.",
+      "etiqueta": "The mind–body problem"
+    }
+  },
+  "ideas_relacionadas": [
+    "duda-metodica",
+    "libertad-como-comprension",
+    "lo-inconsciente",
+    "condicionamiento-operante"
+  ]
+}

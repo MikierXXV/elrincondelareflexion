@@ -1,0 +1,81 @@
+{
+  "id": "saber-que-no-se-sabe",
+  "corriente_id": "clasica-griega",
+  "titulo": "Saber que no se sabe",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "socrates",
+      "rol": "principal",
+      "aporte": "Convierte el reconocimiento de la propia ignorancia en el punto de partida del conocimiento."
+    }
+  ],
+  "pregunta": "¿Sabes de verdad algo que no eres capaz de definir?",
+  "cita": {
+    "texto": "Una vida sin examen no merece ser vivida.",
+    "obra": "Platón, Apología 38a",
+    "autor_id": "socrates",
+    "atribucion": "directa",
+    "nota": "La frase que suele citarse como suya, «solo sé que no sé nada», no aparece así en Platón: la Apología dice algo bastante más matizado."
+  },
+  "resumen": "Sócrates pedía a quienes presumían de saber que definieran lo que decían saber, y encontraba siempre un caso que la definición no cubría. Ese bloqueo no es el fracaso: es el comienzo.",
+  "desarrollo": "El procedimiento es siempre el mismo. Alguien afirma saber qué es la justicia. Sócrates le pide una definición, la acepta provisionalmente y busca un caso donde falle. ¿Es justo devolver lo que se debe? ¿También devolver un arma a alguien que ha enloquecido? La definición se corrige, y vuelve a fallar. Al cabo de varias rondas el interlocutor se queda sin respuesta. Ese estado se llama aporía, y es el objetivo, no un accidente: mientras uno cree saber, no busca. La incomodidad de la escena es intencionada, porque el obstáculo no es la ignorancia sino la ignorancia que se ignora a sí misma. De ahí sale también su tesis moral más discutida: que nadie obra mal a sabiendas, y que quien conociera de verdad lo bueno lo haría. Fue condenado a muerte, y aceptó la sentencia en vez de huir.",
+  "ejemplo_real": "Prueba a explicar qué es exactamente 'un juego' sin que tu definición deje fuera el solitario, o meta dentro una guerra. O intenta definir cuándo un montón de arena deja de ser un montón si le quitas granos de uno en uno. Usas esas palabras todos los días con total soltura y no puedes fijar sus bordes.",
+  "matiz_experto": "Todo lo que sabemos de Sócrates procede de fuentes que lo usan como personaje —Platón, Jenofonte, Aristófanes—, y separar al Sócrates histórico del portavoz platónico es un problema historiográfico sin solución definitiva.",
+  "visualizacion": {
+    "id": "vis-elenchos-socrates",
+    "idea_id": "saber-que-no-se-sabe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario tiene una definición de la justicia que cubre casi todos los casos, menos uno. Al estirarla para alcanzar el que falta, la definición suelta otro que hasta entonces cubría. El recuento de casos cubiertos no sube nunca, por muchas veces que se estire y por cualquier lado que se estire.",
+    "invitacion": "Estira la definición hasta el caso que falta",
+    "alternativa_textual": "Una red que representa una definición y que nunca consigue cubrir todos los casos: al estirarse para incluir uno nuevo deja fuera otro, demostrando que se puede usar un concepto con soltura sin ser capaz de delimitarlo.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "clasica-griega",
+      "modo": "estirar",
+      "centro": "Lo justo",
+      "recuento": "Casos cubiertos: {cubiertos} de {total}",
+      "restituir": "Restituir las relaciones",
+      "vinculos": [
+        {
+          "nombre": "Devolver lo prestado",
+          "perdida": "Ahora la definición lo alcanza. Pero deja de cubrir el caso del arma que se devuelve a quien ha perdido la razón."
+        },
+        {
+          "nombre": "Devolver un arma a quien enloqueció",
+          "perdida": "Para cubrirlo hay que admitir excepciones por daño previsible, y entonces se escapa el trato entre quienes no pueden hacerse daño."
+        },
+        {
+          "nombre": "Dar a cada uno lo suyo",
+          "perdida": "Alcanzado. Pero «lo suyo» hay que decidirlo antes, y decidirlo es justamente lo que se estaba definiendo."
+        },
+        {
+          "nombre": "Ayudar a los amigos y dañar a los enemigos",
+          "perdida": "Cabe, y al caber arrastra que dañar sea a veces justo, con lo que se suelta el caso de quien no daña nunca."
+        },
+        {
+          "nombre": "Obedecer la ley de la ciudad",
+          "perdida": "Entra, y con él la ley injusta. Para dejarla fuera hay que apelar a algo anterior a la ley, que es lo que falta por definir."
+        },
+        {
+          "nombre": "Lo que conviene al más fuerte",
+          "perdida": "Si se estira hasta aquí, la definición cubre también su contrario y deja de distinguir nada."
+        }
+      ],
+      "resolucion": "Sabes usar la palabra en cada caso concreto. Lo que no consigues es una definición que los abarque todos a la vez: reconocer eso es el punto de partida, no el fracaso.",
+      "alternativaTexto": "Una red que representa una definición y que nunca consigue cubrir todos los casos: al estirarse para incluir uno nuevo deja fuera otro, demostrando que se puede usar un concepto con soltura sin ser capaz de delimitarlo.",
+      "etiqueta": "Saber que no se sabe",
+      "etiquetaNodo": "Estirar la definición hasta {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "mundo-de-las-ideas",
+    "significado-como-uso",
+    "suspension-del-juicio"
+  ]
+}

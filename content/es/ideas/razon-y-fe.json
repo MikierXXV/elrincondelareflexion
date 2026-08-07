@@ -1,0 +1,82 @@
+{
+  "id": "razon-y-fe",
+  "corriente_id": "escolastica",
+  "titulo": "Razón y fe, dos vías",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "tomas-de-aquino",
+      "rol": "principal",
+      "aporte": "Delimita hasta dónde llega la razón por sí sola y sostiene que no puede contradecir a la revelación."
+    }
+  ],
+  "pregunta": "¿Hasta dónde se puede llegar razonando, y qué pasa cuando la razón se acaba?",
+  "cita": {
+    "texto": "La gracia no destruye la naturaleza, sino que la perfecciona.",
+    "obra": "Suma teológica I, q. 1, a. 8",
+    "autor_id": "tomas-de-aquino",
+    "atribucion": "directa"
+  },
+  "resumen": "Tomás separa lo que la razón puede alcanzar sola de lo que solo llega por revelación, y sostiene que no pueden contradecirse porque investigan la misma realidad por caminos distintos.",
+  "desarrollo": "Cuando Aristóteles entra en las universidades europeas del siglo XIII —traducido y comentado antes por la filosofía islámica—, su física y su metafísica chocan con la teología establecida y hay quien pide prohibirlo. Tomás elige la vía difícil: asumirlo y reordenar la doctrina con sus herramientas. Su modelo traza una frontera. Hay verdades accesibles a cualquiera que razone bien, y ahí sitúa incluso la existencia de un principio último, al que llega por cinco argumentos que parten de hechos observables: que hay movimiento, causas, cosas que podrían no existir, grados de perfección y orden. Y hay otras que sostiene indemostrables, que solo llegan por revelación. La clave es que la segunda no anula la primera: quien tiene fe no queda dispensado de razonar. La consecuencia práctica más duradera es su ética de ley natural, que busca un criterio moral compartido por quienes no comparten creencias.",
+  "ejemplo_real": "Es la situación de cualquier conversación entre alguien creyente y alguien que no lo es cuando funciona bien: hay un tramo largo —qué es una vida decente, qué debemos a los demás, por qué mentir corroe— que puede recorrerse entero sin apelar a ninguna autoridad, y otro donde uno de los dos sigue y el otro se detiene. Confundir los dos tramos es lo que estropea la conversación.",
+  "matiz_experto": "Sus cinco vías se malinterpretan a menudo como argumentos sobre un primer momento en el tiempo. Tomás sostenía expresamente que la eternidad del mundo no es demostrablemente falsa por vía filosófica: sus series causales son de dependencia simultánea, no cronológica.",
+  "visualizacion": {
+    "id": "vis-dos-vias-aquino",
+    "idea_id": "razon-y-fe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario empuja proposiciones por dos vías paralelas a la vez. Las dos arrancan juntas y avanzan igual mientras hay premisas observables de las que tirar. Algunas llegan al final por las dos; otras se paran en seco en la vía de la razón, donde las premisas se agotan, y solo siguen por la otra.",
+    "invitacion": "Empuja cada proposición por las dos vías",
+    "alternativa_textual": "Dos caminos paralelos por los que se hacen avanzar proposiciones, uno de los cuales se interrumpe al agotarse las premisas observables: demuestra que hay un tramo compartido por la razón y la fe y otro que no lo es.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-caminos",
+    "parametros": {
+      "corrienteId": "escolastica",
+      "caminos": [
+        "Por la razón",
+        "Por la revelación"
+      ],
+      "limite": "Aquí se agotan las premisas observables",
+      "proposiciones": [
+        {
+          "nombre": "Que hay una causa primera",
+          "alcanceRazon": 1,
+          "nota": "Llega por las dos. Se sigue de que el mundo cambia, y eso se observa."
+        },
+        {
+          "nombre": "Que mentir corroe la confianza",
+          "alcanceRazon": 1,
+          "nota": "Llega por las dos, y ni siquiera hace falta apelar a autoridad."
+        },
+        {
+          "nombre": "Qué es una vida decente",
+          "alcanceRazon": 1,
+          "nota": "Llega por las dos: hay inclinaciones que la razón reconoce y ordena por su cuenta."
+        },
+        {
+          "nombre": "Que el mundo tuvo un comienzo en el tiempo",
+          "alcanceRazon": 0.62,
+          "nota": "Se para. Un mundo eterno y uno con comienzo son ambos pensables: la observación no decide."
+        },
+        {
+          "nombre": "Que hay tres personas en un solo Dios",
+          "alcanceRazon": 0.34,
+          "nota": "Se para antes. No hay premisa observable de la que tirar, y no la habrá."
+        }
+      ],
+      "resolucion": "Hay un tramo que las dos vías recorren igual, y ahí discrepar es discrepar de verdad. Pasado el límite ya no comparten suelo, y confundir los dos tramos estropea los dos.",
+      "alternativaTexto": "Dos caminos paralelos por los que se hacen avanzar proposiciones, uno de los cuales se interrumpe al agotarse las premisas observables: demuestra que hay un tramo compartido por la razón y la fe y otro que no lo es.",
+      "etiqueta": "Razón y fe, dos vías"
+    }
+  },
+  "ideas_relacionadas": [
+    "esencia-y-existencia",
+    "dos-niveles-de-lectura",
+    "critica-de-la-causalidad",
+    "razon-suficiente"
+  ]
+}

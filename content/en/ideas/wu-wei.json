@@ -1,0 +1,60 @@
+{
+  "id": "wu-wei",
+  "corriente_id": "filosofia-china",
+  "titulo": "Wu wei: the efficacy of not forcing",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "laozi",
+      "rol": "principal",
+      "aporte": "Proposes an efficacy that consists in not imposing: intervening just enough, at the right moment."
+    },
+    {
+      "id": "confucio",
+      "rol": "contrapunto",
+      "aporte": "His programme of deliberate cultivation through form is exactly what Daoism considers forcing."
+    }
+  ],
+  "pregunta": "What if trying harder were exactly what stops you getting there?",
+  "cita": {
+    "texto": "The dao that can be named is not the constant dao.",
+    "obra": "Daodejing, 1",
+    "autor_id": "laozi",
+    "atribucion": "directa"
+  },
+  "resumen": "Wu wei does not mean passivity but action without forcing: intervening just enough, at the right moment, without going against the nature of things. Like water, which prevails by yielding.",
+  "desarrollo": "The Daodejing opens by warning that what it is about to discuss resists definition, and from there develops a counter-intuitive idea of efficacy. Its images are deliberately humble: water, the softest thing, which wears away stone; the valley, which receives because it lies low; the bowl, whose usefulness is in the hollow and not in the material. To this it adds the interdependence of opposites: high and low, hard and easy produce one another, so that pushing hard in one direction generates its contrary. Applied to government, it recommends intervening little and being barely noticed, in open disagreement with Confucian formative activism. The argument between the two — polish conduct or stop forcing it — runs through centuries of Chinese thought.",
+  "ejemplo_real": "Trying to fall asleep. The harder you try the more awake you are, because the effort is precisely the opposite of what is needed. The same with recalling a name on the tip of your tongue: it turns up when you stop looking for it. There are results that only arrive when you withdraw the effort, and not by magic but because the effort was the obstacle.",
+  "matiz_experto": "The historical figure of Laozi is regarded as legendary, and the older Guodian manuscripts show a far less pronounced anti-ritualist polemic than was believed, forcing a revision of the idea of an original Daoism wholly opposed to Confucianism.",
+  "visualizacion": {
+    "id": "vis-wuwei-laozi",
+    "idea_id": "wu-wei",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "The user has to carry water across uneven ground, with simulated fluid. Push it hard and it overflows, splashes and loses volume; confine yourself to removing obstacles and waiting and it finds its course and travels further with less intervention. Two counters face each other, recording how much action was spent and how much result was obtained.",
+    "invitacion": "Push the water, then remove an obstacle",
+    "alternativa_textual": "Simulated water on a terrain that overflows when pushed and travels further when only obstacles are removed, with a counter comparing action spent against result: it shows an efficacy that increases as intervention decreases.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Water crossing a terrain with obstacles",
+      "empujar": "Push the water hard",
+      "dejar": "Let it run",
+      "retirar": "Remove an obstacle",
+      "resolucionLlego": "It went further with less action. No pushing was needed: it was enough to stop getting in its way.",
+      "resolucionEmpujar": "The harder you push it, the more it overflows and the more water is lost on the way.",
+      "resolucionDejar": "You have not touched the water. You have only removed what stopped it following its course.",
+      "resolucionRetirar": "With the obstacles removed, the water finds its course and reaches the end without anyone pushing it.",
+      "alternativaTexto": "Simulated water on a terrain that overflows when pushed and travels further when only obstacles are removed, with a counter comparing action spent against result obtained: it shows an efficacy that increases as intervention decreases.",
+      "lectura": "force applied {accion}   ·   reach {alcance}%"
+    }
+  },
+  "ideas_relacionadas": [
+    "ren-y-li",
+    "relatividad-de-las-perspectivas",
+    "dicotomia-del-control",
+    "aceptacion-y-cambio"
+  ]
+}

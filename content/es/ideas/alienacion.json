@@ -1,0 +1,71 @@
+{
+  "id": "alienacion",
+  "corriente_id": "marxismo",
+  "titulo": "La alienación",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "marx",
+      "rol": "principal",
+      "aporte": "Describe el trabajo que se vuelve ajeno a quien lo hace, en cuatro dimensiones distintas."
+    }
+  ],
+  "pregunta": "¿Por qué una actividad que debería expresarte puede acabar vaciándote?",
+  "cita": {
+    "texto": "El trabajador se relaciona con el producto de su trabajo como con un objeto ajeno.",
+    "obra": "Manuscritos de economía y filosofía, 1844",
+    "autor_id": "marx",
+    "atribucion": "directa"
+  },
+  "resumen": "El trabajo debería ser el modo en que una persona despliega lo que puede hacer. Marx describe cómo, en ciertas condiciones, se vuelve ajeno: ni el producto, ni el proceso, ni siquiera uno mismo se reconocen ya como propios.",
+  "desarrollo": "Marx distingue cuatro separaciones que se acumulan. La primera, respecto al producto: lo que sale de tus manos no te pertenece y se te enfrenta como algo externo. La segunda, respecto a la actividad: no decides cómo se hace, así que las horas no las vives como tuyas sino como tiempo cedido. La tercera, respecto a lo que él llama la esencia humana: la capacidad de transformar el mundo conscientemente, que debería ser lo más propio, queda reducida a un medio de subsistencia. Y la cuarta, respecto a los demás, que aparecen como competidores por el mismo puesto en lugar de como compañeros de una obra común. Lo importante es que no describe una sensación subjetiva de desgana, sino una situación objetiva: se puede estar alienado sin sentirse mal, y sentirse mal sin estarlo.",
+  "ejemplo_real": "Se reconoce al responder a la pregunta de a qué te dedicas. Hay quien describe lo que hace y hay quien nombra un puesto y cambia de tema. Y se nota especialmente en trabajos donde nunca ves el resultado completo: revisas una parte de un proceso que no controlas, para un cliente que no conoces, y al final del día no puedes señalar nada y decir «esto lo hice yo».",
+  "matiz_experto": "Los Manuscritos de 1844 no se publicaron hasta 1932, lo que dividió la lectura del siglo XX entre un Marx humanista temprano y el Marx científico de El capital. Althusser postuló entre ambos un 'corte epistemológico' que otros intérpretes rechazan defendiendo la continuidad.",
+  "visualizacion": {
+    "id": "vis-alienacion-marx",
+    "idea_id": "alienacion",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Una figura fabrica un objeto completo y el vínculo entre ambos se dibuja como un hilo. El usuario va aplicando condiciones —el producto se vende, el proceso lo decide otro, la tarea se fragmenta, los compañeros compiten— y ve cortarse un hilo distinto con cada una. Puede reponerlas de una en una y comprobar cuál devuelve más: raramente es la que esperaba.",
+    "invitacion": "Aplica cada condición y mira qué hilo se corta",
+    "alternativa_textual": "Cuatro hilos que unen a una persona con su producto, su actividad, sus capacidades y sus compañeros, y que se cortan uno a uno al aplicar condiciones concretas de trabajo: demuestra que la alienación es una situación objetiva con dimensiones separables.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "marxismo",
+      "centro": "quien trabaja",
+      "vinculos": [
+        {
+          "nombre": "el producto",
+          "perdida": "Lo que sale de tus manos no te pertenece y se te enfrenta como algo ajeno."
+        },
+        {
+          "nombre": "la actividad",
+          "perdida": "No decides cómo se hace, así que las horas no las vives como tuyas."
+        },
+        {
+          "nombre": "lo que puedes ser",
+          "perdida": "La capacidad de transformar el mundo queda reducida a un medio de subsistencia."
+        },
+        {
+          "nombre": "los demás",
+          "perdida": "Los compañeros aparecen como competidores por el mismo puesto."
+        }
+      ],
+      "resolucion": "Las cuatro separaciones son independientes: se puede estar alienado sin sentirse mal, y sentirse mal sin estarlo.",
+      "alternativaTexto": "Cuatro hilos que unen a una persona con su producto, su actividad, sus capacidades y sus compañeros, y que se cortan uno a uno al aplicar condiciones concretas de trabajo: demuestra que la alienación es una situación objetiva con dimensiones separables.",
+      "restituir": "Restituir las relaciones",
+      "etiqueta": "La alienación",
+      "etiquetaNodo": "Cortar el vínculo con {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "dialectica-del-reconocimiento",
+    "ideologia",
+    "materialismo-historico",
+    "mala-fe"
+  ]
+}

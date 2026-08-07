@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "autor.schema.json",
+  "title": "Ficha de autor",
+  "type": "object",
+  "required": [
+    "id",
+    "nombre",
+    "corriente_id",
+    "periodo",
+    "region",
+    "preguntas_filosoficas",
+    "citas",
+    "nivel_1_resumen",
+    "nivel_2_desarrollo",
+    "nivel_3_experto",
+    "fuentes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Slug estable. Es la clave de carga bajo demanda: content/<lang>/autores/<id>.json"
+    },
+    "nombre": { "type": "string", "minLength": 2 },
+    "corriente_id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "periodo": { "type": "string" },
+    "region": { "type": "string" },
+    "nota_autoria": {
+      "type": "string",
+      "description": "Solo para fichas de corpus colectivos o anónimos (p. ej. los Upanishads)."
+    },
+    "preguntas_filosoficas": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": { "type": "string" },
+      "description": "Preguntas de fondo con las que dialoga el autor. Obligatorio en todas las fichas; es lo que engarza el bloque de psicología con el resto del recorrido."
+    },
+    "dialogo_filosofico": {
+      "type": "string",
+      "description": "Obligatorio de facto en el bloque de psicología: explicita qué problema filosófico reformula esa escuela."
+    },
+    "citas": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "description": "Frases célebres y aforismos. La primera es la que aparece en el cromo; ambas se muestran en el nivel 2. Nunca en el nivel 3, que es análisis y no evocación.",
+      "items": {
+        "type": "object",
+        "required": ["texto", "obra", "atribucion"],
+        "additionalProperties": false,
+        "properties": {
+          "texto": {
+            "type": "string",
+            "maxLength": 120,
+            "description": "Máximo 15 palabras (lo valida scripts/validate-content.mjs). Versión propia al castellano: el original puede ser de dominio público, pero las traducciones publicadas no lo son."
+          },
+          "obra": {
+            "type": "string",
+            "description": "Obra y localización, o explicación de la procedencia cuando la atribución no es directa."
+          },
+          "atribucion": {
+            "type": "string",
+            "enum": ["directa", "tradicional", "dudosa"],
+            "description": "directa = localizable en la obra. tradicional = formulación condensada o transmitida por la tradición, no literal. dudosa = circula atribuida sin fuente localizada."
+          },
+          "nota": {
+            "type": "string",
+            "description": "Obligatoria cuando la atribución no es directa. También se usa en citas directas para desmentir la apócrifa que suele acompañarlas."
+          }
+        }
+      }
+    },
+    "nivel_1_resumen": {
+      "type": "string",
+      "minLength": 60,
+      "maxLength": 340,
+      "description": "Cromo. Lenguaje llano, 1-2 frases. Entra en el bundle inicial."
+    },
+    "nivel_2_desarrollo": {
+      "type": "string",
+      "minLength": 400,
+      "maxLength": 1400,
+      "description": "Párrafo accesible pero preciso. Carga bajo demanda junto con la visualización."
+    },
+    "nivel_3_experto": {
+      "type": "string",
+      "minLength": 700,
+      "maxLength": 2200,
+      "description": "Modo experto: terminología técnica, matices, debate historiográfico, relaciones entre autores."
+    },
+    "debate_abierto": {
+      "type": "string",
+      "description": "Señala explícitamente qué está en disputa activa, para no presentar interpretaciones como hechos cerrados."
+    },
+    "fuentes": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["titulo", "url"],
+        "additionalProperties": false,
+        "properties": {
+          "titulo": { "type": "string" },
+          "url": {
+            "type": ["string", "null"],
+            "description": "null cuando la fuente es bibliográfica y no tiene URL estable de acceso abierto."
+          }
+        }
+      }
+    }
+  }
+}

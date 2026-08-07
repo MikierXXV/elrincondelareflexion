@@ -1,0 +1,37 @@
+{
+  "id": "hume",
+  "nombre": "David Hume",
+  "corriente_id": "empirismo",
+  "periodo": "1711–1776",
+  "region": "Scotland, France",
+  "preguntas_filosoficas": [
+    "Do we ever see causation, or only assume it?",
+    "Can what ought to be be deduced from what is?",
+    "Is there a self, or only a flow of states?"
+  ],
+  "citas": [
+    {
+      "texto": "Reason is, and ought only to be, the slave of the passions.",
+      "obra": "A Treatise of Human Nature II, 3, 3",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He showed that we never observe the cause: we only see one thing follow another many times, and it is custom, not reason, that adds the link.",
+  "nivel_2_desarrollo": "Hume examines the idea of cause and finds no impression corresponding to it: we see the ball strike and the other move, but we do not see the 'because'. What there is is contiguity, succession and repetition, and from that a mental habit that makes us expect the effect. Hence his problem of induction: trusting that the future will resemble the past has no rational justification, because any argument for it already presupposes that regularity. He applies the same scalpel to the self: looking inside he finds no substance but a succession of perceptions. And in ethics he observes that many arguments slide without warning from describing how things are to prescribing how they ought to be, a leap that does not stand on its own. For him morality is grounded not in reason but in sentiment, and reason is at the service of our passions.",
+  "nivel_3_experto": "Readings of Hume have swung between the destructive sceptic and the 'naturalist' describing how the human mind actually works; this second interpretation, driven by Kemp Smith, is dominant today but not unanimous. The 'New Hume' question adds another layer: whether he denies the existence of objective causal connections or only our capacity to know them, which would make him a sceptical realist. His problem of induction remains an active core of epistemology, and the answers — from Popper to Bayesian approaches — are still measured against his formulation. Hume's law, or the naturalistic fallacy in Moore's version, structures contemporary metaethics. His bundle theory of perceptions left him himself dissatisfied: in the appendix to the Treatise he admits he cannot explain what unifies those perceptions, a passage much worked over by specialists. His Dialogues Concerning Natural Religion, published posthumously, contain the most influential critique of the argument from design. Kant said Hume woke him from his 'dogmatic slumber', and the whole Critique of Pure Reason can be read as a response to his challenge.",
+  "debate_abierto": "The 'New Hume' debate over whether he is an antirealist or a sceptical realist about causation is open, as is the problem of induction he posed.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — David Hume",
+      "url": "https://plato.stanford.edu/entries/hume/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — The Problem of Induction",
+      "url": "https://plato.stanford.edu/entries/induction-problem/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — David Hume",
+      "url": "https://iep.utm.edu/hume/"
+    }
+  ]
+}

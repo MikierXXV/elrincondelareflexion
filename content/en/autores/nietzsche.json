@@ -1,0 +1,37 @@
+{
+  "id": "nietzsche",
+  "nombre": "Friedrich Nietzsche",
+  "corriente_id": "existencialismo",
+  "periodo": "1844–1900",
+  "region": "Prussia, Switzerland, Italy",
+  "preguntas_filosoficas": [
+    "Where do our values come from?",
+    "What happens when the foundations that held them up collapse?"
+  ],
+  "citas": [
+    {
+      "texto": "He who has a why to live can bear almost any how.",
+      "obra": "Twilight of the Idols",
+      "atribucion": "directa",
+      "nota": "Frankl quoted it so often in Man's Search for Meaning that it is now commonly attributed to him."
+    }
+  ],
+  "nivel_1_resumen": "He argued that values do not fall from the sky: they have a history and served particular interests. Once their foundation is gone, one must decide whether to invent a new one or fall into the void.",
+  "nivel_2_desarrollo": "Nietzsche practises what he calls genealogy: instead of asking what the good is, he asks where that idea came from and whom it suited. His reconstruction distinguishes an aristocratic morality, which called good what was strong and accomplished, from a later morality born of the resentment of the weak, which inverted the values and called the humble good and the harmless virtuous. His diagnosis of the present is the 'death of God': not a theological thesis but the observation that European culture has stopped really believing in what upheld its values, without having faced the consequences. The risk is nihilism; his proposal is to create one's own values and affirm life as it is, pain included. The eternal recurrence works as a test: if you had to live your life again exactly as it was, endlessly, would you want it?",
+  "nivel_3_experto": "His work is aphoristic and deliberately perspectivist, which makes attributing systematic theses to him difficult; the notion of perspectivism itself generates the self-reference problem, if it too is only a perspective. The 'will to power' raises a first-order philological difficulty: the book of that title was not composed by him but assembled posthumously by his sister Elisabeth Förster-Nietzsche from discarded notes, with documented manipulations that fed the Nazi appropriation; the Colli-Montinari critical edition dismantled that apparatus and is today the basis of any serious reading. Discussion persists over whether the will to power is a cosmological doctrine, a psychological hypothesis or an interpretive tool, and whether the eternal recurrence is a cosmological thesis or an ethical-existential imperative. His declared lack of antisemitism and his break with Wagner over it are documented, but his writings contain aristocratic, antidemocratic and misogynist material that does not dissolve by pointing at his sister's forgery. His influence runs through Heidegger, Foucault, Deleuze and contemporary genealogical criticism, and also through depth psychology by way of Freud and Jung.",
+  "debate_abierto": "The status of the will to power and of the eternal recurrence, and how to separate his thought from the posthumous editorial manipulation without whitewashing his political positions, are active debates.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Friedrich Nietzsche",
+      "url": "https://plato.stanford.edu/entries/nietzsche/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Nietzsche's Moral and Political Philosophy",
+      "url": "https://plato.stanford.edu/entries/nietzsche-moral-political/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Friedrich Nietzsche",
+      "url": "https://iep.utm.edu/nietzsch/"
+    }
+  ]
+}

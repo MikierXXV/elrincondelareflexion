@@ -1,0 +1,68 @@
+{
+  "id": "velo-de-la-ignorancia",
+  "corriente_id": "etica-politica-contemporanea",
+  "titulo": "The veil of ignorance",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "rawls",
+      "rol": "principal",
+      "aporte": "Proposes choosing the rules without knowing what place you will occupy under them."
+    },
+    {
+      "id": "bentham",
+      "rol": "contrapunto",
+      "aporte": "His criterion of the total sum is exactly what Rawls wants to rule out."
+    }
+  ],
+  "pregunta": "What rules would you choose if you did not know which place would fall to you?",
+  "cita": {
+    "texto": "Justice is the first virtue of social institutions.",
+    "obra": "A Theory of Justice, §1",
+    "autor_id": "rawls",
+    "atribucion": "directa"
+  },
+  "resumen": "Nobody chooses their family, their health or their talents. Rawls proposes designing the rules of society without knowing what position you will occupy in it: what you would choose that way is what is just.",
+  "desarrollo": "The experiment has a precise function: to remove the bias with which everyone defends what suits them. Imagine a situation in which participants decide the rules behind a veil that hides their class, sex, religion, health and abilities. They know how a society works, but not what their place in it will be. Rawls holds that in that situation nobody would bet on maximising the average, because they could land in the worst place and there is no second chance. They would choose to secure the floor. From this come his two principles: equal basic liberties for all, and inequalities acceptable only if attached to genuine equality of opportunity and only if they benefit those who are worst off. With this he revived normative political philosophy after decades of purely conceptual analysis.",
+  "ejemplo_real": "The method of dividing a cake: one cuts and the other chooses. The cutter does not know which piece will fall to them, so they take pains over equality without needing to be a good person. The veil is that same idea applied to the rules of an entire society, and it works for the same reason: it removes the advantage of knowing where you stand.",
+  "matiz_experto": "Harsanyi objected that a rational agent under uncertainty would maximise expected utility, which would lead to a utilitarian result rather than Rawls's maximin. Communitarians add that the subject behind the veil is detached from the ends that constitute them.",
+  "visualizacion": {
+    "id": "vis-velo-rawls",
+    "idea_id": "velo-de-la-ignorancia",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "The veil is not an abstract information filter: it is occupying a particular place in a society and being unable to see the rest. The scene needs the user to be positioned inside it, with real occlusion between positions, and to experience the change of viewpoint when reassigned a place at random. In a flat diagram they see everything from outside, which is exactly the privileged position the experiment removes.",
+    "descripcion_interaccion": "The user distributes resources and rights in a three-dimensional society while seeing their own position within it. They then activate the veil, which hides that information while keeping them inside the scene, and distribute again. On lifting it they are assigned a position at random and walk the society from there, checking which of their two distributions they would rather have landed in.",
+    "invitacion": "Share out the resources, then lower the veil",
+    "alternativa_textual": "A distribution of resources made twice, once knowing one's own position in society and once ignorant of it, followed by the random assignment of a place from which the result is walked: it shows how the criterion of justice changes when the advantage of knowing where you stand is removed.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "Five social positions seen from inside one of them",
+      "darMas": "Give more to your position",
+      "repartirIgual": "Share out equally",
+      "asegurarSuelo": "Secure the floor",
+      "bajarVelo": "Lower the veil",
+      "levantarVelo": "Lift the veil and see where you land",
+      "total": "total",
+      "media": "average",
+      "peorSituado": "worst off",
+      "noSabesDonde": "you do not know where you are",
+      "estasEnPosicion": "you are in position {posicion}",
+      "inicial": "You are in position 1 and you know it. Share out the resources as you see fit.",
+      "trasBajarVelo": "You no longer know which position you occupy. Share out again: now you could land in any of the five.",
+      "resolucionAsegura": "You landed in position {posicion}. Under the distribution you made blind you receive {aCiegas}; under the one you made knowing where you stood you would have received {sabiendo}. Without the advantage of knowing, you chose to secure the floor.",
+      "resolucionSuerte": "You landed in position {posicion}. Here the first distribution would have given you more ({sabiendo} against {aCiegas}): you were lucky. The question Rawls asks is what you would have chosen without knowing whether you would be.",
+      "resolucionRespaldo": "Sharing out without knowing which position you will occupy changes the criterion: you secure the floor instead of maximising the average.",
+      "alternativaTexto": "A distribution of resources made twice, once knowing one’s own position in society and once ignorant of it, followed by the random assignment of a place from which the result is walked: it shows how the criterion of justice changes when the advantage of knowing where you stand is removed."
+    }
+  },
+  "ideas_relacionadas": [
+    "principio-de-diferencia",
+    "calculo-de-la-felicidad",
+    "contrato-y-voluntad-general",
+    "imperativo-categorico"
+  ]
+}

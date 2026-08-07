@@ -1,0 +1,72 @@
+{
+  "id": "imperativo-categorico",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "The categorical imperative",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "kant",
+      "rol": "principal",
+      "aporte": "Proposes a test of universalisation that depends neither on consequences nor on desires."
+    }
+  ],
+  "pregunta": "How can you tell whether what you are about to do is right, without looking at what will happen?",
+  "cita": {
+    "texto": "Act only on that maxim you can will as a universal law.",
+    "obra": "Groundwork of the Metaphysics of Morals, II",
+    "autor_id": "kant",
+    "atribucion": "directa"
+  },
+  "resumen": "Kant asks not about consequences but about the form of the rule: if turning it into a law for everyone destroys it, it could not have been a moral rule. And he demands that people be treated also as ends.",
+  "desarrollo": "The test works like this: state the rule you would actually be following, imagine everyone following it always, and check whether the result is coherent. Promising with no intention of keeping the promise fails spectacularly, because if everyone did it promises would stop meaning anything and the action itself would become impossible: you cannot deceive with a promise in a world where nobody believes them. Notice that what fails is not that the outcome is unpleasant but that the rule destroys itself. The second formulation adds the most quoted criterion: always treat people also as ends, never merely as means. It does not forbid using anyone — we use the taxi driver — but using someone solely, riding over the fact that they too have ends of their own.",
+  "ejemplo_real": "Pushing into a queue when you are in a hurry. What makes it work is precisely that the others do not do it: if everyone pushed in there would be no queue to push into. The advantage depends on an exception you grant only to yourself, and that is why 'come on, it's just one person' is exactly what the test catches.",
+  "matiz_experto": "Hegel objected that the test is an empty formalism that approves too much, and whether it is a decision procedure or an evaluative criterion is still debated. The case of the murderer at the door is also famous, where the absolute prohibition on lying produces a result almost nobody accepts.",
+  "visualizacion": {
+    "id": "vis-imperativo-kant",
+    "idea_id": "imperativo-categorico",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user writes or picks the rule they are going to follow and presses 'universalise'. The scene fills with figures doing exactly the same, and the interface checks whether the original action is still possible in that world. When it self-destructs, it marks the exact point where it stops working; when it holds, it says so and allows the second formulation to be tried on the people involved.",
+    "invitacion": "Choose your rule and universalise it",
+    "alternativa_textual": "A rule of conduct applied simultaneously to everyone in order to check whether the original action is still possible in that scenario: it shows that certain maxims depend on only one person following them and therefore destroy themselves when universalised.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "ilustracion-idealismo",
+      "peticion": "Pick the rule you are going to follow",
+      "nombrePrueba": "Universalise",
+      "nombreInstancias": "Everyone follows it",
+      "candidatos": [
+        {
+          "texto": "Promising with no intention of keeping it",
+          "sobrevive": false,
+          "veredicto": "If everyone did it, promises would stop meaning anything and your own action would be impossible. The rule destroys itself."
+        },
+        {
+          "texto": "Pushing into the queue when I am in a hurry",
+          "sobrevive": false,
+          "veredicto": "If everyone pushed in there would be no queue to push into. The advantage depended on an exception you granted only to yourself."
+        },
+        {
+          "texto": "Helping when I am able to",
+          "sobrevive": true,
+          "veredicto": "It still works with everyone doing it. It does not destroy itself."
+        }
+      ],
+      "resolucion": "What fails is not that the outcome is unpleasant but that the rule contradicts itself once it holds for everyone. Kant asks not about consequences but about form.",
+      "alternativaTexto": "A rule of conduct applied simultaneously to everyone in order to check whether the original action is still possible in that scenario: it shows that certain maxims depend on only one person following them and therefore destroy themselves when universalised.",
+      "etiqueta": "The categorical imperative",
+      "aplicadaTexto": "Everyone follows it: applied"
+    }
+  },
+  "ideas_relacionadas": [
+    "condiciones-a-priori",
+    "ley-de-hume",
+    "calculo-de-la-felicidad",
+    "velo-de-la-ignorancia",
+    "ren-y-li"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "dos-niveles-de-lectura",
+  "corriente_id": "filosofia-islamica",
+  "titulo": "Dos niveles de lectura",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "averroes",
+      "rol": "principal",
+      "aporte": "Sostiene que ante un conflicto entre demostración y texto sagrado, lo que cede es la interpretación."
+    }
+  ],
+  "pregunta": "Cuando un texto que consideras verdadero choca con algo demostrado, ¿qué cede?",
+  "cita": {
+    "texto": "La verdad no contradice a la verdad, sino que concuerda con ella.",
+    "obra": "Tratado decisivo",
+    "autor_id": "averroes",
+    "atribucion": "directa"
+  },
+  "resumen": "Si la verdad es una, filosofía y revelación no pueden contradecirse. Cuando el sentido literal de un texto choca con una demostración, lo que hay que revisar es la interpretación, no la demostración.",
+  "desarrollo": "Averroes fue juez, médico y el comentarista de Aristóteles más influyente de la Edad Media, conocido en Europa simplemente como 'el Comentador'. Frente a la acusación de Al-Ghazali contra los filósofos, defiende que la ley religiosa no solo permite la filosofía sino que la exige a quienes son capaces de ella. Su modelo distingue tres niveles de discurso según el tipo de entendimiento al que se dirigen: el retórico, que persuade a la mayoría con imágenes; el dialéctico, que argumenta a partir de opiniones plausibles; y el demostrativo, que procede por pruebas. No son tres verdades, sino tres accesos a la misma. Y de ahí su regla: si una demostración choca con el sentido literal de un texto, corresponde interpretarlo alegóricamente, porque una demostración no se puede desmontar apelando a una lectura.",
+  "ejemplo_real": "Cualquiera aplica esto sin saberlo al leer un texto antiguo que habla del sol saliendo por el este. Nadie concluye que el autor se equivocaba sobre astronomía: entiende que describe lo que se ve desde donde estaba. Interpretar no es rebajar el texto, es leerlo en el registro correcto, y confundir registros es lo que produce falsos conflictos.",
+  "matiz_experto": "La doctrina de la 'doble verdad' que se le atribuyó no aparece en sus textos: es una construcción polémica de sus adversarios latinos, aunque la etiqueta perdura. Su tesis de la unidad del intelecto material sí fue combatida directamente por Tomás de Aquino y alcanzada por las condenas parisinas.",
+  "visualizacion": {
+    "id": "vis-lecturas-averroes",
+    "idea_id": "dos-niveles-de-lectura",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario lee un mismo pasaje sobre el curso del sol en tres registros —retórico, dialéctico y demostrativo— que alterna a voluntad. Cuando trae a la escena una proposición demostrada, aparece un choque explícito entre ella y la lectura en curso, y la interfaz ofrece dos salidas que niega en el acto: descartar el pasaje y descartar la prueba, que se sacuden y siguen donde estaban. El choque solo se deshace al pasar al registro demostrativo, sin que se haya quitado nada de la pantalla.",
+    "invitacion": "Cambia de registro y mira qué le pasa al pasaje",
+    "alternativa_textual": "Un mismo pasaje leído en tres registros distintos, en el que un conflicto con una proposición demostrada se resuelve cambiando de registro en vez de descartar el texto o la prueba: demuestra la regla de interpretación que propone Averroes.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "contexto",
+    "parametros": {
+      "corrienteId": "filosofia-islamica",
+      "elemento": "El sol se mueve",
+      "escenas": [
+        {
+          "nombre": "Registro retórico",
+          "sentido": "Una imagen del cielo que cualquiera reconoce al levantar la vista.",
+          "nota": "No es una versión rebajada: es la que corresponde a ese entendimiento."
+        },
+        {
+          "nombre": "Registro dialéctico",
+          "sentido": "Lo que todos admiten, y basta para orientarse y contar los días.",
+          "nota": "Mismo texto, otro nivel de exigencia y otro tipo de acuerdo."
+        },
+        {
+          "nombre": "Registro demostrativo",
+          "sentido": "Describe lo que se ve desde donde se está, no el movimiento real.",
+          "nota": "Cuando el sentido literal choca con una demostración, lo que cede es la interpretación."
+        }
+      ],
+      "conflicto": {
+        "rotulo": "Una proposición demostrada",
+        "proposicion": "La Tierra gira sobre su eje.",
+        "introducir": "Traer la demostración",
+        "resuelveEn": 2,
+        "choque": "Leído así, el pasaje dice lo contrario que la demostración. Los dos siguen ahí.",
+        "resuelto": "No se ha quitado nada: ha cambiado el registro en que se lee el pasaje.",
+        "descartes": [
+          {
+            "nombre": "Descartar el pasaje",
+            "descartaLaPrueba": false,
+            "negativa": "El pasaje no se va. Si la verdad es una, leído en su registro no dice nada falso."
+          },
+          {
+            "nombre": "Descartar la demostración",
+            "descartaLaPrueba": true,
+            "negativa": "Una demostración no se desmonta apelando a una lectura. La prueba se queda."
+          }
+        ]
+      },
+      "resolucion": "No son tres verdades, sino tres accesos a la misma. Ante el choque cede la interpretación, no el texto ni la prueba: confundir registros es lo que produce falsos conflictos entre razón y revelación.",
+      "alternativaTexto": "Un mismo pasaje leído en tres registros distintos, en el que un conflicto con una proposición demostrada se resuelve cambiando de registro en vez de descartar el texto o la prueba: demuestra la regla de interpretación que propone Averroes.",
+      "etiqueta": "Dos niveles de lectura"
+    }
+  },
+  "ideas_relacionadas": [
+    "razon-y-fe",
+    "critica-de-la-causalidad",
+    "significado-como-uso",
+    "esencia-y-existencia"
+  ]
+}

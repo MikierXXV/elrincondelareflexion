@@ -1,0 +1,81 @@
+{
+  "id": "saber-que-no-se-sabe",
+  "corriente_id": "clasica-griega",
+  "titulo": "Knowing that you do not know",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "socrates",
+      "rol": "principal",
+      "aporte": "Turns the recognition of one's own ignorance into the starting point of knowledge."
+    }
+  ],
+  "pregunta": "Do you really know something you cannot define?",
+  "cita": {
+    "texto": "The unexamined life is not worth living.",
+    "obra": "Plato, Apology 38a",
+    "autor_id": "socrates",
+    "atribucion": "directa",
+    "nota": "The line usually quoted as his, 'I know only that I know nothing', does not appear in that form in Plato: the Apology says something considerably more careful."
+  },
+  "resumen": "Socrates asked those who claimed to know to define what they claimed to know, and always found a case the definition did not cover. That impasse is not the failure: it is the beginning.",
+  "desarrollo": "The procedure is always the same. Someone claims to know what justice is. Socrates asks for a definition, provisionally accepts it, and looks for a case where it fails. Is it just to return what you owe? Even to return a weapon to someone who has lost their mind? The definition is corrected, and fails again. After several rounds the interlocutor is left without an answer. That state is called aporia, and it is the aim rather than an accident: while you believe you know, you do not search. The discomfort of the scene is deliberate, because the obstacle is not ignorance but ignorance unaware of itself. From this comes his most disputed moral thesis too: that nobody does wrong knowingly, and that anyone who truly knew the good would do it. He was condemned to death, and accepted the sentence instead of fleeing.",
+  "ejemplo_real": "Try explaining what exactly 'a game' is without your definition leaving out solitaire or letting in a war. Or try defining when a heap of sand stops being a heap as you remove grains one by one. You use those words every day with complete fluency and you cannot fix their edges.",
+  "matiz_experto": "Everything we know about Socrates comes from sources that use him as a character — Plato, Xenophon, Aristophanes — and separating the historical Socrates from the Platonic mouthpiece is a historiographical problem with no definitive solution.",
+  "visualizacion": {
+    "id": "vis-elenchos-socrates",
+    "idea_id": "saber-que-no-se-sabe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user has a definition of justice that covers almost every case but one. Stretching it to reach the missing one makes the definition drop another it had been covering. The count of covered cases never rises, however many times and in whatever direction it is stretched.",
+    "invitacion": "Stretch the definition to the case it misses",
+    "alternativa_textual": "A net standing for a definition that never manages to cover every case: stretching to include a new one leaves another outside, showing that a concept can be used fluently without being able to draw its boundaries.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "clasica-griega",
+      "modo": "estirar",
+      "centro": "What is just",
+      "recuento": "Cases covered: {cubiertos} of {total}",
+      "restituir": "Restore the relations",
+      "vinculos": [
+        {
+          "nombre": "Returning what was lent",
+          "perdida": "The definition now reaches it. But it stops covering the weapon returned to someone who has lost their reason."
+        },
+        {
+          "nombre": "Returning a weapon to someone gone mad",
+          "perdida": "Covering it means admitting exceptions for foreseeable harm, and then dealings between those who cannot harm each other slip out."
+        },
+        {
+          "nombre": "Giving each their due",
+          "perdida": "Reached. But what is «due» has to be settled first, and settling it is precisely what was being defined."
+        },
+        {
+          "nombre": "Helping friends and harming enemies",
+          "perdida": "It fits, and in fitting it brings along that harming is sometimes just, which drops the case of one who never harms."
+        },
+        {
+          "nombre": "Obeying the law of the city",
+          "perdida": "It comes in, and the unjust law with it. Keeping that out means appealing to something prior to law, which is what remains to be defined."
+        },
+        {
+          "nombre": "What suits the stronger",
+          "perdida": "Stretched this far, the definition covers its own opposite and stops distinguishing anything."
+        }
+      ],
+      "resolucion": "You know how to use the word in each concrete case. What you cannot produce is a definition covering them all at once: recognising that is the starting point, not the failure.",
+      "alternativaTexto": "A net standing for a definition that never manages to cover every case: stretching to include a new one leaves another outside, showing that a concept can be used fluently without being able to draw its boundaries.",
+      "etiqueta": "Knowing that you do not know",
+      "etiquetaNodo": "Stretch the definition to reach {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "mundo-de-las-ideas",
+    "significado-como-uso",
+    "suspension-del-juicio"
+  ]
+}

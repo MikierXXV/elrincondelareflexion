@@ -1,0 +1,58 @@
+{
+  "id": "el-numero-como-orden",
+  "corriente_id": "presocraticos",
+  "titulo": "Number as the order of the world",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "pitagoras",
+      "rol": "principal",
+      "aporte": "Generalises the discovery of musical proportions into a thesis about the structure of reality."
+    }
+  ],
+  "pregunta": "Why does mathematics describe so well a world that is not made of numbers?",
+  "cita": {
+    "texto": "All is number.",
+    "obra": "Attributed to the Pythagoreans by Aristotle",
+    "autor_id": "pitagoras",
+    "atribucion": "tradicional",
+    "nota": "Pythagoras left no writings. Aristotle attributes the thesis to the Pythagoreans as a group, not to him personally."
+  },
+  "resumen": "The musical intervals that sound harmonious to us correspond to simple numerical ratios. Out of that checkable finding comes an enormous idea: that reality has a mathematical structure.",
+  "desarrollo": "The starting point can be verified in five minutes. Divide a taut string exactly in half and it sounds the same note an octave higher. Divide it at two thirds and it sounds a fifth. Simple ratios produce the sounds we hear as consonant, and those that are not simple produce something harsh. What is disconcerting is that a purely numerical relation, which has no weight and takes up no space, should govern something as physical as sound. The Pythagoreans generalised: if number orders harmony, perhaps it also orders the movement of the stars, the seasons and the soul. The intuition proved extraordinarily productive and arrives intact in present-day physics, where the fundamental laws are written as equations. Nobody has fully explained why it works so well.",
+  "ejemplo_real": "Tuning a guitar by ear is exactly this: you are not comparing frequencies, you are listening for the moment the beating between two strings disappears, and that silence is an exact ratio your ear detects without your being able to calculate it. The same thing happens when a photograph 'sits right' or when a building looks well proportioned.",
+  "matiz_experto": "The programme found its limit from within: the discovery of incommensurable magnitudes — the diagonal of a square cannot be expressed as a ratio of whole numbers — contradicted the thesis that everything reduces to numerical proportions.",
+  "visualizacion": {
+    "id": "vis-monocordio-pitagoras",
+    "idea_id": "el-numero-como-orden",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "The user slides a bridge along a string and plucks it. The simulation solves the real wave: at the exact ratios 1:2, 2:3 and 3:4 the vibration settles into a clean pattern and the sound is consonant; between those positions the wave visibly beats and the sound is harsh. The numerical order is heard and seen before it is explained.",
+    "invitacion": "Slide the bridge and listen for where it settles",
+    "alternativa_textual": "A simulated string whose vibration becomes stable and whose sound becomes consonant only at divisions of simple ratio: it shows that exact numerical relations govern a physical phenomenon we perceive as beauty.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "A string with a movable bridge dividing its length",
+      "etiquetaPuente": "Position of the bridge along the string",
+      "escuchar": "Listen to the interval",
+      "sinProporcion": "no simple ratio",
+      "consonancias": [
+        "octave (1:2)",
+        "fifth (2:3)",
+        "fourth (3:4)",
+        "twelfth (1:3)"
+      ],
+      "estabilizada": "the vibration settled by itself. This is an exact ratio.",
+      "resolucionFinal": "The positions where the string settles are exactly those of simple ratio. That is where the suspicion is born that number orders reality.",
+      "resolucionEstatica": "Divided in half, the string sounds an octave higher: the consonance corresponds to a simple numerical ratio.",
+      "alternativaTexto": "A simulated string whose vibration becomes stable and whose sound becomes consonant only at divisions of simple ratio: it shows that exact numerical relations govern a physical phenomenon we perceive as beauty."
+    }
+  },
+  "ideas_relacionadas": [
+    "mundo-de-las-ideas",
+    "razon-suficiente"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "lo-inconsciente",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "Lo inconsciente",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "freud",
+      "rol": "principal",
+      "aporte": "Sostiene que buena parte de lo que nos mueve no es accesible a la conciencia y se manifiesta de forma indirecta."
+    }
+  ],
+  "pregunta": "Cuando explicas por qué hiciste algo, ¿esa es la razón o una reconstrucción?",
+  "cita": {
+    "texto": "El yo no es dueño en su propia casa.",
+    "obra": "Lecciones de introducción al psicoanálisis, 1917",
+    "autor_id": "freud",
+    "atribucion": "directa"
+  },
+  "resumen": "Freud sostiene que existen contenidos activos que la conciencia no alcanza y que se manifiestan de forma indirecta, y que los motivos que damos para explicar nuestra conducta suelen llegar después de la decisión.",
+  "desarrollo": "La tesis ataca de frente un supuesto que venía de Descartes: que la mente es transparente para sí misma. Freud propone lo contrario, a partir de su práctica clínica: hay contenidos que la conciencia no puede alcanzar directamente y que se manifiestan torcidos, en sueños, lapsus y síntomas. La represión sería el mecanismo que los mantiene fuera, y tiene un coste. Para explicar el conflicto interior propuso tres instancias: el ello, sede del impulso; el superyó, que interioriza las prohibiciones; y el yo, que negocia entre ambos y con la realidad. Su método terapéutico, la asociación libre, busca precisamente eludir el control consciente del discurso. Filosóficamente, lo que abre es un problema de fondo: si no sabemos del todo por qué hacemos lo que hacemos, hay que rehacer la idea de autoconocimiento y también la de responsabilidad.",
+  "ejemplo_real": "Discutes con alguien por una tontería y te oyes dando razones muy elaboradas. Horas después caes en que llevabas todo el día tragándote otra cosa que no tenía nada que ver. Las razones que diste no eran mentira: te las creías mientras las decías. Eso es lo incómodo del asunto, y no que uno se engañe a sabiendas.",
+  "matiz_experto": "El estatuto científico del psicoanálisis está seriamente cuestionado: Popper lo consideró irrefutable, Grünbaum atacó el valor probatorio del material clínico y las revisiones históricas han documentado problemas en los casos fundacionales. En cambio, el procesamiento no consciente está sólidamente establecido en psicología cognitiva, aunque no coincide con el inconsciente dinámico freudiano.",
+  "visualizacion": {
+    "id": "vis-inconsciente-freud",
+    "idea_id": "lo-inconsciente",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario toma una decisión aparentemente trivial y la interfaz le pide su motivo por escrito. Después le permite descender bajo la línea de flotación y encontrar factores que influyeron y no aparecieron en su explicación. Al volver arriba, la justificación inicial sigue ahí intacta y sigue pareciendo razonable: racionalizar no es fallar al recordar, es construir una razón después.",
+    "invitacion": "Escribe tu motivo y luego baja a mirar",
+    "alternativa_textual": "Una decisión cuya explicación consciente se conserva intacta después de descubrir los factores que realmente la influyeron: demuestra que las razones que damos pueden construirse a posteriori sin que haya engaño deliberado.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-capas",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "arriba": {
+        "nombre": "la razón que das",
+        "intervenciones": [
+          {
+            "nombre": "Reformular tu explicación",
+            "efecto": "La explicación cambia y lo que la produjo sigue exactamente igual.",
+            "propagacion": 0.08
+          },
+          {
+            "nombre": "Convencerte de que es la buena",
+            "efecto": "Te la crees mientras la dices. Eso es lo incómodo, y no engañarse a sabiendas.",
+            "propagacion": 0.05
+          }
+        ]
+      },
+      "abajo": {
+        "nombre": "lo que venías arrastrando",
+        "intervenciones": [
+          {
+            "nombre": "Ver qué llevabas todo el día tragándote",
+            "efecto": "Al aparecer, la discusión de arriba se recoloca entera.",
+            "propagacion": 0.85
+          },
+          {
+            "nombre": "Reconocer con qué lo asocias",
+            "efecto": "La razón anterior sigue ahí y sigue pareciendo razonable: por eso no basta con desmentirla.",
+            "propagacion": 0.7
+          }
+        ]
+      },
+      "resolucion": "Racionalizar no es fallar al recordar: es construir una razón después. Por eso revisarla no cambia nada, y encontrar lo de abajo sí.",
+      "alternativaTexto": "Una decisión cuya explicación consciente se conserva intacta después de descubrir los factores que realmente la influyeron: demuestra que las razones que damos pueden construirse a posteriori sin que haya engaño deliberado.",
+      "etiqueta": "Lo inconsciente"
+    }
+  },
+  "ideas_relacionadas": [
+    "la-sombra",
+    "libertad-como-comprension",
+    "genealogia-de-la-moral",
+    "mala-fe"
+  ]
+}

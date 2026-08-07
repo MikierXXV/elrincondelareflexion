@@ -1,0 +1,72 @@
+{
+  "id": "imperativo-categorico",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "El imperativo categórico",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "kant",
+      "rol": "principal",
+      "aporte": "Propone una prueba de universalización que no depende de las consecuencias ni de los deseos."
+    }
+  ],
+  "pregunta": "¿Cómo saber si lo que vas a hacer está bien, sin mirar lo que va a pasar?",
+  "cita": {
+    "texto": "Obra solo según aquella máxima que puedas querer como ley universal.",
+    "obra": "Fundamentación de la metafísica de las costumbres, II",
+    "autor_id": "kant",
+    "atribucion": "directa"
+  },
+  "resumen": "Kant no pregunta por las consecuencias sino por la forma de la regla: si al convertirla en ley para todos se destruye a sí misma, no podía ser una regla moral. Y exige tratar a las personas también como fines.",
+  "desarrollo": "La prueba funciona así: se formula la regla que uno seguiría de hecho, se imagina que todo el mundo la sigue siempre, y se comprueba si el resultado es coherente. Prometer sin intención de cumplir falla de forma espectacular, porque si todos lo hicieran las promesas dejarían de significar nada y la propia acción se volvería imposible: no puedes engañar con una promesa en un mundo donde nadie cree en ellas. Fíjate en que lo que falla no es que el resultado sea desagradable, sino que la regla se autodestruye. La segunda formulación añade el criterio más citado: tratar a las personas siempre también como fines, nunca solo como medios. No prohíbe usar a nadie —usamos al taxista— sino usar a alguien únicamente, pasando por encima de que también tiene fines propios.",
+  "ejemplo_real": "Colarte en una cola cuando llevas prisa. Lo que hace que funcione es precisamente que los demás no lo hagan: si todo el mundo se colara, no habría cola en la que colarse. La ventaja depende de una excepción que solo te concedes a ti, y por eso el argumento «total, por uno…» es exactamente el que la prueba detecta.",
+  "matiz_experto": "Hegel objetó que la prueba es un formalismo vacío que aprueba demasiado, y sigue discutiéndose si es un procedimiento de decisión o un criterio de evaluación. También es célebre el caso del asesino a la puerta, donde la prohibición absoluta de mentir produce un resultado que casi nadie acepta.",
+  "visualizacion": {
+    "id": "vis-imperativo-kant",
+    "idea_id": "imperativo-categorico",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario escribe o elige la regla que va a seguir y pulsa 'universalizar'. La escena se puebla de figuras que hacen exactamente lo mismo, y la interfaz comprueba si la acción original sigue siendo posible en ese mundo. Cuando se autodestruye, marca el punto exacto en que deja de funcionar; cuando resiste, lo indica y permite probar la segunda formulación sobre las personas implicadas.",
+    "invitacion": "Elige tu regla y universalízala",
+    "alternativa_textual": "Una regla de conducta que se aplica simultáneamente a todo el mundo para comprobar si la acción original sigue siendo posible en ese escenario: demuestra que ciertas máximas dependen de que solo uno las siga y por eso se autodestruyen al universalizarse.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "ilustracion-idealismo",
+      "peticion": "Elige la regla que vas a seguir",
+      "nombrePrueba": "Universalizar",
+      "nombreInstancias": "Todo el mundo la sigue",
+      "candidatos": [
+        {
+          "texto": "Prometer sin intención de cumplir",
+          "sobrevive": false,
+          "veredicto": "Si todos lo hicieran, las promesas dejarían de significar nada y tu propia acción sería imposible. La regla se destruye sola."
+        },
+        {
+          "texto": "Colarme cuando tengo prisa",
+          "sobrevive": false,
+          "veredicto": "Si todos se colaran no habría cola en la que colarse. La ventaja dependía de una excepción que solo te concedías a ti."
+        },
+        {
+          "texto": "Ayudar cuando puedo hacerlo",
+          "sobrevive": true,
+          "veredicto": "Sigue funcionando con todo el mundo haciéndolo. No se autodestruye."
+        }
+      ],
+      "resolucion": "Lo que falla no es que el resultado sea desagradable, sino que la regla se contradice al valer para todos. Kant no pregunta por las consecuencias sino por la forma.",
+      "alternativaTexto": "Una regla de conducta que se aplica simultáneamente a todo el mundo para comprobar si la acción original sigue siendo posible en ese escenario: demuestra que ciertas máximas dependen de que solo uno las siga y por eso se autodestruyen al universalizarse.",
+      "etiqueta": "El imperativo categórico",
+      "aplicadaTexto": "Todo el mundo la sigue: aplicado"
+    }
+  },
+  "ideas_relacionadas": [
+    "condiciones-a-priori",
+    "ley-de-hume",
+    "calculo-de-la-felicidad",
+    "velo-de-la-ignorancia",
+    "ren-y-li"
+  ]
+}

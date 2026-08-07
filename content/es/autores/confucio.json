@@ -1,0 +1,36 @@
+{
+  "id": "confucio",
+  "nombre": "Confucio (Kongzi)",
+  "corriente_id": "filosofia-china",
+  "periodo": "551–479 a.C.",
+  "region": "Estado de Lu (China)",
+  "preguntas_filosoficas": [
+    "¿Se aprende a ser buena persona como se aprende un oficio?",
+    "¿Qué relación hay entre las formas sociales y la sinceridad interior?"
+  ],
+  "citas": [
+    {
+      "texto": "No impongas a otro lo que no desearías para ti.",
+      "obra": "Analectas XV, 24",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Situó la vida moral en el cultivo constante de uno mismo dentro de las relaciones concretas —familia, amistad, comunidad— y no en el cumplimiento de mandatos abstractos.",
+  "nivel_2_desarrollo": "Confucio vivió en una época de guerra entre estados y su diagnóstico fue que el desorden público empieza en el desorden de las relaciones personales. Su respuesta no es un código de normas sino un programa de formación del carácter. Dos nociones lo articulan: el ren, disposición humana hacia los demás que suele traducirse como benevolencia, y el li, el conjunto de ritos, cortesías y formas que dan una expresión adecuada a esa disposición. Las formas importan porque educan: practicar el gesto correcto va modelando el sentimiento, no solo lo expresa. Su versión de la regla de oro es negativa —no impongas a otro lo que no querrías para ti—, y su modelo es el junzi, la persona ejemplar, definida por su conducta y no por su nacimiento, lo que en su contexto era una afirmación de peso: la excelencia se cultiva, no se hereda.",
+  "nivel_3_experto": "Las Analectas son una compilación estratificada, formada durante generaciones por discípulos y sucesores, y la crítica textual —con aportaciones como las de Brooks y Brooks o los hallazgos manuscritos de Guodian— discute qué capas son más antiguas, lo que afecta directamente a qué se le puede atribuir. Traducir ren y li es un problema filosófico y no solo lingüístico: 'benevolencia', 'humanidad', 'ritual' o 'propiedad' arrastran connotaciones cristianas o kantianas ajenas al texto, y buena parte de la sinología actual prefiere dejarlos sin traducir. Hay además un debate metodológico de fondo, planteado entre otros por Rosemont y Ames, sobre si aplicar categorías occidentales como 'ética de la virtud', 'deontología' o incluso 'filosofía' a un corpus que no se autodenominó así; otros especialistas sostienen que la comparación es legítima y productiva mientras se explicite. Políticamente, el confucianismo tuvo un largo recorrido como ideología imperial —el neoconfucianismo de Zhu Xi lo reelaboró en el siglo XII— y hoy es objeto de recuperación tanto académica como oficial en China, lo que obliga a distinguir el texto de sus usos posteriores.",
+  "debate_abierto": "La estratificación de las Analectas, la traducibilidad de sus conceptos centrales y la pertinencia de aplicarles categorías filosóficas occidentales son discusiones activas en sinología.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Confucius",
+      "url": "https://plato.stanford.edu/entries/confucius/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Confucius",
+      "url": "https://iep.utm.edu/confucius/"
+    },
+    {
+      "titulo": "Ames & Rosemont, The Analects of Confucius: A Philosophical Translation",
+      "url": null
+    }
+  ]
+}

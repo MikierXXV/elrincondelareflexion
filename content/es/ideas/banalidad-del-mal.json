@@ -1,0 +1,73 @@
+{
+  "id": "banalidad-del-mal",
+  "corriente_id": "etica-politica-contemporanea",
+  "titulo": "La banalidad del mal",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "arendt",
+      "rol": "principal",
+      "aporte": "Sostiene que participar en crímenes enormes no requiere una motivación monstruosa, sino dejar de pensar."
+    }
+  ],
+  "pregunta": "¿Hace falta ser un monstruo para participar en algo atroz?",
+  "cita": {
+    "texto": "Nadie tiene derecho a obedecer.",
+    "obra": "Formulación recogida de entrevistas posteriores a Eichmann en Jerusalén",
+    "autor_id": "arendt",
+    "atribucion": "tradicional",
+    "nota": "Circula como sentencia aislada; en su contexto responde a la defensa de Eichmann basada en el deber de obediencia."
+  },
+  "resumen": "Arendt esperaba encontrar un fanático y encontró un burócrata preocupado por su carrera. Su tesis no es que el mal sea leve, sino que no siempre necesita una motivación monstruosa: puede bastar con obedecer y no pensar.",
+  "desarrollo": "Cubriendo el juicio de un alto funcionario nazi, a Arendt le impresionó encontrarse con alguien que hablaba en fórmulas hechas y que parecía incapaz de imaginar el punto de vista de sus víctimas. De ahí su tesis más deformada: la banalidad no se refiere a los crímenes, que considera absolutos, sino a la desproporción entre su magnitud y la pobreza del motivo. Lo que describe es una cadena de tareas donde cada eslabón es trivial —sellar, transportar, archivar—, nadie ve el conjunto y todos pueden decir que solo hacían su parte. Su conclusión no es tranquilizadora sino lo contrario: si el mal a gran escala no requiere personalidades excepcionales, entonces no basta con vigilar a los monstruos. Lo que falla es una capacidad ordinaria, la de detenerse a pensar qué se está haciendo, y esa capacidad se puede ejercer o no en cualquier oficina.",
+  "ejemplo_real": "Se reconoce en pequeño en cualquier organización que hace algo que nadie defendería entero. Cada persona firma su parte, todas las partes son razonables, y el resultado es una decisión que ninguno de los implicados habría tomado si la hubiera visto completa. La pregunta útil no es quién es mala persona, sino quién tenía el conjunto delante y no lo miró.",
+  "matiz_experto": "La documentación posterior, en especial las entrevistas de Sassen y el trabajo de Stangneth, muestra a un Eichmann antisemita convencido que construyó deliberadamente su papel de funcionario obediente ante el tribunal. Se discute si eso invalida la tesis o solo el ejemplo con el que la ilustró.",
+  "visualizacion": {
+    "id": "vis-banalidad-arendt",
+    "idea_id": "banalidad-del-mal",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario ocupa un puesto en una cadena administrativa y solo ve su tarea: sellar, transportar, archivar. Cada acción es trivial y el resultado global permanece fuera de cuadro por diseño. Al final puede activar una vista completa del proceso y volver después a su puesto con esa información: la interfaz añade entonces la única acción que faltaba, detenerse.",
+    "invitacion": "Haz tu tarea y luego mira los cuatro pasos juntos",
+    "alternativa_textual": "Una cadena de tareas administrativas triviales cuyo resultado conjunto queda fuera del campo de visión de cada participante, y que solo se revela al cambiar de escala: demuestra cómo puede producirse un daño enorme sin que ningún eslabón tenga una motivación monstruosa.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "cadena",
+    "parametros": {
+      "corrienteId": "etica-politica-contemporanea",
+      "pasos": [
+        {
+          "nombre": "Sellar",
+          "aislado": "Un sello en un formulario. Nadie diría que esto es un crimen."
+        },
+        {
+          "nombre": "Registrar",
+          "aislado": "Anotar cifras en un libro. Es tu trabajo y lo haces bien."
+        },
+        {
+          "nombre": "Asignar",
+          "aislado": "Repartir plazas en un transporte. Un problema de logística."
+        },
+        {
+          "nombre": "Archivar",
+          "aislado": "Guardar la copia en su carpeta. Orden administrativo."
+        }
+      ],
+      "verConjunto": "Ver el proceso entero",
+      "conjunto": "Las cuatro tareas juntas son una deportación.",
+      "resolucion": "Ninguno de los pasos exigía odio ni un motivo monstruoso: bastaba con hacer el tuyo y no mirar el conjunto. Lo que falla es una capacidad ordinaria, la de detenerse a pensar.",
+      "alternativaTexto": "Una cadena de tareas administrativas triviales cuyo resultado conjunto queda fuera del campo de visión de cada participante, y que solo se revela al cambiar de escala: demuestra cómo puede producirse un daño enorme sin que ningún eslabón tenga una motivación monstruosa.",
+      "siguiente": "Siguiente paso",
+      "verConjuntoBloqueado": "Ver el proceso entero (recorre los {n} pasos)",
+      "etiqueta": "La banalidad del mal"
+    }
+  },
+  "ideas_relacionadas": [
+    "el-mal-como-privacion",
+    "condicionamiento-operante",
+    "mala-fe",
+    "ideologia"
+  ]
+}

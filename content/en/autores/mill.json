@@ -1,0 +1,24 @@
+{
+  "id": "mill",
+  "nombre": "John Stuart Mill",
+  "corriente_id": "utilitarismo",
+  "periodo": "1806–1873",
+  "region": "London",
+  "preguntas_filosoficas": ["Are all pleasures worth the same?", "When may a society interfere in someone's life?", "Does the majority protect liberty or threaten it?"],
+  "citas": [
+    {
+      "texto": "It is better to be Socrates dissatisfied than a fool satisfied.",
+      "obra": "Utilitarianism, 1863",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He corrected utilitarianism by introducing the idea that some pleasures are higher than others, and formulated the classic limit on power over the individual: interference is warranted only to prevent harm to others.",
+  "nivel_2_desarrollo": "Mill was educated by his father in Bentham's utilitarianism from the age of three, and at twenty he suffered a crisis that made him doubt whether a life guided by that calculus could be desirable. His correction was to distinguish quantity from quality: not all pleasures are equivalent, and whoever has experienced those that demand cultivation — understanding, creating, feeling — would not trade them for easier ones. His criterion is empirical: ask those who know both. In politics he formulated the harm principle: the only legitimate ground for limiting someone's liberty against their will is to prevent harm to others; their own good is not enough. And he warned of a danger democracy does not resolve on its own, the tyranny of the majority, which oppresses by social pressure without needing laws. He also defended the equality of women when it was a marginal position.",
+  "nivel_3_experto": "The qualitative distinction between pleasures is considered the most fragile point of his system: critics object that in introducing a criterion of quality he abandons hedonism and needs a standard of value external to pleasure, which would break the unity of the principle of utility. His so-called 'proof' of utility in Chapter IV drew Moore's charge of the naturalistic fallacy, for moving from something being desired to its being desirable; the criticism is today disputed and several commentators hold that Moore misread the argument. Whether Mill is an act or a rule utilitarian is also debated, a question on which the text admits both readings. On Liberty has generated an enormous literature: the scope of the harm principle against paternalism, what counts as harm and whether offence does, and the tension between his defence of liberty and his positions on societies he considered unready for it, tied to his thirty-five years' employment at the East India Company, today the object of serious postcolonial criticism. The Subjection of Women, written with Harriet Taylor, remains a reference point for liberal feminism, and the real weight of Taylor's authorship is under reassessment.",
+  "debate_abierto": "Whether the distinction between higher pleasures is compatible with hedonism, and the tension between his liberalism and his colonial positions, are fully active debates.",
+  "fuentes": [
+    {"titulo": "Stanford Encyclopedia of Philosophy — John Stuart Mill", "url": "https://plato.stanford.edu/entries/mill/"},
+    {"titulo": "Stanford Encyclopedia of Philosophy — Mill's Moral and Political Philosophy", "url": "https://plato.stanford.edu/entries/mill-moral-political/"},
+    {"titulo": "Internet Encyclopedia of Philosophy — John Stuart Mill", "url": "https://iep.utm.edu/milljs/"}
+  ]
+}

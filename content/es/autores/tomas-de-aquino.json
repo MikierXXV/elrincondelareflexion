@@ -1,0 +1,36 @@
+{
+  "id": "tomas-de-aquino",
+  "nombre": "Tomás de Aquino",
+  "corriente_id": "escolastica",
+  "periodo": "1225–1274",
+  "region": "Reino de Nápoles, París",
+  "preguntas_filosoficas": [
+    "¿Puede la razón demostrar algo sobre Dios?",
+    "¿Hay normas morales accesibles sin revelación?"
+  ],
+  "citas": [
+    {
+      "texto": "La gracia no destruye la naturaleza, sino que la perfecciona.",
+      "obra": "Suma teológica I, q. 1, a. 8",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Integró la filosofía de Aristóteles en el pensamiento cristiano, defendiendo que la razón y la fe no pueden contradecirse porque investigan la misma realidad por caminos distintos.",
+  "nivel_2_desarrollo": "Cuando Aristóteles entra en las universidades europeas del siglo XIII, su física y su metafísica chocan con la teología establecida y hay quien pide prohibirlo. Tomás elige la vía difícil: asumirlo y reordenar la doctrina con sus herramientas. Su modelo distingue lo que la razón puede alcanzar por sí sola —incluida, sostiene, la existencia de Dios— de lo que solo llega por revelación, sin que lo segundo anule lo primero: la gracia perfecciona la naturaleza, no la sustituye. Sus 'cinco vías' son argumentos que parten de hechos observables (que hay movimiento, causas, contingencia, grados y orden) para concluir la necesidad de un principio último. En ética desarrolla la ley natural: hay inclinaciones humanas básicas que la razón puede reconocer y ordenar, de modo que existe un criterio moral compartido incluso entre quienes no comparten la fe.",
+  "nivel_3_experto": "El núcleo metafísico de Tomás es la distinción real entre esencia y acto de ser (esse), heredada críticamente de Avicena, que le permite sostener que en toda criatura la esencia no incluye la existencia y solo en Dios coinciden. Sobre esa base articula la analogía del ser, respuesta a la alternativa entre univocidad y equivocidad que Duns Escoto rechazará poco después, abriendo una de las grandes bifurcaciones de la escolástica tardía. Las cinco vías se malinterpretan con frecuencia como argumentos sobre un primer momento temporal: Tomás sostenía expresamente que la eternidad del mundo no es demostrablemente falsa por vía filosófica, y sus series causales son de dependencia simultánea, no cronológica. Su recepción no fue pacífica —varias tesis próximas fueron alcanzadas por las condenas parisinas de 1277— y su canonización doctrinal es muy posterior. La ley natural sigue siendo un programa vivo: el 'nuevo iusnaturalismo' de Finnis y Grisez la reformula sin premisas teológicas, mientras sus críticos objetan que deriva normas de descripciones de la naturaleza humana.",
+  "debate_abierto": "El estatuto lógico de las cinco vías y la viabilidad de una ética de ley natural sin fundamento teológico son objeto de discusión filosófica actual, no solo histórica.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Saint Thomas Aquinas",
+      "url": "https://plato.stanford.edu/entries/aquinas/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — The Natural Law Tradition in Ethics",
+      "url": "https://plato.stanford.edu/entries/natural-law-ethics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Thomas Aquinas",
+      "url": "https://iep.utm.edu/thomas-aquinas/"
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "$comment": "GENERADO por scripts/generar-indices.mjs. No editar a mano.",
+  "autores": {
+    "agustin": {
+      "nombre": "Augustine of Hippo",
+      "periodo": "354–430",
+      "corriente_id": "escolastica",
+      "cita": "What then is time? If no one asks me, I know."
+    },
+    "al-ghazali": {
+      "nombre": "Al-Ghazali",
+      "periodo": "1058–1111",
+      "corriente_id": "filosofia-islamica",
+      "cita": "The connection between what we call cause and effect is not necessary."
+    },
+    "arendt": {
+      "nombre": "Hannah Arendt",
+      "periodo": "1906–1975",
+      "corriente_id": "etica-politica-contemporanea",
+      "cita": "Nobody has the right to obey."
+    },
+    "aristoteles": {
+      "nombre": "Aristotle",
+      "periodo": "384–322 BCE",
+      "corriente_id": "clasica-griega",
+      "cita": "Man is by nature a political animal."
+    },
+    "averroes": {
+      "nombre": "Averroes (Ibn Rushd)",
+      "periodo": "1126–1198",
+      "corriente_id": "filosofia-islamica",
+      "cita": "Truth does not contradict truth, but accords with it."
+    },
+    "avicena": {
+      "nombre": "Avicenna (Ibn Sina)",
+      "periodo": "c. 980–1037",
+      "corriente_id": "filosofia-islamica",
+      "cita": "That which is necessary in itself has no cause."
+    },
+    "bentham": {
+      "nombre": "Jeremy Bentham",
+      "periodo": "1748–1832",
+      "corriente_id": "utilitarismo",
+      "cita": "Nature has placed mankind under the governance of pain and pleasure."
+    },
+    "berkeley": {
+      "nombre": "George Berkeley",
+      "periodo": "1685–1753",
+      "corriente_id": "empirismo",
+      "cita": "To be is to be perceived."
+    },
+    "buda": {
+      "nombre": "Siddhartha Gautama (the Buddha)",
+      "periodo": "c. 480–400 BCE (dating disputed)",
+      "corriente_id": "filosofia-india",
+      "cita": "All compounded things are impermanent."
+    },
+    "confucio": {
+      "nombre": "Confucius (Kongzi)",
+      "periodo": "551–479 BCE",
+      "corriente_id": "filosofia-china",
+      "cita": "Do not impose on others what you would not desire yourself."
+    },
+    "descartes": {
+      "nombre": "René Descartes",
+      "periodo": "1596–1650",
+      "corriente_id": "racionalismo",
+      "cita": "I think, therefore I am."
+    },
+    "epicteto": {
+      "nombre": "Epictetus",
+      "periodo": "c. 50–135 CE",
+      "corriente_id": "helenismo",
+      "cita": "It is not things that disturb us, but our opinions about things."
+    },
+    "epicuro": {
+      "nombre": "Epicurus",
+      "periodo": "341–270 BCE",
+      "corriente_id": "helenismo",
+      "cita": "While we exist death is not present; when it comes, we are not."
+    },
+    "frankl": {
+      "nombre": "Viktor Frankl",
+      "periodo": "1905–1997",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "Everything can be taken from a person but the choice of their attitude."
+    },
+    "freud": {
+      "nombre": "Sigmund Freud",
+      "periodo": "1856–1939",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "The ego is not master in its own house."
+    },
+    "hegel": {
+      "nombre": "Georg Wilhelm Friedrich Hegel",
+      "periodo": "1770–1831",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "The owl of Minerva takes flight only as dusk falls."
+    },
+    "heraclito": {
+      "nombre": "Heraclitus of Ephesus",
+      "periodo": "c. 540–480 BCE",
+      "corriente_id": "presocraticos",
+      "cita": "You cannot step into the same river twice."
+    },
+    "hume": {
+      "nombre": "David Hume",
+      "periodo": "1711–1776",
+      "corriente_id": "empirismo",
+      "cita": "Reason is, and ought only to be, the slave of the passions."
+    },
+    "jung": {
+      "nombre": "Carl Gustav Jung",
+      "periodo": "1875–1961",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "Until the unconscious is made conscious, it will direct your life and be called fate."
+    },
+    "kant": {
+      "nombre": "Immanuel Kant",
+      "periodo": "1724–1804",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "Sapere aude: dare to use your own understanding."
+    },
+    "kierkegaard": {
+      "nombre": "Søren Kierkegaard",
+      "periodo": "1813–1855",
+      "corriente_id": "existencialismo",
+      "cita": "Life can only be understood backwards, but it must be lived forwards."
+    },
+    "laozi": {
+      "nombre": "Laozi",
+      "periodo": "traditionally 6th c. BCE; text compiled c. 4th–3rd c. BCE",
+      "corriente_id": "filosofia-china",
+      "cita": "The dao that can be named is not the constant dao."
+    },
+    "leibniz": {
+      "nombre": "Gottfried Wilhelm Leibniz",
+      "periodo": "1646–1716",
+      "corriente_id": "racionalismo",
+      "cita": "Why is there something rather than nothing?"
+    },
+    "locke": {
+      "nombre": "John Locke",
+      "periodo": "1632–1704",
+      "corriente_id": "empirismo",
+      "cita": "No human knowledge can go beyond its experience."
+    },
+    "marco-aurelio": {
+      "nombre": "Marcus Aurelius",
+      "periodo": "121–180 CE",
+      "corriente_id": "helenismo",
+      "cita": "Very soon you will have forgotten everything; very soon everyone will have forgotten you."
+    },
+    "marx": {
+      "nombre": "Karl Marx",
+      "periodo": "1818–1883",
+      "corriente_id": "marxismo",
+      "cita": "Philosophers have only interpreted the world; the point is to change it."
+    },
+    "maslow": {
+      "nombre": "Abraham Maslow",
+      "periodo": "1908–1970",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "If all you have is a hammer, everything starts to look like a nail."
+    },
+    "mill": {
+      "nombre": "John Stuart Mill",
+      "periodo": "1806–1873",
+      "corriente_id": "utilitarismo",
+      "cita": "It is better to be Socrates dissatisfied than a fool satisfied."
+    },
+    "nagarjuna": {
+      "nombre": "Nāgārjuna",
+      "periodo": "c. 2nd c. CE",
+      "corriente_id": "filosofia-india",
+      "cita": "There is nothing that arises without depending on something else."
+    },
+    "nietzsche": {
+      "nombre": "Friedrich Nietzsche",
+      "periodo": "1844–1900",
+      "corriente_id": "existencialismo",
+      "cita": "He who has a why to live can bear almost any how."
+    },
+    "parmenides": {
+      "nombre": "Parmenides of Elea",
+      "periodo": "c. 515–450 BCE",
+      "corriente_id": "presocraticos",
+      "cita": "Thinking and being are the same."
+    },
+    "pirron": {
+      "nombre": "Pyrrho of Elis",
+      "periodo": "c. 360–270 BCE",
+      "corriente_id": "helenismo",
+      "cita": "To every argument another of equal force is opposed."
+    },
+    "pitagoras": {
+      "nombre": "Pythagoras of Samos",
+      "periodo": "c. 570–495 BCE",
+      "corriente_id": "presocraticos",
+      "cita": "All is number."
+    },
+    "platon": {
+      "nombre": "Plato",
+      "periodo": "c. 427–347 BCE",
+      "corriente_id": "clasica-griega",
+      "cita": "To them, the truth would be nothing but the shadows."
+    },
+    "rawls": {
+      "nombre": "John Rawls",
+      "periodo": "1921–2002",
+      "corriente_id": "etica-politica-contemporanea",
+      "cita": "Justice is the first virtue of social institutions."
+    },
+    "rogers": {
+      "nombre": "Carl Rogers",
+      "periodo": "1902–1987",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "The curious paradox is that when I accept myself as I am, I change."
+    },
+    "rousseau": {
+      "nombre": "Jean-Jacques Rousseau",
+      "periodo": "1712–1778",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "Man is born free, and everywhere he is in chains."
+    },
+    "russell": {
+      "nombre": "Bertrand Russell",
+      "periodo": "1872–1970",
+      "corriente_id": "analitica",
+      "cita": "The stupid are cocksure; the intelligent, full of doubt."
+    },
+    "sartre": {
+      "nombre": "Jean-Paul Sartre",
+      "periodo": "1905–1980",
+      "corriente_id": "existencialismo",
+      "cita": "Hell is other people."
+    },
+    "schopenhauer": {
+      "nombre": "Arthur Schopenhauer",
+      "periodo": "1788–1860",
+      "corriente_id": "ilustracion-idealismo",
+      "cita": "Life swings like a pendulum between pain and boredom."
+    },
+    "skinner": {
+      "nombre": "B. F. Skinner",
+      "periodo": "1904–1990",
+      "corriente_id": "psicologia-siglo-xx",
+      "cita": "The question is not whether machines think, but whether men do."
+    },
+    "socrates": {
+      "nombre": "Socrates",
+      "periodo": "470–399 BCE",
+      "corriente_id": "clasica-griega",
+      "cita": "The unexamined life is not worth living."
+    },
+    "spinoza": {
+      "nombre": "Baruch Spinoza",
+      "periodo": "1632–1677",
+      "corriente_id": "racionalismo",
+      "cita": "Not to laugh, not to weep, not to hate, but to understand."
+    },
+    "tomas-de-aquino": {
+      "nombre": "Thomas Aquinas",
+      "periodo": "1225–1274",
+      "corriente_id": "escolastica",
+      "cita": "Grace does not destroy nature, but perfects it."
+    },
+    "upanishads-vedanta": {
+      "nombre": "The Upanishads and the Vedanta tradition",
+      "periodo": "early Upanishads c. 8th–4th c. BCE; Vedanta systematisation from the 8th c. CE onwards",
+      "corriente_id": "filosofia-india",
+      "cita": "You are that."
+    },
+    "wittgenstein": {
+      "nombre": "Ludwig Wittgenstein",
+      "periodo": "1889–1951",
+      "corriente_id": "analitica",
+      "cita": "Whereof one cannot speak, thereof one must be silent."
+    },
+    "zhuangzi": {
+      "nombre": "Zhuangzi",
+      "periodo": "c. 369–286 BCE",
+      "corriente_id": "filosofia-china",
+      "cita": "Am I a man who dreamt he was a butterfly, or a butterfly dreaming?"
+    }
+  },
+  "ideas": {
+    "aceptacion-y-cambio": {
+      "titulo": "Acceptance and change",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 4
+    },
+    "alienacion": {
+      "titulo": "Alienation",
+      "corriente_id": "marxismo",
+      "orden": 1
+    },
+    "anatman": {
+      "titulo": "Anatman: not-self",
+      "corriente_id": "filosofia-india",
+      "orden": 3
+    },
+    "angustia-y-libertad": {
+      "titulo": "Anxiety as the dizziness of freedom",
+      "corriente_id": "existencialismo",
+      "orden": 1
+    },
+    "animal-politico": {
+      "titulo": "The political animal",
+      "corriente_id": "clasica-griega",
+      "orden": 4
+    },
+    "atman-y-brahman": {
+      "titulo": "Atman and brahman",
+      "corriente_id": "filosofia-india",
+      "orden": 1
+    },
+    "banalidad-del-mal": {
+      "titulo": "The banality of evil",
+      "corriente_id": "etica-politica-contemporanea",
+      "orden": 3
+    },
+    "calculo-de-la-felicidad": {
+      "titulo": "The calculus of happiness",
+      "corriente_id": "utilitarismo",
+      "orden": 1
+    },
+    "causalidad-como-habito": {
+      "titulo": "Causation as habit",
+      "corriente_id": "empirismo",
+      "orden": 4
+    },
+    "condicionamiento-operante": {
+      "titulo": "Operant conditioning",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 3
+    },
+    "condiciones-a-priori": {
+      "titulo": "The a priori conditions",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 2
+    },
+    "contrato-y-voluntad-general": {
+      "titulo": "The social contract and the general will",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 1
+    },
+    "critica-de-la-causalidad": {
+      "titulo": "The critique of causation",
+      "corriente_id": "filosofia-islamica",
+      "orden": 2
+    },
+    "dialectica-del-reconocimiento": {
+      "titulo": "The dialectic of recognition",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 4
+    },
+    "dicotomia-del-control": {
+      "titulo": "The dichotomy of control",
+      "corriente_id": "helenismo",
+      "orden": 1
+    },
+    "dos-niveles-de-lectura": {
+      "titulo": "Two levels of reading",
+      "corriente_id": "filosofia-islamica",
+      "orden": 3
+    },
+    "duda-metodica": {
+      "titulo": "Methodical doubt",
+      "corriente_id": "racionalismo",
+      "orden": 1
+    },
+    "el-mal-como-privacion": {
+      "titulo": "Evil as privation",
+      "corriente_id": "escolastica",
+      "orden": 2
+    },
+    "el-numero-como-orden": {
+      "titulo": "Number as the order of the world",
+      "corriente_id": "presocraticos",
+      "orden": 3
+    },
+    "el-tiempo-en-el-alma": {
+      "titulo": "Time exists in the soul",
+      "corriente_id": "escolastica",
+      "orden": 1
+    },
+    "esencia-y-existencia": {
+      "titulo": "Essence and existence",
+      "corriente_id": "filosofia-islamica",
+      "orden": 1
+    },
+    "eterno-retorno": {
+      "titulo": "The eternal recurrence",
+      "corriente_id": "existencialismo",
+      "orden": 3
+    },
+    "flujo-y-permanencia": {
+      "titulo": "Flux and permanence",
+      "corriente_id": "presocraticos",
+      "orden": 1
+    },
+    "genealogia-de-la-moral": {
+      "titulo": "The genealogy of morals",
+      "corriente_id": "existencialismo",
+      "orden": 2
+    },
+    "hablar-de-lo-que-no-existe": {
+      "titulo": "Talking about what does not exist",
+      "corriente_id": "analitica",
+      "orden": 1
+    },
+    "identidad-personal": {
+      "titulo": "Personal identity",
+      "corriente_id": "empirismo",
+      "orden": 2
+    },
+    "ideologia": {
+      "titulo": "Ideology",
+      "corriente_id": "marxismo",
+      "orden": 2
+    },
+    "imperativo-categorico": {
+      "titulo": "The categorical imperative",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 3
+    },
+    "imposibilidad-del-cambio": {
+      "titulo": "The impossibility of change",
+      "corriente_id": "presocraticos",
+      "orden": 2
+    },
+    "la-sombra": {
+      "titulo": "The shadow",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 2
+    },
+    "las-cuatro-verdades": {
+      "titulo": "The four truths",
+      "corriente_id": "filosofia-india",
+      "orden": 2
+    },
+    "ley-de-hume": {
+      "titulo": "From is to ought",
+      "corriente_id": "empirismo",
+      "orden": 5
+    },
+    "libertad-como-comprension": {
+      "titulo": "Freedom as understanding the causes",
+      "corriente_id": "racionalismo",
+      "orden": 3
+    },
+    "limite-del-placer": {
+      "titulo": "The limit of pleasure",
+      "corriente_id": "helenismo",
+      "orden": 2
+    },
+    "limites-del-lenguaje": {
+      "titulo": "The limits of language",
+      "corriente_id": "analitica",
+      "orden": 2
+    },
+    "lo-inconsciente": {
+      "titulo": "The unconscious",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 1
+    },
+    "mala-fe": {
+      "titulo": "Bad faith",
+      "corriente_id": "existencialismo",
+      "orden": 4
+    },
+    "materialismo-historico": {
+      "titulo": "Historical materialism",
+      "corriente_id": "marxismo",
+      "orden": 3
+    },
+    "mundo-de-las-ideas": {
+      "titulo": "The world of Forms",
+      "corriente_id": "clasica-griega",
+      "orden": 2
+    },
+    "placeres-superiores": {
+      "titulo": "Higher pleasures",
+      "corriente_id": "utilitarismo",
+      "orden": 2
+    },
+    "principio-de-diferencia": {
+      "titulo": "The difference principle",
+      "corriente_id": "etica-politica-contemporanea",
+      "orden": 2
+    },
+    "principio-del-dano": {
+      "titulo": "The harm principle",
+      "corriente_id": "utilitarismo",
+      "orden": 3
+    },
+    "problema-mente-cuerpo": {
+      "titulo": "The mind–body problem",
+      "corriente_id": "racionalismo",
+      "orden": 2
+    },
+    "razon-suficiente": {
+      "titulo": "Sufficient reason and possible worlds",
+      "corriente_id": "racionalismo",
+      "orden": 4
+    },
+    "razon-y-fe": {
+      "titulo": "Reason and faith, two paths",
+      "corriente_id": "escolastica",
+      "orden": 3
+    },
+    "relatividad-de-las-perspectivas": {
+      "titulo": "The relativity of perspectives",
+      "corriente_id": "filosofia-china",
+      "orden": 3
+    },
+    "ren-y-li": {
+      "titulo": "Ren and li: cultivating the self",
+      "corriente_id": "filosofia-china",
+      "orden": 1
+    },
+    "saber-que-no-se-sabe": {
+      "titulo": "Knowing that you do not know",
+      "corriente_id": "clasica-griega",
+      "orden": 1
+    },
+    "ser-es-ser-percibido": {
+      "titulo": "To be is to be perceived",
+      "corriente_id": "empirismo",
+      "orden": 3
+    },
+    "significado-como-uso": {
+      "titulo": "Meaning is use",
+      "corriente_id": "analitica",
+      "orden": 3
+    },
+    "suspension-del-juicio": {
+      "titulo": "The suspension of judgement",
+      "corriente_id": "helenismo",
+      "orden": 3
+    },
+    "tabula-rasa": {
+      "titulo": "The mind as a blank page",
+      "corriente_id": "empirismo",
+      "orden": 1
+    },
+    "termino-medio": {
+      "titulo": "The mean between extremes",
+      "corriente_id": "clasica-griega",
+      "orden": 3
+    },
+    "vacuidad": {
+      "titulo": "Emptiness",
+      "corriente_id": "filosofia-india",
+      "orden": 4
+    },
+    "velo-de-la-ignorancia": {
+      "titulo": "The veil of ignorance",
+      "corriente_id": "etica-politica-contemporanea",
+      "orden": 1
+    },
+    "vista-desde-arriba": {
+      "titulo": "The view from above",
+      "corriente_id": "helenismo",
+      "orden": 4
+    },
+    "voluntad-de-sentido": {
+      "titulo": "The will to meaning",
+      "corriente_id": "psicologia-siglo-xx",
+      "orden": 5
+    },
+    "voluntad-y-pesimismo": {
+      "titulo": "The will and pessimism",
+      "corriente_id": "ilustracion-idealismo",
+      "orden": 5
+    },
+    "wu-wei": {
+      "titulo": "Wu wei: the efficacy of not forcing",
+      "corriente_id": "filosofia-china",
+      "orden": 2
+    }
+  }
+}

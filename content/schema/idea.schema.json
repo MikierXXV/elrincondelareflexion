@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "idea.schema.json",
+  "title": "Ficha de idea",
+  "description": "Unidad del recorrido. El recorrido narra ideas; los autores viven en los cromos y se asoman dentro de la idea sin sacar al usuario de ella.",
+  "type": "object",
+  "required": [
+    "id",
+    "corriente_id",
+    "titulo",
+    "orden",
+    "autores",
+    "pregunta",
+    "cita",
+    "resumen",
+    "desarrollo",
+    "ejemplo_real",
+    "visualizacion"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "corriente_id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "titulo": { "type": "string" },
+    "orden": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Posición dentro de su corriente. Define la sub-navegación: avanzar a la siguiente idea o saltar a la corriente siguiente."
+    },
+    "autores": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Una idea puede tener más de un autor, y a veces de tradiciones sin contacto entre sí (la crítica de la causalidad es de Al-Ghazali y de Hume). Eso es una función del modelo, no una excepción.",
+      "items": {
+        "type": "object",
+        "required": ["id", "rol"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "rol": {
+            "type": "string",
+            "enum": ["principal", "contrapunto", "convergente", "desarrollo"],
+            "description": "principal = la formula. contrapunto = la discute. convergente = llega a algo equivalente por otra vía. desarrollo = la extiende o corrige."
+          },
+          "aporte": {
+            "type": "string",
+            "description": "Una línea: qué pone exactamente este autor en esta idea. Es lo que se muestra en la tira compacta."
+          }
+        }
+      }
+    },
+    "pregunta": {
+      "type": "string",
+      "description": "La pregunta que la idea responde, en lenguaje llano. Encabeza la parada."
+    },
+    "cita": {
+      "type": "object",
+      "required": ["texto", "obra", "atribucion", "autor_id"],
+      "additionalProperties": false,
+      "properties": {
+        "texto": { "type": "string", "maxLength": 120 },
+        "obra": { "type": "string" },
+        "autor_id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "atribucion": { "type": "string", "enum": ["directa", "tradicional", "dudosa"] },
+        "nota": { "type": "string" }
+      }
+    },
+    "resumen": {
+      "type": "string",
+      "minLength": 60,
+      "maxLength": 340,
+      "description": "La idea en 1-2 frases, lenguaje llano. Va en el bundle inicial."
+    },
+    "desarrollo": {
+      "type": "string",
+      "minLength": 400,
+      "maxLength": 1400,
+      "description": "Explicación accesible y precisa de la idea en sí, no del autor."
+    },
+    "ejemplo_real": {
+      "type": "string",
+      "minLength": 120,
+      "maxLength": 700,
+      "description": "Una situación cotidiana donde la idea se reconoce. Debe ser una SITUACIÓN, nunca una noticia, una figura pública ni una referencia de actualidad: caduca y trivializa."
+    },
+    "matiz_experto": {
+      "type": "string",
+      "description": "Opcional. Lo que la visualización simplifica, o la objeción principal. El análisis largo vive en el nivel 3 de la ficha de autor."
+    },
+    "visualizacion": { "$ref": "visualizacion.schema.json" },
+    "ideas_relacionadas": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "description": "Ideas de cualquier corriente con las que dialoga. Base de los saltos transversales entre tradiciones."
+    }
+  }
+}

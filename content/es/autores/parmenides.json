@@ -1,0 +1,37 @@
+{
+  "id": "parmenides",
+  "nombre": "Parménides de Elea",
+  "corriente_id": "presocraticos",
+  "periodo": "c. 515–450 a.C.",
+  "region": "Elea (Magna Grecia)",
+  "preguntas_filosoficas": [
+    "¿Puede la razón contradecir a los sentidos y tener razón?",
+    "¿Es pensable la nada?"
+  ],
+  "citas": [
+    {
+      "texto": "Lo mismo es pensar y ser.",
+      "obra": "Poema, fragmento DK B3",
+      "atribucion": "directa",
+      "nota": "La traducción es objeto de disputa: puede leerse como identidad entre pensamiento y realidad o, más modestamente, como que solo lo que existe puede pensarse."
+    }
+  ],
+  "nivel_1_resumen": "Llevó el razonamiento hasta una conclusión desconcertante: si la nada no puede existir, entonces el cambio es imposible y el mundo que percibimos nos engaña.",
+  "nivel_2_desarrollo": "Parménides expuso su filosofía en un poema donde una diosa le muestra dos caminos: el de lo que es y el de lo que no es. El segundo, argumenta, es intransitable, porque no se puede pensar ni decir la nada sin convertirla en algo. De ahí deduce en cadena que lo que existe no pudo surgir de la nada ni puede desaparecer en ella, no admite grados ni divisiones y, por tanto, no cambia. La consecuencia es brutal: el nacimiento, la muerte y el movimiento que percibimos serían apariencias. Su importancia no está en que convenciera a nadie, sino en que fue el primero en subordinar la evidencia de los sentidos a una cadena de deducciones, inaugurando la argumentación filosófica tal como la conocemos.",
+  "nivel_3_experto": "El poema se divide en un proemio, la 'vía de la verdad' y la 'vía de la opinión', y la relación entre las dos últimas es el gran problema interpretativo: no está claro si la cosmología de la segunda parte es una descripción del error humano, una explicación provisional del mundo aparente o una concesión didáctica. También se discute la lectura del verso clave sobre pensar y ser: la tradición lo leyó como una identidad fuerte entre pensamiento y realidad, mientras que buena parte de la erudición contemporánea prefiere entenderlo como la tesis, más modesta, de que solo lo que existe puede ser objeto de pensamiento. Otra disputa afecta a la naturaleza del 'ser' parmenídeo: si es una única entidad —monismo numérico— o una caracterización de lo que sea que exista. Su desafío obligó a los pluralistas posteriores, y sobre todo al atomismo de Demócrito, a construir una física que salvara el movimiento aceptando su premisa: el vacío como 'no-ser' que, contra Parménides, sí existe.",
+  "debate_abierto": "El estatuto de la 'vía de la opinión' y el alcance del monismo parmenídeo siguen siendo objeto de disputa académica activa.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Parmenides",
+      "url": "https://plato.stanford.edu/entries/parmenides/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Parmenides",
+      "url": "https://iep.utm.edu/parmenid/"
+    },
+    {
+      "titulo": "Kirk, Raven & Schofield, The Presocratic Philosophers, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

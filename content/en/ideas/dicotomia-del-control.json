@@ -1,0 +1,93 @@
+{
+  "id": "dicotomia-del-control",
+  "corriente_id": "helenismo",
+  "titulo": "The dichotomy of control",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "epicteto",
+      "rol": "principal",
+      "aporte": "Separates what depends on us from what does not, and locates all possible freedom there."
+    },
+    {
+      "id": "marco-aurelio",
+      "rol": "desarrollo",
+      "aporte": "Applies the distinction from a position of absolute power, in writing and in private, every day."
+    }
+  ],
+  "pregunta": "How much of what worries you actually depends on you?",
+  "cita": {
+    "texto": "It is not things that disturb us, but our opinions about things.",
+    "obra": "Enchiridion, 5",
+    "autor_id": "epicteto",
+    "atribucion": "directa"
+  },
+  "resumen": "Our opinions and decisions depend on us; the body, reputation and other people's actions do not. Almost all suffering is born of treating as our own what is not.",
+  "desarrollo": "The distinction looks obvious until it is applied in earnest. Epictetus, born a slave, holds that the judgement we make about what happens is in our power, and that this is where the disturbance is produced: it is not the fact that upsets us but the evaluation we add to it. That is why the same piece of news devastates one person and not another. What he proposes is not indifference but a correct allocation of effort: spend your energy on what can be moved, and stop demanding from the world guarantees it does not give. His favourite image is the actor assigned a part: they do not choose which, only how to play it. The gain is double, because those who stop fighting the inevitable usually act better on what they can actually change.",
+  "ejemplo_real": "A cancelled flight. Whether it is cancelled does not depend on you, nor does the queue at the desk, nor the mood of the person behind it. What does depend on you is how you tell it, what you do with the hours, and whether you treat the person next to you as an obstacle or as someone in the same position. Most people spend the whole afternoon on the first list.",
+  "matiz_experto": "The persistent objection is political: that 'inner freedom' works as resignation and disarms social criticism, by relocating into the subject's judgement a problem that is sometimes structural.",
+  "visualizacion": {
+    "id": "vis-control-epicteto",
+    "idea_id": "dicotomia-del-control",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user tries to fit each item into the circle of what is up to them. Those that are not are pushed back out with resistance, and every attempt to force them raises a wear gauge that does not fall. Sorting correctly costs nothing; pushing what does not fit is the only thing that consumes anything.",
+    "invitacion": "Try to fit each thing inside your circle",
+    "alternativa_textual": "A circle that holds only the elements that depend on oneself, and that pushes out with resistance those that do not: it shows that the strain comes from trying to control what is beyond our reach.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "clasificar",
+    "parametros": {
+      "corrienteId": "helenismo",
+      "regiones": [
+        "up to you",
+        "not up to you"
+      ],
+      "elementos": [
+        {
+          "nombre": "Your judgement about what happened",
+          "region": 0,
+          "motivo": "The judgement is yours, and that is where the disturbance is produced."
+        },
+        {
+          "nombre": "How you respond",
+          "region": 0,
+          "motivo": "You do not choose the part you are given, only how you play it."
+        },
+        {
+          "nombre": "The flight being cancelled",
+          "region": 1,
+          "motivo": "Neither the cancellation nor the queue depends on you. Fighting that costs you the whole afternoon."
+        },
+        {
+          "nombre": "What someone thinks of you",
+          "region": 1,
+          "motivo": "It is their judgement, not yours. Treating it as your own is the source of the strain."
+        },
+        {
+          "nombre": "Your reputation",
+          "region": 1,
+          "motivo": "It lives in other people's heads. You can influence it, not dispose of it."
+        }
+      ],
+      "rechazo": {
+        "region": 0,
+        "medidor": "Wear",
+        "avisoMedidor": "All this wear came from pushing in things that never fitted."
+      },
+      "resolucion": "Almost all suffering is born of treating as your own what is not. And those who stop fighting the inevitable usually act better on what they can change.",
+      "alternativaTexto": "A circle that holds only the elements that depend on oneself, and that pushes out with resistance those that do not: it shows that the strain comes from trying to control what is beyond our reach.",
+      "ponerEn": "Put in “{region}”",
+      "etiqueta": "The dichotomy of control",
+      "restantesTexto": "{n} left to sort"
+    }
+  },
+  "ideas_relacionadas": [
+    "vista-desde-arriba",
+    "libertad-como-comprension",
+    "voluntad-de-sentido",
+    "aceptacion-y-cambio"
+  ]
+}

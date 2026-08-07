@@ -1,0 +1,36 @@
+{
+  "id": "berkeley",
+  "nombre": "George Berkeley",
+  "corriente_id": "empirismo",
+  "periodo": "1685–1753",
+  "region": "Ireland",
+  "preguntas_filosoficas": [
+    "Does it make sense to speak of matter nobody perceives?",
+    "Is empiricism coherent all the way down?"
+  ],
+  "citas": [
+    {
+      "texto": "To be is to be perceived.",
+      "obra": "A Treatise Concerning the Principles of Human Knowledge, 3",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He took empiricism to its strangest conclusion: if everything we know are perceptions, talking about matter that exists without being perceived by anyone is talking about something we have no idea of.",
+  "nivel_2_desarrollo": "Berkeley accepts Locke's starting point and points out an incoherence in it: if we only have access to our own ideas, where does the belief in a material substance sitting behind them come from, one nobody can by definition perceive? His conclusion is that to exist, for sensible things, is to be perceived. That does not mean the world is a private hallucination: perceptions have order and regularity and do not depend on our will — I cannot stop seeing the tree by closing and opening my eyes — and that constancy is explained, in his system, by their coming from God. The gain he claims is twofold: it removes an assumption nobody can verify, and it closes the door to scepticism, because there is no longer a gap between appearances and a reality hidden behind them.",
+  "nivel_3_experto": "Berkeleyan immaterialism is more resilient than the caricature suggests; his 'inconceivability' argument — that trying to conceive an unperceived object presupposes a conceiver — has been the object of continued technical analysis, and the strongest criticisms hold that it confuses the act of conceiving with its content. His critique of abstract ideas, aimed at Locke, is a self-standing philosophical piece that Hume would adopt and that resonates in the later Wittgenstein. Disputes persist over the status of objects perceived by no finite subject — whether they depend on divine perception or on archetypal ideas — over whether his position is a phenomenalist or a realist idealism, and over the coherence of admitting spirits as substances once material substance has been eliminated, a tension Hume would resolve by removing the substantial self too. His Essay Towards a New Theory of Vision, with the thesis that distance is not seen but learned by associating visual and tactile data, had a lasting impact on the psychology of perception and connects directly with Molyneux's problem.",
+  "debate_abierto": "Whether Berkeley's system is phenomenalist or realist, and whether his treatment of spirits is coherent with the removal of matter, are open interpretive questions.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — George Berkeley",
+      "url": "https://plato.stanford.edu/entries/berkeley/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — George Berkeley: British Empiricist",
+      "url": "https://iep.utm.edu/george-berkeley-british-empiricist/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Molyneux's Problem",
+      "url": "https://plato.stanford.edu/entries/molyneux-problem/"
+    }
+  ]
+}

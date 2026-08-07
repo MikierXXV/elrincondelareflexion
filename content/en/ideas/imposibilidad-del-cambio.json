@@ -1,0 +1,80 @@
+{
+  "id": "imposibilidad-del-cambio",
+  "corriente_id": "presocraticos",
+  "titulo": "The impossibility of change",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "parmenides",
+      "rol": "principal",
+      "aporte": "Deduces that if nothingness cannot exist, then change and plurality are impossible."
+    }
+  ],
+  "pregunta": "Can an argument lead you to deny what you see with your own eyes?",
+  "cita": {
+    "texto": "What is, is ungenerated and imperishable.",
+    "obra": "Poem, fragment DK B8",
+    "autor_id": "parmenides",
+    "atribucion": "directa"
+  },
+  "resumen": "If nothingness can neither exist nor be thought, then nothing can arise from it or vanish into it. The conclusion is uncomfortable: the change we perceive would be an appearance.",
+  "desarrollo": "The argument is a short, tightly packed chain. For something to begin to exist it would have to come from what is not; but what is not cannot even be thought without turning it into something. So nothing begins to exist. For the same reason nothing vanishes, nothing divides — that would need a gap of non-being between the parts — and nothing moves, because motion requires a void to move into. What matters is not whether Parmenides is right, but what he does: it is the first time anyone grants more authority to a deduction than to the evidence of the senses. From then on, saying 'but I can see it' stops being a sufficient reply, and whoever wants to rescue motion will have to refute the argument rather than point at the world. All later Greek physics, atomism included, is born of that predicament.",
+  "ejemplo_real": "It is what happens when someone walks you step by step to a conclusion you know is false, and you cannot find the flaw. Visual paradoxes work the other way round: you know the two lines are the same length because you have measured them, and you still see them as different. At some point you have to decide whom you trust, the ruler or the eye.",
+  "matiz_experto": "The relation between the 'way of truth' and the 'way of opinion' in his poem remains unsettled: it is not clear whether the cosmology of the second part describes human error, a provisional explanation, or a concession made for teaching.",
+  "visualizacion": {
+    "id": "vis-esfera-parmenides",
+    "idea_id": "imposibilidad-del-cambio",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The chain of deduction is in view from the start, step by step. The user picks an attempt — divide what is, make it begin, move it — and on applying the deduction the attempt runs along the chain and halts at the exact step that prevents it, which stays marked while everything beyond it fades away unvisited. The impossibility is experienced before it is read.",
+    "invitacion": "Try to change something and follow the deduction",
+    "alternativa_textual": "A sphere that refuses every attempt to divide, move or hollow it, and that answers each attempt with the step of the argument that prevents it: it shows how a chain of deduction can block conclusions that experience takes as obvious.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "presocraticos",
+      "peticion": "Try something on what is",
+      "nombrePrueba": "Apply the deduction",
+      "aplicadaTexto": "Deduction applied",
+      "pasos": {
+        "lista": [
+          "Nothingness cannot be thought",
+          "Nothing begins to exist",
+          "Nothing divides",
+          "Nothing moves"
+        ],
+        "marca": "It halts here"
+      },
+      "candidatos": [
+        {
+          "texto": "Divide it into parts",
+          "sobrevive": false,
+          "bloqueaEn": 2,
+          "veredicto": "To divide it you would need a gap; a gap would be nothing; nothing is not. Blocked."
+        },
+        {
+          "texto": "Make it begin to exist",
+          "sobrevive": false,
+          "bloqueaEn": 1,
+          "veredicto": "It would have to come from what is not, and what is not cannot even be thought without turning it into something."
+        },
+        {
+          "texto": "Move it",
+          "sobrevive": false,
+          "bloqueaEn": 3,
+          "veredicto": "Motion requires a void to move into, and the void would be non-being."
+        }
+      ],
+      "resolucion": "It is not that Parmenides convinced anyone: it is that he was the first to give a deduction more authority than the senses. Saying «but I can see it» stops being a reply.",
+      "alternativaTexto": "A sphere that refuses every attempt to divide, move or hollow it, and that answers each attempt with the step of the argument that prevents it: it shows how a chain of deduction can block conclusions that experience takes as obvious.",
+      "etiqueta": "The impossibility of change"
+    }
+  },
+  "ideas_relacionadas": [
+    "flujo-y-permanencia",
+    "duda-metodica"
+  ]
+}

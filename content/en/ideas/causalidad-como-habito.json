@@ -1,0 +1,62 @@
+{
+  "id": "causalidad-como-habito",
+  "corriente_id": "empirismo",
+  "titulo": "Causation as habit",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "hume",
+      "rol": "principal",
+      "aporte": "Shows that we never observe the causal connection, only repeated succession, and that the link is supplied by custom."
+    },
+    {
+      "id": "al-ghazali",
+      "rol": "convergente",
+      "aporte": "Reaches the same analysis seven centuries earlier, and draws the opposite conclusion: the regularity comes from divine will."
+    }
+  ],
+  "pregunta": "Have you ever seen a cause, or only one thing after another?",
+  "cita": {
+    "texto": "Reason is, and ought only to be, the slave of the passions.",
+    "obra": "A Treatise of Human Nature II, 3, 3",
+    "autor_id": "hume",
+    "atribucion": "directa"
+  },
+  "resumen": "We see the ball strike and the other one move, but we do not see the 'because'. What there is is contiguity, succession and repetition; the necessary link is added by our custom.",
+  "desarrollo": "Hume applies his own rule: for each idea, which impression does it come from? With causation he cannot find one. However much we magnify the moment of impact, all that appears is contact and motion; necessity is nowhere to be seen. What happens is that after many repetitions the mind acquires the habit of expecting the second event on seeing the first, and that expectation is projected onto the world as though it were a property of it. From this comes the problem of induction: trusting that the future will resemble the past has no rational justification, because any argument for it already presupposes that regularity. What is striking is that al-Ghazali had made the same analysis in the eleventh century with fire and cotton, neither knowing of the other, in order to conclude something very different.",
+  "ejemplo_real": "You flip the switch and the light comes on. You have done it thousands of times and you expect it to happen. But what you have always observed is a sequence, never the link: the day it does not come on, you do not discover that causation failed, you discover there was a cable, a fuse and an electricity company you had never seen, and that they were part of the sequence too.",
+  "matiz_experto": "The so-called 'New Hume' debate asks whether he denies the existence of objective causal connections or only our capacity to know them, which would make him a sceptical realist. The problem of induction he posed remains an active core of epistemology.",
+  "visualizacion": {
+    "id": "vis-causalidad-hume",
+    "idea_id": "causalidad-como-habito",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Two balls collide as many times as the user likes, and an expectation counter rises with each repetition. At any moment they can press 'find the connection': the scene freezes and magnifies the point of contact to the maximum, where there are only two contiguous events and no visible link. The expectation is in the counter, not in the scene.",
+    "invitacion": "Repeat the collision, then look for the connection",
+    "alternativa_textual": "A repeated collision whose point of contact, magnified to the maximum, contains no observable connection, while an expectation counter rises with each repetition: it shows that causal necessity is supplied by habit and not by observation.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "repeticion",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "accion": "Roll the ball",
+      "consecuencia": "The other one moves",
+      "examinar": "Magnify the instant of impact",
+      "hallazgo": "Contact and motion. No connection.",
+      "resolucion": "However many times it happens, necessity does not appear in the scene: it is in your counter.",
+      "alternativaTexto": "A repeated collision whose point of contact, magnified to the maximum, contains no observable connection, while an expectation counter rises with each repetition: it shows that causal necessity is supplied by habit and not by observation.",
+      "sinOcurrir": "It has not happened yet",
+      "recuentoUno": "It has happened {veces} time · expectation {expectativa}%",
+      "recuentoVarios": "It has happened {veces} times · expectation {expectativa}%",
+      "etiqueta": "Causation as habit"
+    }
+  },
+  "ideas_relacionadas": [
+    "critica-de-la-causalidad",
+    "ley-de-hume",
+    "condiciones-a-priori",
+    "condicionamiento-operante"
+  ]
+}

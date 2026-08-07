@@ -1,0 +1,36 @@
+{
+  "id": "descartes",
+  "nombre": "René Descartes",
+  "corriente_id": "racionalismo",
+  "periodo": "1596–1650",
+  "region": "France, the Dutch Republic",
+  "preguntas_filosoficas": [
+    "Is there anything it is impossible to doubt?",
+    "How are mind and body related?"
+  ],
+  "citas": [
+    {
+      "texto": "I think, therefore I am.",
+      "obra": "Discourse on the Method, IV",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He decided to doubt absolutely everything to see whether anything held, and found a single firm point: while I doubt, someone is doing the doubting.",
+  "nivel_2_desarrollo": "Descartes takes doubt to the extreme deliberately and methodically. First he discards the senses, which sometimes deceive; then perception as a whole, because nothing tells waking from dreaming with certainty; and finally even mathematics, by imagining an evil genius capable of making him err in every sum. At that point one thing remains: even if everything is false, to be deceived I must exist. 'I think, therefore I am' is not a piece of reasoning about the world but the minimal certainty from which to rebuild it. From there he concludes that what we essentially are is a thinking thing, distinct from the extended body. That separation opens the problem we have dragged along ever since: if mind and body are distinct substances, how can they possibly interact?",
+  "nivel_3_experto": "The cogito raises a classic structural problem: if it is an inference it needs a universal premise that doubt would already have suspended; if it is an immediate intuition, one must explain what licenses the move from thinking to a substantial subject — the objection Lichtenberg, Hume and later Nietzsche would press. The reconstruction of knowledge moreover depends on divine veracity, exposing Descartes to the 'Cartesian circle' already denounced by Arnauld: clear and distinct ideas guarantee God's existence and God guarantees clear and distinct ideas. His substance dualism received its sharpest objection from Elisabeth of Bohemia, who asked how something unextended can move a body; the pineal gland answer is by broad consensus considered inadequate. The Cartesian programme also has an ongoing historical reading: his mechanist physiology, his thesis of animals as automata and his mathematisation of nature were as influential as the metaphysics. Much twentieth-century philosophy of mind defines itself by explicit opposition to his framework, from Ryle to functionalism.",
+  "debate_abierto": "The logical status of the cogito and the charge of circularity still generate literature; mind–body 'interaction' is regarded as a problem left unsolved by dualism rather than a live thesis.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — René Descartes",
+      "url": "https://plato.stanford.edu/entries/descartes/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Descartes' Epistemology",
+      "url": "https://plato.stanford.edu/entries/descartes-epistemology/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — René Descartes",
+      "url": "https://iep.utm.edu/rene-descartes/"
+    }
+  ]
+}

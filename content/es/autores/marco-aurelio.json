@@ -1,0 +1,36 @@
+{
+  "id": "marco-aurelio",
+  "nombre": "Marco Aurelio",
+  "corriente_id": "helenismo",
+  "periodo": "121–180 d.C.",
+  "region": "Roma",
+  "preguntas_filosoficas": [
+    "¿Cómo se conserva el criterio moral con poder absoluto?",
+    "¿Qué cambia si te tomas en serio que vas a morir?"
+  ],
+  "citas": [
+    {
+      "texto": "Muy pronto lo habrás olvidado todo; muy pronto todos te habrán olvidado.",
+      "obra": "Meditaciones VII, 21",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Emperador de Roma y estoico, escribió para sí mismo un cuaderno de ejercicios morales que no pensaba publicar: recordatorios diarios para no dejarse corromper por el poder ni arrastrar por la ira.",
+  "nivel_2_desarrollo": "Las Meditaciones no son un tratado sino un diario de trabajo, escrito en campaña militar y sin lector previsto. Por eso repite: cada anotación es un ejercicio que hay que rehacer. Sus temas vuelven una y otra vez sobre lo mismo: la brevedad de la vida, la insignificancia de la fama, la obligación de actuar por el bien común y la necesidad de examinar el propio juicio antes de reaccionar. Practica sistemáticamente la 'vista desde arriba', imaginar los propios asuntos desde una distancia cósmica hasta que recuperan su tamaño real, y el recordatorio de la mortalidad como corrector de prioridades. La tensión que atraviesa el libro es la de alguien con poder ilimitado que se impone límites por escrito, en privado, todos los días.",
+  "nivel_3_experto": "Las Meditaciones plantean un problema de género literario: se acercan a los hypomnemata, cuadernos de ejercicio espiritual, y Pierre Hadot los usó como caso central de su tesis de que la filosofía antigua era ante todo un conjunto de prácticas y no un sistema doctrinal. Su estoicismo es más tardío y menos técnico que el de la Estoa antigua; se discute cuánta física estoica sostiene aún sus recomendaciones, sobre todo por la fórmula recurrente en que contrapone un cosmos providencial a la hipótesis atomista, sin decidirse de forma definitiva y argumentando que su conducta debería ser la misma en ambos casos. Existe también una lectura crítica de su figura: la distancia entre el moralista privado y el emperador que sostuvo persecuciones y guerras es un problema historiográfico real, y ha alimentado la sospecha de que el estoicismo funcione como higiene interior compatible con la dominación. Su recepción actual, en la ola del 'estoicismo moderno' de autoayuda, tiende a extraer los ejercicios desligados de su marco cosmológico y ético, lo que muchos especialistas consideran una simplificación.",
+  "debate_abierto": "La relación entre el estoicismo privado de las Meditaciones y la práctica política del emperador, y el grado en que su ética depende de una cosmología providencial, siguen discutiéndose.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Marcus Aurelius",
+      "url": "https://plato.stanford.edu/entries/marcus-aurelius/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Stoicism",
+      "url": "https://iep.utm.edu/stoicism/"
+    },
+    {
+      "titulo": "Hadot, La ciudadela interior / Ejercicios espirituales y filosofía antigua",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "principio-de-diferencia",
+  "corriente_id": "etica-politica-contemporanea",
+  "titulo": "El principio de diferencia",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "rawls",
+      "rol": "principal",
+      "aporte": "Fija cuándo una desigualdad es aceptable: solo si mejora la situación de quienes están peor."
+    }
+  ],
+  "pregunta": "¿Puede ser justa una sociedad desigual?",
+  "cita": {
+    "texto": "Las desigualdades han de beneficiar a los miembros menos aventajados.",
+    "obra": "Teoría de la justicia, §13",
+    "autor_id": "rawls",
+    "atribucion": "directa"
+  },
+  "resumen": "No prohíbe que unos ganen más. Condiciona esa ganancia a dos cosas: que haya igualdad efectiva de oportunidades y que el resultado mejore la situación de los que están peor.",
+  "desarrollo": "El principio parte de una constatación: los talentos con los que nacemos no son mérito nuestro. Nadie eligió su capacidad de cálculo, su salud o la familia que le enseñó a hablar de cierta manera. Si nada de eso está merecido, tampoco lo están automáticamente las recompensas que se derivan. Pero Rawls no concluye que todo deba repartirse por igual, porque cierta desigualdad genera incentivos que acaban produciendo más para todos. Su criterio es que la desigualdad tiene que pagar por sí misma: se acepta si, comparada con un reparto más igualitario, deja mejor a los que están abajo. La clave es contra qué se mide. No contra el promedio, que puede subir mientras el suelo baja, sino contra la posición del peor situado, que funciona como termómetro de todo el sistema.",
+  "ejemplo_real": "Pagar más a los médicos que aceptan ir a un pueblo aislado crea una desigualdad salarial evidente. Y sin embargo quien sale ganando es la gente de ese pueblo, que antes no tenía consulta. Ese es el tipo de desigualdad que el principio admite, y sirve para distinguirla de las que solo suben el promedio de un país sin tocar el suelo.",
+  "matiz_experto": "Nozick lo atacó desde el libertarismo: un patrón distributivo solo se mantiene interfiriendo continuamente en transacciones voluntarias. Sen y Nussbaum desplazaron el foco de los bienes primarios a las capacidades reales de las personas, que es hoy la alternativa más influyente.",
+  "visualizacion": {
+    "id": "vis-diferencia-rawls",
+    "idea_id": "principio-de-diferencia",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario ajusta el nivel de desigualdad de una sociedad y ve simultáneamente tres indicadores: el promedio, el total y la posición del peor situado. Descubre que el promedio y el total pueden subir mientras el suelo baja, y que solo los repartos que elevan la última barra pasan el criterio. Un modo comparativo enfrenta dos repartos completos.",
+    "invitacion": "Ajusta la desigualdad y vigila al peor situado",
+    "alternativa_textual": "Tres indicadores simultáneos de una sociedad —promedio, total y posición del peor situado— que pueden moverse en direcciones opuestas al variar la desigualdad: demuestra por qué el criterio de Rawls se mide contra el suelo y no contra la media.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "recipientes",
+    "parametros": {
+      "corrienteId": "etica-politica-contemporanea",
+      "unidad": "recursos",
+      "recipientes": [
+        {
+          "nombre": "posición alta",
+          "capacidad": 12,
+          "nota": "Puede subir mucho, pero el criterio no se mide aquí."
+        },
+        {
+          "nombre": "posición media",
+          "capacidad": 9,
+          "nota": "Tampoco es el termómetro: la media engaña."
+        },
+        {
+          "nombre": "peor situado",
+          "capacidad": 6,
+          "nota": "Este es el indicador. Una desigualdad solo se acepta si esta barra sube."
+        }
+      ],
+      "indicadores": [
+        "total",
+        "media",
+        "suelo"
+      ],
+      "resolucion": "La desigualdad tiene que pagar por sí misma: se acepta si deja mejor a quien está abajo, no si sube el promedio.",
+      "alternativaTexto": "Tres indicadores simultáneos de una sociedad —promedio, total y posición del peor situado— que pueden moverse en direcciones opuestas al variar la desigualdad: demuestra por qué el criterio de Rawls se mide contra el suelo y no contra la media.",
+      "vaciar": "Vaciar y empezar de nuevo",
+      "etiqueta": "El principio de diferencia",
+      "etiquetaZona": "Añadir a {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "velo-de-la-ignorancia",
+    "calculo-de-la-felicidad",
+    "principio-del-dano",
+    "materialismo-historico"
+  ]
+}

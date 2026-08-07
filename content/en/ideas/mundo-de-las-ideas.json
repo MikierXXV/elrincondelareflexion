@@ -1,0 +1,54 @@
+{
+  "id": "mundo-de-las-ideas",
+  "corriente_id": "clasica-griega",
+  "titulo": "The world of Forms",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "platon",
+      "rol": "principal",
+      "aporte": "Distinguishes between sensible, changing things and the stable Forms they participate in."
+    }
+  ],
+  "pregunta": "What you perceive — is it reality, or only its shadow?",
+  "cita": {
+    "texto": "To them, the truth would be nothing but the shadows.",
+    "obra": "Republic VII, 515c",
+    "autor_id": "platon",
+    "atribucion": "directa"
+  },
+  "resumen": "Concrete objects change and are imperfect, yet when we talk about 'a circle' or 'justice' we mean something that does not vary. Plato concludes that those stable realities exist, and that what we see are copies of them.",
+  "desarrollo": "No drawn circle is perfectly circular, and yet we understand what a circle is better than any drawing of one. The same holds for justice: we recognise acts as more or less just because we measure them against something that coincides with none of them. Plato answers that Forms exist — unchanging patterns that things participate in — and that to know is to move from the copy to the pattern. The allegory of the cave turns this into an image: prisoners chained since birth see only shadows cast on a wall and take them for the whole of reality. Whoever manages to turn round and leave discovers the objects and the light that made them visible; on returning to report it, they are not believed and find the whole thing unbearable. The allegory is at once epistemological and political: it explains the degrees of knowledge and why someone who asks too many questions is a nuisance to the city.",
+  "ejemplo_real": "It is what happens when you know someone only through what they post. You are not seeing that person: you are seeing a projection they control, cropped and framed. And if one day you deal with them for real, the first reaction is usually not curiosity but discomfort, because it contradicts the image you had been dealing with all along.",
+  "matiz_experto": "Plato himself puts the theory under attack in the Parmenides, where the 'third man argument' threatens an infinite regress. And reading the Republic as a literal political programme sits badly with its dialogue form, in which he never speaks in the first person.",
+  "visualizacion": {
+    "id": "vis-caverna-platon",
+    "idea_id": "mundo-de-las-ideas",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "The relation between the light source, the object intercepting it and the shadow cast on the wall is the content of the idea, not an illustration of it. In 2D the correct shadow would have to be drawn in advance; in 3D the shadow produces itself, and by turning the camera the user discovers that what they took for real was a projection.",
+    "descripcion_interaccion": "A first-person scene from inside the cave: at first only shapes moving on the wall are visible. The user can move the light source and see how they change, and on turning the camera discovers that there were objects and a fire behind them. A second gesture allows them to leave; outside, the light dazzles and the scene takes a few seconds to become legible.",
+    "invitacion": "Move the light, then turn around and look",
+    "alternativa_textual": "A three-dimensional scene in which what looked like objects turn out to be shadows cast by a light behind the observer, and in which stepping outside requires time to adjust: it shows that a representation can be taken for the whole of reality as long as you do not change position.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "The inside of a cave with shadows cast on the wall",
+      "moverLuz": "Move the light source",
+      "girar": "Turn round and look behind you",
+      "volver": "Face the wall again",
+      "resolucionLuz": "The shadows change shape and size. Nothing you can see has moved.",
+      "resolucionGiro": "What you took for objects were shadows. The objects were behind you, and so was the light.",
+      "resolucionEstatica": "The shadows on the wall were not objects: they were projections of something behind you.",
+      "alternativaTexto": "A three-dimensional scene in which what looked like objects turn out to be shadows cast by a light behind the observer, and in which stepping outside requires time to adjust: it shows that a representation can be taken for the whole of reality as long as you do not change position."
+    }
+  },
+  "ideas_relacionadas": [
+    "saber-que-no-se-sabe",
+    "el-numero-como-orden",
+    "condiciones-a-priori",
+    "ser-es-ser-percibido"
+  ]
+}

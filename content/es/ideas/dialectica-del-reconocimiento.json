@@ -1,0 +1,97 @@
+{
+  "id": "dialectica-del-reconocimiento",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "La dialéctica del reconocimiento",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "hegel",
+      "rol": "principal",
+      "aporte": "Muestra que la conciencia de uno mismo se construye en la relación con otro, no en solitario."
+    }
+  ],
+  "pregunta": "¿Puedes saber quién eres sin que nadie te lo reconozca?",
+  "cita": {
+    "texto": "El búho de Minerva emprende su vuelo al caer el crepúsculo.",
+    "obra": "Filosofía del derecho, prefacio",
+    "autor_id": "hegel",
+    "atribucion": "directa"
+  },
+  "resumen": "Dos conciencias se enfrentan buscando ser reconocidas y una somete a la otra. Pero el vencedor queda atrapado: solo recibe reconocimiento de alguien a quien ha degradado, y eso no vale.",
+  "desarrollo": "El pasaje del amo y el esclavo es el más leído de Hegel, y funciona como una demostración por reducción al absurdo. Si la identidad necesita el reconocimiento de otro, la salida aparentemente más eficaz es obligar a otro a reconocerte. El amo lo consigue: somete y es reconocido. Pero descubre que el reconocimiento de alguien a quien ha reducido a instrumento no vale nada, porque lo que buscaba era ser reconocido por un igual. Mientras tanto ocurre algo inesperado del otro lado: el sometido, obligado a trabajar, transforma el mundo con sus manos, ve su propia huella en los objetos que produce y gana así una conciencia de sí que el amo, que solo consume, no tiene. La conclusión general es que la identidad no se produce en solitario ni se arranca por la fuerza: se construye en relaciones que solo funcionan si son recíprocas.",
+  "ejemplo_real": "Un jefe que impone respeto por miedo consigue exactamente lo que pidió y nada de lo que quería: elogios que no puede creerse, porque sabe que nadie está en condiciones de decirle otra cosa. Acaba dependiendo del juicio de gente cuyo juicio él mismo ha anulado, que es la trampa que describe el pasaje.",
+  "matiz_experto": "El esquema 'tesis-antítesis-síntesis' con que se resume a Hegel no es suyo, procede de Fichte vía Chalybäus. Y sigue abierta la gran divisoria interpretativa entre leer el Espíritu como sujeto cósmico o como una teoría de la normatividad social.",
+  "visualizacion": {
+    "id": "vis-reconocimiento-hegel",
+    "idea_id": "dialectica-del-reconocimiento",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Dos medidores parten iguales porque el reconocimiento era mutuo. El usuario impone una a una las condiciones del sometimiento y ve que no mueven a los dos por igual: el del dominador se estanca y baja, porque un reconocimiento arrancado por la fuerza no vale como reconocimiento, mientras el del sometido crece al formarse en el trabajo, hasta cruzarse.",
+    "invitacion": "Impón el sometimiento y vigila los dos medidores",
+    "alternativa_textual": "Dos medidores de identidad que dependen del reconocimiento mutuo y en los que someter al otro estanca el del dominador mientras el sometido crece a través del trabajo: demuestra que el reconocimiento forzado no cumple la función que se le pide.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "ilustracion-idealismo",
+      "modo": "medidores",
+      "figuraA": "quien somete",
+      "figuraB": "quien es sometido",
+      "medidores": [
+        "lo que su identidad recibe",
+        "lo que su identidad recibe"
+      ],
+      "condicionesMedidor": [
+        {
+          "nombre": "Obligarle a reconocerte",
+          "deltaA": -0.05,
+          "deltaB": -0.1,
+          "efecto": "Lo consigues. Y en el mismo acto el reconocimiento deja de valer: viene de alguien a quien has quitado la condición de juzgar."
+        },
+        {
+          "nombre": "Reducirle a instrumento",
+          "deltaA": 0,
+          "deltaB": -0.05,
+          "efecto": "Ahora es un medio. Un medio no reconoce a nadie, así que ya no hay de quién recibirlo."
+        },
+        {
+          "nombre": "Hacerle trabajar tus cosas",
+          "deltaA": -0.15,
+          "deltaB": 0.35,
+          "efecto": "Al dar forma a la materia se reconoce a sí mismo en lo que ha hecho. Tú solo consumes lo que llega ya hecho."
+        },
+        {
+          "nombre": "Vivir de lo que él produce",
+          "deltaA": -0.2,
+          "deltaB": 0.25,
+          "efecto": "Dependes de él para todo, y él ha aprendido a hacerlo todo. La dependencia ha cambiado de lado sin que nadie la moviera."
+        }
+      ],
+      "reversion": "El medidor del sometido ha superado al del dominador, y lo ha hecho sin ningún golpe: lo has producido tú imponiendo cada condición.",
+      "condiciones": [
+        {
+          "nombre": "obligarle a reconocerte",
+          "efecto": "Lo consigues, y el reconocimiento pierde valor en el mismo acto.",
+          "peso": 0.4
+        },
+        {
+          "nombre": "reducirle a instrumento",
+          "efecto": "Querías que te reconociera un igual, y acabas de dejar de tener uno.",
+          "peso": 0.4
+        }
+      ],
+      "coste": "reconocimiento que ya no vale",
+      "etiqueta": "La dialéctica del reconocimiento",
+      "resolucion": "El reconocimiento forzado no cumple la función que se le pide, porque exige que quien lo da tenga la condición que se le acaba de quitar. Quien somete se queda sin nadie de quien recibirlo; quien es sometido se forma en la tarea que le impusieron.",
+      "alternativaTexto": "Dos medidores de identidad que dependen del reconocimiento mutuo y en los que someter al otro estanca el del dominador mientras el sometido crece a través del trabajo: demuestra que el reconocimiento forzado no cumple la función que se le pide."
+    }
+  },
+  "ideas_relacionadas": [
+    "animal-politico",
+    "alienacion",
+    "la-sombra",
+    "aceptacion-y-cambio"
+  ]
+}

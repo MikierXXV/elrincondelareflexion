@@ -1,0 +1,162 @@
+/*
+ * El Rincón de la Reflexión — tokens del sistema de diseño.
+ * Refleja design/tokens.json. Los acentos de corriente se inyectan desde corrientes.json
+ * en build, porque son contenido y no diseño.
+ *
+ * Contraste verificado con `node scripts/check-contraste.mjs` (44/44 en AA, ambos temas).
+ */
+
+:root {
+  /* ---- tipografía ---- */
+  --fuente-titulo: "Newsreader", ui-serif, Georgia, serif;
+  --fuente-texto: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --peso-regular: 400;
+  --peso-medio: 500;
+  --peso-semibold: 600;
+
+  --t-micro: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);
+  --t-pequeno: clamp(0.875rem, 0.85rem + 0.12vw, 0.9375rem);
+  --t-base: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --t-medio: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --t-grande: clamp(1.75rem, 1.5rem + 1.2vw, 2.5rem);
+  --t-titulo: clamp(2.25rem, 1.7rem + 2.7vw, 4rem);
+  /* El máximo bajó de 5.5rem a 4rem: a 1080p el titular ocupaba ~550 px y empujaba los botones de
+     entrada fuera del primer pliegue, de modo que la portada no dejaba ver de qué va el sitio. */
+  --t-hero: clamp(2.5rem, 1.6rem + 3.2vw, 4rem);
+
+  --medida-texto: 68ch;
+  /* Medida corta para titulares y citas. Antes era 34ch, menos de la mitad de la columna, y las
+     frases quedaban estranguladas muy lejos del borde de la visualización. */
+  --medida-corta: min(100%, 46ch);
+  --il-apretado: 1.15;
+  --il-titulo: 1.2;
+  --il-texto: 1.65;
+
+  /* ---- espaciado ---- */
+  --e1: 0.25rem;  --e2: 0.5rem;   --e3: 0.75rem;  --e4: 1rem;
+  --e6: 1.5rem;   --e8: 2rem;     --e12: 3rem;    --e16: 4rem;
+  --e24: 6rem;    --e32: 8rem;
+
+  /* ---- movimiento ---- */
+  --m-instantaneo: 120ms;
+  --m-rapido: 220ms;
+  --m-medio: 400ms;
+  --m-lento: 700ms;
+  --m-trazo: 900ms;
+  --curva-entrada: cubic-bezier(0.16, 1, 0.3, 1);
+  --curva-salida: cubic-bezier(0.4, 0, 1, 1);
+  --curva-suave: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---- visualizaciones ---- */
+  /*
+   * CON UNIDADES. Se declaraban como números sueltos —`3` en vez de `3px`— y eso hacía inválidas
+   * todas las declaraciones que los usan, porque las cuatro piden una longitud: un `border-left: 3
+   * solid X` no es un borde fino, es una regla que el navegador descarta entera.
+   *
+   * Estuvo así desde el principio y en silencio, que es lo propio del CSS inválido: no avisa, no
+   * aparece en la consola, simplemente no se dibuja. El filete de la cita —el que marca la frase
+   * célebre en las cincuenta y nueve ideas— nunca llegó a existir, ni el del estado de resolución, ni
+   * el de «en disputa» de la ficha de autor. Se descubrió al añadir un cuarto uso y ver que tampoco
+   * salía.
+   *
+   * El número suelto tenía sentido para `stroke-width` de SVG, donde se admite sin unidad; pero eso
+   * lo pinta el código con la constante `TRAZO` de `lenguaje.ts`, y estos tokens no se usan ahí.
+   */
+  --trazo-fino: 1px;
+  --trazo-base: 1.5px;
+  --trazo-enfasis: 3px;
+
+  /* Proporción única del hueco para las 59 piezas, sea SVG, física o 3D. Es lo que crea el marco
+     común: da igual la técnica, todas ocupan exactamente el mismo espacio en la pantalla. Dentro
+     de ese hueco cada una hace lo suyo, incluida la atmósfera de las escenas 3D. */
+  --vis-proporcion: 7 / 3;
+
+  /* ---- forma ---- */
+  --r-sutil: 2px;
+  --r-card: 4px;
+  --r-panel: 8px;
+
+  /* ---- capas ---- */
+  --z-recorrido: 0;
+  --z-widget: 40;
+  --z-panel: 50;
+  --z-modal: 60;
+}
+
+/* ---- temas ---- */
+/* prefers-color-scheme decide el valor inicial; el atributo data-tema del <html>, puesto por el
+   toggle manual y persistido en localStorage, gana siempre sobre la preferencia del sistema. */
+
+:root,
+:root[data-tema="claro"] {
+  color-scheme: light;
+  --fondo: #FBFAF8;
+  --fondo-elevado: #FFFFFF;
+  --fondo-hundido: #F1EFEA;
+  --texto: #1A1917;
+  --texto-secundario: #5C5850;
+  --separador: #DDD9D1;
+  --borde-interactivo: #7A736A;
+  --foco: #1A1917;
+  /* Fallback hasta que el build inyecte el acento de la corriente activa. */
+  --acento: #5C5850;
+  --acento-tenue: color-mix(in oklab, var(--acento) 12%, var(--fondo));
+  --sombra-panel: 0 1px 2px rgb(26 25 23 / 0.06), 0 8px 32px rgb(26 25 23 / 0.10);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    color-scheme: dark;
+    --fondo: #141317;
+    --fondo-elevado: #1D1C22;
+    --fondo-hundido: #0E0D10;
+    --texto: #EDEBE6;
+    --texto-secundario: #A8A39A;
+    --separador: #2E2C34;
+    --borde-interactivo: #6E6979;
+    --foco: #EDEBE6;
+    --acento: #A8A39A;
+    --sombra-panel: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 32px rgb(0 0 0 / 0.5);
+  }
+}
+
+:root[data-tema="oscuro"] {
+  color-scheme: dark;
+  --fondo: #141317;
+  --fondo-elevado: #1D1C22;
+  --fondo-hundido: #0E0D10;
+  --texto: #EDEBE6;
+  --texto-secundario: #A8A39A;
+  --separador: #2E2C34;
+  --borde-interactivo: #6E6979;
+  --foco: #EDEBE6;
+  --acento: #A8A39A;
+  --sombra-panel: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 32px rgb(0 0 0 / 0.5);
+}
+
+/* ---- reducción de movimiento ----
+   No se desactiva la animación sin más: se lleva a su estado final. Ninguna visualización puede
+   perder contenido por apagar el movimiento. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --m-instantaneo: 1ms;
+    --m-rapido: 1ms;
+    --m-medio: 1ms;
+    --m-lento: 1ms;
+    --m-trazo: 1ms;
+  }
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- foco visible, una sola vez y para todo ---- */
+:where(a, button, [tabindex], summary, input, select, textarea):focus-visible {
+  outline: 2px solid var(--foco);
+  outline-offset: 2px;
+  border-radius: var(--r-sutil);
+}

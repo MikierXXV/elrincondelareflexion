@@ -1,0 +1,78 @@
+{
+  "id": "vista-desde-arriba",
+  "corriente_id": "helenismo",
+  "titulo": "La vista desde arriba",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "marco-aurelio",
+      "rol": "principal",
+      "aporte": "Practica por escrito el ejercicio de mirar los propios asuntos desde una distancia cósmica."
+    }
+  ],
+  "pregunta": "¿Cuánto ocupa realmente lo que ahora te parece enorme?",
+  "cita": {
+    "texto": "Muy pronto lo habrás olvidado todo; muy pronto todos te habrán olvidado.",
+    "obra": "Meditaciones VII, 21",
+    "autor_id": "marco-aurelio",
+    "atribucion": "directa"
+  },
+  "resumen": "Un ejercicio, no una teoría: mirar el propio asunto desde cada vez más lejos —la casa, la ciudad, el siglo— hasta que recupera su tamaño real y deja sitio a lo que importa.",
+  "desarrollo": "Las Meditaciones no son un tratado sino un cuaderno privado que Marco Aurelio no pensaba publicar, escrito en campaña militar. Por eso repite: cada anotación es un ejercicio que hay que rehacer, no una conclusión alcanzada. El más característico consiste en desplazar el punto de observación. Uno empieza absorbido por un agravio concreto y va ampliando el encuadre: la habitación, la ciudad, el continente, los siglos anteriores, los que vendrán. El asunto no desaparece ni se vuelve falso, pero cambia de escala, y con la escala cambia lo que merece. A eso suma el recordatorio constante de la propia mortalidad, no como morbo sino como corrector de prioridades. Lo notable del libro es la tensión que lo recorre: alguien con poder ilimitado que se impone límites por escrito, en privado, todos los días.",
+  "ejemplo_real": "Un correo de trabajo que te ha revuelto la tarde. Piensa si te acordarás de él dentro de un mes; luego, dentro de cinco años. Casi ninguno sobrevive a la primera pregunta. El ejercicio no consiste en fingir que da igual, sino en comprobar cuánto de la reacción venía del tamaño real del asunto y cuánto de mirarlo demasiado de cerca.",
+  "matiz_experto": "Hay una lectura crítica de su figura: la distancia entre el moralista privado y el emperador que sostuvo guerras y persecuciones es un problema historiográfico real, no un detalle.",
+  "visualizacion": {
+    "id": "vis-escala-marco-aurelio",
+    "idea_id": "vista-desde-arriba",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "El ejercicio consiste en alejarse de forma continua, y su efecto depende de que el desplazamiento sea real y sin cortes: la preocupación tiene que ir empequeñeciendo mientras entran en cuadro otras vidas y otras épocas. Un zoom plano por saltos rompería justo lo que produce el cambio de escala, que es la continuidad del recorrido.",
+    "descripcion_interaccion": "El usuario escribe una preocupación concreta y esta aparece a tamaño natural en primer plano. Al alejarse, la cámara recorre sin cortes la habitación, la ciudad, el continente y las capas de siglos, y la preocupación conserva su tamaño físico mientras el mundo alrededor crece. Al volver al punto de partida, el texto se lee con su nueva proporción.",
+    "invitacion": "Escribe una preocupación y aléjate",
+    "alternativa_textual": "Un alejamiento continuo desde una preocupación escrita hasta la escala de siglos y continentes, en el que el asunto conserva su tamaño mientras el entorno crece: demuestra que la magnitud de un problema depende de la distancia desde la que se mira.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "Alejamiento continuo desde una preocupación hasta la escala de los siglos",
+      "alejar": "Alejarte un paso",
+      "acercar": "Volver a acercarte",
+      "resolucionFinal": "La preocupación mide exactamente lo mismo que al principio. No ha cambiado ella: ha cambiado la distancia desde la que la mirabas.",
+      "resolucionRespaldo": "Vista desde muy lejos, la preocupación conserva su tamaño y el mundo alrededor la reduce a su proporción real.",
+      "alternativaTexto": "Un alejamiento continuo desde una preocupación escrita hasta la escala de siglos y continentes, en el que el asunto conserva su tamaño mientras el entorno crece: demuestra que la magnitud de un problema depende de la distancia desde la que se mira.",
+      "escalas": [
+        {
+          "z": 6,
+          "nombre": "tu preocupación",
+          "nota": "Así de grande la estabas viendo: ocupa todo el cuadro."
+        },
+        {
+          "z": 26,
+          "nombre": "la habitación",
+          "nota": "Aparece dónde estás. El asunto sigue midiendo lo mismo."
+        },
+        {
+          "z": 130,
+          "nombre": "la ciudad",
+          "nota": "Miles de personas con sus propios asuntos, todos del mismo tamaño."
+        },
+        {
+          "z": 620,
+          "nombre": "el continente",
+          "nota": "Nada de lo que ves sabe que esto te ha pasado."
+        },
+        {
+          "z": 2600,
+          "nombre": "los siglos",
+          "nota": "Muy pronto lo habrás olvidado todo; muy pronto todos te habrán olvidado."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "dicotomia-del-control",
+    "limite-del-placer",
+    "relatividad-de-las-perspectivas"
+  ]
+}

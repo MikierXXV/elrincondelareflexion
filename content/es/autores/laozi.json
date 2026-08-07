@@ -1,0 +1,36 @@
+{
+  "id": "laozi",
+  "nombre": "Laozi",
+  "corriente_id": "filosofia-china",
+  "periodo": "atribución tradicional s. VI a.C.; texto compilado h. s. IV–III a.C.",
+  "region": "China",
+  "preguntas_filosoficas": [
+    "¿Se puede lograr algo sin forzarlo?",
+    "¿Puede nombrarse aquello que fundamenta todo lo demás?"
+  ],
+  "citas": [
+    {
+      "texto": "El dao que puede nombrarse no es el dao permanente.",
+      "obra": "Daodejing, 1",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "El texto que se le atribuye propone actuar sin forzar: como el agua, que es blanda y sin embargo desgasta la piedra, la eficacia real viene de no ir contra la naturaleza de las cosas.",
+  "nivel_2_desarrollo": "El Daodejing empieza advirtiendo que el dao que puede nombrarse no es el dao permanente: aquello de lo que habla se resiste por definición a la definición. A partir de ahí desarrolla una idea contraintuitiva de la eficacia, el wu wei, que no significa pasividad sino acción sin forzamiento: intervenir lo justo, en el momento adecuado, sin imponerse. Sus imágenes recurrentes son deliberadamente humildes —el agua, que vence por ceder; el valle, que recibe; el cuenco, cuya utilidad está en el vacío que contiene—. También insiste en la interdependencia de los opuestos: lo alto y lo bajo, lo difícil y lo fácil se producen mutuamente, así que reforzar un extremo genera el contrario. Aplicado al gobierno, recomienda al gobernante intervenir poco y ser apenas notado, en abierta discrepancia con el activismo formativo confuciano.",
+  "nivel_3_experto": "La figura histórica de Laozi es considerada legendaria por la mayoría de los especialistas: la biografía de Sima Qian ya recoge versiones incompatibles, y el texto se entiende hoy como una compilación de materiales de tradición oral con varias manos. Los hallazgos arqueológicos han transformado su estudio: los manuscritos de Mawangdui invierten el orden de las dos partes y los textos en bambú de Guodian, más antiguos y parciales, muestran una polémica antirritualista mucho menos marcada, lo que ha llevado a revisar la idea de un daoísmo originario opuesto en bloque al confucianismo. La interpretación del wu wei oscila entre lecturas místicas, políticas —incluida su relación con la doctrina legista del gobernante que no actúa— y estratégicas, y el propio término 'daoísmo' agrupa retrospectivamente lo que fueron corrientes distintas, sin olvidar la separación entre el daoísmo filosófico y las tradiciones religiosas posteriores. Su recepción occidental está mediada por traducciones muy libres del siglo XIX y XX, con una fuerte tendencia a leerlo en clave espiritual descontextualizada, sesgo que la sinología actual trata de corregir.",
+  "debate_abierto": "La existencia histórica de Laozi, la datación y estratificación del texto y el alcance político frente al místico del wu wei son cuestiones abiertas.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Laozi",
+      "url": "https://plato.stanford.edu/entries/laozi/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Laozi",
+      "url": "https://iep.utm.edu/laozi/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Daoism",
+      "url": "https://plato.stanford.edu/entries/daoism/"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+/*
+ * Tipografías del sitio, servidas desde el propio dominio.
+ *
+ * POR QUÉ ESTABAN SIN CARGAR HASTA AHORA. design/tokens.css declaraba «Newsreader» e «Inter» desde el
+ * primer día, pero no había ni un @font-face ni un enlace en ningún sitio: las familias solo salían
+ * si el visitante las tenía instaladas, y no lo están en un equipo corriente. Medido: las dos
+ * resolvían a la métrica del serif y el sans genéricos. Todo el mundo veía las de respaldo.
+ *
+ * POR QUÉ AUTOALOJADAS. Un <link> a fonts.googleapis.com mete dos conexiones a terceros en la ruta
+ * crítica y comparte la IP del visitante sin que haya nada que ganar: el sitio es estático y se
+ * sirve entero desde el mismo origen.
+ *
+ * POR QUÉ EN src/estilos Y NO EN public. En public habría que referenciarlas en absoluto, y Vite no
+ * reescribe esas rutas al cambiar la base. En GitHub Pages el sitio cuelga de /<repo>/ y darían 404
+ * justo en producción, que es el único sitio donde importa.
+ *
+ * font-display: swap es deliberado: el texto se lee desde el primer pintado con la fuente de
+ * respaldo y cambia al llegar la definitiva. Con «block» el texto se esconde hasta que llega, y en
+ * un sitio de lectura eso es peor que un cambio de tipo.
+ *
+ * Newsreader e Inter, ambas bajo SIL Open Font License 1.1.
+ *
+ * GENERADO POR scripts/preparar-tipografias.mjs. No editar a mano.
+ */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./fuentes/inter-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./fuentes/inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./fuentes/newsreader-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('./fuentes/newsreader-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

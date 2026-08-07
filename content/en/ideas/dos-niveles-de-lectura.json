@@ -1,0 +1,88 @@
+{
+  "id": "dos-niveles-de-lectura",
+  "corriente_id": "filosofia-islamica",
+  "titulo": "Two levels of reading",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "averroes",
+      "rol": "principal",
+      "aporte": "Holds that when demonstration conflicts with a sacred text, what gives way is the interpretation."
+    }
+  ],
+  "pregunta": "When a text you hold true collides with something demonstrated, which gives way?",
+  "cita": {
+    "texto": "Truth does not contradict truth, but accords with it.",
+    "obra": "The Decisive Treatise",
+    "autor_id": "averroes",
+    "atribucion": "directa"
+  },
+  "resumen": "If truth is one, philosophy and revelation cannot contradict each other. When the literal sense of a text collides with a demonstration, what has to be revised is the interpretation, not the demonstration.",
+  "desarrollo": "Averroes was a judge, a physician and the most influential commentator on Aristotle of the Middle Ages, known in Europe simply as 'the Commentator'. Against al-Ghazali's charge on the philosophers, he argues that religious law not only permits philosophy but requires it of those capable of it. His model distinguishes three levels of discourse according to the kind of understanding they address: the rhetorical, which persuades the many with images; the dialectical, which argues from plausible opinions; and the demonstrative, which proceeds by proofs. These are not three truths but three routes to the same one. Hence his rule: if a demonstration collides with the literal sense of a text, the text should be read allegorically, because a demonstration cannot be dismantled by appealing to a reading.",
+  "ejemplo_real": "Everyone applies this without noticing when reading an ancient text that speaks of the sun rising in the east. Nobody concludes that the author was wrong about astronomy: they understand that he is describing what is seen from where he stood. Interpreting is not downgrading the text, it is reading it in the right register, and confusing registers is what produces false conflicts.",
+  "matiz_experto": "The 'double truth' doctrine attributed to him does not appear in his texts: it is a polemical construction by his Latin opponents, though the label persists. His thesis of the unity of the material intellect was, by contrast, directly opposed by Aquinas and caught by the Parisian condemnations.",
+  "visualizacion": {
+    "id": "vis-lecturas-averroes",
+    "idea_id": "dos-niveles-de-lectura",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user reads one and the same passage about the course of the sun in three registers — rhetorical, dialectical and demonstrative — switching between them at will. On bringing a demonstrated proposition into the scene, an explicit collision appears between it and the reading in force, and the interface offers two ways out that it refuses on the spot: discard the passage and discard the proof, both of which shake and stay where they were. The collision only comes undone on moving to the demonstrative register, with nothing removed from the screen.",
+    "invitacion": "Switch register and see what happens to the passage",
+    "alternativa_textual": "One passage read in three different registers, in which a conflict with a demonstrated proposition is resolved by changing register rather than discarding the text or the proof: it demonstrates the rule of interpretation Averroes proposes.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "contexto",
+    "parametros": {
+      "corrienteId": "filosofia-islamica",
+      "elemento": "The sun moves",
+      "escenas": [
+        {
+          "nombre": "Rhetorical register",
+          "sentido": "An image of the sky that anyone recognises on looking up.",
+          "nota": "Not a downgraded version: the one that fits that understanding."
+        },
+        {
+          "nombre": "Dialectical register",
+          "sentido": "What everyone grants, and enough to find your way and count the days.",
+          "nota": "Same text, a different level of demand and a different kind of agreement."
+        },
+        {
+          "nombre": "Demonstrative register",
+          "sentido": "It describes what is seen from where you stand, not the real motion.",
+          "nota": "When the literal sense collides with a demonstration, what gives way is the interpretation."
+        }
+      ],
+      "conflicto": {
+        "rotulo": "A demonstrated proposition",
+        "proposicion": "The Earth turns on its axis.",
+        "introducir": "Bring in the demonstration",
+        "resuelveEn": 2,
+        "choque": "Read this way, the passage says the opposite of the demonstration. Both are still there.",
+        "resuelto": "Nothing has been removed: what changed is the register the passage is read in.",
+        "descartes": [
+          {
+            "nombre": "Discard the passage",
+            "descartaLaPrueba": false,
+            "negativa": "The passage does not go. If truth is one, read in its register it says nothing false."
+          },
+          {
+            "nombre": "Discard the demonstration",
+            "descartaLaPrueba": true,
+            "negativa": "A demonstration is not dismantled by appealing to a reading. The proof stays."
+          }
+        ]
+      },
+      "resolucion": "These are not three truths but three routes to the same one. In a collision the interpretation gives way, not the text or the proof: confusing registers is what produces false conflicts between reason and revelation.",
+      "alternativaTexto": "One passage read in three different registers, in which a conflict with a demonstrated proposition is resolved by changing register rather than discarding the text or the proof: it demonstrates the rule of interpretation Averroes proposes.",
+      "etiqueta": "Two levels of reading"
+    }
+  },
+  "ideas_relacionadas": [
+    "razon-y-fe",
+    "critica-de-la-causalidad",
+    "significado-como-uso",
+    "esencia-y-existencia"
+  ]
+}

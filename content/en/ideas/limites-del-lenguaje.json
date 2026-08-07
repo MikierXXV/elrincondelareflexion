@@ -1,0 +1,85 @@
+{
+  "id": "limites-del-lenguaje",
+  "corriente_id": "analitica",
+  "titulo": "The limits of language",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "wittgenstein",
+      "rol": "principal",
+      "aporte": "Draws the boundary of what can be said with sense, and leaves outside it what mattered most to him."
+    }
+  ],
+  "pregunta": "Are there important things that simply cannot be spoken of?",
+  "cita": {
+    "texto": "Whereof one cannot speak, thereof one must be silent.",
+    "obra": "Tractatus Logico-Philosophicus, 7",
+    "autor_id": "wittgenstein",
+    "atribucion": "directa"
+  },
+  "resumen": "A proposition has sense because it shares a structure with the fact it represents, as a plan does with the ground. What does not fit that form — ethics, the meaning of life — falls outside language.",
+  "desarrollo": "In his first period Wittgenstein builds a very demanding model: language represents the world because it shares a logical structure with it, in the way a plan represents a building by sharing its spatial relations. From this follows a sharp boundary. Everything that can be said with sense are propositions about facts; the rest — values, the aesthetic, the meaning of existence — falls outside, not because it is worthless but, on his view, because it is the most important thing and does not let itself be said. The last line of the book is the most quoted in twentieth-century philosophy, and is usually read as contempt when it is the opposite: an attempt to protect what he considers decisive from idle chatter. The book itself declares at the end that it is a ladder to be thrown away after you have climbed it.",
+  "ejemplo_real": "Try explaining to someone what salt tastes like, or what it feels like to lose somebody, if they have never been through it. You can say many true sentences around it and none conveys the thing. It is not that words are missing: it is that language is doing a different job there, pointing at something that only shows itself if the other person has it.",
+  "matiz_experto": "The 'New Wittgenstein' of Diamond and Conant proposes a resolute reading: the metaphysical propositions of the Tractatus itself would be deliberately nonsensical, not ineffable truths. It is an influential and much-disputed interpretation.",
+  "visualizacion": {
+    "id": "vis-tractatus-wittgenstein",
+    "idea_id": "limites-del-lenguaje",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user tries to fit each sentence into what can be said. Those that do not correspond piece by piece with a fact bounce back, and on bouncing the piece explains what they lack in order to be said. Bouncing does not mean being false: it means falling on the other side of the limit.",
+    "invitacion": "Try to say each sentence and see which bounces",
+    "alternativa_textual": "Sentences that fit or bounce at the limit of the sayable according to whether they can correspond piece by piece with a fact, without bouncing meaning they are false: it shows where the early Wittgenstein draws the boundary of language.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "clasificar",
+    "parametros": {
+      "corrienteId": "analitica",
+      "regiones": [
+        "can be said",
+        "can only be shown"
+      ],
+      "elementos": [
+        {
+          "nombre": "It is raining outside",
+          "region": 0,
+          "motivo": "It describes a fact: its structure corresponds piece by piece with what it represents."
+        },
+        {
+          "nombre": "The bridge is 40 metres long",
+          "region": 0,
+          "motivo": "Also a fact, checkable and in propositional form."
+        },
+        {
+          "nombre": "What salt tastes like",
+          "region": 1,
+          "motivo": "You can say true sentences around it and none conveys the thing."
+        },
+        {
+          "nombre": "That life has meaning",
+          "region": 1,
+          "motivo": "It does not bounce for being false, but for lacking the form the model demands."
+        },
+        {
+          "nombre": "That this is good",
+          "region": 1,
+          "motivo": "The ethical falls outside language: for him, not because it is worthless but because it is the most important thing."
+        }
+      ],
+      "rechazo": {
+        "region": 0
+      },
+      "resolucion": "The last line of the Tractatus is usually read as contempt and is the opposite: an attempt to protect what he considers decisive from idle chatter.",
+      "alternativaTexto": "Sentences that fit or bounce at the limit of the sayable according to whether they can correspond piece by piece with a fact, without bouncing meaning they are false: it shows where the early Wittgenstein draws the boundary of language.",
+      "ponerEn": "Put in “{region}”",
+      "etiqueta": "The limits of language",
+      "restantesTexto": "{n} left to sort"
+    }
+  },
+  "ideas_relacionadas": [
+    "significado-como-uso",
+    "hablar-de-lo-que-no-existe",
+    "condiciones-a-priori"
+  ]
+}

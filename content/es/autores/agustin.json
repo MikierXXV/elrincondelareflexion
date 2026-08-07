@@ -1,0 +1,37 @@
+{
+  "id": "agustin",
+  "nombre": "Agustín de Hipona",
+  "corriente_id": "escolastica",
+  "periodo": "354–430",
+  "region": "Tagaste, Hipona (norte de África romano)",
+  "preguntas_filosoficas": [
+    "¿Qué es el tiempo?",
+    "¿Por qué hacemos el mal sabiendo que lo es?",
+    "¿Hay un yo interior al que se accede por introspección?"
+  ],
+  "citas": [
+    {
+      "texto": "¿Qué es el tiempo? Si nadie me lo pregunta, lo sé.",
+      "obra": "Confesiones XI, 14",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Inauguró la mirada introspectiva en Occidente: para él, la verdad no se busca fuera sino examinando la propia interioridad, incluida su parte más opaca y contradictoria.",
+  "nivel_2_desarrollo": "Agustín escribió las Confesiones como un relato en primera persona de su propia inestabilidad: alguien que quiere una cosa y hace otra, y que no se entiende del todo a sí mismo. De ahí sale su gran aportación, la conciencia como territorio a explorar. Su análisis del tiempo es el más citado: pasado y futuro no existen, y el presente carece de duración, así que el tiempo solo puede medirse en el alma, como memoria, atención y expectativa. Sobre el mal, propone que no es una sustancia sino una privación de bien, una carencia y no una fuerza; y su recuerdo de un robo de peras cometido sin necesidad ni provecho le sirve para describir un mal hecho por el gusto de transgredir. Su idea del deseo permanentemente insatisfecho, que no encuentra reposo en ningún objeto finito, atraviesa toda su obra.",
+  "nivel_3_experto": "Agustín piensa desde el neoplatonismo —Plotino y Porfirio— y lo somete a una conversión doctrinal que reformula la relación entre lo inteligible y lo creado; su teoría de la iluminación explica el conocimiento de las verdades necesarias sin necesidad de reminiscencia platónica. Su argumento contra el escepticismo académico, según el cual el mismo hecho de equivocarse presupone que existo, ha sido señalado como anticipo estructural del cogito, aunque su función es distinta: no funda un método sino una certeza de la vida interior. Los debates historiográficos más activos afectan a su doctrina de la gracia y la predestinación, formulada en la polémica antipelagiana, cuyas consecuencias sobre el libre albedrío se consideran a menudo en tensión con la defensa de la voluntad libre de sus obras tempranas; y a la teoría de la guerra justa y su justificación de la coerción contra los donatistas, con su larga y problemática descendencia política. Su influencia es doble: define la teología latina hasta la escolástica, y reaparece en la Reforma, en Pascal, en Descartes y, vía la interioridad y el deseo, en Heidegger y en el psicoanálisis.",
+  "debate_abierto": "La compatibilidad entre su defensa temprana del libre albedrío y su doctrina tardía de la gracia es una tensión ampliamente discutida, igual que el alcance de su justificación de la coerción religiosa.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Saint Augustine",
+      "url": "https://plato.stanford.edu/entries/augustine/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Augustine: Political and Social Philosophy",
+      "url": "https://iep.utm.edu/augustine-political-and-social-philosophy/"
+    },
+    {
+      "titulo": "Brown, Augustine of Hippo: A Biography, University of California Press",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "pirron",
+  "nombre": "Pyrrho of Elis",
+  "corriente_id": "helenismo",
+  "periodo": "c. 360–270 BCE",
+  "region": "Elis (Greece)",
+  "preguntas_filosoficas": [
+    "Is it possible to live without firm beliefs?",
+    "Does the search for certainty produce serenity or destroy it?"
+  ],
+  "citas": [
+    {
+      "texto": "To every argument another of equal force is opposed.",
+      "obra": "Pyrrhonian formula transmitted by Sextus Empiricus",
+      "atribucion": "tradicional",
+      "nota": "Pyrrho wrote nothing. The formulation comes from Sextus Empiricus, almost five centuries later."
+    }
+  ],
+  "nivel_1_resumen": "He proposed suspending judgement: once we find that for every argument there is an equally strong one against, ceasing to assert stops being a defeat and becomes a relief.",
+  "nivel_2_desarrollo": "Pyrrhonian scepticism does not consist in denying that anything can be known — that would already be a dogmatic assertion — but in going on investigating without closing the question. Its procedure is to set opposing appearances and arguments against each other until reaching a balance in which no position weighs more: honey seems sweet to one person and bitter to someone ill, and there is no neutral criterion to arbitrate without presupposing what is under dispute. Faced with that tie, the sceptic suspends judgement, and observes an unexpected effect: tranquillity arrives precisely when the demand for certainty is abandoned. This does not prevent living: one goes on acting according to how things appear, according to custom and need, without pronouncing on how they are underneath.",
+  "nivel_3_experto": "Pyrrho wrote nothing; the doctrine reaches us mainly through Sextus Empiricus, almost five centuries later, and through a testimony of Timon transmitted by Aristocles whose translation is decisive and much disputed: whether the indeterminacy asserted is of things themselves (metaphysical reading) or of our capacity to know them (epistemological reading). On that choice depends whether Pyrrho is a consistent sceptic or is violating his own principle. Pyrrhonism is distinguished from 'Academic' scepticism, which did assert the impossibility of knowledge, and develops the modes — systematic schemes of opposition — as a technical tool. The classical objection is apraxia: without beliefs no action would be possible; the sceptical reply appeals to the distinction between assenting to an appearance and asserting a truth, and whether that distinction holds is still debated. Its recovery in the Renaissance, with the Latin translation of Sextus, fed both Montaigne's fideism and, by direct reaction, Descartes's methodical doubt. A possible influence from the Indian schools Pyrrho may have encountered during Alexander's expedition has also been explored, cautiously and without consensus.",
+  "debate_abierto": "The metaphysical versus epistemological reading of Timon's testimony divides specialists; the hypothesis of Indian influence has been raised but not established.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Pyrrho",
+      "url": "https://plato.stanford.edu/entries/pyrrho/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ancient Skepticism",
+      "url": "https://plato.stanford.edu/entries/skepticism-ancient/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ancient Greek Skepticism",
+      "url": "https://iep.utm.edu/ancient-greek-skepticism/"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "buda",
+  "nombre": "Siddhartha Gautama (the Buddha)",
+  "corriente_id": "filosofia-india",
+  "periodo": "c. 480–400 BCE (dating disputed)",
+  "region": "The Ganges plain",
+  "preguntas_filosoficas": [
+    "What is the cause of suffering?",
+    "Is there a permanent self, or only chained processes?"
+  ],
+  "citas": [
+    {
+      "texto": "All compounded things are impermanent.",
+      "obra": "Dhammapada, 277",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He diagnosed suffering as a problem with a cause and therefore with a solution, and denied that there is a fixed self behind experience: what there is are processes holding one another up.",
+  "nivel_2_desarrollo": "His framing is medical: there is an ailment, a cause, the possibility of cessation, and a treatment. The ailment is dukkha, the structural dissatisfaction of an existence in which nothing holds; the cause is thirst or attachment, clinging to what by nature changes. Hence his three marks of existence: everything is impermanent, everything conditioned turns out unsatisfactory, and nothing has a self of its own. That last thesis, anatman, is the most philosophical: examining experience turns up only sensations, perceptions, dispositions and consciousness changing ceaselessly, with no owner behind them. The 'self' would be a name for a process, as 'cart' is for an assembly of parts. The treatment is a practical path combining ethical conduct, mental discipline and understanding, and avoiding both indulgence and mortification.",
+  "nivel_3_experto": "Nothing attributed to him was written by him: the Pali canon was fixed in writing centuries after his death, following oral transmission, and research distinguishes layers of composition and scholastic additions, so that reconstructing a 'historical Buddha' is a philological task with wide margins; even his dates have been revised downwards from the traditional chronology. Philosophically, the not-self thesis generates a problem explicit already within the tradition: how there can be rebirth and karmic responsibility with no persisting subject, which motivated the doctrine of dependent origination and, later, the Abhidharma discussions of the momentary existence of dharmas and the Pudgalavada answer, which posited a person neither identical with nor distinct from the aggregates. His refusal to answer certain metaphysical questions — whether the world is eternal, whether the liberated one exists after death — has been interpreted as therapeutic pragmatism, as scepticism, or as a critique of the questions' own presuppositions. Analytic philosophy of mind has taken anatman seriously, especially since Parfit's work on personal identity.",
+  "debate_abierto": "What can be attributed to the historical Buddha, and how to reconcile not-self with karmic continuity, are problems discussed inside and outside the tradition.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — The Buddha",
+      "url": "https://plato.stanford.edu/entries/buddha/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Mind in Indian Buddhist Philosophy",
+      "url": "https://plato.stanford.edu/entries/mind-indian-buddhism/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Buddha",
+      "url": "https://iep.utm.edu/buddha/"
+    }
+  ]
+}

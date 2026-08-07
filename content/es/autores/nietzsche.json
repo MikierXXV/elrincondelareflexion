@@ -1,0 +1,37 @@
+{
+  "id": "nietzsche",
+  "nombre": "Friedrich Nietzsche",
+  "corriente_id": "existencialismo",
+  "periodo": "1844–1900",
+  "region": "Prusia, Suiza, Italia",
+  "preguntas_filosoficas": [
+    "¿De dónde vienen nuestros valores?",
+    "¿Qué ocurre cuando se derrumban los fundamentos que los sostenían?"
+  ],
+  "citas": [
+    {
+      "texto": "Quien tiene un porqué para vivir soporta casi cualquier cómo.",
+      "obra": "Crepúsculo de los ídolos",
+      "atribucion": "directa",
+      "nota": "Frankl la citó tantas veces en El hombre en busca de sentido que hoy suele atribuírsele a él."
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que los valores no caen del cielo: tienen una historia y sirvieron a intereses concretos. Al perder su fundamento, hay que decidir si se inventa uno nuevo o se cae en el vacío.",
+  "nivel_2_desarrollo": "Nietzsche practica lo que llama genealogía: en vez de preguntar qué es el bien, pregunta de dónde salió esa idea y a quién le convino. Su reconstrucción distingue una moral aristocrática, que llamaba bueno a lo fuerte y logrado, de una moral posterior nacida del resentimiento de los débiles, que invirtió los valores y llamó bueno a lo humilde y virtuoso a lo que no puede hacer daño. Su diagnóstico del presente es la 'muerte de Dios': no una tesis teológica, sino la constatación de que la cultura europea ha dejado de creer de verdad en aquello que sostenía sus valores, sin haber asumido las consecuencias. El riesgo es el nihilismo; su propuesta es crear valores propios y afirmar la vida tal como es, incluido el dolor. El eterno retorno funciona como prueba: si tuvieras que revivir tu vida exactamente igual, infinitas veces, ¿la querrías?",
+  "nivel_3_experto": "Su obra es aforística y deliberadamente perspectivista, lo que dificulta atribuirle tesis sistemáticas; la propia noción de perspectivismo genera el problema de la autorreferencia, si también ella es solo una perspectiva. La 'voluntad de poder' plantea una dificultad filológica de primer orden: el libro así titulado no fue compuesto por él, sino montado póstumamente por su hermana Elisabeth Förster-Nietzsche a partir de notas descartadas, con manipulaciones documentadas que alimentaron la apropiación nazi; la edición crítica Colli-Montinari desmontó ese aparato y es hoy la base de cualquier lectura seria. Persiste la discusión sobre si la voluntad de poder es una doctrina cosmológica, una hipótesis psicológica o una herramienta interpretativa, y sobre si el eterno retorno es una tesis cosmológica o un imperativo ético-existencial. Su antisemitismo declarado inexistente y su ruptura con Wagner por ese motivo están documentados, pero sus escritos contienen material aristocrático, antidemocrático y misógino que no se disuelve señalando la falsificación de su hermana. Su influencia atraviesa a Heidegger, Foucault, Deleuze y la crítica genealógica contemporánea, y también la psicología profunda vía Freud y Jung.",
+  "debate_abierto": "El estatuto de la voluntad de poder y del eterno retorno, y cómo separar su pensamiento de la manipulación editorial póstuma sin blanquear sus posiciones políticas, son debates activos.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Friedrich Nietzsche",
+      "url": "https://plato.stanford.edu/entries/nietzsche/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Nietzsche's Moral and Political Philosophy",
+      "url": "https://plato.stanford.edu/entries/nietzsche-moral-political/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Friedrich Nietzsche",
+      "url": "https://iep.utm.edu/nietzsch/"
+    }
+  ]
+}

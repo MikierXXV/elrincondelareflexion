@@ -1,0 +1,36 @@
+{
+  "id": "rawls",
+  "nombre": "John Rawls",
+  "corriente_id": "etica-politica-contemporanea",
+  "periodo": "1921–2002",
+  "region": "United States",
+  "preguntas_filosoficas": [
+    "What principles would we choose if we did not know which place would fall to us?",
+    "Is inequality compatible with justice?"
+  ],
+  "citas": [
+    {
+      "texto": "Justice is the first virtue of social institutions.",
+      "obra": "A Theory of Justice, §1",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He proposed a thought experiment: design the rules of a society without knowing what position you will occupy in it. What you would choose in that situation is, for him, what is just.",
+  "nivel_2_desarrollo": "Rawls starts from an intuition: nobody chooses their family, their health or their talents, so the advantages flowing from them are not deserved. To remove the bias with which everyone defends what suits them, he imagines an original position in which participants decide the rules behind a veil of ignorance hiding their class, sex, religion and abilities. He argues that in that situation two principles would be chosen: first, equal basic liberties for all; second, that inequalities be accepted only if attached to genuine equality of opportunity and only if they benefit those who are worst off. That second criterion, the difference principle, does not forbid some earning more, but makes that gain conditional on improving the situation of the least advantaged. With this he revived normative political philosophy after decades in which conceptual analysis had predominated.",
+  "nivel_3_experto": "The derivation of the two principles depends on the parties reasoning by a maximin rule under uncertainty, and that is where the most cited technical objection concentrates: Harsanyi argued that a rational agent under uncertainty would choose to maximise expected utility, which would lead to a utilitarian result. Nozick attacked the difference principle from libertarianism, holding that a distributive pattern can only be maintained by continually interfering with voluntary transactions; communitarians — Sandel, MacIntyre, Taylor — objected that the subject of the original position is a self detached from the ends that constitute it; and Sen and Nussbaum shifted the focus from primary goods to people's real capabilities. Rawls reformulated his position in Political Liberalism, presenting justice as fairness not as a comprehensive doctrine but as the object of an overlapping consensus among citizens with incompatible conceptions of the good. His treatment of global justice in The Law of Peoples disappointed those who, like Pogge and Beitz, expected an international extension of the difference principle, and that discussion remains open.",
+  "debate_abierto": "The choice of maximin over expected utility, and Rawls's refusal to extend the difference principle to the global level, are still the subject of technical debate.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — John Rawls",
+      "url": "https://plato.stanford.edu/entries/rawls/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Original Position",
+      "url": "https://plato.stanford.edu/entries/original-position/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — John Rawls",
+      "url": "https://iep.utm.edu/rawls/"
+    }
+  ]
+}

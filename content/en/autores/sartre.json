@@ -1,0 +1,37 @@
+{
+  "id": "sartre",
+  "nombre": "Jean-Paul Sartre",
+  "corriente_id": "existencialismo",
+  "periodo": "1905–1980",
+  "region": "Paris",
+  "preguntas_filosoficas": [
+    "Do we come with a given nature, or do we make ourselves?",
+    "How far does our responsibility reach?"
+  ],
+  "citas": [
+    {
+      "texto": "Hell is other people.",
+      "obra": "No Exit, 1944",
+      "atribucion": "directa",
+      "nota": "He himself clarified that it does not mean living with others is hell, but that depending on other people's gaze to know who you are is."
+    }
+  ],
+  "nivel_1_resumen": "He held that we do not come with an instruction manual: first we exist, and then, by what we do, we define what we are. That is why we are responsible even for not choosing.",
+  "nivel_2_desarrollo": "The formula 'existence precedes essence' is understood by comparison with a manufactured object: a knife exists because someone had its function in mind beforehand. With people, Sartre says, it is the other way round, and from this follows that we are 'condemned to be free': we cannot not choose, because even abstaining is a choice. That freedom comes with anxiety, because nobody guarantees the decision is right, and with abandonment, because there is no higher authority to endorse it. He calls bad faith the mechanism by which we flee all this, when we pretend that our role, our character or the circumstances left us no option. He adds an uncomfortable social dimension: under another's gaze I become an object of their interpretation, and there he locates much of the conflict between people.",
+  "nivel_3_experto": "The technical apparatus of Being and Nothingness comes from Husserl and Heidegger and opposes the in-itself, massive and full, to the for-itself, which exists as lack and as negation; that dualist ontology and the thesis of an almost unlimited freedom — going as far as claiming we were never so free as under the occupation — drew forceful criticism, including from Heidegger, who rejected the existentialist label and the humanist reading of his own work. Merleau-Ponty objected that a freedom without degrees ignores the inertia of the body and the situation, and Simone de Beauvoir developed, in The Second Sex and in her ethics of ambiguity, a far finer analysis of how oppression limits the real field of choice; much current criticism considers that contribution conceptually independent rather than derived from Sartre. His own later trajectory, in the Critique of Dialectical Reason, tries to reconcile individual freedom with material determinations after his turn towards Marxism, and his political assessment — his positions on the USSR, his anticolonial commitment in Algeria, his refusal of the Nobel — remains the subject of conflicting judgements.",
+  "debate_abierto": "The real scope of Sartrean freedom against material conditions, and the reassessment of Beauvoir's own philosophical role, are live discussions.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Jean-Paul Sartre",
+      "url": "https://plato.stanford.edu/entries/sartre/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Existentialism",
+      "url": "https://plato.stanford.edu/entries/existentialism/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Jean-Paul Sartre",
+      "url": "https://iep.utm.edu/sartre-ex/"
+    }
+  ]
+}

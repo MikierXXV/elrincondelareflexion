@@ -1,0 +1,106 @@
+{
+  "id": "identidad-personal",
+  "corriente_id": "empirismo",
+  "titulo": "La identidad personal",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "locke",
+      "rol": "principal",
+      "aporte": "Hace depender la identidad de la continuidad de la conciencia y la memoria, no del cuerpo ni del alma."
+    },
+    {
+      "id": "hume",
+      "rol": "contrapunto",
+      "aporte": "Va más lejos: al mirar dentro no encuentra ningún yo, solo una sucesión de percepciones."
+    }
+  ],
+  "pregunta": "¿Qué te hace ser la misma persona que eras hace veinte años?",
+  "cita": {
+    "texto": "La identidad de una persona alcanza hasta donde alcanza su conciencia.",
+    "obra": "Ensayo sobre el entendimiento humano II, 27",
+    "autor_id": "locke",
+    "atribucion": "directa"
+  },
+  "resumen": "No es el cuerpo, que se ha renovado entero, ni un alma que nadie puede examinar. Locke propone que lo que te hace el mismo es la continuidad de tu conciencia; Hume replica que ni siquiera eso hay.",
+  "desarrollo": "Locke desplaza la pregunta del terreno de la sustancia al de la memoria: soy la misma persona que aquel niño en la medida en que puedo reconocer como míos sus recuerdos. Es una propuesta con consecuencias prácticas inmediatas, porque vincula identidad y responsabilidad: castigar a alguien por algo que no puede reconocer como suyo deja de tener sentido. Hume da un paso más y quita también el suelo. Dice que cuando mira dentro de sí buscando el yo, nunca lo encuentra: solo tropieza con percepciones concretas —un calor, una molestia, un recuerdo— que se suceden sin descanso. El yo sería el nombre de esa sucesión, no algo que la posea. Y reconoce en el apéndice de su propio libro que no consigue explicar qué las unifica, una honestidad poco frecuente.",
+  "ejemplo_real": "Lees un mensaje que escribiste hace quince años y no reconoces a quien lo escribió: no piensas así, no te preocupa eso, no hablas así. Y sin embargo era tu nombre. Al mismo tiempo, si mañana alguien tuviera tus recuerdos completos y tú no, cuesta decir cuál de los dos serías tú.",
+  "matiz_experto": "El criterio de la memoria recibió la objeción de Reid: el oficial que recuerda su infancia y el general que recuerda al oficial pero no la infancia rompen la transitividad. Los neolockeanos responden con cadenas de conexiones psicológicas solapadas, y el debate sigue plenamente abierto.",
+  "visualizacion": {
+    "id": "vis-identidad-locke",
+    "idea_id": "identidad-personal",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Una línea de vida con hilos de memoria: los cortos unen momentos vecinos y los largos saltan por encima solapándose con ellos. El usuario corta el hilo que quiera y ve si los extremos siguen enlazados por algún otro camino. Cortar un tramo no separa nada mientras algo lo cubra; cuando cae también el solape, la línea se parte en dos. Entre el primer momento y el último no hay ningún hilo directo en ningún caso.",
+    "invitacion": "Corta un hilo y mira si los extremos siguen unidos",
+    "alternativa_textual": "Una línea de vida unida por hilos de memoria que puede romperse por tramos, mostrando que la identidad puede mantenerse por eslabones solapados aunque los extremos no se reconozcan entre sí.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "modo": "linea",
+      "centro": "la misma persona",
+      "momentos": [
+        "la infancia",
+        "los veinte años",
+        "los cuarenta",
+        "el año pasado",
+        "hoy"
+      ],
+      "vinculos": [
+        {
+          "nombre": "la infancia y los veinte años",
+          "desde": 0,
+          "hasta": 1,
+          "perdida": "Ya no recuerdas de primera mano al niño que fuiste: solo lo que te han contado de él."
+        },
+        {
+          "nombre": "los veinte y los cuarenta",
+          "desde": 1,
+          "hasta": 2,
+          "perdida": "Lees lo que escribiste entonces y no reconoces a quien lo escribió."
+        },
+        {
+          "nombre": "los cuarenta y el año pasado",
+          "desde": 2,
+          "hasta": 3,
+          "perdida": "Un tramo entero se queda sin nadie que lo recuerde desde dentro."
+        },
+        {
+          "nombre": "el año pasado y hoy",
+          "desde": 3,
+          "hasta": 4,
+          "perdida": "Cortado el eslabón más cercano, hasta lo de ayer deja de ser tuyo."
+        },
+        {
+          "nombre": "la infancia y los cuarenta",
+          "desde": 0,
+          "hasta": 2,
+          "perdida": "Era el hilo largo que cubría el tramo de en medio: sin él, el principio queda suelto."
+        },
+        {
+          "nombre": "los cuarenta y hoy",
+          "desde": 2,
+          "hasta": 4,
+          "perdida": "El solape que sostenía la segunda mitad de la línea."
+        }
+      ],
+      "unida": "Los extremos no se reconocen entre sí y siguen enlazados: cada tramo se solapa con el siguiente.",
+      "rota": "Sin ningún hilo que cubra el tramo, la línea se parte en dos personas distintas.",
+      "resolucion": "No es el cuerpo ni un alma que nadie puede examinar: lo que sostiene la identidad son eslabones de conciencia que se solapan. Hume va más lejos y dice que ni eso queda.",
+      "alternativaTexto": "Una línea de vida unida por hilos de memoria que puede romperse por tramos, mostrando que la identidad puede mantenerse por eslabones solapados aunque los extremos no se reconozcan entre sí.",
+      "restituir": "Restituir los hilos",
+      "etiqueta": "La identidad personal",
+      "etiquetaNodo": "Cortar el hilo entre {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "tabula-rasa",
+    "anatman",
+    "flujo-y-permanencia",
+    "el-tiempo-en-el-alma"
+  ]
+}

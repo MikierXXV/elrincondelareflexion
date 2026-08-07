@@ -1,0 +1,69 @@
+{
+  "id": "las-cuatro-verdades",
+  "corriente_id": "filosofia-india",
+  "titulo": "Las cuatro verdades",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "buda",
+      "rol": "principal",
+      "aporte": "Plantea el sufrimiento como un problema con causa identificable y, por tanto, con solución."
+    }
+  ],
+  "pregunta": "¿Por qué nada de lo que consigues acaba de bastar?",
+  "cita": {
+    "texto": "Todo lo compuesto es impermanente.",
+    "obra": "Dhammapada, 277",
+    "autor_id": "buda",
+    "atribucion": "directa"
+  },
+  "resumen": "El planteamiento tiene forma médica: hay una dolencia, tiene una causa, se puede detener y hay un tratamiento. La dolencia es la insatisfacción estructural; la causa, el aferrarse a lo que cambia.",
+  "desarrollo": "Dukkha no se traduce bien por 'sufrimiento': incluye el dolor evidente, pero sobre todo esa insatisfacción de fondo que aparece incluso cuando todo va bien, porque nada de lo que sostiene nuestro bienestar se queda quieto. La causa que identifica no es desear en general, sino aferrarse: querer que lo agradable no termine y que lo desagradable no llegue, en un mundo donde ambas cosas pasan igualmente. De ahí lo demás. Si la causa es el aferramiento y no las circunstancias, entonces se puede hacer algo, y ese algo no consiste en conseguir más ni en no sentir nada, sino en cambiar la relación con lo que ocurre. El tratamiento combina conducta ética, disciplina mental y comprensión, y evita explícitamente los dos extremos de la indulgencia y la mortificación, ambos ensayados por él antes de descartarlos.",
+  "ejemplo_real": "Las vacaciones que llevas meses esperando. El primer día es perfecto y ya estás calculando cuántos quedan. La causa del malestar no es el sitio, ni el tiempo, ni la compañía: es que estás sujetando algo que se está moviendo. Y ese mismo mecanismo funciona con una relación, con un buen momento profesional o con la salud.",
+  "matiz_experto": "El canon pali se fijó por escrito siglos después de su muerte, tras transmisión oral, así que la reconstrucción de un 'Buda histórico' tiene márgenes amplios. Su negativa a responder ciertas preguntas metafísicas se ha leído como pragmatismo terapéutico y también como crítica de las presuposiciones de la pregunta.",
+  "visualizacion": {
+    "id": "vis-cuatro-verdades-buda",
+    "idea_id": "las-cuatro-verdades",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Una situación agradable se transforma sola, pase por delante lo que pase. El usuario puede mantenerla agarrada, y mientras la agarra un medidor de tensión sube. La transformación avanza exactamente al mismo ritmo, se agarre o no: lo único que responde al agarre es la tensión, y al soltar baja sola.",
+    "invitacion": "Agárralo y vigila la tensión",
+    "alternativa_textual": "Una situación agradable que se transforma haga lo que haga el usuario, con un medidor de tensión que solo responde a la fuerza con que se intenta retenerla: demuestra que la insatisfacción procede del aferramiento y no del cambio en sí.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "aferramiento",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "situacion": "Algo que ahora mismo va bien",
+      "fases": [
+        {
+          "nombre": "Va bien, y estás disfrutándolo."
+        },
+        {
+          "nombre": "Sigue bien, pero ya no es lo mismo que al principio."
+        },
+        {
+          "nombre": "Ha cambiado. No ha empeorado: es otra cosa."
+        },
+        {
+          "nombre": "Vuelve a ir bien, de una manera que no habías previsto."
+        }
+      ],
+      "tension": "Tensión",
+      "retener": "Mantén pulsado para retenerlo",
+      "avisoTension": "La tensión es máxima y la situación se ha transformado igual.",
+      "avisoSoltar": "Has soltado. La tensión ha bajado sola y la situación sigue su curso, igual que antes.",
+      "resolucion": "El cambio no dependía de ti y no ha hecho daño por sí mismo. Lo que dolía era la fuerza empleada en retenerlo, y esa sí dependía de ti.",
+      "alternativaTexto": "Una situación agradable que se transforma haga lo que haga el usuario, con un medidor de tensión que solo responde a la fuerza con que se intenta retenerla: demuestra que la insatisfacción procede del aferramiento y no del cambio en sí.",
+      "etiqueta": "Las cuatro verdades"
+    }
+  },
+  "ideas_relacionadas": [
+    "anatman",
+    "limite-del-placer",
+    "voluntad-y-pesimismo",
+    "dicotomia-del-control"
+  ]
+}

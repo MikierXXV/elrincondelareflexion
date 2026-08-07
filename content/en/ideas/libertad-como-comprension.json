@@ -1,0 +1,98 @@
+{
+  "id": "libertad-como-comprension",
+  "corriente_id": "racionalismo",
+  "titulo": "Freedom as understanding the causes",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "spinoza",
+      "rol": "principal",
+      "aporte": "Redefines freedom: not escaping causes, but understanding the ones that move us."
+    }
+  ],
+  "pregunta": "Are you free, or do you simply not know what is moving you?",
+  "cita": {
+    "texto": "Not to laugh, not to weep, not to hate, but to understand.",
+    "obra": "Political Treatise I, 4",
+    "autor_id": "spinoza",
+    "atribucion": "directa"
+  },
+  "resumen": "We believe ourselves free because we are aware of our desires and ignorant of what produced them. For Spinoza freedom does not consist in having no causes, but in understanding them.",
+  "desarrollo": "His image is a stone thrown into the air that was conscious of its flight: it would believe it was flying by its own decision, simply because it does not perceive the hand that threw it. Spinoza holds that our case is exactly that: we feel the desire, not its origin, and we call that ignorance free will. So far it sounds bleak, but his conclusion is not. He distinguishes between suffering an emotion and understanding it. While I do not understand why something irritates me, the irritation has me; when I reconstruct where it comes from — what set it off, what I associate it with, what history it answers to — it stops being something that happens to me and becomes something I understand, and its force changes. That is all the freedom available, and unlike the other kind, this one can be exercised and increased.",
+  "ejemplo_real": "Someone answers you curtly and your morning is ruined. If a while later it dawns on you that you have slept badly for two days and that this person reminds you of someone else, the irritation does not magically vanish, but it stops steering you: you are no longer arguing with them in your head, you are looking at where it came from.",
+  "matiz_experto": "His necessitarianism is stricter than this presentation suggests: whether it leaves any room for contingency is disputed. And not everyone accepts that understanding an emotion suffices to transform it, though contemporary cognitive therapy works with a similar assumption.",
+  "visualizacion": {
+    "id": "vis-causas-spinoza",
+    "idea_id": "libertad-como-comprension",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Two layers. Above, the decision as you feel it; below, the chain of causes still folded; on the right, the emotion. Insisting it was free or blaming yourself for the reaction stirs the upper layer and moves nothing below. Each unfolding opens one more link backwards — the curt tone, the tiredness, the association, the old scene — the feeling of spontaneity comes apart and the emotion empties out. Open links are never withdrawn: once the whole chain is in view, the emotion turns from suffered to understood with every one of its causes in front of it.",
+    "invitacion": "Unfold the chain of causes and watch the feeling",
+    "alternativa_textual": "An apparently free decision whose chain of causes can be unfolded backwards, and whose emotion changes state as this happens without the causes disappearing: it shows that freedom can consist in understanding what determines us.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-capas",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "arriba": {
+        "nombre": "the decision, as you feel it",
+        "intervenciones": [
+          {
+            "nombre": "Insist that it was free",
+            "efecto": "The surface stirs and nothing moves below: insisting touches no cause at all.",
+            "propagacion": 0.06
+          },
+          {
+            "nombre": "Blame yourself for the reaction",
+            "efecto": "Fighting the emotion stirs it and leaves it where it was: blame never reaches the origin.",
+            "propagacion": 0.1
+          }
+        ]
+      },
+      "abajo": {
+        "nombre": "what caused it: body, history, surroundings",
+        "intervenciones": [
+          {
+            "nombre": "The curt tone of that reply",
+            "efecto": "The first link is the most visible one, which is why the reaction seems to start here.",
+            "propagacion": 0.4
+          },
+          {
+            "nombre": "Two nights of bad sleep",
+            "efecto": "Behind the trigger there is a tired body that was already primed to snap.",
+            "propagacion": 0.7
+          },
+          {
+            "nombre": "Who that person reminds you of",
+            "efecto": "The reaction is not answering only to today: it answers an association you already carried.",
+            "propagacion": 0.88
+          },
+          {
+            "nombre": "An old scene you never closed",
+            "efecto": "You did not choose the furthest link: it was in place before you decided anything.",
+            "propagacion": 1
+          }
+        ]
+      },
+      "cadena": {
+        "desplegar": "Unfold one more link backwards",
+        "completo": "The whole chain is in view",
+        "emocion": "the irritation",
+        "padecida": "suffered",
+        "comprendida": "understood",
+        "avisoCausas": "The chain is complete and not one link has been erased. What changed is not the causes: it is that now you look at them instead of suffering them."
+      },
+      "resolucion": "We believe ourselves free because we know the desire and not its origin. Unfolding the causes does not remove them — all four are still there: what changes is that the emotion turns from suffered to understood, and that freedom can be exercised.",
+      "alternativaTexto": "An apparently free decision whose chain of causes can be unfolded backwards, and whose emotion changes state as this happens without the causes disappearing: it shows that freedom can consist in understanding what determines us.",
+      "etiqueta": "Freedom as understanding the causes"
+    }
+  },
+  "ideas_relacionadas": [
+    "problema-mente-cuerpo",
+    "dicotomia-del-control",
+    "lo-inconsciente",
+    "condicionamiento-operante"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "averroes",
+  "nombre": "Averroes (Ibn Rushd)",
+  "corriente_id": "filosofia-islamica",
+  "periodo": "1126–1198",
+  "region": "Córdoba, Marrakesh (al-Andalus and the Maghreb)",
+  "preguntas_filosoficas": [
+    "Can revealed and demonstrated truth come into conflict?",
+    "Is the intellect something individual or shared?"
+  ],
+  "citas": [
+    {
+      "texto": "Truth does not contradict truth, but accords with it.",
+      "obra": "The Decisive Treatise",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He held that philosophy and revelation cannot contradict each other because truth does not contradict itself: when a sacred text collides with a demonstration, what has to be revised is its interpretation.",
+  "nivel_2_desarrollo": "Averroes was a judge, a physician and the most influential commentator on Aristotle of the Middle Ages. Against al-Ghazali's charge on the philosophers he answered with a double defence. Doctrinally, he argued that the relation between things and their effects is real, and that denying natural causation destroys knowledge: if fire does not burn by its nature, no science is possible. Methodologically, he argued that religious law not only permits philosophy but requires it of those capable of it, and that texts admit different levels of reading according to each person's capacity; when the literal sense contradicts a demonstration, it should be read allegorically. There are not two truths, he insists, but one aim reached by routes suited to each kind of understanding.",
+  "nivel_3_experto": "His output is organised into short, middle and long commentaries on the Aristotelian corpus, and in the West he was known simply as 'the Commentator'; much of his work survives only in Hebrew or Latin translation. His most contentious noetic thesis, the unity of the material intellect — a single intellect shared by all human beings — was opposed by Aquinas in a dedicated treatise and led to the so-called Latin Averroism of Paris, with Siger of Brabant, and to the condemnations of 1270 and 1277; the 'double truth' doctrine attributed to him does not appear in his texts and is a polemical construction by his opponents, though the label persists. His Incoherence of the Incoherence answers al-Ghazali point by point and is the principal source for reconstructing the debate. His influence was greater in Christian scholasticism and in Jewish thought — Maimonides is a contemporary and shares the framework — than in the later Eastern Islamic tradition, a reception imbalance current research explains by institutional rather than purely doctrinal factors.",
+  "debate_abierto": "The attribution of 'double truth' is considered a distortion by his opponents; the interpretation of the unity of the intellect remains the object of technical analysis.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ibn Rushd (Averroes)",
+      "url": "https://plato.stanford.edu/entries/ibn-rushd/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ibn Rushd (Averroes)",
+      "url": "https://iep.utm.edu/ibn-rushd-averroes/"
+    },
+    {
+      "titulo": "Adamson, Philosophy in the Islamic World, Oxford University Press",
+      "url": null
+    }
+  ]
+}

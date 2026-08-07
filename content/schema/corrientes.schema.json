@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "corrientes.schema.json",
+  "title": "Corrientes y bloques del recorrido",
+  "type": "object",
+  "required": ["idioma", "bloques", "corrientes"],
+  "properties": {
+    "idioma": { "type": "string", "enum": ["es", "en"] },
+    "bloques": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "nombre", "nota_cronologica"],
+        "properties": {
+          "id": { "type": "string", "enum": ["occidental", "no-occidental", "psicologia"] },
+          "nombre": { "type": "string" },
+          "nota_cronologica": { "type": "string" }
+        }
+      }
+    },
+    "corrientes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "bloque_id", "nombre", "periodo", "orden_cronologico",
+          "tradicion", "region", "contexto", "idea_central", "pregunta_guia",
+          "color_acento", "autores", "ideas"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "bloque_id": { "type": "string" },
+          "nombre": { "type": "string" },
+          "periodo": { "type": "string" },
+          "orden_cronologico": { "type": "integer", "minimum": 1 },
+          "cronologia_paralela_a": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Corrientes occidentales con las que esta es contemporánea. Evita que el eje vertical sugiera que las tradiciones no occidentales son posteriores."
+          },
+          "tradicion": { "type": "string" },
+          "region": { "type": "string" },
+          "contexto": { "type": "string" },
+          "idea_central": { "type": "string" },
+          "pregunta_guia": { "type": "string" },
+          "color_acento": {
+            "type": "object",
+            "required": ["claro", "oscuro"],
+            "additionalProperties": false,
+            "description": "Dos valores obligatorios: un acento que funciona sobre papel casi nunca funciona sobre fondo oscuro. Ambos se verifican en scripts/check-contraste.mjs contra WCAG AA (4.5:1), y los tonos deben separarse al menos 12° entre corrientes.",
+            "properties": {
+              "claro": { "type": "string", "pattern": "^#[0-9A-F]{6}$" },
+              "oscuro": { "type": "string", "pattern": "^#[0-9A-F]{6}$" }
+            }
+          },
+          "autores": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+          },
+          "ideas": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 5,
+            "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+            "description": "Cupo de 3 a 5 ideas por corriente. Lo vigila scripts/validate-content.mjs."
+          }
+        }
+      }
+    }
+  }
+}

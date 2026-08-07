@@ -1,0 +1,72 @@
+{
+  "id": "el-tiempo-en-el-alma",
+  "corriente_id": "escolastica",
+  "titulo": "El tiempo existe en el alma",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "agustin",
+      "rol": "principal",
+      "aporte": "Muestra que el tiempo no se deja medir fuera, y lo reubica en la memoria, la atención y la expectativa."
+    }
+  ],
+  "pregunta": "Si el pasado ya no es y el futuro todavía no, ¿dónde está el tiempo?",
+  "cita": {
+    "texto": "¿Qué es el tiempo? Si nadie me lo pregunta, lo sé.",
+    "obra": "Confesiones XI, 14",
+    "autor_id": "agustin",
+    "atribucion": "directa"
+  },
+  "resumen": "El pasado ya no existe, el futuro aún no, y el presente no tiene duración. Agustín concluye que el tiempo no se mide fuera sino dentro: como memoria, atención y expectativa.",
+  "desarrollo": "El razonamiento avanza por eliminación. No podemos medir el pasado, porque ya no está. Tampoco el futuro, que todavía no es. Y el presente, si lo apuramos, carece de extensión: cualquier trozo con duración se deja dividir en una parte que ya pasó y otra que aún no ha llegado. Si nada de eso tiene entidad medible, ¿qué medimos cuando decimos que una espera se hizo larga? Agustín responde que medimos una impresión que permanece en el alma: recordamos lo que sonó, atendemos a lo que suena y esperamos lo que va a sonar, y las tres cosas coexisten en nosotros aunque no en el mundo. Con ello inaugura además algo más amplio: la conciencia como territorio que se puede explorar, y la primera persona como lugar filosófico legítimo.",
+  "ejemplo_real": "Una canción que te sabes. Mientras suena una nota, sostienes las anteriores y anticipas las siguientes; por eso reconoces la melodía y no una sucesión de sonidos sueltos. Es también lo que hace que media hora de espera se alargue y dos horas con alguien se pasen volando: el reloj marca lo mismo y tú mides otra cosa.",
+  "matiz_experto": "Su análisis se ha leído como anticipo de la fenomenología de la conciencia temporal de Husserl, aunque la función que cumple en las Confesiones es religiosa y autobiográfica, no la de una teoría autónoma del tiempo.",
+  "visualizacion": {
+    "id": "vis-tiempo-agustin",
+    "idea_id": "el-tiempo-en-el-alma",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario intenta acotar el instante presente sobre una línea temporal externa. El corchete que dibuja se cierra sobre sí mismo cada vez: un ahora sin duración no se deja medir. Agotados los intentos se abren tres regiones de la mente, y al dejar correr la melodía por ellas la duración sí aparece.",
+    "invitacion": "Intenta acotar el instante presente",
+    "alternativa_textual": "Un intento fallido de señalar el instante presente en una línea temporal externa, resuelto al trasladar la medida a tres regiones de la mente: demuestra que la duración se mide en la conciencia y no en el mundo.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "tres-regiones",
+    "parametros": {
+      "corrienteId": "escolastica",
+      "sucesion": "Una melodía que suena de principio a fin",
+      "intentar": "Señalar el ahora",
+      "fracasos": [
+        "El corchete se cierra: lo que dura no es el instante, es el intervalo.",
+        "Se cierra otra vez. Cualquier anchura que le dejes ya contiene un antes y un después.",
+        "Y otra. Fuera solo hay notas que ya no son y notas que todavía no son."
+      ],
+      "regiones": [
+        {
+          "nombre": "Lo retenido",
+          "descripcion": "Lo que ya sonó sigue disponible aquí, y por eso puede compararse."
+        },
+        {
+          "nombre": "Lo atendido",
+          "descripcion": "Lo que suena ahora, que es lo único que pasa por el presente."
+        },
+        {
+          "nombre": "Lo esperado",
+          "descripcion": "Lo que va a sonar, ya contado antes de sonar."
+        }
+      ],
+      "medir": "Dejar sonar la melodía",
+      "medida": "La melodía ha durado, y la duración estaba entera en las tres regiones.",
+      "resolucion": "Fuera nunca hubo nada que medir: solo lo que ya no es y lo que aún no es. Lo que dura, dura en quien retiene, atiende y espera.",
+      "alternativaTexto": "Un intento fallido de señalar el instante presente en una línea temporal externa, resuelto al trasladar la medida a tres regiones de la mente: demuestra que la duración se mide en la conciencia y no en el mundo.",
+      "etiqueta": "El tiempo existe en el alma"
+    }
+  },
+  "ideas_relacionadas": [
+    "flujo-y-permanencia",
+    "condiciones-a-priori",
+    "identidad-personal"
+  ]
+}

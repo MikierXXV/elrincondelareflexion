@@ -1,0 +1,37 @@
+{
+  "id": "pitagoras",
+  "nombre": "Pitágoras de Samos",
+  "corriente_id": "presocraticos",
+  "periodo": "c. 570–495 a.C.",
+  "region": "Samos, Crotona (Magna Grecia)",
+  "preguntas_filosoficas": [
+    "¿Por qué las matemáticas describen tan bien el mundo?",
+    "¿Es el orden algo que encontramos o algo que proyectamos?"
+  ],
+  "citas": [
+    {
+      "texto": "Todo es número.",
+      "obra": "Atribuida a los pitagóricos por Aristóteles",
+      "atribucion": "tradicional",
+      "nota": "Pitágoras no dejó escritos. Aristóteles atribuye la tesis a los pitagóricos en conjunto, no a él personalmente."
+    }
+  ],
+  "nivel_1_resumen": "Descubrió que las relaciones musicales que nos suenan armónicas corresponden a proporciones numéricas simples, y de ahí concluyó que el número es la clave del orden del universo.",
+  "nivel_2_desarrollo": "La observación de partida es comprobable: si se divide una cuerda tensa por la mitad suena la misma nota más aguda, y otras proporciones sencillas producen los intervalos que percibimos como consonantes. Que algo tan inmaterial como una razón numérica gobierne una experiencia tan física como el sonido resultó revelador. Los pitagóricos generalizaron el hallazgo: si el número ordena la armonía, quizá ordene también los astros, las estaciones y el alma. Su escuela fue a la vez comunidad religiosa y grupo de investigación, con reglas de vida, doctrina de la reencarnación y la convicción de que estudiar matemáticas purifica. De ahí arranca una intuición que llega hasta la física actual: que la estructura profunda de la realidad es matemática.",
+  "nivel_3_experto": "Prácticamente nada de lo que se atribuye a Pitágoras puede asignársele con seguridad: no dejó escritos, la tradición biográfica es tardía y hagiográfica, y el propio pitagorismo posterior tendió a devolverle sus propios hallazgos. La historiografía distingue hoy entre los 'acusmáticos', centrados en preceptos de vida, y los 'matemáticos', dedicados a la investigación; y varios especialistas sostienen que el Pitágoras histórico estaría más cerca de un maestro religioso que de un matemático, siendo Filolao y Arquitas quienes desarrollaron la doctrina numérica. El teorema que lleva su nombre era conocido siglos antes en Mesopotamia. El episodio más interesante es interno: el descubrimiento de las magnitudes inconmensurables —la diagonal del cuadrado no es expresable como razón de enteros— contradecía la tesis de que todo se deja reducir a proporciones numéricas, y obligó a la matemática griega a reformularse en términos geométricos. La estela del programa pitagórico pasa por Platón, Kepler y la idea moderna de que las leyes naturales tienen forma matemática.",
+  "debate_abierto": "Cuánto de la doctrina 'pitagórica' pertenece a Pitágoras y cuánto a su escuela posterior es una cuestión abierta; existe una corriente historiográfica que reduce drásticamente su papel matemático.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Pythagoras",
+      "url": "https://plato.stanford.edu/entries/pythagoras/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Pythagoras",
+      "url": "https://iep.utm.edu/pythagoras/"
+    },
+    {
+      "titulo": "Huffman, Pythagoreanism (estudios sobre Filolao y Arquitas)",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "jung",
+  "nombre": "Carl Gustav Jung",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1875–1961",
+  "region": "Switzerland",
+  "preguntas_filosoficas": [
+    "Are there structures of meaning shared by the whole species?",
+    "What does becoming yourself consist in?"
+  ],
+  "dialogo_filosofico": "He reformulates the problem of personal identity as a process of integration across a lifetime, and advances, against empiricism, the hypothesis of inherited symbolic dispositions that structure experience.",
+  "citas": [
+    {
+      "texto": "Until the unconscious is made conscious, it will direct your life and be called fate.",
+      "obra": "Widely circulated attribution, no located passage",
+      "atribucion": "dudosa",
+      "nota": "It circulates massively as a quotation from Jung, but has not been located in this form anywhere in his work. It captures an idea of his; the sentence, probably, is not."
+    }
+  ],
+  "nivel_1_resumen": "Freud's disciple and then rival, he proposed that beneath the personal there is a ground shared by the whole species, made of symbolic patterns that reappear in the myths and dreams of cultures with no contact between them.",
+  "nivel_2_desarrollo": "Jung broke with Freud above all over the interpretation of the drive: he would not accept that everything be explained in sexual terms and understood psychic energy more broadly. His central hypothesis is the collective unconscious: besides our biography there would be a layer formed of archetypes, dispositions to organise experience into certain recurring figures — the shadow, the hero, the great mother, the wise old man. The archetype would not be an inherited image but the tendency to produce one. Hence his idea of the shadow, the part of oneself that is refused and projected onto others, and his notion of individuation: becoming yourself by integrating what had been set aside, rather than perfecting a façade. He also introduced the distinction between introversion and extraversion, which had a long subsequent career.",
+  "nivel_3_experto": "Analytical psychology occupies an uncomfortable place in the academy: its concepts are hard to operationalise and the collective unconscious hypothesis is considered empirically unverifiable in its original formulation, though current lines in evolutionary psychology have explored bounded versions of universal cognitive dispositions without that validating the archetypal apparatus. His treatment of synchronicity as a principle of acausal connection, developed in dialogue with Pauli, is the point most rejected by standard epistemology. The publication of the Red Book in 2009 reopened discussion of the relation between his personal experience and his theory. There is also a historiographical problem that recent research has documented seriously: his writings of the 1930s on 'Aryan psychology' and his role in the German psychotherapeutic society under Nazism, with defensive positions on his part and conflicting assessments among historians. His real influence is enormous outside academic psychology: comparative mythology, literary theory, commercially used personality typologies, and much of the cultural vocabulary about 'the shadow' or 'the archetype'.",
+  "debate_abierto": "The empirical status of the collective unconscious is rejected by mainstream academic psychology; his position and writings during the 1930s are the object of serious historiographical debate.",
+  "fuentes": [
+    {
+      "titulo": "Shamdasani, Jung and the Making of Modern Psychology, Cambridge University Press",
+      "url": null
+    },
+    {
+      "titulo": "Bair, Jung: A Biography, Little, Brown",
+      "url": null
+    },
+    {
+      "titulo": "Note: neither the Stanford Encyclopedia of Philosophy nor the Internet Encyclopedia of Philosophy has an entry on Jung, which reflects his marginal position in academic philosophy. The sources for this profile are historiographical.",
+      "url": null
+    }
+  ]
+}

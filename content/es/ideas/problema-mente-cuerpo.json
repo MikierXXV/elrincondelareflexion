@@ -1,0 +1,77 @@
+{
+  "id": "problema-mente-cuerpo",
+  "corriente_id": "racionalismo",
+  "titulo": "El problema mente-cuerpo",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "descartes",
+      "rol": "principal",
+      "aporte": "Separa la mente pensante del cuerpo extenso como dos sustancias distintas."
+    },
+    {
+      "id": "spinoza",
+      "rol": "contrapunto",
+      "aporte": "Niega que sean dos cosas: serían dos maneras de describir una única realidad."
+    }
+  ],
+  "pregunta": "Si pensar y ocupar espacio son cosas tan distintas, ¿cómo consigue tu decisión mover tu brazo?",
+  "cita": {
+    "texto": "Somos una cosa que piensa, distinta del cuerpo que ocupa espacio.",
+    "obra": "Condensación de las Meditaciones metafísicas II y VI",
+    "autor_id": "descartes",
+    "atribucion": "tradicional",
+    "nota": "Formulación condensada de la distinción real entre sustancia pensante y sustancia extensa que Descartes desarrolla a lo largo de las Meditaciones."
+  },
+  "resumen": "Si la mente no ocupa espacio y el cuerpo sí, no está claro cómo pueden influirse. El problema lo abrió Descartes al separarlos, y seguimos discutiéndolo cuatro siglos después.",
+  "desarrollo": "La separación parecía limpia: la mente piensa y no tiene extensión; el cuerpo tiene extensión y no piensa. El precio apareció enseguida y se lo cobró Isabel de Bohemia en una carta que sigue siendo la objeción más certera que recibió: si la mente no es física, ¿con qué empuja? Todo lo que sabemos de causar movimiento implica contacto, presión, transferencia. Descartes propuso la glándula pineal como punto de encuentro, y prácticamente nadie lo aceptó, empezando por ella. Spinoza da la vuelta al planteamiento: no hay dos sustancias que deban comunicarse, sino una sola realidad que puede describirse en dos vocabularios, el del pensamiento y el de la extensión. Ahí no hay interacción que explicar, porque no hay dos cosas; pero el precio es renunciar a que lo mental cause lo físico.",
+  "ejemplo_real": "Decides levantarte y te levantas. Nadie duda de que pasó, y sin embargo nadie sabe contar el momento exacto en que una intención se convierte en una contracción muscular. Lo mismo al revés: dos copas de vino cambian lo que sientes y lo que decides, aunque el alcohol no tenga opiniones. Convivimos con dos descripciones que no encajan.",
+  "matiz_experto": "El dualismo de sustancias es hoy minoritario, pero el problema no está resuelto: la pregunta de por qué los procesos físicos van acompañados de experiencia subjetiva —el llamado problema difícil de la conciencia— es su heredera directa.",
+  "visualizacion": {
+    "id": "vis-mente-cuerpo-descartes",
+    "idea_id": "problema-mente-cuerpo",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario separa las dos descripciones de una misma acción imponiendo lo que cada una excluye, y después intenta trazar la flecha causal que iría de una a otra. La flecha sale, frena y se planta a mitad del hueco con la punta apuntando al vacío: se ha quedado sin con qué seguir. Puede intentarlo cuantas veces quiera, siempre llega igual de lejos. Superponer las dos descripciones no completa la flecha: la deja sin sitio, porque ya no hay dos cosas que conectar.",
+    "invitacion": "Separa las dos descripciones e intenta unirlas",
+    "alternativa_textual": "Dos descripciones de la misma acción, mental y física, entre las que no se puede trazar una flecha causal sin quedarse sin vocabulario, y que al superponerse eliminan el problema en vez de resolverlo: demuestra la dificultad que abre separar mente y cuerpo.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "figuraA": "lo que piensas",
+      "figuraB": "lo que ocupa espacio",
+      "coste": "distancia sin explicar",
+      "flecha": {
+        "intentar": "trazar la flecha causal",
+        "sinVocabulario": "La flecha se planta a media distancia. Para seguir habría que decir con qué empuja algo que no ocupa espacio, y ahí se acaba el vocabulario: empujar, presionar, transmitir son palabras de lo extenso. Es la objeción que le puso Isabel de Bohemia.",
+        "superponer": "superponer las dos descripciones",
+        "sinDosCosas": "Ya no hay dos cosas separadas, así que no hay flecha que trazar. Fíjate en que el problema no se ha resuelto: ha dejado de poder plantearse, y el precio es renunciar a que lo mental cause lo físico."
+      },
+      "condiciones": [
+        {
+          "nombre": "la mente no es extensa",
+          "efecto": "Si no ocupa espacio, no está claro con qué podría empujar.",
+          "peso": 0.4
+        },
+        {
+          "nombre": "el cuerpo no piensa",
+          "efecto": "Y si no piensa, tampoco puede recibir una intención.",
+          "peso": 0.4
+        }
+      ],
+      "resolucion": "Al retirar la separación, el problema no se resuelve: desaparece, porque ya no hay dos cosas que conectar. Ese es el precio que paga Spinoza.",
+      "alternativaTexto": "Dos descripciones de la misma acción, mental y física, entre las que no se puede trazar una flecha causal sin quedarse sin vocabulario, y que al superponerse eliminan el problema en vez de resolverlo: demuestra la dificultad que abre separar mente y cuerpo.",
+      "etiqueta": "El problema mente-cuerpo"
+    }
+  },
+  "ideas_relacionadas": [
+    "duda-metodica",
+    "libertad-como-comprension",
+    "lo-inconsciente",
+    "condicionamiento-operante"
+  ]
+}

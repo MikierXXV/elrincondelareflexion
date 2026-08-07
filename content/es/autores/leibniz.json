@@ -1,0 +1,36 @@
+{
+  "id": "leibniz",
+  "nombre": "Gottfried Wilhelm Leibniz",
+  "corriente_id": "racionalismo",
+  "periodo": "1646–1716",
+  "region": "Leipzig, Hannover, París",
+  "preguntas_filosoficas": [
+    "¿Por qué existe algo en lugar de nada?",
+    "¿Puede un mundo con tanto mal ser el mejor posible?"
+  ],
+  "citas": [
+    {
+      "texto": "¿Por qué hay algo en vez de nada?",
+      "obra": "Principios de la naturaleza y de la gracia, 7",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que nada ocurre sin una razón que lo explique, y que este mundo, con todos sus males, es el mejor de los que Dios podía crear a la vez.",
+  "nivel_2_desarrollo": "Leibniz apoya su sistema en dos principios: nada es a la vez verdadero y falso, y nada sucede sin razón suficiente. Del segundo extrae su pregunta más célebre —por qué hay algo en vez de nada— y su respuesta metafísica: la realidad última está compuesta de mónadas, unidades simples sin partes, cada una de las cuales refleja el universo entero desde su punto de vista. Como no interactúan entre sí, la coordinación entre ellas se explica por una armonía preestablecida, como relojes sincronizados desde el origen. Su tesis más discutida es la del mejor de los mundos posibles: Dios evaluó infinitas combinaciones y, dado que los bienes y males están entrelazados, eligió la que maximiza la perfección global. No dice que no haya mal, sino que no hay ninguna alternativa completa que sea mejor. Fue además codescubridor del cálculo infinitesimal y precursor de la lógica formal.",
+  "nivel_3_experto": "Leibniz publicó poco en vida y su pensamiento se reconstruye a partir de una masa enorme de manuscritos y correspondencia todavía en edición crítica, lo que hace que la imagen del sistema haya cambiado varias veces: las lecturas del siglo XX, con Couturat y luego Russell, subrayaron la raíz lógica del sistema —la tesis de que en toda proposición verdadera el predicado está contenido en el sujeto—, de la que se seguiría la teoría de la noción completa de cada sustancia individual, con el consiguiente problema de si eso hace necesarias todas sus propiedades y deja sin espacio a la contingencia. Su distinción entre necesidad absoluta y necesidad 'moral' o hipotética es la salida propuesta, y su suficiencia sigue debatiéndose. La teodicea fue satirizada por Voltaire en Cándido y criticada por su aparente insensibilidad al sufrimiento concreto, pero la maquinaria conceptual de mundos posibles que introdujo se convirtió, vía Kripke y la lógica modal, en herramienta estándar de la filosofía analítica contemporánea. Su correspondencia con Clarke fija además el debate clásico sobre si el espacio es absoluto (Newton) o relacional (Leibniz), discusión que la física posterior reactivó.",
+  "debate_abierto": "Cómo salva Leibniz la contingencia dentro de su teoría de la noción completa es un problema interpretativo central y no cerrado.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Gottfried Wilhelm Leibniz",
+      "url": "https://plato.stanford.edu/entries/leibniz/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Leibniz on the Problem of Evil",
+      "url": "https://plato.stanford.edu/entries/leibniz-evil/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Gottfried Leibniz",
+      "url": "https://iep.utm.edu/leib-met/"
+    }
+  ]
+}

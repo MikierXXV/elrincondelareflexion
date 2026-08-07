@@ -1,0 +1,76 @@
+{
+  "id": "angustia-y-libertad",
+  "corriente_id": "existencialismo",
+  "titulo": "La angustia como vértigo de la libertad",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "kierkegaard",
+      "rol": "principal",
+      "aporte": "Distingue la angustia del miedo: no tiene objeto, y es la conciencia de poder hacer cualquier cosa."
+    }
+  ],
+  "pregunta": "¿De qué tienes miedo cuando no tienes miedo de nada en concreto?",
+  "cita": {
+    "texto": "La vida solo se comprende mirando atrás, pero ha de vivirse hacia adelante.",
+    "obra": "Diarios, 1843",
+    "autor_id": "kierkegaard",
+    "atribucion": "directa"
+  },
+  "resumen": "El miedo tiene objeto; la angustia no. Es el mareo que produce advertir que somos capaces de cualquier cosa y que nada nos obliga a elegir una en particular.",
+  "desarrollo": "Kierkegaard escribe contra los grandes sistemas con un argumento sencillo: por muy completo que sea un sistema, yo sigo teniendo que elegir, y esa elección no la hace nadie por mí. De ahí su análisis de la angustia, que separa cuidadosamente del miedo. Se teme algo concreto: un perro, una enfermedad, un examen. La angustia, en cambio, no tiene objeto, y por eso no se puede resolver evitando nada. Su imagen es el borde de un precipicio: lo que produce vértigo no es la posibilidad de caerse, sino descubrir que uno podría saltar, que nada se lo impide. La angustia es entonces la forma en que la libertad se hace notar. No es una avería psicológica que haya que quitar, sino la señal de que hay una decisión que es tuya y de la que vas a responder.",
+  "ejemplo_real": "El domingo por la tarde de alguien que acaba de dejar un trabajo y tiene por delante meses sin obligaciones. No hay ninguna amenaza y sin embargo cuesta respirar. Es exactamente lo contrario del agobio por falta de tiempo: es el vértigo de que ninguna hora esté decidida y de que lo que salga de ahí sea enteramente responsabilidad tuya.",
+  "matiz_experto": "Publicó bajo seudónimos con voces autónomas y pidió que no se le citara como responsable de ellas, así que atribuirle tesis directamente exige cuidado. Su 'suspensión teleológica de lo ético' arrastra además la objeción de abrir la puerta al irracionalismo.",
+  "visualizacion": {
+    "id": "vis-angustia-kierkegaard",
+    "idea_id": "angustia-y-libertad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Una figura al borde de un precipicio. El usuario comprueba que no hay nada que la empuje ni la retenga y que la interfaz no marca ninguna opción como correcta ni ofrece consejo. El indicador no mide 'miedo a caer' sino 'conciencia de poder hacerlo', y aumenta cuanto más tiempo permanece el usuario sin decidir, en vez de disminuir.",
+    "invitacion": "Busca algo que decida por ti",
+    "alternativa_textual": "Una figura ante una decisión sin ninguna indicación de cuál es la correcta, cuyo indicador de angustia crece con el tiempo de indecisión en lugar de bajar: demuestra que la angustia procede de la libertad y no de una amenaza.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "margen",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "situacion": "Meses por delante sin ninguna obligación",
+      "bloqueados": [
+        {
+          "nombre": "Que alguien decida por ti",
+          "porque": "No hay instancia que decida en tu lugar. Ese es justamente el problema."
+        },
+        {
+          "nombre": "Que algo te obligue",
+          "porque": "Nada te empuja ni te retiene: por eso no es miedo, que siempre tiene objeto."
+        },
+        {
+          "nombre": "Saber si acertarás",
+          "porque": "La angustia no se resuelve con información: no es incertidumbre sobre un hecho."
+        }
+      ],
+      "margen": "lo que decidas hacer con ellos",
+      "opciones": [
+        {
+          "texto": "Elegir algo",
+          "efecto": "Al elegir no desaparece el vértigo: aparece la responsabilidad, que es otra cosa."
+        },
+        {
+          "texto": "No elegir todavía",
+          "efecto": "Abstenerse también es elegir, y la conciencia de poder hacer cualquier cosa sigue subiendo."
+        }
+      ],
+      "resolucion": "La angustia no es una avería psicológica que haya que quitar: es la forma en que la libertad se hace notar. El vértigo no es la posibilidad de caerse, sino descubrir que podrías saltar.",
+      "alternativaTexto": "Una figura ante una decisión sin ninguna indicación de cuál es la correcta, cuyo indicador de angustia crece con el tiempo de indecisión en lugar de bajar: demuestra que la angustia procede de la libertad y no de una amenaza.",
+      "etiqueta": "La angustia como vértigo de la libertad"
+    }
+  },
+  "ideas_relacionadas": [
+    "mala-fe",
+    "eterno-retorno",
+    "voluntad-de-sentido",
+    "libertad-como-comprension"
+  ]
+}

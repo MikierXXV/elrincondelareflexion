@@ -1,0 +1,74 @@
+{
+  "id": "hablar-de-lo-que-no-existe",
+  "corriente_id": "analitica",
+  "titulo": "Talking about what does not exist",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "russell",
+      "rol": "principal",
+      "aporte": "Shows that a sentence about something non-existent can be analysed without positing phantom entities."
+    }
+  ],
+  "pregunta": "If there is no king of France, what is the sentence 'the king of France is bald' about?",
+  "cita": {
+    "texto": "The stupid are cocksure; the intelligent, full of doubt.",
+    "obra": "The Triumph of Stupidity, 1933",
+    "autor_id": "russell",
+    "atribucion": "directa"
+  },
+  "resumen": "It looked as though, to make sense, a sentence about something non-existent had to refer to something. Russell takes it apart into three claims and the problem vanishes: it is simply false.",
+  "desarrollo": "The case is the one that founded a school. 'The present king of France is bald' makes sense, is perfectly understood, and yet there is no king of France. The temptation is to conclude that there must be some kind of non-real object the sentence refers to, and there are philosophers who defended exactly that. Russell proposes reading it differently: as the conjunction of three claims. There is at least one king of France; there is at most one; and he is bald. Since the first fails, the whole sentence is simply false, with no need to posit anything. The interest lies not in the example but in the method: translating ordinary language into an explicit logical form reveals that the grammar of a sentence does not always match what it actually asserts. That procedure defines the style of analytic philosophy.",
+  "ejemplo_real": "'Have you stopped breaking the rules yet?' Any direct answer concedes something you never accepted. The trap is that the question smuggles one claim inside another, and answering 'yes' or 'no' grants it. Taking the sentence apart into the pieces it actually asserts is what lets you reply.",
+  "matiz_experto": "Strawson objected that existence is presupposed rather than asserted, and Donnellan distinguished referential from attributive uses. Kripke later reoriented the whole field with his critique of descriptivist theories of proper names, so the Russellian analysis is no longer the standard position.",
+  "visualizacion": {
+    "id": "vis-descripciones-russell",
+    "idea_id": "hablar-de-lo-que-no-existe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user enters a sentence with a subject that does not exist and the visualisation takes it apart into its three logical conditions, each with its own true/false switch. When the first fails, the whole sentence is marked false without any phantom entity appearing in the scene: the non-existent object never turns out to be needed.",
+    "invitacion": "Take the sentence apart and check each condition",
+    "alternativa_textual": "A sentence about something non-existent broken into three independent logical conditions, so that it comes out false with no need to posit any object for it to refer to: it shows that the grammar of a sentence does not match what it asserts.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "descomponer",
+    "parametros": {
+      "corrienteId": "analitica",
+      "conjunto": "The present king of France is bald",
+      "accion": "Separate into what it actually asserts",
+      "piezas": [
+        {
+          "nombre": "There is a king of France",
+          "estado": "falso",
+          "nota": "This is where it fails. And that alone makes the whole sentence false."
+        },
+        {
+          "nombre": "There is at most one",
+          "estado": "verdadero",
+          "nota": "Trivially true: there is none, so there are not two."
+        },
+        {
+          "nombre": "He is bald",
+          "estado": "indeterminado",
+          "nota": "It never gets evaluated, because there is nobody to predicate it of."
+        }
+      ],
+      "veredicto": "The sentence is false. No non-existent object was needed.",
+      "resolucion": "The grammar of a sentence does not match what it asserts. Take it apart and the phantom object never turns out to be needed.",
+      "alternativaTexto": "A sentence about something non-existent broken into three independent logical conditions, so that it comes out false with no need to posit any object for it to refer to: it shows that the grammar of a sentence does not match what it asserts.",
+      "etiqueta": "Talking about what does not exist",
+      "veredictos": {
+        "verdadero": "holds",
+        "falso": "does not hold",
+        "indeterminado": "undetermined"
+      }
+    }
+  },
+  "ideas_relacionadas": [
+    "limites-del-lenguaje",
+    "significado-como-uso",
+    "esencia-y-existencia"
+  ]
+}

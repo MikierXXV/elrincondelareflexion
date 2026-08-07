@@ -1,0 +1,37 @@
+{
+  "id": "schopenhauer",
+  "nombre": "Arthur Schopenhauer",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1788–1860",
+  "region": "Danzig, Frankfurt",
+  "preguntas_filosoficas": [
+    "What lies behind the appearance of the world?",
+    "Are we moved by reason or by something prior to it?"
+  ],
+  "citas": [
+    {
+      "texto": "Life swings like a pendulum between pain and boredom.",
+      "obra": "The World as Will and Representation, §57",
+      "atribucion": "tradicional",
+      "nota": "A widely circulated condensation of a longer passage; it is not a literal sentence from the text."
+    }
+  ],
+  "nivel_1_resumen": "Against the idea of a rational history on the march, he held that the ground of reality is a blind impulse — the will — that is never satisfied, and that desire therefore produces more dissatisfaction than happiness.",
+  "nivel_2_desarrollo": "Schopenhauer starts from Kant and adds a twist: he believed he knew what the thing in itself is. We discover it, he says, in ourselves, because we know ourselves from within not as representation but as willing. That same impulse, without end or purpose, would be the ground of everything that exists. Hence his pessimism: to will is to lack, satisfying one desire opens the next, and the interval between them is usually boredom. There are, however, forms of temporary suspension: aesthetic contemplation, where for a moment one looks without wanting anything — and he places music above the other arts, because it does not represent the world but expresses that impulse directly — and compassion, in which the boundary between self and other weakens. He was among the first European philosophers to engage seriously with Buddhism and Indian thought.",
+  "nivel_3_experto": "His system carries an acknowledged difficulty: if the thing in itself is unknowable and independent of the principle of individuation, identifying it with the will means applying to it a category taken from self-consciousness, a problem he tries to mitigate by saying it is only its most immediate manifestation. Current reception insists on distinguishing his philosophical pessimism, with arguments about the structure of desire and the balance of suffering, from the personal temperament it is usually dismissed with. His relation to Eastern sources is a subject of study and of caution: he read nineteenth-century translations — the Oupnek'hat, a Latin version of a Persian translation of the Upanishads — and his reading of Buddhism is mediated by that filter, so the convergences he celebrates should be treated as reworking rather than faithful transmission. His influence is disproportionate to his academic recognition in life: Nietzsche starts from him and defines himself against him; Freud recognised in the will an anticipation of the instinctual unconscious; Wittgenstein, Wagner, Tolstoy, Borges and Beckett read him closely. His theory of compassion as the basis of morality is today a contested alternative to Kantianism and utilitarianism.",
+  "debate_abierto": "The legitimacy of identifying the Kantian thing in itself with the will is his most criticised point; the fidelity of his interpretation of Buddhism and Vedanta is also debated.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Arthur Schopenhauer",
+      "url": "https://plato.stanford.edu/entries/schopenhauer/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Arthur Schopenhauer",
+      "url": "https://iep.utm.edu/schopenh/"
+    },
+    {
+      "titulo": "App, Schopenhauer's Compass (on his Eastern sources)",
+      "url": null
+    }
+  ]
+}

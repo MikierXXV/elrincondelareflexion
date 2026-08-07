@@ -1,0 +1,106 @@
+{
+  "id": "significado-como-uso",
+  "corriente_id": "analitica",
+  "titulo": "Meaning is use",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "wittgenstein",
+      "rol": "principal",
+      "aporte": "Abandons his own model: the sense of a word lies in how it is used, not in what it represents."
+    }
+  ],
+  "pregunta": "Where does a word get its meaning from?",
+  "cita": {
+    "texto": "The meaning of a word is its use in the language.",
+    "obra": "Philosophical Investigations, 43",
+    "autor_id": "wittgenstein",
+    "atribucion": "directa"
+  },
+  "resumen": "Wittgenstein dismantles his own system: meaning lies not in what the word represents but in how it is used within a shared activity. And many concepts have no definition, only a family resemblance.",
+  "desarrollo": "His mature idea is that asking what a word means in the abstract is starting off wrong: you have to look at what people do with it. 'Water' does not mean the same thing shouted as a warning, said as a request, or printed on a label, and none of those uses is the authentic one. He calls these language games, activities in which words and actions are interwoven. From this comes his second observation: many concepts have no common feature. Look for what all games share — competition? not solitaire; enjoyment? not always; rules? not those either — and he finds nothing present in all of them, only a fabric of overlapping resemblances, like the features of a family. And he adds that a strictly private language would be impossible, because without a public criterion there is no difference between using a word correctly and believing you are.",
+  "ejemplo_real": "'We'll talk.' It can be a promise, a polite way of ending the conversation, or a veiled threat, depending on who says it, to whom, and when. Nobody consults a dictionary to work out which: you know from what is going on around it. That surrounding is not the context of the meaning, it is the meaning.",
+  "matiz_experto": "The private language argument and the rule-following paradox have generated an enormous literature since Kripke's sceptical reading, which many consider an original construction rather than exegesis. Whether the solution is communitarian or individualist is still open.",
+  "visualizacion": {
+    "id": "vis-juegos-wittgenstein",
+    "idea_id": "significado-como-uso",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user takes the same word into four scenes — a building site, a table, a label, an exam — and watches its sense change while the sign stays put. In the band alongside they propose, one at a time, features that ought to hold for all four games: each proposal is refuted by one concrete game, which is marked out and keeps the mark, while the links between the games that do share it accumulate. By the end all four have fallen outside something, and what is on screen is a web of overlapping resemblances rather than a definition.",
+    "invitacion": "Take the word to another scene and find what they share",
+    "alternativa_textual": "A word whose sense changes as the scene changes while the sign does not, and a search for a common feature that is always refuted and leaves a network of overlapping resemblances: it shows that meaning lies in use and that many concepts have no single definition.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "contexto",
+    "parametros": {
+      "corrienteId": "analitica",
+      "elemento": "water",
+      "escenas": [
+        {
+          "nombre": "On a building site",
+          "sentido": "Warning: stand back, there is a leak.",
+          "nota": "The sign has not changed. What has changed is what is going on around it."
+        },
+        {
+          "nombre": "At a table",
+          "sentido": "Request: pour me a glass.",
+          "nota": "None of these uses is the authentic one with the rest derived from it."
+        },
+        {
+          "nombre": "On a label",
+          "sentido": "Classification: this is what it contains.",
+          "nota": "Nobody consults a dictionary to work out which: you know from the context."
+        },
+        {
+          "nombre": "In an exam",
+          "sentido": "H₂O: a formula to be reproduced.",
+          "nota": "That surrounding is not the context of the meaning: it is the meaning."
+        }
+      ],
+      "rasgo": {
+        "rotulo": "What do all games share?",
+        "casos": [
+          "Chess",
+          "Solitaire",
+          "Ring game",
+          "Olympic games"
+        ],
+        "rasgos": [
+          {
+            "nombre": "Two sides competing?",
+            "refutadoPor": 1,
+            "refutacion": "Solitaire is played with no opponent and nobody doubts that it is a game."
+          },
+          {
+            "nombre": "Enjoyment?",
+            "refutadoPor": 3,
+            "refutacion": "An Olympic finalist can be having a wretched time and still be playing."
+          },
+          {
+            "nombre": "Winning or losing?",
+            "refutadoPor": 2,
+            "refutacion": "In a ring game nobody wins: you circle, you sing, you start over."
+          },
+          {
+            "nombre": "A part for chance?",
+            "refutadoPor": 0,
+            "refutacion": "Chess has no chance in it: everything is in plain sight for both players."
+          }
+        ],
+        "invitacion": "Propose a feature common to all four.",
+        "sinNucleo": "None holds for all: only resemblances that overlap."
+      },
+      "resolucion": "Asking what a word means in the abstract is starting off wrong: you have to look at what people do with it. And not every concept has a common feature; sometimes there are only overlapping resemblances.",
+      "alternativaTexto": "A word whose sense changes as the scene changes while the sign does not, and a search for a common feature that is always refuted and leaves a network of overlapping resemblances: it shows that meaning lies in use and that many concepts have no single definition.",
+      "etiqueta": "Meaning is use"
+    }
+  },
+  "ideas_relacionadas": [
+    "limites-del-lenguaje",
+    "saber-que-no-se-sabe",
+    "hablar-de-lo-que-no-existe",
+    "ren-y-li"
+  ]
+}

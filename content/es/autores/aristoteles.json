@@ -1,0 +1,38 @@
+{
+  "id": "aristoteles",
+  "nombre": "Aristóteles",
+  "corriente_id": "clasica-griega",
+  "periodo": "384–322 a.C.",
+  "region": "Estagira, Atenas",
+  "preguntas_filosoficas": [
+    "¿Dónde está la esencia de una cosa: fuera o dentro de ella?",
+    "¿En qué consiste vivir bien?",
+    "¿Qué es una inferencia válida?"
+  ],
+  "citas": [
+    {
+      "texto": "El ser humano es por naturaleza un animal político.",
+      "obra": "Política I, 1253a",
+      "atribucion": "directa",
+      "nota": "«Somos lo que hacemos repetidamente» no es suya: es una síntesis de Will Durant de 1926 que se le atribuye por error."
+    }
+  ],
+  "nivel_1_resumen": "Bajó las Ideas de Platón al suelo: la esencia de las cosas está en las cosas mismas. Y definió la vida buena como una práctica que se adquiere con hábito, no como un saber teórico.",
+  "nivel_2_desarrollo": "Aristóteles acepta que hay algo estable que conocer, pero no que esté en un mundo aparte: la forma de un ser vivo está en ese ser vivo, no en un modelo separado. Para explicar el cambio recurre a cuatro causas y, sobre todo, a la distinción entre potencia y acto: una semilla es en potencia el árbol que llegará a ser. En ética aplica el mismo enfoque: no busca definir el Bien en abstracto, sino describir qué hace florecer a un ser humano. La respuesta es la eudaimonía, una vida activa conforme a la virtud, y las virtudes se adquieren repitiendo actos, como se aprende un oficio. La virtud suele situarse en un término medio entre dos excesos, y el juicio de dónde está ese medio en cada situación concreta es tarea de la prudencia. También sistematizó la lógica y fundó la biología como estudio empírico.",
+  "nivel_3_experto": "El corpus que conservamos son en su mayoría notas de trabajo destinadas a la enseñanza en el Liceo, no obras publicadas, lo que explica repeticiones, cambios de terminología y tensiones internas: la crítica ha discutido durante todo el siglo XX si reflejan una evolución (la tesis desarrollista de Jaeger) o una organización temática. En metafísica, el hilemorfismo plantea el problema de qué individúa a dos ejemplares de la misma forma, y la relación entre sustancia primera, esencia y universal admite lecturas incompatibles. Su teleología —la idea de que los procesos naturales tienden a un fin— fue el blanco principal de la ciencia moderna, aunque la biología contemporánea ha recuperado explicaciones funcionales que algunos intérpretes consideran emparentadas. En ética, el debate sobre el 'inclusivismo' frente al 'intelectualismo' sigue abierto: si la eudaimonía integra varios bienes o culmina en la vida contemplativa del libro X. El aristotelismo se convirtió en marco dominante vía comentaristas griegos, árabes (Averroes) y latinos, y su ética de la virtud vive un revival desde Anscombe y MacIntyre.",
+  "debate_abierto": "La unidad del corpus, el estatuto de la teleología y si la vida buena aristotélica es inclusiva o contemplativa siguen siendo objeto de interpretaciones rivales.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Aristotle",
+      "url": "https://plato.stanford.edu/entries/aristotle/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Aristotle's Ethics",
+      "url": "https://plato.stanford.edu/entries/aristotle-ethics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Aristotle",
+      "url": "https://iep.utm.edu/aristotle/"
+    }
+  ]
+}

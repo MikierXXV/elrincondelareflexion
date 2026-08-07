@@ -1,0 +1,80 @@
+{
+  "id": "genealogia-de-la-moral",
+  "corriente_id": "existencialismo",
+  "titulo": "The genealogy of morals",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "nietzsche",
+      "rol": "principal",
+      "aporte": "Changes the question: not what the good is, but where that idea came from and whom it suited."
+    }
+  ],
+  "pregunta": "Your values — where exactly did they come from?",
+  "cita": {
+    "texto": "There are no moral facts, only moral interpretations of facts.",
+    "obra": "Beyond Good and Evil, 108",
+    "autor_id": "nietzsche",
+    "atribucion": "directa"
+  },
+  "resumen": "Instead of asking what the good is, Nietzsche asks where that idea came from and whom it suited. His reconstruction concludes that our present values are the result of a historical inversion.",
+  "desarrollo": "The method consists in treating values as things with a history rather than as eternal truths. His reconstruction distinguishes two systems. One aristocratic, where 'good' meant accomplished, strong, capable, and was said of oneself. And a later one, born of the resentment of those who could not be any of those things, which inverts the terms: it calls the humble good, the harmless virtuous, and turns powerlessness into merit. What interests him is not whether this is pleasant to hear, but that the morality we take as self-evident has a date, authors and interests. To this he adds his diagnosis of the present, the 'death of God': not a theological thesis but the observation that European culture has stopped believing in what upheld its values, without having faced the consequences. The risk he sees is nihilism, not automatic liberation.",
+  "ejemplo_real": "Try the word 'ambitious'. It can be praise or reproach depending on who uses it and about whom, and that change of sign is not in the word but in the position it is said from. The same with 'conformist' or 'self-sacrificing'. Pull the thread and the label comes apart into an argument about who can afford what.",
+  "matiz_experto": "The book 'The Will to Power' was not composed by him: his sister assembled it posthumously from discarded notes, with documented manipulations that fed the Nazi appropriation. Even discounting that, his writings contain aristocratic and misogynist material that does not disappear by pointing at the forgery.",
+  "visualizacion": {
+    "id": "vis-genealogia-nietzsche",
+    "idea_id": "genealogia-de-la-moral",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user takes a present-day value — humility, compassion, equality — and drags it backwards along a timeline. The label comes apart into the conflicts and interests it arose from and, at some point along the way, changes sign: what it praises today it once despised. The user can stop at any period and see who used the word and against whom.",
+    "invitacion": "Drag the value back and read what it meant",
+    "alternativa_textual": "A moral value that, dragged back through time, comes apart into the conflicts that produced it and eventually inverts its sign: it shows that values have a history rather than being timeless truths.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "linea-temporal",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "sujeto": "humility",
+      "hitos": [
+        {
+          "momento": "today",
+          "significado": "An admirable virtue: not boasting about your own worth.",
+          "signo": "positivo",
+          "nota": "This is how we take it for granted, as though it had always been so."
+        },
+        {
+          "momento": "19th c.",
+          "significado": "An internalised Christian duty, demanded of everyone.",
+          "signo": "positivo",
+          "nota": "Still a value, but you can now see that someone imposed it, and on whom."
+        },
+        {
+          "momento": "Late Rome",
+          "significado": "The consolation of those who could aspire to nothing else.",
+          "signo": "neutro",
+          "nota": "Here the interest starts to show: what cannot be had is turned into merit."
+        },
+        {
+          "momento": "Archaic Greece",
+          "significado": "Lowliness. The good was the accomplished, the capable, the strong.",
+          "signo": "negativo",
+          "nota": "The word has changed sign: what it praises today it once despised."
+        }
+      ],
+      "resolucion": "The value had a date, authors and interests. That is genealogy: not asking what the good is, but where it came from and whom it suited.",
+      "alternativaTexto": "A moral value that, dragged back through time, comes apart into the conflicts that produced it and eventually inverts its sign: it shows that values have a history rather than being timeless truths.",
+      "atras": "Pull backwards",
+      "adelante": "Back to the present",
+      "etiqueta": "The genealogy of morals",
+      "etiquetaMarcador": "Historical moment"
+    }
+  },
+  "ideas_relacionadas": [
+    "eterno-retorno",
+    "ideologia",
+    "ley-de-hume",
+    "lo-inconsciente"
+  ]
+}

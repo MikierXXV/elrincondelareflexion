@@ -1,0 +1,36 @@
+{
+  "id": "epicuro",
+  "nombre": "Epicurus",
+  "corriente_id": "helenismo",
+  "periodo": "341–270 BCE",
+  "region": "Samos, Athens",
+  "preguntas_filosoficas": [
+    "Which desires are worth satisfying?",
+    "Is it rational to fear death?"
+  ],
+  "citas": [
+    {
+      "texto": "While we exist death is not present; when it comes, we are not.",
+      "obra": "Letter to Menoeceus",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He defined pleasure not as an accumulation of gratifications but as the absence of pain and unease: you are happy when you stop needing things you do not need.",
+  "nivel_2_desarrollo": "Epicureanism has a bad name through a misunderstanding: it does not recommend excess but a sober calculation. Epicurus sorts desires into natural and necessary (food, shelter, friendship), natural but unnecessary (eating well) and empty (fame, unlimited wealth), and observes that the last have no ceiling and therefore produce permanent anxiety. The good life consists in covering the first and defusing the rest, thereby reaching ataraxia. To this he adds a therapy against the two great fears: of the gods, who in his atomist physics do not intervene in the world, and of death, which on his argument cannot harm us because while we exist it is not there and when it is there is no subject left to harm. Friendship occupies in his school — the Garden, open to women and slaves — the central place others give to politics.",
+  "nivel_3_experto": "Of his own work there survive three doctrinal letters, the Principal Doctrines and fragments; reconstruction also rests on Lucretius, on Diogenes Laertius, and on the carbonised papyri of Herculaneum, whose reading continues to advance with imaging techniques. His atomist physics introduces the clinamen, a minimal unpredictable swerve of atoms that Lucretius presents as the condition of freedom; whether Epicurus formulated it in those terms, and whether it works philosophically as a foundation for the will or only as a cosmological device, has been argued since antiquity. In ethics it is debated whether his hedonism is 'kinetic' or exclusively 'katastematic' — the pleasure of rest — which changes the tone of the doctrine entirely. His argument against the fear of death has been much worked over in contemporary analytic philosophy: the deprivation objection holds that death does harm us by depriving us of future goods, even if there is no moment at which the harm is experienced. Epicureanism was systematically caricatured by the Stoics and later by the Christian tradition, and was only rehabilitated with the rediscovery of Lucretius in the Renaissance.",
+  "debate_abierto": "The status of the clinamen and the kind of hedonism Epicurus defends are open interpretive questions; his argument about death is still actively discussed in analytic ethics.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Epicurus",
+      "url": "https://plato.stanford.edu/entries/epicurus/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Epicurus",
+      "url": "https://iep.utm.edu/epicur/"
+    },
+    {
+      "titulo": "Long & Sedley, The Hellenistic Philosophers, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

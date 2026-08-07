@@ -1,0 +1,63 @@
+{
+  "id": "voluntad-y-pesimismo",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "La voluntad y el pesimismo",
+  "orden": 5,
+  "autores": [
+    {
+      "id": "schopenhauer",
+      "rol": "principal",
+      "aporte": "Sitúa en el fondo del mundo un impulso ciego que nunca se sacia."
+    },
+    {
+      "id": "hegel",
+      "rol": "contrapunto",
+      "aporte": "Encarna la historia racional en marcha que Schopenhauer niega de raíz."
+    }
+  ],
+  "pregunta": "¿Y si lo que nos mueve no fuera la razón, sino un querer que no se agota nunca?",
+  "cita": {
+    "texto": "La vida oscila como un péndulo entre el dolor y el hastío.",
+    "obra": "El mundo como voluntad y representación, §57",
+    "autor_id": "schopenhauer",
+    "atribucion": "tradicional",
+    "nota": "Condensación muy difundida de un pasaje más extenso; no es una frase literal del texto."
+  },
+  "resumen": "Querer implica carencia. Satisfacer un deseo abre el siguiente, y el intervalo entre ambos suele ser aburrimiento. De ahí que el péndulo no se detenga en el punto medio.",
+  "desarrollo": "Schopenhauer parte de Kant y añade una vuelta de tuerca: cree saber qué es la cosa en sí, porque hay un caso en que no la percibimos desde fuera sino desde dentro, y es nosotros mismos. Y lo que encontramos ahí no es razón, sino querer. Ese impulso, sin fin ni propósito, sería el fondo de todo lo que existe. La consecuencia es su pesimismo: como desear es carecer, la satisfacción solo produce una pausa breve antes del siguiente deseo, y si no aparece ninguno, aparece el tedio. No hay punto de reposo. Contra Hegel, que veía la historia avanzando hacia la conciencia de la libertad, él ve un impulso que se devora a sí mismo. Pero deja dos salidas parciales: la contemplación estética, donde por un momento se mira sin querer nada, y la compasión, donde el límite entre yo y otro se debilita.",
+  "ejemplo_real": "El día que por fin te entregan las llaves del piso, o firmas el contrato que llevabas dos años persiguiendo. La alegría dura menos de lo que esperabas, y a los pocos días ya estás pensando en lo siguiente. No es ingratitud: es la estructura que Schopenhauer describe, y por eso es tan raro que nadie te avise antes.",
+  "matiz_experto": "Su punto más criticado es identificar la cosa en sí kantiana con la voluntad, lo que supone aplicarle una categoría tomada de la autoconciencia. Y su lectura del budismo y el vedanta está mediada por traducciones del siglo XIX, así que hay que tratarla como reelaboración, no como transmisión fiel.",
+  "visualizacion": {
+    "id": "vis-pendulo-schopenhauer",
+    "idea_id": "voluntad-y-pesimismo",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "Un péndulo real oscila entre dos extremos rotulados 'dolor' y 'hastío'. El usuario intenta detenerlo en el centro empujándolo: cada empujón le da más energía y lo aleja más. Solo un modo aparte, 'contemplación', en el que el usuario mira sin intervenir, permite que la oscilación se amortigüe sola, y se reanuda en cuanto vuelve a tocarlo.",
+    "invitacion": "Empuja el péndulo al centro",
+    "alternativa_textual": "Un péndulo entre carencia y aburrimiento que se aleja más del centro cuanto más se le empuja y solo se amortigua cuando se deja de intervenir: demuestra por qué satisfacer deseos no detiene el ciclo del querer.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Un péndulo que oscila entre el dolor y el hastío",
+      "satisfacer": "Satisfacer un deseo",
+      "contemplar": "Contemplar sin querer nada",
+      "volverAQuerer": "Volver a querer algo",
+      "estadoContemplando": "contemplación: el movimiento se apaga solo",
+      "estadoDeseos": "deseos satisfechos",
+      "dolor": "dolor",
+      "hastio": "hastío",
+      "resolucionEmpujar": "Cada satisfacción lo ha alejado más del centro. Querer implica carencia, y satisfacer un deseo solo abre el siguiente.",
+      "resolucionContemplar": "Solo se detiene cuando dejas de querer algo. Por eso Schopenhauer pone ahí la contemplación estética: un momento en que se mira sin desear.",
+      "resolucionEstatica": "El péndulo oscila entre el dolor de la carencia y el hastío de la saciedad, sin punto de reposo.",
+      "alternativaTexto": "Un péndulo entre carencia y aburrimiento que se aleja más del centro cuanto más se le empuja y solo se amortigua cuando se deja de intervenir: demuestra por qué satisfacer deseos no detiene el ciclo del querer."
+    }
+  },
+  "ideas_relacionadas": [
+    "limite-del-placer",
+    "las-cuatro-verdades",
+    "eterno-retorno",
+    "voluntad-de-sentido"
+  ]
+}

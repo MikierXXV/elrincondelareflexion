@@ -1,0 +1,106 @@
+{
+  "id": "significado-como-uso",
+  "corriente_id": "analitica",
+  "titulo": "El significado es el uso",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "wittgenstein",
+      "rol": "principal",
+      "aporte": "Abandona su propio modelo: el sentido de una palabra está en cómo se emplea, no en lo que representa."
+    }
+  ],
+  "pregunta": "¿De dónde saca sentido una palabra?",
+  "cita": {
+    "texto": "El significado de una palabra es su uso en el lenguaje.",
+    "obra": "Investigaciones filosóficas, 43",
+    "autor_id": "wittgenstein",
+    "atribucion": "directa"
+  },
+  "resumen": "Wittgenstein desmonta su propio sistema: el significado no está en lo que la palabra representa, sino en cómo se usa dentro de una actividad compartida. Y muchos conceptos no tienen definición, sino aire de familia.",
+  "desarrollo": "Su idea madura es que preguntar qué significa una palabra en abstracto es empezar mal: hay que mirar qué hace la gente con ella. 'Agua' no significa lo mismo gritado como advertencia, dicho como petición o escrito en una etiqueta, y ninguno de esos usos es el auténtico. A eso llama juegos de lenguaje, actividades donde palabras y acciones están entretejidas. De ahí sale su segunda observación: muchos conceptos no tienen un rasgo común. Busca lo que comparten todos los juegos —¿competición? el solitario no; ¿diversión? no siempre; ¿reglas? tampoco— y no encuentra ninguno presente en todos, sino un tejido de parecidos que se solapan, como los rasgos de una familia. Y añade que un lenguaje estrictamente privado sería imposible, porque sin criterio público no hay diferencia entre usar bien una palabra y creer que se usa bien.",
+  "ejemplo_real": "«Ya hablaremos.» Puede ser una promesa, una manera cortés de terminar la conversación o una amenaza velada, según quién lo diga, a quién y en qué momento. Nadie consulta un diccionario para saber cuál es: lo sabes por lo que está pasando alrededor. Ese alrededor no es el contexto del significado, es el significado.",
+  "matiz_experto": "El argumento del lenguaje privado y la paradoja del seguimiento de reglas han generado una literatura enorme desde la lectura escéptica de Kripke, que muchos consideran una construcción original más que exégesis. Sigue abierto si la solución es comunitarista o individualista.",
+  "visualizacion": {
+    "id": "vis-juegos-wittgenstein",
+    "idea_id": "significado-como-uso",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario lleva la misma palabra a cuatro escenas —una obra, una mesa, una etiqueta, un examen— y ve cambiar su sentido sin que el signo se altere. En la banda de al lado propone, uno a uno, rasgos que deberían valer para los cuatro juegos: cada propuesta la desmiente un juego concreto, que queda marcado fuera y conserva la marca, mientras las uniones entre los que sí lo comparten se van acumulando. Al final los cuatro han quedado fuera de algo y lo que hay en pantalla es una red de parecidos solapados, no una definición.",
+    "invitacion": "Lleva la palabra a otra escena y busca el rasgo común",
+    "alternativa_textual": "Una palabra cuyo sentido cambia al cambiar de escena sin que el signo varíe, y una búsqueda de rasgo común que siempre queda desmentida y deja una red de parecidos solapados: demuestra que el significado está en el uso y que muchos conceptos carecen de definición única.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "contexto",
+    "parametros": {
+      "corrienteId": "analitica",
+      "elemento": "agua",
+      "escenas": [
+        {
+          "nombre": "En una obra",
+          "sentido": "Advertencia: apártate, hay una fuga.",
+          "nota": "El signo no ha cambiado. Lo que ha cambiado es lo que está pasando alrededor."
+        },
+        {
+          "nombre": "En una mesa",
+          "sentido": "Petición: ponme un vaso.",
+          "nota": "Ninguno de estos usos es el auténtico y los demás derivados."
+        },
+        {
+          "nombre": "En una etiqueta",
+          "sentido": "Clasificación: esto es lo que contiene.",
+          "nota": "Nadie consulta un diccionario para saber cuál es: lo sabes por el contexto."
+        },
+        {
+          "nombre": "En un examen",
+          "sentido": "H₂O: una fórmula que hay que reproducir.",
+          "nota": "Ese alrededor no es el contexto del significado: es el significado."
+        }
+      ],
+      "rasgo": {
+        "rotulo": "¿Qué comparten todos los juegos?",
+        "casos": [
+          "Ajedrez",
+          "Solitario",
+          "Corro de niños",
+          "Juegos olímpicos"
+        ],
+        "rasgos": [
+          {
+            "nombre": "¿Compiten dos?",
+            "refutadoPor": 1,
+            "refutacion": "El solitario se juega sin rival y nadie duda de que sea un juego."
+          },
+          {
+            "nombre": "¿Se pasa bien?",
+            "refutadoPor": 3,
+            "refutacion": "Un finalista olímpico puede pasarlo francamente mal y seguir jugando."
+          },
+          {
+            "nombre": "¿Se gana o se pierde?",
+            "refutadoPor": 2,
+            "refutacion": "En el corro nadie gana: se da vueltas, se canta y se vuelve a empezar."
+          },
+          {
+            "nombre": "¿Interviene el azar?",
+            "refutadoPor": 0,
+            "refutacion": "En el ajedrez no hay azar: todo está a la vista de los dos jugadores."
+          }
+        ],
+        "invitacion": "Propón un rasgo común a los cuatro.",
+        "sinNucleo": "Ninguno vale para todos: solo parecidos que se solapan."
+      },
+      "resolucion": "Preguntar qué significa una palabra en abstracto es empezar mal: hay que mirar qué hace la gente con ella. Y no todo concepto tiene un rasgo común; a veces solo hay parecidos que se solapan.",
+      "alternativaTexto": "Una palabra cuyo sentido cambia al cambiar de escena sin que el signo varíe, y una búsqueda de rasgo común que siempre queda desmentida y deja una red de parecidos solapados: demuestra que el significado está en el uso y que muchos conceptos carecen de definición única.",
+      "etiqueta": "El significado es el uso"
+    }
+  },
+  "ideas_relacionadas": [
+    "limites-del-lenguaje",
+    "saber-que-no-se-sabe",
+    "hablar-de-lo-que-no-existe",
+    "ren-y-li"
+  ]
+}

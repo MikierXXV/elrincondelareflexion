@@ -1,0 +1,37 @@
+{
+  "id": "heraclito",
+  "nombre": "Heráclito de Éfeso",
+  "corriente_id": "presocraticos",
+  "periodo": "c. 540–480 a.C.",
+  "region": "Éfeso (Jonia)",
+  "preguntas_filosoficas": [
+    "¿Qué permanece cuando todo cambia?",
+    "¿Es el conflicto un fallo del mundo o su motor?"
+  ],
+  "citas": [
+    {
+      "texto": "No es posible bañarse dos veces en el mismo río.",
+      "obra": "Formulación tradicional a partir del fragmento DK B12",
+      "atribucion": "tradicional",
+      "nota": "El fragmento conservado es más matizado: habla de aguas siempre distintas fluyendo sobre los que entran en los mismos ríos. La versión célebre es una condensación posterior."
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que nada permanece quieto: la realidad es un proceso constante, y lo estable que creemos ver es en realidad un equilibrio de fuerzas en tensión.",
+  "nivel_2_desarrollo": "Heráclito escribió en un estilo deliberadamente oscuro, en sentencias breves que obligan a pensar. Su idea más conocida es que todo fluye: un río parece el mismo, pero el agua que lo forma nunca lo es. De ahí extrae algo menos obvio: si el cambio es constante, la identidad de las cosas no puede consistir en su materia, sino en el patrón que mantienen mientras se renuevan. A eso apunta su noción de logos, una razón o medida común que ordena el proceso y que la mayoría, dice, no percibe aunque la tenga delante. El conflicto entre opuestos no es un defecto del mundo: es exactamente lo que lo sostiene, igual que la tensión opuesta de la cuerda hace sonar el arco.",
+  "nivel_3_experto": "De Heráclito solo conservamos unos ciento veinte fragmentos, casi todos citados por autores muy posteriores y con intención polémica, lo que convierte cualquier reconstrucción en una hipótesis. La fórmula 'todo fluye' (panta rhei) no aparece literalmente en los fragmentos: procede de la lectura de Platón, que le atribuye un flujo tan radical que haría imposible el conocimiento, y esa caricatura marcó su recepción durante siglos. La interpretación hoy más discutida es si defendía un flujo universal e indiscriminado o, como sostienen varios estudiosos, una tesis más fina sobre la 'unidad de los opuestos', donde la estabilidad de una cosa depende precisamente de un intercambio regulado de sus componentes. El fuego, su elemento privilegiado, funcionaría entonces menos como sustancia que como modelo de proceso: algo que existe únicamente mientras se transforma. Su influencia atraviesa el estoicismo (que hereda el logos cósmico), a Hegel y a Nietzsche, y en el siglo XX a las ontologías del proceso.",
+  "debate_abierto": "No hay consenso sobre si Heráclito defendía un flujo radical o una doctrina de equilibrio entre opuestos; buena parte del desacuerdo depende de cuánto crédito se dé al retrato platónico frente a los fragmentos directos.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Heraclitus",
+      "url": "https://plato.stanford.edu/entries/heraclitus/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Heraclitus",
+      "url": "https://iep.utm.edu/heraclit/"
+    },
+    {
+      "titulo": "Kirk, Raven & Schofield, The Presocratic Philosophers, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

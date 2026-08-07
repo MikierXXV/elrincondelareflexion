@@ -1,0 +1,37 @@
+{
+  "id": "kant",
+  "nombre": "Immanuel Kant",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1724–1804",
+  "region": "Königsberg (Prusia)",
+  "preguntas_filosoficas": [
+    "¿Qué puedo conocer?",
+    "¿Qué debo hacer?",
+    "¿Cómo es posible la libertad si todo tiene causa?"
+  ],
+  "citas": [
+    {
+      "texto": "Sapere aude: ten el valor de servirte de tu propio entendimiento.",
+      "obra": "Respuesta a la pregunta: ¿qué es la Ilustración?",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Mostró que no percibimos el mundo tal como es en sí: la mente aporta las estructuras —espacio, tiempo, causalidad— con las que la experiencia se vuelve posible.",
+  "nivel_2_desarrollo": "Kant intenta resolver el bloqueo entre racionalistas y empiristas invirtiendo la pregunta: en lugar de preguntar cómo el conocimiento se ajusta a los objetos, examina cómo los objetos deben ajustarse a nuestras formas de conocer. Su respuesta es que espacio y tiempo no son cosas que encontremos fuera, sino el modo en que recibimos cualquier dato, y que categorías como la de causa son condiciones que el entendimiento impone para que haya experiencia coherente. De ahí se sigue que conocemos fenómenos, no las cosas en sí. En moral aplica el mismo giro: la ley moral no viene de fuera ni de las consecuencias, sino de la razón misma. El imperativo categórico exige actuar solo según máximas que podrías querer como ley universal, y tratar siempre a las personas también como fines, nunca solo como medios.",
+  "nivel_3_experto": "El corazón técnico de la primera Crítica es la pregunta por los juicios sintéticos a priori y la deducción trascendental de las categorías, cuyo argumento —y las diferencias entre las ediciones A y B— sigue siendo uno de los textos más discutidos de la filosofía moderna. La cosa en sí genera la objeción de Jacobi: sin ella no se entra en el sistema, con ella se aplica la causalidad más allá de su ámbito legítimo; las respuestas van desde la lectura de 'dos mundos' hasta la de 'dos aspectos', hoy mayoritaria entre los intérpretes anglosajones aunque no unánime. En ética, se discute si el imperativo categórico es un procedimiento de decisión o un criterio de evaluación, y la objeción de Hegel sobre su formalismo vacío convive con reconstrucciones contemporáneas (Korsgaard, O'Neill) que lo consideran sustantivo. Su solución al problema de la libertad mediante la distinción entre causalidad fenoménica y espontaneidad nouménica es reconocida como el punto más frágil y más ambicioso del sistema. Hay además un frente historiográfico ineludible: sus escritos sobre razas y su antropología contienen afirmaciones racistas que la crítica reciente estudia en su relación con el universalismo moral que él mismo proclama.",
+  "debate_abierto": "La lectura de 'dos mundos' frente a 'dos aspectos', el formalismo del imperativo categórico y la relación entre su universalismo y sus escritos sobre razas son debates plenamente activos.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Immanuel Kant",
+      "url": "https://plato.stanford.edu/entries/kant/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Kant's Moral Philosophy",
+      "url": "https://plato.stanford.edu/entries/kant-moral/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Immanuel Kant: Metaphysics",
+      "url": "https://iep.utm.edu/kantmeta/"
+    }
+  ]
+}

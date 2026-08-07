@@ -1,0 +1,36 @@
+{
+  "id": "marco-aurelio",
+  "nombre": "Marcus Aurelius",
+  "corriente_id": "helenismo",
+  "periodo": "121–180 CE",
+  "region": "Rome",
+  "preguntas_filosoficas": [
+    "How do you keep a moral compass while holding absolute power?",
+    "What changes if you take seriously that you are going to die?"
+  ],
+  "citas": [
+    {
+      "texto": "Very soon you will have forgotten everything; very soon everyone will have forgotten you.",
+      "obra": "Meditations VII, 21",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Emperor of Rome and a Stoic, he wrote for himself a notebook of moral exercises he never meant to publish: daily reminders not to be corrupted by power or carried away by anger.",
+  "nivel_2_desarrollo": "The Meditations are not a treatise but a working diary, written on military campaign with no reader in view. That is why it repeats itself: each entry is an exercise to be redone. Its themes return again and again to the same things: the brevity of life, the insignificance of fame, the obligation to act for the common good, and the need to examine one's own judgement before reacting. He systematically practises the 'view from above', imagining his own affairs from a cosmic distance until they recover their real size, and the reminder of mortality as a corrector of priorities. The tension running through the book is that of someone with unlimited power imposing limits on himself in writing, in private, every day.",
+  "nivel_3_experto": "The Meditations raise a problem of literary genre: they are close to the hypomnemata, notebooks of spiritual exercise, and Pierre Hadot used them as the central case for his thesis that ancient philosophy was above all a set of practices rather than a doctrinal system. His Stoicism is later and less technical than that of the early Stoa; how much Stoic physics still underpins his recommendations is debated, especially given the recurring formula in which he sets a providential cosmos against the atomist hypothesis without definitively deciding, arguing that his conduct should be the same either way. There is also a critical reading of his figure: the distance between the private moralist and the emperor who prosecuted persecutions and wars is a genuine historiographical problem, and it has fed the suspicion that Stoicism functions as an inner hygiene compatible with domination. His current reception, in the wave of self-help 'modern Stoicism', tends to extract the exercises detached from their cosmological and ethical frame, which many specialists consider a simplification.",
+  "debate_abierto": "The relation between the private Stoicism of the Meditations and the emperor's political practice, and the degree to which his ethics depends on a providential cosmology, are still discussed.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Marcus Aurelius",
+      "url": "https://plato.stanford.edu/entries/marcus-aurelius/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Stoicism",
+      "url": "https://iep.utm.edu/stoicism/"
+    },
+    {
+      "titulo": "Hadot, The Inner Citadel / Philosophy as a Way of Life",
+      "url": null
+    }
+  ]
+}

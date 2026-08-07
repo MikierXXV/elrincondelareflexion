@@ -1,0 +1,37 @@
+{
+  "id": "platon",
+  "nombre": "Plato",
+  "corriente_id": "clasica-griega",
+  "periodo": "c. 427–347 BCE",
+  "region": "Athens",
+  "preguntas_filosoficas": [
+    "Is what we perceive real?",
+    "Are there truths that do not depend on opinion?",
+    "Who ought to govern?"
+  ],
+  "citas": [
+    {
+      "texto": "To them, the truth would be nothing but the shadows.",
+      "obra": "Republic VII, 515c",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He held that what we see are only imperfect copies of more stable realities — the Forms — and that knowing consists in moving from appearance to that underlying structure.",
+  "nivel_2_desarrollo": "Plato starts from a real problem: concrete objects change and are imperfect, but when we speak of 'a circle' or 'justice' we mean something that does not vary with the examples. His answer is that Forms exist, unchanging patterns that things participate in. The allegory of the cave turns that thesis into an image: prisoners chained since birth take the shadows cast on the wall for reality; whoever manages to get out discovers the real objects and the light that makes them visible, and on returning to report it is not believed. The allegory is at once epistemological — there are degrees of knowledge — and political: it explains why the philosopher is intolerable to the city. In his political project, government should belong to those who have made that journey.",
+  "nivel_3_experto": "The theory of Forms is not a fixed body of doctrine: Plato himself subjects it to criticism in the Parmenides, where the 'third man argument' threatens an infinite regress, and in late dialogues such as the Sophist or the Philebus he reformulates the relation between the one and the many. The developmental question — whether there is a coherent development, ruptures, or a stable dialectical method — has divided critics for a century, as has the relation between the writings and the so-called 'unwritten doctrines' Aristotle attributes to him, which the Tübingen School considers the core of his thought. Politically, the Republic has been read as an authoritarian programme (Popper's accusation is famous), as an ironic utopia, and as an analogy of the soul rather than an institutional proposal; the literal reading sits badly with the deliberate use of dialogue, which never lets Plato speak in the first person. His doctrine of recollection and the tripartite soul reappear, transformed, in Neoplatonism, in Augustine, and throughout the tradition that separates the sensible from the intelligible.",
+  "debate_abierto": "Whether the Republic is a literal political proposal or an analogical model of the soul, and how much weight to give the unwritten doctrines, are fully live historiographical debates.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Plato",
+      "url": "https://plato.stanford.edu/entries/plato/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Plato's Middle Period Metaphysics and Epistemology",
+      "url": "https://plato.stanford.edu/entries/plato-metaphysics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Plato",
+      "url": "https://iep.utm.edu/plato/"
+    }
+  ]
+}

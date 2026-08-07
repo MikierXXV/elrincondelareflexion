@@ -1,0 +1,36 @@
+{
+  "id": "hegel",
+  "nombre": "Georg Wilhelm Friedrich Hegel",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1770–1831",
+  "region": "Stuttgart, Jena, Berlin",
+  "preguntas_filosoficas": [
+    "Does history have a direction?",
+    "Can you be yourself without another's recognition?"
+  ],
+  "citas": [
+    {
+      "texto": "The owl of Minerva takes flight only as dusk falls.",
+      "obra": "Philosophy of Right, preface",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He thought of reality and history as a process: contradictions are not errors to be avoided but the engine driving each stage into the next.",
+  "nivel_2_desarrollo": "For Hegel, no idea or form of life stands alone: developed to its end, each reveals its own internal tensions and is forced to transform into something that integrates them without erasing them. That movement is not only logical but historical: institutions, religions and worldviews follow one another as phases of a process in which freedom becomes progressively conscious of itself. His most read passage is the dialectic of master and slave: two consciousnesses confront each other seeking recognition, one subjugates the other, but the victor is trapped in the recognition of someone he has degraded, while the subjugated one, through work that transforms the world, gains a self-consciousness his master lacks. The conclusion is that identity is not produced alone: it is built in relation to others.",
+  "nivel_3_experto": "The 'thesis–antithesis–synthesis' scheme used to summarise Hegel is not his — it comes from Fichte by way of Chalybäus — and specialists consider it a simplification that obscures how Aufhebung actually works, the moment in which something is at once cancelled, preserved and raised. The great interpretive divides remain open: the traditional 'metaphysical' reading, which understands absolute Spirit as a cosmic subject, against the non-metaphysical or categorial readings of Pippin and Brandom, which read it as a theory of normativity and social self-consciousness; and the dispute between right and left Hegelianism, which begins as early as the 1840s. His philosophy of right, with its claim about the rationality of the actual, has been accused of statist conservatism (Popper being the most aggressive critic) and defended as a theory of the institutional conditions of freedom. His philosophy of history contains explicit Eurocentric judgements about Africa and Asia that are today studied as a problem rather than a minor detail. His progeny is enormous: Marx inverts his dialectic, and the theory of recognition (Honneth) and much contemporary social thought still work from him.",
+  "debate_abierto": "The dispute between metaphysical and non-metaphysical readings of Hegel is the axis of current research; his philosophy of history also carries a serious problem of Eurocentrism.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Georg Wilhelm Friedrich Hegel",
+      "url": "https://plato.stanford.edu/entries/hegel/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Hegel's Dialectics",
+      "url": "https://plato.stanford.edu/entries/hegel-dialectics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Georg Wilhelm Friedrich Hegel",
+      "url": "https://iep.utm.edu/hegelsoc/"
+    }
+  ]
+}

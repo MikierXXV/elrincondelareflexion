@@ -1,0 +1,80 @@
+{
+  "id": "esencia-y-existencia",
+  "corriente_id": "filosofia-islamica",
+  "titulo": "Essence and existence",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "avicena",
+      "rol": "principal",
+      "aporte": "Separates what a thing is from the fact that it exists, and builds his proof of the necessary being on that crack."
+    },
+    {
+      "id": "tomas-de-aquino",
+      "rol": "desarrollo",
+      "aporte": "Reworks the distinction two centuries later and makes it the axis of his metaphysics."
+    }
+  ],
+  "pregunta": "Does knowing what a unicorn is tell you anything about whether there are unicorns?",
+  "cita": {
+    "texto": "That which is necessary in itself has no cause.",
+    "obra": "Metaphysics of The Healing",
+    "autor_id": "avicena",
+    "atribucion": "directa"
+  },
+  "resumen": "In anything we know, two questions can be separated: what it is and whether it is. Existence is not part of the definition, and out of that crack comes the proof that something must exist necessarily.",
+  "desarrollo": "The starting observation is easy to check and its consequences are not. You can have the complete definition of something — all its features, with none missing — and still not know whether it exists. Existence is not among the properties. From this it follows that everything around us is merely possible: it might not have existed, and therefore it needs a cause to make it exist. But if everything were like that, the whole would be left unexplained, because an entire chain of possible things is still possible. Avicenna concludes that there must be something whose essence is precisely to exist, a necessary being in itself on which the others depend. It is not an argument about the first moment of time but about dependence: even were the chain infinite backwards, it would still need something to hang from.",
+  "ejemplo_real": "The plan of a house contains everything the house is: dimensions, materials, layout. And it contains not one gram of information about whether that house is built. You can know the plan in detail and still have to go and look. That distance between the plan and the plot is exactly the one Avicenna points at.",
+  "matiz_experto": "Averroes criticised him for treating existence as an accident added to essence. Aquinas reworks it as a real distinction between essence and act of being, and out of this comes the analogy of being, which Duns Scotus would reject, opening one of the great forks in scholasticism.",
+  "visualizacion": {
+    "id": "vis-esencia-avicena",
+    "idea_id": "esencia-y-existencia",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user composes the complete definition of an object by adding all its features, and finds that an 'exists / does not exist' switch remains available and undetermined however many features are added. On chaining possible objects, each demanding its cause, the chain refuses to close until an element is introduced whose switch cannot be turned off.",
+    "invitacion": "Add every trait and see whether that settles it",
+    "alternativa_textual": "A definition that can be completed with all its features without that settling whether the thing exists, and a chain of causes that does not close until an element is introduced that cannot fail to exist: it demonstrates the distinction between essence and existence.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "descomponer",
+    "parametros": {
+      "corrienteId": "filosofia-islamica",
+      "conjunto": "The complete definition of a house",
+      "accion": "Separate what it is from whether it is",
+      "piezas": [
+        {
+          "nombre": "Dimensions and materials",
+          "estado": "verdadero",
+          "nota": "It is all there: not a single feature of what the house is, is missing."
+        },
+        {
+          "nombre": "Layout and use",
+          "estado": "verdadero",
+          "nota": "Complete too. The essence has no gaps."
+        },
+        {
+          "nombre": "Does it exist?",
+          "estado": "indeterminado",
+          "nota": "Still undetermined however many features you add: existence is not among the properties."
+        }
+      ],
+      "veredicto": "The essence is complete and existence is still open.",
+      "resolucion": "You can know the plan in detail and still have to go and see whether the house is built. That distance is what separates essence from existence.",
+      "alternativaTexto": "A definition that can be completed with all its features without that settling whether the thing exists, and a chain of causes that does not close until an element is introduced that cannot fail to exist: it demonstrates the distinction between essence and existence.",
+      "etiqueta": "Essence and existence",
+      "veredictos": {
+        "verdadero": "holds",
+        "falso": "does not hold",
+        "indeterminado": "undetermined"
+      }
+    }
+  },
+  "ideas_relacionadas": [
+    "razon-y-fe",
+    "razon-suficiente",
+    "hablar-de-lo-que-no-existe",
+    "duda-metodica"
+  ]
+}

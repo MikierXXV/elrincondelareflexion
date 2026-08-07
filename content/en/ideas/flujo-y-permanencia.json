@@ -1,0 +1,54 @@
+{
+  "id": "flujo-y-permanencia",
+  "corriente_id": "presocraticos",
+  "titulo": "Flux and permanence",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "heraclito",
+      "rol": "principal",
+      "aporte": "Argues that what is stable is a pattern that holds while its matter is renewed."
+    }
+  ],
+  "pregunta": "If everything changes without stopping, what makes something go on being the same thing?",
+  "cita": {
+    "texto": "You cannot step into the same river twice.",
+    "obra": "Traditional formulation based on fragment DK B12",
+    "autor_id": "heraclito",
+    "atribucion": "tradicional",
+    "nota": "The surviving fragment is more careful: it speaks of ever-different waters flowing over those who step into the same rivers. The famous version is a later condensation."
+  },
+  "resumen": "Nothing stands still, but that does not mean nothing lasts: what endures is not the matter things are made of, but the pattern they hold while they renew themselves.",
+  "desarrollo": "A river has a name, banks and a recognisable course, and yet not a single drop of the water in it today was there yesterday. Heraclitus uses that observation to separate two things we habitually confuse: what something is made of, and what makes it be that thing. If identity depended on matter, the river would have ceased to exist a thousand times over. What is preserved is a form, a rhythm, a way of going on happening. Hence his idea that the conflict between opposing forces is not a defect of the world but what holds it up: just as the opposing tension of the string is what lets the bow work, the stability of things is produced by a regulated exchange, not by stillness. Change stops being what threatens identity and becomes its condition.",
+  "ejemplo_real": "Every cell in your skin is replaced every few weeks, and a good share of the atoms in your body are not the ones you had a year ago. Nobody doubts you are still you. The same goes for a flame: it looks like an object, but it is a process, and it exists only while something is being consumed inside it.",
+  "matiz_experto": "The visualisation presents flux as something orderly and stable. It is disputed whether Heraclitus defended a universal, indiscriminate flux — a reading that comes from Plato and may be a caricature — or a finer thesis about the unity of opposites.",
+  "visualizacion": {
+    "id": "vis-rio-heraclito",
+    "idea_id": "flujo-y-permanencia",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "The user marks a few water particles and follows them as the current carries them away. They can speed up time and confirm that none of the marked ones remain within the channel, while the outline of the river has not changed. Two counters face each other: matter renewed 100%, form altered 0%. Narrow the channel and the pattern reorganises itself.",
+    "invitacion": "Mark a few drops and speed up time",
+    "alternativa_textual": "A simulation of a river in which the water is completely renewed while the shape of the channel stays identical: it shows that the identity of a thing can reside in its pattern rather than in the material composing it.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "A river whose water is renewed while its channel stays",
+      "marcar": "Mark the water that is here now",
+      "acelerar": "Speed up time",
+      "ritmoNormal": "Back to normal speed",
+      "resolucionMarcar": "Follow those drops: they are the water in the river right now.",
+      "resolucionFinal": "Not one of the drops you marked is left, and the river is the same. What lasts is not the matter: it is the pattern held while it renews itself.",
+      "resolucionEstatica": "The water is completely renewed and the shape of the channel does not change.",
+      "alternativaTexto": "A simulation of a river in which the water is completely renewed while the shape of the channel stays identical: it shows that the identity of a thing can reside in its pattern rather than in the material composing it.",
+      "lectura": "matter renewed {renovada}%   ·   form altered 0%"
+    }
+  },
+  "ideas_relacionadas": [
+    "imposibilidad-del-cambio",
+    "identidad-personal",
+    "anatman"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "vacuidad",
+  "corriente_id": "filosofia-india",
+  "titulo": "La vacuidad",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "nagarjuna",
+      "rol": "principal",
+      "aporte": "Lleva el análisis al límite: nada tiene naturaleza propia, porque todo depende de otra cosa para ser lo que es."
+    }
+  ],
+  "pregunta": "¿Existe algo que sea lo que es por sí mismo, sin depender de nada?",
+  "cita": {
+    "texto": "Nada hay que surja sin depender de otra cosa.",
+    "obra": "Versos fundamentales del camino medio, 24, 19",
+    "autor_id": "nagarjuna",
+    "atribucion": "directa"
+  },
+  "resumen": "Vacío no significa que nada exista, sino que nada existe por sí mismo. Y el giro es que precisamente por eso las cosas pueden cambiar, relacionarse y funcionar.",
+  "desarrollo": "Nāgārjuna trabaja por refutación. Toma un concepto que damos por sólido —causa, movimiento, tiempo, el yo, incluso el nirvana— y muestra que, si se le atribuye una naturaleza propia e independiente, aparecen contradicciones. Un efecto no puede estar ya contenido en su causa, porque entonces no habría producción; ni surgir de la nada, porque entonces cualquier cosa produciría cualquier cosa. Su conclusión es que nada posee esa naturaleza autosuficiente. Lo importante es el giro que evita el nihilismo: precisamente porque las cosas son vacías, pueden cambiar y relacionarse. Si algo tuviera naturaleza fija, no podría transformarse en nada, ni afectar a nada, ni ser afectado. La vacuidad no es que falte algo: es la condición de que haya algo. Y él insiste en que no defiende una tesis propia, sino que muestra las consecuencias de las tesis ajenas.",
+  "ejemplo_real": "Nadie es 'hijo' por sí mismo: lo es respecto de un padre. Ni 'jefe' sin equipo, ni 'izquierda' sin derecha. Con esos casos lo aceptamos sin problema. Nāgārjuna pregunta qué queda si aplicas ese mismo análisis a todo lo demás: a una mesa, a un metro, a un instante, a ti. Y sostiene que el resultado es el mismo, solo que nos cuesta más verlo.",
+  "matiz_experto": "Qué significa que 'no tenga tesis' es el problema central de su interpretación: hay lecturas antirrealistas, deflacionarias como la de Siderits, y la propuesta de Garfield y Priest de leerlo como dialeteísmo. Su método del catuskoti plantea además problemas lógicos que han generado formalizaciones rivales.",
+  "visualizacion": {
+    "id": "vis-vacuidad-nagarjuna",
+    "idea_id": "vacuidad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario selecciona un elemento de una red y pide aislarlo del resto. Al retirar sus relaciones, el elemento no se queda solo y sólido: va perdiendo una a una las propiedades que lo definían, hasta que no queda nada que aislar. Al restituir las relaciones reaparece completo, mostrando que su identidad estaba en la red y no dentro de él.",
+    "invitacion": "Aísla el elemento y mira qué le queda",
+    "alternativa_textual": "Un elemento de una red que al ser aislado de sus relaciones pierde progresivamente las propiedades que lo definían hasta desaparecer, y que reaparece completo al restituirlas: demuestra que las cosas no poseen naturaleza propia independiente.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "centro": "la cosa",
+      "vinculos": [
+        {
+          "nombre": "sus causas",
+          "perdida": "Sin aquello que la produjo, deja de tener origen propio."
+        },
+        {
+          "nombre": "sus partes",
+          "perdida": "Sin componentes, no queda ensamblaje al que dar nombre."
+        },
+        {
+          "nombre": "sus efectos",
+          "perdida": "Si no afecta a nada, no hay manera de distinguirla de su ausencia."
+        },
+        {
+          "nombre": "su contraste",
+          "perdida": "Sin aquello que no es, la propia distinción se disuelve."
+        },
+        {
+          "nombre": "quien la nombra",
+          "perdida": "Sin nadie que la delimite, sus bordes dejan de estar en ningún sitio."
+        }
+      ],
+      "resolucion": "No quedó nada que aislar. Su identidad estaba en la red, no dentro de ella: eso es la vacuidad, y no que no exista.",
+      "alternativaTexto": "Un elemento de una red que al ser aislado de sus relaciones pierde progresivamente las propiedades que lo definían hasta desaparecer, y que reaparece completo al restituirlas: demuestra que las cosas no poseen naturaleza propia independiente.",
+      "restituir": "Restituir las relaciones",
+      "etiqueta": "La vacuidad",
+      "etiquetaNodo": "Cortar el vínculo con {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "anatman",
+    "atman-y-brahman",
+    "causalidad-como-habito",
+    "significado-como-uso"
+  ]
+}

@@ -1,0 +1,283 @@
+/*
+ * Estilos comunes de las visualizaciones. Los comparten el sitio y la galería.
+ *
+ * POR QUÉ ESTÁ SEPARADO. Estas reglas vivían dos veces, en `sitio.css` y en `prototipos.css`, y las
+ * dos copias empezaron a divergir. Se notó al añadir el visor a pantalla completa: en la galería no
+ * ampliaba nada y los cursores seguían siendo los antiguos, porque esa página carga la otra hoja. Un
+ * banco de pruebas que no se parece al sitio deja de responder a la única pregunta que se le hace.
+ *
+ * Lo que sigue en cada hoja es lo suyo: el sitio tiene barra, recorrido y capas; la galería tiene su
+ * rejilla de fichas. Aquí solo está el marco de la pieza, que por definición es el mismo en los dos.
+ */
+
+/* ---- superficie común ----
+   El mismo marco para SVG, canvas 2D y canvas WebGL: parte de que se sientan de la misma familia es
+   que ocupen el mismo tipo de espacio. */
+.superficie {
+  background: var(--fondo-hundido);
+  border-radius: var(--r-panel);
+  padding: var(--e6);
+}
+
+/*
+ * La invitación: lo primero del panel y lo único que se lee antes de tocar nada.
+ *
+ * Va con el cuerpo de texto y no en versalitas diminutas como los rótulos del dibujo, porque no es
+ * una etiqueta del gráfico: es una frase dirigida al lector. Y no lleva el color de acento a
+ * propósito —bastante color hay ya dentro de la escena—; se distingue por ir la primera y por
+ * separarse del dibujo, que es cuanto necesita para leerse.
+ */
+.vis-invitacion {
+  margin: 0 0 var(--e4);
+  font-family: var(--fuente-titulo);
+  font-size: var(--t-pequeno);
+  color: var(--texto);
+}
+
+/* Marco común: las tres técnicas ocupan el mismo hueco y con el mismo encuadre. Es lo que hace que
+   una escena 3D se lea como una pieza más del recorrido y no como un vídeo incrustado. */
+.vis-svg, .vis-canvas {
+  display: block;
+  width: 100%;
+  aspect-ratio: var(--vis-proporcion);
+  height: auto;
+  border-radius: var(--r-card);
+}
+
+/* Las etiquetas nunca capturan el puntero: son rótulos, no controles. Sin esta regla, un texto
+   colocado sobre una forma manipulable se lleva el clic y la forma no responde nunca, sin que nada
+   lo indique. Detectado en la prueba funcional. */
+.vis-svg text {
+  pointer-events: none;
+  user-select: none;
+}
+
+.vis-titulo-svg {
+  font-family: var(--fuente-titulo);
+  font-size: 17px;
+  font-weight: var(--peso-semibold);
+}
+
+.vis-etiqueta {
+  font-family: var(--fuente-texto);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/*
+ * LOS CAMBIOS DE ESTADO SE VEN OCURRIR. La regla más barata del sistema y la que más cambia.
+ *
+ * Treinta de las treinta y cinco piezas cambiaban de estado con `setAttribute` y nada más, así que
+ * el dibujo saltaba: pulsabas y ya estaba en el otro sitio. En «El principio del daño» eso se comía
+ * el argumento entero —los cinco casos se reclasifican a la vez, y ESA barrida simultánea es lo que
+ * la idea afirma—; sin transición no había barrida, había dos fotogramas.
+ *
+ * SOLO PROPIEDADES DE PINTURA, no de geometría, y es deliberado. Las piezas que se arrastran
+ * repintan en cada `pointermove`: una transición sobre la posición metería un retardo entre el dedo
+ * y el tirador. Peor aún, `x1`/`x2` de una línea no son propiedades CSS y `cx` sí, así que en «eje»
+ * la frontera saltaría mientras su tirador llega tarde y con retraso distinto. El color puede
+ * fundirse durante un arrastre sin que nada se descoloque; la posición no.
+ *
+ * La duración sale de los tokens, que ya valen 1 ms con movimiento reducido: no hace falta repetir
+ * aquí la consulta de medios.
+ */
+.vis-svg circle, .vis-svg rect, .vis-svg line, .vis-svg path,
+.vis-svg polygon, .vis-svg polyline, .vis-svg ellipse, .vis-svg text,
+.vis-interactivo {
+  transition:
+    fill var(--m-rapido) var(--curva-suave),
+    stroke var(--m-rapido) var(--curva-suave),
+    opacity var(--m-rapido) var(--curva-suave),
+    filter var(--m-rapido) var(--curva-suave);
+}
+
+/* §3.4 Lo manipulable se ve igual en las 59 piezas. */
+.vis-interactivo {
+  /* Sin esto, una forma con fill="none" solo recibe el puntero en su trazo de 1,5 px: con el dedo
+     es casi imposible acertarle. Detectado en la prueba funcional, donde los clics atravesaban los
+     nodos y caían en el fondo. */
+  pointer-events: all;
+}
+.vis-interactivo:hover { filter: brightness(1.08); }
+
+/* El cursor dice qué gesto espera la pieza, y por eso hay dos y no uno. Antes `grab` valía para
+   todo, así que 32 de las 35 piezas invitaban a arrastrar algo que solo respondía al clic. Ver
+   `marcarInteractivo()`. */
+.vis-pulsable { cursor: pointer; }
+/* `touch-action` aquí solo surte efecto cuando lo arrastrable es un elemento HTML: dentro de un SVG
+   la propiedad no se aplica a las formas hijas, solo a la raíz. De eso se encarga
+   `arrastreHorizontal()`, y por eso la raíz es lo que hay que comprobar y no el tirador. */
+.vis-arrastrable { cursor: grab; touch-action: none; }
+.vis-arrastrable:active { cursor: grabbing; }
+
+.vis-controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--e2);
+  margin-top: var(--e4);
+}
+
+.vis-controles button {
+  font: inherit;
+  font-size: var(--t-pequeno);
+  color: var(--texto);
+  background: var(--fondo-elevado);
+  border: 1px solid var(--borde-interactivo);
+  border-radius: var(--r-card);
+  padding: var(--e2) var(--e3);
+  cursor: pointer;
+  transition: border-color var(--m-rapido) var(--curva-suave);
+}
+.vis-controles button:hover { border-color: var(--texto); }
+.vis-controles button:disabled { opacity: 0.45; cursor: default; }
+
+/*
+ * DOS CLASES DE BOTÓN, Y SE DISTINGUEN SOLAS. Es lo que rompe el muro de mandos idénticos.
+ *
+ * «El significado es el uso» presenta ocho botones seguidos, todos con la misma forma y el mismo
+ * peso, en dos filas. Cuatro eligen la escena en la que estás y cuatro proponen un rasgo: dos
+ * preguntas completamente distintas, indistinguibles a la vista. Con ocho rectángulos iguales no hay
+ * dónde empezar, y ese es buena parte del «no sé qué hacer con esto».
+ *
+ * No hace falta tocar ninguna mecánica para separarlas: las que ofrecen variantes ya marcan sus
+ * botones con `aria-pressed`, porque lo necesitaban para la accesibilidad. Ese atributo ya dice
+ * cuál es cuál —trece mecánicas lo llevan— y aquí se le da la forma que le corresponde.
+ *
+ *  - Con `aria-pressed` es un SELECTOR: pastilla, apagado mientras no está elegido, sólido cuando sí.
+ *    Se lee como «dónde estoy».
+ *  - Sin él es una ACCIÓN: rectángulo con el peso de siempre. Se lee como «qué puedo hacer».
+ */
+.vis-controles button[aria-pressed] {
+  border-radius: 999px;
+  color: var(--texto-secundario);
+  background: transparent;
+}
+.vis-controles button[aria-pressed]:hover { color: var(--texto); }
+.vis-controles button[aria-pressed="true"] {
+  color: var(--texto);
+  background: var(--fondo-hundido);
+  border-color: var(--texto);
+  font-weight: var(--peso-medio);
+}
+
+.vis-controles input[type="range"] { accent-color: var(--texto); flex: 1 1 200px; }
+
+/* §3.5 Estado de resolución: idéntico en las 59. Sin puntuación ni felicitación. */
+.vis-resolucion {
+  margin: var(--e4) 0 0;
+  padding-left: var(--e3);
+  border-left: var(--trazo-enfasis) solid var(--borde-interactivo);
+  font-family: var(--fuente-titulo);
+  font-size: var(--t-pequeno);
+  color: var(--texto);
+}
+
+/* Plegada: sigue estando y deja de destriparse sola. Ver `alternativaTextual()`. */
+.vis-alternativa {
+  margin: var(--e3) 0 0;
+  font-size: var(--t-micro);
+  color: var(--texto-secundario);
+  max-width: var(--medida-texto);
+}
+.vis-alternativa summary { cursor: pointer; }
+.vis-alternativa p { margin: var(--e2) 0 0; }
+
+.vis-respaldo {
+  padding: var(--e6);
+  border: 1px dashed var(--borde-interactivo);
+  border-radius: var(--r-card);
+  font-size: var(--t-pequeno);
+}
+
+.vis-panel-percepcion { display: flex; flex-wrap: wrap; gap: var(--e2); margin-top: var(--e3); font-size: var(--t-micro); }
+.vis-panel-percepcion span { padding: var(--e1) var(--e2); border-radius: var(--r-sutil); border: 1px solid var(--separador); }
+.vis-panel-percepcion .si { color: var(--texto); }
+.vis-panel-percepcion .no { color: var(--texto-secundario); border-style: dashed; }
+
+/* ---- visor a pantalla completa ----
+   En pantallas anchas la pieza ya se lee a su tamaño y el botón sobra: la regla vive aquí y no en
+   JavaScript porque una consulta de medios reacciona sola al giro y al cambio de tamaño. */
+.ampliar {
+  display: none;
+  margin: var(--e3) 0 0; font: inherit; font-size: var(--t-micro);
+  color: var(--texto); background: var(--fondo-elevado);
+  border: 1px solid var(--borde-interactivo); border-radius: var(--r-card);
+  padding: var(--e2) var(--e3); cursor: pointer;
+}
+@media (max-width: 700px) { .ampliar { display: inline-block; } }
+
+.visor { position: fixed; inset: 0; z-index: 60; background: var(--fondo); display: grid; place-items: center; }
+.visor-lienzo { width: 100%; }
+
+/*
+ * Dentro del visor la superficie reparte su alto: el dibujo se queda todo lo que sobra y los mandos
+ * ocupan lo justo. Apilado sin repartir —que es como va dentro de la página— el conjunto pedía más
+ * de 390 píxeles de alto y la escena se salía por un lado.
+ */
+.visor-lienzo > .superficie {
+  margin: 0; min-height: 0; border-radius: 0;
+  height: 100%; padding: var(--e2);
+  display: grid; grid-template-rows: 1fr auto; gap: var(--e1);
+  align-items: center; justify-items: center;
+}
+/*
+ * Los mandos van compactos DENTRO del visor, y no es cosmética: aquí la escala del dibujo la fija el
+ * alto que le sobra, no el ancho. Una pieza con dos filas de botones se quedaba en escala 1,13 y sus
+ * nodos por debajo del mínimo táctil, mientras que la misma pieza con una fila llegaba a 1,32. Cada
+ * píxel que no gastan los botones se lo lleva la escena.
+ */
+.visor .vis-controles button { font-size: var(--t-micro); padding: var(--e1) var(--e2); }
+/*
+ * El dibujo ocupa la caja entera y se olvida de su proporción, porque `preserveAspectRatio` ya lo
+ * encaja dentro sin deformarlo. Es lo que consigue la escala máxima que permite la pantalla: fijar
+ * aquí la proporción de 7:3 dejaría franjas muertas arriba y abajo y una escena más pequeña.
+ */
+.visor .vis-svg { width: 100%; height: 100%; aspect-ratio: auto; }
+/* El lienzo mapeado sí depende de su proporción: estirado se deforma en vez de recomponerse. */
+.visor .vis-canvas { max-width: 100%; max-height: 100%; }
+.visor .vis-controles { margin: 0; justify-content: center; }
+/*
+ * Ya estás dentro: el botón que trae aquí no pinta nada, la alternativa textual cuenta el final, y la
+ * invitación ya la has leído en el panel —es texto HTML a cuerpo normal, se lee perfectamente ahí—.
+ *
+ * Con la invitación no es solo que sobre: es que cuesta. Aquí la escala del dibujo la fija el alto
+ * que le sobra, así que esa línea se llevaba dos píxeles de diana en la pieza más apretada y dejaba
+ * «La ideología» en 23, por debajo del mínimo táctil. Lo detectó el auditor en la misma pasada en que
+ * se añadió.
+ */
+.visor .ampliar, .visor .vis-alternativa, .visor .vis-invitacion { display: none; }
+
+.visor-cerrar {
+  position: fixed; top: var(--e3); right: var(--e3); z-index: 61;
+  font: inherit; font-size: var(--t-pequeno); color: var(--texto);
+  background: var(--fondo-elevado); border: 1px solid var(--borde-interactivo);
+  border-radius: var(--r-card); padding: var(--e2) var(--e3); cursor: pointer;
+}
+
+/*
+ * En vertical, el visor GIRA su contenido un cuarto de vuelta.
+ *
+ * El problema que resuelve es de anchura: en un móvil de 390 la pieza se dibuja a mitad de escala y
+ * no se lee. Su lado largo mide 844, y ahí la escala sube por encima de 1,3. Girando, la pieza ocupa
+ * ese lado largo sin pedirle nada a nadie.
+ *
+ * Y si el usuario gira el teléfono, la consulta pasa a horizontal, esta regla deja de aplicarse y el
+ * contenido queda derecho: el resultado es el mismo por los dos caminos, que es lo que se busca. Sin
+ * el giro, quien tenga bloqueada la rotación —que es mucha gente— abriría el visor para encontrarse
+ * la misma pieza igual de pequeña.
+ */
+@media (orientation: portrait) and (max-width: 700px) {
+  /*
+   * Se coloca por coordenadas y no dejándolo al centrado del contenedor. La caja mide 100vh de ancho
+   * —más que la pantalla— y una rejilla que centra un hijo más ancho que su hueco acaba alineándolo
+   * al principio para no perder contenido por la izquierda: el resultado era que la escena salía
+   * desplazada y se cortaba por un lado. Anclando el centro de la caja al centro de la pantalla y
+   * girando después sobre su propio centro, los dos centros coinciden y el giro es exacto.
+   */
+  .visor-lienzo {
+    position: absolute; top: 50%; left: 50%;
+    width: 100vh; height: 100vw;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+}

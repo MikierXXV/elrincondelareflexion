@@ -1,0 +1,82 @@
+{
+  "id": "razon-y-fe",
+  "corriente_id": "escolastica",
+  "titulo": "Reason and faith, two paths",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "tomas-de-aquino",
+      "rol": "principal",
+      "aporte": "Marks out how far reason reaches on its own and holds that it cannot contradict revelation."
+    }
+  ],
+  "pregunta": "How far can you get by reasoning, and what happens when reason runs out?",
+  "cita": {
+    "texto": "Grace does not destroy nature, but perfects it.",
+    "obra": "Summa Theologiae I, q. 1, a. 8",
+    "autor_id": "tomas-de-aquino",
+    "atribucion": "directa"
+  },
+  "resumen": "Aquinas separates what reason can reach alone from what arrives only by revelation, and holds that they cannot contradict each other because they investigate the same reality by different routes.",
+  "desarrollo": "When Aristotle enters the European universities of the thirteenth century — translated and annotated earlier by Islamic philosophy — his physics and metaphysics collide with established theology and some call for a ban. Aquinas takes the hard road: absorb him and rebuild the doctrine with his tools. His model draws a border. There are truths accessible to anyone who reasons well, and there he places even the existence of an ultimate principle, reached by five arguments starting from observable facts: that there is motion, causes, things that might not have existed, degrees of perfection and order. And there are others he holds to be indemonstrable, arriving only by revelation. The crucial point is that the second does not cancel the first: having faith does not excuse anyone from reasoning. The most durable practical consequence is his natural-law ethics, which looks for a moral criterion shared by people who do not share beliefs.",
+  "ejemplo_real": "It is the situation of any conversation between a believer and a non-believer when it goes well: there is a long stretch — what a decent life is, what we owe each other, why lying corrodes — that can be walked end to end without appealing to any authority, and then a point where one of them goes on and the other stops. Confusing the two stretches is what ruins the conversation.",
+  "matiz_experto": "His five ways are often misread as arguments about a first moment in time. Aquinas expressly held that the eternity of the world is not demonstrably false by philosophical means: his causal series are of simultaneous dependence, not chronological.",
+  "visualizacion": {
+    "id": "vis-dos-vias-aquino",
+    "idea_id": "razon-y-fe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user pushes propositions along two parallel tracks at once. Both start together and advance alike as long as there are observable premises to draw on. Some reach the end on both; others stop dead on the track of reason, where the premises run out, and continue only on the other.",
+    "invitacion": "Push each claim down both paths",
+    "alternativa_textual": "Two parallel paths along which propositions are advanced, one of which breaks off when observable premises run out: it shows that there is a stretch shared by reason and faith and another that is not.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-caminos",
+    "parametros": {
+      "corrienteId": "escolastica",
+      "caminos": [
+        "By reason",
+        "By revelation"
+      ],
+      "limite": "Here the observable premises run out",
+      "proposiciones": [
+        {
+          "nombre": "That there is a first cause",
+          "alcanceRazon": 1,
+          "nota": "It arrives on both. It follows from the world changing, and that is observed."
+        },
+        {
+          "nombre": "That lying corrodes trust",
+          "alcanceRazon": 1,
+          "nota": "It arrives on both, without even appealing to authority."
+        },
+        {
+          "nombre": "What a decent life is",
+          "alcanceRazon": 1,
+          "nota": "It arrives on both: there are inclinations reason recognises and orders on its own."
+        },
+        {
+          "nombre": "That the world began in time",
+          "alcanceRazon": 0.62,
+          "nota": "It stops. An eternal world and one with a beginning are both thinkable: observation does not decide."
+        },
+        {
+          "nombre": "That there are three persons in one God",
+          "alcanceRazon": 0.34,
+          "nota": "It stops sooner. There is no observable premise to draw on, and there will not be one."
+        }
+      ],
+      "resolucion": "There is a stretch both tracks cover alike, and disagreeing there is real disagreement. Past the limit they no longer share ground, and confusing the two stretches ruins both.",
+      "alternativaTexto": "Two parallel paths along which propositions are advanced, one of which breaks off when observable premises run out: it shows that there is a stretch shared by reason and faith and another that is not.",
+      "etiqueta": "Reason and faith, two paths"
+    }
+  },
+  "ideas_relacionadas": [
+    "esencia-y-existencia",
+    "dos-niveles-de-lectura",
+    "critica-de-la-causalidad",
+    "razon-suficiente"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "condicionamiento-operante",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "Operant conditioning",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "skinner",
+      "rol": "principal",
+      "aporte": "Explains behaviour by its consequences, and discovers that unpredictable reinforcement is the most resistant."
+    }
+  ],
+  "pregunta": "Do you choose what you do, or have you learned it from its consequences?",
+  "cita": {
+    "texto": "The question is not whether machines think, but whether men do.",
+    "obra": "Contingencies of Reinforcement, 1969",
+    "autor_id": "skinner",
+    "atribucion": "directa"
+  },
+  "resumen": "Behaviour is explained by what happens after it: what is reinforced is repeated. And the most uncomfortable finding is that unpredictable reinforcement produces behaviour far harder to extinguish than constant reinforcement.",
+  "desarrollo": "Skinner distinguishes his approach from Pavlov's classical conditioning: he is not interested in the response triggered by a prior stimulus, but in the behaviour the organism emits, which is maintained or dies out according to its consequences. So far it is intuitive. What is not intuitive at all is his discovery about schedules of reinforcement. If the reward always arrives, the behaviour extinguishes quickly once it stops, because the absence is noticed immediately. But if it arrives unpredictably, the behaviour becomes extraordinarily resistant: there is never a moment when the lack of a reward clearly means it is over. That explains everything from superstitious routines to the design of gambling machines. His philosophical conclusion went much further: that the freedom we believe we have is ignorance of what conditions us.",
+  "ejemplo_real": "Checking your phone. Almost never is there anything, and every so often there is something that matters, without your being able to predict when. That unpredictable 'every so often' is precisely the most resistant schedule of reinforcement there is, which is why the gesture survives every resolution to stop. It is not weakness of will: it is a design that works.",
+  "matiz_experto": "The decisive blow to his programme was Chomsky's 1959 review of Verbal Behavior, arguing that language acquisition is not explained by reinforcement. Behaviourists reply that it targeted a version Skinner did not defend. His experimental analysis remains productive in applied fields, with ethical controversies of its own.",
+  "visualizacion": {
+    "id": "vis-refuerzo-skinner",
+    "idea_id": "condicionamiento-operante",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user repeats the same action on three agents that reward it under different regimes: always, one in four, or unpredictably. All three behaviours take hold. When the reward is withdrawn, the first collapses at once and the unpredictable one is the last left standing.",
+    "invitacion": "Reward all three, then stop rewarding",
+    "alternativa_textual": "Three reward schedules applied to the same agent and then withdrawn, in which unpredictable reinforcement produces the behaviour most resistant to disappearing: it shows why routines with intermittent rewards are the hardest to give up.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "repeticion",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "modo": "programas",
+      "accion": "Check the phone",
+      "programas": [
+        {
+          "nombre": "Rewarded every time",
+          "cada": 1,
+          "nota": "It dies out first: every unrewarded time contradicts everything learned."
+        },
+        {
+          "nombre": "One in four",
+          "cada": 4,
+          "nota": "It lasts longer: a gap falls within what was expected."
+        },
+        {
+          "nombre": "Unpredictable",
+          "cada": 0,
+          "nota": "Still standing. You never knew when it was due, so you cannot know when it stopped being due."
+        }
+      ],
+      "retirar": "Withdraw the reward",
+      "conducta": "Behaviour",
+      "avisoRetirar": "All three behaviours have taken hold. Now withdraw the reward.",
+      "consecuencia": "Sometimes there is something",
+      "examinar": "Withdraw the reward",
+      "hallazgo": "The behaviour carries on. You do not know when to stop.",
+      "sinOcurrir": "It has not happened yet",
+      "recuentoUno": "It has happened {veces} time · expectation {expectativa}%",
+      "recuentoVarios": "It has happened {veces} times · expectation {expectativa}%",
+      "etiqueta": "Operant conditioning",
+      "resolucion": "The behaviour hardest to give up is not the one rewarded most, but the one in which it was never possible to learn when the reward would come. Once withdrawn, no absence is anomalous, and so there is no signal that it has ended.",
+      "alternativaTexto": "Three reward schedules applied to the same agent and then withdrawn, in which unpredictable reinforcement produces the behaviour most resistant to disappearing: it shows why routines with intermittent rewards are the hardest to give up."
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "libertad-como-comprension",
+    "banalidad-del-mal",
+    "lo-inconsciente"
+  ]
+}

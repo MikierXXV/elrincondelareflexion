@@ -1,0 +1,71 @@
+{
+  "id": "alienacion",
+  "corriente_id": "marxismo",
+  "titulo": "Alienation",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "marx",
+      "rol": "principal",
+      "aporte": "Describes work that becomes alien to the person doing it, along four distinct dimensions."
+    }
+  ],
+  "pregunta": "Why can an activity that ought to express you end up emptying you out?",
+  "cita": {
+    "texto": "The worker relates to the product of his labour as to an alien object.",
+    "obra": "Economic and Philosophic Manuscripts, 1844",
+    "autor_id": "marx",
+    "atribucion": "directa"
+  },
+  "resumen": "Work ought to be the way a person unfolds what they can do. Marx describes how, under certain conditions, it turns alien: neither the product, nor the process, nor even oneself is recognised as one's own any more.",
+  "desarrollo": "Marx distinguishes four separations that accumulate. The first, from the product: what leaves your hands does not belong to you and confronts you as something external. The second, from the activity: you do not decide how it is done, so the hours are not lived as yours but as time surrendered. The third, from what he calls the human essence: the capacity to transform the world consciously, which ought to be the most our own, is reduced to a means of subsistence. And the fourth, from other people, who appear as competitors for the same post instead of collaborators in a common work. What matters is that he is not describing a subjective feeling of listlessness but an objective situation: one can be alienated without feeling bad, and feel bad without being alienated.",
+  "ejemplo_real": "You recognise it in how people answer the question of what they do. Some describe what they make and some name a job title and change the subject. It shows up especially in work where you never see the finished result: you check one part of a process you do not control, for a client you have never met, and at the end of the day you cannot point at anything and say 'I made that'.",
+  "matiz_experto": "The 1844 Manuscripts were not published until 1932, which split twentieth-century readings between an early humanist Marx and the scientific Marx of Capital. Althusser posited an 'epistemological break' between them that other interpreters reject, defending continuity.",
+  "visualizacion": {
+    "id": "vis-alienacion-marx",
+    "idea_id": "alienacion",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "A figure makes a complete object and the bond between them is drawn as a thread. The user applies conditions one by one — the product is sold, someone else decides the process, the task is fragmented, colleagues compete — and sees a different thread cut with each. They can restore them one at a time and see which returns the most: rarely the one they expected.",
+    "invitacion": "Apply each condition and see which thread snaps",
+    "alternativa_textual": "Four threads joining a person to their product, their activity, their capacities and their colleagues, cut one by one as concrete working conditions are applied: it shows that alienation is an objective situation with separable dimensions.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "marxismo",
+      "centro": "the person who works",
+      "vinculos": [
+        {
+          "nombre": "the product",
+          "perdida": "What leaves your hands does not belong to you and confronts you as something alien."
+        },
+        {
+          "nombre": "the activity",
+          "perdida": "You do not decide how it is done, so the hours are not lived as yours."
+        },
+        {
+          "nombre": "what you could be",
+          "perdida": "The capacity to transform the world is reduced to a means of subsistence."
+        },
+        {
+          "nombre": "other people",
+          "perdida": "Colleagues appear as competitors for the same post."
+        }
+      ],
+      "resolucion": "The four separations are independent: you can be alienated without feeling bad, and feel bad without being alienated.",
+      "alternativaTexto": "Four threads joining a person to their product, their activity, their capacities and their colleagues, cut one by one as concrete working conditions are applied: it shows that alienation is an objective situation with separable dimensions.",
+      "restituir": "Restore the relations",
+      "etiqueta": "Alienation",
+      "etiquetaNodo": "Cut the link with {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "dialectica-del-reconocimiento",
+    "ideologia",
+    "materialismo-historico",
+    "mala-fe"
+  ]
+}

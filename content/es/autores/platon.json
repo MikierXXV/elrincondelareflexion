@@ -1,0 +1,37 @@
+{
+  "id": "platon",
+  "nombre": "Platón",
+  "corriente_id": "clasica-griega",
+  "periodo": "c. 427–347 a.C.",
+  "region": "Atenas",
+  "preguntas_filosoficas": [
+    "¿Es real lo que percibimos?",
+    "¿Hay verdades que no dependen de la opinión?",
+    "¿Quién debe gobernar?"
+  ],
+  "citas": [
+    {
+      "texto": "Para ellos, la verdad no sería otra cosa que las sombras.",
+      "obra": "República VII, 515c",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que lo que vemos son solo copias imperfectas de realidades más estables —las Ideas— y que conocer consiste en pasar de la apariencia a esa estructura de fondo.",
+  "nivel_2_desarrollo": "Platón parte de un problema real: los objetos concretos cambian y son imperfectos, pero cuando hablamos de 'círculo' o de 'justicia' nos referimos a algo que no varía con los ejemplos. Su respuesta es que existen Formas o Ideas, patrones inmutables de los que las cosas participan. La alegoría de la caverna traduce esa tesis en imagen: unos prisioneros encadenados desde siempre toman por realidad las sombras proyectadas en el muro; quien logra salir descubre los objetos reales y la luz que los hace visibles, y al volver a contarlo no le creen. La alegoría es a la vez epistemológica —hay grados de conocimiento— y política: explica por qué el filósofo resulta insoportable a la ciudad. En su proyecto político, el gobierno debería corresponder a quienes han hecho ese recorrido.",
+  "nivel_3_experto": "La teoría de las Ideas no es un cuerpo fijo: el propio Platón la somete a crítica en el Parménides, donde el 'argumento del tercer hombre' amenaza con una regresión infinita, y en diálogos tardíos como el Sofista o el Filebo reformula la relación entre lo uno y lo múltiple. La cuestión evolutiva —si hay un desarrollo coherente, rupturas o un método dialéctico estable— divide a la crítica desde hace un siglo, igual que la relación entre lo escrito y las llamadas 'doctrinas no escritas' que le atribuye Aristóteles y que la Escuela de Tubinga considera el núcleo de su pensamiento. Políticamente, la República ha sido leída como programa autoritario (célebre es la acusación de Popper), como utopía irónica y como analogía del alma más que como propuesta institucional; la lectura literal choca con el uso deliberado del diálogo, que nunca deja hablar a Platón en primera persona. Su doctrina de la reminiscencia y la tripartición del alma reaparecen, transformadas, en el neoplatonismo, en Agustín y en toda la tradición que separa lo sensible de lo inteligible.",
+  "debate_abierto": "Si la República es una propuesta política literal o un modelo analógico del alma, y qué peso conceder a las doctrinas no escritas, son debates historiográficos plenamente vigentes.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Plato",
+      "url": "https://plato.stanford.edu/entries/plato/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Plato's Middle Period Metaphysics and Epistemology",
+      "url": "https://plato.stanford.edu/entries/plato-metaphysics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Plato",
+      "url": "https://iep.utm.edu/plato/"
+    }
+  ]
+}

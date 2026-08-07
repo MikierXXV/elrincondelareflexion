@@ -1,0 +1,55 @@
+{
+  "id": "el-mal-como-privacion",
+  "corriente_id": "escolastica",
+  "titulo": "Evil as privation",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "agustin",
+      "rol": "principal",
+      "aporte": "Denies that evil is a substance and defines it as the lack of a good that ought to be there."
+    }
+  ],
+  "pregunta": "Is evil something that exists, or the hole left by something missing?",
+  "cita": {
+    "texto": "Evil is not a substance, but the privation of a good.",
+    "obra": "Condensed from Confessions VII and City of God XI",
+    "autor_id": "agustin",
+    "atribucion": "tradicional",
+    "nota": "A condensed formulation of a thesis Augustine develops across several passages; it is not a literal sentence from any one place."
+  },
+  "resumen": "Augustine holds that evil is not a force with substance of its own set against the good, but an absence: as blindness is not a thing but the lack of sight where there ought to be sight.",
+  "desarrollo": "The thesis answers a concrete problem. If there is a principle of evil as real as the principle of good, the universe is split into two powers at war — which is what the Manichaeans, among whom he spent years, maintained. His way out is to deny evil the status of a substance: it is not something added but something missing where it ought to be. Darkness is not a dark material, it is the absence of light; illness is not a new organ, it is impaired functioning. Applied to conduct, moral evil would be a will that swerves from a greater good towards a lesser one. What is interesting is that Augustine does not treat this as an abstraction: he recalls stealing pears as an adolescent, with no hunger and nothing to gain, purely for the taste of transgression, and admits that even he does not fully understand why he did it.",
+  "ejemplo_real": "A friendship going cold. There is almost never a hostile act you can point to; what there is is an accumulation of calls not made and times you did not ask. The damage is real and yet it is not made of actions but of absences, and that makes it particularly hard to repair: you do not know what to undo.",
+  "matiz_experto": "The doctrine is more convincing against metaphysical evil than against concrete suffering: calling torture a 'privation' describes its structure well and its weight very badly. It is the objection that reappears throughout the later discussion of the problem of evil.",
+  "visualizacion": {
+    "id": "vis-privacion-agustin",
+    "idea_id": "el-mal-como-privacion",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Two identical scenes darken at once, one by adding a substance and the other by removing light. At any level both have exactly the same luminosity and cannot be told apart. Asked for the composition of each, the substance one has nothing to list and the light one states how much is missing.",
+    "invitacion": "Darken both scenes and look for the difference",
+    "alternativa_textual": "Two ways of darkening a scene, adding a substance or removing light, with an identical visual result but only one of them describable: it demonstrates the thesis that evil is not something that exists but a good that is missing.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Two ways of darkening the same scene",
+      "sustancia": "By adding a dark substance",
+      "privacion": "By removing light",
+      "oscurecer": "Darken both",
+      "examinar": "Ask what each is made of",
+      "sinComponentes": "Nothing to list. There is no substance to describe: it has no parts, no origin, and you cannot point to where it is.",
+      "faltaLuz": "{porcentaje}% of the light is missing. You can say how much, where, and relative to what.",
+      "identicas": "Both have the same luminosity.",
+      "resolucion": "What you see is identical, but only one of the two accounts can be sustained. Evil is not a thing added to the world: it is a good that is missing, and so it is always described by what ought to be there and is not.",
+      "alternativaTexto": "Two ways of darkening a scene, adding a substance or removing light, with an identical visual result but only one of them describable: it demonstrates the thesis that evil is not something that exists but a good that is missing."
+    }
+  },
+  "ideas_relacionadas": [
+    "razon-y-fe",
+    "razon-suficiente",
+    "banalidad-del-mal"
+  ]
+}

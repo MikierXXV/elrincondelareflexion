@@ -1,0 +1,95 @@
+{
+  "id": "razon-suficiente",
+  "corriente_id": "racionalismo",
+  "titulo": "Razón suficiente y mundos posibles",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "leibniz",
+      "rol": "principal",
+      "aporte": "Sostiene que nada ocurre sin razón, y que los males no se pueden retirar de uno en uno."
+    }
+  ],
+  "pregunta": "¿Por qué hay algo en vez de nada, y por qué precisamente esto?",
+  "cita": {
+    "texto": "¿Por qué hay algo en vez de nada?",
+    "obra": "Principios de la naturaleza y de la gracia, 7",
+    "autor_id": "leibniz",
+    "atribucion": "directa"
+  },
+  "resumen": "Si nada ocurre sin una razón que lo explique, hay que explicar también por qué existe este mundo y no otro. Leibniz responde que los bienes y los males están entrelazados y no se eligen por separado.",
+  "desarrollo": "El principio de razón suficiente dice que para todo lo que es hay un porqué, aunque no lo conozcamos. Aplicado al conjunto, obliga a la pregunta más ancha posible, y la respuesta de Leibniz es que este mundo fue elegido entre infinitas alternativas completas por ser el que maximiza la perfección global. La parte que suele caricaturizarse es la conclusión —el mejor de los mundos posibles—, y la parte que casi nunca se cita es el argumento: los elementos de un mundo no son independientes. No se puede retirar un mal concreto y dejar el resto igual, porque cada cosa está enlazada con otras, y suprimirla arrastra consecuencias. Se eligen paquetes completos, no piezas. De esa maquinaria de mundos posibles, muy criticada en su momento, salió una herramienta que la lógica del siglo XX adoptó como estándar.",
+  "ejemplo_real": "Cualquiera que haya rediseñado algo que funcionaba conoce la sensación: quitas la parte que molesta y aparecen tres problemas que no habías previsto, porque esa parte sostenía cosas que no sabías que sostenía. Lo mismo pasa al intentar rehacer un episodio de tu vida: no puedes quedarte con lo que aprendiste y borrar lo que te costó aprenderlo.",
+  "matiz_experto": "Voltaire lo satirizó en Cándido, y la teodicea sigue siendo criticada por su aparente insensibilidad al sufrimiento concreto. Internamente el problema es otro: si en toda proposición verdadera el predicado está contenido en el sujeto, cuesta ver dónde queda la contingencia.",
+  "visualizacion": {
+    "id": "vis-mundos-leibniz",
+    "idea_id": "razon-suficiente",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Un mundo se muestra como una red de elementos enlazados, uno de ellos un mal concreto. El usuario retira el que quiera y con él se van, en cadena, piezas que no había tocado: los lazos que las ataban solo se ven cuando ya han tirado. A la derecha, el medidor del conjunto cae por debajo de donde partía, y el hueco que queda arriba es el mundo que habría si ese mal se hubiera podido quitar solo. Devolver la pieza devuelve el paquete entero.",
+    "invitacion": "Retira el mal concreto y mira qué se va con él",
+    "alternativa_textual": "Una red de elementos enlazados en la que retirar un mal concreto arrastra consecuencias no previstas y empeora el conjunto: demuestra por qué un mundo se elige entero y no pieza a pieza.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "racionalismo",
+      "centro": "este mundo",
+      "vinculos": [
+        {
+          "nombre": "un mal concreto",
+          "valor": -3,
+          "arrastra": [
+            1,
+            2
+          ],
+          "perdida": "Al retirarlo, se caen con él bienes que dependían de esa misma pieza."
+        },
+        {
+          "nombre": "lo que lo hacía posible",
+          "valor": 4,
+          "arrastra": [
+            4
+          ],
+          "perdida": "Nada estaba suelto: los elementos venían enlazados."
+        },
+        {
+          "nombre": "lo que aprendiste de él",
+          "valor": 5,
+          "perdida": "No puedes quedarte con lo aprendido y borrar lo que costó aprenderlo."
+        },
+        {
+          "nombre": "un bien que nadie discute",
+          "valor": 4,
+          "arrastra": [
+            2
+          ],
+          "perdida": "Hasta lo que a nadie le sobra estaba atado a lo demás: tampoco se deja intacto."
+        },
+        {
+          "nombre": "su razón suficiente",
+          "valor": 3,
+          "perdida": "Sin razón que lo explique, deja de haber por qué existe esto y no otra cosa."
+        }
+      ],
+      "perfeccion": {
+        "rotulo": "Perfección del conjunto",
+        "arrastre": "Se lleva lo que dependía de él.",
+        "suelto": "El conjunto baja igualmente."
+      },
+      "resolucion": "Se eligen paquetes completos, no piezas. Ese es el argumento que casi nunca se cita del «mejor de los mundos posibles».",
+      "alternativaTexto": "Una red de elementos enlazados en la que retirar un mal concreto arrastra consecuencias no previstas y empeora el conjunto: demuestra por qué un mundo se elige entero y no pieza a pieza.",
+      "restituir": "Restituir las relaciones",
+      "etiqueta": "Razón suficiente y mundos posibles",
+      "etiquetaNodo": "Cortar el vínculo con {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "el-mal-como-privacion",
+    "razon-y-fe",
+    "el-numero-como-orden",
+    "velo-de-la-ignorancia"
+  ]
+}

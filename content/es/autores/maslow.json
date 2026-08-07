@@ -1,0 +1,37 @@
+{
+  "id": "maslow",
+  "nombre": "Abraham Maslow",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1908–1970",
+  "region": "Estados Unidos",
+  "preguntas_filosoficas": [
+    "¿Hay una jerarquía objetiva de necesidades humanas?",
+    "¿En qué consiste el florecimiento de una persona?"
+  ],
+  "dialogo_filosofico": "Retoma, en clave psicológica, la pregunta aristotélica por el florecimiento humano, y con ella el problema de si puede haber un criterio no arbitrario de vida lograda.",
+  "citas": [
+    {
+      "texto": "Si solo tienes un martillo, todo empieza a parecerte un clavo.",
+      "obra": "The Psychology of Science, 1966",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Propuso estudiar no solo la patología sino a las personas que funcionan bien, y ordenó las necesidades humanas en una jerarquía que culmina en la realización del propio potencial.",
+  "nivel_2_desarrollo": "Maslow reprochó a la psicología de su tiempo haberse construido casi entera sobre la enfermedad y sobre experimentos con animales, dejando fuera lo que hace que una vida sea plena. Su modelo más conocido ordena las necesidades por niveles: fisiológicas, de seguridad, de pertenencia y afecto, de estima y, en la cima, de autorrealización, entendida como el desarrollo de aquello que uno puede llegar a ser. La idea es que las necesidades no satisfechas de los niveles básicos dominan la atención y el comportamiento, y que solo cuando quedan razonablemente cubiertas aparecen con fuerza las siguientes. Describió también las experiencias cumbre, momentos de absorción intensa en los que la persona se siente plenamente integrada. Junto a Rogers impulsó la psicología humanista como alternativa explícita al psicoanálisis y al conductismo.",
+  "nivel_3_experto": "La pirámide con la que se identifica su teoría no es suya: es una representación gráfica posterior, popularizada en manuales de gestión, y el propio Maslow nunca la dibujó ni defendió una progresión tan rígida. La evidencia empírica no respalda el orden estricto de la jerarquía; el estudio transcultural de Tay y Diener sobre datos de decenas de países encontró que las necesidades propuestas son razonablemente universales pero que su satisfacción no sigue la secuencia postulada y que unas pueden perseguirse sin haber cubierto las anteriores. Se le ha criticado además la metodología con que caracterizó la autorrealización: una selección deliberada de personas admiradas por él, con sesgo cultural y de género evidente, sin controles ni criterios operativos, lo que compromete la generalización. Su influencia se ha desplazado a la gestión empresarial y a la cultura popular, donde el modelo se cita más que se contrasta. Su legado más defendible es haber abierto el estudio del funcionamiento óptimo, línea que retomó con métodos más exigentes la psicología positiva de Seligman, ella misma no exenta de crisis de replicabilidad.",
+  "debate_abierto": "La secuencia jerárquica de necesidades no está empíricamente respaldada y la pirámide es una simplificación posterior; el interés del programa que abrió, en cambio, se mantiene.",
+  "fuentes": [
+    {
+      "titulo": "Maslow, A Theory of Human Motivation, Psychological Review 50 (1943)",
+      "url": null
+    },
+    {
+      "titulo": "Tay & Diener, Needs and Subjective Well-Being Around the World, Journal of Personality and Social Psychology (2011)",
+      "url": null
+    },
+    {
+      "titulo": "Bridgman, Cummings & Ballard, Who Built Maslow's Pyramid?, Academy of Management Learning & Education (2019)",
+      "url": null
+    }
+  ]
+}

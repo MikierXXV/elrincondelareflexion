@@ -1,0 +1,37 @@
+{
+  "id": "skinner",
+  "nombre": "B. F. Skinner",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1904–1990",
+  "region": "Estados Unidos",
+  "preguntas_filosoficas": [
+    "¿Existe la libertad o solo desconocemos nuestras condiciones?",
+    "¿Hace falta hablar de estados mentales para explicar la conducta?"
+  ],
+  "dialogo_filosofico": "Plantea de forma radical el problema del libre albedrío y del determinismo, y con él la cuestión de si los estados mentales tienen algún papel explicativo o son solo un vocabulario prescindible.",
+  "citas": [
+    {
+      "texto": "La cuestión no es si las máquinas piensan, sino si lo hacen los hombres.",
+      "obra": "Contingencies of Reinforcement, 1969",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que la conducta se explica por sus consecuencias: lo que se refuerza se repite. Y llevó esa tesis hasta el final, afirmando que la libertad que creemos tener es ignorancia de lo que nos condiciona.",
+  "nivel_2_desarrollo": "Skinner distinguió su enfoque del condicionamiento clásico de Pavlov: no le interesaba la respuesta provocada por un estímulo previo, sino la conducta que el organismo emite y que se mantiene o se extingue según lo que ocurre después. En su cámara experimental, un animal que acciona una palanca y recibe comida repite la acción; si el refuerzo desaparece, la conducta se apaga. Descubrió además que los refuerzos intermitentes e impredecibles producen conductas mucho más resistentes que los constantes, hallazgo que explica desde la persistencia de ciertas rutinas hasta el diseño de máquinas de juego. Su conclusión metodológica fue que no hace falta postular estados internos para explicar y predecir: basta con la historia de refuerzos y el entorno. En sus obras divulgativas defendió que diseñar deliberadamente los entornos es más eficaz —y más honesto— que apelar a la fuerza de voluntad.",
+  "nivel_3_experto": "Su posición es el conductismo radical, que no niega la existencia de eventos privados sino su papel como causas iniciadoras, tratándolos como conducta sujeta a las mismas leyes; esta precisión es constantemente omitida en las presentaciones divulgativas, que lo confunden con el conductismo metodológico. El golpe decisivo a su programa fue la reseña de Chomsky a Conducta verbal en 1959, que argumentó que el aprendizaje del lenguaje —su productividad y la pobreza del estímulo— no se explica por reforzamiento; esa crítica es considerada un momento fundacional de la revolución cognitiva, aunque los conductistas contemporáneos sostienen que apuntaba a una versión que Skinner no defendía. En filosofía, sus tesis conectan con el conductismo lógico de Ryle y con el debate posterior sobre eliminativismo. Su análisis experimental de la conducta sigue siendo científicamente productivo en ámbitos aplicados —análisis conductual aplicado, economía conductual, tratamiento de conductas problemáticas—, con controversias éticas propias. Más allá de la libertad y la dignidad concentró el rechazo político hacia su obra, con críticas que lo acusaron de justificar el control social; él replicaba que el control ya existe y que la única elección real es si se diseña con conocimiento o a ciegas.",
+  "debate_abierto": "El alcance de la crítica de Chomsky y hasta qué punto refuta el conductismo radical o solo una versión simplificada sigue discutiéndose; la eficacia aplicada de sus métodos no está en cuestión, su lectura del libre albedrío sí.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Behaviorism",
+      "url": "https://plato.stanford.edu/entries/behaviorism/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Behaviorism",
+      "url": "https://iep.utm.edu/behaviorism/"
+    },
+    {
+      "titulo": "Chomsky, reseña de Verbal Behavior, Language 35 (1959)",
+      "url": null
+    }
+  ]
+}

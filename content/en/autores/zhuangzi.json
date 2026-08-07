@@ -1,0 +1,36 @@
+{
+  "id": "zhuangzi",
+  "nombre": "Zhuangzi",
+  "corriente_id": "filosofia-china",
+  "periodo": "c. 369–286 BCE",
+  "region": "State of Song (China)",
+  "preguntas_filosoficas": [
+    "Is there a privileged viewpoint from which to judge reality?",
+    "What are 'big' or 'useful' outside a particular perspective?"
+  ],
+  "citas": [
+    {
+      "texto": "Am I a man who dreamt he was a butterfly, or a butterfly dreaming?",
+      "obra": "Zhuangzi, chapter 2",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He used stories and humour to show that our categories depend on the point of view we look from, and that no perspective — the human one included — is the measure of all.",
+  "nivel_2_desarrollo": "Zhuangzi does not argue like a treatise-writer: he tells anecdotes that unsettle. He dreams he is a butterfly and on waking does not know whether he is a man who dreamt he was a butterfly or a butterfly dreaming it is a man, and the story does not seek resolution but the loosening of certainty about the boundaries of identity. An enormous fish and a small bird laugh at each other's flights because each measures the world by its own scale. A cook carves an ox without blunting his knife because he does not cut against the animal's structure but through its gaps: mastery consists in fitting what is there. Out of this comes a particular freedom, that of someone who stops imposing their preferences on the world, and a systematic distrust of language, which fixes distinctions where reality has none.",
+  "nivel_3_experto": "Since Guo Xiang's edition the text has been divided into inner, outer and miscellaneous chapters; consensus attributes only the inner ones to Zhuangzi or his immediate circle, while the rest reflect later schools with positions not always coherent with one another, including primitivist and syncretist materials. The second chapter, on the equalising of things, is the focus of interpretive dispute: whether it defends a relativism, a scepticism, a form of perspectivism, or an anti-dogmatic therapy that states no thesis at all; the self-reference objection — if every perspective is relative, so is his — has been worked on by Graham, Hansen, Ivanhoe and Kjellberg among others, with incompatible solutions. A second axis of discussion is whether his ideal of spontaneity has normative content or is purely descriptive, and what follows from it for ethics. His later influence is enormous: Chan (Zen) Buddhism absorbs him, and in the West his reception has oscillated between mystical readings and comparisons with Pyrrho, Nietzsche or pragmatism, all useful but at risk of projection.",
+  "debate_abierto": "Whether Zhuangzi is a relativist, a sceptic or an anti-theorist — and how he avoids self-refutation — is the central controversy of his interpretation.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Zhuangzi",
+      "url": "https://plato.stanford.edu/entries/zhuangzi/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Zhuangzi",
+      "url": "https://iep.utm.edu/zhuangzi-chuang-tzu-chinese-philosopher/"
+    },
+    {
+      "titulo": "Graham, Chuang-Tzu: The Inner Chapters (study and translation)",
+      "url": null
+    }
+  ]
+}

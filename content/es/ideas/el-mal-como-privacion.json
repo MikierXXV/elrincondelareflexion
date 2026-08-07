@@ -1,0 +1,55 @@
+{
+  "id": "el-mal-como-privacion",
+  "corriente_id": "escolastica",
+  "titulo": "El mal como privación",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "agustin",
+      "rol": "principal",
+      "aporte": "Niega que el mal sea una sustancia y lo define como carencia de un bien debido."
+    }
+  ],
+  "pregunta": "¿Es el mal algo que existe, o el hueco que deja algo que falta?",
+  "cita": {
+    "texto": "El mal no es una sustancia, sino la privación de un bien.",
+    "obra": "Condensación de Confesiones VII y La ciudad de Dios XI",
+    "autor_id": "agustin",
+    "atribucion": "tradicional",
+    "nota": "Formulación condensada de una tesis que Agustín desarrolla en varios pasajes; no es una frase literal de un lugar concreto."
+  },
+  "resumen": "Agustín sostiene que el mal no es una fuerza con entidad propia enfrentada al bien, sino una ausencia: como la ceguera no es una cosa, sino la falta de visión donde debería haberla.",
+  "desarrollo": "La tesis responde a un problema concreto. Si existe un principio del mal tan real como el del bien, el universo queda partido en dos poderes en guerra, que es lo que sostenían los maniqueos a los que él mismo perteneció durante años. Su salida es negar al mal el estatuto de sustancia: no es algo que se añada, sino algo que falta donde debería estar. La oscuridad no es una materia oscura, es ausencia de luz; la enfermedad no es un órgano nuevo, es un funcionamiento deteriorado. Aplicado a la conducta, el mal moral sería una voluntad que se desvía de un bien mayor hacia uno menor. Lo interesante es que Agustín no lo trata como abstracción: recuerda un robo de peras cometido de adolescente sin hambre ni provecho, solo por el gusto de transgredir, y reconoce que ni él entiende del todo por qué lo hizo.",
+  "ejemplo_real": "Una amistad que se enfría. Casi nunca hay un acto hostil que puedas señalar; lo que hay es una acumulación de llamadas no hechas y de veces que no preguntaste. El daño es real y sin embargo no está compuesto de acciones, sino de ausencias, y eso lo vuelve especialmente difícil de reparar: no sabes qué deshacer.",
+  "matiz_experto": "La doctrina es más convincente frente al mal metafísico que frente al sufrimiento concreto: llamar 'privación' a una tortura describe bien su estructura y muy mal su peso. Es la objeción que reaparece en toda la discusión posterior sobre el problema del mal.",
+  "visualizacion": {
+    "id": "vis-privacion-agustin",
+    "idea_id": "el-mal-como-privacion",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Dos escenas idénticas se oscurecen a la vez, una añadiendo una sustancia y la otra retirando luz. A cualquier nivel las dos tienen exactamente la misma luminosidad y no se distinguen. Al pedir la composición de cada una, la de la sustancia no tiene nada que enumerar y la de la luz dice cuánta falta.",
+    "invitacion": "Oscurece las dos escenas y busca la diferencia",
+    "alternativa_textual": "Dos maneras de oscurecer una escena, añadiendo una sustancia o retirando luz, con resultado visual idéntico pero solo una descriptible: demuestra la tesis de que el mal no es algo que exista, sino un bien que falta.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Dos maneras de oscurecer la misma escena",
+      "sustancia": "Añadiendo una sustancia oscura",
+      "privacion": "Retirando luz",
+      "oscurecer": "Oscurecer las dos",
+      "examinar": "Preguntar de qué está hecha cada una",
+      "sinComponentes": "Nada que enumerar. No hay sustancia que describir: no tiene partes, ni origen, ni se puede señalar dónde está.",
+      "faltaLuz": "Falta el {porcentaje}% de la luz. Se puede decir cuánta, dónde y respecto de qué.",
+      "identicas": "Las dos tienen la misma luminosidad.",
+      "resolucion": "Lo que se ve es idéntico, pero solo uno de los dos relatos se puede sostener. El mal no es una cosa añadida al mundo: es un bien que falta, y por eso se describe siempre por lo que debería haber y no hay.",
+      "alternativaTexto": "Dos maneras de oscurecer una escena, añadiendo una sustancia o retirando luz, con resultado visual idéntico pero solo una descriptible: demuestra la tesis de que el mal no es algo que exista, sino un bien que falta."
+    }
+  },
+  "ideas_relacionadas": [
+    "razon-y-fe",
+    "razon-suficiente",
+    "banalidad-del-mal"
+  ]
+}

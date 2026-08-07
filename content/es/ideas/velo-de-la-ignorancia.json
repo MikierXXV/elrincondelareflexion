@@ -1,0 +1,68 @@
+{
+  "id": "velo-de-la-ignorancia",
+  "corriente_id": "etica-politica-contemporanea",
+  "titulo": "El velo de la ignorancia",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "rawls",
+      "rol": "principal",
+      "aporte": "Propone elegir las reglas sin saber qué lugar se ocupará bajo ellas."
+    },
+    {
+      "id": "bentham",
+      "rol": "contrapunto",
+      "aporte": "Su criterio de suma total es exactamente lo que Rawls quiere descartar."
+    }
+  ],
+  "pregunta": "¿Qué reglas elegirías si no supieras qué lugar te va a tocar?",
+  "cita": {
+    "texto": "La justicia es la primera virtud de las instituciones sociales.",
+    "obra": "Teoría de la justicia, §1",
+    "autor_id": "rawls",
+    "atribucion": "directa"
+  },
+  "resumen": "Nadie elige su familia, su salud ni sus talentos. Rawls propone diseñar las reglas de la sociedad sin saber qué posición ocuparás en ella: lo que elegirías así es lo justo.",
+  "desarrollo": "El experimento tiene una función precisa: eliminar el sesgo con que cada uno defiende lo que le conviene. Imagina una situación donde los participantes deciden las reglas tras un velo que les oculta su clase, su sexo, su religión, su salud y sus capacidades. Saben cómo funciona una sociedad, pero no cuál será su sitio en ella. Rawls sostiene que en esa situación no se apostaría por maximizar el promedio, porque uno podría caer en el peor lugar y no hay segunda oportunidad. Se elegiría asegurar el suelo. De ahí salen sus dos principios: iguales libertades básicas para todos, y desigualdades aceptables solo si van unidas a igualdad efectiva de oportunidades y si benefician a quienes están peor. Con esto reactivó la filosofía política normativa tras décadas de análisis puramente conceptual.",
+  "ejemplo_real": "El método de partir la tarta: uno corta y el otro elige. Quien corta no sabe qué trozo le tocará, así que se esmera en la igualdad sin necesidad de ser buena persona. El velo es esa misma idea aplicada a las reglas de una sociedad entera, y funciona por la misma razón: elimina la ventaja de saber dónde estás.",
+  "matiz_experto": "Harsanyi objetó que un agente racional bajo incertidumbre maximizaría la utilidad esperada, lo que llevaría a un resultado utilitarista y no al maximin de Rawls. Los comunitaristas añaden que el sujeto tras el velo está desvinculado de los fines que lo constituyen.",
+  "visualizacion": {
+    "id": "vis-velo-rawls",
+    "idea_id": "velo-de-la-ignorancia",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "El velo no es un filtro de información abstracto: es ocupar un lugar concreto en una sociedad y no poder ver el resto. La escena necesita que el usuario esté situado dentro, con oclusión real entre posiciones, y que al reasignarle un sitio al azar experimente el cambio de punto de vista. En un esquema plano lo ve todo desde fuera, que es justamente la posición privilegiada que el experimento suprime.",
+    "descripcion_interaccion": "El usuario reparte recursos y derechos en una sociedad tridimensional viendo su propia posición dentro de ella. Después activa el velo, que oculta esa información manteniéndolo dentro de la escena, y reparte de nuevo. Al levantarlo se le asigna una posición al azar y recorre la sociedad desde ahí, comprobando en cuál de sus dos repartos habría preferido caer.",
+    "invitacion": "Reparte los recursos y luego baja el velo",
+    "alternativa_textual": "Un reparto de recursos hecho dos veces, una conociendo la propia posición en la sociedad y otra ignorándola, seguido de la asignación aleatoria de un lugar desde el que se recorre el resultado: demuestra cómo cambia el criterio de justicia al eliminar la ventaja de saber dónde se está.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "Cinco posiciones sociales vistas desde dentro de una de ellas",
+      "darMas": "Dar más a tu posición",
+      "repartirIgual": "Repartir por igual",
+      "asegurarSuelo": "Asegurar el suelo",
+      "bajarVelo": "Bajar el velo",
+      "levantarVelo": "Levantar el velo y ver dónde caes",
+      "total": "total",
+      "media": "media",
+      "peorSituado": "peor situado",
+      "noSabesDonde": "no sabes dónde estás",
+      "estasEnPosicion": "estás en la posición {posicion}",
+      "inicial": "Estás en la posición 1 y lo sabes. Reparte los recursos como te parezca justo.",
+      "trasBajarVelo": "Ya no sabes qué posición ocupas. Reparte otra vez: ahora podrías caer en cualquiera de las cinco.",
+      "resolucionAsegura": "Te ha tocado la posición {posicion}. Con el reparto que hiciste a ciegas recibes {aCiegas}; con el que hiciste sabiendo dónde estabas habrías recibido {sabiendo}. Sin la ventaja de saberlo, elegiste asegurar el suelo.",
+      "resolucionSuerte": "Te ha tocado la posición {posicion}. Aquí el primer reparto te habría dado más ({sabiendo} frente a {aCiegas}): tuviste suerte. La pregunta de Rawls es qué habrías elegido sin saber si la ibas a tener.",
+      "resolucionRespaldo": "Al repartir sin saber qué posición se ocupará, el criterio cambia: se asegura el suelo en vez de maximizar el promedio.",
+      "alternativaTexto": "Un reparto de recursos hecho dos veces, una conociendo la propia posición en la sociedad y otra ignorándola, seguido de la asignación aleatoria de un lugar desde el que se recorre el resultado: demuestra cómo cambia el criterio de justicia al eliminar la ventaja de saber dónde se está."
+    }
+  },
+  "ideas_relacionadas": [
+    "principio-de-diferencia",
+    "calculo-de-la-felicidad",
+    "contrato-y-voluntad-general",
+    "imperativo-categorico"
+  ]
+}

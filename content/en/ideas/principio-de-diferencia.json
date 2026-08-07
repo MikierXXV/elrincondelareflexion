@@ -1,0 +1,75 @@
+{
+  "id": "principio-de-diferencia",
+  "corriente_id": "etica-politica-contemporanea",
+  "titulo": "The difference principle",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "rawls",
+      "rol": "principal",
+      "aporte": "Fixes when an inequality is acceptable: only if it improves the position of those who are worst off."
+    }
+  ],
+  "pregunta": "Can an unequal society be just?",
+  "cita": {
+    "texto": "Inequalities must benefit the least advantaged members.",
+    "obra": "A Theory of Justice, §13",
+    "autor_id": "rawls",
+    "atribucion": "directa"
+  },
+  "resumen": "It does not forbid some earning more. It makes that gain conditional on two things: genuine equality of opportunity, and a result that improves the position of those who are worst off.",
+  "desarrollo": "The principle starts from an observation: the talents we are born with are not to our credit. Nobody chose their capacity for calculation, their health, or the family that taught them to speak in a certain way. If none of that is deserved, neither are the rewards flowing from it automatically deserved. But Rawls does not conclude that everything should be shared equally, because a degree of inequality generates incentives that end up producing more for everyone. His criterion is that inequality has to pay for itself: it is accepted if, compared with a more equal distribution, it leaves those at the bottom better off. The crucial thing is what it is measured against. Not the average, which can rise while the floor falls, but the position of the worst off, which works as a thermometer for the whole system.",
+  "ejemplo_real": "Paying doctors more to take posts in an isolated village creates an obvious wage inequality. And yet the people who gain are the villagers, who previously had no surgery at all. That is the kind of inequality the principle admits, and it serves to tell it apart from those that only raise a country's average without touching the floor.",
+  "matiz_experto": "Nozick attacked it from libertarianism: a distributive pattern can only be maintained by continually interfering with voluntary transactions. Sen and Nussbaum shifted the focus from primary goods to people's real capabilities, which is today the most influential alternative.",
+  "visualizacion": {
+    "id": "vis-diferencia-rawls",
+    "idea_id": "principio-de-diferencia",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user adjusts a society's level of inequality and sees three indicators at once: the average, the total, and the position of the worst off. They discover that the average and the total can rise while the floor drops, and that only distributions that raise the last bar pass the criterion. A comparison mode sets two complete distributions against each other.",
+    "invitacion": "Adjust inequality and watch the worst off",
+    "alternativa_textual": "Three simultaneous indicators of a society — average, total and the position of the worst off — that can move in opposite directions as inequality varies: it shows why Rawls's criterion is measured against the floor and not the average.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "recipientes",
+    "parametros": {
+      "corrienteId": "etica-politica-contemporanea",
+      "unidad": "resources",
+      "recipientes": [
+        {
+          "nombre": "top position",
+          "capacidad": 12,
+          "nota": "It can rise a great deal, but the criterion is not measured here."
+        },
+        {
+          "nombre": "middle position",
+          "capacidad": 9,
+          "nota": "Not the thermometer either: averages mislead."
+        },
+        {
+          "nombre": "worst off",
+          "capacidad": 6,
+          "nota": "This is the indicator. An inequality is accepted only if this bar rises."
+        }
+      ],
+      "indicadores": [
+        "total",
+        "average",
+        "floor"
+      ],
+      "resolucion": "Inequality has to pay for itself: it is accepted if it leaves those at the bottom better off, not if it raises the average.",
+      "alternativaTexto": "Three simultaneous indicators of a society — average, total and the position of the worst off — that can move in opposite directions as inequality varies: it shows why Rawls's criterion is measured against the floor and not the average.",
+      "vaciar": "Empty and start over",
+      "etiqueta": "The difference principle",
+      "etiquetaZona": "Add to {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "velo-de-la-ignorancia",
+    "calculo-de-la-felicidad",
+    "principio-del-dano",
+    "materialismo-historico"
+  ]
+}

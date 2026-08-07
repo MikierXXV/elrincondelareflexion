@@ -1,0 +1,38 @@
+{
+  "id": "aristoteles",
+  "nombre": "Aristotle",
+  "corriente_id": "clasica-griega",
+  "periodo": "384–322 BCE",
+  "region": "Stagira, Athens",
+  "preguntas_filosoficas": [
+    "Where is the essence of a thing: outside it or inside it?",
+    "What does living well consist in?",
+    "What is a valid inference?"
+  ],
+  "citas": [
+    {
+      "texto": "Man is by nature a political animal.",
+      "obra": "Politics I, 1253a",
+      "atribucion": "directa",
+      "nota": "'We are what we repeatedly do' is not his: it is a 1926 summary by Will Durant that is misattributed to him."
+    }
+  ],
+  "nivel_1_resumen": "He brought Plato's Forms down to earth: the essence of things is in the things themselves. And he defined the good life as a practice acquired by habit, not as theoretical knowledge.",
+  "nivel_2_desarrollo": "Aristotle accepts that there is something stable to know, but not that it lives in a separate world: the form of a living thing is in that living thing, not in a separate model. To explain change he appeals to four causes and, above all, to the distinction between potentiality and actuality: a seed is potentially the tree it will become. In ethics he applies the same approach: he does not try to define the Good in the abstract but to describe what makes a human being flourish. The answer is eudaimonia, an active life in accordance with virtue, and the virtues are acquired by repeating acts, as a trade is learned. Virtue usually lies at a mean between two excesses, and judging where that mean falls in each concrete situation is the work of practical wisdom. He also systematised logic and founded biology as empirical study.",
+  "nivel_3_experto": "The corpus we have consists mostly of working notes for teaching at the Lyceum rather than published works, which explains repetitions, shifts of terminology and internal tensions: criticism has argued throughout the twentieth century over whether these reflect a development (Jaeger's developmentalist thesis) or a thematic organisation. In metaphysics, hylomorphism raises the problem of what individuates two instances of the same form, and the relation between primary substance, essence and universal admits incompatible readings. His teleology — the idea that natural processes tend towards an end — was the principal target of modern science, though contemporary biology has recovered functional explanations some interpreters consider related. In ethics the debate between 'inclusivism' and 'intellectualism' remains open: whether eudaimonia integrates several goods or culminates in the contemplative life of Book X. Aristotelianism became the dominant framework by way of Greek, Arabic (Averroes) and Latin commentators, and his virtue ethics has been enjoying a revival since Anscombe and MacIntyre.",
+  "debate_abierto": "The unity of the corpus, the status of teleology, and whether the Aristotelian good life is inclusive or contemplative remain the subject of rival interpretations.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Aristotle",
+      "url": "https://plato.stanford.edu/entries/aristotle/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Aristotle's Ethics",
+      "url": "https://plato.stanford.edu/entries/aristotle-ethics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Aristotle",
+      "url": "https://iep.utm.edu/aristotle/"
+    }
+  ]
+}

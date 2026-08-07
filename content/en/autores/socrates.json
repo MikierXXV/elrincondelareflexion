@@ -1,0 +1,37 @@
+{
+  "id": "socrates",
+  "nombre": "Socrates",
+  "corriente_id": "clasica-griega",
+  "periodo": "470–399 BCE",
+  "region": "Athens",
+  "preguntas_filosoficas": [
+    "Can you know something without being able to define it?",
+    "Can goodness be taught?"
+  ],
+  "citas": [
+    {
+      "texto": "The unexamined life is not worth living.",
+      "obra": "Plato, Apology 38a",
+      "atribucion": "directa",
+      "nota": "The line usually quoted as his, 'I know only that I know nothing', does not appear in that form in Plato: the Apology says something considerably more careful."
+    }
+  ],
+  "nivel_1_resumen": "He wrote nothing and spent his life asking questions. His method consisted in showing, through chained questions, that those who believed they knew something could not define it.",
+  "nivel_2_desarrollo": "Socrates approached citizens who prided themselves on knowing what justice, courage or piety is, and asked them for a definition. He would then find cases the definition did not cover, until his interlocutor was left without an answer. That point of impasse was not gratuitous humiliation: it was the aim, because only someone who admits they do not know can begin to search. Hence his famous claim that his sole advantage was knowing that he did not know. He also held that nobody does wrong knowingly: if someone truly knew the good, they would do it. He was condemned to death by the Athens restored after the war, accused of impiety and of corrupting the young, and he accepted the sentence rather than flee.",
+  "nivel_3_experto": "The 'Socratic problem' is the core of any serious reading: everything we know comes from sources that use him as a character — Plato, Xenophon, Aristophanes — and there is no incontrovertible criterion for separating the historical Socrates from the Platonic mouthpiece. The most widespread convention assigns the first the early dialogues, aporetic and centred on ethical definitions, and reserves for Plato the theory of Forms in the middle dialogues; but the dating of the dialogues is itself disputed. His moral intellectualism — the thesis that virtue is knowledge and vice ignorance — generates the problem of akrasia, weakness of will, which Aristotle would treat as an empirical refutation: we do know what is better and still do otherwise. His trial also admits a political reading: his links with figures of the oligarchic regime of the Thirty Tyrants mean the charge of impiety is often read as cover for a political score-settling in a city just out of civil war.",
+  "debate_abierto": "Separating the historical Socrates from Plato's literary character remains a historiographical problem with no definitive solution.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Socrates",
+      "url": "https://plato.stanford.edu/entries/socrates/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Socrates",
+      "url": "https://iep.utm.edu/socrates/"
+    },
+    {
+      "titulo": "Vlastos, Socrates: Ironist and Moral Philosopher, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

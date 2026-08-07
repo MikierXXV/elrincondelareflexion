@@ -1,0 +1,146 @@
+{
+  "id": "eterno-retorno",
+  "corriente_id": "existencialismo",
+  "titulo": "El eterno retorno",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "nietzsche",
+      "rol": "principal",
+      "aporte": "Propone una prueba: querer que la propia vida se repita exactamente igual, infinitas veces."
+    }
+  ],
+  "pregunta": "Si tuvieras que revivir tu vida exactamente igual, infinitas veces, ¿la querrías?",
+  "cita": {
+    "texto": "Quien tiene un porqué para vivir soporta casi cualquier cómo.",
+    "obra": "Crepúsculo de los ídolos",
+    "autor_id": "nietzsche",
+    "atribucion": "directa",
+    "nota": "Frankl la citó tantas veces en El hombre en busca de sentido que hoy suele atribuírsele a él."
+  },
+  "resumen": "No es una teoría sobre el tiempo, es una prueba. Imagina que todo lo vivido volverá a repetirse idéntico, sin quitar nada: la pregunta es si eso te horroriza o si podrías quererlo.",
+  "desarrollo": "Nietzsche presenta la idea como un experimento: un demonio te dice que vivirás esta misma vida infinitas veces, con cada dolor y cada acierto en el mismo orden, sin variación. La pregunta no es si eso es verdad, sino qué te pasa al oírlo. Si la respuesta es horror, algo hay que revisar. Si alguien pudiera desearlo, estaría en la relación con su vida que él llama afirmación. Lo exigente es el detalle de que nada puede retocarse: no vale quedarse con lo aprendido y borrar el precio, porque en una vida las cosas vienen enlazadas. Por eso funciona como criterio y no como consuelo: obliga a mirar si uno vive de verdad lo que hace o lo aguanta esperando que después venga otra cosa. Es su alternativa a los sistemas que ponían el sentido fuera de la vida, en un más allá o en un final de la historia.",
+  "ejemplo_real": "Aplícalo a la semana que acabas de pasar, tal cual, sin editar. La mayoría de la gente descubre dos cosas a la vez: que hay tramos que repetiría sin dudar y que hay días enteros que solo estaba dejando pasar hasta que llegara algo. Esa segunda categoría es exactamente lo que la prueba está diseñada para hacer visible.",
+  "matiz_experto": "Se discute si es una tesis cosmológica sobre la estructura del tiempo o un imperativo ético-existencial. La segunda lectura es hoy mayoritaria, pero hay notas suyas que apuntan a la primera y el asunto no está cerrado.",
+  "visualizacion": {
+    "id": "vis-retorno-nietzsche",
+    "idea_id": "eterno-retorno",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario elige un tramo de vida y lo ve descompuesto en momentos unidos por arcos de dependencia. Al retirar uno, se van con él todos los que dependían de ese, y mientras al tramo le falte algo la prueba queda bloqueada: hay que devolverlo entero o cambiar de tramo. Solo se puede aplicar sobre el tramo completo, y entonces el resultado no puntúa: devuelve la decisión al usuario.",
+    "invitacion": "Quita un momento y mira qué se lleva consigo",
+    "alternativa_textual": "Una secuencia de momentos vitales que solo puede aceptarse o rechazarse completa, porque retirar uno arrastra los que dependían de él: demuestra que la prueba del eterno retorno no admite quedarse con lo bueno y borrar el precio.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "peticion": "Elige un tramo de tu vida",
+      "nombrePrueba": "Repetirlo idéntico, infinitas veces",
+      "aplicadaTexto": "Repetido idéntico",
+      "candidatos": [
+        {
+          "texto": "La semana que acabas de pasar",
+          "sobrevive": true,
+          "veredicto": "Hay tramos que repetirías sin dudar. Y días enteros que solo estabas dejando pasar hasta que llegara algo.",
+          "momentos": [
+            {
+              "texto": "El lunes interminable",
+              "dependeDe": []
+            },
+            {
+              "texto": "La conversación que evitabas",
+              "dependeDe": [
+                0
+              ]
+            },
+            {
+              "texto": "El alivio de haberla tenido",
+              "dependeDe": [
+                1
+              ]
+            },
+            {
+              "texto": "El sábado sin hacer nada",
+              "dependeDe": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "texto": "Un año difícil, con lo que aprendiste",
+          "sobrevive": false,
+          "veredicto": "No vale quedarse con lo aprendido y borrar el precio: en una vida las cosas vienen enlazadas.",
+          "momentos": [
+            {
+              "texto": "La ruptura",
+              "dependeDe": []
+            },
+            {
+              "texto": "Los meses de dormir mal",
+              "dependeDe": [
+                0
+              ]
+            },
+            {
+              "texto": "Pedir ayuda por primera vez",
+              "dependeDe": [
+                1
+              ]
+            },
+            {
+              "texto": "La gente que apareció entonces",
+              "dependeDe": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "texto": "El día que saliste bien parado por suerte",
+          "sobrevive": false,
+          "veredicto": "Repetido infinitas veces, deja de ser suerte y pasa a ser tu vida. ¿La querrías así?",
+          "momentos": [
+            {
+              "texto": "El descuido",
+              "dependeDe": []
+            },
+            {
+              "texto": "El susto al darte cuenta",
+              "dependeDe": [
+                0
+              ]
+            },
+            {
+              "texto": "Contarlo después como anécdota",
+              "dependeDe": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "secuencia": {
+        "retirar": "Retirar «{momento}»",
+        "arrastre": "Al retirar «{momento}» se van con él: {arrastrados}",
+        "suelto": "«{momento}» se va solo: nada dependía de él",
+        "restaurar": "Devolver el tramo entero",
+        "bloqueado": "El tramo está incompleto: no puede volver",
+        "editado": "Lo que volvería ya no es tu vida, sino otra distinta. La prueba pide esta, entera.",
+        "entero": "El tramo vuelve a estar completo: ahora sí puede someterse a la prueba."
+      },
+      "resolucion": "No es una teoría sobre el tiempo, es un criterio: obliga a mirar si vives lo que haces o lo aguantas esperando que después venga otra cosa.",
+      "alternativaTexto": "Una secuencia de momentos vitales que solo puede aceptarse o rechazarse completa, porque retirar uno arrastra los que dependían de él: demuestra que la prueba del eterno retorno no admite quedarse con lo bueno y borrar el precio.",
+      "etiqueta": "El eterno retorno"
+    }
+  },
+  "ideas_relacionadas": [
+    "genealogia-de-la-moral",
+    "voluntad-de-sentido",
+    "voluntad-y-pesimismo",
+    "angustia-y-libertad"
+  ]
+}

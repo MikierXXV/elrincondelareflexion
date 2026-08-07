@@ -1,0 +1,37 @@
+{
+  "id": "arendt",
+  "nombre": "Hannah Arendt",
+  "corriente_id": "etica-politica-contemporanea",
+  "periodo": "1906–1975",
+  "region": "Alemania, Estados Unidos",
+  "preguntas_filosoficas": [
+    "¿Hace falta ser un monstruo para cometer atrocidades?",
+    "¿Qué distingue la acción política del trabajo y la supervivencia?"
+  ],
+  "citas": [
+    {
+      "texto": "Nadie tiene derecho a obedecer.",
+      "obra": "Formulación recogida de entrevistas posteriores a Eichmann en Jerusalén",
+      "atribucion": "tradicional",
+      "nota": "Circula como sentencia aislada; en su contexto responde a la defensa de Eichmann basada en el deber de obediencia."
+    }
+  ],
+  "nivel_1_resumen": "Al cubrir el juicio a un alto funcionario nazi describió lo que llamó la banalidad del mal: la capacidad de participar en crímenes enormes sin odio particular, simplemente sin pensar en lo que se hace.",
+  "nivel_2_desarrollo": "Arendt esperaba encontrarse en Jerusalén con un fanático y le impresionó encontrar a un burócrata preocupado por su carrera, que hablaba en fórmulas hechas y parecía incapaz de imaginar el punto de vista de sus víctimas. Su tesis no fue que el mal sea leve, sino que no siempre requiere una motivación monstruosa: puede bastar con obedecer, encajar y dejar de pensar. En su obra política distingue tres actividades: la labor, que atiende a la necesidad biológica; el trabajo, que fabrica el mundo de objetos duraderos; y la acción, que es lo que ocurre cuando alguien aparece ante otros con palabras y hechos e inicia algo imprevisible. Esa capacidad de comenzar —la natalidad— es para ella el fundamento de la libertad política. Y advirtió que el totalitarismo se instala destruyendo el espacio compartido donde esa acción es posible.",
+  "nivel_3_experto": "La banalidad del mal es su concepto más discutido y más deformado. Investigaciones posteriores sobre la documentación de Eichmann, especialmente las entrevistas de Sassen en Argentina y el trabajo de Bettina Stangneth, han mostrado a un antisemita ideológicamente convencido que construyó deliberadamente su papel de funcionario obediente ante el tribunal, lo que ha llevado a muchos a considerar que Arendt fue engañada por la puesta en escena; sus defensores replican que el núcleo filosófico —la desconexión entre la magnitud del daño y la profundidad del motivo, y la relación entre irreflexión y mal— sobrevive con independencia del caso concreto. Su libro suscitó además una controversia durísima por sus páginas sobre los consejos judíos. En teoría política, su distinción entre labor, trabajo y acción ha sido criticada como una idealización nostálgica de la polis griega que excluye lo social y lo económico del ámbito propiamente político, objeción central en la lectura feminista y marxista de su obra; también se discute su tratamiento de la cuestión racial en Estados Unidos, en particular su ensayo sobre Little Rock. Su análisis de la apatridia y del 'derecho a tener derechos' es hoy referencia obligada en los debates sobre refugiados.",
+  "debate_abierto": "Si el retrato de Eichmann invalida o no la tesis de la banalidad del mal, y si su separación entre lo social y lo político es defendible, son controversias vivas.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Hannah Arendt",
+      "url": "https://plato.stanford.edu/entries/arendt/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Hannah Arendt",
+      "url": "https://iep.utm.edu/hannah-arendt/"
+    },
+    {
+      "titulo": "Stangneth, Eichmann Before Jerusalem, Knopf",
+      "url": null
+    }
+  ]
+}

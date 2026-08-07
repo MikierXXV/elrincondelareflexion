@@ -1,0 +1,67 @@
+{
+  "id": "ser-es-ser-percibido",
+  "corriente_id": "empirismo",
+  "titulo": "Ser es ser percibido",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "berkeley",
+      "rol": "principal",
+      "aporte": "Lleva el empirismo al extremo: si solo conocemos percepciones, la materia no percibida es una hipótesis vacía."
+    }
+  ],
+  "pregunta": "¿Qué contenido tiene decir que algo existe sin que nadie pueda percibirlo?",
+  "cita": {
+    "texto": "Ser es ser percibido.",
+    "obra": "Tratado sobre los principios del conocimiento humano, 3",
+    "autor_id": "berkeley",
+    "atribucion": "directa"
+  },
+  "resumen": "Si todo lo que conocemos son percepciones, hablar de una materia que existe sin ser percibida por nadie es hablar de algo de lo que no tenemos ninguna idea. Berkeley propone prescindir de ella.",
+  "desarrollo": "Berkeley acepta el punto de partida de Locke y le señala una grieta. Si lo único a lo que accedemos son nuestras ideas, ¿de dónde sale la creencia en una sustancia material situada detrás de ellas, que por definición nadie puede percibir jamás? Su conclusión es que, para las cosas sensibles, existir es ser percibido. Esto no convierte el mundo en una alucinación privada: las percepciones tienen orden, no dependen de nuestra voluntad —no puedo dejar de ver el árbol cerrando y abriendo los ojos— y son compartidas, y esa constancia la explica él por su procedencia divina. Lo que reclama es una ganancia doble: elimina un supuesto que nadie puede verificar y cierra la puerta al escepticismo, porque desaparece la brecha entre las apariencias y una realidad oculta detrás de ellas.",
+  "ejemplo_real": "Piensa en un objeto de una habitación cerrada y descríbelo sin usar ni un solo término perceptivo: sin color, sin forma, sin textura, sin peso sentido, sin sonido. Cuando terminas de retirarlos todos, comprueba qué te queda entre las manos. Berkeley sostiene que no queda nada, y que a eso vacío lo llamábamos materia.",
+  "matiz_experto": "Su argumento de la inconcebibilidad —intentar concebir un objeto no percibido presupone un concebidor— se considera su punto más débil: probablemente confunde el acto de concebir con su contenido. Y admitir espíritus como sustancias tras eliminar la materia es una tensión que Hume resolverá suprimiendo también el yo.",
+  "visualizacion": {
+    "id": "vis-percepcion-berkeley",
+    "idea_id": "ser-es-ser-percibido",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "Lo que la idea pone en juego es el campo visual de un observador situado en un lugar concreto, con oclusiones reales y objetos que salen de cuadro al girar la cabeza. En un recorte plano el usuario sigue viendo la escena completa desde fuera, que es justo la posición que Berkeley niega que exista: hace falta estar dentro para que 'lo no percibido' signifique algo.",
+    "descripcion_interaccion": "El usuario mira desde dentro de una escena y solo ve lo que su campo visual alcanza; lo demás queda ocluido de verdad, no recortado. Al intentar describir lo que hay fuera de la vista, la interfaz solo admite términos perceptivos y va tachando los que no puede justificar, hasta quedarse sin contenido. Un modo alternativo añade un observador permanente y la escena recupera continuidad.",
+    "invitacion": "Gira la vista e intenta describir lo que no ves",
+    "alternativa_textual": "Una escena vista desde dentro en la que lo no percibido no se apaga sino que se vuelve indescriptible, porque la interfaz solo admite términos perceptivos: demuestra que la idea de materia no percibida se queda sin contenido.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "Un claro visto desde dentro, girando la vista",
+      "girarIzquierda": "Girar la vista a la izquierda",
+      "girarDerecha": "Girar la vista a la derecha",
+      "anadirObservador": "Añadir un observador permanente",
+      "retirarObservador": "Retirar el observador permanente",
+      "conObservador": "Con un observador que nunca deja de percibir, la escena recupera continuidad sin que tú tengas que mirarla. Es la salida que Berkeley da al problema.",
+      "sinObservador": "Sin observador permanente, cada cosa vuelve a depender de que alguien la esté percibiendo.",
+      "loPercibes": "lo percibes: color, forma, distancia",
+      "alguienLoPercibe": "alguien lo percibe: sigue teniendo color y forma",
+      "sinTerminos": "¿de qué está hecho? no queda ningún término que aplicar",
+      "inicial": "Gira la vista y fíjate en qué le pasa a lo que deja de estar delante.",
+      "fueraDelCampo": "Hay {n} cosas fuera de tu campo visual. No se han apagado: es que al intentar decir algo de ellas no queda ningún término perceptivo disponible.",
+      "fueraDelCampoUna": "Hay {n} cosa fuera de tu campo visual. No se ha apagado: es que al intentar decir algo de ella no queda ningún término perceptivo disponible.",
+      "resolucionRespaldo": "De lo que queda fuera del campo visual no queda ningún término perceptivo que aplicar: por eso Berkeley considera vacía la idea de materia no percibida.",
+      "alternativaTexto": "Una escena vista desde dentro en la que lo no percibido no se apaga sino que se vuelve indescriptible, porque la interfaz solo admite términos perceptivos: demuestra que la idea de materia no percibida se queda sin contenido.",
+      "objetos": [
+        "el árbol",
+        "la casa",
+        "la piedra",
+        "el pozo"
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "tabula-rasa",
+    "mundo-de-las-ideas",
+    "condiciones-a-priori",
+    "relatividad-de-las-perspectivas"
+  ]
+}

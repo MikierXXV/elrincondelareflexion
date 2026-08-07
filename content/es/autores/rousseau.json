@@ -1,0 +1,36 @@
+{
+  "id": "rousseau",
+  "nombre": "Jean-Jacques Rousseau",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1712–1778",
+  "region": "Ginebra, Francia",
+  "preguntas_filosoficas": [
+    "¿Nos ha mejorado el progreso?",
+    "¿Cómo obedecer a otros y seguir siendo libre?"
+  ],
+  "citas": [
+    {
+      "texto": "El ser humano nace libre, y en todas partes está encadenado.",
+      "obra": "El contrato social I, 1",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo, contra el optimismo de su época, que la civilización no nos ha hecho mejores, y buscó una forma de vida en común en la que obedecer a la ley no signifique obedecer a un amo.",
+  "nivel_2_desarrollo": "Rousseau se hizo célebre defendiendo una tesis incómoda entre ilustrados: el progreso de las ciencias y las artes no ha mejorado las costumbres. Su diagnóstico es que el ser humano no es malo por naturaleza, pero al vivir en sociedad empieza a existir a través de la mirada ajena y aparecen la comparación, el prestigio y la desigualdad, especialmente tras la aparición de la propiedad. Su problema político es entonces cómo asociarse sin perder la libertad. Su respuesta es el contrato social y la voluntad general: si las leyes las damos todos y se aplican a todos por igual, obedecerlas es obedecerse a uno mismo. Añade que la libertad no es hacer lo que apetece, sino darse a sí mismo la propia norma. En educación, su Emilio propone acompañar el desarrollo del niño en lugar de moldearlo desde fuera.",
+  "nivel_3_experto": "El estado de naturaleza de Rousseau no es una hipótesis histórica sino un modelo contrafáctico para aislar lo añadido por la sociedad, y él mismo lo advierte; leerlo como antropología es un error frecuente. La distinción entre amour de soi —autoconservación no comparativa— y amour-propre —estima dependiente de la comparación— es la clave de su psicología moral, y buena parte de la interpretación reciente subraya que el segundo no es intrínsecamente corrupto, sino corruptible, lo que abre una lectura menos pesimista. La noción de voluntad general concentra el debate político más duro: su distinción respecto de la voluntad de todos, el papel del legislador y sobre todo la fórmula de que a quien se resista se le 'forzará a ser libre' han sostenido lecturas totalitarias (Talmon, y matizadamente Berlin) frente a lecturas republicanas que la entienden como no dominación y autolegislación. Se discute también la coherencia entre su ideal de transparencia comunitaria y su propia práctica autobiográfica, y la posición subordinada que asigna a las mujeres en el libro V del Emilio, criticada ya por Wollstonecraft. Su influencia sobre Kant, sobre la Revolución francesa y sobre el romanticismo es directa.",
+  "debate_abierto": "Si la voluntad general contiene un germen autoritario o es la formulación clásica de la autonomía democrática es una controversia interpretativa persistente.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Jean Jacques Rousseau",
+      "url": "https://plato.stanford.edu/entries/rousseau/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Jean-Jacques Rousseau",
+      "url": "https://iep.utm.edu/rousseau/"
+    },
+    {
+      "titulo": "Neuhouser, Rousseau's Theodicy of Self-Love, Oxford University Press",
+      "url": null
+    }
+  ]
+}

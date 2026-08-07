@@ -1,0 +1,36 @@
+{
+  "id": "kierkegaard",
+  "nombre": "Søren Kierkegaard",
+  "corriente_id": "existencialismo",
+  "periodo": "1813–1855",
+  "region": "Copenhagen",
+  "preguntas_filosoficas": [
+    "Can an abstract system tell me how to live my life?",
+    "What is anxiety and what does it report?"
+  ],
+  "citas": [
+    {
+      "texto": "Life can only be understood backwards, but it must be lived forwards.",
+      "obra": "Journals, 1843",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He reproached philosophy for forgetting the concrete individual who has to decide, and described anxiety not as an illness but as the vertigo of knowing oneself free.",
+  "nivel_2_desarrollo": "Kierkegaard wrote against the great systems — Hegel in particular — with a simple argument: however complete a system may be, I still have to choose, and nobody makes that choice for me. He describes three ways of living: the aesthetic, given over to the moment and to variety, which ends in tedium; the ethical, which takes on commitments and duties; and the religious, which demands a leap reason cannot guarantee. His analysis of anxiety is his most quoted psychological contribution: it is not fear of anything determinate, but the dizziness produced by noticing that we are capable of anything, that nothing compels us. And despair, for him, is not an isolated attack but the state of someone who cannot manage to be themselves. He published much of his work under pseudonyms defending different positions, so that the reader could not simply submit to a doctrine.",
+  "nivel_3_experto": "The strategy of indirect communication — pseudonyms with autonomous voices such as Johannes de Silentio, Vigilius Haufniensis or Anti-Climacus — is constitutive rather than decorative, and any interpretation has to decide what to attribute to the author; he himself expressly asked not to be quoted as responsible for those voices. His reading of the sacrifice of Isaac in Fear and Trembling raises the 'teleological suspension of the ethical', the possibility of an absolute duty standing above the universal ethical, and it is the focus of the gravest objection against him: the danger of an irrationalism legitimating any individual conviction, a discussion Levinas and Derrida have taken up from different angles. His relation to Hegel has also been qualified: part of current criticism holds that his target was the Danish Hegelianism of his day more than Hegel himself. His influence forks: towards dialectical theology (Barth), towards Sartre's atheist existentialism — which takes the structure of choice and dispenses with faith — and towards Heidegger's phenomenology, whose analyses of anxiety and everydayness owe him more than he acknowledged.",
+  "debate_abierto": "How to keep the 'teleological suspension of the ethical' from sliding into irrationalism, and what weight to give the pseudonyms, remain central interpretive problems.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Søren Kierkegaard",
+      "url": "https://plato.stanford.edu/entries/kierkegaard/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Søren Kierkegaard",
+      "url": "https://iep.utm.edu/kierkega/"
+    },
+    {
+      "titulo": "Hannay & Marino (eds.), The Cambridge Companion to Kierkegaard",
+      "url": null
+    }
+  ]
+}

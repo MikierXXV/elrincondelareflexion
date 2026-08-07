@@ -1,0 +1,36 @@
+{
+  "id": "tomas-de-aquino",
+  "nombre": "Thomas Aquinas",
+  "corriente_id": "escolastica",
+  "periodo": "1225–1274",
+  "region": "Kingdom of Naples, Paris",
+  "preguntas_filosoficas": [
+    "Can reason demonstrate anything about God?",
+    "Are there moral norms accessible without revelation?"
+  ],
+  "citas": [
+    {
+      "texto": "Grace does not destroy nature, but perfects it.",
+      "obra": "Summa Theologiae I, q. 1, a. 8",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He integrated Aristotle's philosophy into Christian thought, arguing that reason and faith cannot contradict each other because they investigate the same reality by different routes.",
+  "nivel_2_desarrollo": "When Aristotle enters the European universities of the thirteenth century, his physics and metaphysics collide with established theology and some call for a ban. Aquinas takes the hard road: absorb him and rebuild the doctrine with his tools. His model distinguishes what reason can reach on its own — including, he holds, the existence of God — from what arrives only by revelation, without the second cancelling the first: grace perfects nature, it does not replace it. His 'five ways' are arguments starting from observable facts (that there is motion, causes, contingency, degrees and order) to conclude the necessity of an ultimate principle. In ethics he develops natural law: there are basic human inclinations that reason can recognise and order, so that a shared moral criterion exists even among those who do not share a faith.",
+  "nivel_3_experto": "Aquinas's metaphysical core is the real distinction between essence and act of being (esse), inherited critically from Avicenna, which lets him hold that in every creature the essence does not include existence and that only in God do they coincide. On that basis he articulates the analogy of being, an answer to the alternative between univocity and equivocity that Duns Scotus would reject shortly after, opening one of the great forks in late scholasticism. The five ways are frequently misread as arguments about a first moment in time: Aquinas expressly held that the eternity of the world is not demonstrably false by philosophical means, and his causal series are of simultaneous dependence, not chronological. His reception was not peaceful — several closely related theses were caught by the Parisian condemnations of 1277 — and his doctrinal canonisation came much later. Natural law remains a live programme: the 'new natural law' of Finnis and Grisez reformulates it without theological premises, while its critics object that it derives norms from descriptions of human nature.",
+  "debate_abierto": "The logical status of the five ways and the viability of a natural-law ethics without theological foundation are the subject of current philosophical discussion, not only historical.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Saint Thomas Aquinas",
+      "url": "https://plato.stanford.edu/entries/aquinas/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — The Natural Law Tradition in Ethics",
+      "url": "https://plato.stanford.edu/entries/natural-law-ethics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Thomas Aquinas",
+      "url": "https://iep.utm.edu/thomas-aquinas/"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "documento": {
+    "titulo": "El Rincón de la Reflexión",
+    "descripcion": "Recorrido interactivo por la historia de la filosofía, organizado por ideas: de los presocráticos a la psicología del siglo XX, con las tradiciones china, india e islámica en su propia cronología."
+  },
+  "barra": {
+    "saltar_a_contenido": "Saltar al recorrido",
+    "tema_a_oscuro": "Cambiar a tema oscuro",
+    "tema_a_claro": "Cambiar a tema claro",
+    "idioma": "Language: switch to English",
+    "idioma_corto": "EN"
+  },
+  "hero": {
+    "titular": "Veinticinco siglos de preguntas que todavía no están cerradas.",
+    "cifras": "{ideas} ideas · {corrientes} corrientes · {autores} pensadores",
+    "entradilla": "Un recorrido por las ideas, no por los nombres. Occidente, China, India, el mundo islámico y la psicología del siglo XX, cada tradición en su propia cronología. Cada idea se puede manipular: no se ilustra, se comprueba.",
+    "entrar": "Recorrer las ideas",
+    "cromos": "Ver los cromos",
+    "escena": "Figura sentada e inclinada, con el codo sobre la rodilla, en actitud de pensar",
+    "seguir": "Seguir en «{donde}»",
+    "seguir_cromos": "Seguir en los cromos"
+  },
+  "recorrido": {
+    "contemporanea_de": "Contemporánea de {corrientes}",
+    "entrar_en_las_ideas": "Entrar en las ideas",
+    "saltar_a": "Saltar a {corriente} →",
+    "ir_a_cromos": "Ir a los cromos →",
+    "situacion_idea": "{corriente} · idea {n} de {total}",
+    "atribucion": "atribución",
+    "en_la_vida_real": "En la vida real",
+    "lo_que_simplifica": "Lo que esto simplifica",
+    "siguiente_idea": "Siguiente idea →",
+    "ver_ficha": "ver ficha →",
+    "vis_fallida": "No se pudo montar la visualización.",
+    "roles": {
+      "principal": "principal",
+      "contrapunto": "contrapunto",
+      "convergente": "convergente",
+      "desarrollo": "desarrollo"
+    }
+  },
+  "ficha": {
+    "volver_a_idea": "volver a la idea",
+    "volver_a_cromos": "volver a los cromos",
+    "cerrar": "Cerrar",
+    "preguntas_de_fondo": "Preguntas de fondo",
+    "ideas_de_su_corriente": "Ideas de su corriente en el recorrido",
+    "estas_aqui": "{titulo} ← estás aquí",
+    "modo_experto": "Modo experto — matices, debate historiográfico, fuentes",
+    "en_disputa": "En disputa",
+    "fuentes": "Fuentes"
+  },
+  "widget": {
+    "etiqueta": "Posición en el recorrido",
+    "ir_a_cromos": "Los pensadores →",
+    "inicio": "Inicio",
+    "posicion_idea": "{corriente}, idea {idea}"
+  },
+  "umbral": {
+    "cierre": "Hasta aquí, las ideas en orden.",
+    "cambio": "A partir de aquí, quienes las pensaron."
+  },
+  "cromos": {
+    "titulo": "Los {autores}",
+    "camino": "Camino de corrientes",
+    "pista_inicial": "Señala un cromo para ver a qué corriente pertenece.",
+    "pista_corriente": "{corriente} · {autores} autores · {ideas} ideas",
+    "pista_bloque": "{bloque} · {corrientes} corrientes · {autores} autores",
+    "todos": "Todos"
+  },
+  "vis": {
+    "respaldo_3d": "<p><strong>Versión estática.</strong> Este dispositivo no puede mostrar la escena 3D, o has pedido reducir el movimiento.</p>",
+    "ampliar": "Ver en grande",
+    "ampliada": "Visualización a pantalla completa",
+    "cerrar_ampliada": "✕ Cerrar",
+    "alternativa_resumen": "Qué demuestra esta pieza"
+  },
+  "pie": {
+    "copyright": "© 2026 M. Gutiérrez",
+    "creditos": "Fuentes y créditos"
+  },
+  "creditos": {
+    "titulo": "Fuentes y créditos",
+    "intro": "Qué es propio de este sitio y qué no, y bajo qué condiciones se usa lo que no lo es.",
+    "volver": "volver al sitio",
+    "secciones": [
+      {
+        "titulo": "El contenido",
+        "cuerpo": "Los textos están redactados y sintetizados a partir de fuentes académicas, nunca copiados. Las citas son fragmentos breves con su obra indicada, y las de atribución tradicional o dudosa aparecen señaladas como tales dentro de la propia ficha.",
+        "enlace": null
+      },
+      {
+        "titulo": "Las visualizaciones",
+        "cuerpo": "Las cincuenta y nueve piezas del recorrido son geometría, física y animación propias. No hay ilustraciones de terceros.",
+        "enlace": null
+      },
+      {
+        "titulo": "La figura del hero",
+        "cuerpo": "Parte de un escaneo por fotogrametría de El Pensador de Rodin realizado por Rigsters, usado bajo licencia Creative Commons Atribución (CC BY). Modificaciones: malla reducida de 50 974 a 25 486 triángulos, texturas eliminadas, y recentrado y reescalado para el encuadre. El bronce y la luz son propios. La escultura de Rodin, muerto en 1917, es de dominio público; lo que se licencia es el escaneo, que es obra distinta.",
+        "enlace": {
+          "texto": "The Thinker by Auguste Rodin, de Rigsters",
+          "url": "https://sketchfab.com/3d-models/the-thinker-by-auguste-rodin-08a1e693c9674a3292dec2298b09e0ae"
+        }
+      },
+      {
+        "titulo": "Tipografías",
+        "cuerpo": "Newsreader e Inter, ambas bajo SIL Open Font License 1.1. Se sirven desde este mismo sitio, no desde un tercero. Modificaciones: recortadas a los alfabetos latinos, fijado el eje de tamaño óptico y limitado el de peso a los tres que el diseño usa, de 415 kB a 82 kB. Ninguna de las dos licencias reserva el nombre de la familia, así que conservan el suyo.",
+        "enlace": null
+      }
+    ]
+  }
+}

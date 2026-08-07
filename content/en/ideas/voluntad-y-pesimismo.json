@@ -1,0 +1,63 @@
+{
+  "id": "voluntad-y-pesimismo",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "The will and pessimism",
+  "orden": 5,
+  "autores": [
+    {
+      "id": "schopenhauer",
+      "rol": "principal",
+      "aporte": "Places at the bottom of the world a blind impulse that is never satisfied."
+    },
+    {
+      "id": "hegel",
+      "rol": "contrapunto",
+      "aporte": "Embodies the rational history on the march that Schopenhauer denies at the root."
+    }
+  ],
+  "pregunta": "What if what moves us were not reason, but a wanting that never runs out?",
+  "cita": {
+    "texto": "Life swings like a pendulum between pain and boredom.",
+    "obra": "The World as Will and Representation, §57",
+    "autor_id": "schopenhauer",
+    "atribucion": "tradicional",
+    "nota": "A widely circulated condensation of a longer passage; it is not a literal sentence from the text."
+  },
+  "resumen": "To want is to lack. Satisfying a desire opens the next one, and the interval between them is usually boredom. Hence the pendulum never stops at the midpoint.",
+  "desarrollo": "Schopenhauer starts from Kant and adds a twist: he believes he knows what the thing in itself is, because there is one case in which we perceive it not from outside but from within, and that is ourselves. And what we find there is not reason but wanting. That impulse, without end or purpose, would be the ground of everything that exists. The consequence is his pessimism: since desiring is lacking, satisfaction produces only a short pause before the next desire, and if none appears, tedium does. There is no point of rest. Against Hegel, who saw history advancing towards the consciousness of freedom, he sees an impulse devouring itself. But he leaves two partial exits: aesthetic contemplation, where for a moment one looks without wanting anything, and compassion, where the boundary between self and other weakens.",
+  "ejemplo_real": "The day they finally hand you the keys to the flat, or you sign the contract you have chased for two years. The joy lasts less than you expected, and within days you are already thinking about the next thing. It is not ingratitude: it is the structure Schopenhauer describes, and that is why it is so odd that nobody warns you first.",
+  "matiz_experto": "His most criticised move is identifying the Kantian thing in itself with the will, which means applying to it a category taken from self-consciousness. And his reading of Buddhism and Vedanta is mediated by nineteenth-century translations, so it should be treated as reworking rather than faithful transmission.",
+  "visualizacion": {
+    "id": "vis-pendulo-schopenhauer",
+    "idea_id": "voluntad-y-pesimismo",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "A real pendulum swings between two extremes labelled 'pain' and 'boredom'. The user tries to stop it at the centre by pushing it: each push gives it more energy and carries it further away. Only a separate mode, 'contemplation', in which the user watches without intervening, lets the oscillation damp out by itself — and it starts again the moment they touch it.",
+    "invitacion": "Push the pendulum to the centre",
+    "alternativa_textual": "A pendulum between lack and boredom that moves further from the centre the more it is pushed and damps out only when intervention stops: it shows why satisfying desires does not halt the cycle of wanting.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "A pendulum swinging between pain and boredom",
+      "satisfacer": "Satisfy a desire",
+      "contemplar": "Contemplate, wanting nothing",
+      "volverAQuerer": "Want something again",
+      "estadoContemplando": "contemplation: the motion dies out by itself",
+      "estadoDeseos": "desires satisfied",
+      "dolor": "pain",
+      "hastio": "boredom",
+      "resolucionEmpujar": "Every satisfaction has carried it further from the centre. To want is to lack, and satisfying one desire only opens the next.",
+      "resolucionContemplar": "It stops only when you stop wanting something. That is where Schopenhauer places aesthetic contemplation: a moment of looking without desiring.",
+      "resolucionEstatica": "The pendulum swings between the pain of lack and the tedium of satiety, with no point of rest.",
+      "alternativaTexto": "A pendulum between lack and boredom that moves further from the centre the more it is pushed and damps out only when intervention stops: it shows why satisfying desires does not halt the cycle of wanting."
+    }
+  },
+  "ideas_relacionadas": [
+    "limite-del-placer",
+    "las-cuatro-verdades",
+    "eterno-retorno",
+    "voluntad-de-sentido"
+  ]
+}

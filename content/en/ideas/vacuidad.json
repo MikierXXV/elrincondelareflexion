@@ -1,0 +1,75 @@
+{
+  "id": "vacuidad",
+  "corriente_id": "filosofia-india",
+  "titulo": "Emptiness",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "nagarjuna",
+      "rol": "principal",
+      "aporte": "Takes the analysis to its limit: nothing has a nature of its own, because everything depends on something else to be what it is."
+    }
+  ],
+  "pregunta": "Is there anything that is what it is by itself, depending on nothing?",
+  "cita": {
+    "texto": "There is nothing that arises without depending on something else.",
+    "obra": "Fundamental Verses on the Middle Way, 24, 19",
+    "autor_id": "nagarjuna",
+    "atribucion": "directa"
+  },
+  "resumen": "Empty does not mean that nothing exists, but that nothing exists by itself. And the twist is that precisely for that reason things can change, relate and work.",
+  "desarrollo": "Nāgārjuna works by refutation. He takes a concept we treat as solid — cause, motion, time, the self, even nirvana — and shows that if it is credited with an independent nature of its own, contradictions appear. An effect cannot already be contained in its cause, because then there would be no production; nor can it arise from nothing, because then anything would produce anything. His conclusion is that nothing possesses such a self-sufficient nature. What matters is the twist that avoids nihilism: precisely because things are empty, they can change and relate. If anything had a fixed nature it could not turn into anything, or affect anything, or be affected. Emptiness is not that something is missing: it is the condition of there being anything at all. And he insists he is not defending a thesis of his own but drawing out the consequences of other people's.",
+  "ejemplo_real": "Nobody is a 'son' by themselves: they are one in relation to a parent. Nor a 'boss' without a team, nor 'left' without right. In those cases we accept it without difficulty. Nāgārjuna asks what is left if you apply the same analysis to everything else: to a table, to a metre, to an instant, to yourself. And he holds that the result is the same, only harder for us to see.",
+  "matiz_experto": "What it means for him to 'have no thesis' is the central problem of his interpretation: there are antirealist readings, deflationary ones such as Siderits's, and Garfield and Priest's proposal to read him as a dialetheist. His catuskoti method also raises logical problems that have generated rival formalisations.",
+  "visualizacion": {
+    "id": "vis-vacuidad-nagarjuna",
+    "idea_id": "vacuidad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user selects an element of a network and asks to isolate it from the rest. As its relations are removed, the element does not stand there alone and solid: it loses one by one the properties that defined it, until there is nothing left to isolate. Restoring the relations brings it back complete, showing that its identity was in the network and not inside it.",
+    "invitacion": "Isolate the element and see what it has left",
+    "alternativa_textual": "An element of a network that, isolated from its relations, progressively loses the properties that defined it until it disappears, and returns complete when they are restored: it shows that things do not possess an independent nature of their own.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "centro": "the thing",
+      "vinculos": [
+        {
+          "nombre": "its causes",
+          "perdida": "Without what produced it, it stops having an origin of its own."
+        },
+        {
+          "nombre": "its parts",
+          "perdida": "With no components, there is no assembly left to name."
+        },
+        {
+          "nombre": "its effects",
+          "perdida": "If it affects nothing, there is no way to tell it apart from its absence."
+        },
+        {
+          "nombre": "its contrast",
+          "perdida": "Without what it is not, the distinction itself dissolves."
+        },
+        {
+          "nombre": "whoever names it",
+          "perdida": "With nobody to bound it, its edges stop being anywhere."
+        }
+      ],
+      "resolucion": "Nothing was left to isolate. Its identity was in the network, not inside it: that is emptiness, not that it does not exist.",
+      "alternativaTexto": "An element of a network that, isolated from its relations, progressively loses the properties that defined it until it disappears, and returns complete when they are restored: it shows that things do not possess an independent nature of their own.",
+      "restituir": "Restore the relations",
+      "etiqueta": "Emptiness",
+      "etiquetaNodo": "Cut the link with {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "anatman",
+    "atman-y-brahman",
+    "causalidad-como-habito",
+    "significado-como-uso"
+  ]
+}

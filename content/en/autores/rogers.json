@@ -1,0 +1,37 @@
+{
+  "id": "rogers",
+  "nombre": "Carl Rogers",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1902–1987",
+  "region": "United States",
+  "preguntas_filosoficas": [
+    "What is the relation between being accepted and being able to change?",
+    "Who is the authority on one's own experience?"
+  ],
+  "dialogo_filosofico": "He connects with the question of authenticity and autonomy: whether the ultimate judgement about one's own life belongs to the subject or to an external authority interpreting it.",
+  "citas": [
+    {
+      "texto": "The curious paradox is that when I accept myself as I am, I change.",
+      "obra": "On Becoming a Person, 1961",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He held that people change when they feel accepted as they are, not when they are pressed, and shifted the authority in therapy from the expert to the client.",
+  "nivel_2_desarrollo": "Rogers observed something apparently paradoxical in his practice: people do not change when they are pushed, but when they no longer have to defend themselves. Hence his person-centred therapy, in which the therapist neither interprets nor directs but sustains three conditions: unconditional acceptance, empathy and congruence — that is, not playing a role. His explanation is that much distress is born of the distance between what one experiences and what one believes one must be in order to be acceptable — what he called conditions of worth, learned when affection arrived conditionally. Once that pressure disappears, a person can recognise what they actually feel and reorganise. He was also a pioneer in recording and analysing real sessions, subjecting psychotherapy to empirical study when that was unusual.",
+  "nivel_3_experto": "His strong hypothesis — that the conditions he describes are necessary and sufficient for therapeutic change — has not held up in those terms: later research on common factors shows that the therapeutic alliance and empathy correlate robustly with outcome, but as factors relevant in any orientation rather than as sufficient conditions in themselves. His notion of an innate actualising tendency towards development is today regarded as an optimistic anthropological assumption rather than a tested thesis, and has been criticised both for its individualism — it pays little attention to the social and material conditions of distress — and for its limited capacity to guide the treatment of severe presentations. His methodological legacy, by contrast, is solid: the systematic recording of sessions and the operationalisation of therapeutic variables opened empirical research in psychotherapy, and his influence extends far beyond the clinic, into education, mediation and training in listening skills. Contemporary motivational interviewing descends directly from his approach, with more demanding evidential frameworks.",
+  "debate_abierto": "The thesis that his three conditions are sufficient for change is not supported; their value as common factors in psychotherapy does have empirical backing.",
+  "fuentes": [
+    {
+      "titulo": "Rogers, The Necessary and Sufficient Conditions of Therapeutic Personality Change, Journal of Consulting Psychology 21 (1957)",
+      "url": null
+    },
+    {
+      "titulo": "Elliott et al., Therapist Empathy and Client Outcome: An Updated Meta-Analysis, Psychotherapy (2018)",
+      "url": null
+    },
+    {
+      "titulo": "Kirschenbaum, The Life and Work of Carl Rogers",
+      "url": null
+    }
+  ]
+}

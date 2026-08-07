@@ -1,0 +1,73 @@
+{
+  "id": "limite-del-placer",
+  "corriente_id": "helenismo",
+  "titulo": "El límite del placer",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "epicuro",
+      "rol": "principal",
+      "aporte": "Distingue los deseos que tienen techo de los que no lo tienen, y define el placer como ausencia de perturbación."
+    }
+  ],
+  "pregunta": "¿Por qué conseguir lo que querías no suele bastar?",
+  "cita": {
+    "texto": "Mientras existimos, la muerte no está; cuando llega, ya no estamos.",
+    "obra": "Carta a Meneceo",
+    "autor_id": "epicuro",
+    "atribucion": "directa"
+  },
+  "resumen": "Hay deseos que se sacian y deseos que no tienen fondo. Epicuro define el placer no como acumulación, sino como el estado que queda cuando se retira el dolor y la inquietud.",
+  "desarrollo": "El epicureísmo arrastra un malentendido de siglos: no propone el exceso, sino un cálculo sobrio. Epicuro clasifica los deseos en tres grupos. Los naturales y necesarios —comer, abrigo, compañía— se satisfacen y quedan satisfechos: tienen un límite claro. Los naturales pero no necesarios, como comer bien, añaden variedad sin añadir plenitud. Y los vanos —fama, riqueza sin tope, prestigio— no tienen techo por definición, porque siempre existe alguien con más, y por eso producen ansiedad permanente por mucho que se alimenten. La conclusión práctica es que el placer no crece indefinidamente con la cantidad: una vez retirado el dolor, ya está completo, y lo demás solo lo varía. A eso añade una terapia contra los dos grandes miedos, el de los dioses y el de la muerte, con el argumento de que esta última nunca coincide con nosotros.",
+  "ejemplo_real": "El primer vaso de agua cuando tienes mucha sed es intensamente placentero; el cuarto, ya no. Nadie duda de cuándo dejar de beber. En cambio, nadie sabe cuánto dinero o cuánto reconocimiento serían suficientes, y esa pregunta sin respuesta es exactamente lo que Epicuro señala: un deseo sin límite no puede completarse, solo alimentarse.",
+  "matiz_experto": "Se discute si su hedonismo es 'catastemático' —placer de reposo— o admite también el placer en movimiento, lo que cambia por completo el tono de la doctrina. Su argumento sobre la muerte sigue debatiéndose frente a la objeción de la privación.",
+  "visualizacion": {
+    "id": "vis-deseos-epicuro",
+    "idea_id": "limite-del-placer",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "El usuario vierte deseos concretos en tres recipientes y la simulación los acumula con volumen real. Los naturales y necesarios llenan un vaso que se completa y rebosa: seguir echando no sube el nivel. Los vanos caen en un recipiente sin fondo cuyo contenido se pierde por abajo, de modo que el nivel nunca sube por más que se insista. Un medidor de inquietud responde en tiempo real.",
+    "invitacion": "Vierte deseos y mira cuál se llena",
+    "alternativa_textual": "Tres recipientes que reciben deseos: unos se llenan hasta rebosar y otros carecen de fondo, de modo que nunca alcanzan nivel. Demuestra que hay deseos que se sacian y deseos que solo se alimentan.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "recipientes",
+    "parametros": {
+      "corrienteId": "helenismo",
+      "unidad": "deseos",
+      "recipientes": [
+        {
+          "nombre": "comer y abrigo",
+          "capacidad": 4,
+          "nota": "Se sacia y queda saciado: tiene un límite claro y lo alcanzas."
+        },
+        {
+          "nombre": "comer bien",
+          "capacidad": 6,
+          "nota": "Añade variedad, no plenitud. También termina."
+        },
+        {
+          "nombre": "fama y prestigio",
+          "capacidad": null,
+          "nota": "El nivel no sube. Siempre hay alguien con más: no tiene techo por definición."
+        }
+      ],
+      "indicadores": [
+        "inquietud"
+      ],
+      "resolucion": "El placer no crece indefinidamente con la cantidad: retirado el dolor, ya está completo. Lo que no se llena nunca es lo que produce la inquietud.",
+      "alternativaTexto": "Tres recipientes que reciben deseos: unos se llenan hasta rebosar y otros carecen de fondo, de modo que nunca alcanzan nivel. Demuestra que hay deseos que se sacian y deseos que solo se alimentan.",
+      "vaciar": "Vaciar y empezar de nuevo",
+      "etiqueta": "El límite del placer",
+      "etiquetaZona": "Añadir a {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "dicotomia-del-control",
+    "voluntad-y-pesimismo",
+    "las-cuatro-verdades",
+    "placeres-superiores"
+  ]
+}

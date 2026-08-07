@@ -1,0 +1,78 @@
+{
+  "id": "vista-desde-arriba",
+  "corriente_id": "helenismo",
+  "titulo": "The view from above",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "marco-aurelio",
+      "rol": "principal",
+      "aporte": "Practises in writing the exercise of looking at his own affairs from a cosmic distance."
+    }
+  ],
+  "pregunta": "How much room does the thing that now seems enormous actually take up?",
+  "cita": {
+    "texto": "Very soon you will have forgotten everything; very soon everyone will have forgotten you.",
+    "obra": "Meditations VII, 21",
+    "autor_id": "marco-aurelio",
+    "atribucion": "directa"
+  },
+  "resumen": "An exercise, not a theory: looking at your own affair from further and further away — the house, the city, the century — until it recovers its real size and leaves room for what matters.",
+  "desarrollo": "The Meditations are not a treatise but a private notebook Marcus Aurelius never meant to publish, written on military campaign. That is why it repeats itself: each entry is an exercise to be redone, not a conclusion reached. The most characteristic one consists in shifting the point of observation. You begin absorbed in a particular grievance and keep widening the frame: the room, the city, the continent, the centuries before, the ones to come. The matter does not disappear or become false, but it changes scale, and with the scale changes what it deserves. To this he adds the constant reminder of his own mortality, not as morbidity but as a corrector of priorities. What is striking about the book is the tension running through it: someone with unlimited power imposing limits on himself in writing, in private, every day.",
+  "ejemplo_real": "A work email that has ruined your afternoon. Ask whether you will remember it in a month; then in five years. Almost none survives the first question. The exercise is not to pretend it does not matter, but to check how much of the reaction came from the real size of the thing and how much from looking at it too close up.",
+  "matiz_experto": "There is a critical reading of his figure: the distance between the private moralist and the emperor who prosecuted wars and persecutions is a genuine historiographical problem, not a detail.",
+  "visualizacion": {
+    "id": "vis-escala-marco-aurelio",
+    "idea_id": "vista-desde-arriba",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "The exercise consists in pulling away continuously, and its effect depends on the movement being real and uninterrupted: the worry has to shrink while other lives and other ages come into frame. A flat zoom in jumps would break exactly what produces the change of scale, which is the continuity of the journey.",
+    "descripcion_interaccion": "The user writes a concrete worry and it appears at natural size in the foreground. As the camera pulls back it travels without cuts through the room, the city, the continent and the layers of centuries, and the worry keeps its physical size while the world around it grows. Returning to the starting point, the text is read at its new proportion.",
+    "invitacion": "Write down a worry and pull away",
+    "alternativa_textual": "A continuous pull-back from a written worry to the scale of centuries and continents, in which the matter keeps its size while the surroundings grow: it shows that the magnitude of a problem depends on the distance you look at it from.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "A continuous pull-back from a worry to the scale of centuries",
+      "alejar": "Pull back one step",
+      "acercar": "Come closer again",
+      "resolucionFinal": "The worry is exactly the same size as at the start. It has not changed: what changed is the distance you were looking from.",
+      "resolucionRespaldo": "Seen from very far away, the worry keeps its size and the world around reduces it to its real proportion.",
+      "alternativaTexto": "A continuous pull-back from a written worry to the scale of centuries and continents, in which the matter keeps its size while the surroundings grow: it shows that the magnitude of a problem depends on the distance you look at it from.",
+      "escalas": [
+        {
+          "z": 6,
+          "nombre": "your worry",
+          "nota": "This is how big you were seeing it: it fills the whole frame."
+        },
+        {
+          "z": 26,
+          "nombre": "the room",
+          "nota": "Where you are comes into view. The matter still measures the same."
+        },
+        {
+          "z": 130,
+          "nombre": "the city",
+          "nota": "Thousands of people with their own affairs, all the same size."
+        },
+        {
+          "z": 620,
+          "nombre": "the continent",
+          "nota": "Nothing you can see knows that this happened to you."
+        },
+        {
+          "z": 2600,
+          "nombre": "the centuries",
+          "nota": "Very soon you will have forgotten everything; very soon everyone will have forgotten you."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "dicotomia-del-control",
+    "limite-del-placer",
+    "relatividad-de-las-perspectivas"
+  ]
+}

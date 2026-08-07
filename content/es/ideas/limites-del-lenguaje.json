@@ -1,0 +1,85 @@
+{
+  "id": "limites-del-lenguaje",
+  "corriente_id": "analitica",
+  "titulo": "Los límites del lenguaje",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "wittgenstein",
+      "rol": "principal",
+      "aporte": "Traza la frontera de lo que puede decirse con sentido, y deja fuera lo que más le importaba."
+    }
+  ],
+  "pregunta": "¿Hay cosas importantes de las que sencillamente no se puede hablar?",
+  "cita": {
+    "texto": "De lo que no se puede hablar, hay que callar.",
+    "obra": "Tractatus logico-philosophicus, 7",
+    "autor_id": "wittgenstein",
+    "atribucion": "directa"
+  },
+  "resumen": "Una proposición tiene sentido porque comparte una estructura con el hecho que representa, como un plano con el terreno. Lo que no encaja en esa forma —la ética, el sentido de la vida— queda fuera del lenguaje.",
+  "desarrollo": "En su primera etapa Wittgenstein construye un modelo muy exigente: el lenguaje representa el mundo porque comparte con él una estructura lógica, del mismo modo que un plano representa un edificio compartiendo sus relaciones espaciales. De ahí se sigue una frontera nítida. Todo lo que puede decirse con sentido son proposiciones sobre hechos; el resto —los valores, lo estético, el sentido de la existencia— cae fuera, no porque sea despreciable sino, según él, porque es lo más importante y no se deja decir. La última línea del libro es la más citada de la filosofía del siglo XX, y suele leerse como un desprecio cuando es lo contrario: un intento de proteger de la charlatanería aquello que considera decisivo. El propio libro se declara al final una escalera que hay que tirar después de subir por ella.",
+  "ejemplo_real": "Intenta explicarle a alguien a qué sabe la sal, o qué se siente al perder a alguien, si nunca lo ha vivido. Puedes decir muchas frases verdaderas alrededor y ninguna transmite la cosa. No es que falten palabras: es que ahí el lenguaje hace otra función, señalar hacia algo que solo se muestra si el otro lo tiene.",
+  "matiz_experto": "La 'new Wittgenstein' de Diamond y Conant propone una lectura resolutiva: las proposiciones metafísicas del propio Tractatus serían deliberadamente sinsentido, no verdades inefables. Es una interpretación influyente y muy discutida.",
+  "visualizacion": {
+    "id": "vis-tractatus-wittgenstein",
+    "idea_id": "limites-del-lenguaje",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario intenta meter cada frase en lo que puede decirse. Las que no se corresponden pieza a pieza con un hecho rebotan, y al rebotar la pieza explica qué les falta para poder decirse. Rebotar no significa ser falsas: significa caer al otro lado del límite.",
+    "invitacion": "Intenta decir cada frase y mira cuál rebota",
+    "alternativa_textual": "Frases que encajan o rebotan en el límite de lo decible según puedan corresponderse pieza a pieza con un hecho, sin que rebotar signifique ser falsas: demuestra dónde traza el primer Wittgenstein la frontera del lenguaje.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "clasificar",
+    "parametros": {
+      "corrienteId": "analitica",
+      "regiones": [
+        "puede decirse",
+        "solo puede mostrarse"
+      ],
+      "elementos": [
+        {
+          "nombre": "Llueve en la calle",
+          "region": 0,
+          "motivo": "Describe un hecho: su estructura se corresponde pieza a pieza con lo que representa."
+        },
+        {
+          "nombre": "El puente mide 40 metros",
+          "region": 0,
+          "motivo": "También es un hecho, comprobable y con forma proposicional."
+        },
+        {
+          "nombre": "A qué sabe la sal",
+          "region": 1,
+          "motivo": "Puedes decir frases verdaderas alrededor y ninguna transmite la cosa."
+        },
+        {
+          "nombre": "Que la vida tiene sentido",
+          "region": 1,
+          "motivo": "No rebota por falsa, sino por no tener la forma que el modelo exige."
+        },
+        {
+          "nombre": "Que esto está bien",
+          "region": 1,
+          "motivo": "Lo ético queda fuera del lenguaje: para él, no porque sea despreciable, sino porque es lo más importante."
+        }
+      ],
+      "rechazo": {
+        "region": 0
+      },
+      "resolucion": "La última línea del Tractatus suele leerse como desprecio y es lo contrario: un intento de proteger de la charlatanería aquello que considera decisivo.",
+      "alternativaTexto": "Frases que encajan o rebotan en el límite de lo decible según puedan corresponderse pieza a pieza con un hecho, sin que rebotar signifique ser falsas: demuestra dónde traza el primer Wittgenstein la frontera del lenguaje.",
+      "ponerEn": "Poner en «{region}»",
+      "etiqueta": "Los límites del lenguaje",
+      "restantesTexto": "quedan {n} por repartir"
+    }
+  },
+  "ideas_relacionadas": [
+    "significado-como-uso",
+    "hablar-de-lo-que-no-existe",
+    "condiciones-a-priori"
+  ]
+}

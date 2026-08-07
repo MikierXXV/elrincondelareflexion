@@ -1,0 +1,36 @@
+{
+  "id": "confucio",
+  "nombre": "Confucius (Kongzi)",
+  "corriente_id": "filosofia-china",
+  "periodo": "551–479 BCE",
+  "region": "State of Lu (China)",
+  "preguntas_filosoficas": [
+    "Do you learn to be a good person the way you learn a trade?",
+    "What is the relation between social forms and inner sincerity?"
+  ],
+  "citas": [
+    {
+      "texto": "Do not impose on others what you would not desire yourself.",
+      "obra": "Analects XV, 24",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He located the moral life in the constant cultivation of oneself within concrete relations — family, friendship, community — rather than in obeying abstract commands.",
+  "nivel_2_desarrollo": "Confucius lived in an age of war between states and his diagnosis was that public disorder begins in the disorder of personal relations. His answer is not a code of rules but a programme for forming character. Two notions articulate it: ren, the human disposition towards others usually translated as benevolence, and li, the set of rites, courtesies and forms that give that disposition adequate expression. The forms matter because they educate: practising the right gesture gradually shapes the feeling, it does not merely express it. His version of the golden rule is negative — do not impose on others what you would not want for yourself — and his model is the junzi, the exemplary person, defined by conduct rather than birth, which in his context was a weighty claim: excellence is cultivated, not inherited.",
+  "nivel_3_experto": "The Analects are a stratified compilation, assembled over generations by disciples and successors, and textual criticism — with contributions such as those of Brooks and Brooks or the Guodian manuscript finds — argues over which layers are older, which bears directly on what can be attributed to him. Translating ren and li is a philosophical and not merely a linguistic problem: 'benevolence', 'humaneness', 'ritual' or 'propriety' drag in Christian or Kantian connotations foreign to the text, and much current sinology prefers to leave them untranslated. There is also an underlying methodological debate, raised among others by Rosemont and Ames, about whether to apply Western categories such as 'virtue ethics', 'deontology' or even 'philosophy' to a corpus that did not call itself any of those; other specialists hold that the comparison is legitimate and productive so long as it is made explicit. Politically, Confucianism had a long career as imperial ideology — Zhu Xi's Neo-Confucianism reworked it in the twelfth century — and it is today the object of both academic and official recovery in China, which makes distinguishing the text from its later uses essential.",
+  "debate_abierto": "The stratification of the Analects, the translatability of its central concepts, and the appropriateness of applying Western philosophical categories to them are active discussions in sinology.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Confucius",
+      "url": "https://plato.stanford.edu/entries/confucius/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Confucius",
+      "url": "https://iep.utm.edu/confucius/"
+    },
+    {
+      "titulo": "Ames & Rosemont, The Analects of Confucius: A Philosophical Translation",
+      "url": null
+    }
+  ]
+}

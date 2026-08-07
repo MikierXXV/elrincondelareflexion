@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Prototipos de referencia — El Rincón de la Reflexión</title>
+</head>
+<body>
+  <header class="cabecera">
+    <div>
+      <h1>Tres prototipos de referencia</h1>
+      <p class="entradilla">
+        Uno por técnica. La pregunta que responden no es filosófica sino de diseño:
+        ¿se sienten de la misma familia un SVG, una simulación física y una escena 3D?
+        Cambia el tema y compruébalo también en oscuro.
+      </p>
+    </div>
+    <button id="alternar-tema" type="button">Cambiar tema</button>
+  </header>
+
+  <main class="piezas">
+    <section class="pieza">
+      <h2>El término medio</h2>
+      <p class="meta">SVG interactivo · Aristóteles · Clásica griega</p>
+      <div class="superficie" id="vis-svg"></div>
+    </section>
+
+    <section class="pieza">
+      <h2>La suspensión del juicio</h2>
+      <p class="meta">Canvas con física · Pirrón · Helenismo</p>
+      <div class="superficie" id="vis-fisica"></div>
+    </section>
+
+    <section class="pieza">
+      <h2>El mundo de las Ideas</h2>
+      <p class="meta">Three.js · Platón · Clásica griega</p>
+      <div class="superficie" id="vis-3d"></div>
+    </section>
+  </main>
+
+  <script type="module" src="/src/prototipos.ts"></script>
+</body>
+</html>

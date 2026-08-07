@@ -1,0 +1,38 @@
+{
+  "id": "upanishads-vedanta",
+  "nombre": "The Upanishads and the Vedanta tradition",
+  "corriente_id": "filosofia-india",
+  "periodo": "early Upanishads c. 8th–4th c. BCE; Vedanta systematisation from the 8th c. CE onwards",
+  "region": "The Indian subcontinent",
+  "nota_autoria": "An anonymous, collective corpus rather than the work of an individual author; its most influential philosophical systematisation is Shankara's.",
+  "preguntas_filosoficas": [
+    "Who is it that perceives when I perceive?",
+    "Are we anything distinct from the ground of reality?"
+  ],
+  "citas": [
+    {
+      "texto": "You are that.",
+      "obra": "Chandogya Upanishad VI",
+      "atribucion": "directa",
+      "nota": "Tat tvam asi. Exactly what that identity means is precisely what divides the Vedanta schools from one another."
+    }
+  ],
+  "nivel_1_resumen": "These texts shift attention from outward ritual to the question of the subject standing behind all experience, and hold that this innermost ground and the ground of reality are one and the same.",
+  "nivel_2_desarrollo": "The Upanishads are dialogues and meditations that close the Vedic corpus and shift its centre of gravity: what is decisive is no longer sacrifice but knowledge. Their characteristic procedure is elimination: I am not the body, which changes; nor the senses, which switch off in sleep; nor thoughts, which come and go; and withdrawing everything that can be an object of observation, what remains is that which observes, the atman. The central claim of the Vedanta tradition is that this ground is identical with brahman, the single principle of everything real, and that perceiving oneself as separate from it is the error that sustains suffering and the cycle of rebirths. Liberation then consists not in getting somewhere else or acquiring something new, but in ceasing to identify mistakenly with what one is not.",
+  "nivel_3_experto": "Speaking of 'Vedanta' in the singular is inaccurate: Shankara's non-dualist Advaita, Ramanuja's Vishishtadvaita — qualified non-dualism, which preserves the distinction between soul and God — and Madhva's dualism offer incompatible readings of the same base texts, and their exegetical dispute articulates centuries of Indian philosophy. In Shankara the key is maya and the distinction between two levels of truth, conventional and ultimate, together with superimposition (adhyasa), by which we attribute properties of the objective to the subject; his critics, from Ramanuja onwards, object that this scheme does not explain the ontological status of maya without falling into an inadmissible third term. Western reception is conditioned by the nineteenth-century German idealist reading — Schopenhauer reaches the Upanishads through a Latin translation of a Persian version — and by Vivekananda's neo-Vedanta, which presented the tradition in universalist terms adapted for a European audience; distinguishing those layers from classical exegesis is today a methodological requirement. The Upanishads themselves are not a system but a plural and sometimes contradictory corpus composed over centuries.",
+  "debate_abierto": "The ontological status of maya in Advaita and the legitimacy of modern neo-Vedantic readings are fully live debates, both internal and external.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Analytic Philosophy in Early Modern India",
+      "url": "https://plato.stanford.edu/entries/early-modern-india/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Advaita Vedanta",
+      "url": "https://iep.utm.edu/advaita-vedanta/"
+    },
+    {
+      "titulo": "Olivelle, Upanisads (critical translation and study), Oxford University Press",
+      "url": null
+    }
+  ]
+}

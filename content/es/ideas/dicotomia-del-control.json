@@ -1,0 +1,93 @@
+{
+  "id": "dicotomia-del-control",
+  "corriente_id": "helenismo",
+  "titulo": "La dicotomía del control",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "epicteto",
+      "rol": "principal",
+      "aporte": "Separa lo que depende de nosotros de lo que no, y sitúa ahí toda la libertad posible."
+    },
+    {
+      "id": "marco-aurelio",
+      "rol": "desarrollo",
+      "aporte": "Aplica la distinción desde el poder absoluto, por escrito y en privado, cada día."
+    }
+  ],
+  "pregunta": "¿Cuánto de lo que te preocupa depende realmente de ti?",
+  "cita": {
+    "texto": "No nos perturban las cosas, sino las opiniones sobre las cosas.",
+    "obra": "Enquiridión, 5",
+    "autor_id": "epicteto",
+    "atribucion": "directa"
+  },
+  "resumen": "Nuestras opiniones y decisiones dependen de nosotros; el cuerpo, la reputación y los actos ajenos, no. Casi todo el sufrimiento nace de tratar como propio lo que no lo es.",
+  "desarrollo": "La distinción parece obvia hasta que se aplica en serio. Epicteto, nacido esclavo, sostiene que el juicio que hacemos sobre lo que ocurre sí está en nuestro poder, y que es ahí donde se produce la perturbación: no es el hecho lo que altera, sino la evaluación que le añadimos. Por eso la misma noticia hunde a una persona y no a otra. Lo que propone no es indiferencia, sino un reparto correcto de esfuerzo: dedicar la energía a lo que sí se puede mover, y dejar de exigirle al mundo garantías que no da. Su imagen preferida es la del actor al que se le asigna un papel: no elige cuál, sí cómo lo representa. La ganancia es doble, porque quien deja de pelear con lo inevitable suele actuar mejor sobre lo que sí puede cambiar.",
+  "ejemplo_real": "Un vuelo cancelado. No depende de ti que se cancele, ni la cola del mostrador, ni el humor del que atiende. Sí depende cómo lo cuentas, qué haces con las horas y si tratas al de al lado como un obstáculo o como alguien que está igual que tú. La mayoría de la gente gasta la tarde entera en la primera lista.",
+  "matiz_experto": "La objeción persistente es política: que la 'libertad interior' funcione como resignación y desactive la crítica social, al reubicar en el juicio del sujeto un problema que a veces es estructural.",
+  "visualizacion": {
+    "id": "vis-control-epicteto",
+    "idea_id": "dicotomia-del-control",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario intenta meter cada elemento en el círculo de lo que depende de él. Los que no dependen de él son expulsados con resistencia, y cada intento de forzarlos sube un medidor de desgaste que no baja. Repartir bien no cuesta nada; empujar lo que no cabe es lo único que consume algo.",
+    "invitacion": "Intenta meter cada cosa en tu círculo",
+    "alternativa_textual": "Un círculo en el que solo caben los elementos que dependen de uno mismo, y que expulsa con resistencia los que no: demuestra que el desgaste procede de intentar controlar lo que está fuera de nuestro alcance.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "clasificar",
+    "parametros": {
+      "corrienteId": "helenismo",
+      "regiones": [
+        "depende de ti",
+        "no depende de ti"
+      ],
+      "elementos": [
+        {
+          "nombre": "Tu juicio sobre lo ocurrido",
+          "region": 0,
+          "motivo": "El juicio sí es tuyo, y ahí es donde se produce la perturbación."
+        },
+        {
+          "nombre": "Cómo respondes",
+          "region": 0,
+          "motivo": "No eliges el papel que te toca, sí cómo lo representas."
+        },
+        {
+          "nombre": "Que cancelen el vuelo",
+          "region": 1,
+          "motivo": "Ni la cancelación ni la cola dependen de ti. Pelear con eso gasta la tarde entera."
+        },
+        {
+          "nombre": "Lo que otro opine de ti",
+          "region": 1,
+          "motivo": "Es su juicio, no el tuyo. Tratarlo como propio es la fuente del desgaste."
+        },
+        {
+          "nombre": "Tu reputación",
+          "region": 1,
+          "motivo": "Vive en cabezas ajenas. Puedes influir, no disponer."
+        }
+      ],
+      "rechazo": {
+        "region": 0,
+        "medidor": "Desgaste",
+        "avisoMedidor": "Todo este desgaste ha salido de empujar hacia dentro cosas que nunca cupieron."
+      },
+      "resolucion": "Casi todo el sufrimiento nace de tratar como propio lo que no lo es. Y quien deja de pelear con lo inevitable suele actuar mejor sobre lo que sí puede cambiar.",
+      "alternativaTexto": "Un círculo en el que solo caben los elementos que dependen de uno mismo, y que expulsa con resistencia los que no: demuestra que el desgaste procede de intentar controlar lo que está fuera de nuestro alcance.",
+      "ponerEn": "Poner en «{region}»",
+      "etiqueta": "La dicotomía del control",
+      "restantesTexto": "quedan {n} por repartir"
+    }
+  },
+  "ideas_relacionadas": [
+    "vista-desde-arriba",
+    "libertad-como-comprension",
+    "voluntad-de-sentido",
+    "aceptacion-y-cambio"
+  ]
+}

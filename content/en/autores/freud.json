@@ -1,0 +1,37 @@
+{
+  "id": "freud",
+  "nombre": "Sigmund Freud",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1856–1939",
+  "region": "Vienna, London",
+  "preguntas_filosoficas": [
+    "Are we transparent to ourselves?",
+    "What is left of free will if our reasons are not the real ones?"
+  ],
+  "dialogo_filosofico": "He attacks head-on the Cartesian assumption of a mind transparent to itself and reopens, in a clinical key, the problem of self-knowledge and of responsibility for what one does not know about oneself.",
+  "citas": [
+    {
+      "texto": "The ego is not master in its own house.",
+      "obra": "Introductory Lectures on Psychoanalysis, 1917",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He argued that much of what moves us is inaccessible to consciousness, and that the motives we give to explain our behaviour usually arrive after the decision.",
+  "nivel_2_desarrollo": "From his clinical practice, Freud concluded that there are active contents consciousness cannot reach directly and that show themselves indirectly: in dreams, in slips, in symptoms. Repression would be the mechanism keeping them out, at a cost. To explain inner conflict he proposed a model of three agencies: the id, seat of impulse; the superego, which internalises prohibitions; and the ego, which negotiates between them and with reality. His therapeutic method, free association, aims precisely at evading conscious control of speech. And he advanced an uncomfortable cultural thesis: civilisation demands renouncing immediate satisfactions, so that a degree of discontent is not a fault in the system but its price.",
+  "nivel_3_experto": "The scientific status of psychoanalysis is under sustained challenge: Popper considered it irrefutable and therefore unscientific, Grünbaum criticised it from within by questioning the evidential value of clinical material, and historical revisions by Borch-Jacobsen, Crews and others have documented serious problems in the founding case histories and in reported success rates. On the other side, there are lines of empirical work that vindicate bounded versions of his theses — non-conscious processing is solidly established in cognitive psychology, though the 'cognitive unconscious' does not coincide with the Freudian dynamic unconscious — and Solms's neuropsychoanalysis attempts an explicit bridge. Philosophically, Ricoeur integrated him into a 'hermeneutics of suspicion' alongside Marx and Nietzsche, reading him as an interpretation of meaning rather than a natural science, while Habermas placed him among the reconstructive sciences. His theses on female sexuality and his abandonment of the seduction theory have been the object of first-rank feminist and historiographical criticism. His cultural impact is beyond dispute even where his theoretical apparatus is rejected.",
+  "debate_abierto": "The scientific status of psychoanalysis and the reliability of the founding cases are seriously contested; the existence of non-conscious processing, by contrast, is well established on terms other than his.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Sigmund Freud",
+      "url": "https://plato.stanford.edu/entries/freud/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Sigmund Freud",
+      "url": "https://iep.utm.edu/freud/"
+    },
+    {
+      "titulo": "Grünbaum, The Foundations of Psychoanalysis: A Philosophical Critique",
+      "url": null
+    }
+  ]
+}

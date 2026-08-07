@@ -1,0 +1,107 @@
+{
+  "id": "principio-del-dano",
+  "corriente_id": "utilitarismo",
+  "titulo": "The harm principle",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "mill",
+      "rol": "principal",
+      "aporte": "Fixes the only legitimate ground for limiting someone's liberty: preventing harm to others."
+    }
+  ],
+  "pregunta": "When may a society interfere in someone's life?",
+  "cita": {
+    "texto": "The only purpose that warrants interference is to prevent harm to others.",
+    "obra": "On Liberty, I, 1859",
+    "autor_id": "mill",
+    "atribucion": "directa"
+  },
+  "resumen": "The only legitimate ground for limiting someone's liberty against their will is to prevent harm to others. Their own good, physical or moral, is not sufficient reason.",
+  "desarrollo": "The formulation is simple and its consequences are not. Mill holds that over his own body and mind the individual is sovereign, and that society may advise, reason or plead, but not compel, so long as the conduct harms no one else. That dismisses paternalism and moral imposition at a stroke. And he adds a warning democracy does not resolve on its own: the tyranny of the majority, which oppresses without needing laws, by social pressure alone and the expectation that everyone live the same way. Hence his passionate defence of free expression, false opinion included, on a counter-intuitive argument: if we silence something true we lose the truth, and if we silence something false we lose the chance to understand why our own view is correct instead of repeating it as dogma.",
+  "ejemplo_real": "Helmets and seatbelts divide people along exactly this line: some say it is your head, others that the cost of your accident is paid by all of us, in which case the harm would no longer be only yours. The argument is never about the helmet: it is about where harm to others begins.",
+  "matiz_experto": "What counts as harm is the open problem: whether offence counts, whether purely economic harm counts, whether diffuse long-term harm counts. And there is a serious tension between his liberalism and his positions on societies he considered unready for it, tied to his employment at the East India Company.",
+  "visualizacion": {
+    "id": "vis-dano-mill",
+    "idea_id": "principio-del-dano",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user places concrete behaviours on a plane and draws where they would put the boundary of harm to others. As the boundary moves, the interface shows which other behaviours fall inside and outside on that same criterion, including some they probably would not want to ban. It is an exercise in consistency: the line cannot be drawn only around what annoys you.",
+    "invitacion": "Move the boundary and see what it drags along",
+    "alternativa_textual": "A movable boundary between private conduct and harm to others that on being moved reclassifies every comparable behaviour at once: it shows that the harm principle forces consistency and does not allow banning à la carte.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "eje",
+    "parametros": {
+      "corrienteId": "utilitarismo",
+      "escenarios": [
+        {
+          "nombre": "What you do to yourself",
+          "extremoBajo": "let people be",
+          "extremoAlto": "ban it",
+          "casos": [
+            {
+              "texto": "Riding without a helmet",
+              "posicion": 0.18
+            },
+            {
+              "texto": "Smoking at home",
+              "posicion": 0.3
+            },
+            {
+              "texto": "Climbing without a rope",
+              "posicion": 0.44
+            },
+            {
+              "texto": "Not wearing a seatbelt",
+              "posicion": 0.58
+            },
+            {
+              "texto": "Stopping your medication",
+              "posicion": 0.74
+            }
+          ],
+          "acierto": "The argument is never about the helmet: it is about where harm to others begins."
+        },
+        {
+          "nombre": "What reaches somebody else",
+          "extremoBajo": "nuisance",
+          "extremoAlto": "harm",
+          "casos": [
+            {
+              "texto": "An opinion that offends",
+              "posicion": 0.12
+            },
+            {
+              "texto": "Music at three in the morning",
+              "posicion": 0.38
+            },
+            {
+              "texto": "Smoking in a bar",
+              "posicion": 0.52
+            },
+            {
+              "texto": "Driving drunk",
+              "posicion": 0.8
+            }
+          ],
+          "acierto": "Offence is not harm: if it were, anyone could ban whatever made them uncomfortable."
+        }
+      ],
+      "ladoBajo": "people decide",
+      "ladoAlto": "the law steps in",
+      "resolucion": "The line cannot be drawn only around what bothers you: on moving it, it drags every comparable behaviour along with it.",
+      "alternativaTexto": "A movable boundary between private conduct and harm to others that on being moved reclassifies every comparable behaviour at once: it shows that the harm principle forces consistency and does not allow banning à la carte.",
+      "etiqueta": "The harm principle",
+      "etiquetaTirador": "Where you place the boundary"
+    }
+  },
+  "ideas_relacionadas": [
+    "contrato-y-voluntad-general",
+    "calculo-de-la-felicidad",
+    "velo-de-la-ignorancia",
+    "ideologia"
+  ]
+}

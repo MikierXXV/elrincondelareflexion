@@ -1,0 +1,36 @@
+{
+  "id": "averroes",
+  "nombre": "Averroes (Ibn Rushd)",
+  "corriente_id": "filosofia-islamica",
+  "periodo": "1126–1198",
+  "region": "Córdoba, Marrakech (Al-Ándalus y Magreb)",
+  "preguntas_filosoficas": [
+    "¿Pueden entrar en conflicto la verdad revelada y la demostrada?",
+    "¿Es el intelecto algo individual o compartido?"
+  ],
+  "citas": [
+    {
+      "texto": "La verdad no contradice a la verdad, sino que concuerda con ella.",
+      "obra": "Tratado decisivo",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Sostuvo que la filosofía y la revelación no pueden contradecirse porque la verdad no se contradice: cuando el texto sagrado choca con una demostración, lo que hay que revisar es su interpretación.",
+  "nivel_2_desarrollo": "Averroes fue juez, médico y el comentarista de Aristóteles más influyente de la Edad Media. Frente a la acusación de Al-Ghazali contra los filósofos, respondió con una defensa doble. En lo doctrinal, argumentó que la relación entre las cosas y sus efectos es real, y que negar la causalidad natural destruye el conocimiento: si el fuego no quema por su naturaleza, ninguna ciencia es posible. En lo metodológico, defendió que la ley religiosa no solo permite la filosofía sino que la exige a quienes son capaces de ella, y que los textos admiten distintos niveles de lectura según la capacidad de cada persona; cuando el sentido literal contradice una demostración, corresponde interpretarlo alegóricamente. No hay dos verdades, insiste, sino un mismo objetivo alcanzado por caminos adecuados a cada tipo de entendimiento.",
+  "nivel_3_experto": "Su producción se organiza en comentarios breves, medios y grandes al corpus aristotélico, y en Occidente se lo conoció simplemente como 'el Comentador'; buena parte de sus obras se conserva solo en traducción hebrea o latina. Su tesis noética más polémica, la unidad del intelecto material —un único intelecto compartido por todos los seres humanos—, fue combatida por Tomás de Aquino en un tratado específico y llevó al llamado averroísmo latino de París, con Siger de Brabante, y a las condenas de 1270 y 1277; la propia doctrina de la 'doble verdad' que se le atribuyó no aparece en sus textos y es una construcción polémica de sus adversarios, aunque la etiqueta perdura. Su Incoherencia de la incoherencia responde a Al-Ghazali punto por punto y es la fuente principal para reconstruir el debate. Su influencia fue mayor en la escolástica cristiana y en el pensamiento judío —Maimónides es contemporáneo y comparte marco— que en la tradición islámica oriental posterior, un desequilibrio de recepción que la investigación actual explica por factores institucionales y no solo doctrinales.",
+  "debate_abierto": "La atribución de la 'doble verdad' se considera una deformación de sus adversarios; la interpretación de la unidad del intelecto sigue siendo objeto de análisis técnico.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ibn Rushd (Averroes)",
+      "url": "https://plato.stanford.edu/entries/ibn-rushd/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ibn Rushd (Averroes)",
+      "url": "https://iep.utm.edu/ibn-rushd-averroes/"
+    },
+    {
+      "titulo": "Adamson, Philosophy in the Islamic World, Oxford University Press",
+      "url": null
+    }
+  ]
+}

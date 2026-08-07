@@ -1,0 +1,78 @@
+{
+  "id": "atman-y-brahman",
+  "corriente_id": "filosofia-india",
+  "titulo": "Atman y brahman",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "upanishads-vedanta",
+      "rol": "principal",
+      "aporte": "Desplaza la atención del rito exterior al sujeto que hay detrás de toda experiencia."
+    }
+  ],
+  "pregunta": "¿Quién es el que percibe cuando percibes?",
+  "cita": {
+    "texto": "Tú eres eso.",
+    "obra": "Chandogya Upanishad VI",
+    "autor_id": "upanishads-vedanta",
+    "atribucion": "directa",
+    "nota": "Tat tvam asi. Qué significa exactamente esa identidad es justamente lo que separa entre sí a las escuelas vedanta."
+  },
+  "resumen": "Al retirar todo lo que puede ser observado —el cuerpo, los sentidos, los pensamientos— queda aquello que observa. La tesis vedanta es que ese fondo íntimo y el fondo de lo real son lo mismo.",
+  "desarrollo": "El procedimiento característico es la eliminación, y se puede seguir paso a paso. No soy el cuerpo, porque cambia y porque puedo observarlo. Tampoco los sentidos, que se apagan al dormir. Ni los pensamientos, que van y vienen mientras algo permanece asistiendo a su paso. Retirando todo lo que puede convertirse en objeto de observación, queda lo que observa, el atman, que por definición nunca puede ser observado, porque en cuanto lo miras es un objeto más. La afirmación central de la tradición vedanta es que ese fondo es idéntico a brahman, el principio único de todo lo real, y que sentirse separado es el error que sostiene el sufrimiento. Liberarse no consiste entonces en llegar a otro sitio ni obtener algo nuevo, sino en dejar de identificarse con lo que uno no es.",
+  "ejemplo_real": "Fíjate en que puedes observar tu propio enfado. Si puedes mirarlo, entonces no eres exactamente él, porque hace falta alguien que mire. Prueba a hacer lo mismo con el cuerpo, con el estado de ánimo, con los planes. Y luego intenta girarte para mirar al que mira: no se deja, siempre queda un paso por detrás.",
+  "matiz_experto": "Hablar de 'el Vedanta' en singular es inexacto: el Advaita de Shankara, el no dualismo cualificado de Ramanuja y el dualismo de Madhva leen los mismos textos de forma incompatible. La recepción occidental está además mediada por el neovedanta de Vivekananda, adaptado al público europeo.",
+  "visualizacion": {
+    "id": "vis-neti-vedanta",
+    "idea_id": "atman-y-brahman",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Capas concéntricas rotuladas —cuerpo, sensaciones, emociones, pensamientos, memoria— rodean un centro. El usuario retira cada capa comprobando primero que puede observarla y que, por tanto, no es lo que observa. Cuando ya no queda nada que retirar, el centro no se muestra como objeto: la interfaz deja de ofrecer el gesto de señalar, porque no hay nada ahí que señalar.",
+    "invitacion": "Retira cada capa y pregunta quién la observa",
+    "alternativa_textual": "Capas de la experiencia que se retiran una a una tras comprobar que pueden ser observadas, hasta que la interfaz deja de permitir señalar el centro: demuestra que aquello que observa no puede convertirse en objeto de observación.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "capas",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "capas": [
+        {
+          "nombre": "el cuerpo",
+          "motivo": "Puedes observarlo, luego no eres exactamente él."
+        },
+        {
+          "nombre": "las sensaciones",
+          "motivo": "Van y vienen mientras algo permanece asistiendo a su paso."
+        },
+        {
+          "nombre": "las emociones",
+          "motivo": "Puedes mirar tu propio enfado: hace falta alguien que mire."
+        },
+        {
+          "nombre": "los pensamientos",
+          "motivo": "También se observan, así que tampoco son el observador."
+        },
+        {
+          "nombre": "la memoria",
+          "motivo": "Es contenido, y todo contenido puede convertirse en objeto."
+        }
+      ],
+      "nucleo": null,
+      "resolucion": "No queda nada que señalar. Aquello que observa no puede convertirse en objeto de observación.",
+      "alternativaTexto": "Capas de la experiencia que se retiran una a una tras comprobar que pueden ser observadas, hasta que la interfaz deja de permitir señalar el centro: demuestra que aquello que observa no puede convertirse en objeto de observación.",
+      "reiniciar": "Volver a empezar",
+      "nadaQueRetirar": "No queda nada que retirar",
+      "retirarUna": "Retirar «{nombre}»",
+      "etiqueta": "Atman y brahman",
+      "sinNucleo": "nada debajo"
+    }
+  },
+  "ideas_relacionadas": [
+    "anatman",
+    "identidad-personal",
+    "duda-metodica",
+    "vacuidad"
+  ]
+}

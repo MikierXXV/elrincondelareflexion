@@ -1,0 +1,37 @@
+{
+  "id": "pirron",
+  "nombre": "Pirrón de Elis",
+  "corriente_id": "helenismo",
+  "periodo": "c. 360–270 a.C.",
+  "region": "Elis (Grecia)",
+  "preguntas_filosoficas": [
+    "¿Es posible vivir sin creencias firmes?",
+    "¿La búsqueda de certeza produce serenidad o la destruye?"
+  ],
+  "citas": [
+    {
+      "texto": "A todo argumento se opone otro de igual fuerza.",
+      "obra": "Fórmula pirrónica transmitida por Sexto Empírico",
+      "atribucion": "tradicional",
+      "nota": "Pirrón no escribió nada. La formulación procede de Sexto Empírico, casi cinco siglos posterior."
+    }
+  ],
+  "nivel_1_resumen": "Propuso suspender el juicio: cuando comprobamos que para cada argumento hay otro igual de fuerte en contra, dejar de afirmar deja de ser una derrota y se convierte en un alivio.",
+  "nivel_2_desarrollo": "El escepticismo pirrónico no consiste en negar que se pueda saber —eso ya sería una afirmación dogmática—, sino en seguir investigando sin cerrar el juicio. Su procedimiento es enfrentar apariencias y argumentos contrapuestos hasta alcanzar un equilibrio en el que ninguna posición pesa más: la miel parece dulce a uno y amarga a un enfermo, y no hay criterio neutral para arbitrar sin dar por supuesto lo que se discute. Ante ese empate, el escéptico suspende el juicio, y observa un efecto inesperado: la tranquilidad llega justamente cuando se abandona la exigencia de certeza. Eso no impide vivir: se sigue actuando según cómo aparecen las cosas, las costumbres y las necesidades, sin pronunciarse sobre cómo son en el fondo.",
+  "nivel_3_experto": "Pirrón no escribió; la doctrina nos llega sobre todo a través de Sexto Empírico, casi cinco siglos después, y de un testimonio de Timón transmitido por Aristocles cuya traducción es determinante y muy disputada: si la indeterminación que se afirma es de las cosas mismas (lectura metafísica) o de nuestra capacidad de conocerlas (lectura epistemológica). De esa elección depende que Pirrón sea un escéptico consistente o esté violando su propio principio. El pirronismo se distingue del escepticismo 'académico', que sí afirmaba la imposibilidad del conocimiento, y desarrolla los tropos —esquemas sistemáticos de oposición— como herramienta técnica. La objeción clásica es la apraxia: sin creencias no habría acción posible; la respuesta escéptica apela a la distinción entre asentir a una apariencia y afirmar una verdad, y sigue discutiéndose si esa distinción se sostiene. Su recuperación en el Renacimiento, con la traducción latina de Sexto, alimentó tanto el fideísmo de Montaigne como, por reacción directa, la duda metódica de Descartes. También se ha explorado —con cautela y sin consenso— una posible influencia de las escuelas indias que Pirrón habría conocido durante la expedición de Alejandro.",
+  "debate_abierto": "La lectura metafísica frente a la epistemológica del testimonio de Timón divide a los especialistas; la hipótesis de una influencia india está planteada pero no establecida.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Pyrrho",
+      "url": "https://plato.stanford.edu/entries/pyrrho/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ancient Skepticism",
+      "url": "https://plato.stanford.edu/entries/skepticism-ancient/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ancient Greek Skepticism",
+      "url": "https://iep.utm.edu/ancient-greek-skepticism/"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "id": "relatividad-de-las-perspectivas",
+  "corriente_id": "filosofia-china",
+  "titulo": "The relativity of perspectives",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "zhuangzi",
+      "rol": "principal",
+      "aporte": "Shows through stories that our categories depend on the point of view they are seen from."
+    }
+  ],
+  "pregunta": "Is there any point of view from which things are seen as they are?",
+  "cita": {
+    "texto": "Am I a man who dreamt he was a butterfly, or a butterfly dreaming?",
+    "obra": "Zhuangzi, chapter 2",
+    "autor_id": "zhuangzi",
+    "atribucion": "directa"
+  },
+  "resumen": "Big, useful, far, dangerous: none of those labels is in the things. Zhuangzi uses stories rather than arguments to loosen the certainty that our scale is the measure.",
+  "desarrollo": "Zhuangzi does not reason like a treatise-writer: he tells anecdotes that unsettle. He dreams he is a butterfly and on waking does not know whether he is a man who dreamt he was a butterfly or a butterfly dreaming it is a man, and he does not resolve the story, because the aim is not to conclude but to loosen. An enormous fish and a small bird laugh at each other's flights, each measuring the world by its own scale. A cook carves an ox for years without blunting his knife, because he does not cut against the animal's structure but through its gaps: mastery consists in fitting what is there. Out of this comes a particular freedom, that of someone who stops imposing their preferences on the world, and a systematic distrust of language, which fixes distinctions where reality has not marked them.",
+  "ejemplo_real": "A year is an eternity to a six-year-old and a breath to someone of seventy. Neither is wrong. The same with the height of a staircase for someone climbing loaded and someone climbing light: they do not disagree about the centimetres, they occupy different positions, and there is no third, neutral position from which to arbitrate.",
+  "matiz_experto": "The consensus attributes only the inner chapters to Zhuangzi or his circle. And whether he defends a relativism, a scepticism or an anti-dogmatic therapy that states no thesis is still disputed, with the underlying problem of whether his position refutes itself.",
+  "visualizacion": {
+    "id": "vis-perspectivas-zhuangzi",
+    "idea_id": "relatividad-de-las-perspectivas",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "The thesis is that the observer's position determines what there is, and demonstrating it requires actually occupying those positions: the scale of a bird, a fish or a tree is not conveyed by labels, it is conveyed by being there. A flat version would have to show the perspectives side by side from an external viewpoint, which is precisely the neutral point Zhuangzi denies exists.",
+    "descripcion_interaccion": "One and the same three-dimensional scene is walked while embodying different observers: a fish, a bird, a tree, a person. With each change the camera takes on their scale, their height and their speed, and the labels 'big', 'far', 'useful' and 'dangerous' are rewritten while the scene itself does not change. On trying to fix one label as the true one, the interface asks from which point of view and does not accept 'none'.",
+    "invitacion": "Change observer and see if the tree is big",
+    "alternativa_textual": "A scene walked at the scale and height of different beings, in which labels of size, distance and danger change while nothing in the scene does, and with no neutral viewpoint available: it shows that those categories depend on the observer's position.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "A clearing with a tree and a puddle, walked from different observers",
+      "ser": "Be",
+      "grande": "big",
+      "lejos": "far",
+      "util": "useful",
+      "cualEsLaVerdadera": "Which one is the true one?",
+      "respuestaVerdadera": "The interface needs to know from which point of view, and it does not accept «none». That is the whole of Zhuangzi’s thesis.",
+      "resolucionFinal": "Nothing in the scene has changed. «Big», «far» and «useful» have been rewritten four times, and there is no fifth position from which to arbitrate.",
+      "resolucionRespaldo": "The labels big, far and useful change with the observer without anything in the scene varying.",
+      "alternativaTexto": "A scene walked at the scale and height of different beings, in which labels of size, distance and danger change while nothing in the scene does, and with no neutral viewpoint available: it shows that those categories depend on the observer’s position.",
+      "observadores": [
+        {
+          "nombre": "a person",
+          "etiquetas": {
+            "grande": "the tree",
+            "lejos": "the far side of the clearing",
+            "util": "the shade"
+          },
+          "nota": "From here the tree is big and the puddle a detail of the ground."
+        },
+        {
+          "nombre": "a bird",
+          "etiquetas": {
+            "grande": "the whole clearing",
+            "lejos": "the horizon",
+            "util": "the high branch"
+          },
+          "nota": "At this height the tree is a small object and what is big is the clearing."
+        },
+        {
+          "nombre": "a fish",
+          "etiquetas": {
+            "grande": "the puddle",
+            "lejos": "the bank",
+            "util": "the shade of the reed"
+          },
+          "nota": "Here the puddle is the entire world and the tree counts as nothing."
+        },
+        {
+          "nombre": "the tree",
+          "etiquetas": {
+            "grande": "a century",
+            "lejos": "next season",
+            "util": "the rain"
+          },
+          "nota": "For something that lasts two hundred years, «far» stops being measured in metres."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "suspension-del-juicio",
+    "wu-wei",
+    "vista-desde-arriba",
+    "ser-es-ser-percibido"
+  ]
+}

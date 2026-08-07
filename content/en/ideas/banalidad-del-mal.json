@@ -1,0 +1,73 @@
+{
+  "id": "banalidad-del-mal",
+  "corriente_id": "etica-politica-contemporanea",
+  "titulo": "The banality of evil",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "arendt",
+      "rol": "principal",
+      "aporte": "Argues that taking part in enormous crimes requires no monstrous motive, only ceasing to think."
+    }
+  ],
+  "pregunta": "Do you have to be a monster to take part in something atrocious?",
+  "cita": {
+    "texto": "Nobody has the right to obey.",
+    "obra": "Formulation recorded in interviews after Eichmann in Jerusalem",
+    "autor_id": "arendt",
+    "atribucion": "tradicional",
+    "nota": "It circulates as an isolated maxim; in context it answers Eichmann's defence based on the duty of obedience."
+  },
+  "resumen": "Arendt expected to find a fanatic and found a bureaucrat worried about his career. Her thesis is not that evil is slight, but that it does not always need a monstrous motive: obeying and not thinking can be enough.",
+  "desarrollo": "Covering the trial of a senior Nazi official, Arendt was struck to meet someone who spoke in ready-made formulas and seemed incapable of imagining his victims' point of view. Hence her most distorted thesis: banality does not refer to the crimes, which she considers absolute, but to the disproportion between their magnitude and the poverty of the motive. What she describes is a chain of tasks in which every link is trivial — stamping, transporting, filing — nobody sees the whole, and everyone can say they were only doing their part. Her conclusion is not reassuring but the opposite: if large-scale evil does not require exceptional personalities, then watching the monsters is not enough. What fails is an ordinary capacity, that of stopping to think about what one is doing, and that capacity can be exercised or not in any office.",
+  "ejemplo_real": "You recognise it in miniature in any organisation that does something nobody would defend in full. Each person signs off their part, every part is reasonable, and the result is a decision none of those involved would have taken had they seen it whole. The useful question is not who is a bad person, but who had the whole thing in front of them and did not look.",
+  "matiz_experto": "Later documentation, especially the Sassen interviews and Stangneth's work, shows a convinced antisemitic Eichmann who deliberately constructed his role as an obedient functionary before the court. Whether this invalidates the thesis or only the example she illustrated it with is debated.",
+  "visualizacion": {
+    "id": "vis-banalidad-arendt",
+    "idea_id": "banalidad-del-mal",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user occupies a post in an administrative chain and sees only their own task: stamp, transport, file. Each action is trivial and the overall result stays out of frame by design. At the end they can switch to a complete view of the process and then return to their post with that information: the interface then adds the one action that was missing, stopping.",
+    "invitacion": "Do your task, then look at all four steps",
+    "alternativa_textual": "A chain of trivial administrative tasks whose joint result lies outside each participant's field of vision, revealed only by changing scale: it shows how enormous harm can be produced without any link having a monstrous motive.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "cadena",
+    "parametros": {
+      "corrienteId": "etica-politica-contemporanea",
+      "pasos": [
+        {
+          "nombre": "Stamp",
+          "aislado": "A stamp on a form. Nobody would call this a crime."
+        },
+        {
+          "nombre": "Record",
+          "aislado": "Entering figures in a ledger. It is your job and you do it well."
+        },
+        {
+          "nombre": "Assign",
+          "aislado": "Allocating places on a transport. A logistics problem."
+        },
+        {
+          "nombre": "File",
+          "aislado": "Putting the copy in its folder. Administrative order."
+        }
+      ],
+      "verConjunto": "See the whole process",
+      "conjunto": "The four tasks together are a deportation.",
+      "resolucion": "None of the steps required hatred or a monstrous motive: doing yours and not looking at the whole was enough. What fails is an ordinary capacity, that of stopping to think.",
+      "alternativaTexto": "A chain of trivial administrative tasks whose joint result lies outside each participant's field of vision, revealed only by changing scale: it shows how enormous harm can be produced without any link having a monstrous motive.",
+      "siguiente": "Next step",
+      "verConjuntoBloqueado": "See the whole process (walk all {n} steps)",
+      "etiqueta": "The banality of evil"
+    }
+  },
+  "ideas_relacionadas": [
+    "el-mal-como-privacion",
+    "condicionamiento-operante",
+    "mala-fe",
+    "ideologia"
+  ]
+}

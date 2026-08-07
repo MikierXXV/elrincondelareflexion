@@ -1,0 +1,75 @@
+{
+  "id": "aceptacion-y-cambio",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "Acceptance and change",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "rogers",
+      "rol": "principal",
+      "aporte": "Observes that people change when they no longer have to defend themselves, not when they are pushed."
+    },
+    {
+      "id": "maslow",
+      "rol": "desarrollo",
+      "aporte": "Extends the approach to studying people who function well, not only those who suffer."
+    }
+  ],
+  "pregunta": "Do you change by pushing yourself, or by stopping the fight with yourself?",
+  "cita": {
+    "texto": "The curious paradox is that when I accept myself as I am, I change.",
+    "obra": "On Becoming a Person, 1961",
+    "autor_id": "rogers",
+    "atribucion": "directa"
+  },
+  "resumen": "Rogers observed something apparently contradictory: people do not change when they are pushed, but when they no longer have to defend themselves against what they are.",
+  "desarrollo": "His explanation is that much distress is born of the distance between what one experiences and what one believes one has to be in order to be acceptable. He called these conditions of worth, learned when affection arrived conditionally: only if you are strong, only if you stand out. Maintaining that distance consumes energy and requires not looking at what one actually feels. When the pressure disappears, a person can recognise what is happening to them and reorganise, and then change occurs without anyone forcing it. Hence his person-centred therapy, in which the one accompanying neither interprets nor directs, but sustains acceptance, empathy and congruence. Maslow worked the other side of the same turn: studying not only pathology but people who function well, with his well-known hierarchy of needs up to self-actualisation.",
+  "ejemplo_real": "Anyone who has tried to give up a habit by berating themselves knows it: the harder you punish yourself, the more you turn to precisely that thing to console yourself for the punishment. And something changes on the day you stop treating yourself as a lost cause and start looking at what that habit was doing for you. Indulgence is not what changes things; ceasing to be at war does.",
+  "matiz_experto": "Rogers's strong hypothesis — that his three conditions are necessary and sufficient — has not held up: common-factors research supports them as relevant in any orientation, not as sufficient. And Maslow's hierarchy is not empirically supported in its sequence; the pyramid he is identified with is not even his.",
+  "visualizacion": {
+    "id": "vis-aceptacion-rogers",
+    "idea_id": "aceptacion-y-cambio",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Two superimposed figures represent what a person experiences and what they believe they must show. The user introduces conditions — 'only if you are strong', 'only if you succeed' — and the figures separate, with a visible energy cost to maintaining the distance. On removing them, the figures converge by themselves without the user having to push: change is not forced, it stops being prevented.",
+    "invitacion": "Add conditions and watch the two figures split",
+    "alternativa_textual": "Two figures, real experience and the demanded image, that separate as conditions of acceptance are added, at a visible cost in energy, and converge by themselves when they are removed: it shows that change appears when pressure is lifted rather than increased.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "figuraA": "what you feel",
+      "figuraB": "what you think you must be",
+      "coste": "energy spent holding the distance",
+      "condiciones": [
+        {
+          "nombre": "only if you are strong",
+          "efecto": "A distance appears that has to be held, and holding it consumes you.",
+          "peso": 0.34
+        },
+        {
+          "nombre": "only if you succeed",
+          "efecto": "The distance grows: the more demanding the condition, the more it costs.",
+          "peso": 0.33
+        },
+        {
+          "nombre": "only if you are no trouble",
+          "efecto": "There is barely any room left to recognise what is actually happening to you.",
+          "peso": 0.33
+        }
+      ],
+      "resolucion": "Removing the conditions, you pushed nothing: the figures converged by themselves. Change is not forced, it stops being prevented.",
+      "alternativaTexto": "Two figures, real experience and the demanded image, that separate as conditions of acceptance are added, at a visible cost in energy, and converge by themselves when they are removed: it shows that change appears when pressure is lifted rather than increased.",
+      "etiqueta": "Acceptance and change"
+    }
+  },
+  "ideas_relacionadas": [
+    "la-sombra",
+    "voluntad-de-sentido",
+    "mala-fe",
+    "dicotomia-del-control"
+  ]
+}

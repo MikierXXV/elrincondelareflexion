@@ -1,0 +1,38 @@
+{
+  "id": "jung",
+  "nombre": "Carl Gustav Jung",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1875–1961",
+  "region": "Suiza",
+  "preguntas_filosoficas": [
+    "¿Hay estructuras de sentido compartidas por toda la especie?",
+    "¿En qué consiste llegar a ser uno mismo?"
+  ],
+  "dialogo_filosofico": "Reformula el problema de la identidad personal como un proceso de integración a lo largo de la vida, y plantea, frente al empirismo, la hipótesis de disposiciones simbólicas heredadas que estructuran la experiencia.",
+  "citas": [
+    {
+      "texto": "Hasta que lo inconsciente no se haga consciente, dirigirá tu vida y lo llamarás destino.",
+      "obra": "Atribución muy difundida, sin pasaje localizado",
+      "atribucion": "dudosa",
+      "nota": "Circula masivamente como cita de Jung, pero no se ha localizado con esta formulación en su obra. Recoge una idea suya; la frase, probablemente, no lo es."
+    }
+  ],
+  "nivel_1_resumen": "Discípulo y luego rival de Freud, propuso que bajo lo personal hay un fondo compartido por toda la especie, hecho de patrones simbólicos que reaparecen en mitos y sueños de culturas sin contacto entre sí.",
+  "nivel_2_desarrollo": "Jung rompió con Freud sobre todo por la interpretación del impulso: no aceptaba que todo se explicara en clave sexual y entendía la energía psíquica de forma más amplia. Su hipótesis central es la del inconsciente colectivo: además de nuestra biografía, habría una capa formada por arquetipos, disposiciones a organizar la experiencia en ciertas figuras recurrentes —la sombra, el héroe, la gran madre, el anciano sabio—. El arquetipo no sería una imagen heredada, sino la tendencia a producirla. De ahí su idea de la sombra, la parte de uno mismo que se rechaza y se proyecta sobre otros, y su noción de individuación: llegar a ser uno mismo integrando lo que se había apartado, en lugar de perfeccionar una fachada. Introdujo también la distinción entre introversión y extraversión, que tuvo un largo recorrido posterior.",
+  "nivel_3_experto": "La psicología analítica ocupa un lugar incómodo en la academia: sus conceptos son difíciles de operacionalizar y la hipótesis del inconsciente colectivo se considera empíricamente inverificable en su formulación original, aunque líneas actuales de psicología evolucionista han explorado versiones acotadas de disposiciones cognitivas universales, sin que eso valide el aparato arquetípico. Su tratamiento de la sincronicidad como principio de conexión acausal, desarrollado en diálogo con Pauli, es el punto más rechazado por la epistemología estándar. La publicación del Libro Rojo en 2009 reabrió la discusión sobre la relación entre su experiencia personal y su teoría. Hay además un problema historiográfico que la investigación reciente ha documentado con seriedad: sus escritos de los años treinta sobre la 'psicología aria' y su papel en la sociedad psicoterapéutica alemana bajo el nazismo, con posiciones defensivas por su parte y valoraciones enfrentadas entre historiadores. Su influencia real es enorme fuera de la psicología académica: estudios de mitología comparada, teoría literaria, tipologías de personalidad de uso comercial y buena parte del vocabulario cultural sobre 'la sombra' o 'el arquetipo'.",
+  "debate_abierto": "El estatuto empírico del inconsciente colectivo es rechazado por la psicología académica dominante; su posición y sus escritos durante los años treinta son objeto de un debate historiográfico serio.",
+  "fuentes": [
+    {
+      "titulo": "Shamdasani, Jung and the Making of Modern Psychology, Cambridge University Press",
+      "url": null
+    },
+    {
+      "titulo": "Bair, Jung: A Biography, Little, Brown",
+      "url": null
+    },
+    {
+      "titulo": "Nota: ni la Stanford Encyclopedia of Philosophy ni la Internet Encyclopedia of Philosophy tienen entrada sobre Jung, lo que refleja su posición marginal en la filosofía académica. Las fuentes de esta ficha son historiográficas.",
+      "url": null
+    }
+  ]
+}

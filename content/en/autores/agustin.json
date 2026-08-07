@@ -1,0 +1,37 @@
+{
+  "id": "agustin",
+  "nombre": "Augustine of Hippo",
+  "corriente_id": "escolastica",
+  "periodo": "354–430",
+  "region": "Thagaste, Hippo (Roman North Africa)",
+  "preguntas_filosoficas": [
+    "What is time?",
+    "Why do we do wrong knowing that it is wrong?",
+    "Is there an inner self reached by introspection?"
+  ],
+  "citas": [
+    {
+      "texto": "What then is time? If no one asks me, I know.",
+      "obra": "Confessions XI, 14",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He inaugurated the introspective gaze in the West: for him truth is sought not outside but by examining one's own interiority, including its most opaque and contradictory part.",
+  "nivel_2_desarrollo": "Augustine wrote the Confessions as a first-person account of his own instability: someone who wants one thing and does another, and who does not fully understand himself. Out of this comes his great contribution, consciousness as a territory to be explored. His analysis of time is the most quoted: past and future do not exist, and the present has no duration, so time can only be measured in the soul, as memory, attention and expectation. On evil, he proposes that it is not a substance but a privation of good, a lack rather than a force; and his memory of stealing pears with neither need nor gain serves to describe a wrong done for the taste of transgression. His idea of permanently unsatisfied desire, finding rest in no finite object, runs through his whole work.",
+  "nivel_3_experto": "Augustine thinks from within Neoplatonism — Plotinus and Porphyry — and subjects it to a doctrinal conversion that reformulates the relation between the intelligible and the created; his theory of illumination explains knowledge of necessary truths without needing Platonic recollection. His argument against Academic scepticism, according to which the very fact of erring presupposes that I exist, has been noted as a structural anticipation of the cogito, though its function is different: it grounds not a method but a certainty of the inner life. The most active historiographical debates concern his doctrine of grace and predestination, formulated in the anti-Pelagian controversy, whose consequences for free will are often held to be in tension with the defence of free volition in his early works; and his theory of just war and his justification of coercion against the Donatists, with its long and troubling political progeny. His influence is twofold: he defines Latin theology up to scholasticism, and he reappears in the Reformation, in Pascal, in Descartes, and — by way of interiority and desire — in Heidegger and in psychoanalysis.",
+  "debate_abierto": "The compatibility between his early defence of free will and his late doctrine of grace is a widely discussed tension, as is the scope of his justification of religious coercion.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Saint Augustine",
+      "url": "https://plato.stanford.edu/entries/augustine/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Augustine: Political and Social Philosophy",
+      "url": "https://iep.utm.edu/augustine-political-and-social-philosophy/"
+    },
+    {
+      "titulo": "Brown, Augustine of Hippo: A Biography, University of California Press",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "tabula-rasa",
+  "corriente_id": "empirismo",
+  "titulo": "La mente como página en blanco",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "locke",
+      "rol": "principal",
+      "aporte": "Niega las ideas innatas y hace derivar todo el contenido mental de la experiencia."
+    }
+  ],
+  "pregunta": "¿Traemos algo escrito al nacer, o todo lo pone la experiencia?",
+  "cita": {
+    "texto": "Ningún conocimiento humano puede ir más allá de su experiencia.",
+    "obra": "Condensación del Ensayo sobre el entendimiento humano, libro II",
+    "autor_id": "locke",
+    "atribucion": "tradicional",
+    "nota": "Formulación condensada de una tesis que Locke desarrolla a lo largo de varios capítulos, no una frase literal."
+  },
+  "resumen": "Locke sostiene que no nacemos con ideas puestas: la mente empieza vacía y todo su contenido entra por la experiencia, sea de los sentidos o de observar nuestras propias operaciones mentales.",
+  "desarrollo": "Su ataque a las ideas innatas usa un argumento sencillo y comprobable: si hubiera principios grabados en toda mente humana, los niños y las personas de culturas muy distintas los reconocerían al oírlos, y no ocurre. Todo el material del pensamiento vendría entonces de dos fuentes: la sensación, que aporta colores, sonidos y resistencias, y la reflexión, que aporta la observación de lo que hacemos al pensar, dudar o querer. Con esos elementos simples la mente compone el resto combinando, comparando y abstrayendo. De ahí extrae también una distinción influyente entre las cualidades que estarían en los cuerpos —extensión, número, movimiento— y las que dependen de nuestro aparato perceptivo, como el color o el sabor. La consecuencia política es enorme: si nada viene dado, la educación y las condiciones importan más que el origen.",
+  "ejemplo_real": "Intenta imaginar un color que no hayas visto nunca. No un tono raro: uno genuinamente nuevo. No se puede. Puedes imaginar un unicornio porque combinas caballo y cuerno, pero no puedes fabricar un elemento simple que no haya entrado antes. Ahí se ve el límite que Locke describe.",
+  "matiz_experto": "La tesis fuerte no ha resistido: hoy hay evidencia sólida de sesgos y capacidades presentes desde muy temprano, desde la sensibilidad a la gramática hasta expectativas básicas sobre objetos físicos. Lo que sí resistió es el método: exigir que cada idea acredite de dónde viene.",
+  "visualizacion": {
+    "id": "vis-tabula-locke",
+    "idea_id": "tabula-rasa",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario ofrece ideas a una puerta que las descompone y comprueba si todos sus elementos han entrado ya. Una idea compleja ofrecida la primera se rechaza, y la misma idea ofrecida después de sus elementos se admite. Las únicas que no exigen nada previo son las que vienen de los sentidos.",
+    "invitacion": "Ofrece una idea compleja antes que sus partes",
+    "alternativa_textual": "Un panel que solo admite contenido derivado de experiencias previas y que descompone toda idea compleja en elementos que deben haber entrado antes: demuestra la tesis de que nada hay en la mente que no haya pasado por la experiencia.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "descomponer",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "modo": "puerta",
+      "conjunto": "Ofrece una idea a la puerta",
+      "accion": "Ofrecer",
+      "piezas": [],
+      "candidatos": [
+        {
+          "nombre": "Colores y sonidos",
+          "requiere": [],
+          "admitido": "Entra. No se descompone en nada anterior porque llega de fuera: es la vía por la que entra todo lo demás.",
+          "rechazado": ""
+        },
+        {
+          "nombre": "Dudar y comparar",
+          "requiere": [
+            "Colores y sonidos"
+          ],
+          "admitido": "Entra. No viene de fuera, sino de observar lo que la mente hace con lo que ya recibió.",
+          "rechazado": "Rechazada: no hay todavía nada sobre lo que dudar ni que comparar."
+        },
+        {
+          "nombre": "Una montaña de oro",
+          "requiere": [
+            "Colores y sonidos",
+            "Dudar y comparar"
+          ],
+          "admitido": "Entra. Nadie ha visto una, pero sus dos piezas sí entraron, y unirlas es una operación de la mente.",
+          "rechazado": "Rechazada: para juntar dos cosas vistas hay que poder compararlas, y eso aún no ha entrado."
+        },
+        {
+          "nombre": "La idea de sustancia",
+          "requiere": [
+            "Colores y sonidos",
+            "Dudar y comparar",
+            "Una montaña de oro"
+          ],
+          "admitido": "Entra, y con esto ya no queda ninguna que haya entrado entera por su cuenta.",
+          "rechazado": "Rechazada: es un supuesto sostén de cualidades, y las cualidades tienen que estar antes que su supuesto sostén."
+        }
+      ],
+      "dentro": "Dentro: {lista}",
+      "dentroVacio": "Dentro no hay nada todavía.",
+      "porLosSentidos": "Entra por los sentidos",
+      "veredicto": "",
+      "etiqueta": "La mente como página en blanco",
+      "veredictos": {
+        "verdadero": "se cumple",
+        "falso": "no se cumple",
+        "indeterminado": "sin determinar"
+      },
+      "resolucion": "Ninguna ha entrado entera por su cuenta. Lo que parecía estar en la mente desde el principio resultó ser una composición de lo que había entrado antes, y el orden en que se admiten no es negociable.",
+      "alternativaTexto": "Un panel que solo admite contenido derivado de experiencias previas y que descompone toda idea compleja en elementos que deben haber entrado antes: demuestra la tesis de que nada hay en la mente que no haya pasado por la experiencia."
+    }
+  },
+  "ideas_relacionadas": [
+    "identidad-personal",
+    "ser-es-ser-percibido",
+    "causalidad-como-habito",
+    "condiciones-a-priori"
+  ]
+}

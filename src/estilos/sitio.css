@@ -1,0 +1,585 @@
+@import '../../design/tokens.css';
+@import './fuentes.css';
+/* El marco de las piezas es el mismo que en la galería y vive en un solo sitio. Ver su cabecera. */
+@import './visualizacion.css';
+
+/* Estilos del sitio. Todo el color y la tipografía sale de los tokens verificados en la fase 3;
+   aquí solo hay composición. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+/* La barra es fija: sin este margen, todo destino de ancla aterriza con su título tapado. Va en el
+   contenedor de desplazamiento y no en cada sección, para que valga igual en el recorrido, en el
+   umbral y en los cromos. */
+html { scroll-padding-top: 84px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: var(--fuente-texto);
+  font-size: var(--t-base);
+  line-height: var(--il-texto);
+}
+/*
+ * La transición de tema solo DESPUÉS de estar listo.
+ *
+ * Declarada desde el principio, la corrección inicial del tema no se aplicaba: se animaba. En la
+ * grabación de la carga aparecía un fotograma intermedio en gris entre el blanco y el oscuro, o sea
+ * que el arreglo del parpadeo lo estaba alargando. Al cambiar de tema a mano sí interesa la
+ * transición, y para entonces `listo` ya está puesto.
+ */
+body.listo {
+  transition: background var(--m-rapido) var(--curva-suave), color var(--m-rapido) var(--curva-suave);
+}
+body.con-capa { overflow: hidden; }
+
+.saltar-a-contenido {
+  position: absolute; left: -9999px;
+  background: var(--fondo-elevado); color: var(--texto);
+  padding: var(--e3) var(--e4); border-radius: var(--r-card); z-index: var(--z-modal);
+}
+.saltar-a-contenido:focus { left: var(--e4); top: var(--e4); }
+
+/* ---- barra ---- */
+.barra {
+  position: sticky; top: 0; z-index: var(--z-widget);
+  display: flex; justify-content: space-between; align-items: center; gap: var(--e4);
+  padding: var(--e3) var(--e6);
+  background: color-mix(in oklab, var(--fondo) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--separador);
+}
+.marca { font-family: var(--fuente-titulo); font-weight: var(--peso-semibold); font-size: var(--t-pequeno); }
+.ajustes { display: flex; align-items: center; gap: var(--e3); }
+
+/*
+ * Los dos controles de la barra comparten altura, radio y foco, porque son del mismo rango.
+ *
+ * El de idioma es un CONTROL SEGMENTADO y no un botón suelto: un «EN» aislado no dice si estás en
+ * inglés o si vas a ir. Con las dos opciones a la vista y la actual marcada, se lee sin pensarlo. La
+ * opción a la que se va sigue siendo un enlace de verdad —con su dirección— para poder abrirla en
+ * otra pestaña y compartirla.
+ */
+.idiomas {
+  display: flex; align-items: stretch;
+  border: 1px solid var(--borde-interactivo); border-radius: var(--r-card);
+  overflow: hidden; font-size: var(--t-micro); letter-spacing: 0.08em;
+}
+.idiomas > * {
+  display: flex; align-items: center;
+  padding: 0 var(--e3); min-height: 34px;
+  text-decoration: none; color: var(--texto-secundario);
+}
+.idiomas .actual { background: var(--fondo-hundido); color: var(--texto); font-weight: var(--peso-medio); }
+.idiomas a:hover { color: var(--texto); background: var(--fondo-hundido); }
+
+#tema {
+  display: grid; place-items: center;
+  width: 34px; height: 34px; padding: 0;
+  color: var(--texto); background: transparent;
+  border: 1px solid var(--borde-interactivo); border-radius: var(--r-card);
+  cursor: pointer;
+}
+#tema:hover { border-color: var(--texto); }
+#tema svg { width: 17px; height: 17px; display: block; }
+
+/*
+ * El icono muestra el tema AL QUE SE VA, no en el que estás: un botón dice lo que hace. La cascada
+ * repite la de tokens.css —preferencia del sistema, y el atributo explícito por encima— porque es
+ * la única forma de acertar también cuando el usuario todavía no ha elegido.
+ */
+#tema .a-oscuro { display: block; }
+#tema .a-claro { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) #tema .a-oscuro { display: none; }
+  :root:not([data-tema="claro"]) #tema .a-claro { display: block; }
+}
+:root[data-tema="oscuro"] #tema .a-oscuro { display: none; }
+:root[data-tema="oscuro"] #tema .a-claro { display: block; }
+
+/*
+ * Chevron como forma y no como texto. Antes era el carácter «⌄» (U+2304), que la tipografía resuelve
+ * como una v suelta y descolocada. Dos bordes girados 45° heredan color y grosor, escalan con la
+ * tipografía y no dependen de que ninguna fuente traiga el glifo.
+ */
+.chevron::before {
+  content: ''; display: inline-block; vertical-align: middle;
+  width: 0.5em; height: 0.5em; margin-right: 0.55em; margin-bottom: 0.2em;
+  border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+}
+
+/* ---- hero ---- */
+/* El tope en píxeles importa tanto como el vh: en una pantalla muy alta, 88vh dejaba la entradilla y
+   los botones separados del titular por un vacío que no dice nada. */
+#hero {
+  min-height: min(88vh, 820px);
+  display: grid; align-items: center;
+  grid-template-columns: 1fr;
+  gap: var(--e8);
+  padding: var(--e8) var(--e6) var(--e16);
+  max-width: 1100px; margin: 0 auto;
+}
+#hero .texto { display: flex; flex-direction: column; gap: var(--e4); }
+/* El hueco se reserva desde el principio: si la escena tarda o no llega, la maqueta no cambia. */
+#pensador { aspect-ratio: 1; width: 100%; justify-self: center; }
+/* El lienzo del hero es cuadrado. Hay que decirlo explícitamente porque lleva la clase
+   .vis-canvas, que impone la proporción 7:3 de las piezas del recorrido: heredarla aplastaba la
+   figura contra el borde superior del hueco. */
+#pensador { position: relative; }
+/*
+ * Sin máscara. Se probó una viñeta circular para disimular el borde del lienzo y el remedio era peor:
+ * recortaba la escena en un disco y se veía el círculo, que es justo lo contrario de que la figura
+ * y su luz formen parte de la página. El lienzo es transparente y no hay borde que disimular.
+ */
+#pensador canvas { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; }
+
+/*
+ * Silueta de espera. No pretende ser un retrato —el contorno del Pensador es una masa compacta y no
+ * se reconoce por el perfil—, sino sostener el hueco con la forma correcta y dar algo que dibujar
+ * mientras llega la malla. Es además el respaldo permanente sin WebGL y con movimiento reducido.
+ */
+#pensador .silueta {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  color: var(--texto-secundario);
+  transition: opacity var(--m-lento) var(--curva-suave);
+}
+#pensador .silueta .masa { opacity: 0.1; }
+#pensador[data-listo] .silueta { opacity: 0; pointer-events: none; }
+
+@media (prefers-reduced-motion: no-preference) {
+  /* El trazo se dibuja solo, igual que la entrada de las 59 visualizaciones. El valor de dasharray
+     es holgado a propósito: cubre el contorno más largo sin tener que medirlo en JavaScript. */
+  #pensador .silueta .linea path {
+    stroke-dasharray: 400;
+    animation: trazar 2.6s var(--curva-entrada) forwards, latir 3.4s var(--curva-suave) 2.6s infinite;
+  }
+  /*
+   * La masa entra enseguida, no después del trazo.
+   *
+   * Antes esperaba 1,2 s para que el contorno se dibujase primero y sobre limpio. Medido en
+   * producción, el efecto real era el contrario del buscado: `backwards` mantiene el estado inicial
+   * durante el retardo, así que la silueta valía 0 hasta los 1,44 s y no llegaba a 0,1 hasta los
+   * 2,6 s. El hueco de la figura —la mitad derecha del hero— se quedaba vacío exactamente durante la
+   * espera que esta silueta existe para cubrir. Ahora aparece a los 0,12 s y el trazo se dibuja
+   * encima, que es la misma secuencia pero sin el agujero.
+   */
+  #pensador .silueta .masa { animation: aparecer 0.6s var(--curva-suave) 0.12s backwards; }
+}
+@keyframes trazar { from { stroke-dashoffset: 400; } to { stroke-dashoffset: 0; } }
+@keyframes aparecer { from { opacity: 0; } }
+@keyframes latir { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+@media (min-width: 900px) {
+  #hero { grid-template-columns: 1.1fr 0.9fr; }
+  #hero .desliza { grid-column: 1 / -1; }
+}
+/* 20ch y no 16ch: con 16 el titular caía en seis líneas y por sí solo llenaba la pantalla. */
+#hero h1 {
+  font-family: var(--fuente-titulo); font-weight: var(--peso-semibold);
+  font-size: var(--t-hero); line-height: var(--il-apretado);
+  max-width: 20ch; margin: 0;
+}
+.cifras { font-size: var(--t-pequeno); letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-secundario); margin: 0; }
+.entradilla { max-width: var(--medida-texto); color: var(--texto-secundario); margin: 0; }
+.entradas { display: flex; flex-wrap: wrap; gap: var(--e3); margin-top: var(--e4); }
+.entradas a {
+  font-size: var(--t-pequeno); color: var(--texto); text-decoration: none;
+  border: 1px solid var(--borde-interactivo); border-radius: var(--r-card);
+  padding: var(--e2) var(--e4);
+}
+.entradas .principal { border-color: var(--texto); }
+/*
+ * La vuelta a donde se quedó la sesión. Comparte forma con las otras dos entradas —es una salida del
+ * hero como ellas— pero va en tono secundario y sin borde macizo: es una oferta, no el camino que el
+ * sitio propone. Quien llega por primera vez no la ve nunca, porque solo se pinta si hay algo que
+ * ofrecer; ver `ofrecerVuelta()`.
+ */
+.entradas .seguir {
+  font: inherit; font-size: var(--t-pequeno);
+  color: var(--texto-secundario); background: transparent;
+  border: 1px dashed var(--borde-interactivo); border-radius: var(--r-card);
+  padding: var(--e2) var(--e4); cursor: pointer;
+  transition: color var(--m-rapido) var(--curva-suave),
+    border-color var(--m-rapido) var(--curva-suave);
+}
+.entradas .seguir:hover { color: var(--texto); border-color: var(--texto); }
+.desliza { color: var(--texto-secundario); margin: var(--e8) 0 0; text-align: center; }
+.desliza::before { margin: 0 auto; display: block; }
+@media (prefers-reduced-motion: no-preference) {
+  .desliza::before { animation: respirar 2.4s var(--curva-suave) infinite; }
+}
+@keyframes respirar {
+  0%, 100% { transform: rotate(45deg) translate(0, 0); opacity: 0.5; }
+  50%      { transform: rotate(45deg) translate(3px, 3px); opacity: 1; }
+}
+
+/*
+ * El recorrido reserva altura ANTES de tener contenido.
+ *
+ * Sin esto, en el primer pintado el documento mide poco más que el hero y el pie queda dentro de la
+ * ventana; al montarse las dieciséis paradas el documento crece de golpe y el pie sale disparado
+ * hacia abajo. Eso es un salto de maqueta de libro, y la auditoría lo cazó: CLS 0,55 en inglés
+ * —donde el titular ocupa una línea menos y el pie entraba justo en pantalla— frente a 0,007 en
+ * español, que lo escondía por casualidad.
+ *
+ * `:empty` para que solo valga mientras no hay nada: en cuanto llegan las paradas, manda su altura.
+ */
+#recorrido:empty { min-height: 300vh; }
+
+/* ---- paradas del recorrido ----
+   La columna fija la medida de una vez: 712 px de contenido, unos 72 caracteres por línea a 18 px.
+   Dentro NO se vuelve a limitar la prosa, para que el texto y la visualización compartan borde. Solo
+   los titulares y las citas se acortan (--medida-corta), que es decisión tipográfica y no descuido. */
+.parada {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--e24) var(--e6);
+}
+.parada + .parada { border-top: 1px solid var(--separador); }
+
+/*
+ * LA LÍNEA DE SITUACIÓN LLEVA EL COLOR DE SU CORRIENTE, y es el único texto del recorrido que lo
+ * lleva. Con mesura a propósito: dieciséis colores repartidos por toda la página no dan identidad,
+ * dan confeti, y este sitio se sostiene sobre una austeridad que no conviene romper.
+ *
+ * Se elige esta línea porque es la que dice dónde estás —«01 · s. VI–V a.C. · Jonia» en la portada,
+ * «Presocráticos · idea 1 de 3» dentro de cada idea— así que el color refuerza exactamente lo que la
+ * frase ya afirma, y acompaña al lector durante toda la parada en vez de aparecer y desaparecer.
+ *
+ * El contraste no es una suposición: `check-contraste.mjs` verifica los dieciséis acentos contra el
+ * fondo de cada tema, y por eso pueden usarse sobre texto y no solo sobre filetes.
+ */
+.situacion {
+  font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--acento-corriente, var(--texto-secundario)); margin: 0 0 var(--e2);
+}
+.portada h2 {
+  font-family: var(--fuente-titulo); font-weight: var(--peso-semibold);
+  font-size: var(--t-titulo); line-height: var(--il-titulo); margin: 0 0 var(--e3);
+}
+/*
+ * Un filete corto sobre el título de la parada. Es la marca que hace que dieciséis portadas dejen de
+ * ser la misma página con otro texto: se ve antes de leer nada, que es cuando hace falta.
+ */
+.portada h2::before {
+  content: ''; display: block;
+  width: 44px; height: var(--trazo-enfasis);
+  background: var(--acento-corriente, var(--texto-secundario));
+  margin-bottom: var(--e3);
+}
+.paralela {
+  display: inline-block; font-size: var(--t-micro); color: var(--texto-secundario);
+  border: 1px dashed var(--borde-interactivo); border-radius: var(--r-card);
+  padding: var(--e1) var(--e2); margin: 0 0 var(--e4);
+}
+.guia {
+  font-family: var(--fuente-titulo); font-size: var(--t-medio);
+  line-height: var(--il-titulo); max-width: var(--medida-corta); margin: 0 0 var(--e4);
+}
+.contexto { color: var(--texto-secundario); margin: 0 0 var(--e8); }
+
+.indice-ideas { list-style: none; padding: 0; margin: 0 0 var(--e8); counter-reset: idea; }
+.indice-ideas li { counter-increment: idea; border-top: 1px solid var(--separador); }
+.indice-ideas li:last-child { border-bottom: 1px solid var(--separador); }
+.indice-ideas a {
+  display: flex; gap: var(--e3); padding: var(--e3) 0;
+  color: var(--texto); text-decoration: none;
+}
+.indice-ideas a::before { content: counter(idea, decimal-leading-zero); color: var(--texto-secundario); font-size: var(--t-pequeno); }
+.indice-ideas a:hover { color: var(--acento-corriente, var(--texto)); }
+
+/* Las dos salidas a la vez: es lo que hace que 16 paradas no agobien. */
+.salidas { display: flex; flex-wrap: wrap; gap: var(--e4); justify-content: space-between; }
+.salidas a { font-size: var(--t-pequeno); color: var(--texto); text-decoration: none; border-bottom: 1px solid var(--borde-interactivo); padding-bottom: 2px; }
+.salidas .saltar { color: var(--texto-secundario); }
+
+.idea h3 {
+  font-family: var(--fuente-titulo); font-weight: var(--peso-semibold);
+  font-size: var(--t-grande); line-height: var(--il-titulo); margin: 0 0 var(--e2);
+}
+.pregunta { font-family: var(--fuente-titulo); font-size: var(--t-medio); max-width: var(--medida-corta); margin: 0 0 var(--e6); }
+
+.cita { margin: 0 0 var(--e6); padding-left: var(--e4); border-left: var(--trazo-enfasis) solid var(--borde-interactivo); }
+.cita p { font-family: var(--fuente-titulo); font-size: var(--t-medio); max-width: var(--medida-corta); margin: 0 0 var(--e1); }
+.cita cite { font-size: var(--t-micro); color: var(--texto-secundario); font-style: normal; }
+
+.atribucion { margin-top: var(--e2); font-size: var(--t-micro); }
+.atribucion summary { color: var(--texto-secundario); cursor: pointer; }
+.atribucion p { margin: var(--e2) 0 0; color: var(--texto-secundario); }
+
+/* Se reserva la altura antes de montar. Sin esto, la visualización aparece al entrar en pantalla,
+   empuja todo lo de abajo y los enlaces a una idea concreta acaban cayendo desalineados. */
+.superficie { margin: 0 0 var(--e6); min-height: 440px; }
+
+.desarrollo { margin: 0 0 var(--e6); }
+
+.ejemplo { background: var(--fondo-hundido); border-radius: var(--r-panel); padding: var(--e4) var(--e6); margin: 0 0 var(--e6); }
+.ejemplo h4 { font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin: 0 0 var(--e2); }
+.ejemplo p { margin: 0; }
+
+.matiz { margin: 0 0 var(--e6); font-size: var(--t-pequeno); }
+.matiz summary { color: var(--texto-secundario); cursor: pointer; }
+.matiz p { margin: var(--e2) 0 0; color: var(--texto-secundario); }
+
+/* ---- tira de autor: se asoma, no navega ---- */
+.tira-autores { display: grid; gap: var(--e2); margin: 0 0 var(--e6); }
+.tira-autores .autor {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: baseline; gap: var(--e3);
+  background: var(--fondo-hundido); border-radius: var(--r-card); padding: var(--e3) var(--e4);
+}
+.tira-autores .rol { font-size: var(--t-micro); letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-secundario); }
+.tira-autores .nombre { font-family: var(--fuente-titulo); }
+.tira-autores .nombre .periodo { font-family: var(--fuente-texto); font-size: var(--t-micro); color: var(--texto-secundario); margin-left: var(--e2); }
+.tira-autores .aporte { grid-column: 1 / -1; font-size: var(--t-pequeno); color: var(--texto-secundario); }
+.ver-ficha {
+  font: inherit; font-size: var(--t-micro); color: var(--texto); background: transparent;
+  border: 1px solid var(--borde-interactivo); border-radius: var(--r-card);
+  padding: var(--e1) var(--e2); cursor: pointer; white-space: nowrap;
+}
+
+.paso { display: flex; justify-content: flex-end; }
+.paso a {
+  font-size: var(--t-pequeno); color: var(--texto); text-decoration: none;
+  border-bottom: 1px solid var(--borde-interactivo);
+  transition: color var(--m-rapido) var(--curva-suave),
+    border-color var(--m-rapido) var(--curva-suave),
+    font-size var(--m-medio) var(--curva-entrada);
+}
+/*
+ * El impulso. La sección se marca cuando su pieza ha dado una respuesta, y entonces la salida se
+ * enciende: pasa al color de la corriente y sube de cuerpo.
+ *
+ * Antes era el mismo enlace gris minúsculo antes y después de haber entendido algo, al final de un
+ * muro de texto. El instante en que alguien acaba de ver el argumento por su cuenta es el único en
+ * que de verdad le apetece otro, y ahí es donde la salida tiene que estar mirándole.
+ */
+/*
+ * NO se usa `--acento` aquí, y es contraintuitivo. En los tokens globales el acento es un neutro
+ * apagado —#5C5850 en claro, #A8A39A en oscuro—; los colores vivos por corriente viven en
+ * `corrientes.json` y hoy solo los consume la visualización. Pintar el enlace de `--acento` lo dejaba
+ * MÁS apagado que antes, que es lo contrario de encenderlo: medido, pasaba de casi blanco a gris.
+ *
+ * Se enciende con lo que sí sube: cuerpo, peso y un filete del color del texto en lugar del apenas
+ * visible de los bordes inertes.
+ */
+.parada.idea.resuelta .paso a {
+  color: var(--texto);
+  border-bottom-color: var(--texto);
+  font-size: var(--t-base);
+  font-weight: var(--peso-medio);
+}
+
+/* ---- umbral y cromos ---- */
+.umbral {
+  max-width: 760px; margin: 0 auto; padding: var(--e32) var(--e6);
+  text-align: center; border-top: 1px solid var(--separador);
+}
+.umbral p { font-family: var(--fuente-titulo); font-size: var(--t-medio); margin: 0; }
+.umbral .cambio { color: var(--texto-secundario); }
+
+.cromos { max-width: 1240px; margin: 0 auto; padding: 0 var(--e6) var(--e32); }
+.cromos h2 { font-family: var(--fuente-titulo); font-size: var(--t-titulo); margin: 0 0 var(--e6); }
+
+.camino ol { list-style: none; display: flex; align-items: center; gap: var(--e2); padding: 0; margin: 0 0 var(--e2); flex-wrap: wrap; }
+.hito button {
+  width: 34px; height: 34px; border-radius: 50%;
+  border: 1px solid var(--borde-interactivo); background: transparent;
+  color: var(--texto-secundario); font: inherit; font-size: var(--t-micro); cursor: pointer;
+  transition: all var(--m-rapido) var(--curva-suave);
+}
+.hito.salto { margin-left: var(--e4); position: relative; }
+.hito.salto::before { content: ''; position: absolute; left: calc(var(--e4) * -0.7); top: 50%; width: 12px; border-top: 1px dashed var(--borde-interactivo); }
+/* El camino de corrientes deja de ser dieciséis puntos iguales: cada uno lleva el color del sitio
+   al que lleva, así que el recorrido se reconoce de un vistazo y el filtro dice a qué filtra. */
+.hito.resaltado button {
+  border-color: var(--acento-corriente, var(--texto));
+  color: var(--acento-corriente, var(--texto));
+  transform: scale(1.15);
+}
+.hito.filtrando button {
+  background: var(--acento-corriente, var(--texto));
+  color: var(--fondo);
+  border-color: var(--acento-corriente, var(--texto));
+}
+.pista { font-size: var(--t-micro); color: var(--texto-secundario); margin: 0 0 var(--e6); min-height: 1.2em; }
+
+.filtros { display: flex; flex-wrap: wrap; gap: var(--e2); margin: 0 0 var(--e8); }
+.filtros button {
+  font: inherit; font-size: var(--t-pequeno); color: var(--texto); background: transparent;
+  border: 1px solid var(--borde-interactivo); border-radius: var(--r-card);
+  padding: var(--e1) var(--e3); cursor: pointer;
+}
+.filtros button.activo { border-color: var(--texto); background: var(--fondo-hundido); }
+
+/* Cinco columnas en pantallas grandes: con la cita como cuerpo, seis parten demasiado la frase. */
+.rejilla { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--e4); grid-template-columns: repeat(1, 1fr); }
+@media (min-width: 560px) { .rejilla { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 860px) { .rejilla { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1100px) { .rejilla { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1320px) { .rejilla { grid-template-columns: repeat(5, 1fr); } }
+
+.cromo button {
+  display: flex; flex-direction: column; gap: var(--e1);
+  width: 100%; height: 260px; text-align: left; cursor: pointer;
+  background: var(--fondo-hundido); border: 1px solid transparent;
+  border-radius: var(--r-panel); padding: var(--e4);
+  font: inherit; color: var(--texto);
+  transition: border-color var(--m-rapido) var(--curva-suave);
+}
+.cromo button:hover { border-color: var(--borde-interactivo); }
+/* La cita es el cuerpo de la tarjeta; el nombre va abajo, como firma. */
+.cromo blockquote { flex: 1; margin: 0; display: flex; align-items: center; }
+/* Las comillas van dentro del flujo del texto. Como pseudoelementos del blockquote quedaban
+   centradas verticalmente junto a un párrafo de varias líneas, flotando a media altura. */
+.cromo blockquote p {
+  margin: 0;
+  font-family: var(--fuente-titulo); font-size: var(--t-base); line-height: var(--il-titulo);
+}
+.cromo blockquote p::before { content: '«'; color: var(--texto-secundario); }
+.cromo blockquote p::after { content: '»'; color: var(--texto-secundario); }
+.cromo .nombre { font-weight: var(--peso-medio); font-size: var(--t-pequeno); }
+.cromo .corriente { font-size: var(--t-micro); color: var(--acento-corriente, var(--texto-secundario)); }
+.cromo .periodo { font-size: var(--t-micro); color: var(--texto-secundario); }
+
+/* ---- widget ----
+ *
+ * PLEGADO POR OMISIÓN. Desplegado permanentemente ocupaba una columna entera del lado derecho y se
+ * metía encima de la figura del hero y de la última columna de los cromos. Ahora en reposo es una
+ * tira estrecha con los números, que es lo único que hace falta para saber por dónde vas; los
+ * nombres y la salida a los cromos aparecen al señalarlo o al llegar con el tabulador.
+ *
+ * El ancho está fijado en cada estado, no es automático: dejándolo al contenido, la caja se
+ * reajustaba con el largo del nombre de cada corriente y el widget «respiraba» todo el recorrido. */
+.widget {
+  position: fixed; right: var(--e4); top: 50%; transform: translateY(-50%);
+  z-index: var(--z-widget);
+  display: none;
+  width: 3.1rem;
+  padding: var(--e3) var(--e2);
+  background: color-mix(in oklab, var(--fondo) 82%, transparent);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--separador); border-radius: var(--r-panel);
+  /* Recorta lo que sobresalga durante la transición de ancho: sin esto, los nombres largos asoman
+     fuera de la caja mientras se pliega. */
+  overflow: hidden;
+  transition: width var(--m-rapido) var(--curva-suave), padding var(--m-rapido) var(--curva-suave);
+}
+body.listo .widget { display: block; }
+.widget:hover, .widget:focus-within { width: 15rem; padding: var(--e3); }
+
+/* Fuera del recorrido no orienta nada: en el hero no hay corriente activa que señalar y en los
+   cromos el camino de corrientes ya cumple esa función dentro de la propia sección. */
+body.listo .widget.fuera-del-recorrido { display: none; }
+@media (max-width: 900px) { .widget { display: none !important; } }
+
+.widget .progreso { position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: var(--separador); }
+.widget .progreso span { display: block; height: 100%; background: var(--texto); transform-origin: top; transform: scaleY(0); transition: transform var(--m-rapido) linear; }
+
+.widget .corrientes { list-style: none; padding: 0 0 0 var(--e2); margin: 0; }
+.widget .corriente > a {
+  display: flex; gap: var(--e2); align-items: baseline;
+  padding: 2px 0; text-decoration: none; color: var(--texto-secundario);
+  font-size: var(--t-micro);
+}
+/* Se recorta en vez de envolver: una corriente de nombre largo no puede alterar la altura de la
+   lista, o el widget volvería a moverse por el otro eje. */
+.widget .corriente .nombre {
+  display: none; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+/* El nombre solo cuando está desplegado: plegado no cabe, y recortado a tres letras no dice nada. */
+.widget:not(:hover):not(:focus-within) .corriente.activa .nombre { display: none; }
+.widget:not(:hover):not(:focus-within) .ir-cromos {
+  opacity: 0; pointer-events: none; height: 0; margin: 0; padding: 0; border: 0; overflow: hidden;
+}
+/* Los puntos de idea sí se quedan plegado —son el segundo eje de la posición— pero sin la sangría
+   que llevan desplegados, que los sacaba fuera de la tira y los cortaba contra el borde. */
+.widget:not(:hover):not(:focus-within) .ideas { padding-left: 0; justify-content: center; }
+.widget .corriente.activa > a { color: var(--acento-corriente, var(--texto)); }
+.widget .corriente.activa .nombre { display: inline; }
+.widget .corriente.visitada > a { color: var(--texto); opacity: 0.55; }
+.widget .corriente.cambio-bloque { margin-top: var(--e2); padding-top: var(--e2); border-top: 1px dashed var(--separador); }
+.widget .corriente:hover .nombre { display: inline; }
+
+.widget .ideas { display: none; list-style: none; padding: 0 0 var(--e1) var(--e4); margin: 0; gap: 4px; }
+.widget .corriente.activa .ideas { display: flex; }
+.widget .ideas li a { display: block; width: 6px; height: 6px; border-radius: 50%; border: 1px solid var(--borde-interactivo); }
+.widget .ideas li.activa a { background: var(--texto); border-color: var(--texto); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+
+.widget .ir-cromos {
+  margin-top: var(--e3); width: 100%;
+  font: inherit; font-size: var(--t-micro); color: var(--texto);
+  background: transparent; border: 1px solid var(--borde-interactivo);
+  border-radius: var(--r-card); padding: var(--e1); cursor: pointer;
+}
+
+/* ---- capa de autor: una sola, nunca dos apiladas ---- */
+.capa-autor {
+  position: fixed; inset: 0; z-index: var(--z-panel);
+  background: color-mix(in oklab, var(--fondo) 70%, transparent);
+  backdrop-filter: blur(6px);
+  display: flex; justify-content: center; align-items: flex-start;
+  overflow-y: auto; padding: var(--e6) var(--e4) var(--e16);
+}
+.ficha {
+  background: var(--fondo-elevado); border-radius: var(--r-panel);
+  box-shadow: var(--sombra-panel);
+  max-width: 760px; width: 100%; padding: var(--e8);
+}
+.ficha header { display: flex; justify-content: space-between; gap: var(--e4); margin-bottom: var(--e6); }
+.ficha header button {
+  font: inherit; font-size: var(--t-pequeno); color: var(--texto);
+  background: transparent; border: 1px solid var(--borde-interactivo);
+  border-radius: var(--r-card); padding: var(--e1) var(--e3); cursor: pointer;
+}
+.ficha h2 { font-family: var(--fuente-titulo); font-size: var(--t-grande); margin: 0 0 var(--e1); }
+.ficha .meta { font-size: var(--t-micro); letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-secundario); margin: 0 0 var(--e6); }
+.ficha .nivel2 { margin-top: 0; }
+.ficha h3 { font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin: var(--e6) 0 var(--e2); }
+.ficha ul { margin: 0; padding-left: var(--e4); }
+.ficha .sus-ideas p { color: var(--texto-secundario); }
+
+.experto { margin-top: var(--e8); border-top: 1px solid var(--separador); padding-top: var(--e4); }
+.experto summary { cursor: pointer; font-size: var(--t-pequeno); }
+.experto p { margin-bottom: var(--e4); }
+/* «En disputa»: filete neutro, no de alarma. No señala un error, señala una discusión abierta. */
+.disputa { border-left: var(--trazo-enfasis) solid var(--borde-interactivo); background: var(--fondo-hundido); padding: var(--e3) var(--e4); border-radius: var(--r-card); }
+.disputa h4 { font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin: 0 0 var(--e2); }
+.fuentes { font-size: var(--t-pequeno); }
+.fuentes a { color: var(--texto); }
+
+/*
+ * El pie: una línea y que se quite de en medio.
+ *
+ * Antes eran cuatro líneas de atribuciones al final de cada recorrido, compitiendo con lo último que
+ * el lector acababa de leer. Ahora solo el copyright y un enlace a los créditos, en el cuerpo más
+ * pequeño del sistema y en color secundario. Sin filete superior: el umbral y los cromos ya cierran
+ * la página, y una raya más solo añadía ruido.
+ */
+footer {
+  padding: var(--e6);
+  display: flex; justify-content: center;
+}
+footer p {
+  display: flex; flex-wrap: wrap; gap: var(--e4);
+  align-items: baseline; justify-content: center;
+  margin: 0; font-size: var(--t-micro); color: var(--texto-secundario);
+}
+footer a {
+  color: var(--texto-secundario); text-decoration: none;
+  border-bottom: 1px solid var(--separador); padding-bottom: 1px;
+}
+footer a:hover { color: var(--texto); border-bottom-color: var(--texto); }
+
+/* Créditos: mismo formato que la ficha de autor, porque comparten capa. */
+.credito { margin-top: var(--e6); }
+.credito h3 {
+  font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--texto-secundario); margin: 0 0 var(--e2);
+}
+.credito p { margin: 0; }
+

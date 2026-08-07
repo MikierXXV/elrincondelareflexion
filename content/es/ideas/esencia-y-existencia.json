@@ -1,0 +1,80 @@
+{
+  "id": "esencia-y-existencia",
+  "corriente_id": "filosofia-islamica",
+  "titulo": "Esencia y existencia",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "avicena",
+      "rol": "principal",
+      "aporte": "Separa lo que una cosa es del hecho de que exista, y construye sobre esa grieta su prueba del ser necesario."
+    },
+    {
+      "id": "tomas-de-aquino",
+      "rol": "desarrollo",
+      "aporte": "Reelabora la distinción doscientos años después y la convierte en el eje de su metafísica."
+    }
+  ],
+  "pregunta": "Saber qué es un unicornio, ¿te dice algo sobre si hay unicornios?",
+  "cita": {
+    "texto": "Lo necesario por sí mismo no tiene causa.",
+    "obra": "Metafísica de La curación",
+    "autor_id": "avicena",
+    "atribucion": "directa"
+  },
+  "resumen": "En cualquier cosa que conocemos podemos separar dos preguntas: qué es y si es. La existencia no forma parte de la definición, y de esa grieta sale la prueba de que algo tiene que existir necesariamente.",
+  "desarrollo": "La observación de partida es fácil de comprobar y sus consecuencias no. Puedes tener la definición completa de algo —todos sus rasgos, sin que falte uno— y seguir sin saber si existe. La existencia no está entre las propiedades. De ahí se sigue que todo lo que nos rodea es meramente posible: podría no haber existido, y por tanto necesita una causa que lo haga existir. Pero si todo fuera así, la totalidad quedaría sin explicación, porque una cadena entera de cosas posibles sigue siendo posible. Avicena concluye que debe haber algo cuya esencia sea justamente existir, un necesario por sí mismo del que dependan los demás. No es un argumento sobre el primer momento del tiempo, sino sobre dependencia: aunque la cadena fuera infinita hacia atrás, seguiría necesitando de qué colgar.",
+  "ejemplo_real": "Un plano de una casa contiene todo lo que la casa es: medidas, materiales, distribución. Y no contiene ni un gramo de información sobre si esa casa está construida. Puedes conocer el plano al detalle y tener que ir a mirar. Esa distancia entre el plano y el solar es exactamente la que Avicena señala.",
+  "matiz_experto": "Averroes lo criticó por tratar la existencia como un accidente añadido a la esencia. Tomás de Aquino la reelabora como distinción real entre esencia y acto de ser, y de ahí sale la analogía del ser, que Duns Escoto rechazará abriendo una de las grandes bifurcaciones de la escolástica.",
+  "visualizacion": {
+    "id": "vis-esencia-avicena",
+    "idea_id": "esencia-y-existencia",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario compone la definición completa de un objeto añadiendo todos sus rasgos, y comprueba que un interruptor de 'existe / no existe' sigue disponible y sin determinar por muchos rasgos que añada. Al encadenar objetos posibles, cada uno pidiendo su causa, la cadena se resiste a cerrarse hasta que se introduce un elemento cuyo interruptor no se deja apagar.",
+    "invitacion": "Añade todos los rasgos y mira si basta",
+    "alternativa_textual": "Una definición que puede completarse con todos sus rasgos sin que eso determine si la cosa existe, y una cadena de causas que no se cierra hasta introducir un elemento que no puede no existir: demuestra la distinción entre esencia y existencia.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "descomponer",
+    "parametros": {
+      "corrienteId": "filosofia-islamica",
+      "conjunto": "La definición completa de una casa",
+      "accion": "Separar qué es de si es",
+      "piezas": [
+        {
+          "nombre": "Medidas y materiales",
+          "estado": "verdadero",
+          "nota": "Está todo: no falta un solo rasgo de lo que la casa es."
+        },
+        {
+          "nombre": "Distribución y uso",
+          "estado": "verdadero",
+          "nota": "También completo. La esencia no tiene huecos."
+        },
+        {
+          "nombre": "¿Existe?",
+          "estado": "indeterminado",
+          "nota": "Sigue sin determinar por muchos rasgos que añadas: la existencia no está entre las propiedades."
+        }
+      ],
+      "veredicto": "La esencia está completa y la existencia sigue abierta.",
+      "resolucion": "Puedes conocer el plano al detalle y tener que ir a mirar si la casa está construida. Esa distancia es la que separa esencia de existencia.",
+      "alternativaTexto": "Una definición que puede completarse con todos sus rasgos sin que eso determine si la cosa existe, y una cadena de causas que no se cierra hasta introducir un elemento que no puede no existir: demuestra la distinción entre esencia y existencia.",
+      "etiqueta": "Esencia y existencia",
+      "veredictos": {
+        "verdadero": "se cumple",
+        "falso": "no se cumple",
+        "indeterminado": "sin determinar"
+      }
+    }
+  },
+  "ideas_relacionadas": [
+    "razon-y-fe",
+    "razon-suficiente",
+    "hablar-de-lo-que-no-existe",
+    "duda-metodica"
+  ]
+}

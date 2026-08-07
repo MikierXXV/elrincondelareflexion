@@ -1,0 +1,36 @@
+{
+  "id": "russell",
+  "nombre": "Bertrand Russell",
+  "corriente_id": "analitica",
+  "periodo": "1872–1970",
+  "region": "United Kingdom",
+  "preguntas_filosoficas": [
+    "How can a sentence about something non-existent make sense?",
+    "Can mathematics be founded on logic?"
+  ],
+  "citas": [
+    {
+      "texto": "The stupid are cocksure; the intelligent, full of doubt.",
+      "obra": "The Triumph of Stupidity, 1933",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He applied modern logic to philosophical problems and showed that many tangles disappear once you restate precisely what a sentence actually asserts.",
+  "nivel_2_desarrollo": "The case that founded a school is 'the present king of France is bald'. Since there is no such king, it looked as though the sentence had to refer to something non-existent in order to make sense. Russell proposes reading it as the conjunction of three claims: that there is a king of France, that he is unique, and that he is bald. On this reading the sentence is simply false, with no need to posit phantom entities. That method — translating ordinary language into an explicit logical form — defines the style of analytic philosophy. Earlier he had tried, with Whitehead, to derive all of mathematics from logic, a project in which he found the paradox that bears his name: the set of all sets that do not contain themselves contains itself if and only if it does not. He was also a tireless populariser and a pacifist activist who went to prison for his positions.",
+  "nivel_3_experto": "The theory of definite descriptions became, in Ramsey's words, the paradigm of philosophical analysis, and remains the axis of the debate on reference: Strawson objected that existence is presupposed rather than asserted, Donnellan distinguished referential from attributive uses, and Kripke reoriented the field with his critique of descriptivist theories of proper names. Russell's paradox forced Frege to acknowledge the collapse of his system and motivated the ramified theory of types of the Principia Mathematica, with its contested axioms of reducibility and infinity; the logicist programme is considered a failure in its original form, and Gödel's incompleteness theorems closed that route, though contemporary neologicism has partly reopened it. His epistemology went through several phases — from the realism of terms to logical atomism and then to neutral monism — and his distinction between knowledge by acquaintance and by description is still cited. His relation with Wittgenstein is central and ends in disagreement: he acknowledged his influence on logical atomism and openly rejected the ordinary-language philosophy of the later Wittgenstein.",
+  "debate_abierto": "The Russellian analysis of descriptions is still disputed against presuppositional and referentialist alternatives; the original logicism is considered refuted, with neologicist revisions in progress.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Bertrand Russell",
+      "url": "https://plato.stanford.edu/entries/russell/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Descriptions",
+      "url": "https://plato.stanford.edu/entries/descriptions/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Russell's Paradox",
+      "url": "https://plato.stanford.edu/entries/russell-paradox/"
+    }
+  ]
+}

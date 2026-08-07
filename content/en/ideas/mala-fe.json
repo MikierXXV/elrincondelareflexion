@@ -1,0 +1,77 @@
+{
+  "id": "mala-fe",
+  "corriente_id": "existencialismo",
+  "titulo": "Bad faith",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "sartre",
+      "rol": "principal",
+      "aporte": "Describes the mechanism by which we convince ourselves that we had no alternative."
+    }
+  ],
+  "pregunta": "How many times a day do you tell yourself you had no other option?",
+  "cita": {
+    "texto": "Hell is other people.",
+    "obra": "No Exit, 1944",
+    "autor_id": "sartre",
+    "atribucion": "directa",
+    "nota": "He himself clarified that it does not mean living with others is hell, but that depending on other people's gaze to know who you are is."
+  },
+  "resumen": "Since we cannot stop choosing — not even by abstaining — we invent a mechanism for not carrying it: convincing ourselves that our role, our character or the circumstances left us no choice.",
+  "desarrollo": "The formula that existence precedes essence is understood by comparing ourselves with a manufactured object: a knife exists because someone had its function in mind beforehand. With people it is the other way round: first we are here, and then, by what we do, we define what we are. Hence Sartre's claim that we are condemned to be free: we cannot not choose, because abstaining is also choosing. This comes with anxiety, because nobody guarantees the decision is a good one, and with abandonment, because there is no higher authority to endorse it. Bad faith is the emergency exit: it consists in treating yourself as a thing with fixed properties — 'that's just how I am', 'it's my job', 'I had no alternative' — so as not to admit that in each case there was a choice. What is characteristic is that it is not a lie to someone else; it is a lie that works inwards.",
+  "ejemplo_real": "'I'm just very direct, I can't help it.' It is a description that functions as an alibi: it turns a way of treating people into a feature of nature, like height. And you can tell it is bad faith because the same person does help it in front of someone it pays to be careful with.",
+  "matiz_experto": "Merleau-Ponty objected that a freedom without degrees ignores the inertia of the body and the situation, and Simone de Beauvoir developed a far finer analysis of how oppression limits the real field of choice, today regarded as conceptually independent rather than derived from Sartre.",
+  "visualizacion": {
+    "id": "vis-mala-fe-sartre",
+    "idea_id": "mala-fe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The figure starts out surrounded by all its possible movements, drawn one by one, and with responsibility at its fullest. Each excuse the user applies closes a stretch of the outline and, in the same instant, puts out the movements that ran through it and lowers the meter: the two losses happen together and cannot be pulled apart. Removing the mould — from the button or from the figure itself — gives both back at once, which is what the excuse was buying.",
+    "invitacion": "Make excuses and watch the outline close",
+    "alternativa_textual": "Excuses that, applied, enclose a figure in a mould limiting its movements, and that can be removed to restore options and responsibility together: it shows the mechanism by which one treats oneself as a thing with fixed properties.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "modo": "molde",
+      "figuraA": "what you chose",
+      "figuraB": "the role you hide behind",
+      "coste": "distance from what you did",
+      "molde": {
+        "responsabilidad": "the responsibility you still have",
+        "retirar": "remove the mould",
+        "movimientos": "what you can still do"
+      },
+      "condiciones": [
+        {
+          "nombre": "it's my character",
+          "efecto": "You turn a way of treating people into a feature of nature.",
+          "peso": 0.34
+        },
+        {
+          "nombre": "I had no alternative",
+          "efecto": "Abstaining was also choosing, so the alternative existed.",
+          "peso": 0.33
+        },
+        {
+          "nombre": "it's my job",
+          "efecto": "The role does not decide for you: accepting it every morning is one more decision.",
+          "peso": 0.33
+        }
+      ],
+      "resolucion": "Removing the excuses restores every option and, with them, all the responsibility. That is what bad faith is trying to avoid.",
+      "alternativaTexto": "Excuses that, applied, enclose a figure in a mould limiting its movements, and that can be removed to restore options and responsibility together: it shows the mechanism by which one treats oneself as a thing with fixed properties.",
+      "etiqueta": "Bad faith"
+    }
+  },
+  "ideas_relacionadas": [
+    "angustia-y-libertad",
+    "alienacion",
+    "libertad-como-comprension",
+    "aceptacion-y-cambio"
+  ]
+}

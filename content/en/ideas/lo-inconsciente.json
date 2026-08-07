@@ -1,0 +1,80 @@
+{
+  "id": "lo-inconsciente",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "The unconscious",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "freud",
+      "rol": "principal",
+      "aporte": "Argues that much of what moves us is inaccessible to consciousness and shows itself indirectly."
+    }
+  ],
+  "pregunta": "When you explain why you did something, is that the reason or a reconstruction?",
+  "cita": {
+    "texto": "The ego is not master in its own house.",
+    "obra": "Introductory Lectures on Psychoanalysis, 1917",
+    "autor_id": "freud",
+    "atribucion": "directa"
+  },
+  "resumen": "Freud argues that there are active contents consciousness cannot reach, which show themselves indirectly, and that the motives we give to explain our behaviour usually arrive after the decision.",
+  "desarrollo": "The thesis attacks head-on an assumption inherited from Descartes: that the mind is transparent to itself. Freud proposes the opposite, on the basis of his clinical practice: there are contents consciousness cannot reach directly, which show themselves crooked, in dreams, slips and symptoms. Repression would be the mechanism keeping them out, and it has a cost. To explain inner conflict he proposed three agencies: the id, seat of impulse; the superego, which internalises prohibitions; and the ego, which negotiates between them and with reality. His therapeutic method, free association, aims precisely at evading conscious control of speech. Philosophically, what it opens is an underlying problem: if we do not fully know why we do what we do, the idea of self-knowledge has to be rebuilt, and so does that of responsibility.",
+  "ejemplo_real": "You argue with someone over something trivial and hear yourself giving very elaborate reasons. Hours later it dawns on you that you had spent all day swallowing something else entirely unrelated. The reasons you gave were not lies: you believed them as you said them. That is the uncomfortable part, not deceiving yourself knowingly.",
+  "matiz_experto": "The scientific status of psychoanalysis is seriously contested: Popper considered it irrefutable, Grünbaum attacked the evidential value of clinical material, and historical revisions have documented problems in the founding cases. Non-conscious processing, by contrast, is solidly established in cognitive psychology, though it does not coincide with the Freudian dynamic unconscious.",
+  "visualizacion": {
+    "id": "vis-inconsciente-freud",
+    "idea_id": "lo-inconsciente",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user makes an apparently trivial decision and the interface asks them to write down their motive. It then lets them descend below the waterline and find factors that influenced the decision and did not appear in their explanation. Back at the top, the initial justification is still there, intact, and still looks reasonable: rationalising is not a failure of memory, it is constructing a reason afterwards.",
+    "invitacion": "Write your reason, then go down and look",
+    "alternativa_textual": "A decision whose conscious explanation survives intact after the factors that really influenced it are discovered: it shows that the reasons we give can be constructed after the fact without any deliberate deception.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-capas",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "arriba": {
+        "nombre": "the reason you give",
+        "intervenciones": [
+          {
+            "nombre": "Reword your explanation",
+            "efecto": "The explanation changes and what produced it stays exactly the same.",
+            "propagacion": 0.08
+          },
+          {
+            "nombre": "Convince yourself it is the right one",
+            "efecto": "You believe it as you say it. That is the uncomfortable part, not deceiving yourself knowingly.",
+            "propagacion": 0.05
+          }
+        ]
+      },
+      "abajo": {
+        "nombre": "what you had been carrying",
+        "intervenciones": [
+          {
+            "nombre": "See what you had been swallowing all day",
+            "efecto": "Once it surfaces, the argument above rearranges itself entirely.",
+            "propagacion": 0.85
+          },
+          {
+            "nombre": "Recognise what you associate it with",
+            "efecto": "The earlier reason is still there and still looks reasonable: which is why refuting it is not enough.",
+            "propagacion": 0.7
+          }
+        ]
+      },
+      "resolucion": "Rationalising is not a failure of memory: it is constructing a reason afterwards. That is why revising it changes nothing, and finding what is underneath does.",
+      "alternativaTexto": "A decision whose conscious explanation survives intact after the factors that really influenced it are discovered: it shows that the reasons we give can be constructed after the fact without any deliberate deception.",
+      "etiqueta": "The unconscious"
+    }
+  },
+  "ideas_relacionadas": [
+    "la-sombra",
+    "libertad-como-comprension",
+    "genealogia-de-la-moral",
+    "mala-fe"
+  ]
+}

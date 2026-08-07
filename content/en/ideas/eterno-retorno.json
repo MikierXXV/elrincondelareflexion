@@ -1,0 +1,146 @@
+{
+  "id": "eterno-retorno",
+  "corriente_id": "existencialismo",
+  "titulo": "The eternal recurrence",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "nietzsche",
+      "rol": "principal",
+      "aporte": "Proposes a test: to will that your own life repeat exactly as it was, endlessly."
+    }
+  ],
+  "pregunta": "If you had to live your life again exactly as it was, endlessly, would you want it?",
+  "cita": {
+    "texto": "He who has a why to live can bear almost any how.",
+    "obra": "Twilight of the Idols",
+    "autor_id": "nietzsche",
+    "atribucion": "directa",
+    "nota": "Frankl quoted it so often in Man's Search for Meaning that it is now commonly attributed to him."
+  },
+  "resumen": "It is not a theory about time, it is a test. Imagine everything you have lived returning identically, with nothing taken out: the question is whether that horrifies you or whether you could want it.",
+  "desarrollo": "Nietzsche presents the idea as an experiment: a demon tells you that you will live this same life endlessly, with every pain and every success in the same order, without variation. The question is not whether that is true, but what happens to you on hearing it. If the answer is horror, something needs looking at. If someone could desire it, they would stand in the relation to their life he calls affirmation. What makes it demanding is the detail that nothing can be retouched: you cannot keep what you learned and delete the price, because in a life things come linked. That is why it works as a criterion and not as a consolation: it forces you to look at whether you actually live what you do, or endure it in the hope that something else will come afterwards. It is his alternative to systems that placed meaning outside life, in a beyond or at the end of history.",
+  "ejemplo_real": "Apply it to the week you have just had, as it was, unedited. Most people discover two things at once: that there are stretches they would repeat without hesitation, and that there are whole days they were only letting pass until something happened. That second category is exactly what the test is designed to make visible.",
+  "matiz_experto": "It is debated whether this is a cosmological thesis about the structure of time or an ethical-existential imperative. The second reading is the majority view today, but there are notes of his pointing to the first and the matter is not closed.",
+  "visualizacion": {
+    "id": "vis-retorno-nietzsche",
+    "idea_id": "eterno-retorno",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user picks a stretch of life and sees it broken into moments joined by arcs of dependency. Removing one takes with it every moment that depended on it, and while anything is missing the test stays blocked: the stretch has to be put back whole, or another one chosen. It can only be applied to the complete stretch, and then the result is not scored: it hands the decision back to the user.",
+    "invitacion": "Remove one moment and see what it takes with it",
+    "alternativa_textual": "A sequence of moments in a life that can only be accepted or refused entire, because removing one drags along those that depended on it: it shows that the test of eternal recurrence does not allow keeping the good and deleting the price.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "peticion": "Choose a stretch of your life",
+      "nombrePrueba": "Repeat it identically, endlessly",
+      "aplicadaTexto": "Repeated identically",
+      "candidatos": [
+        {
+          "texto": "The week you have just had",
+          "sobrevive": true,
+          "veredicto": "There are stretches you would repeat without hesitation. And whole days you were only letting pass until something happened.",
+          "momentos": [
+            {
+              "texto": "The endless Monday",
+              "dependeDe": []
+            },
+            {
+              "texto": "The talk you kept avoiding",
+              "dependeDe": [
+                0
+              ]
+            },
+            {
+              "texto": "The relief of having had it",
+              "dependeDe": [
+                1
+              ]
+            },
+            {
+              "texto": "The Saturday spent doing nothing",
+              "dependeDe": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "texto": "A hard year, along with what you learned",
+          "sobrevive": false,
+          "veredicto": "You cannot keep what you learned and delete the price: in a life things come linked.",
+          "momentos": [
+            {
+              "texto": "The break-up",
+              "dependeDe": []
+            },
+            {
+              "texto": "The months of bad sleep",
+              "dependeDe": [
+                0
+              ]
+            },
+            {
+              "texto": "Asking for help for once",
+              "dependeDe": [
+                1
+              ]
+            },
+            {
+              "texto": "The people who showed up then",
+              "dependeDe": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "texto": "The day you got off lightly by luck",
+          "sobrevive": false,
+          "veredicto": "Repeated endlessly it stops being luck and becomes your life. Would you want it that way?",
+          "momentos": [
+            {
+              "texto": "The lapse",
+              "dependeDe": []
+            },
+            {
+              "texto": "The fright when you noticed",
+              "dependeDe": [
+                0
+              ]
+            },
+            {
+              "texto": "Telling it later as an anecdote",
+              "dependeDe": [
+                1
+              ]
+            }
+          ]
+        }
+      ],
+      "secuencia": {
+        "retirar": "Remove «{momento}»",
+        "arrastre": "Removing «{momento}» takes these with it: {arrastrados}",
+        "suelto": "«{momento}» goes on its own: nothing depended on it",
+        "restaurar": "Put the whole stretch back",
+        "bloqueado": "The stretch is incomplete: it cannot return",
+        "editado": "What would return is no longer your life but a different one. The test asks for this one, entire.",
+        "entero": "The stretch is whole again: now it can face the test."
+      },
+      "resolucion": "It is not a theory about time, it is a criterion: it forces you to look at whether you live what you do or endure it hoping something else will come afterwards.",
+      "alternativaTexto": "A sequence of moments in a life that can only be accepted or refused entire, because removing one drags along those that depended on it: it shows that the test of eternal recurrence does not allow keeping the good and deleting the price.",
+      "etiqueta": "The eternal recurrence"
+    }
+  },
+  "ideas_relacionadas": [
+    "genealogia-de-la-moral",
+    "voluntad-de-sentido",
+    "voluntad-y-pesimismo",
+    "angustia-y-libertad"
+  ]
+}

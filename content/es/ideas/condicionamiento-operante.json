@@ -1,0 +1,78 @@
+{
+  "id": "condicionamiento-operante",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "El condicionamiento operante",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "skinner",
+      "rol": "principal",
+      "aporte": "Explica la conducta por sus consecuencias, y descubre que el refuerzo impredecible es el más resistente."
+    }
+  ],
+  "pregunta": "¿Eliges lo que haces, o lo has aprendido por sus consecuencias?",
+  "cita": {
+    "texto": "La cuestión no es si las máquinas piensan, sino si lo hacen los hombres.",
+    "obra": "Contingencies of Reinforcement, 1969",
+    "autor_id": "skinner",
+    "atribucion": "directa"
+  },
+  "resumen": "La conducta se explica por lo que ocurre después de ella: lo que se refuerza se repite. Y el hallazgo más incómodo es que el refuerzo impredecible produce conductas mucho más difíciles de extinguir que el constante.",
+  "desarrollo": "Skinner distingue su enfoque del condicionamiento clásico de Pavlov: no le interesa la respuesta provocada por un estímulo previo, sino la conducta que el organismo emite y que se mantiene o se apaga según sus consecuencias. Hasta ahí es intuitivo. Lo que no lo es en absoluto es su descubrimiento sobre los programas de refuerzo. Si la recompensa llega siempre, la conducta se extingue rápido en cuanto deja de llegar, porque la ausencia se nota de inmediato. Pero si llega de forma impredecible, la conducta se vuelve extraordinariamente resistente: nunca hay un momento en que la falta de recompensa signifique claramente que se acabó. Eso explica desde rutinas supersticiosas hasta el diseño de máquinas de juego. Su conclusión filosófica fue mucho más lejos: que la libertad que creemos tener es ignorancia de lo que nos condiciona.",
+  "ejemplo_real": "Mirar el móvil. Casi nunca hay nada, y de vez en cuando hay algo que importa, sin que puedas predecir cuándo. Ese 'de vez en cuando' impredecible es exactamente el programa de refuerzo más resistente que existe, y por eso el gesto sobrevive a cualquier propósito de enmienda. No es falta de voluntad: es un diseño que funciona.",
+  "matiz_experto": "El golpe decisivo a su programa fue la reseña de Chomsky a Conducta verbal en 1959, que argumentó que la adquisición del lenguaje no se explica por reforzamiento. Los conductistas replican que apuntaba a una versión que Skinner no defendía. Su análisis experimental sigue siendo productivo en ámbitos aplicados, con controversias éticas propias.",
+  "visualizacion": {
+    "id": "vis-refuerzo-skinner",
+    "idea_id": "condicionamiento-operante",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario repite la misma acción sobre tres agentes que la premian con regímenes distintos: siempre, una de cada cuatro, o de forma impredecible. Las tres conductas se afianzan. Al retirar la recompensa, la primera se desploma enseguida y la impredecible es la última que queda en pie.",
+    "invitacion": "Premia las tres conductas y después deja de premiar",
+    "alternativa_textual": "Tres programas de recompensa aplicados al mismo agente y luego retirados, en los que el refuerzo impredecible produce la conducta más resistente a desaparecer: demuestra por qué las rutinas con recompensa intermitente son las más difíciles de abandonar.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "repeticion",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "modo": "programas",
+      "accion": "Mirar el móvil",
+      "programas": [
+        {
+          "nombre": "Recompensa siempre",
+          "cada": 1,
+          "nota": "Se apaga la primera: cada vez sin premio contradice todo lo aprendido."
+        },
+        {
+          "nombre": "Una de cada cuatro",
+          "cada": 4,
+          "nota": "Aguanta más: un hueco entra dentro de lo esperado."
+        },
+        {
+          "nombre": "Impredecible",
+          "cada": 0,
+          "nota": "Sigue en pie. Nunca supiste cuándo tocaba, así que tampoco puedes saber cuándo dejó de tocar."
+        }
+      ],
+      "retirar": "Retirar la recompensa",
+      "conducta": "Conducta",
+      "avisoRetirar": "Las tres conductas están afianzadas. Ahora retira la recompensa.",
+      "consecuencia": "A veces hay algo",
+      "examinar": "Retirar la recompensa",
+      "hallazgo": "La conducta sigue. No sabes cuándo parar.",
+      "sinOcurrir": "Todavía no ha ocurrido ninguna vez",
+      "recuentoUno": "Ha ocurrido {veces} vez · expectativa {expectativa} %",
+      "recuentoVarios": "Ha ocurrido {veces} veces · expectativa {expectativa} %",
+      "etiqueta": "El condicionamiento operante",
+      "resolucion": "La conducta más difícil de abandonar no es la que más se premió, sino aquella en la que nunca se pudo aprender cuándo llegaba el premio. Al retirarlo, no hay ninguna ausencia que resulte anómala, y por eso no hay señal de que se haya acabado.",
+      "alternativaTexto": "Tres programas de recompensa aplicados al mismo agente y luego retirados, en los que el refuerzo impredecible produce la conducta más resistente a desaparecer: demuestra por qué las rutinas con recompensa intermitente son las más difíciles de abandonar."
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "libertad-como-comprension",
+    "banalidad-del-mal",
+    "lo-inconsciente"
+  ]
+}

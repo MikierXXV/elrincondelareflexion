@@ -1,0 +1,25 @@
+node_modules/
+dist/
+capturas/
+.vite/
+*.local
+.DS_Store
+
+# Rastro de las sesiones con navegador dirigido (capturas, instantáneas del DOM, registros de
+# consola). Es material de trabajo de quien depura, no del proyecto, y se regenera en cada sesión.
+.playwright-mcp/
+
+# Ajustes personales del asistente: llevan rutas absolutas de la máquina de cada cual. El fichero
+# compartido sería `.claude/settings.json`; este, por convenio, es el de uno.
+.claude/settings.local.json
+
+# Los dos HTML de entrada los genera `npm run generar` a partir de plantilla/index.html y de
+# content/<idioma>/ui.json. La plantilla es la fuente; estos son su salida, y versionarlos acaba con
+# alguien editando el generado para ver cómo su cambio desaparece en la siguiente compilación.
+/index.html
+/en/
+
+# SÍ se versionan, aunque sean salida de un guion, porque su entrada no está en el repositorio y la
+# compilación no puede regenerarlos:
+#   plantilla/silueta-pensador.html   ← preparar-pensador.mjs, a partir del GLB descargado
+#   src/estilos/fuentes/*.woff2       ← preparar-tipografias.mjs, necesita fonttools de Python

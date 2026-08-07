@@ -1,0 +1,37 @@
+{
+  "id": "kant",
+  "nombre": "Immanuel Kant",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1724–1804",
+  "region": "Königsberg (Prussia)",
+  "preguntas_filosoficas": [
+    "What can I know?",
+    "What ought I to do?",
+    "How is freedom possible if everything has a cause?"
+  ],
+  "citas": [
+    {
+      "texto": "Sapere aude: dare to use your own understanding.",
+      "obra": "An Answer to the Question: What is Enlightenment?",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He showed that we do not perceive the world as it is in itself: the mind supplies the structures — space, time, causation — that make experience possible.",
+  "nivel_2_desarrollo": "Kant tries to break the deadlock between rationalists and empiricists by inverting the question: instead of asking how knowledge fits objects, he examines how objects must fit our forms of knowing. His answer is that space and time are not things we find outside but the way we receive any datum at all, and that categories such as cause are conditions the understanding imposes so that coherent experience is possible. From this it follows that we know phenomena, not things in themselves. In morality he applies the same turn: the moral law comes neither from outside nor from consequences, but from reason itself. The categorical imperative demands acting only on maxims you could will as a universal law, and always treating people also as ends, never merely as means.",
+  "nivel_3_experto": "The technical heart of the first Critique is the question of synthetic a priori judgements and the transcendental deduction of the categories, whose argument — and the differences between the A and B editions — remains one of the most debated texts in modern philosophy. The thing in itself generates Jacobi's objection: without it you cannot enter the system, with it causation is applied beyond its legitimate range; answers run from the 'two worlds' reading to the 'two aspects' one, today the majority view among Anglophone interpreters though not unanimous. In ethics it is debated whether the categorical imperative is a decision procedure or an evaluative criterion, and Hegel's objection about its empty formalism coexists with contemporary reconstructions (Korsgaard, O'Neill) that consider it substantive. His solution to the problem of freedom by distinguishing phenomenal causality from noumenal spontaneity is recognised as the most fragile and most ambitious point of the system. There is also an unavoidable historiographical front: his writings on race and his anthropology contain racist claims that recent scholarship examines in relation to the moral universalism he himself proclaims.",
+  "debate_abierto": "The 'two worlds' versus 'two aspects' reading, the formalism of the categorical imperative, and the relation between his universalism and his writings on race are fully active debates.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Immanuel Kant",
+      "url": "https://plato.stanford.edu/entries/kant/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Kant's Moral Philosophy",
+      "url": "https://plato.stanford.edu/entries/kant-moral/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Immanuel Kant: Metaphysics",
+      "url": "https://iep.utm.edu/kantmeta/"
+    }
+  ]
+}

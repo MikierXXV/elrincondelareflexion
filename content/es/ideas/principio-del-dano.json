@@ -1,0 +1,107 @@
+{
+  "id": "principio-del-dano",
+  "corriente_id": "utilitarismo",
+  "titulo": "El principio del daño",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "mill",
+      "rol": "principal",
+      "aporte": "Fija el único motivo legítimo para limitar la libertad de alguien: evitar un perjuicio a terceros."
+    }
+  ],
+  "pregunta": "¿Cuándo puede una sociedad meterse en la vida de alguien?",
+  "cita": {
+    "texto": "El único fin que legitima interferir es evitar un daño a otros.",
+    "obra": "Sobre la libertad, I, 1859",
+    "autor_id": "mill",
+    "atribucion": "directa"
+  },
+  "resumen": "El único motivo legítimo para limitar la libertad de alguien contra su voluntad es impedir un perjuicio a terceros. Su propio bien, físico o moral, no es razón suficiente.",
+  "desarrollo": "La formulación es sencilla y sus consecuencias no lo son. Mill sostiene que sobre su propio cuerpo y su propia mente el individuo es soberano, y que la sociedad puede aconsejar, razonar o suplicar, pero no obligar, mientras la conducta no dañe a otro. Con eso descarta de un golpe el paternalismo y la imposición moral. Y añade una advertencia que la democracia no resuelve por sí sola: la tiranía de la mayoría, que oprime sin necesidad de leyes, solo con presión social y con la expectativa de que todos vivan igual. De ahí su defensa apasionada de la libertad de expresión, incluida la opinión falsa, con un argumento poco intuitivo: si silenciamos algo verdadero perdemos la verdad, y si silenciamos algo falso perdemos la ocasión de entender por qué lo nuestro es cierto en vez de repetirlo como un dogma.",
+  "ejemplo_real": "El casco en la moto y el cinturón dividen a la gente exactamente por esta línea: unos dicen que es tu cabeza, y otros que el coste de tu accidente lo pagamos todos, con lo que el daño ya no sería solo tuyo. La discusión nunca es sobre el casco: es sobre dónde empieza el daño a terceros.",
+  "matiz_experto": "Qué cuenta como daño es el problema abierto: si la ofensa lo es, si el daño puramente económico lo es, si un daño difuso a largo plazo lo es. Y hay una tensión seria entre su liberalismo y sus posiciones sobre las sociedades que él consideraba no preparadas para ella, ligadas a su empleo en la Compañía de las Indias Orientales.",
+  "visualizacion": {
+    "id": "vis-dano-mill",
+    "idea_id": "principio-del-dano",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario sitúa conductas concretas en un plano y traza dónde pondría la frontera del daño a terceros. Al mover la frontera, la interfaz muestra qué otras conductas quedan dentro y fuera con ese mismo criterio, incluidas algunas que probablemente no querría prohibir. Es un ejercicio de coherencia: la línea no se puede dibujar solo alrededor de lo que a uno le molesta.",
+    "invitacion": "Mueve la frontera y mira qué se lleva por delante",
+    "alternativa_textual": "Una frontera desplazable entre conducta privada y daño a terceros que al moverse reclasifica de golpe todas las conductas comparables: demuestra que el principio del daño obliga a ser coherente y no permite prohibir a la carta.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "eje",
+    "parametros": {
+      "corrienteId": "utilitarismo",
+      "escenarios": [
+        {
+          "nombre": "Lo que te haces a ti mismo",
+          "extremoBajo": "que cada cual",
+          "extremoAlto": "prohibirlo",
+          "casos": [
+            {
+              "texto": "No llevar casco",
+              "posicion": 0.18
+            },
+            {
+              "texto": "Fumar en tu casa",
+              "posicion": 0.3
+            },
+            {
+              "texto": "Escalar sin cuerda",
+              "posicion": 0.44
+            },
+            {
+              "texto": "No ponerse el cinturón",
+              "posicion": 0.58
+            },
+            {
+              "texto": "Dejar de medicarte",
+              "posicion": 0.74
+            }
+          ],
+          "acierto": "La discusión nunca es sobre el casco: es sobre dónde empieza el daño a terceros."
+        },
+        {
+          "nombre": "Lo que le llega a otro",
+          "extremoBajo": "molestia",
+          "extremoAlto": "daño",
+          "casos": [
+            {
+              "texto": "Una opinión que ofende",
+              "posicion": 0.12
+            },
+            {
+              "texto": "Música a las tres",
+              "posicion": 0.38
+            },
+            {
+              "texto": "Fumar en un bar",
+              "posicion": 0.52
+            },
+            {
+              "texto": "Conducir bebido",
+              "posicion": 0.8
+            }
+          ],
+          "acierto": "La ofensa no es daño: si lo fuera, cualquiera podría prohibir lo que le incomoda."
+        }
+      ],
+      "ladoBajo": "que cada cual decida",
+      "ladoAlto": "la ley interviene",
+      "resolucion": "La línea no se puede dibujar solo alrededor de lo que a uno le molesta: al moverla, arrastra consigo todas las conductas comparables.",
+      "alternativaTexto": "Una frontera desplazable entre conducta privada y daño a terceros que al moverse reclasifica de golpe todas las conductas comparables: demuestra que el principio del daño obliga a ser coherente y no permite prohibir a la carta.",
+      "etiqueta": "El principio del daño",
+      "etiquetaTirador": "Dónde sitúas la frontera"
+    }
+  },
+  "ideas_relacionadas": [
+    "contrato-y-voluntad-general",
+    "calculo-de-la-felicidad",
+    "velo-de-la-ignorancia",
+    "ideologia"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "bentham",
+  "nombre": "Jeremy Bentham",
+  "corriente_id": "utilitarismo",
+  "periodo": "1748–1832",
+  "region": "Londres",
+  "preguntas_filosoficas": ["¿Puede medirse el bien?", "¿Qué justifica que una ley exista?", "¿Cuenta el sufrimiento de los animales?"],
+  "citas": [
+    {
+      "texto": "La naturaleza ha puesto al hombre bajo el gobierno del dolor y el placer.",
+      "obra": "Introducción a los principios de la moral y la legislación, 1789",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Propuso un criterio único para juzgar leyes e instituciones: si aumentan o reducen la felicidad total de los afectados, contando a cada persona como una y ninguna como más de una.",
+  "nivel_2_desarrollo": "Bentham no era un teórico de gabinete: quería desmontar un sistema legal que castigaba con la horca el robo de una oveja y que se justificaba a sí mismo apelando a la tradición. Frente a eso propuso una prueba que cualquiera puede aplicar: sumar el bienestar y el sufrimiento que una medida produce en todos los afectados. Su cálculo consideraba variables como la intensidad, la duración y el número de personas alcanzadas. Lo radical es a quién incluía en la suma: mujeres, personas sin propiedades y también los animales, sobre los que escribió que la pregunta relevante no es si pueden razonar o hablar, sino si pueden sufrir. Rechazó la idea de derechos naturales por considerarla retórica sin contenido verificable, y desde ese criterio impulsó reformas penales, penitenciarias y electorales.",
+  "nivel_3_experto": "El hedonismo cuantitativo de Bentham arrastra el problema de la conmensurabilidad: para agregar hace falta una métrica común, y no está claro que placeres de naturaleza distinta admitan una escala única, objeción que llevó a Mill a introducir la distinción cualitativa. La crítica estructural más persistente es que un criterio puramente agregativo puede justificar sacrificar a una minoría si la suma total sale favorable, línea que recorre desde Rawls —cuya teoría se construye explícitamente contra ese punto, al acusar al utilitarismo de no tomar en serio la distinción entre personas— hasta la objeción de Williams sobre la integridad del agente. Su proyecto del panóptico, un diseño carcelario de vigilancia permanente, se convirtió con Foucault en emblema del poder disciplinario moderno, lectura que ha eclipsado el resto de su obra penal reformista. La investigación reciente, apoyada en la edición crítica de sus manuscritos inéditos, ha sacado a la luz escritos suyos notablemente adelantados sobre despenalización de la homosexualidad y sobre derecho internacional, y ha matizado la imagen de un pensador mecánico que difundieron sus críticos románticos.",
+  "debate_abierto": "Si un criterio agregativo puede evitar sacrificar a minorías, y hasta qué punto los placeres son conmensurables, siguen siendo las objeciones vivas contra el utilitarismo clásico.",
+  "fuentes": [
+    {"titulo": "Stanford Encyclopedia of Philosophy — Jeremy Bentham", "url": "https://plato.stanford.edu/entries/bentham/"},
+    {"titulo": "Internet Encyclopedia of Philosophy — Jeremy Bentham", "url": "https://iep.utm.edu/jeremy-bentham/"},
+    {"titulo": "Stanford Encyclopedia of Philosophy — The History of Utilitarianism", "url": "https://plato.stanford.edu/entries/utilitarianism-history/"}
+  ]
+}

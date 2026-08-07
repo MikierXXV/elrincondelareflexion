@@ -1,0 +1,80 @@
+{
+  "id": "materialismo-historico",
+  "corriente_id": "marxismo",
+  "titulo": "Historical materialism",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "marx",
+      "rol": "principal",
+      "aporte": "Inverts Hegel: the way material life is produced conditions ideas, and not the other way round."
+    }
+  ],
+  "pregunta": "Does history change because ideas change, or do ideas change because everything else does?",
+  "cita": {
+    "texto": "Philosophers have only interpreted the world; the point is to change it.",
+    "obra": "Theses on Feuerbach, XI, 1845",
+    "autor_id": "marx",
+    "atribucion": "directa"
+  },
+  "resumen": "Marx inverts Hegel: it is not consciousness that determines material life, but the way production is organised that conditions law, morality and what each age finds self-evident.",
+  "desarrollo": "The hypothesis is that great historical transformations do not begin when someone has a better idea, but when the material base changes: what is produced, with what tools, and who controls the means. The ideas arrive afterwards, to give shape and justification to what is already happening. It is not a thesis of mechanical determinism — Marx himself insisted that human beings make their own history, though not in conditions of their choosing — but an inversion of the usual order of explanation. The methodological consequence is what has lasted: in studying an age, ask first how people earned their living and who owned what, and only then what they thought. That approach is now an ordinary tool in history and sociology, far beyond political Marxism.",
+  "ejemplo_real": "Change the way people work and what they consider normal changes. The split shift, the weekend, the idea that childhood is a time for study rather than work: none of these took hold because someone argued well, but because productive conditions changed and the laws and the reasons came afterwards.",
+  "matiz_experto": "His predictions about growing immiseration and the collapse of capitalism did not come true as formulated, and mainstream academic economics does not support the labour theory of value. The analytical Marxism of Cohen and Roemer reconstructed parts of the programme while dispensing with it.",
+  "visualizacion": {
+    "id": "vis-base-marx",
+    "idea_id": "materialismo-historico",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Two superimposed layers: below, material conditions — tools, property, the working day; above, ideas, laws and customs. The user can intervene in either. Change the top and almost nothing moves below, and in time the idea reverts; change the bottom and the upper layer reorganises itself after a while. The asymmetry is the thesis.",
+    "invitacion": "Change one layer and see what happens to the other",
+    "alternativa_textual": "Two layers, material and ideological, in which intervening on ideas barely alters conditions while altering conditions reorganises ideas: it demonstrates the inversion of the order of explanation that historical materialism proposes.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-capas",
+    "parametros": {
+      "corrienteId": "marxismo",
+      "arriba": {
+        "nombre": "ideas, laws and customs",
+        "intervenciones": [
+          {
+            "nombre": "Convince everyone with a good argument",
+            "efecto": "The layer below barely moves, and in time the idea reverts.",
+            "propagacion": 0.12
+          },
+          {
+            "nombre": "Pass a new law",
+            "efecto": "Without changing the conditions that hold it up, the law is applied little and badly.",
+            "propagacion": 0.18
+          }
+        ]
+      },
+      "abajo": {
+        "nombre": "material conditions: tools, property, the working day",
+        "intervenciones": [
+          {
+            "nombre": "Change who owns the means",
+            "efecto": "The upper layer reorganises itself after a while.",
+            "propagacion": 0.9
+          },
+          {
+            "nombre": "Change the way work is done",
+            "efecto": "The split shift and the weekend did not take hold through good arguments.",
+            "propagacion": 0.85
+          }
+        ]
+      },
+      "resolucion": "The asymmetry is the thesis: it is not consciousness that determines material life but the reverse. Ideas arrive afterwards, to give shape to what is already happening.",
+      "alternativaTexto": "Two layers, material and ideological, in which intervening on ideas barely alters conditions while altering conditions reorganises ideas: it demonstrates the inversion of the order of explanation that historical materialism proposes.",
+      "etiqueta": "Historical materialism"
+    }
+  },
+  "ideas_relacionadas": [
+    "ideologia",
+    "alienacion",
+    "dialectica-del-reconocimiento",
+    "genealogia-de-la-moral"
+  ]
+}

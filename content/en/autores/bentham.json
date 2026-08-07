@@ -1,0 +1,24 @@
+{
+  "id": "bentham",
+  "nombre": "Jeremy Bentham",
+  "corriente_id": "utilitarismo",
+  "periodo": "1748–1832",
+  "region": "London",
+  "preguntas_filosoficas": ["Can the good be measured?", "What justifies a law existing?", "Does animal suffering count?"],
+  "citas": [
+    {
+      "texto": "Nature has placed mankind under the governance of pain and pleasure.",
+      "obra": "An Introduction to the Principles of Morals and Legislation, 1789",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He proposed a single criterion for judging laws and institutions: whether they increase or reduce the total happiness of those affected, counting each person as one and none as more than one.",
+  "nivel_2_desarrollo": "Bentham was no armchair theorist: he wanted to dismantle a legal system that hanged people for stealing a sheep and justified itself by appealing to tradition. Against that he proposed a test anyone can apply: adding up the well-being and suffering a measure produces in everyone affected. His calculus considered variables such as intensity, duration and the number of people reached. What is radical is whom he included in the sum: women, people without property, and animals too, of whom he wrote that the relevant question is not whether they can reason or talk, but whether they can suffer. He rejected the idea of natural rights as rhetoric with no verifiable content, and from that criterion he drove penal, prison and electoral reforms.",
+  "nivel_3_experto": "Bentham's quantitative hedonism carries the problem of commensurability: to aggregate you need a common metric, and it is not clear that pleasures of different kinds admit a single scale — the objection that led Mill to introduce the qualitative distinction. The most persistent structural criticism is that a purely aggregative criterion can justify sacrificing a minority if the total sum comes out favourable, a line running from Rawls — whose theory is built explicitly against that point, accusing utilitarianism of not taking the distinction between persons seriously — to Williams's objection about the integrity of the agent. His panopticon project, a prison design of permanent surveillance, became with Foucault the emblem of modern disciplinary power, a reading that has eclipsed the rest of his reformist penal work. Recent research, supported by the critical edition of his unpublished manuscripts, has brought to light strikingly advanced writings on the decriminalisation of homosexuality and on international law, and has qualified the image of a mechanical thinker spread by his Romantic critics.",
+  "debate_abierto": "Whether an aggregative criterion can avoid sacrificing minorities, and how far pleasures are commensurable, remain the live objections against classical utilitarianism.",
+  "fuentes": [
+    {"titulo": "Stanford Encyclopedia of Philosophy — Jeremy Bentham", "url": "https://plato.stanford.edu/entries/bentham/"},
+    {"titulo": "Internet Encyclopedia of Philosophy — Jeremy Bentham", "url": "https://iep.utm.edu/jeremy-bentham/"},
+    {"titulo": "Stanford Encyclopedia of Philosophy — The History of Utilitarianism", "url": "https://plato.stanford.edu/entries/utilitarianism-history/"}
+  ]
+}

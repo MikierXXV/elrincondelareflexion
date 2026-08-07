@@ -1,0 +1,36 @@
+{
+  "id": "avicena",
+  "nombre": "Avicenna (Ibn Sina)",
+  "corriente_id": "filosofia-islamica",
+  "periodo": "c. 980–1037",
+  "region": "Persia (Bukhara, Isfahan)",
+  "preguntas_filosoficas": [
+    "What is the difference between what something is and the fact that it exists?",
+    "Is self-awareness prior to the perception of the body?"
+  ],
+  "citas": [
+    {
+      "texto": "That which is necessary in itself has no cause.",
+      "obra": "Metaphysics of The Healing",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He distinguished a thing's essence from its existence: knowing what a horse is says nothing about whether there are horses. On that difference he built his proof of a necessary being.",
+  "nivel_2_desarrollo": "Avicenna's starting point is that in anything we know, two questions can be separated: what it is and whether it is. Existence is not part of the definition, and therefore everything around us is possible: it might not have existed, and it needs a cause to make it exist. If everything were like that, the whole would be left unexplained; there must then be a being whose essence is to exist, a necessary being in itself, on which the others depend. It is an argument that starts neither from motion nor from a first moment in time, but from the very structure of the contingent. His other famous contribution is the 'flying man' experiment: imagine someone created in mid-air, seeing nothing, touching nothing, not feeling their body, and he holds that they would still affirm that they exist — proof for him that self-awareness does not depend on the senses.",
+  "nivel_3_experto": "The distinction between essence and existence is Avicenna's contribution with the longest historical reach: it passes into Latin scholasticism and is reworked by Aquinas, who turns it into a real distinction, while Averroes criticised it for treating existence as an accident added to essence. His thesis of essence considered in itself, indifferent to universality and particularity, is the origin of a far-reaching medieval discussion of universals. In noetics he holds that intelligible forms are not simply abstracted but bestowed by the separate Active Intellect, a doctrine that raises the problem of how much of the individual's cognitive contribution remains. The flying man is the object of active interpretive controversy: whether it is a substantial argument for dualism, an intuition of primitive self-awareness, or merely a pedagogical device; its structural resemblance to the cogito has fed both fertile comparisons and anachronisms. Al-Ghazali directed against him, among others, the theses of the eternity of the world, the denial of divine knowledge of particulars and the denial of bodily resurrection, and later falsafa — including the Illuminationist school and Mulla Sadra — is built in permanent dialogue with his system.",
+  "debate_abierto": "The status of the flying man and the exact nature of the essence/existence distinction are still debated, as is the continuity between his system and Latin scholasticism.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ibn Sina's Metaphysics",
+      "url": "https://plato.stanford.edu/entries/ibn-sina-metaphysics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ibn Sina (Avicenna)",
+      "url": "https://iep.utm.edu/avicenna-ibn-sina/"
+    },
+    {
+      "titulo": "Adamson, Philosophy in the Islamic World (A History of Philosophy Without Any Gaps), Oxford University Press",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "al-ghazali",
+  "nombre": "Al-Ghazali",
+  "corriente_id": "filosofia-islamica",
+  "periodo": "1058–1111",
+  "region": "Persia (Tus, Bagdad)",
+  "preguntas_filosoficas": [
+    "¿Podemos demostrar que una cosa causa otra?",
+    "¿Dónde están los límites de la razón demostrativa?"
+  ],
+  "citas": [
+    {
+      "texto": "La conexión entre lo que llamamos causa y efecto no es necesaria.",
+      "obra": "La incoherencia de los filósofos, disputa 17",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Argumentó, siglos antes que Hume, que la conexión necesaria entre causa y efecto no se observa: solo vemos que dos cosas ocurren juntas una y otra vez.",
+  "nivel_2_desarrollo": "Al-Ghazali fue un jurista y teólogo de primer nivel que estudió a fondo a los filósofos antes de criticarlos, y su libro sobre sus doctrinas es tan preciso que se usó como manual. Su objeción central no es que la filosofía sea falsa, sino que se extralimita: presenta como demostrado lo que solo es probable. Su ejemplo más influyente es el fuego y el algodón. Vemos que el algodón arde cuando se acerca el fuego, pero de ahí no se sigue que el fuego produzca necesariamente la combustión: lo observado es una sucesión constante, no un vínculo necesario. Si el orden del mundo es un hábito estable establecido por Dios y no una necesidad interna de las cosas, el milagro deja de ser una contradicción lógica. Escribió también un relato de su propia crisis intelectual, en el que la certeza no le llegó por argumentos sino por experiencia interior.",
+  "nivel_3_experto": "Su Incoherencia de los filósofos declara incompatibles con la fe tres tesis —la eternidad del mundo, la negación del conocimiento divino de los particulares y la negación de la resurrección corporal— y refuta otras diecisiete como no demostradas; la lectura tradicional que lo convierte en el causante del declive de la filosofía en el mundo islámico ha sido corregida por la investigación reciente, que documenta una tradición filosófica posterior vigorosa —Suhrawardi, la escuela de Isfahán, Mulla Sadra— y muestra que él mismo incorporó lógica y método aristotélicos a la teología. Su ocasionalismo admite lecturas distintas: si niega toda causalidad secundaria o si deja abierta una vía compatible con causas naturales, punto en el que los especialistas discrepan. El paralelo con Hume es real en el análisis pero divergente en la conclusión: donde Hume deriva un naturalismo escéptico sobre el hábito humano, Al-Ghazali funda la regularidad en la voluntad divina. Averroes le respondió punto por punto, y su defensa de la relación necesaria entre las cosas y su naturaleza es la contrapartida clásica de este debate.",
+  "debate_abierto": "El alcance de su ocasionalismo y la tesis del 'declive' de la filosofía islámica tras él han sido revisados a fondo por la investigación reciente, sin consenso pleno.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Al-Ghazali",
+      "url": "https://plato.stanford.edu/entries/al-ghazali/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Al-Ghazali",
+      "url": "https://iep.utm.edu/al-ghazali/"
+    },
+    {
+      "titulo": "Griffel, Al-Ghazali's Philosophical Theology, Oxford University Press",
+      "url": null
+    }
+  ]
+}

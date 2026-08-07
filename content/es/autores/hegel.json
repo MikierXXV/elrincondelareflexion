@@ -1,0 +1,36 @@
+{
+  "id": "hegel",
+  "nombre": "Georg Wilhelm Friedrich Hegel",
+  "corriente_id": "ilustracion-idealismo",
+  "periodo": "1770–1831",
+  "region": "Stuttgart, Jena, Berlín",
+  "preguntas_filosoficas": [
+    "¿Tiene la historia una dirección?",
+    "¿Se puede ser uno mismo sin el reconocimiento de otro?"
+  ],
+  "citas": [
+    {
+      "texto": "El búho de Minerva emprende su vuelo al caer el crepúsculo.",
+      "obra": "Filosofía del derecho, prefacio",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Pensó la realidad y la historia como un proceso: las contradicciones no son errores que haya que evitar, sino el motor que empuja cada etapa hacia la siguiente.",
+  "nivel_2_desarrollo": "Para Hegel, ninguna idea o forma de vida se sostiene aislada: al desarrollarse hasta el final, cada una revela sus propias tensiones internas y se ve obligada a transformarse en algo que las integra sin borrarlas. Ese movimiento no es solo lógico, también histórico: instituciones, religiones y concepciones del mundo se suceden como fases de un proceso en el que la libertad se vuelve progresivamente consciente de sí. Su pasaje más leído es la dialéctica del amo y el esclavo: dos conciencias se enfrentan buscando ser reconocidas, una somete a la otra, pero el vencedor queda atrapado en el reconocimiento de alguien a quien ha degradado, mientras el sometido, a través del trabajo que transforma el mundo, gana una conciencia de sí que su amo no tiene. La conclusión es que la identidad no se produce en solitario: se construye en relación con otros.",
+  "nivel_3_experto": "El esquema 'tesis-antítesis-síntesis' con que se resume a Hegel no es suyo —procede de Fichte vía Chalybäus— y los especialistas lo consideran una simplificación que oscurece el funcionamiento real de la Aufhebung, el momento en que algo queda a la vez cancelado, conservado y elevado. Las grandes divisorias interpretativas siguen abiertas: la lectura 'metafísica' tradicional, que entiende el Espíritu absoluto como sujeto cósmico, frente a las lecturas no metafísicas o categoriales de Pippin y Brandom, que lo leen como una teoría de la normatividad y la autoconciencia social; y la disputa entre hegelianismo de derechas y de izquierdas, que arranca ya en la década de 1840. Su filosofía del derecho, con la afirmación de la racionalidad de lo real, ha sido acusada de conservadurismo estatalista (con Popper como crítico más agresivo) y defendida como teoría de las condiciones institucionales de la libertad. Su filosofía de la historia contiene juicios eurocéntricos explícitos sobre África y Asia que hoy se estudian como problema y no como detalle menor. Su descendencia es enorme: Marx invierte su dialéctica, y la teoría del reconocimiento (Honneth) y buena parte del pensamiento social contemporáneo siguen trabajando desde él.",
+  "debate_abierto": "La disputa entre lecturas metafísicas y no metafísicas de Hegel es el eje de la investigación actual; su filosofía de la historia arrastra además un problema serio de eurocentrismo.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Georg Wilhelm Friedrich Hegel",
+      "url": "https://plato.stanford.edu/entries/hegel/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Hegel's Dialectics",
+      "url": "https://plato.stanford.edu/entries/hegel-dialectics/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Georg Wilhelm Friedrich Hegel",
+      "url": "https://iep.utm.edu/hegelsoc/"
+    }
+  ]
+}

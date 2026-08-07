@@ -1,0 +1,80 @@
+{
+  "id": "materialismo-historico",
+  "corriente_id": "marxismo",
+  "titulo": "El materialismo histórico",
+  "orden": 3,
+  "autores": [
+    {
+      "id": "marx",
+      "rol": "principal",
+      "aporte": "Invierte a Hegel: la forma de producir la vida material condiciona las ideas, y no al revés."
+    }
+  ],
+  "pregunta": "¿Cambia la historia porque cambian las ideas, o cambian las ideas porque cambia todo lo demás?",
+  "cita": {
+    "texto": "Los filósofos se han limitado a interpretar el mundo; se trata de transformarlo.",
+    "obra": "Tesis sobre Feuerbach, XI, 1845",
+    "autor_id": "marx",
+    "atribucion": "directa"
+  },
+  "resumen": "Marx invierte a Hegel: no es la conciencia la que determina la vida material, sino la manera de organizar la producción la que condiciona el derecho, la moral y lo que a cada época le parece evidente.",
+  "desarrollo": "La hipótesis es que las grandes transformaciones históricas no empiezan cuando alguien tiene una idea mejor, sino cuando cambia la base material: qué se produce, con qué herramientas y quién controla los medios. Las ideas llegan después, para dar forma y justificación a lo que ya está ocurriendo. No es una tesis de determinismo mecánico —el propio Marx insistió en que los seres humanos hacen su historia, aunque no en las condiciones que eligen— sino una inversión del orden de explicación habitual. La consecuencia metodológica es la que ha durado: al estudiar una época, preguntar primero cómo se ganaba la gente la vida y quién poseía qué, y solo después qué pensaba. Ese enfoque es hoy herramienta corriente en historia y sociología, mucho más allá del marxismo político.",
+  "ejemplo_real": "Cambia la forma de trabajar y cambia lo que la gente considera normal. La jornada partida, el fin de semana, la idea de que la infancia es una etapa de estudio y no de trabajo: ninguna de esas cosas se impuso porque alguien argumentara bien, sino porque cambiaron las condiciones productivas y después vinieron las leyes y las razones.",
+  "matiz_experto": "Sus predicciones sobre la pauperización creciente y el colapso del capitalismo no se cumplieron como fueron formuladas, y la teoría del valor-trabajo no la sostiene la economía académica dominante. El marxismo analítico de Cohen y Roemer reconstruyó partes del programa prescindiendo de ella.",
+  "visualizacion": {
+    "id": "vis-base-marx",
+    "idea_id": "materialismo-historico",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Dos capas superpuestas: abajo, condiciones materiales —herramientas, propiedad, jornada—; arriba, ideas, leyes y costumbres. El usuario puede intervenir en cualquiera de las dos. Al cambiar arriba, casi nada se mueve abajo y con el tiempo la idea revierte; al cambiar abajo, la capa superior se reorganiza sola al cabo de un rato. La asimetría es la tesis.",
+    "invitacion": "Cambia una capa y mira qué le pasa a la otra",
+    "alternativa_textual": "Dos capas, material e ideológica, en las que intervenir sobre las ideas apenas altera las condiciones mientras que alterar las condiciones reorganiza las ideas: demuestra la inversión del orden de explicación que propone el materialismo histórico.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-capas",
+    "parametros": {
+      "corrienteId": "marxismo",
+      "arriba": {
+        "nombre": "ideas, leyes y costumbres",
+        "intervenciones": [
+          {
+            "nombre": "Convencer a todos con un buen argumento",
+            "efecto": "La capa de abajo apenas se mueve, y con el tiempo la idea revierte.",
+            "propagacion": 0.12
+          },
+          {
+            "nombre": "Aprobar una ley nueva",
+            "efecto": "Sin cambiar las condiciones que la sostienen, la ley se aplica poco y mal.",
+            "propagacion": 0.18
+          }
+        ]
+      },
+      "abajo": {
+        "nombre": "condiciones materiales: herramientas, propiedad, jornada",
+        "intervenciones": [
+          {
+            "nombre": "Cambiar quién posee los medios",
+            "efecto": "La capa de arriba se reorganiza sola al cabo de un tiempo.",
+            "propagacion": 0.9
+          },
+          {
+            "nombre": "Cambiar la forma de trabajar",
+            "efecto": "La jornada partida o el fin de semana no se impusieron por buenos argumentos.",
+            "propagacion": 0.85
+          }
+        ]
+      },
+      "resolucion": "La asimetría es la tesis: no es la conciencia la que determina la vida material, sino al revés. Las ideas llegan después, para dar forma a lo que ya está ocurriendo.",
+      "alternativaTexto": "Dos capas, material e ideológica, en las que intervenir sobre las ideas apenas altera las condiciones mientras que alterar las condiciones reorganiza las ideas: demuestra la inversión del orden de explicación que propone el materialismo histórico.",
+      "etiqueta": "El materialismo histórico"
+    }
+  },
+  "ideas_relacionadas": [
+    "ideologia",
+    "alienacion",
+    "dialectica-del-reconocimiento",
+    "genealogia-de-la-moral"
+  ]
+}

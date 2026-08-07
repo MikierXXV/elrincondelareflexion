@@ -1,0 +1,38 @@
+{
+  "id": "frankl",
+  "nombre": "Viktor Frankl",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1905–1997",
+  "region": "Vienna",
+  "preguntas_filosoficas": [
+    "Can there be meaning in unavoidable suffering?",
+    "What margin of freedom remains under extreme conditions?"
+  ],
+  "dialogo_filosofico": "He is the explicit bridge between clinical psychology and existentialism: he takes up the question of meaning after the 'death of God' and moves it onto therapeutic ground, with a different answer from Sartre's.",
+  "citas": [
+    {
+      "texto": "Everything can be taken from a person but the choice of their attitude.",
+      "obra": "Man's Search for Meaning, 1946",
+      "atribucion": "directa",
+      "nota": "By contrast, the famous line about 'the space between stimulus and response' attributed to him appears in none of his works: researchers have failed to locate it."
+    }
+  ],
+  "nivel_1_resumen": "A neurologist and survivor of the extermination camps, he held that a person's fundamental drive is neither pleasure nor power but finding a meaning, even where nothing else remains.",
+  "nivel_2_desarrollo": "Frankl had developed his ideas before deportation, and his experience in the camps — where he lost his wife, his parents and his brother — tested them in the worst scenario imaginable. His observation was that, among equally atrocious conditions, those who kept an unfinished task, a bond or a reason for the next day held out differently. Hence his thesis that between what happens to us and how we respond there is always a margin, however narrow, which constitutes the last freedom. His logotherapy inverts the usual question: it is not about what one expects from life but about what life expects from one in each concrete situation. And he distinguishes three routes to meaning: what one creates or accomplishes, what one loves or encounters, and the attitude one takes towards a suffering that cannot be avoided.",
+  "nivel_3_experto": "Logotherapy positions itself deliberately against Freud and Adler — the 'will to meaning' against the will to pleasure and the will to power — and rests on an anthropology with a spiritual (noological) dimension irreducible to the psychic, which ties it to phenomenology and the existential tradition rather than to the dominant empirical programme. Its scientific status is limited: the construct of meaning in life has been operationalised in later research, with instruments such as the Purpose in Life Test and its development in positive psychology, and there is evidence of an association between perceived meaning and well-being; but the clinical inference from his camp testimony has an evident methodological problem of survivorship bias, noted by various critics, and he himself warned against readings that blamed the victims. Historical research has also questioned details of his biographical account and his professional position in 1930s Vienna, with conflicting assessments. His technique of paradoxical intention, by contrast, anticipated procedures now validated in the treatment of insomnia and anxiety disorders.",
+  "debate_abierto": "Clinical generalisation from the camp experience has an acknowledged survivorship-bias problem; the construct of 'meaning' he popularised is today the object of standard empirical research.",
+  "fuentes": [
+    {
+      "titulo": "Frankl, Man's Search for Meaning (Ein Psycholog erlebt das Konzentrationslager, 1946)",
+      "url": null
+    },
+    {
+      "titulo": "Batthyány & Russo-Netzer (eds.), Meaning in Positive and Existential Psychology, Springer",
+      "url": null
+    },
+    {
+      "titulo": "Pytell, Viktor Frankl's Search for Meaning: An Emblematic 20th-Century Life, Berghahn",
+      "url": null
+    }
+  ]
+}

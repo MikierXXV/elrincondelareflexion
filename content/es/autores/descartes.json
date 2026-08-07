@@ -1,0 +1,36 @@
+{
+  "id": "descartes",
+  "nombre": "René Descartes",
+  "corriente_id": "racionalismo",
+  "periodo": "1596–1650",
+  "region": "Francia, Provincias Unidas",
+  "preguntas_filosoficas": [
+    "¿Hay algo de lo que sea imposible dudar?",
+    "¿Cómo se relacionan la mente y el cuerpo?"
+  ],
+  "citas": [
+    {
+      "texto": "Pienso, luego existo.",
+      "obra": "Discurso del método, IV",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Decidió dudar de absolutamente todo para ver si algo resistía, y encontró un único punto firme: mientras dudo, hay alguien dudando.",
+  "nivel_2_desarrollo": "Descartes lleva la duda hasta el extremo de forma deliberada y metódica. Primero descarta los sentidos, que a veces engañan; después la percepción entera, porque nada distingue con certeza la vigilia del sueño; y finalmente incluso las matemáticas, imaginando un genio maligno capaz de hacerle equivocarse en cada suma. En ese punto queda una sola cosa: aunque todo sea falso, para ser engañado tengo que existir. 'Pienso, luego existo' no es un razonamiento sobre el mundo, sino la certeza mínima desde la que reconstruirlo. A partir de ahí concluye que lo que somos esencialmente es una cosa que piensa, distinta del cuerpo extenso. Esa separación abre el problema que arrastramos desde entonces: si mente y cuerpo son sustancias distintas, cómo es posible que interactúen.",
+  "nivel_3_experto": "El cogito plantea un problema estructural clásico: si es una inferencia, necesita una premisa universal que la duda ya habría suspendido; si es una intuición inmediata, hay que explicar qué autoriza a pasar del pensamiento a un sujeto sustancial —objeción que formularán Lichtenberg, Hume y luego Nietzsche—. La reconstrucción del conocimiento depende además de la veracidad divina, lo que expone a Descartes al 'círculo cartesiano' denunciado ya por Arnauld: las ideas claras y distintas garantizan la existencia de Dios y Dios garantiza las ideas claras y distintas. Su dualismo de sustancias recibió su objeción más aguda de Isabel de Bohemia, que le preguntó cómo algo inextenso puede mover un cuerpo; la respuesta de la glándula pineal se considera inadecuada por consenso amplio. El programa cartesiano tiene, además, una lectura histórica en curso: su fisiología mecanicista, su tesis de los animales como autómatas y su matematización de la naturaleza fueron tan influyentes como la metafísica. Buena parte de la filosofía de la mente del siglo XX se define por oposición explícita a su marco, desde Ryle hasta el funcionalismo.",
+  "debate_abierto": "El estatuto lógico del cogito y la acusación de circularidad siguen generando literatura; la 'interacción' mente-cuerpo se considera un problema no resuelto por el dualismo, no una tesis vigente.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — René Descartes",
+      "url": "https://plato.stanford.edu/entries/descartes/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Descartes' Epistemology",
+      "url": "https://plato.stanford.edu/entries/descartes-epistemology/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — René Descartes",
+      "url": "https://iep.utm.edu/rene-descartes/"
+    }
+  ]
+}

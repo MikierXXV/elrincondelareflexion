@@ -1,0 +1,82 @@
+{
+  "id": "voluntad-de-sentido",
+  "corriente_id": "psicologia-siglo-xx",
+  "titulo": "The will to meaning",
+  "orden": 5,
+  "autores": [
+    {
+      "id": "frankl",
+      "rol": "principal",
+      "aporte": "Places the search for meaning as the fundamental drive, and tests it under extreme conditions."
+    },
+    {
+      "id": "nietzsche",
+      "rol": "convergente",
+      "aporte": "The line about the why and the how, which Frankl makes the axis of his therapy, is his."
+    }
+  ],
+  "pregunta": "Can there be meaning in a suffering that cannot be avoided?",
+  "cita": {
+    "texto": "Everything can be taken from a person but the choice of their attitude.",
+    "obra": "Man's Search for Meaning, 1946",
+    "autor_id": "frankl",
+    "atribucion": "directa",
+    "nota": "By contrast, the famous line about 'the space between stimulus and response' attributed to him appears in none of his works: researchers have failed to locate it."
+  },
+  "resumen": "Frankl argues that the fundamental drive is neither pleasure nor power but finding a meaning. And that between what happens to us and how we respond there is always a margin, however narrow.",
+  "desarrollo": "He had developed his ideas before deportation, and his experience in the camps — where he lost his wife, his parents and his brother — tested them in the worst scenario imaginable. His observation was that, among equally atrocious conditions, those who kept an unfinished task, a bond or a reason for the next day held out differently. Hence his logotherapy, which inverts the usual question: not what one expects from life, but what life expects from one in each concrete situation. And he distinguishes three routes to meaning: what one creates or accomplishes, what one loves or encounters, and the attitude one takes towards a suffering that cannot be avoided. It is the explicit bridge between existentialism and the clinic: it takes up the question of meaning without guarantees and gives it a different answer from Sartre's.",
+  "ejemplo_real": "Someone caring for a relative with a long illness. They cannot change the diagnosis, or the prognosis, or the exhaustion. And yet there is an enormous difference between living those months as time lost and living them as something you are doing for someone. The facts are the same; what changes is the only thing that was still available.",
+  "matiz_experto": "Generalising clinically from his testimony has an obvious survivorship-bias problem, which he himself flagged in rejecting readings that blamed the victims. The construct of meaning in life has since been operationalised in positive psychology, with instruments and evidence of its own.",
+  "visualizacion": {
+    "id": "vis-sentido-frankl",
+    "idea_id": "voluntad-de-sentido",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "An irreversible situation advances without the user being able to alter it: the controls over the facts appear disabled and the interface explains why. The only thing active is a narrow margin between what happens and what is answered, where they can indeed choose. The meter records no effect on the facts, which do not change, but on the agent.",
+    "invitacion": "Look for what you can still change",
+    "alternativa_textual": "An irreversible situation with every control over the facts disabled apart from a margin of response, whose effect is measured on the agent rather than on events: it shows where Frankl locates the freedom that remains when no other is left.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "margen",
+    "parametros": {
+      "corrienteId": "psicologia-siglo-xx",
+      "situacion": "Caring for someone with a long illness",
+      "bloqueados": [
+        {
+          "nombre": "Change the diagnosis",
+          "porque": "It is not in your hands, and pretending it is only adds guilt."
+        },
+        {
+          "nombre": "Change the prognosis",
+          "porque": "Not that either. The facts here are irreversible."
+        },
+        {
+          "nombre": "Take away your exhaustion",
+          "porque": "The tiredness is real and is not chosen."
+        }
+      ],
+      "margen": "the attitude you live it with",
+      "opciones": [
+        {
+          "texto": "Live it as time lost",
+          "efecto": "The months are the same. What changes is what you become during them."
+        },
+        {
+          "texto": "Live it as something you are doing for someone",
+          "efecto": "It alters not a single fact either, and yet the difference is enormous."
+        }
+      ],
+      "resolucion": "Between what happens and how you respond there is a margin, however narrow. Everything can be taken from a person but the choice of their attitude.",
+      "alternativaTexto": "An irreversible situation with every control over the facts disabled apart from a margin of response, whose effect is measured on the agent rather than on events: it shows where Frankl locates the freedom that remains when no other is left.",
+      "etiqueta": "The will to meaning"
+    }
+  },
+  "ideas_relacionadas": [
+    "eterno-retorno",
+    "angustia-y-libertad",
+    "dicotomia-del-control",
+    "aceptacion-y-cambio"
+  ]
+}

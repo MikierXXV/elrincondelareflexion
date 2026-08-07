@@ -1,0 +1,62 @@
+{
+  "id": "critica-de-la-causalidad",
+  "corriente_id": "filosofia-islamica",
+  "titulo": "The critique of causation",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "al-ghazali",
+      "rol": "principal",
+      "aporte": "Shows in the eleventh century that the necessary connection between cause and effect is not observed."
+    },
+    {
+      "id": "averroes",
+      "rol": "contrapunto",
+      "aporte": "Replies that denying natural causation destroys any possibility of knowledge."
+    }
+  ],
+  "pregunta": "If fire always burns cotton, is it because it has to?",
+  "cita": {
+    "texto": "The connection between what we call cause and effect is not necessary.",
+    "obra": "The Incoherence of the Philosophers, discussion 17",
+    "autor_id": "al-ghazali",
+    "atribucion": "directa"
+  },
+  "resumen": "We see cotton burn when fire is brought near it, but it does not follow that fire necessarily produces combustion. What is observed is a constant succession, not a necessary link.",
+  "desarrollo": "Al-Ghazali was a first-rank jurist and theologian who studied the philosophers thoroughly before criticising them, and his exposition of other people's doctrines is so accurate that it was used as a textbook. His central objection is not that philosophy is false but that it overreaches: it presents as demonstrated what is merely constant. And his example is exact: however long you look at the moment the cotton catches, you will find contiguity and succession, never necessity. If the order of the world is a stable habit established by divine will rather than an internal necessity of things, then a miracle stops being a logical contradiction. Averroes answered him point by point with the argument that remains the best reply: if fire does not burn by its own nature, then things have no natures, and without natures no science of anything is possible.",
+  "ejemplo_real": "It is the difference between knowing that a lift has always worked and knowing why it works. The first is a track record; the second is a mechanism. Almost everything we take for granted day to day is in the first category, and we only notice on the day the sequence breaks and we discover we never knew what was holding it up.",
+  "matiz_experto": "The parallel with Hume is real in the analysis and divergent in the conclusion: where Hume derives a sceptical naturalism about human habit, al-Ghazali grounds regularity in divine will. The extent of his occasionalism is also debated, as is the now-revised thesis that he caused the decline of Islamic philosophy.",
+  "visualizacion": {
+    "id": "vis-causalidad-ghazali",
+    "idea_id": "critica-de-la-causalidad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user brings fire near cotton as many times as they like and it always burns. On pressing 'find the necessity', the scene magnifies to maximum detail and shows only two contiguous events, with no visible link. An alternative mode lets them break the habit once and confirm that nothing in what was observed logically prevented it, only custom.",
+    "invitacion": "Burn the cotton again and look for the necessity",
+    "alternativa_textual": "A repeated combustion whose maximum detail contains no observable link, and which can be altered once without logical contradiction: it shows that observed regularity does not establish a necessary connection.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "repeticion",
+    "parametros": {
+      "corrienteId": "filosofia-islamica",
+      "accion": "Bring the fire near the cotton",
+      "consecuencia": "The cotton burns",
+      "examinar": "Look for the necessity",
+      "hallazgo": "Two contiguous events. Nothing compelling.",
+      "resolucion": "What is observed is a constant succession, not a necessary link. Nothing in what you have seen logically prevented it being otherwise.",
+      "alternativaTexto": "A repeated combustion whose maximum detail contains no observable link, and which can be altered once without logical contradiction: it shows that observed regularity does not establish a necessary connection.",
+      "sinOcurrir": "It has not happened yet",
+      "recuentoUno": "It has happened {veces} time · expectation {expectativa}%",
+      "recuentoVarios": "It has happened {veces} times · expectation {expectativa}%",
+      "etiqueta": "The critique of causation"
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "dos-niveles-de-lectura",
+    "razon-y-fe",
+    "razon-suficiente"
+  ]
+}

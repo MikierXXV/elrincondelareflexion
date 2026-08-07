@@ -1,0 +1,77 @@
+{
+  "id": "contrato-y-voluntad-general",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "Contrato social y voluntad general",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "rousseau",
+      "rol": "principal",
+      "aporte": "Busca una forma de asociación en la que obedecer la ley sea obedecerse a uno mismo."
+    }
+  ],
+  "pregunta": "¿Cómo obedecer a otros sin dejar de ser libre?",
+  "cita": {
+    "texto": "El ser humano nace libre, y en todas partes está encadenado.",
+    "obra": "El contrato social I, 1",
+    "autor_id": "rousseau",
+    "atribucion": "directa"
+  },
+  "resumen": "Si las leyes las damos todos y se aplican a todos por igual, obedecerlas es obedecerse a uno mismo. La voluntad general no es lo que quiere la mayoría, sino lo que queda al descontar los intereses particulares.",
+  "desarrollo": "Rousseau parte de un diagnóstico incómodo entre ilustrados: la civilización no nos ha hecho mejores. Al vivir en sociedad empezamos a existir a través de la mirada ajena, aparecen la comparación y el prestigio, y con la propiedad se consolida la desigualdad. Su problema es entonces cómo asociarse sin perder la libertad, y su respuesta distingue dos cosas que solemos confundir. La voluntad de todos es la suma de lo que cada uno quiere para sí, incluidos sus intereses privados enfrentados. La voluntad general es lo que queda cuando esos intereses particulares se cancelan entre sí: aquello que se quiere en tanto que miembro del cuerpo común. Por eso desconfía de las facciones, que impiden esa cancelación. Y añade que la libertad no es hacer lo que apetece, sino darse a uno mismo la propia norma.",
+  "ejemplo_real": "Una comunidad de vecinos decidiendo el horario de obras. Si cada uno vota lo que le conviene según su piso y su turno de trabajo, sale un resultado que nadie defendería en voz alta. Si cada uno se pregunta qué horario sería razonable sin saber en qué piso vive, suele salir algo muy parecido y bastante mejor. Ese cambio de pregunta es la voluntad general.",
+  "matiz_experto": "La fórmula de que a quien se resista se le 'forzará a ser libre' ha sostenido lecturas totalitarias, frente a lecturas republicanas que la entienden como autolegislación. Es una de las controversias interpretativas más persistentes de la filosofía política.",
+  "visualizacion": {
+    "id": "vis-voluntad-general-rousseau",
+    "idea_id": "contrato-y-voluntad-general",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "La misma votación se cuenta de dos maneras a la vez. Mientras cada votante se desvía por su cuenta, las desviaciones se cancelan y los dos recuentos dan la misma dirección, superpuestos. Al organizar una facción las desviaciones dejan de cancelarse, la suma se ladea y los recuentos se separan un ángulo que se puede leer.",
+    "invitacion": "Organiza facciones y mira separarse los dos recuentos",
+    "alternativa_textual": "Dos recuentos simultáneos de una misma votación, uno que suma preferencias particulares y otro que las cancela entre sí, y que divergen al aparecer facciones organizadas: demuestra la diferencia entre la voluntad de todos y la voluntad general.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-recuentos",
+    "parametros": {
+      "corrienteId": "ilustracion-idealismo",
+      "votacion": "Qué conviene a la comunidad entera",
+      "recuentos": [
+        "La voluntad de todos",
+        "La voluntad general"
+      ],
+      "maniobras": [
+        {
+          "nombre": "Un gremio se pone de acuerdo",
+          "votantes": 5,
+          "sesgo": 0.55,
+          "efecto": "Cinco votantes dejan de desviarse cada uno por su lado. Lo que antes se cancelaba, ahora se suma."
+        },
+        {
+          "nombre": "La facción crece",
+          "votantes": 9,
+          "sesgo": 0.7,
+          "efecto": "La suma se aleja más. Nadie ha votado de mala fe: cada uno vota lo que le conviene."
+        },
+        {
+          "nombre": "Una sola facción domina",
+          "votantes": 13,
+          "sesgo": 0.8,
+          "efecto": "La suma es casi la de la facción. El recuento sigue siendo legítimo y el resultado ya no es de nadie más."
+        }
+      ],
+      "disolver": "Deshacer las facciones",
+      "separacion": "Separación entre los dos recuentos: {grados}°",
+      "resolucion": "La diferencia no está en cuántos votan ni en su honradez: está en si las desviaciones particulares se cancelan. Cuando se organizan, sumar preferencias deja de dar lo que conviene a todos.",
+      "alternativaTexto": "Dos recuentos simultáneos de una misma votación, uno que suma preferencias particulares y otro que las cancela entre sí, y que divergen al aparecer facciones organizadas: demuestra la diferencia entre la voluntad de todos y la voluntad general.",
+      "etiqueta": "Contrato social y voluntad general"
+    }
+  },
+  "ideas_relacionadas": [
+    "animal-politico",
+    "velo-de-la-ignorancia",
+    "principio-del-dano",
+    "ideologia"
+  ]
+}

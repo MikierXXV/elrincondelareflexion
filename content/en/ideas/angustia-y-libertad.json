@@ -1,0 +1,76 @@
+{
+  "id": "angustia-y-libertad",
+  "corriente_id": "existencialismo",
+  "titulo": "Anxiety as the dizziness of freedom",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "kierkegaard",
+      "rol": "principal",
+      "aporte": "Distinguishes anxiety from fear: it has no object, and it is the awareness of being able to do anything at all."
+    }
+  ],
+  "pregunta": "What are you afraid of when you are not afraid of anything in particular?",
+  "cita": {
+    "texto": "Life can only be understood backwards, but it must be lived forwards.",
+    "obra": "Journals, 1843",
+    "autor_id": "kierkegaard",
+    "atribucion": "directa"
+  },
+  "resumen": "Fear has an object; anxiety does not. It is the dizziness produced by noticing that we are capable of anything and that nothing obliges us to choose one thing in particular.",
+  "desarrollo": "Kierkegaard writes against the great systems with a simple argument: however complete a system may be, I still have to choose, and nobody makes that choice for me. Hence his analysis of anxiety, which he carefully separates from fear. Fear is of something concrete: a dog, an illness, an exam. Anxiety, by contrast, has no object, and so it cannot be resolved by avoiding anything. His image is the edge of a precipice: what produces the vertigo is not the possibility of falling but the discovery that one could jump, that nothing prevents it. Anxiety is then the way freedom makes itself felt. It is not a psychological fault to be removed, but the signal that there is a decision that is yours and that you are going to answer for.",
+  "ejemplo_real": "Sunday afternoon for someone who has just left a job and has months ahead with no obligations. There is no threat and yet it is hard to breathe. It is the exact opposite of being overwhelmed by lack of time: it is the vertigo of no hour being decided and of whatever comes of it being entirely your responsibility.",
+  "matiz_experto": "He published under pseudonyms with autonomous voices and asked not to be quoted as responsible for them, so attributing theses to him directly requires care. His 'teleological suspension of the ethical' also carries the objection of opening the door to irrationalism.",
+  "visualizacion": {
+    "id": "vis-angustia-kierkegaard",
+    "idea_id": "angustia-y-libertad",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "A figure at the edge of a precipice. The user finds that nothing pushes it or holds it back and that the interface marks no option as correct and offers no advice. The indicator does not measure 'fear of falling' but 'awareness of being able to', and it rises the longer the user goes without deciding, rather than falling.",
+    "invitacion": "Look for something that decides for you",
+    "alternativa_textual": "A figure facing a decision with no indication of which is the right one, whose anxiety indicator grows with time spent undecided instead of dropping: it shows that anxiety comes from freedom and not from a threat.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "margen",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "situacion": "Months ahead with no obligations at all",
+      "bloqueados": [
+        {
+          "nombre": "Someone deciding for you",
+          "porque": "There is no authority to decide in your place. That is precisely the problem."
+        },
+        {
+          "nombre": "Something forcing your hand",
+          "porque": "Nothing pushes you or holds you back: that is why it is not fear, which always has an object."
+        },
+        {
+          "nombre": "Knowing whether you will get it right",
+          "porque": "Anxiety is not resolved with information: it is not uncertainty about a fact."
+        }
+      ],
+      "margen": "what you decide to do with them",
+      "opciones": [
+        {
+          "texto": "Choose something",
+          "efecto": "Choosing does not dispel the vertigo: responsibility appears, which is a different thing."
+        },
+        {
+          "texto": "Not choose yet",
+          "efecto": "Abstaining is also choosing, and the awareness of being able to do anything keeps rising."
+        }
+      ],
+      "resolucion": "Anxiety is not a psychological fault to be removed: it is how freedom makes itself felt. The vertigo is not the possibility of falling, but discovering that you could jump.",
+      "alternativaTexto": "A figure facing a decision with no indication of which is the right one, whose anxiety indicator grows with time spent undecided instead of dropping: it shows that anxiety comes from freedom and not from a threat.",
+      "etiqueta": "Anxiety as the dizziness of freedom"
+    }
+  },
+  "ideas_relacionadas": [
+    "mala-fe",
+    "eterno-retorno",
+    "voluntad-de-sentido",
+    "libertad-como-comprension"
+  ]
+}

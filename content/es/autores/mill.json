@@ -1,0 +1,24 @@
+{
+  "id": "mill",
+  "nombre": "John Stuart Mill",
+  "corriente_id": "utilitarismo",
+  "periodo": "1806–1873",
+  "region": "Londres",
+  "preguntas_filosoficas": ["¿Todos los placeres valen lo mismo?", "¿Cuándo puede una sociedad interferir en la vida de alguien?", "¿Protege la mayoría o amenaza a la libertad?"],
+  "citas": [
+    {
+      "texto": "Es mejor ser un Sócrates insatisfecho que un necio satisfecho.",
+      "obra": "El utilitarismo, 1863",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Corrigió el utilitarismo introduciendo que hay placeres superiores a otros, y formuló el límite clásico del poder sobre el individuo: solo cabe interferir para evitar daño a terceros.",
+  "nivel_2_desarrollo": "Mill fue educado por su padre en el utilitarismo de Bentham desde los tres años, y a los veinte sufrió una crisis que le hizo dudar de que una vida guiada por ese cálculo pudiera ser deseable. Su corrección fue distinguir entre cantidad y calidad: no todos los placeres son equivalentes, y quien ha experimentado los que exigen cultivo —comprender, crear, sentir— no los cambiaría por otros más fáciles. Su criterio es empírico: preguntar a quienes conocen ambos. En política formuló el principio del daño: el único motivo legítimo para limitar la libertad de alguien contra su voluntad es impedir un perjuicio a otros; su propio bien no basta. Y advirtió de un peligro que la democracia no resuelve por sí sola, la tiranía de la mayoría, que oprime por presión social sin necesidad de leyes. Defendió además la igualdad de las mujeres cuando era una posición marginal.",
+  "nivel_3_experto": "La distinción cualitativa entre placeres se considera el punto más frágil de su sistema: sus críticos objetan que, al introducir un criterio de calidad, abandona el hedonismo y necesita un patrón de valor externo al placer, lo que rompería la unidad del principio de utilidad. Su llamada 'prueba' de la utilidad en el capítulo IV recibió de Moore la acusación de falacia naturalista, por pasar de que algo sea deseado a que sea deseable; la crítica es hoy discutida y varios comentaristas sostienen que Moore leyó mal el argumento. Se debate también si Mill es un utilitarista de actos o de reglas, cuestión sobre la que el texto admite ambas lecturas. Sobre la libertad ha generado una literatura enorme: el alcance del principio del daño frente al paternalismo, qué cuenta como daño y si la ofensa lo es, y la tensión entre su defensa de la libertad y sus posiciones sobre las sociedades que él consideraba no preparadas para ella, ligadas a su empleo de treinta y cinco años en la Compañía de las Indias Orientales, hoy objeto de crítica poscolonial seria. El sometimiento de las mujeres, escrito con Harriet Taylor, sigue siendo referencia del feminismo liberal, y el peso real de la autoría de Taylor es objeto de reevaluación.",
+  "debate_abierto": "Si la distinción entre placeres superiores es compatible con el hedonismo, y la tensión entre su liberalismo y sus posiciones coloniales, son debates plenamente activos.",
+  "fuentes": [
+    {"titulo": "Stanford Encyclopedia of Philosophy — John Stuart Mill", "url": "https://plato.stanford.edu/entries/mill/"},
+    {"titulo": "Stanford Encyclopedia of Philosophy — Mill's Moral and Political Philosophy", "url": "https://plato.stanford.edu/entries/mill-moral-political/"},
+    {"titulo": "Internet Encyclopedia of Philosophy — John Stuart Mill", "url": "https://iep.utm.edu/milljs/"}
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "buda",
+  "nombre": "Siddhartha Gautama (el Buda)",
+  "corriente_id": "filosofia-india",
+  "periodo": "c. 480–400 a.C. (datación discutida)",
+  "region": "Llanura del Ganges",
+  "preguntas_filosoficas": [
+    "¿Cuál es la causa del sufrimiento?",
+    "¿Hay un yo permanente o solo procesos encadenados?"
+  ],
+  "citas": [
+    {
+      "texto": "Todo lo compuesto es impermanente.",
+      "obra": "Dhammapada, 277",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Diagnosticó el sufrimiento como un problema con causa y por tanto con solución, y negó que exista un yo fijo detrás de la experiencia: lo que hay son procesos que se sostienen unos a otros.",
+  "nivel_2_desarrollo": "Su planteamiento tiene forma médica: hay una dolencia, una causa, la posibilidad de cesación y un tratamiento. La dolencia es dukkha, la insatisfacción estructural de una existencia en la que nada se mantiene; la causa es la sed o apego, el aferrarse a lo que por naturaleza cambia. De ahí sus tres características de la existencia: todo es impermanente, todo lo condicionado resulta insatisfactorio y nada tiene un yo propio y separado. Esa última tesis, anatman, es la más filosófica: al examinar la experiencia solo aparecen sensaciones, percepciones, disposiciones y conciencia cambiando sin cesar, sin un propietario detrás. El 'yo' sería un nombre para un proceso, como 'carro' lo es para un conjunto de piezas. El tratamiento es una vía práctica que combina conducta ética, disciplina mental y comprensión, y evita tanto la indulgencia como la mortificación.",
+  "nivel_3_experto": "Nada de lo que se le atribuye está escrito por él: el canon pali se fijó por escrito siglos después de su muerte, tras transmisión oral, y la investigación distingue capas de composición y añadidos escolásticos, de modo que la reconstrucción de un 'Buda histórico' es una tarea filológica con márgenes amplios; incluso sus fechas se han revisado a la baja respecto a la cronología tradicional. Filosóficamente, la tesis de no-yo genera un problema explícito ya en la tradición: cómo hay renacimiento y responsabilidad kármica sin un sujeto que persista, lo que motivó la doctrina del origen dependiente y, más tarde, las discusiones abhidhármicas sobre la existencia momentánea de los dharmas y la respuesta pudgalavada, que postulaba una persona no idéntica ni distinta de los agregados. Su negativa a responder ciertas preguntas metafísicas —si el mundo es eterno, si el liberado existe tras la muerte— se ha interpretado como pragmatismo terapéutico, como escepticismo o como una crítica de las presuposiciones de la pregunta misma. La filosofía analítica de la mente ha tomado en serio anatman, especialmente a partir del trabajo de Parfit sobre identidad personal.",
+  "debate_abierto": "Qué puede atribuirse al Buda histórico, y cómo compatibilizar el no-yo con la continuidad kármica, son problemas discutidos dentro y fuera de la tradición.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — The Buddha",
+      "url": "https://plato.stanford.edu/entries/buddha/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Mind in Indian Buddhist Philosophy",
+      "url": "https://plato.stanford.edu/entries/mind-indian-buddhism/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Buddha",
+      "url": "https://iep.utm.edu/buddha/"
+    }
+  ]
+}

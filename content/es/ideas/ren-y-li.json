@@ -1,0 +1,77 @@
+{
+  "id": "ren-y-li",
+  "corriente_id": "filosofia-china",
+  "titulo": "Ren y li: el cultivo de sí",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "confucio",
+      "rol": "principal",
+      "aporte": "Sitúa la vida moral en el cultivo del carácter dentro de relaciones concretas, no en el cumplimiento de normas."
+    }
+  ],
+  "pregunta": "¿Se llega a ser buena persona por dentro o practicando por fuera?",
+  "cita": {
+    "texto": "No impongas a otro lo que no desearías para ti.",
+    "obra": "Analectas XV, 24",
+    "autor_id": "confucio",
+    "atribucion": "directa"
+  },
+  "resumen": "Dos nociones enlazadas: ren, la disposición humana hacia los demás, y li, las formas y ritos que le dan expresión. Las formas no adornan el sentimiento: lo educan.",
+  "desarrollo": "Confucio vivió en una época de guerra entre reinos y concluyó que el desorden público empieza en el desorden de las relaciones personales. Su respuesta no es un código de normas sino un programa de formación del carácter dentro de vínculos concretos: hijo, hermano, amigo, gobernante. El ren se suele traducir como benevolencia o humanidad, y el li abarca ritos, cortesías y maneras. Lo interesante es la relación entre ambos: la forma no es hipocresía ni envoltorio, es la vía por la que el sentimiento se aprende. Practicar el gesto adecuado durante años va modelando la disposición, igual que se aprende un oficio. De ahí su figura del junzi, la persona ejemplar, definida por su conducta y no por su nacimiento, lo que en su contexto era una afirmación de peso: la excelencia se cultiva, no se hereda.",
+  "ejemplo_real": "Dar los buenos días a alguien con quien no te apetece hablar. Al principio es pura forma y lo sabes. Al cabo de meses de hacerlo, la relación ha cambiado de verdad, y no porque hayas decidido apreciar a esa persona: la práctica llegó antes que el sentimiento y acabó produciéndolo. Eso es exactamente lo que sostiene el li.",
+  "matiz_experto": "Traducir ren y li es un problema filosófico, no solo lingüístico: 'benevolencia' o 'ritual' arrastran connotaciones cristianas o kantianas ajenas al texto, y buena parte de la sinología prefiere dejarlos sin traducir. Las Analectas son además una compilación estratificada formada durante generaciones.",
+  "visualizacion": {
+    "id": "vis-cultivo-confucio",
+    "idea_id": "ren-y-li",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario repite los gestos de la cadena, que puede recorrer en ciclo, y un medidor de carácter sube con cada uno. Si deja de practicar, el medidor baja solo, sin que ningún botón lo pida: la disposición no se pierde por una decisión sino por desuso, y volver a practicar la recupera.",
+    "invitacion": "Repite el gesto y vigila el medidor",
+    "alternativa_textual": "Una red de vínculos en la que solo se puede actuar mediante gestos repetidos y en la que el carácter cambia por acumulación y revierte al dejar de practicar: demuestra que la disposición moral se educa mediante la forma y no al revés.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "cadena",
+    "parametros": {
+      "corrienteId": "filosofia-china",
+      "pasos": [
+        {
+          "nombre": "Lunes",
+          "aislado": "Das los buenos días a alguien con quien no te apetece hablar. Pura forma, y lo sabes."
+        },
+        {
+          "nombre": "Semana 4",
+          "aislado": "Sigue siendo un gesto vacío, pero ya no te cuesta."
+        },
+        {
+          "nombre": "Mes 3",
+          "aislado": "Preguntas algo más que el saludo. No lo has decidido: ha salido."
+        },
+        {
+          "nombre": "Mes 8",
+          "aislado": "Te importa cómo le va. Nadie te lo ha pedido."
+        }
+      ],
+      "verConjunto": "Mirar los ocho meses juntos",
+      "conjunto": "La práctica llegó antes que el sentimiento, y acabó produciéndolo.",
+      "resolucion": "El li no adorna al ren: lo educa. Practicar el gesto correcto va modelando la disposición, igual que se aprende un oficio. Por eso la excelencia se cultiva y no se hereda.",
+      "alternativaTexto": "Una red de vínculos en la que solo se puede actuar mediante gestos repetidos y en la que el carácter cambia por acumulación y revierte al dejar de practicar: demuestra que la disposición moral se educa mediante la forma y no al revés.",
+      "siguiente": "Siguiente paso",
+      "verConjuntoBloqueado": "Mirar los ocho meses juntos (recorre los {n} pasos)",
+      "caracter": {
+        "rotulo": "Carácter",
+        "avisoAlto": "La disposición se ha formado. No la decidiste: la fuiste haciendo.",
+        "avisoCaido": "Has dejado de practicar y ha bajado sola. No se pierde por decisión, se pierde por desuso."
+      },
+      "etiqueta": "Ren y li: el cultivo de sí"
+    }
+  },
+  "ideas_relacionadas": [
+    "termino-medio",
+    "wu-wei",
+    "animal-politico",
+    "imperativo-categorico"
+  ]
+}

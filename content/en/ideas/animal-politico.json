@@ -1,0 +1,71 @@
+{
+  "id": "animal-politico",
+  "corriente_id": "clasica-griega",
+  "titulo": "The political animal",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "aristoteles",
+      "rol": "principal",
+      "aporte": "Argues that life in a community is not an addition to human nature but its condition."
+    }
+  ],
+  "pregunta": "Can anyone become fully human in solitude?",
+  "cita": {
+    "texto": "Man is by nature a political animal.",
+    "obra": "Politics I, 1253a",
+    "autor_id": "aristoteles",
+    "atribucion": "directa"
+  },
+  "resumen": "Living in a community is not a contract we sign for protection: for Aristotle it is what we cannot develop without, starting with language and moral judgement.",
+  "desarrollo": "The thesis is best understood by what it denies. It does not say we are sociable out of convenience, nor that the city is a necessary evil for avoiding conflict. It says that the capacities we consider most properly human only develop inside a community: language, which exists to deliberate about the just and the advantageous and not merely to signal pleasure or pain; judgement about how to act, which is sharpened by arguing with others; and the virtues, which are practised in relation. That is why he writes that whoever can live outside the city is either a beast or a god, but not a human being. The political consequence is strong: the community does not exist to leave us alone but to make an accomplished life possible, and an arrangement that fails at this is failing in its function, not merely being uncomfortable.",
+  "ejemplo_real": "You see it in the negative when someone spends a long time isolated: they do not only suffer, they start to lose calibration. Judgements become extreme because nothing tests them, obsessions grow with nobody to brush against them, and even the ability to explain oneself rusts. We need people around us not just for company, but to go on thinking with some sense of proportion.",
+  "matiz_experto": "The same Politics contains the defence of natural slavery and the exclusion of women from citizenship, and not as digressions but articulated with the argument. It is one of the points where his system is hardest to recover without reconstruction.",
+  "visualizacion": {
+    "id": "vis-polis-aristoteles",
+    "idea_id": "animal-politico",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user decides how many ties a figure keeps and of what kind. Removing them does not lower a 'happiness' meter: it switches off concrete capacities, first deliberating, then qualifying a judgement, then naming precisely. Restoring a tie brings the corresponding capacity back, showing which ones depend on others and which do not.",
+    "invitacion": "Cut ties and see which capacity goes dark",
+    "alternativa_textual": "A figure that loses concrete capacities — deliberating, qualifying, naming — as its ties to others are removed: it shows that certain human faculties are not prior to life in common but a product of it.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "clasica-griega",
+      "centro": "the person",
+      "vinculos": [
+        {
+          "nombre": "deliberation",
+          "perdida": "With nobody to deliberate with, judgement stops being tested and turns extreme."
+        },
+        {
+          "nombre": "language",
+          "perdida": "Language exists to argue about the just and the advantageous; without others it is surplus."
+        },
+        {
+          "nombre": "friendship",
+          "perdida": "The virtues are practised in relation: without it there is nowhere to exercise them."
+        },
+        {
+          "nombre": "the city",
+          "perdida": "With no common frame, there is no law to give or to obey."
+        }
+      ],
+      "resolucion": "What switched off were not comforts but capacities. Whoever can live outside the city is either a beast or a god, but not a human being.",
+      "alternativaTexto": "A figure that loses concrete capacities — deliberating, qualifying, naming — as its ties to others are removed: it shows that certain human faculties are not prior to life in common but a product of it.",
+      "restituir": "Restore the relations",
+      "etiqueta": "The political animal",
+      "etiquetaNodo": "Cut the link with {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "termino-medio",
+    "contrato-y-voluntad-general",
+    "ren-y-li",
+    "dialectica-del-reconocimiento"
+  ]
+}

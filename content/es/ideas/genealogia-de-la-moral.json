@@ -1,0 +1,80 @@
+{
+  "id": "genealogia-de-la-moral",
+  "corriente_id": "existencialismo",
+  "titulo": "La genealogía de la moral",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "nietzsche",
+      "rol": "principal",
+      "aporte": "Cambia la pregunta: no qué es el bien, sino de dónde salió esa idea y a quién le convino."
+    }
+  ],
+  "pregunta": "Tus valores, ¿de dónde salieron exactamente?",
+  "cita": {
+    "texto": "No hay hechos morales, solo interpretaciones morales de los hechos.",
+    "obra": "Más allá del bien y del mal, 108",
+    "autor_id": "nietzsche",
+    "atribucion": "directa"
+  },
+  "resumen": "En vez de preguntar qué es el bien, Nietzsche pregunta de dónde vino esa idea y a quién le convenía. Su reconstrucción concluye que los valores actuales son el resultado de una inversión histórica.",
+  "desarrollo": "El método consiste en tratar los valores como cosas con historia, no como verdades eternas. Su reconstrucción distingue dos sistemas. Uno aristocrático, donde 'bueno' significaba logrado, fuerte, capaz, y se decía de uno mismo. Y otro posterior, nacido del resentimiento de quienes no podían serlo, que invierte los términos: llama bueno a lo humilde, virtuoso a lo que no puede hacer daño, y convierte la impotencia en mérito. Lo que le interesa no es si eso es agradable de oír, sino que la moral que damos por evidente tiene fecha, autores e intereses. A eso suma su diagnóstico del presente, la 'muerte de Dios': no una tesis teológica sino la constatación de que la cultura europea ha dejado de creer en aquello que sostenía sus valores, sin haber asumido las consecuencias. El riesgo que ve es el nihilismo, no la liberación automática.",
+  "ejemplo_real": "Prueba con la palabra 'ambicioso'. Puede ser un elogio o un reproche según quién la use y de quién hable, y ese cambio de signo no está en la palabra sino en la posición desde la que se dice. Lo mismo con 'conformista' o 'sacrificado'. En cuanto tiras del hilo, la etiqueta se descompone en una discusión sobre quién puede permitirse qué.",
+  "matiz_experto": "El libro 'La voluntad de poder' no fue compuesto por él: lo montó póstumamente su hermana con notas descartadas y manipulaciones documentadas que alimentaron la apropiación nazi. Aun descontando eso, sus escritos contienen material aristocrático y misógino que no desaparece señalando la falsificación.",
+  "visualizacion": {
+    "id": "vis-genealogia-nietzsche",
+    "idea_id": "genealogia-de-la-moral",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario toma un valor actual —humildad, compasión, igualdad— y tira de él hacia atrás en una línea de tiempo. La etiqueta se descompone en los conflictos e intereses de los que surgió y, en algún punto del recorrido, cambia de signo: lo que hoy elogia antes despreciaba. El usuario puede detenerse en cualquier época y ver quién usaba la palabra y contra quién.",
+    "invitacion": "Tira del valor hacia atrás y lee lo que significaba",
+    "alternativa_textual": "Un valor moral que al arrastrarse hacia atrás en el tiempo se descompone en los conflictos que lo originaron y llega a invertir su signo: demuestra que los valores tienen historia en lugar de ser verdades intemporales.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "linea-temporal",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "sujeto": "humildad",
+      "hitos": [
+        {
+          "momento": "hoy",
+          "significado": "Virtud admirable: no presumir de lo que uno vale.",
+          "signo": "positivo",
+          "nota": "Así la damos por evidente, como si siempre lo hubiera sido."
+        },
+        {
+          "momento": "s. XIX",
+          "significado": "Deber cristiano interiorizado, exigible a todos.",
+          "signo": "positivo",
+          "nota": "Sigue siendo un valor, pero ya se ve que alguien lo impuso y a quién."
+        },
+        {
+          "momento": "Roma tardía",
+          "significado": "Consuelo de quienes no podían aspirar a otra cosa.",
+          "signo": "neutro",
+          "nota": "Aquí empieza a verse el interés: lo que no se puede tener se convierte en mérito."
+        },
+        {
+          "momento": "Grecia arcaica",
+          "significado": "Bajeza. Lo bueno era lo logrado, lo capaz, lo fuerte.",
+          "signo": "negativo",
+          "nota": "La palabra ha cambiado de signo: lo que hoy elogia, antes despreciaba."
+        }
+      ],
+      "resolucion": "El valor tenía fecha, autores e intereses. Eso es la genealogía: no preguntar qué es el bien, sino de dónde salió y a quién le convino.",
+      "alternativaTexto": "Un valor moral que al arrastrarse hacia atrás en el tiempo se descompone en los conflictos que lo originaron y llega a invertir su signo: demuestra que los valores tienen historia en lugar de ser verdades intemporales.",
+      "atras": "Tirar hacia atrás",
+      "adelante": "Volver al presente",
+      "etiqueta": "La genealogía de la moral",
+      "etiquetaMarcador": "Momento histórico"
+    }
+  },
+  "ideas_relacionadas": [
+    "eterno-retorno",
+    "ideologia",
+    "ley-de-hume",
+    "lo-inconsciente"
+  ]
+}

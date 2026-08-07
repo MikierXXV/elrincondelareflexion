@@ -1,0 +1,62 @@
+{
+  "id": "causalidad-como-habito",
+  "corriente_id": "empirismo",
+  "titulo": "La causalidad como hábito",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "hume",
+      "rol": "principal",
+      "aporte": "Muestra que nunca observamos la conexión causal, solo sucesión repetida, y que el vínculo lo pone la costumbre."
+    },
+    {
+      "id": "al-ghazali",
+      "rol": "convergente",
+      "aporte": "Llega al mismo análisis siete siglos antes, y concluye lo contrario: la regularidad procede de la voluntad divina."
+    }
+  ],
+  "pregunta": "¿Has visto alguna vez una causa, o solo una cosa detrás de otra?",
+  "cita": {
+    "texto": "La razón es, y solo debe ser, esclava de las pasiones.",
+    "obra": "Tratado de la naturaleza humana II, 3, 3",
+    "autor_id": "hume",
+    "atribucion": "directa"
+  },
+  "resumen": "Vemos que la bola golpea y que la otra se mueve, pero no vemos el 'porque'. Lo que hay es contigüidad, sucesión y repetición; el vínculo necesario lo añade nuestra costumbre.",
+  "desarrollo": "Hume aplica su propia regla: para cada idea, ¿cuál es la impresión de la que procede? Con la causalidad no la encuentra. Por mucho que ampliemos el momento del choque, solo aparece contacto y movimiento; la necesidad no se ve por ninguna parte. Lo que ocurre es que tras muchas repeticiones la mente adquiere el hábito de esperar el segundo suceso al ver el primero, y esa expectativa se proyecta sobre el mundo como si fuera una propiedad suya. De ahí sale el problema de la inducción: confiar en que el futuro se parecerá al pasado no tiene justificación racional, porque cualquier argumento a favor ya presupone esa regularidad. Lo notable es que Al-Ghazali había hecho el mismo análisis en el siglo XI con el fuego y el algodón, sin que ninguno supiera del otro, para concluir algo muy distinto.",
+  "ejemplo_real": "Pulsas el interruptor y la luz se enciende. Lo has hecho miles de veces y esperas que ocurra. Pero lo que has observado siempre es una secuencia, nunca el vínculo: el día que no se enciende, no descubres que la causalidad falló, descubres que había un cable, un fusible y una compañía eléctrica que nunca habías visto y que también eran parte de la secuencia.",
+  "matiz_experto": "El llamado debate del 'nuevo Hume' discute si niega la existencia de conexiones causales objetivas o solo nuestra capacidad de conocerlas, lo que lo convertiría en un realista escéptico. El problema de la inducción que planteó sigue siendo un núcleo activo de la epistemología.",
+  "visualizacion": {
+    "id": "vis-causalidad-hume",
+    "idea_id": "causalidad-como-habito",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "Dos bolas chocan tantas veces como el usuario quiera, y un contador de expectativa sube con cada repetición. En cualquier momento puede pulsar 'buscar la conexión': la escena se congela y amplía al máximo el punto de contacto, donde solo hay dos sucesos contiguos y ningún vínculo visible. La expectativa está en el contador, no en la escena.",
+    "invitacion": "Repite el choque y luego busca la conexión",
+    "alternativa_textual": "Un choque repetido cuyo punto de contacto, ampliado al máximo, no contiene ninguna conexión observable, mientras un contador de expectativa sube con cada repetición: demuestra que la necesidad causal la pone el hábito y no la observación.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "repeticion",
+    "parametros": {
+      "corrienteId": "empirismo",
+      "accion": "Lanzar la bola",
+      "consecuencia": "La otra se mueve",
+      "examinar": "Ampliar el instante del choque",
+      "hallazgo": "Contacto y movimiento. Ninguna conexión.",
+      "resolucion": "Por muchas veces que ocurra, la necesidad no aparece en la escena: está en tu contador.",
+      "alternativaTexto": "Un choque repetido cuyo punto de contacto, ampliado al máximo, no contiene ninguna conexión observable, mientras un contador de expectativa sube con cada repetición: demuestra que la necesidad causal la pone el hábito y no la observación.",
+      "sinOcurrir": "Todavía no ha ocurrido ninguna vez",
+      "recuentoUno": "Ha ocurrido {veces} vez · expectativa {expectativa} %",
+      "recuentoVarios": "Ha ocurrido {veces} veces · expectativa {expectativa} %",
+      "etiqueta": "La causalidad como hábito"
+    }
+  },
+  "ideas_relacionadas": [
+    "critica-de-la-causalidad",
+    "ley-de-hume",
+    "condiciones-a-priori",
+    "condicionamiento-operante"
+  ]
+}

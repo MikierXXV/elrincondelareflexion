@@ -1,0 +1,54 @@
+{
+  "id": "flujo-y-permanencia",
+  "corriente_id": "presocraticos",
+  "titulo": "Flujo y permanencia",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "heraclito",
+      "rol": "principal",
+      "aporte": "Sostiene que lo estable es un patrón que se mantiene mientras su materia se renueva."
+    }
+  ],
+  "pregunta": "Si todo cambia sin parar, ¿qué hace que algo siga siendo lo mismo?",
+  "cita": {
+    "texto": "No es posible bañarse dos veces en el mismo río.",
+    "obra": "Formulación tradicional a partir del fragmento DK B12",
+    "autor_id": "heraclito",
+    "atribucion": "tradicional",
+    "nota": "El fragmento conservado es más matizado: habla de aguas siempre distintas fluyendo sobre los que entran en los mismos ríos. La versión célebre es una condensación posterior."
+  },
+  "resumen": "Nada permanece quieto, pero eso no significa que nada permanezca: lo que dura no es la materia de las cosas, sino el patrón que mantienen mientras se renuevan.",
+  "desarrollo": "Un río tiene nombre, orillas y un curso reconocible, y sin embargo ni una sola gota del agua que lo forma hoy estaba ahí ayer. Heráclito usa esa observación para separar dos cosas que solemos confundir: aquello de lo que algo está hecho y aquello que lo hace ser eso. Si la identidad dependiera de la materia, el río habría dejado de existir mil veces. Lo que se conserva es una forma, un ritmo, una manera de estar ocurriendo. De ahí su idea de que el conflicto entre fuerzas opuestas no es un defecto del mundo sino lo que lo sostiene: igual que la tensión contraria de la cuerda es lo que permite que el arco funcione, la estabilidad de las cosas se produce por un intercambio regulado, no por quietud. El cambio deja de ser lo que amenaza la identidad y pasa a ser su condición.",
+  "ejemplo_real": "Todas las células de tu piel se sustituyen cada pocas semanas, y buena parte de los átomos de tu cuerpo no son los que tenías hace un año. Nadie duda de que sigues siendo tú. Lo mismo pasa con una llama: parece un objeto, pero es un proceso, y solo existe mientras algo se está consumiendo dentro de ella.",
+  "matiz_experto": "La visualización presenta el flujo como algo ordenado y estable. Está en disputa si Heráclito defendía un flujo universal e indiscriminado —lectura que procede de Platón y que puede ser una caricatura— o una tesis más fina sobre la unidad de los opuestos.",
+  "visualizacion": {
+    "id": "vis-rio-heraclito",
+    "idea_id": "flujo-y-permanencia",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "El usuario marca unas cuantas partículas de agua y las sigue mientras la corriente las arrastra. Puede acelerar el tiempo y comprobar que ninguna de las marcadas queda dentro del cauce, mientras la silueta del río no ha cambiado. Dos contadores enfrentados: materia renovada 100 %, forma alterada 0 %. Si estrecha el cauce, el patrón se reorganiza solo.",
+    "invitacion": "Marca unas gotas y acelera el tiempo",
+    "alternativa_textual": "Una simulación de un río donde el agua se renueva por completo mientras la forma del cauce permanece idéntica: demuestra que la identidad de una cosa puede residir en su patrón y no en el material que la compone.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Un río cuya agua se renueva mientras su cauce permanece",
+      "marcar": "Marcar el agua que hay ahora",
+      "acelerar": "Acelerar el tiempo",
+      "ritmoNormal": "Volver al ritmo normal",
+      "resolucionMarcar": "Sigue esas gotas: son el agua que hay en el río justo ahora.",
+      "resolucionFinal": "No queda ni una gota de las que marcaste, y el río es el mismo. Lo que dura no es la materia: es el patrón que mantiene mientras se renueva.",
+      "resolucionEstatica": "El agua se renueva por completo y la forma del cauce no cambia.",
+      "alternativaTexto": "Una simulación de un río donde el agua se renueva por completo mientras la forma del cauce permanece idéntica: demuestra que la identidad de una cosa puede residir en su patrón y no en el material que la compone.",
+      "lectura": "materia renovada {renovada} %   ·   forma alterada 0 %"
+    }
+  },
+  "ideas_relacionadas": [
+    "imposibilidad-del-cambio",
+    "identidad-personal",
+    "anatman"
+  ]
+}

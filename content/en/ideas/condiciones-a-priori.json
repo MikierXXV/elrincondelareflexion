@@ -1,0 +1,68 @@
+{
+  "id": "condiciones-a-priori",
+  "corriente_id": "ilustracion-idealismo",
+  "titulo": "The a priori conditions",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "kant",
+      "rol": "principal",
+      "aporte": "Inverts the question: not how knowledge fits the world, but what the mind supplies for there to be experience at all."
+    }
+  ],
+  "pregunta": "Do we perceive the world as it is, or as we are able to perceive it?",
+  "cita": {
+    "texto": "Sapere aude: dare to use your own understanding.",
+    "obra": "An Answer to the Question: What is Enlightenment?",
+    "autor_id": "kant",
+    "atribucion": "directa"
+  },
+  "resumen": "The mind does not copy the world: it organises it. Space, time and causation are not things we find out there, but the conditions under which we can have experience of anything at all.",
+  "desarrollo": "Kant runs into a deadlock: the rationalists trusted a reason that checked nothing, and Hume had shown that experience is not enough to justify even causation. His way out is to invert the question. Instead of asking how our knowledge fits objects, he examines what objects have to satisfy for us to be able to know them. His answer is that space and time are not properties we discover but the form in which we receive any datum at all, and that categories such as cause are requirements the understanding imposes so that experience is coherent rather than chaos. From this follows what is decisive and uncomfortable: we know phenomena, things as they appear to us under those conditions, and not things in themselves. It is not a limitation we can overcome by looking harder.",
+  "ejemplo_real": "Nobody can imagine an object that is nowhere and lasts no time. You can imagine an invisible object, a gigantic one, an impossible one, but not one without space or time, because those are the conditions your imagination works in. It is like trying to take off glasses that are not on your nose but behind your eyes.",
+  "matiz_experto": "The thing in itself generates Jacobi's objection: without it you cannot enter the system, with it causation is applied beyond its legitimate range. Responses run from the 'two worlds' reading to the 'two aspects' one, today the majority view but not unanimous.",
+  "visualizacion": {
+    "id": "vis-a-priori-kant",
+    "idea_id": "condiciones-a-priori",
+    "tipo_visualizacion": "three-js",
+    "justificacion_3d": "The idea is that one looks through something, and that requires a real 'through': layers interposed between observer and scene, with effective depth. Removing one and finding that what remains is not 'the naked world' but something unrepresentable only works if there was a volume to cross first; flat, removing a layer looks like simply taking off a colour filter.",
+    "descripcion_interaccion": "A three-dimensional scene is observed through three superimposed layers: space, time and causation. The user can examine them separately and remove them. When they do, the scene does not show a purer version but stops being representable: it breaks into data that no longer form objects. Putting the layer back returns the world rather than dirtying it.",
+    "invitacion": "Remove a layer and see what is left of the scene",
+    "alternativa_textual": "A scene that can only be represented while it is observed through the layers of space, time and causation, and that on their removal does not appear purer but stops forming objects: it shows that those conditions do not distort experience, they make it possible.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "destacada",
+    "textos": {
+      "etiqueta": "A scene observed through three layers: space, time and causation",
+      "retirar": "Remove",
+      "reponer": "Restore",
+      "inicial": "You are looking at the scene through three layers. Remove one and see what is left.",
+      "resolucionFinal": "No removal showed a purer world: each one made the scene impossible to represent. They do not distort experience, they make it possible.",
+      "resolucionRespaldo": "With the conditions of space, time and causation removed, the scene does not become purer: it stops being representable.",
+      "alternativaTexto": "A scene that can only be represented while it is observed through the layers of space, time and causation, and that on their removal does not appear purer but stops forming objects: it shows that those conditions do not distort experience, they make it possible.",
+      "capas": [
+        {
+          "nombre": "space",
+          "nota": "Without space objects have nowhere to be: no placeless world appears, what appears is something that will not be ordered."
+        },
+        {
+          "nombre": "time",
+          "nota": "Without time motion does not compose: each instant stops linking to the next."
+        },
+        {
+          "nombre": "causation",
+          "nota": "Without causation nothing answers to anything: bodies pass through each other and the scene stops being a scene."
+        }
+      ]
+    }
+  },
+  "ideas_relacionadas": [
+    "causalidad-como-habito",
+    "tabula-rasa",
+    "mundo-de-las-ideas",
+    "imperativo-categorico",
+    "el-tiempo-en-el-alma"
+  ]
+}

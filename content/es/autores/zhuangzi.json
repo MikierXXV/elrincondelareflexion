@@ -1,0 +1,36 @@
+{
+  "id": "zhuangzi",
+  "nombre": "Zhuangzi",
+  "corriente_id": "filosofia-china",
+  "periodo": "c. 369–286 a.C.",
+  "region": "Estado de Song (China)",
+  "preguntas_filosoficas": [
+    "¿Hay un punto de vista privilegiado para juzgar la realidad?",
+    "¿Qué son 'grande' o 'útil' fuera de una perspectiva concreta?"
+  ],
+  "citas": [
+    {
+      "texto": "¿Soy un hombre que soñó ser mariposa, o una mariposa que sueña?",
+      "obra": "Zhuangzi, capítulo 2",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Usó historias y humor para mostrar que nuestras categorías dependen del punto de vista desde el que miramos, y que ninguna perspectiva —tampoco la humana— es la medida de todas.",
+  "nivel_2_desarrollo": "Zhuangzi no argumenta como un tratadista: cuenta anécdotas que descolocan. Sueña que es una mariposa y al despertar no sabe si es un hombre que soñó ser mariposa o una mariposa que sueña ser hombre, y la historia no busca resolverse sino aflojar la certeza sobre las fronteras de la identidad. Un pez enorme y un pajarillo se ríen mutuamente de sus vuelos porque cada uno mide el mundo con su escala. Un cocinero descuartiza un buey sin desafilar el cuchillo porque no corta contra la estructura del animal, sino a través de sus huecos: la maestría consiste en ajustarse a lo que hay. De ahí sale una libertad particular, la del que deja de imponer sus preferencias al mundo, y una desconfianza sistemática hacia el lenguaje, que fija distinciones donde la realidad no las tiene.",
+  "nivel_3_experto": "El texto se divide desde la edición de Guo Xiang en capítulos internos, externos y misceláneos; el consenso atribuye únicamente los internos a Zhuangzi o a su círculo inmediato, mientras el resto refleja escuelas posteriores con posiciones no siempre coherentes entre sí, incluidos materiales primitivistas y sincréticos. El capítulo segundo, sobre la igualación de las cosas, es el foco de la disputa interpretativa: si defiende un relativismo, un escepticismo, una forma de perspectivismo o una terapia antidogmática que no formula tesis alguna; la objeción de autorreferencia —si toda perspectiva es relativa, también lo es la suya— ha sido trabajada por Graham, Hansen, Ivanhoe y Kjellberg entre otros, con soluciones incompatibles. Un segundo eje de discusión es si su ideal de espontaneidad tiene contenido normativo o si es puramente descriptivo, y qué se sigue de él para la ética. Su influencia posterior es enorme: el budismo chan (zen) lo asimila, y en Occidente su recepción ha oscilado entre lecturas místicas y comparaciones con Pirrón, Nietzsche o el pragmatismo, todas ellas útiles pero con riesgo de proyección.",
+  "debate_abierto": "Si Zhuangzi es relativista, escéptico o antiteórico —y cómo evita la autorrefutación— es la controversia central de su interpretación.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Zhuangzi",
+      "url": "https://plato.stanford.edu/entries/zhuangzi/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Zhuangzi",
+      "url": "https://iep.utm.edu/zhuangzi-chuang-tzu-chinese-philosopher/"
+    },
+    {
+      "titulo": "Graham, Chuang-Tzu: The Inner Chapters (estudio y traducción)",
+      "url": null
+    }
+  ]
+}

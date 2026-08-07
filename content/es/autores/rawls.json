@@ -1,0 +1,36 @@
+{
+  "id": "rawls",
+  "nombre": "John Rawls",
+  "corriente_id": "etica-politica-contemporanea",
+  "periodo": "1921–2002",
+  "region": "Estados Unidos",
+  "preguntas_filosoficas": [
+    "¿Qué principios elegiríamos si no supiéramos qué lugar nos va a tocar?",
+    "¿Es compatible la desigualdad con la justicia?"
+  ],
+  "citas": [
+    {
+      "texto": "La justicia es la primera virtud de las instituciones sociales.",
+      "obra": "Teoría de la justicia, §1",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Propuso un experimento mental: diseñar las reglas de una sociedad sin saber qué posición ocuparás en ella. Lo que elegirías en esa situación es, para él, lo justo.",
+  "nivel_2_desarrollo": "Rawls parte de una intuición: nadie elige su familia, su salud ni sus talentos, así que las ventajas que vienen de ahí no están merecidas. Para eliminar el sesgo con que cada uno defiende lo que le conviene, imagina una posición original donde los participantes deciden las reglas tras un velo de ignorancia que les oculta su clase, su sexo, su religión y sus capacidades. Sostiene que en esa situación se elegirían dos principios: primero, iguales libertades básicas para todos; segundo, que las desigualdades solo se acepten si van unidas a una igualdad efectiva de oportunidades y si benefician a quienes están peor. Ese segundo criterio, el principio de diferencia, no prohíbe que unos ganen más, pero condiciona esa ganancia a que mejore la situación de los más desfavorecidos. Con ello reactivó la filosofía política normativa tras décadas de predominio del análisis conceptual.",
+  "nivel_3_experto": "La derivación de los dos principios depende de que las partes razonen con una regla maximin en condiciones de incertidumbre, y ahí se concentra la objeción técnica más citada: Harsanyi argumentó que un agente racional bajo incertidumbre elegiría maximizar la utilidad esperada, lo que llevaría a un resultado utilitarista. Nozick atacó el principio de diferencia desde el libertarismo, sosteniendo que un patrón distributivo solo puede mantenerse interfiriendo continuamente en transacciones voluntarias; los comunitaristas —Sandel, MacIntyre, Taylor— objetaron que el sujeto de la posición original es un yo desvinculado de los fines que lo constituyen; y Sen y Nussbaum desplazaron el foco de los bienes primarios a las capacidades reales de las personas. Rawls reformuló su posición en El liberalismo político, presentando la justicia como equidad no como doctrina comprehensiva sino como objeto de un consenso entrecruzado entre ciudadanos con concepciones del bien incompatibles. Su tratamiento de la justicia global en El derecho de gentes decepcionó a quienes, como Pogge y Beitz, esperaban una extensión internacional del principio de diferencia, y esa discusión sigue abierta.",
+  "debate_abierto": "La elección del maximin frente a la utilidad esperada, y la negativa de Rawls a extender el principio de diferencia al plano global, siguen siendo objeto de debate técnico.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — John Rawls",
+      "url": "https://plato.stanford.edu/entries/rawls/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Original Position",
+      "url": "https://plato.stanford.edu/entries/original-position/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — John Rawls",
+      "url": "https://iep.utm.edu/rawls/"
+    }
+  ]
+}

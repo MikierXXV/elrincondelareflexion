@@ -1,0 +1,69 @@
+{
+  "id": "las-cuatro-verdades",
+  "corriente_id": "filosofia-india",
+  "titulo": "The four truths",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "buda",
+      "rol": "principal",
+      "aporte": "Frames suffering as a problem with an identifiable cause and therefore with a solution."
+    }
+  ],
+  "pregunta": "Why does nothing you achieve quite turn out to be enough?",
+  "cita": {
+    "texto": "All compounded things are impermanent.",
+    "obra": "Dhammapada, 277",
+    "autor_id": "buda",
+    "atribucion": "directa"
+  },
+  "resumen": "The framing is medical: there is an ailment, it has a cause, it can be stopped, and there is a treatment. The ailment is structural dissatisfaction; the cause, clinging to what changes.",
+  "desarrollo": "Dukkha does not translate well as 'suffering': it includes obvious pain, but above all that background dissatisfaction that appears even when everything is going well, because nothing that sustains our well-being stays still. The cause it identifies is not desire in general but clinging: wanting the pleasant not to end and the unpleasant not to arrive, in a world where both happen equally. From this the rest follows. If the cause is clinging and not the circumstances, then something can be done, and that something consists neither in getting more nor in feeling nothing, but in changing the relation to what happens. The treatment combines ethical conduct, mental discipline and understanding, and explicitly avoids the two extremes of indulgence and mortification, both of which he tried before discarding them.",
+  "ejemplo_real": "The holiday you have been waiting months for. The first day is perfect and you are already counting how many are left. The cause of the discomfort is not the place, or the weather, or the company: it is that you are gripping something that is moving. And the same mechanism works with a relationship, with a good professional stretch, or with health.",
+  "matiz_experto": "The Pali canon was written down centuries after his death, following oral transmission, so any reconstruction of a 'historical Buddha' carries wide margins. His refusal to answer certain metaphysical questions has been read as therapeutic pragmatism and also as a critique of the questions' presuppositions.",
+  "visualizacion": {
+    "id": "vis-cuatro-verdades-buda",
+    "idea_id": "las-cuatro-verdades",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "A pleasant situation transforms on its own, whatever happens. The user can hold on to it, and while holding, a tension gauge rises. The transformation advances at exactly the same rate whether held or not: the only thing that responds to the grip is the tension, and on letting go it falls by itself.",
+    "invitacion": "Hold on to it and watch the tension",
+    "alternativa_textual": "A pleasant situation that transforms whatever the user does, with a tension meter that responds only to the force with which they try to hold it: it shows that dissatisfaction comes from clinging and not from change itself.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "aferramiento",
+    "parametros": {
+      "corrienteId": "filosofia-india",
+      "situacion": "Something that is going well right now",
+      "fases": [
+        {
+          "nombre": "It is going well, and you are enjoying it."
+        },
+        {
+          "nombre": "Still well, but no longer the same as at the start."
+        },
+        {
+          "nombre": "It has changed. Not worsened: it is something else."
+        },
+        {
+          "nombre": "It is going well again, in a way you had not foreseen."
+        }
+      ],
+      "tension": "Tension",
+      "retener": "Press and hold to keep it",
+      "avisoTension": "Tension is at its highest and the situation has transformed just the same.",
+      "avisoSoltar": "You let go. The tension fell by itself and the situation runs on, exactly as before.",
+      "resolucion": "The change did not depend on you and did no harm by itself. What hurt was the force spent holding on, and that did depend on you.",
+      "alternativaTexto": "A pleasant situation that transforms whatever the user does, with a tension meter that responds only to the force with which they try to hold it: it shows that dissatisfaction comes from clinging and not from change itself.",
+      "etiqueta": "The four truths"
+    }
+  },
+  "ideas_relacionadas": [
+    "anatman",
+    "limite-del-placer",
+    "voluntad-y-pesimismo",
+    "dicotomia-del-control"
+  ]
+}

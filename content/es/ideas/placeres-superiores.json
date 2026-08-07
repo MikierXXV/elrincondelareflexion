@@ -1,0 +1,112 @@
+{
+  "id": "placeres-superiores",
+  "corriente_id": "utilitarismo",
+  "titulo": "Placeres superiores",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "mill",
+      "rol": "principal",
+      "aporte": "Introduce que los placeres difieren en calidad, y propone como juez a quien conoce ambos."
+    },
+    {
+      "id": "bentham",
+      "rol": "contrapunto",
+      "aporte": "Su cálculo puramente cuantitativo es justo lo que Mill considera insuficiente."
+    }
+  ],
+  "pregunta": "¿Vale lo mismo cualquier forma de pasarlo bien?",
+  "cita": {
+    "texto": "Es mejor ser un Sócrates insatisfecho que un necio satisfecho.",
+    "obra": "El utilitarismo, 1863",
+    "autor_id": "mill",
+    "atribucion": "directa"
+  },
+  "resumen": "Mill corrige el cálculo: no basta la cantidad de placer, también cuenta la calidad. Y propone un criterio para decidirlo que es empírico, no dogmático: preguntar a quien conoce ambos.",
+  "desarrollo": "Mill fue educado en el utilitarismo desde los tres años y a los veinte sufrió una crisis: se dio cuenta de que, aunque consiguiera todos los objetivos de la reforma social que perseguía, no estaba seguro de que aquello le hiciera feliz. Su corrección al sistema es distinguir cantidad de calidad. Hay placeres que exigen cultivo —comprender algo difícil, crear, sentir profundamente— y otros que no. Y sostiene que quien ha experimentado ambos no cambiaría los primeros por los segundos, aunque estos den más satisfacción inmediata. Lo importante es cómo justifica el criterio: no lo impone desde arriba, sino que lo hace depender del juicio de quienes conocen las dos cosas, que es el único tribunal disponible. Su frase sobre Sócrates insatisfecho resume la apuesta: quien solo conoce un lado no está en condiciones de comparar.",
+  "ejemplo_real": "Una tarde entera de vídeos cortos frente a terminar un libro que te está costando. La primera es más placentera minuto a minuto y deja peor sabor; la segunda cuesta y deja algo. Casi nadie que haya probado las dos cosas defendería cambiar todos los libros de su vida por más tarde de scroll, y sin embargo el scroll gana casi siempre en el momento.",
+  "matiz_experto": "Es el punto más frágil de su sistema: al introducir un criterio de calidad, parece necesitar un patrón de valor externo al placer, lo que rompería la unidad del principio de utilidad. Moore le acusó además de falacia naturalista por pasar de lo deseado a lo deseable.",
+  "visualizacion": {
+    "id": "vis-placeres-mill",
+    "idea_id": "placeres-superiores",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario reparte tiempo entre actividades y ve dos curvas simultáneas: satisfacción inmediata y satisfacción recordada a la semana. Puede consultar a jueces virtuales que han probado ambas y ver qué eligen. Al intentar decidir por un juez que solo conoce una de las dos opciones, la interfaz descarta su voto y explica por qué no está en condiciones de comparar.",
+    "invitacion": "Mueve la frontera entre lo que apetece y lo que deja algo",
+    "alternativa_textual": "Una frontera desplazable entre lo que apetece ahora y lo que deja algo después, que al moverse reclasifica de golpe todas las actividades: demuestra que el criterio de Mill separa calidad de cantidad y no admite trazarse a la carta.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "eje",
+    "parametros": {
+      "corrienteId": "utilitarismo",
+      "escenarios": [
+        {
+          "nombre": "Una tarde libre",
+          "extremoBajo": "apetece ahora",
+          "extremoAlto": "deja algo después",
+          "casos": [
+            {
+              "texto": "Scroll infinito",
+              "posicion": 0.1
+            },
+            {
+              "texto": "Una serie ya vista",
+              "posicion": 0.26
+            },
+            {
+              "texto": "Cocinar con calma",
+              "posicion": 0.5
+            },
+            {
+              "texto": "Un libro difícil",
+              "posicion": 0.72
+            },
+            {
+              "texto": "Aprender un instrumento",
+              "posicion": 0.88
+            }
+          ],
+          "acierto": "Lo fácil gana minuto a minuto y deja peor sabor; lo exigente cuesta y deja algo."
+        },
+        {
+          "nombre": "Una vida entera",
+          "extremoBajo": "satisfacción constante",
+          "extremoAlto": "cultivo permanente",
+          "casos": [
+            {
+              "texto": "Comodidad sin sobresaltos",
+              "posicion": 0.16
+            },
+            {
+              "texto": "Compañía fácil",
+              "posicion": 0.34
+            },
+            {
+              "texto": "Un oficio que exige",
+              "posicion": 0.62
+            },
+            {
+              "texto": "Amistades que discuten contigo",
+              "posicion": 0.82
+            }
+          ],
+          "acierto": "Casi nadie que haya probado ambas cambiaría todos sus libros por más horas de scroll."
+        }
+      ],
+      "ladoBajo": "placer de cantidad",
+      "ladoAlto": "placer de calidad",
+      "resolucion": "El criterio no lo impone Mill desde arriba: lo decide quien conoce las dos cosas. Quien solo conoce un lado no está en condiciones de comparar.",
+      "alternativaTexto": "Una frontera desplazable entre lo que apetece ahora y lo que deja algo después, que al moverse reclasifica de golpe todas las actividades: demuestra que el criterio de Mill separa calidad de cantidad y no admite trazarse a la carta.",
+      "etiqueta": "Placeres superiores",
+      "etiquetaTirador": "Dónde sitúas la frontera"
+    }
+  },
+  "ideas_relacionadas": [
+    "calculo-de-la-felicidad",
+    "limite-del-placer",
+    "termino-medio",
+    "aceptacion-y-cambio"
+  ]
+}

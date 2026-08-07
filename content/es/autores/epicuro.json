@@ -1,0 +1,36 @@
+{
+  "id": "epicuro",
+  "nombre": "Epicuro",
+  "corriente_id": "helenismo",
+  "periodo": "341–270 a.C.",
+  "region": "Samos, Atenas",
+  "preguntas_filosoficas": [
+    "¿Qué deseos merece la pena satisfacer?",
+    "¿Es racional temer a la muerte?"
+  ],
+  "citas": [
+    {
+      "texto": "Mientras existimos, la muerte no está; cuando llega, ya no estamos.",
+      "obra": "Carta a Meneceo",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Definió el placer no como acumulación de gustos, sino como ausencia de dolor y de inquietud: se es feliz cuando se dejan de necesitar cosas que no hacen falta.",
+  "nivel_2_desarrollo": "El epicureísmo tiene mala prensa por un malentendido: no propone el exceso, sino un cálculo sobrio. Epicuro clasifica los deseos en naturales y necesarios (comer, abrigo, amistad), naturales pero no necesarios (comer bien) y vanos (fama, riqueza ilimitada), y observa que los últimos no tienen techo y por eso producen ansiedad permanente. La vida buena consiste en cubrir los primeros y desactivar los demás, alcanzando así la ataraxia. A esto añade una terapia contra los dos grandes miedos: el de los dioses, que en su física atomista no intervienen en el mundo, y el de la muerte, que según su argumento no puede dañarnos porque mientras existimos no está y cuando está ya no hay sujeto a quien dañar. La amistad ocupa en su escuela —el Jardín, abierto a mujeres y esclavos— el lugar central que otros dan a la política.",
+  "nivel_3_experto": "De su obra directa quedan tres cartas doctrinales, las Máximas capitales y fragmentos; la reconstrucción se apoya además en Lucrecio, en Diógenes Laercio y en los papiros carbonizados de Herculano, cuya lectura sigue avanzando con técnicas de imagen. Su física atomista introduce el clinamen, una desviación mínima e impredecible de los átomos que Lucrecio presenta como condición de la libertad; si Epicuro lo formuló en esos términos, y si funciona filosóficamente como fundamento de la voluntad o solo como recurso cosmológico, es objeto de discusión desde la Antigüedad. En ética se debate si su hedonismo es 'cinético' o exclusivamente 'catastemático' —placer de reposo—, lo que cambia por completo el tono de la doctrina. Su argumento contra el miedo a la muerte ha sido muy trabajado en filosofía analítica contemporánea: la objeción de la privación sostiene que la muerte sí daña al privarnos de bienes futuros, aunque no haya un momento en que el daño se experimente. El epicureísmo fue sistemáticamente caricaturizado por estoicos y luego por la tradición cristiana, y solo se rehabilitó con el redescubrimiento de Lucrecio en el Renacimiento.",
+  "debate_abierto": "El estatuto del clinamen y el tipo de hedonismo que defiende Epicuro son cuestiones interpretativas abiertas; su argumento sobre la muerte sigue siendo activamente discutido en ética analítica.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Epicurus",
+      "url": "https://plato.stanford.edu/entries/epicurus/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Epicurus",
+      "url": "https://iep.utm.edu/epicur/"
+    },
+    {
+      "titulo": "Long & Sedley, The Hellenistic Philosophers, Cambridge University Press",
+      "url": null
+    }
+  ]
+}

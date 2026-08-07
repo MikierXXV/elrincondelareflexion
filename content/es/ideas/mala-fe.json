@@ -1,0 +1,77 @@
+{
+  "id": "mala-fe",
+  "corriente_id": "existencialismo",
+  "titulo": "La mala fe",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "sartre",
+      "rol": "principal",
+      "aporte": "Describe el mecanismo por el que nos convencemos de que no teníamos alternativa."
+    }
+  ],
+  "pregunta": "¿Cuántas veces al día te dices que no tenías otra opción?",
+  "cita": {
+    "texto": "El infierno son los otros.",
+    "obra": "A puerta cerrada, 1944",
+    "autor_id": "sartre",
+    "atribucion": "directa",
+    "nota": "Él mismo aclaró que no significa que la convivencia sea un infierno, sino que lo es depender de la mirada ajena para saber quién se es."
+  },
+  "resumen": "Como no podemos dejar de elegir —ni siquiera absteniéndonos—, inventamos un mecanismo para no cargar con ello: convencernos de que nuestro papel, nuestro carácter o las circunstancias nos obligaban.",
+  "desarrollo": "La fórmula de que la existencia precede a la esencia se entiende comparándonos con un objeto fabricado: un cuchillo existe porque alguien tenía antes en la cabeza su función. Con las personas ocurre al revés: primero estamos aquí y después, con lo que hacemos, definimos lo que somos. De ahí que Sartre diga que estamos condenados a ser libres: no podemos no elegir, porque abstenerse también es elegir. Eso viene con angustia, porque nadie garantiza que la decisión sea buena, y con desamparo, porque no hay instancia superior que la avale. La mala fe es la salida de emergencia: consiste en tratarse a uno mismo como si fuera una cosa con propiedades fijas —«yo soy así», «es mi trabajo», «no tenía alternativa»— para no reconocer que en cada caso hubo una elección. Lo característico es que no es una mentira a otro, es una mentira que funciona hacia dentro.",
+  "ejemplo_real": "«Yo es que soy muy directo, no puedo evitarlo.» Es una descripción que funciona como coartada: convierte una manera de tratar a la gente en un rasgo de la naturaleza, como la altura. Y se nota que es mala fe porque la misma persona sí lo evita delante de quien le conviene.",
+  "matiz_experto": "Merleau-Ponty objetó que una libertad sin grados ignora la inercia del cuerpo y de la situación, y Simone de Beauvoir desarrolló un análisis mucho más fino de cómo la opresión limita el campo real de elección, hoy considerado conceptualmente autónomo y no derivado de Sartre.",
+  "visualizacion": {
+    "id": "vis-mala-fe-sartre",
+    "idea_id": "mala-fe",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "La figura empieza rodeada de todos sus movimientos posibles, dibujados uno a uno, y con la responsabilidad al máximo. Cada excusa que el usuario aplica cierra un tramo del contorno y, en el mismo instante, apaga los movimientos que pasaban por ahí y baja el medidor: las dos pérdidas ocurren a la vez y no se pueden separar. Retirar el molde —desde el botón o desde la propia figura— devuelve las dos juntas, que es lo que la excusa estaba comprando.",
+    "invitacion": "Pon excusas y mira cerrarse el contorno",
+    "alternativa_textual": "Excusas que al aplicarse encierran a una figura en un molde que limita sus movimientos, y que pueden retirarse recuperando a la vez las opciones y la responsabilidad: demuestra el mecanismo por el que uno se trata a sí mismo como una cosa con propiedades fijas.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "dos-figuras",
+    "parametros": {
+      "corrienteId": "existencialismo",
+      "modo": "molde",
+      "figuraA": "lo que elegiste",
+      "figuraB": "el papel tras el que te escondes",
+      "coste": "distancia con lo que hiciste",
+      "molde": {
+        "responsabilidad": "la responsabilidad que te queda",
+        "retirar": "retirar el molde",
+        "movimientos": "lo que aún puedes hacer"
+      },
+      "condiciones": [
+        {
+          "nombre": "es mi carácter",
+          "efecto": "Conviertes una manera de tratar a la gente en un rasgo de la naturaleza.",
+          "peso": 0.34
+        },
+        {
+          "nombre": "no tenía alternativa",
+          "efecto": "Abstenerse también era elegir, así que la alternativa existía.",
+          "peso": 0.33
+        },
+        {
+          "nombre": "es mi trabajo",
+          "efecto": "El papel no decide por ti: aceptarlo cada mañana es una decisión más.",
+          "peso": 0.33
+        }
+      ],
+      "resolucion": "Al retirar las excusas recuperas todas las opciones y, con ellas, toda la responsabilidad. Eso es lo que la mala fe intenta evitar.",
+      "alternativaTexto": "Excusas que al aplicarse encierran a una figura en un molde que limita sus movimientos, y que pueden retirarse recuperando a la vez las opciones y la responsabilidad: demuestra el mecanismo por el que uno se trata a sí mismo como una cosa con propiedades fijas.",
+      "etiqueta": "La mala fe"
+    }
+  },
+  "ideas_relacionadas": [
+    "angustia-y-libertad",
+    "alienacion",
+    "libertad-como-comprension",
+    "aceptacion-y-cambio"
+  ]
+}

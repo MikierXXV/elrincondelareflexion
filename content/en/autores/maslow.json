@@ -1,0 +1,37 @@
+{
+  "id": "maslow",
+  "nombre": "Abraham Maslow",
+  "corriente_id": "psicologia-siglo-xx",
+  "periodo": "1908–1970",
+  "region": "United States",
+  "preguntas_filosoficas": [
+    "Is there an objective hierarchy of human needs?",
+    "What does a person's flourishing consist in?"
+  ],
+  "dialogo_filosofico": "He takes up, in a psychological key, the Aristotelian question of human flourishing, and with it the problem of whether there can be a non-arbitrary criterion of an accomplished life.",
+  "citas": [
+    {
+      "texto": "If all you have is a hammer, everything starts to look like a nail.",
+      "obra": "The Psychology of Science, 1966",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He proposed studying not only pathology but people who function well, and ordered human needs into a hierarchy culminating in the realisation of one's own potential.",
+  "nivel_2_desarrollo": "Maslow reproached the psychology of his day for being built almost entirely on illness and on experiments with animals, leaving out what makes a life full. His best-known model orders needs by level: physiological, safety, belonging and affection, esteem, and at the top self-actualisation, understood as developing what one can become. The idea is that unmet needs at the basic levels dominate attention and behaviour, and that only when they are reasonably covered do the next ones emerge strongly. He also described peak experiences, moments of intense absorption in which a person feels fully integrated. Together with Rogers he drove humanistic psychology as an explicit alternative to psychoanalysis and behaviourism.",
+  "nivel_3_experto": "The pyramid his theory is identified with is not his: it is a later graphic representation popularised in management textbooks, and Maslow himself never drew it or defended so rigid a progression. Empirical evidence does not support the strict order of the hierarchy; Tay and Diener's cross-cultural study of data from dozens of countries found that the proposed needs are reasonably universal but that their satisfaction does not follow the postulated sequence and that some can be pursued without the previous ones being covered. He has also been criticised for the methodology with which he characterised self-actualisation: a deliberate selection of people he admired, with evident cultural and gender bias, without controls or operational criteria, which compromises generalisation. His influence has shifted to business management and popular culture, where the model is cited more than it is tested. His most defensible legacy is having opened the study of optimal functioning, a line taken up with more demanding methods by Seligman's positive psychology, itself not free of a replication crisis.",
+  "debate_abierto": "The hierarchical sequence of needs is not empirically supported and the pyramid is a later simplification; the interest of the programme he opened, by contrast, holds up.",
+  "fuentes": [
+    {
+      "titulo": "Maslow, A Theory of Human Motivation, Psychological Review 50 (1943)",
+      "url": null
+    },
+    {
+      "titulo": "Tay & Diener, Needs and Subjective Well-Being Around the World, Journal of Personality and Social Psychology (2011)",
+      "url": null
+    },
+    {
+      "titulo": "Bridgman, Cummings & Ballard, Who Built Maslow's Pyramid?, Academy of Management Learning & Education (2019)",
+      "url": null
+    }
+  ]
+}

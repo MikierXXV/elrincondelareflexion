@@ -1,0 +1,36 @@
+{
+  "id": "nagarjuna",
+  "nombre": "Nāgārjuna",
+  "corriente_id": "filosofia-india",
+  "periodo": "c. 2nd c. CE",
+  "region": "The Indian subcontinent",
+  "preguntas_filosoficas": [
+    "Does anything exist with a nature of its own, independently?",
+    "Can a position be held without defending any thesis?"
+  ],
+  "citas": [
+    {
+      "texto": "There is nothing that arises without depending on something else.",
+      "obra": "Fundamental Verses on the Middle Way, 24, 19",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "He took the Buddhist analysis to its end: nothing has an existence of its own, independently, because everything there is depends on other things to be what it is.",
+  "nivel_2_desarrollo": "Nāgārjuna works by refutation. He takes a concept we treat as solid — cause, motion, time, the self, even nirvana — and shows that if it is credited with an independent nature of its own, contradictions appear. His conclusion is emptiness: empty does not mean that nothing exists, but that nothing exists by itself, apart from its conditions and relations. An effect is neither already contained in its cause nor does it arise from nothing, so production cannot be thought in terms of self-sufficient entities. And he adds a twist that avoids nihilism: precisely because things are empty, they can change, relate and work; if they had a fixed nature, nothing would be possible. He insists that he defends no thesis of his own but draws out the consequences of other people's.",
+  "nivel_3_experto": "The interpretation of Madhyamaka is one of the most disputed grounds in comparative philosophy. The key question is what it means for Nāgārjuna to 'have no thesis': nihilist readings were discarded by classical exegesis, but the globally antirealist reading, the semantics of the two truths and Siderits's deflationary interpretation remain opposed, along with Garfield and Priest's much-debated proposal to read his conclusions as true contradictions of a dialetheist kind. The distinction between the Prasangika and Svatantrika schools, consolidated in Tibetan exegesis after Candrakirti and Bhaviveka, projects backwards categories that are probably not his. His catuskoti method — the negation of the four alternatives: that something is, is not, is both, or is neither — raises serious logical problems that have generated rival formalisations in paraconsistent logic. His relation to the Perfection of Wisdom sutras and the authenticity of several attributed works are still under philological discussion. He is a central reference in the current dialogue between Buddhist philosophy and analytic metaphysics.",
+  "debate_abierto": "Whether emptiness is a metaphysical thesis, a conceptual therapy or a paraconsistent position is an open and highly technical philosophical controversy.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Nāgārjuna",
+      "url": "https://plato.stanford.edu/entries/nagarjuna/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Madhyamaka",
+      "url": "https://plato.stanford.edu/entries/madhyamaka/"
+    },
+    {
+      "titulo": "Garfield, The Fundamental Wisdom of the Middle Way, Oxford University Press",
+      "url": null
+    }
+  ]
+}

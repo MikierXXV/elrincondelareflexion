@@ -1,0 +1,80 @@
+{
+  "id": "imposibilidad-del-cambio",
+  "corriente_id": "presocraticos",
+  "titulo": "La imposibilidad del cambio",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "parmenides",
+      "rol": "principal",
+      "aporte": "Deduce que si la nada no puede existir, el cambio y la pluralidad son imposibles."
+    }
+  ],
+  "pregunta": "¿Puede un razonamiento llevarte a negar lo que ves con tus propios ojos?",
+  "cita": {
+    "texto": "Lo que es, es ingénito e imperecedero.",
+    "obra": "Poema, fragmento DK B8",
+    "autor_id": "parmenides",
+    "atribucion": "directa"
+  },
+  "resumen": "Si la nada no puede existir ni pensarse, entonces nada puede surgir de ella ni desaparecer en ella. La conclusión es incómoda: el cambio que percibimos sería una apariencia.",
+  "desarrollo": "El argumento es una cadena corta y muy apretada. Para que algo empiece a existir tendría que venir de lo que no es; pero lo que no es no se puede ni pensar sin convertirlo en algo. Luego nada empieza a existir. Por el mismo motivo nada desaparece, nada se divide —haría falta un hueco de no-ser entre las partes— y nada se mueve, porque el movimiento exige un vacío hacia el que ir. Lo importante no es si Parménides tiene razón, sino lo que hace: es la primera vez que alguien concede más autoridad a una deducción que a la evidencia de los sentidos. A partir de ahí, decir «pero yo lo veo» deja de ser una respuesta suficiente, y quien quiera salvar el movimiento tendrá que refutar el argumento, no señalar el mundo. Toda la física griega posterior, incluido el atomismo, nace de ese aprieto.",
+  "ejemplo_real": "Es lo mismo que ocurre cuando alguien te demuestra paso a paso una conclusión que sabes que es falsa, y no encuentras el fallo. Las paradojas visuales funcionan así al revés: sabes que las dos líneas miden lo mismo porque las has medido, y aun así las sigues viendo distintas. En algún momento hay que decidir de quién te fías, si de la medida o de la mirada.",
+  "matiz_experto": "La relación entre la 'vía de la verdad' y la 'vía de la opinión' de su poema sigue sin consenso: no está claro si la cosmología de la segunda parte describe el error humano, una explicación provisional o una concesión didáctica.",
+  "visualizacion": {
+    "id": "vis-esfera-parmenides",
+    "idea_id": "imposibilidad-del-cambio",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "La cadena deductiva está a la vista desde el principio, paso a paso. El usuario elige un intento —dividir lo que es, hacerlo empezar, moverlo— y al aplicar la deducción el intento recorre la cadena y se detiene en el paso concreto que lo impide, que queda marcado mientras lo que hay más allá se apaga sin visitar. La imposibilidad se experimenta antes de leerse.",
+    "invitacion": "Intenta cambiar algo y sigue la deducción",
+    "alternativa_textual": "Una esfera que rechaza cualquier intento de dividirla, moverla o vaciarla, y que ante cada intento muestra el paso del razonamiento que lo impide: demuestra cómo una cadena deductiva puede bloquear conclusiones que la experiencia da por evidentes.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "prueba",
+    "parametros": {
+      "corrienteId": "presocraticos",
+      "peticion": "Intenta algo con lo que es",
+      "nombrePrueba": "Aplicar la deducción",
+      "aplicadaTexto": "Deducción aplicada",
+      "pasos": {
+        "lista": [
+          "La nada no se puede ni pensar",
+          "Nada empieza a existir",
+          "Nada se divide",
+          "Nada se mueve"
+        ],
+        "marca": "Aquí se detiene"
+      },
+      "candidatos": [
+        {
+          "texto": "Dividirlo en partes",
+          "sobrevive": false,
+          "bloqueaEn": 2,
+          "veredicto": "Para dividirlo haría falta un hueco; un hueco sería nada; la nada no es. Bloqueado."
+        },
+        {
+          "texto": "Hacer que empiece a existir",
+          "sobrevive": false,
+          "bloqueaEn": 1,
+          "veredicto": "Tendría que venir de lo que no es, y lo que no es no se puede ni pensar sin convertirlo en algo."
+        },
+        {
+          "texto": "Moverlo",
+          "sobrevive": false,
+          "bloqueaEn": 3,
+          "veredicto": "El movimiento exige un vacío hacia el que ir, y el vacío sería no-ser."
+        }
+      ],
+      "resolucion": "No es que Parménides convenciera a nadie: es que fue el primero en dar más autoridad a una deducción que a los sentidos. Decir «pero yo lo veo» deja de ser una respuesta.",
+      "alternativaTexto": "Una esfera que rechaza cualquier intento de dividirla, moverla o vaciarla, y que ante cada intento muestra el paso del razonamiento que lo impide: demuestra cómo una cadena deductiva puede bloquear conclusiones que la experiencia da por evidentes.",
+      "etiqueta": "La imposibilidad del cambio"
+    }
+  },
+  "ideas_relacionadas": [
+    "flujo-y-permanencia",
+    "duda-metodica"
+  ]
+}

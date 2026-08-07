@@ -1,0 +1,36 @@
+{
+  "id": "russell",
+  "nombre": "Bertrand Russell",
+  "corriente_id": "analitica",
+  "periodo": "1872–1970",
+  "region": "Reino Unido",
+  "preguntas_filosoficas": [
+    "¿Cómo puede tener sentido una frase sobre algo que no existe?",
+    "¿Puede fundarse la matemática en la lógica?"
+  ],
+  "citas": [
+    {
+      "texto": "Los necios están seguros; los sabios, llenos de dudas.",
+      "obra": "The Triumph of Stupidity, 1933",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Aplicó la lógica moderna a los problemas filosóficos y mostró que muchos enredos desaparecen al reformular con precisión lo que una frase afirma realmente.",
+  "nivel_2_desarrollo": "El caso que hizo escuela es 'el actual rey de Francia es calvo'. Como no hay tal rey, parecía que la frase debía referirse a algo inexistente para tener sentido. Russell propone leerla como la conjunción de tres afirmaciones: que existe un rey de Francia, que es único y que es calvo. Así la frase es sencillamente falsa, sin necesidad de postular entidades fantasma. Ese método —traducir el lenguaje ordinario a una forma lógica explícita— define el estilo de la filosofía analítica. Antes había intentado, con Whitehead, derivar toda la matemática de la lógica, proyecto en el que encontró la paradoja que lleva su nombre: el conjunto de todos los conjuntos que no se contienen a sí mismos se contiene si y solo si no se contiene. Fue además un divulgador incansable y un activista pacifista que llegó a ir a prisión por sus posiciones.",
+  "nivel_3_experto": "La teoría de las descripciones definidas se convirtió, en palabras de Ramsey, en el paradigma del análisis filosófico, y sigue siendo el eje del debate sobre referencia: Strawson objetó que la existencia es presupuesta y no afirmada, Donnellan distinguió usos referenciales y atributivos, y Kripke reorientó el campo con su crítica a las teorías descriptivistas del nombre propio. La paradoja de Russell obligó a Frege a reconocer la quiebra de su sistema y motivó la teoría de tipos ramificada de los Principia Mathematica, con los polémicos axiomas de reducibilidad e infinitud; el programa logicista se considera fallido en su forma original, y los teoremas de incompletitud de Gödel cerraron esa vía, aunque el neologicismo contemporáneo la ha reabierto parcialmente. Su epistemología atravesó varias fases —del realismo de los términos al atomismo lógico y luego al monismo neutral—, y su distinción entre conocimiento directo y por descripción sigue citándose. Su relación con Wittgenstein es central y termina en desacuerdo: reconoció su influencia en el atomismo lógico y rechazó abiertamente la filosofía del lenguaje ordinario del segundo Wittgenstein.",
+  "debate_abierto": "El análisis russelliano de las descripciones sigue disputándose frente a las alternativas presuposicionales y referencialistas; el logicismo original se considera refutado, con revisiones neologicistas en curso.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Bertrand Russell",
+      "url": "https://plato.stanford.edu/entries/russell/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Descriptions",
+      "url": "https://plato.stanford.edu/entries/descriptions/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Russell's Paradox",
+      "url": "https://plato.stanford.edu/entries/russell-paradox/"
+    }
+  ]
+}

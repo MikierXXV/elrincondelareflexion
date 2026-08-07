@@ -1,0 +1,36 @@
+{
+  "id": "wittgenstein",
+  "nombre": "Ludwig Wittgenstein",
+  "corriente_id": "analitica",
+  "periodo": "1889–1951",
+  "region": "Viena, Cambridge",
+  "preguntas_filosoficas": [
+    "¿De dónde sacan sentido las palabras?",
+    "¿Puede existir un lenguaje que solo yo entienda?"
+  ],
+  "citas": [
+    {
+      "texto": "De lo que no se puede hablar, hay que callar.",
+      "obra": "Tractatus logico-philosophicus, 7",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Cambió de opinión sobre su propia obra: primero pensó que el lenguaje funciona como un retrato del mundo, y después que su sentido viene del uso que le damos en la práctica.",
+  "nivel_2_desarrollo": "En su primera etapa, Wittgenstein defendió que una proposición tiene sentido porque comparte una estructura con el hecho que representa, como un plano con el terreno; lo que no puede decirse así —la ética, el sentido de la vida— quedaba fuera del lenguaje. Años después desmontó ese modelo. Su idea madura es que el significado de una palabra es su uso en un contexto de actividad compartida, lo que llama juegos de lenguaje: 'agua' no significa lo mismo en una advertencia, en una petición o en una etiqueta. Añade que muchos conceptos no tienen una definición única sino un aire de familia, como ocurre con 'juego', donde ningún rasgo aparece en todos los casos. Y argumenta que un lenguaje estrictamente privado sería imposible, porque sin un criterio público no hay diferencia entre usar una palabra bien y creer que se usa bien.",
+  "nivel_3_experto": "La relación entre el Tractatus y las Investigaciones filosóficas es uno de los grandes problemas de la exégesis: la lectura tradicional ve dos filosofías sucesivas, mientras que la 'new Wittgenstein' de Diamond y Conant propone una lectura resolutiva del primero según la cual sus proposiciones metafísicas son deliberadamente sinsentido —no verdades inefables—, tesis muy discutida. El argumento del lenguaje privado y la paradoja del seguimiento de reglas han generado una literatura enorme desde la lectura escéptica de Kripke —el 'Kripkenstein', que muchos consideran una construcción original más que una exégesis— y la respuesta comunitarista frente a la individualista de Baker y Hacker. La influencia sobre el Círculo de Viena fue decisiva pero basada, según él mismo, en un malentendido de sus intenciones, y su concepción de la filosofía como actividad terapéutica que disuelve problemas en lugar de resolverlos lo separa tanto del positivismo como de la metafísica analítica posterior. Sus últimas notas, publicadas como Sobre la certeza, reformulan el escepticismo mostrando que dudar presupone certezas prácticas que no se justifican, sino que se actúan.",
+  "debate_abierto": "La lectura resolutiva del Tractatus y la interpretación del seguimiento de reglas —individualista frente a comunitarista— son controversias plenamente abiertas.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Ludwig Wittgenstein",
+      "url": "https://plato.stanford.edu/entries/wittgenstein/"
+    },
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Private Language",
+      "url": "https://plato.stanford.edu/entries/private-language/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Ludwig Wittgenstein",
+      "url": "https://iep.utm.edu/wittgens/"
+    }
+  ]
+}

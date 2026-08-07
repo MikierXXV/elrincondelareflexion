@@ -1,0 +1,36 @@
+{
+  "id": "epicteto",
+  "nombre": "Epicteto",
+  "corriente_id": "helenismo",
+  "periodo": "c. 50–135 d.C.",
+  "region": "Frigia, Roma, Nicópolis",
+  "preguntas_filosoficas": [
+    "¿Qué está realmente en nuestro poder?",
+    "¿Puede ser libre alguien sin libertad exterior?"
+  ],
+  "citas": [
+    {
+      "texto": "No nos perturban las cosas, sino las opiniones sobre las cosas.",
+      "obra": "Enquiridión, 5",
+      "atribucion": "directa"
+    }
+  ],
+  "nivel_1_resumen": "Nacido esclavo, sostuvo que la libertad no depende de las circunstancias sino de distinguir con precisión lo que depende de nosotros de lo que no.",
+  "nivel_2_desarrollo": "El punto de partida del estoicismo de Epicteto es una división tajante: nuestras opiniones, deseos y decisiones dependen de nosotros; el cuerpo, la reputación, los bienes y los actos ajenos no. Casi todo el sufrimiento, argumenta, nace de tratar como propio lo que no lo es y de descuidar lo único que sí controlamos. De ahí se sigue una idea incómoda: no nos perturban los hechos, sino los juicios que hacemos sobre ellos, y esos juicios sí son revisables. Enseñaba que la vida es como un papel asignado en una obra: no elegimos cuál nos toca, sí cómo lo representamos. No dejó nada escrito; sus lecciones nos llegan a través de las notas de su alumno Arriano, que conservan un tono oral, directo y a menudo áspero.",
+  "nivel_3_experto": "Epicteto trabaja con el concepto de prohairesis —la facultad de elección o volición racional—, que en él adquiere un peso mayor que en el estoicismo antiguo y que algunos intérpretes leen como un antecedente de las nociones modernas de voluntad y de persona. Su ética está engarzada en una física determinista: si todo ocurre según la providencia racional del cosmos, la libertad no consiste en alterar el curso de los hechos sino en asentir a ellos, lo que reactiva el problema clásico del compatibilismo estoico y la crítica de que la 'libertad interior' pueda funcionar como resignación ante la injusticia. Esa objeción política —que el estoicismo desactiva la crítica social al reubicar todo el problema en el juicio del sujeto— es la más persistente contra su programa. Su influencia práctica es notable en la psicoterapia contemporánea: la terapia cognitivo-conductual reconoce explícitamente su deuda con la tesis de que la perturbación procede de la evaluación y no del suceso, lo que lo conecta directamente con el bloque de psicología del siglo XX.",
+  "debate_abierto": "Si la 'libertad interior' estoica es una conquista ética o una racionalización de la impotencia política es una objeción viva; también se discute cuánto del vocabulario de Epicteto es innovación suya frente a la Estoa antigua.",
+  "fuentes": [
+    {
+      "titulo": "Stanford Encyclopedia of Philosophy — Epictetus",
+      "url": "https://plato.stanford.edu/entries/epictetus/"
+    },
+    {
+      "titulo": "Internet Encyclopedia of Philosophy — Epictetus",
+      "url": "https://iep.utm.edu/epictetu/"
+    },
+    {
+      "titulo": "Long, Epictetus: A Stoic and Socratic Guide to Life, Oxford University Press",
+      "url": null
+    }
+  ]
+}

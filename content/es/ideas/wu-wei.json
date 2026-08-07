@@ -1,0 +1,60 @@
+{
+  "id": "wu-wei",
+  "corriente_id": "filosofia-china",
+  "titulo": "Wu wei: la eficacia de no forzar",
+  "orden": 2,
+  "autores": [
+    {
+      "id": "laozi",
+      "rol": "principal",
+      "aporte": "Propone una eficacia que consiste en no imponerse: intervenir lo justo y en el momento adecuado."
+    },
+    {
+      "id": "confucio",
+      "rol": "contrapunto",
+      "aporte": "Su programa de cultivo deliberado mediante la forma es justo lo que el daoísmo considera forzar."
+    }
+  ],
+  "pregunta": "¿Y si esforzarse más fuera exactamente lo que impide conseguirlo?",
+  "cita": {
+    "texto": "El dao que puede nombrarse no es el dao permanente.",
+    "obra": "Daodejing, 1",
+    "autor_id": "laozi",
+    "atribucion": "directa"
+  },
+  "resumen": "Wu wei no significa pasividad, sino acción sin forzamiento: intervenir lo justo, en el momento adecuado, sin ir contra la naturaleza de las cosas. Como el agua, que vence por ceder.",
+  "desarrollo": "El Daodejing empieza advirtiendo que aquello de lo que va a hablar se resiste a ser definido, y desde ahí desarrolla una idea contraintuitiva de la eficacia. Sus imágenes son deliberadamente humildes: el agua, que es lo más blando y desgasta la piedra; el valle, que recibe porque está abajo; el cuenco, cuya utilidad está en el hueco y no en el material. A eso suma la interdependencia de los opuestos: lo alto y lo bajo, lo difícil y lo fácil se producen mutuamente, de modo que empujar con fuerza en una dirección genera su contrario. Aplicado al gobierno, recomienda intervenir poco y ser apenas notado, en abierta discrepancia con el activismo formativo confuciano. La discusión entre ambos —pulir la conducta o dejar de forzarla— atraviesa siglos de pensamiento chino.",
+  "ejemplo_real": "Intentar dormirte. Cuanto más te esfuerzas, más despierto estás, porque el esfuerzo es justo lo contrario de lo que hace falta. Lo mismo con recordar un nombre que tienes en la punta de la lengua: aparece cuando dejas de buscarlo. Hay resultados que solo llegan si retiras el empeño, y no por magia, sino porque el empeño era el obstáculo.",
+  "matiz_experto": "La figura histórica de Laozi se considera legendaria, y los manuscritos de Guodian, más antiguos, muestran una polémica antirritualista mucho menos marcada de lo que se creía, lo que ha obligado a revisar la idea de un daoísmo originario opuesto en bloque al confucianismo.",
+  "visualizacion": {
+    "id": "vis-wuwei-laozi",
+    "idea_id": "wu-wei",
+    "tipo_visualizacion": "canvas-fisica",
+    "descripcion_interaccion": "El usuario debe llevar agua a través de un terreno irregular, con fluido simulado. Si la empuja con fuerza, se desborda, salpica y pierde volumen; si se limita a retirar obstáculos y esperar, encuentra su curso y llega más lejos con menos intervención. Dos contadores enfrentados registran cuánta acción se ha empleado y cuánto resultado se ha obtenido.",
+    "invitacion": "Empuja el agua, y luego quítale un obstáculo",
+    "alternativa_textual": "Agua simulada sobre un terreno que se desborda al empujarla y llega más lejos cuando solo se retiran obstáculos, con un contador que compara acción empleada y resultado: demuestra una eficacia que aumenta al reducir la intervención.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "textos": {
+      "etiqueta": "Agua que atraviesa un terreno con obstáculos",
+      "empujar": "Empujar el agua con fuerza",
+      "dejar": "Dejarla correr",
+      "retirar": "Retirar un obstáculo",
+      "resolucionLlego": "Llegó más lejos con menos acción. No hizo falta empujarla: bastó con dejar de estorbarla.",
+      "resolucionEmpujar": "Cuanto más fuerte la empujas, más se desborda y más agua se pierde por el camino.",
+      "resolucionDejar": "No has tocado el agua. Solo has quitado lo que le impedía seguir su curso.",
+      "resolucionRetirar": "Retirados los obstáculos, el agua encuentra su curso y llega al final sin que nadie la empuje.",
+      "alternativaTexto": "Agua simulada sobre un terreno que se desborda al empujarla y llega más lejos cuando solo se retiran obstáculos, con un contador que compara acción empleada y resultado obtenido: demuestra una eficacia que aumenta al reducir la intervención.",
+      "lectura": "fuerza empleada {accion}   ·   alcance {alcance} %"
+    }
+  },
+  "ideas_relacionadas": [
+    "ren-y-li",
+    "relatividad-de-las-perspectivas",
+    "dicotomia-del-control",
+    "aceptacion-y-cambio"
+  ]
+}

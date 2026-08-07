@@ -1,0 +1,72 @@
+{
+  "id": "el-tiempo-en-el-alma",
+  "corriente_id": "escolastica",
+  "titulo": "Time exists in the soul",
+  "orden": 1,
+  "autores": [
+    {
+      "id": "agustin",
+      "rol": "principal",
+      "aporte": "Shows that time cannot be measured outside, and relocates it in memory, attention and expectation."
+    }
+  ],
+  "pregunta": "If the past is no longer and the future is not yet, where is time?",
+  "cita": {
+    "texto": "What then is time? If no one asks me, I know.",
+    "obra": "Confessions XI, 14",
+    "autor_id": "agustin",
+    "atribucion": "directa"
+  },
+  "resumen": "The past no longer exists, the future does not yet, and the present has no duration. Augustine concludes that time is measured not outside but within: as memory, attention and expectation.",
+  "desarrollo": "The reasoning proceeds by elimination. We cannot measure the past, because it is no longer there. Nor the future, which is not yet. And the present, pressed hard, has no extension: any stretch with duration can be divided into a part already gone and a part not yet arrived. If none of that has measurable substance, what are we measuring when we say a wait felt long? Augustine answers that we are measuring an impression that remains in the soul: we remember what sounded, attend to what is sounding and expect what is about to sound, and the three coexist in us though not in the world. With this he also opens something larger: consciousness as a territory that can be explored, and the first person as a legitimate philosophical place.",
+  "ejemplo_real": "A song you know by heart. While one note sounds you are holding the previous ones and anticipating the next; that is why you recognise a melody and not a succession of separate sounds. It is also what makes half an hour of waiting drag and two hours with someone fly by: the clock reads the same and you are measuring something else.",
+  "matiz_experto": "His analysis has been read as anticipating Husserl's phenomenology of time-consciousness, though the function it serves in the Confessions is religious and autobiographical, not that of an autonomous theory of time.",
+  "visualizacion": {
+    "id": "vis-tiempo-agustin",
+    "idea_id": "el-tiempo-en-el-alma",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "The user tries to bracket the present instant on an external timeline. The bracket collapses on itself every time: a now without duration cannot be measured. Once the attempts are spent, three regions of the mind open, and letting the melody run through them the duration does appear.",
+    "invitacion": "Try to pin down the present moment",
+    "alternativa_textual": "A failed attempt to mark the present instant on an external timeline, resolved by moving the measurement into three regions of the mind: it shows that duration is measured in consciousness and not in the world.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "tres-regiones",
+    "parametros": {
+      "corrienteId": "escolastica",
+      "sucesion": "A melody sounding from beginning to end",
+      "intentar": "Point at the now",
+      "fracasos": [
+        "The bracket closes: what lasts is not the instant, it is the interval.",
+        "It closes again. Any width you allow it already holds a before and an after.",
+        "And again. Outside there are only notes that no longer are and notes that are not yet."
+      ],
+      "regiones": [
+        {
+          "nombre": "What is held",
+          "descripcion": "What has already sounded stays available here, which is why it can be compared."
+        },
+        {
+          "nombre": "What is attended",
+          "descripcion": "What sounds now, the only thing passing through the present."
+        },
+        {
+          "nombre": "What is expected",
+          "descripcion": "What is about to sound, already counted before it sounds."
+        }
+      ],
+      "medir": "Let the melody play",
+      "medida": "The melody has lasted, and the duration was wholly in the three regions.",
+      "resolucion": "Outside there was never anything to measure: only what no longer is and what is not yet. What lasts, lasts in whoever holds, attends and expects.",
+      "alternativaTexto": "A failed attempt to mark the present instant on an external timeline, resolved by moving the measurement into three regions of the mind: it shows that duration is measured in consciousness and not in the world.",
+      "etiqueta": "Time exists in the soul"
+    }
+  },
+  "ideas_relacionadas": [
+    "flujo-y-permanencia",
+    "condiciones-a-priori",
+    "identidad-personal"
+  ]
+}

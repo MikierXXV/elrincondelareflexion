@@ -1,0 +1,71 @@
+{
+  "id": "animal-politico",
+  "corriente_id": "clasica-griega",
+  "titulo": "El animal político",
+  "orden": 4,
+  "autores": [
+    {
+      "id": "aristoteles",
+      "rol": "principal",
+      "aporte": "Sostiene que la vida en comunidad no es un añadido a la naturaleza humana, sino su condición."
+    }
+  ],
+  "pregunta": "¿Se puede llegar a ser plenamente humano en soledad?",
+  "cita": {
+    "texto": "El ser humano es por naturaleza un animal político.",
+    "obra": "Política I, 1253a",
+    "autor_id": "aristoteles",
+    "atribucion": "directa"
+  },
+  "resumen": "Vivir en comunidad no es un contrato que firmamos para protegernos: para Aristóteles es aquello sin lo cual no llegamos a desarrollar lo que somos, empezando por el lenguaje y el juicio moral.",
+  "desarrollo": "La tesis se entiende mejor por lo que niega. No dice que seamos sociables por conveniencia, ni que la ciudad sea un mal necesario para evitar el conflicto. Dice que las capacidades que consideramos más propiamente humanas solo se desarrollan dentro de una comunidad: el lenguaje, que existe para deliberar sobre lo justo y lo conveniente y no solo para señalar placer o dolor; el juicio sobre cómo actuar, que se afina discutiendo con otros; y las virtudes, que se practican en relación. Por eso escribe que quien puede vivir fuera de la ciudad es una bestia o un dios, pero no un hombre. La consecuencia política es fuerte: la comunidad no está para dejarnos en paz, sino para hacer posible una vida lograda, y una organización que no lo consiga está fallando en su función, no solo siendo incómoda.",
+  "ejemplo_real": "Se ve en negativo cuando alguien pasa mucho tiempo aislado: no solo lo pasa mal, empieza a perder calibre. Los juicios se vuelven extremos porque nada los contrasta, las manías crecen sin que nadie las roce, y hasta la capacidad de explicarse se oxida. Hace falta gente alrededor no solo para acompañarnos, sino para seguir pensando con cierta medida.",
+  "matiz_experto": "La misma Política contiene la defensa de la esclavitud natural y la exclusión de las mujeres de la ciudadanía, y no como digresiones sino articuladas con el argumento. Es uno de los puntos donde su sistema resulta más difícil de recuperar sin reconstrucción.",
+  "visualizacion": {
+    "id": "vis-polis-aristoteles",
+    "idea_id": "animal-politico",
+    "tipo_visualizacion": "svg-interactivo",
+    "descripcion_interaccion": "El usuario decide cuántos vínculos conserva una figura y de qué tipo. Al retirarlos, no baja un medidor de 'felicidad' sino que se apagan capacidades concretas: primero deliberar, luego matizar un juicio, después nombrar con precisión. Al restituir un vínculo, la capacidad correspondiente reaparece, mostrando cuáles dependen de otros y cuáles no.",
+    "invitacion": "Corta vínculos y mira qué capacidad se apaga",
+    "alternativa_textual": "Una figura que va perdiendo capacidades concretas —deliberar, matizar, nombrar— a medida que se le retiran vínculos con otras: demuestra que ciertas facultades humanas no son previas a la vida en común sino producto de ella.",
+    "nivel_asociado": [
+      1,
+      2
+    ],
+    "complejidad": "ligera",
+    "mecanica": "red",
+    "parametros": {
+      "corrienteId": "clasica-griega",
+      "centro": "la persona",
+      "vinculos": [
+        {
+          "nombre": "deliberar",
+          "perdida": "Sin nadie con quien deliberar, el juicio deja de contrastarse y se vuelve extremo."
+        },
+        {
+          "nombre": "la lengua",
+          "perdida": "El lenguaje existe para discutir lo justo y lo conveniente; sin otros, sobra."
+        },
+        {
+          "nombre": "la amistad",
+          "perdida": "Las virtudes se practican en relación: sin ella no hay dónde ejercerlas."
+        },
+        {
+          "nombre": "la ciudad",
+          "perdida": "Sin marco común, no hay ley que dar ni obedecer."
+        }
+      ],
+      "resolucion": "Lo que se apagó no fueron comodidades, sino capacidades. Quien puede vivir fuera de la ciudad es una bestia o un dios, pero no un hombre.",
+      "alternativaTexto": "Una figura que va perdiendo capacidades concretas —deliberar, matizar, nombrar— a medida que se le retiran vínculos con otras: demuestra que ciertas facultades humanas no son previas a la vida en común sino producto de ella.",
+      "restituir": "Restituir las relaciones",
+      "etiqueta": "El animal político",
+      "etiquetaNodo": "Cortar el vínculo con {nombre}"
+    }
+  },
+  "ideas_relacionadas": [
+    "termino-medio",
+    "contrato-y-voluntad-general",
+    "ren-y-li",
+    "dialectica-del-reconocimiento"
+  ]
+}
