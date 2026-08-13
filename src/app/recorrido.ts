@@ -145,6 +145,54 @@ export async function montarRecorrido(raiz: HTMLElement): Promise<() => void> {
     { rootMargin: '-35% 0px -35% 0px', threshold: [0, 0.25, 0.5, 1] },
   );
 
+  /*
+   * Montar una pieza en su hueco. Se usa desde el observador y desde el cambio de tema.
+   *
+   * La invitación se pinta ANTES de la pieza, y desde aquí y no desde dentro de cada mecánica: las
+   * mecánicas solo reciben sus `parametros` o sus `textos`, así que para que la pintaran ellas habría
+   * que tocar las treinta y cinco. Como todas hacen `append` sobre el contenedor, el orden sale solo.
+   *
+   * El botón de ampliar se cuelga DESPUÉS de montar: si la pieza cae al respaldo estático no hay nada
+   * que ampliar, y ofrecerlo sería prometer una salida que no lleva a ninguna parte.
+   */
+  function montarPieza(hueco: HTMLElement, idea: Idea): void {
+    hueco.prepend(invitacion(idea.visualizacion.invitacion));
+    void crearVisualizacion(idea.id, idea.visualizacion, hueco)
+      .then((v) => {
+        montadas.set(hueco, v);
+        hueco.style.minHeight = '';
+        quitarVisores.set(hueco, habilitarVisor(hueco));
+      })
+      .catch(() => { hueco.innerHTML = `<p class="vis-respaldo">${T.recorrido.vis_fallida}</p>`; });
+  }
+
+  /*
+   * AL CAMBIAR DE TEMA HAY QUE REHACER LAS PIEZAS. No es un refinamiento: es corregir un fallo.
+   *
+   * Cada pieza resuelve su paleta con `paletaDe()` en el momento de construirse y la escribe en los
+   * atributos del SVG. Cambiar de tema solo cambia los tokens de CSS, así que las piezas ya montadas
+   * se quedaban con los colores del tema anterior: rótulos en el gris del tema claro sobre el panel
+   * oscuro, medido en 2,74:1, y los que usaban el color de señal en 1,1:1, o sea invisibles.
+   *
+   * Se desmontan y se vuelven a montar, que es lo único que las repinta. Solo las que están en pantalla
+   * o cerca: las demás ni siquiera existen todavía y nacerán con el tema nuevo.
+   */
+  const alCambiarTema = (): void => {
+    for (const [hueco, vis] of [...montadas]) {
+      const idea = ideasCargadas.get(hueco.dataset.vis!);
+      if (!idea) continue;
+      quitarVisores.get(hueco)?.();
+      quitarVisores.delete(hueco);
+      // Se reserva el alto antes de vaciar: sin esto la página encoge y el lector pierde el sitio.
+      hueco.style.minHeight = `${hueco.offsetHeight}px`;
+      vis.destruir();
+      montadas.delete(hueco);
+      hueco.replaceChildren();
+      montarPieza(hueco, idea);
+    }
+  };
+  window.addEventListener('tema-cambiado', alCambiarTema);
+
   // ---- montaje diferido de visualizaciones ----
   const observadorVis = new IntersectionObserver(
     (entradas) => {
@@ -154,31 +202,7 @@ export async function montarRecorrido(raiz: HTMLElement): Promise<() => void> {
         if (!idea) continue;
         const es3D = idea.visualizacion.tipo_visualizacion === 'three-js';
         if (e.isIntersecting && !montadas.has(hueco)) {
-          /*
-           * La invitación se pinta ANTES de montar la pieza, y desde aquí y no desde dentro de cada
-           * mecánica.
-           *
-           * Las mecánicas solo reciben sus `parametros` o sus `textos`, así que para que la pintaran
-           * ellas habría que tocar las treinta y cinco. El panel, en cambio, tiene la ficha entera.
-           * Y como todas hacen `append` sobre el contenedor, el orden sale solo: primero la línea,
-           * después el dibujo.
-           *
-           * Se vuelve a poner en cada montaje porque las piezas 3D se destruyen al salir de pantalla
-           * y su `destruir()` vacía el contenedor: al reaparecer hay que devolverla.
-           */
-          hueco.prepend(invitacion(idea.visualizacion.invitacion));
-          void crearVisualizacion(idea.id, idea.visualizacion, hueco)
-            .then((v) => {
-              montadas.set(hueco, v);
-              hueco.style.minHeight = '';
-              /*
-               * El botón de ampliar se cuelga DESPUÉS de montar, y por eso no lo pone la plantilla:
-               * si la pieza falla y cae al respaldo estático no hay nada que ampliar, y ofrecerlo
-               * igualmente sería prometer una salida que no lleva a ninguna parte.
-               */
-              quitarVisores.set(hueco, habilitarVisor(hueco));
-            })
-            .catch(() => { hueco.innerHTML = `<p class="vis-respaldo">${T.recorrido.vis_fallida}</p>`; });
+          montarPieza(hueco, idea);
         } else if (!e.isIntersecting && es3D) {
           const v = montadas.get(hueco);
           if (v) {
@@ -247,6 +271,7 @@ export async function montarRecorrido(raiz: HTMLElement): Promise<() => void> {
   });
 
   return () => {
+    window.removeEventListener('tema-cambiado', alCambiarTema);
     observadorEstado.disconnect();
     observadorVis.disconnect();
     observadorIdeas.disconnect();

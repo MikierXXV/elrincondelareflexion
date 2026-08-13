@@ -19,7 +19,7 @@
  */
 
 import {
-  alternativaTextual, entrada, marcarInteractivo, movimientoReducido, paletaDe, resolver,
+  alternativaTextual, ATENUADO, entrada, marcarInteractivo, movimientoReducido, paletaDe, resolver,
   rotulo, rotuloMutable, svg, TRAZO,
 } from '../lenguaje';
 import type { Paleta, Visualizacion } from '../lenguaje';
@@ -432,10 +432,11 @@ export function crearPrueba(contenedor: HTMLElement, op: OpcionesPrueba): Visual
     });
     caja.setAttribute('stroke', roto ? paleta.neutro : paleta.acento);
     caja.setAttribute('stroke-dasharray', roto ? '4 4' : '');
-    caja.setAttribute('opacity', roto ? '0.45' : '1');
-    // La capa lleva la opacidad, no el rótulo: el mutable rehace su nodo al cambiar de texto y se
-    // llevaría por delante cualquier atributo puesto encima.
-    capaTexto.setAttribute('opacity', roto ? '0.45' : '1');
+    caja.setAttribute('opacity', roto ? String(ATENUADO) : '1');
+    /*
+     * El rótulo del tramo roto NO se apaga: se apaga su caja. Ver `ATENUADO`; atenuar texto lo deja
+     * por debajo del contraste legible y el estado ya lo dicen el color y el trazo discontinuo.
+     */
     grieta.setAttribute('opacity', roto ? '1' : '0');
 
     // El intento recorre la cadena y se para donde le toca; lo que hay más allá queda sin visitar.
@@ -444,7 +445,7 @@ export function crearPrueba(contenedor: HTMLElement, op: OpcionesPrueba): Visual
       const bloquea = tope >= 0 && i === tope;
       const sinVisitar = tope >= 0 && i > tope;
       const color = bloquea ? paleta.senal : sinVisitar || tope < 0 ? paleta.neutro : paleta.acento;
-      p.g.setAttribute('opacity', sinVisitar ? '0.35' : '1');
+      p.caja.setAttribute('opacity', sinVisitar ? String(ATENUADO) : '1');
       p.caja.setAttribute('stroke', color);
       p.caja.setAttribute('stroke-width', String(bloquea ? TRAZO.enfasis : TRAZO.base));
       p.caja.setAttribute('stroke-dasharray', sinVisitar ? '4 4' : '');
@@ -454,7 +455,7 @@ export function crearPrueba(contenedor: HTMLElement, op: OpcionesPrueba): Visual
 
     momentos.forEach((m) => {
       const fuera = retirados.has(m.i);
-      m.g.setAttribute('opacity', fuera ? '0.3' : '1');
+      m.caja.setAttribute('opacity', fuera ? String(ATENUADO) : '1');
       m.caja.setAttribute('stroke', fuera ? paleta.neutro : paleta.acento);
       m.caja.setAttribute('stroke-dasharray', fuera ? '4 4' : '');
       m.caja.setAttribute('aria-disabled', String(fuera));
@@ -462,7 +463,7 @@ export function crearPrueba(contenedor: HTMLElement, op: OpcionesPrueba): Visual
     });
     arcos.forEach((a) => {
       const cortado = retirados.has(a.de) || retirados.has(a.a);
-      a.arco.setAttribute('opacity', cortado ? '0.25' : '0.8');
+      a.arco.setAttribute('opacity', cortado ? String(ATENUADO) : '0.8');
       a.arco.setAttribute('stroke-dasharray', cortado ? '3 3' : '');
     });
   }

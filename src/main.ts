@@ -57,6 +57,12 @@ function aplicarTema(tema: 'claro' | 'oscuro'): void {
     'aria-label', tema === 'claro' ? T.barra.tema_a_oscuro : T.barra.tema_a_claro,
   );
   rehacerPensador();
+  /*
+   * Las piezas del recorrido llevan su paleta escrita en los atributos del SVG, resuelta al
+   * construirse: cambiar los tokens de CSS no las repinta. Se avisa y cada zona rehace lo suyo.
+   * Ver `alCambiarTema` en `recorrido.ts`.
+   */
+  window.dispatchEvent(new Event('tema-cambiado'));
 }
 
 /** Resuelve `hero.titular` contra el objeto de cadenas, igual que hace el generador de HTML. */

@@ -29,6 +29,22 @@ export const TRAZO = { fino: 1, base: 1.5, enfasis: 3 } as const;
  */
 export const RADIO_TACTIL = 11;
 
+/**
+ * Cuánto se apaga lo que ha quedado en segundo plano.
+ *
+ * **Y LA REGLA QUE LO ACOMPAÑA: NUNCA SOBRE TEXTO.** Atenuar un rótulo con opacidad no lo vuelve
+ * discreto, lo vuelve ilegible, y no es cuestión de afinar el número. Medido sobre el fondo de panel
+ * real, `neutro` da 6,16:1 en claro y 7,72:1 en oscuro a plena opacidad; al 0,35 —que es lo que usaba
+ * «La imposibilidad del cambio» para sus pasos aún no recorridos— se queda en 1,68 y 1,94. El mínimo
+ * para texto son 4,5:1, y en tema claro ni siquiera 0,75 llega: da 3,53. No hay ninguna atenuación
+ * que sea a la vez perceptible y legible.
+ *
+ * Así que el segundo plano se dice atenuando la FORMA —la caja, el trazo, el arco— y dejando su
+ * rótulo intacto. El estado ya viaja además en el color y en el discontinuo del trazo, que es donde
+ * de verdad se lee: el texto solo tiene que poder leerse.
+ */
+export const ATENUADO = 0.35;
+
 /** §3.1 Regla de tres colores: nunca más roles que estos. */
 export interface Paleta {
   neutro: string;
