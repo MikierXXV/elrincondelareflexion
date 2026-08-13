@@ -130,7 +130,19 @@ export function montarCromos(raiz: HTMLElement): () => void {
       const suBloque = corrientes.find((c) => c.id === id)?.bloque_id;
       h.classList.toggle('filtrando', Boolean(filtro) && (filtro === id || filtro === suBloque));
     });
-    pista.textContent = pistaEnReposo();
+    /*
+     * Al cambiar el filtro se apaga el resaltado, y se apaga LLAMANDO A `resaltar`.
+     *
+     * El resaltado dice «esta es la corriente del cromo que estás señalando», y al filtrar ese cromo
+     * puede desaparecer de la rejilla: quedaba un hito encendido apuntando a una corriente cuya carta
+     * ya no está en pantalla. Se veía como un 01 en color mientras el filtro activo era el 05.
+     *
+     * Aquí antes se reiniciaba solo el texto de la pista, a mano. Esa era la raíz: el rótulo y el
+     * hito son dos caras de lo mismo y se estaban actualizando por separado, así que era cuestión de
+     * tiempo que dijeran cosas distintas. `resaltar(null)` apaga los dos de una vez, y mientras sea
+     * la única puerta para cambiarlos no pueden volver a desincronizarse.
+     */
+    resaltar(null);
   }
 
   raiz.addEventListener('pointerover', (e) => {
