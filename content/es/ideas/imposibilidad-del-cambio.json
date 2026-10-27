@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Si la nada no puede existir ni pensarse, entonces nada puede surgir de ella ni desaparecer en ella. La conclusión es incómoda: el cambio que percibimos sería una apariencia.",
-  "desarrollo": "El argumento es una cadena corta y muy apretada. Para que algo empiece a existir tendría que venir de lo que no es; pero lo que no es no se puede ni pensar sin convertirlo en algo. Luego nada empieza a existir. Por el mismo motivo nada desaparece, nada se divide —haría falta un hueco de no-ser entre las partes— y nada se mueve, porque el movimiento exige un vacío hacia el que ir. Lo importante no es si Parménides tiene razón, sino lo que hace: es la primera vez que alguien concede más autoridad a una deducción que a la evidencia de los sentidos. A partir de ahí, decir «pero yo lo veo» deja de ser una respuesta suficiente, y quien quiera salvar el movimiento tendrá que refutar el argumento, no señalar el mundo. Toda la física griega posterior, incluido el atomismo, nace de ese aprieto.",
+  "desarrollo": [
+    "El argumento es una cadena corta y muy apretada. Para que algo empiece a existir tendría que venir de lo que no es; pero lo que no es no se puede ni pensar sin convertirlo en algo. Luego nada empieza a existir.",
+    "Por el mismo motivo nada desaparece, nada se divide —haría falta un hueco de no-ser entre las partes— y nada se mueve, porque el movimiento exige un vacío hacia el que ir.",
+    "Lo importante no es si Parménides tiene razón, sino lo que hace: es la primera vez que alguien concede más autoridad a una deducción que a la evidencia de los sentidos. A partir de ahí, decir «pero yo lo veo» deja de ser una respuesta suficiente, y quien quiera salvar el movimiento tendrá que refutar el argumento, no señalar el mundo. Toda la física griega posterior, incluido el atomismo, nace de ese aprieto."
+  ],
   "ejemplo_real": "Es lo mismo que ocurre cuando alguien te demuestra paso a paso una conclusión que sabes que es falsa, y no encuentras el fallo. Las paradojas visuales funcionan así al revés: sabes que las dos líneas miden lo mismo porque las has medido, y aun así las sigues viendo distintas. En algún momento hay que decidir de quién te fías, si de la medida o de la mirada.",
   "matiz_experto": "La relación entre la 'vía de la verdad' y la 'vía de la opinión' de su poema sigue sin consenso: no está claro si la cosmología de la segunda parte describe el error humano, una explicación provisional o una concesión didáctica.",
   "visualizacion": {

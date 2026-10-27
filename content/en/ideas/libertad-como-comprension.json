@@ -18,7 +18,15 @@
     "atribucion": "directa"
   },
   "resumen": "We believe ourselves free because we are aware of our desires and ignorant of what produced them. For Spinoza freedom does not consist in having no causes, but in understanding them.",
-  "desarrollo": "His image is a stone thrown into the air that was conscious of its flight: it would believe it was flying by its own decision, simply because it does not perceive the hand that threw it. Spinoza holds that our case is exactly that: we feel the desire, not its origin, and we call that ignorance free will. So far it sounds bleak, but his conclusion is not. He distinguishes between suffering an emotion and understanding it. While I do not understand why something irritates me, the irritation has me; when I reconstruct where it comes from — what set it off, what I associate it with, what history it answers to — it stops being something that happens to me and becomes something I understand, and its force changes. That is all the freedom available, and unlike the other kind, this one can be exercised and increased.",
+  "desarrollo": [
+    "His image is a stone thrown into the air that was conscious of its flight: it would believe it was flying by its own decision, simply because it does not perceive the hand that threw it. Spinoza holds that our case is exactly that: we feel the desire, not its origin, and we call that ignorance free will.",
+    "So far it sounds bleak, but his conclusion is not. He distinguishes between suffering an emotion and understanding it.",
+    "While I do not understand why something irritates me, the irritation has me; when I reconstruct where it comes from — what set it off, what I associate it with, what history it answers to — it stops being something that happens to me and becomes something I understand, and its force changes. That is all the freedom available, and unlike the other kind, this one can be exercised and increased."
+  ],
+  "analogia": {
+    "parrafo": 0,
+    "icono": "cadena"
+  },
   "ejemplo_real": "Someone answers you curtly and your morning is ruined. If a while later it dawns on you that you have slept badly for two days and that this person reminds you of someone else, the irritation does not magically vanish, but it stops steering you: you are no longer arguing with them in your head, you are looking at where it came from.",
   "matiz_experto": "His necessitarianism is stricter than this presentation suggests: whether it leaves any room for contingency is disputed. And not everyone accepts that understanding an emotion suffices to transform it, though contemporary cognitive therapy works with a similar assumption.",
   "visualizacion": {

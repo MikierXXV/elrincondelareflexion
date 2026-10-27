@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "An exercise, not a theory: looking at your own affair from further and further away — the house, the city, the century — until it recovers its real size and leaves room for what matters.",
-  "desarrollo": "The Meditations are not a treatise but a private notebook Marcus Aurelius never meant to publish, written on military campaign. That is why it repeats itself: each entry is an exercise to be redone, not a conclusion reached. The most characteristic one consists in shifting the point of observation. You begin absorbed in a particular grievance and keep widening the frame: the room, the city, the continent, the centuries before, the ones to come. The matter does not disappear or become false, but it changes scale, and with the scale changes what it deserves. To this he adds the constant reminder of his own mortality, not as morbidity but as a corrector of priorities. What is striking about the book is the tension running through it: someone with unlimited power imposing limits on himself in writing, in private, every day.",
+  "desarrollo": [
+    "The Meditations are not a treatise but a private notebook Marcus Aurelius never meant to publish, written on military campaign. That is why it repeats itself: each entry is an exercise to be redone, not a conclusion reached.",
+    "The most characteristic one consists in shifting the point of observation. You begin absorbed in a particular grievance and keep widening the frame: the room, the city, the continent, the centuries before, the ones to come. The matter does not disappear or become false, but it changes scale, and with the scale changes what it deserves.",
+    "To this he adds the constant reminder of his own mortality, not as morbidity but as a corrector of priorities. What is striking about the book is the tension running through it: someone with unlimited power imposing limits on himself in writing, in private, every day."
+  ],
   "ejemplo_real": "A work email that has ruined your afternoon. Ask whether you will remember it in a month; then in five years. Almost none survives the first question. The exercise is not to pretend it does not matter, but to check how much of the reaction came from the real size of the thing and how much from looking at it too close up.",
   "matiz_experto": "There is a critical reading of his figure: the distance between the private moralist and the emperor who prosecuted wars and persecutions is a genuine historiographical problem, not a detail.",
   "visualizacion": {

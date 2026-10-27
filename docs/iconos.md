@@ -68,3 +68,8 @@ se añade allí (nombre solo a–z, una línea) y aquí. `idea` es el comodín: 
 |---|---|---|
 | idea `termino-medio` | `bucle` | «las virtudes se adquieren como los oficios, practicándolas» |
 | idea `anatman` | `engranaje` | el carro que no es nada aparte de sus piezas ensambladas y funcionando (párrafo 0 entero) |
+| idea `mundo-de-las-ideas` | `caverna` | la alegoría de la caverna, párrafo 2 entero |
+| autor `platon` | `caverna` | la alegoría de la caverna, párrafo 1 entero de `nivel_2_desarrollo` |
+| idea `dicotomia-del-control` | `mascara` | el actor al que se asigna un papel: no elige cuál, sí cómo lo representa (párrafo 2 entero) |
+| autor `epicteto` | `mascara` | la vida como un papel asignado en una obra (párrafo 1 entero de `nivel_2_desarrollo`) |
+| idea `libertad-como-comprension` | `cadena` | la piedra lanzada que se creería libre: causalidad que no se ve (párrafo 0 entero) |

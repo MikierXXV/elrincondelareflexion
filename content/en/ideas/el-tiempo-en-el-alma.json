@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "The past no longer exists, the future does not yet, and the present has no duration. Augustine concludes that time is measured not outside but within: as memory, attention and expectation.",
-  "desarrollo": "The reasoning proceeds by elimination. We cannot measure the past, because it is no longer there. Nor the future, which is not yet. And the present, pressed hard, has no extension: any stretch with duration can be divided into a part already gone and a part not yet arrived. If none of that has measurable substance, what are we measuring when we say a wait felt long? Augustine answers that we are measuring an impression that remains in the soul: we remember what sounded, attend to what is sounding and expect what is about to sound, and the three coexist in us though not in the world. With this he also opens something larger: consciousness as a territory that can be explored, and the first person as a legitimate philosophical place.",
+  "desarrollo": [
+    "The reasoning proceeds by elimination. We cannot measure the past, because it is no longer there. Nor the future, which is not yet. And the present, pressed hard, has no extension: any stretch with duration can be divided into a part already gone and a part not yet arrived. If none of that has measurable substance, what are we measuring when we say a wait felt long?",
+    "Augustine answers that we are measuring an impression that remains in the soul: we remember what sounded, attend to what is sounding and expect what is about to sound, and the three coexist in us though not in the world.",
+    "With this he also opens something larger: consciousness as a territory that can be explored, and the first person as a legitimate philosophical place."
+  ],
   "ejemplo_real": "A song you know by heart. While one note sounds you are holding the previous ones and anticipating the next; that is why you recognise a melody and not a succession of separate sounds. It is also what makes half an hour of waiting drag and two hours with someone fly by: the clock reads the same and you are measuring something else.",
   "matiz_experto": "His analysis has been read as anticipating Husserl's phenomenology of time-consciousness, though the function it serves in the Confessions is religious and autobiographical, not that of an autonomous theory of time.",
   "visualizacion": {

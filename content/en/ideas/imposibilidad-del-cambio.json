@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "If nothingness can neither exist nor be thought, then nothing can arise from it or vanish into it. The conclusion is uncomfortable: the change we perceive would be an appearance.",
-  "desarrollo": "The argument is a short, tightly packed chain. For something to begin to exist it would have to come from what is not; but what is not cannot even be thought without turning it into something. So nothing begins to exist. For the same reason nothing vanishes, nothing divides — that would need a gap of non-being between the parts — and nothing moves, because motion requires a void to move into. What matters is not whether Parmenides is right, but what he does: it is the first time anyone grants more authority to a deduction than to the evidence of the senses. From then on, saying 'but I can see it' stops being a sufficient reply, and whoever wants to rescue motion will have to refute the argument rather than point at the world. All later Greek physics, atomism included, is born of that predicament.",
+  "desarrollo": [
+    "The argument is a short, tightly packed chain. For something to begin to exist it would have to come from what is not; but what is not cannot even be thought without turning it into something. So nothing begins to exist.",
+    "For the same reason nothing vanishes, nothing divides — that would need a gap of non-being between the parts — and nothing moves, because motion requires a void to move into.",
+    "What matters is not whether Parmenides is right, but what he does: it is the first time anyone grants more authority to a deduction than to the evidence of the senses. From then on, saying 'but I can see it' stops being a sufficient reply, and whoever wants to rescue motion will have to refute the argument rather than point at the world. All later Greek physics, atomism included, is born of that predicament."
+  ],
   "ejemplo_real": "It is what happens when someone walks you step by step to a conclusion you know is false, and you cannot find the flaw. Visual paradoxes work the other way round: you know the two lines are the same length because you have measured them, and you still see them as different. At some point you have to decide whom you trust, the ruler or the eye.",
   "matiz_experto": "The relation between the 'way of truth' and the 'way of opinion' in his poem remains unsettled: it is not clear whether the cosmology of the second part describes human error, a provisional explanation, or a concession made for teaching.",
   "visualizacion": {

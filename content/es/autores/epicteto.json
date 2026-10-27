@@ -16,8 +16,20 @@
     }
   ],
   "nivel_1_resumen": "Nacido esclavo, sostuvo que la libertad no depende de las circunstancias sino de distinguir con precisión lo que depende de nosotros de lo que no.",
-  "nivel_2_desarrollo": "El punto de partida del estoicismo de Epicteto es una división tajante: nuestras opiniones, deseos y decisiones dependen de nosotros; el cuerpo, la reputación, los bienes y los actos ajenos no. Casi todo el sufrimiento, argumenta, nace de tratar como propio lo que no lo es y de descuidar lo único que sí controlamos. De ahí se sigue una idea incómoda: no nos perturban los hechos, sino los juicios que hacemos sobre ellos, y esos juicios sí son revisables. Enseñaba que la vida es como un papel asignado en una obra: no elegimos cuál nos toca, sí cómo lo representamos. No dejó nada escrito; sus lecciones nos llegan a través de las notas de su alumno Arriano, que conservan un tono oral, directo y a menudo áspero.",
-  "nivel_3_experto": "Epicteto trabaja con el concepto de prohairesis —la facultad de elección o volición racional—, que en él adquiere un peso mayor que en el estoicismo antiguo y que algunos intérpretes leen como un antecedente de las nociones modernas de voluntad y de persona. Su ética está engarzada en una física determinista: si todo ocurre según la providencia racional del cosmos, la libertad no consiste en alterar el curso de los hechos sino en asentir a ellos, lo que reactiva el problema clásico del compatibilismo estoico y la crítica de que la 'libertad interior' pueda funcionar como resignación ante la injusticia. Esa objeción política —que el estoicismo desactiva la crítica social al reubicar todo el problema en el juicio del sujeto— es la más persistente contra su programa. Su influencia práctica es notable en la psicoterapia contemporánea: la terapia cognitivo-conductual reconoce explícitamente su deuda con la tesis de que la perturbación procede de la evaluación y no del suceso, lo que lo conecta directamente con el bloque de psicología del siglo XX.",
+  "nivel_2_desarrollo": [
+    "El punto de partida del estoicismo de Epicteto es una división tajante: nuestras opiniones, deseos y decisiones dependen de nosotros; el cuerpo, la reputación, los bienes y los actos ajenos no. Casi todo el sufrimiento, argumenta, nace de tratar como propio lo que no lo es y de descuidar lo único que sí controlamos. De ahí se sigue una idea incómoda: no nos perturban los hechos, sino los juicios que hacemos sobre ellos, y esos juicios sí son revisables.",
+    "Enseñaba que la vida es como un papel asignado en una obra: no elegimos cuál nos toca, sí cómo lo representamos.",
+    "No dejó nada escrito; sus lecciones nos llegan a través de las notas de su alumno Arriano, que conservan un tono oral, directo y a menudo áspero."
+  ],
+  "analogia": {
+    "parrafo": 1,
+    "icono": "mascara"
+  },
+  "nivel_3_experto": [
+    "Epicteto trabaja con el concepto de prohairesis —la facultad de elección o volición racional—, que en él adquiere un peso mayor que en el estoicismo antiguo y que algunos intérpretes leen como un antecedente de las nociones modernas de voluntad y de persona.",
+    "Su ética está engarzada en una física determinista: si todo ocurre según la providencia racional del cosmos, la libertad no consiste en alterar el curso de los hechos sino en asentir a ellos, lo que reactiva el problema clásico del compatibilismo estoico y la crítica de que la 'libertad interior' pueda funcionar como resignación ante la injusticia. Esa objeción política —que el estoicismo desactiva la crítica social al reubicar todo el problema en el juicio del sujeto— es la más persistente contra su programa.",
+    "Su influencia práctica es notable en la psicoterapia contemporánea: la terapia cognitivo-conductual reconoce explícitamente su deuda con la tesis de que la perturbación procede de la evaluación y no del suceso, lo que lo conecta directamente con el bloque de psicología del siglo XX."
+  ],
   "debate_abierto": "Si la 'libertad interior' estoica es una conquista ética o una racionalización de la impotencia política es una objeción viva; también se discute cuánto del vocabulario de Epicteto es innovación suya frente a la Estoa antigua.",
   "fuentes": [
     {

@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Una ley o una acción es correcta en la medida en que produce el mayor bienestar para el mayor número, contando a cada persona por una y a ninguna por más de una.",
-  "desarrollo": "Bentham no discutía en abstracto: quería desmontar un sistema legal que ahorcaba por robar una oveja y que se justificaba apelando a la costumbre. Frente a eso propone una prueba que cualquiera puede aplicar y discutir: sumar el bienestar y el sufrimiento que una medida produce en todos los afectados, considerando su intensidad, su duración y a cuánta gente alcanza. Lo verdaderamente radical no es el cálculo, es a quién incluye en él. Entraban las mujeres, las personas sin propiedades y también los animales, sobre los que escribió que la pregunta relevante no es si pueden razonar o hablar, sino si pueden sufrir. Rechazó la idea de derechos naturales por considerarla retórica sin contenido verificable. De ese criterio salieron reformas penales, penitenciarias y electorales concretas.",
+  "desarrollo": [
+    "Bentham no discutía en abstracto: quería desmontar un sistema legal que ahorcaba por robar una oveja y que se justificaba apelando a la costumbre. Frente a eso propone una prueba que cualquiera puede aplicar y discutir: sumar el bienestar y el sufrimiento que una medida produce en todos los afectados, considerando su intensidad, su duración y a cuánta gente alcanza.",
+    "Lo verdaderamente radical no es el cálculo, es a quién incluye en él. Entraban las mujeres, las personas sin propiedades y también los animales, sobre los que escribió que la pregunta relevante no es si pueden razonar o hablar, sino si pueden sufrir.",
+    "Rechazó la idea de derechos naturales por considerarla retórica sin contenido verificable. De ese criterio salieron reformas penales, penitenciarias y electorales concretas."
+  ],
   "ejemplo_real": "Es el razonamiento de cualquier decisión de salud pública: repartir un número limitado de vacunas, decidir dónde poner un paso de peatones, fijar un límite de velocidad. Nadie lo resuelve consultando principios abstractos; se cuentan personas afectadas y magnitud del daño evitado. El cálculo utilitarista es la gramática de esas decisiones aunque nadie lo nombre.",
   "matiz_experto": "La objeción estructural es que un criterio puramente agregativo puede justificar sacrificar a una minoría si la suma sale favorable. Es exactamente el punto contra el que Rawls construye su teoría, al acusar al utilitarismo de no tomar en serio la distinción entre personas.",
   "visualizacion": {

@@ -19,7 +19,11 @@
     "nota": "Pirrón no escribió nada. La formulación procede de Sexto Empírico, casi cinco siglos posterior."
   },
   "resumen": "El escéptico no niega que se pueda saber —eso ya sería afirmar algo—: comprueba que para cada argumento hay otro de peso comparable, suspende el juicio y descubre que ahí llega la tranquilidad.",
-  "desarrollo": "El procedimiento consiste en enfrentar sistemáticamente apariencias y razones contrarias hasta que ninguna posición pesa más. La miel le parece dulce a uno y amarga a un enfermo, y no hay un criterio neutral para arbitrar que no dé por supuesto lo que se está discutiendo. Ante ese empate, el pirrónico no concluye que nada se puede saber —eso sería una tesis dogmática más— sino que deja de pronunciarse y sigue investigando. Y observa un efecto que no buscaba: la serenidad no llega al encontrar la certeza, sino al abandonar la exigencia de tenerla. Eso no impide vivir, porque se sigue actuando según cómo aparecen las cosas, las costumbres y las necesidades; simplemente se deja de afirmar cómo son en el fondo. La calma es una consecuencia, no un objetivo perseguido.",
+  "desarrollo": [
+    "El procedimiento consiste en enfrentar sistemáticamente apariencias y razones contrarias hasta que ninguna posición pesa más. La miel le parece dulce a uno y amarga a un enfermo, y no hay un criterio neutral para arbitrar que no dé por supuesto lo que se está discutiendo.",
+    "Ante ese empate, el pirrónico no concluye que nada se puede saber —eso sería una tesis dogmática más— sino que deja de pronunciarse y sigue investigando. Y observa un efecto que no buscaba: la serenidad no llega al encontrar la certeza, sino al abandonar la exigencia de tenerla.",
+    "Eso no impide vivir, porque se sigue actuando según cómo aparecen las cosas, las costumbres y las necesidades; simplemente se deja de afirmar cómo son en el fondo. La calma es una consecuencia, no un objetivo perseguido."
+  ],
   "ejemplo_real": "Una discusión política larga con alguien que se ha informado tanto como tú y llega a la conclusión opuesta. Puedes pasar horas buscando el argumento definitivo, o reconocer que en ese punto concreto no tienes elementos para decidir. Lo segundo suele sentar mucho mejor de lo que uno espera, y no impide seguir votando.",
   "matiz_experto": "La objeción clásica es la apraxia: sin creencias no habría acción posible. La respuesta escéptica distingue entre asentir a una apariencia y afirmar una verdad, y sigue discutiéndose si esa distinción se sostiene.",
   "visualizacion": {

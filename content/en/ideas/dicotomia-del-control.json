@@ -23,7 +23,16 @@
     "atribucion": "directa"
   },
   "resumen": "Our opinions and decisions depend on us; the body, reputation and other people's actions do not. Almost all suffering is born of treating as our own what is not.",
-  "desarrollo": "The distinction looks obvious until it is applied in earnest. Epictetus, born a slave, holds that the judgement we make about what happens is in our power, and that this is where the disturbance is produced: it is not the fact that upsets us but the evaluation we add to it. That is why the same piece of news devastates one person and not another. What he proposes is not indifference but a correct allocation of effort: spend your energy on what can be moved, and stop demanding from the world guarantees it does not give. His favourite image is the actor assigned a part: they do not choose which, only how to play it. The gain is double, because those who stop fighting the inevitable usually act better on what they can actually change.",
+  "desarrollo": [
+    "The distinction looks obvious until it is applied in earnest. Epictetus, born a slave, holds that the judgement we make about what happens is in our power, and that this is where the disturbance is produced: it is not the fact that upsets us but the evaluation we add to it. That is why the same piece of news devastates one person and not another.",
+    "What he proposes is not indifference but a correct allocation of effort: spend your energy on what can be moved, and stop demanding from the world guarantees it does not give.",
+    "His favourite image is the actor assigned a part: they do not choose which, only how to play it.",
+    "The gain is double, because those who stop fighting the inevitable usually act better on what they can actually change."
+  ],
+  "analogia": {
+    "parrafo": 2,
+    "icono": "mascara"
+  },
   "ejemplo_real": "A cancelled flight. Whether it is cancelled does not depend on you, nor does the queue at the desk, nor the mood of the person behind it. What does depend on you is how you tell it, what you do with the hours, and whether you treat the person next to you as an obstacle or as someone in the same position. Most people spend the whole afternoon on the first list.",
   "matiz_experto": "The persistent objection is political: that 'inner freedom' works as resignation and disarms social criticism, by relocating into the subject's judgement a problem that is sometimes structural.",
   "visualizacion": {

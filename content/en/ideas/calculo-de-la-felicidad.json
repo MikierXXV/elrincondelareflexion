@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "A law or an action is right to the extent that it produces the greatest well-being for the greatest number, counting each person as one and nobody as more than one.",
-  "desarrollo": "Bentham was not arguing in the abstract: he wanted to dismantle a legal system that hanged people for stealing a sheep and justified itself by appealing to custom. Against that he proposes a test anyone can apply and argue over: adding up the well-being and suffering a measure produces in everyone affected, considering its intensity, its duration and how many people it reaches. What is genuinely radical is not the calculation but who it includes. In came women, people without property, and animals too, of whom he wrote that the relevant question is not whether they can reason or talk, but whether they can suffer. He rejected the idea of natural rights as rhetoric with no verifiable content. Out of that criterion came concrete penal, prison and electoral reforms.",
+  "desarrollo": [
+    "Bentham was not arguing in the abstract: he wanted to dismantle a legal system that hanged people for stealing a sheep and justified itself by appealing to custom. Against that he proposes a test anyone can apply and argue over: adding up the well-being and suffering a measure produces in everyone affected, considering its intensity, its duration and how many people it reaches.",
+    "What is genuinely radical is not the calculation but who it includes. In came women, people without property, and animals too, of whom he wrote that the relevant question is not whether they can reason or talk, but whether they can suffer.",
+    "He rejected the idea of natural rights as rhetoric with no verifiable content. Out of that criterion came concrete penal, prison and electoral reforms."
+  ],
   "ejemplo_real": "It is the reasoning behind any public health decision: distributing a limited number of vaccines, deciding where to put a pedestrian crossing, setting a speed limit. Nobody settles these by consulting abstract principles; they count people affected and the magnitude of harm avoided. The utilitarian calculus is the grammar of those decisions even when nobody names it.",
   "matiz_experto": "The structural objection is that a purely aggregative criterion can justify sacrificing a minority if the sum comes out favourable. It is exactly the point Rawls builds his theory against, accusing utilitarianism of not taking the distinction between persons seriously.",
   "visualizacion": {
