@@ -23,7 +23,11 @@
     "atribucion": "directa"
   },
   "resumen": "En cualquier cosa que conocemos podemos separar dos preguntas: qué es y si es. La existencia no forma parte de la definición, y de esa grieta sale la prueba de que algo tiene que existir necesariamente.",
-  "desarrollo": "La observación de partida es fácil de comprobar y sus consecuencias no. Puedes tener la definición completa de algo —todos sus rasgos, sin que falte uno— y seguir sin saber si existe. La existencia no está entre las propiedades. De ahí se sigue que todo lo que nos rodea es meramente posible: podría no haber existido, y por tanto necesita una causa que lo haga existir. Pero si todo fuera así, la totalidad quedaría sin explicación, porque una cadena entera de cosas posibles sigue siendo posible. Avicena concluye que debe haber algo cuya esencia sea justamente existir, un necesario por sí mismo del que dependan los demás. No es un argumento sobre el primer momento del tiempo, sino sobre dependencia: aunque la cadena fuera infinita hacia atrás, seguiría necesitando de qué colgar.",
+  "desarrollo": [
+    "La observación de partida es fácil de comprobar y sus consecuencias no. Puedes tener la definición completa de algo —todos sus rasgos, sin que falte uno— y seguir sin saber si existe. La existencia no está entre las propiedades.",
+    "De ahí se sigue que todo lo que nos rodea es meramente posible: podría no haber existido, y por tanto necesita una causa que lo haga existir. Pero si todo fuera así, la totalidad quedaría sin explicación, porque una cadena entera de cosas posibles sigue siendo posible.",
+    "Avicena concluye que debe haber algo cuya esencia sea justamente existir, un necesario por sí mismo del que dependan los demás. No es un argumento sobre el primer momento del tiempo, sino sobre dependencia: aunque la cadena fuera infinita hacia atrás, seguiría necesitando de qué colgar."
+  ],
   "ejemplo_real": "Un plano de una casa contiene todo lo que la casa es: medidas, materiales, distribución. Y no contiene ni un gramo de información sobre si esa casa está construida. Puedes conocer el plano al detalle y tener que ir a mirar. Esa distancia entre el plano y el solar es exactamente la que Avicena señala.",
   "matiz_experto": "Averroes lo criticó por tratar la existencia como un accidente añadido a la esencia. Tomás de Aquino la reelabora como distinción real entre esencia y acto de ser, y de ahí sale la analogía del ser, que Duns Escoto rechazará abriendo una de las grandes bifurcaciones de la escolástica.",
   "visualizacion": {

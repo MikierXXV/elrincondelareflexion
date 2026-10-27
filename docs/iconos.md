@@ -67,3 +67,4 @@ se añade allí (nombre solo a–z, una línea) y aquí. `idea` es el comodín: 
 | Ficha | Icono | Por qué |
 |---|---|---|
 | idea `termino-medio` | `bucle` | «las virtudes se adquieren como los oficios, practicándolas» |
+| idea `anatman` | `engranaje` | el carro que no es nada aparte de sus piezas ensambladas y funcionando (párrafo 0 entero) |
