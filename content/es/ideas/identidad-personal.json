@@ -23,7 +23,11 @@
     "atribucion": "directa"
   },
   "resumen": "No es el cuerpo, que se ha renovado entero, ni un alma que nadie puede examinar. Locke propone que lo que te hace el mismo es la continuidad de tu conciencia; Hume replica que ni siquiera eso hay.",
-  "desarrollo": "Locke desplaza la pregunta del terreno de la sustancia al de la memoria: soy la misma persona que aquel niño en la medida en que puedo reconocer como míos sus recuerdos. Es una propuesta con consecuencias prácticas inmediatas, porque vincula identidad y responsabilidad: castigar a alguien por algo que no puede reconocer como suyo deja de tener sentido. Hume da un paso más y quita también el suelo. Dice que cuando mira dentro de sí buscando el yo, nunca lo encuentra: solo tropieza con percepciones concretas —un calor, una molestia, un recuerdo— que se suceden sin descanso. El yo sería el nombre de esa sucesión, no algo que la posea. Y reconoce en el apéndice de su propio libro que no consigue explicar qué las unifica, una honestidad poco frecuente.",
+  "desarrollo": [
+    "Locke desplaza la pregunta del terreno de la sustancia al de la memoria: soy la misma persona que aquel niño en la medida en que puedo reconocer como míos sus recuerdos. Es una propuesta con consecuencias prácticas inmediatas, porque vincula identidad y responsabilidad: castigar a alguien por algo que no puede reconocer como suyo deja de tener sentido.",
+    "Hume da un paso más y quita también el suelo. Dice que cuando mira dentro de sí buscando el yo, nunca lo encuentra: solo tropieza con percepciones concretas —un calor, una molestia, un recuerdo— que se suceden sin descanso.",
+    "El yo sería el nombre de esa sucesión, no algo que la posea. Y reconoce en el apéndice de su propio libro que no consigue explicar qué las unifica, una honestidad poco frecuente."
+  ],
   "ejemplo_real": "Lees un mensaje que escribiste hace quince años y no reconoces a quien lo escribió: no piensas así, no te preocupa eso, no hablas así. Y sin embargo era tu nombre. Al mismo tiempo, si mañana alguien tuviera tus recuerdos completos y tú no, cuesta decir cuál de los dos serías tú.",
   "matiz_experto": "El criterio de la memoria recibió la objeción de Reid: el oficial que recuerda su infancia y el general que recuerda al oficial pero no la infancia rompen la transitividad. Los neolockeanos responden con cadenas de conexiones psicológicas solapadas, y el debate sigue plenamente abierto.",
   "visualizacion": {

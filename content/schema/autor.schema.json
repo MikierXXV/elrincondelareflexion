@@ -17,6 +17,18 @@
     "fuentes"
   ],
   "additionalProperties": false,
+  "definitions": {
+    "analogia": {
+      "type": "object",
+      "description": "Bloque «Piénsalo así»: señala cuál de los párrafos del campo en bloques (desarrollo en la idea, nivel_2_desarrollo en el autor) es una analogía, y con qué icono se dibuja. No lleva texto propio. El icono tiene que estar en ICONOS_ANALOGIA (src/app/bloques.ts; catálogo en docs/iconos.md), y es igual en es y en.",
+      "required": ["parrafo", "icono"],
+      "additionalProperties": false,
+      "properties": {
+        "parrafo": { "type": "integer", "minimum": 0 },
+        "icono": { "type": "string", "pattern": "^[a-z]+$" }
+      }
+    }
+  },
   "properties": {
     "id": {
       "type": "string",
@@ -80,16 +92,19 @@
       "description": "Cromo. Lenguaje llano, 1-2 frases. Entra en el bundle inicial."
     },
     "nivel_2_desarrollo": {
-      "type": "string",
-      "minLength": 400,
-      "maxLength": 1400,
-      "description": "Párrafo accesible pero preciso. Carga bajo demanda junto con la visualización."
+      "description": "Accesible pero preciso. Una cadena (formato antiguo) o la misma prosa en 2-4 párrafos (bloques, ver DECISIONES.md). La longitud, 400-1400, se mide sobre el texto unido.",
+      "oneOf": [
+        { "type": "string", "minLength": 400, "maxLength": 1400 },
+        { "type": "array", "minItems": 2, "maxItems": 4, "items": { "type": "string", "minLength": 60 } }
+      ]
     },
+    "analogia": { "$ref": "#/definitions/analogia" },
     "nivel_3_experto": {
-      "type": "string",
-      "minLength": 700,
-      "maxLength": 2200,
-      "description": "Modo experto: terminología técnica, matices, debate historiográfico, relaciones entre autores."
+      "description": "Modo experto: terminología técnica, matices, debate historiográfico, relaciones entre autores. Una cadena o 2-5 párrafos; 700-2200 caracteres sobre el texto unido.",
+      "oneOf": [
+        { "type": "string", "minLength": 700, "maxLength": 2200 },
+        { "type": "array", "minItems": 2, "maxItems": 5, "items": { "type": "string", "minLength": 60 } }
+      ]
     },
     "debate_abierto": {
       "type": "string",

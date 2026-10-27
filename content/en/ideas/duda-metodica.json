@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Descartes deliberately doubts everything that can be doubted — the senses, the world, even mathematics — to see whether anything holds. One thing holds: that someone is doing the doubting.",
-  "desarrollo": "Cartesian doubt is not scepticism, it is a tool. The point is to strip away layer by layer until the floor is found. First the senses go, since they sometimes deceive and therefore do not deserve full trust. Then perception as a whole, because nothing lets us tell waking apart with certainty from a very vivid dream. And finally even mathematical truths, by imagining an evil genius powerful enough to make him err in every sum. When it seems nothing is left, what he was looking for appears: if I am being deceived, I must exist in order to be. Thought cannot deny itself without exercising itself. That is the minimal certainty from which he tries to rebuild everything, and from it comes his conclusion that what we essentially are is a thinking thing.",
+  "desarrollo": [
+    "Cartesian doubt is not scepticism, it is a tool. The point is to strip away layer by layer until the floor is found.",
+    "First the senses go, since they sometimes deceive and therefore do not deserve full trust. Then perception as a whole, because nothing lets us tell waking apart with certainty from a very vivid dream. And finally even mathematical truths, by imagining an evil genius powerful enough to make him err in every sum.",
+    "When it seems nothing is left, what he was looking for appears: if I am being deceived, I must exist in order to be. Thought cannot deny itself without exercising itself. That is the minimal certainty from which he tries to rebuild everything, and from it comes his conclusion that what we essentially are is a thinking thing."
+  ],
   "ejemplo_real": "When you wake from a very realistic dream, for a few seconds you do not know which of the two worlds was the real one. What is never in doubt at that moment is that someone is confused. You can be wrong about absolutely all the content of your experience, but not about the fact that you are having it.",
   "matiz_experto": "The cogito raises a structural problem: if it is an inference it needs a universal premise that doubt would already have suspended; if it is an immediate intuition, one has to explain what licenses the move from thinking to a substantial subject — the objection Lichtenberg, Hume and Nietzsche would press.",
   "visualizacion": {

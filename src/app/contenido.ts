@@ -27,6 +27,12 @@ export interface AutorEnIdea {
   aporte?: string;
 }
 
+/** Qué párrafo de un campo en bloques es la analogía, y con qué icono se dibuja. Ver bloques.ts. */
+export interface Analogia {
+  parrafo: number;
+  icono: string;
+}
+
 export interface Idea {
   id: string;
   corriente_id: string;
@@ -36,7 +42,9 @@ export interface Idea {
   pregunta: string;
   cita: Cita & { autor_id: string };
   resumen: string;
-  desarrollo: string;
+  /** Una cadena (formato antiguo) o la misma prosa en párrafos (bloques). */
+  desarrollo: string | string[];
+  analogia?: Analogia;
   ejemplo_real: string;
   matiz_experto?: string;
   visualizacion: {
@@ -61,8 +69,10 @@ export interface Autor {
   dialogo_filosofico?: string;
   citas: Cita[];
   nivel_1_resumen: string;
-  nivel_2_desarrollo: string;
-  nivel_3_experto: string;
+  nivel_2_desarrollo: string | string[];
+  /** La analogía, si la hay, es un párrafo de `nivel_2_desarrollo`. */
+  analogia?: Analogia;
+  nivel_3_experto: string | string[];
   debate_abierto?: string;
   fuentes: { titulo: string; url: string | null }[];
 }

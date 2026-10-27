@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "validar": "node scripts/validate-content.mjs --completo && node scripts/check-contraste.mjs",
     "validar:fuentes": "node scripts/check-fuentes.mjs",
+    "validar:texto": "node scripts/comprobar-texto-bloques.mjs",
     "capturar": "node scripts/capturar-prototipos.mjs",
     "capturar:galeria": "node scripts/capturar-galeria.mjs",
     "probar:mecanicas": "node scripts/capturar-detalle.mjs",

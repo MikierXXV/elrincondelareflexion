@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "El miedo tiene objeto; la angustia no. Es el mareo que produce advertir que somos capaces de cualquier cosa y que nada nos obliga a elegir una en particular.",
-  "desarrollo": "Kierkegaard escribe contra los grandes sistemas con un argumento sencillo: por muy completo que sea un sistema, yo sigo teniendo que elegir, y esa elección no la hace nadie por mí. De ahí su análisis de la angustia, que separa cuidadosamente del miedo. Se teme algo concreto: un perro, una enfermedad, un examen. La angustia, en cambio, no tiene objeto, y por eso no se puede resolver evitando nada. Su imagen es el borde de un precipicio: lo que produce vértigo no es la posibilidad de caerse, sino descubrir que uno podría saltar, que nada se lo impide. La angustia es entonces la forma en que la libertad se hace notar. No es una avería psicológica que haya que quitar, sino la señal de que hay una decisión que es tuya y de la que vas a responder.",
+  "desarrollo": [
+    "Kierkegaard escribe contra los grandes sistemas con un argumento sencillo: por muy completo que sea un sistema, yo sigo teniendo que elegir, y esa elección no la hace nadie por mí. De ahí su análisis de la angustia, que separa cuidadosamente del miedo.",
+    "Se teme algo concreto: un perro, una enfermedad, un examen. La angustia, en cambio, no tiene objeto, y por eso no se puede resolver evitando nada. Su imagen es el borde de un precipicio: lo que produce vértigo no es la posibilidad de caerse, sino descubrir que uno podría saltar, que nada se lo impide.",
+    "La angustia es entonces la forma en que la libertad se hace notar. No es una avería psicológica que haya que quitar, sino la señal de que hay una decisión que es tuya y de la que vas a responder."
+  ],
   "ejemplo_real": "El domingo por la tarde de alguien que acaba de dejar un trabajo y tiene por delante meses sin obligaciones. No hay ninguna amenaza y sin embargo cuesta respirar. Es exactamente lo contrario del agobio por falta de tiempo: es el vértigo de que ninguna hora esté decidida y de que lo que salga de ahí sea enteramente responsabilidad tuya.",
   "matiz_experto": "Publicó bajo seudónimos con voces autónomas y pidió que no se le citara como responsable de ellas, así que atribuirle tesis directamente exige cuidado. Su 'suspensión teleológica de lo ético' arrastra además la objeción de abrir la puerta al irracionalismo.",
   "visualizacion": {

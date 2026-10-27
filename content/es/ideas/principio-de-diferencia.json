@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "No prohíbe que unos ganen más. Condiciona esa ganancia a dos cosas: que haya igualdad efectiva de oportunidades y que el resultado mejore la situación de los que están peor.",
-  "desarrollo": "El principio parte de una constatación: los talentos con los que nacemos no son mérito nuestro. Nadie eligió su capacidad de cálculo, su salud o la familia que le enseñó a hablar de cierta manera. Si nada de eso está merecido, tampoco lo están automáticamente las recompensas que se derivan. Pero Rawls no concluye que todo deba repartirse por igual, porque cierta desigualdad genera incentivos que acaban produciendo más para todos. Su criterio es que la desigualdad tiene que pagar por sí misma: se acepta si, comparada con un reparto más igualitario, deja mejor a los que están abajo. La clave es contra qué se mide. No contra el promedio, que puede subir mientras el suelo baja, sino contra la posición del peor situado, que funciona como termómetro de todo el sistema.",
+  "desarrollo": [
+    "El principio parte de una constatación: los talentos con los que nacemos no son mérito nuestro. Nadie eligió su capacidad de cálculo, su salud o la familia que le enseñó a hablar de cierta manera. Si nada de eso está merecido, tampoco lo están automáticamente las recompensas que se derivan.",
+    "Pero Rawls no concluye que todo deba repartirse por igual, porque cierta desigualdad genera incentivos que acaban produciendo más para todos. Su criterio es que la desigualdad tiene que pagar por sí misma: se acepta si, comparada con un reparto más igualitario, deja mejor a los que están abajo.",
+    "La clave es contra qué se mide. No contra el promedio, que puede subir mientras el suelo baja, sino contra la posición del peor situado, que funciona como termómetro de todo el sistema."
+  ],
   "ejemplo_real": "Pagar más a los médicos que aceptan ir a un pueblo aislado crea una desigualdad salarial evidente. Y sin embargo quien sale ganando es la gente de ese pueblo, que antes no tenía consulta. Ese es el tipo de desigualdad que el principio admite, y sirve para distinguirla de las que solo suben el promedio de un país sin tocar el suelo.",
   "matiz_experto": "Nozick lo atacó desde el libertarismo: un patrón distributivo solo se mantiene interfiriendo continuamente en transacciones voluntarias. Sen y Nussbaum desplazaron el foco de los bienes primarios a las capacidades reales de las personas, que es hoy la alternativa más influyente.",
   "visualizacion": {

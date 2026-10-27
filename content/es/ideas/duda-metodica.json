@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Descartes duda a propósito de todo lo que puede ser puesto en duda —los sentidos, el mundo, hasta las matemáticas— para ver si algo resiste. Resiste una sola cosa: que hay alguien dudando.",
-  "desarrollo": "La duda cartesiana no es escepticismo, es una herramienta. Se trata de desmontar por capas para encontrar el suelo. Primero caen los sentidos, que a veces engañan y por tanto no merecen confianza plena. Después la percepción entera, porque nada permite distinguir con certeza la vigilia de un sueño muy vívido. Y por último incluso las verdades matemáticas, imaginando un genio maligno lo bastante poderoso como para hacerle errar en cada suma. Cuando parece que no queda nada, aparece lo que buscaba: si estoy siendo engañado, tengo que existir para poder serlo. El pensamiento no puede negarse a sí mismo sin ejercerse. Esa es la certeza mínima desde la que intenta reconstruirlo todo, y de ahí sale su conclusión de que lo que somos esencialmente es una cosa que piensa.",
+  "desarrollo": [
+    "La duda cartesiana no es escepticismo, es una herramienta. Se trata de desmontar por capas para encontrar el suelo.",
+    "Primero caen los sentidos, que a veces engañan y por tanto no merecen confianza plena. Después la percepción entera, porque nada permite distinguir con certeza la vigilia de un sueño muy vívido. Y por último incluso las verdades matemáticas, imaginando un genio maligno lo bastante poderoso como para hacerle errar en cada suma.",
+    "Cuando parece que no queda nada, aparece lo que buscaba: si estoy siendo engañado, tengo que existir para poder serlo. El pensamiento no puede negarse a sí mismo sin ejercerse. Esa es la certeza mínima desde la que intenta reconstruirlo todo, y de ahí sale su conclusión de que lo que somos esencialmente es una cosa que piensa."
+  ],
   "ejemplo_real": "Cuando despiertas de un sueño muy realista, durante unos segundos no sabes cuál de los dos mundos era el bueno. Lo que nunca está en duda en ese momento es que hay alguien confundido. Puedes equivocarte sobre absolutamente todo el contenido de tu experiencia, pero no sobre que la estás teniendo.",
   "matiz_experto": "El cogito plantea un problema estructural: si es una inferencia, necesita una premisa universal que la duda ya habría suspendido; si es una intuición inmediata, hay que explicar qué autoriza a pasar del pensamiento a un sujeto sustancial, objeción que formularán Lichtenberg, Hume y Nietzsche.",
   "visualizacion": {

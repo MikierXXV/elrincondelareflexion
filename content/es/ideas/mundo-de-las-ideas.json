@@ -18,7 +18,16 @@
     "atribucion": "directa"
   },
   "resumen": "Los objetos concretos cambian y son imperfectos, pero cuando hablamos de 'círculo' o de 'justicia' nos referimos a algo que no varía. Platón concluye que esas realidades estables existen, y que lo que vemos son copias suyas.",
-  "desarrollo": "Ningún círculo dibujado es perfectamente circular, y sin embargo entendemos qué es un círculo mejor que cualquier dibujo. Lo mismo ocurre con la justicia: reconocemos actos más o menos justos porque los medimos contra algo que no coincide con ninguno de ellos. Platón responde que existen Formas o Ideas, patrones inmutables de los que las cosas participan, y que conocer es pasar de la copia al patrón. La alegoría de la caverna traduce eso en imagen: unos prisioneros encadenados desde siempre solo ven sombras proyectadas en un muro y las toman por la realidad entera. Quien logra girarse y salir descubre los objetos y la luz que los hacía visibles; al volver a contarlo, no le creen y les resulta insoportable. La alegoría es epistemológica y política a la vez: explica los grados del conocimiento y por qué quien pregunta demasiado molesta a la ciudad.",
+  "desarrollo": [
+    "Ningún círculo dibujado es perfectamente circular, y sin embargo entendemos qué es un círculo mejor que cualquier dibujo. Lo mismo ocurre con la justicia: reconocemos actos más o menos justos porque los medimos contra algo que no coincide con ninguno de ellos.",
+    "Platón responde que existen Formas o Ideas, patrones inmutables de los que las cosas participan, y que conocer es pasar de la copia al patrón.",
+    "La alegoría de la caverna traduce eso en imagen: unos prisioneros encadenados desde siempre solo ven sombras proyectadas en un muro y las toman por la realidad entera. Quien logra girarse y salir descubre los objetos y la luz que los hacía visibles; al volver a contarlo, no le creen y les resulta insoportable.",
+    "La alegoría es epistemológica y política a la vez: explica los grados del conocimiento y por qué quien pregunta demasiado molesta a la ciudad."
+  ],
+  "analogia": {
+    "parrafo": 2,
+    "icono": "caverna"
+  },
   "ejemplo_real": "Es lo que ocurre cuando conoces a alguien solo por lo que publica. No estás viendo a esa persona: ves una proyección que ella controla, recortada y encuadrada. Y si un día la tratas de verdad, la primera reacción no suele ser curiosidad, sino incomodidad, porque desmiente la imagen con la que llevabas tiempo tratando.",
   "matiz_experto": "El propio Platón somete la teoría a crítica en el Parménides, donde el 'argumento del tercer hombre' amenaza con una regresión infinita. Y leer la República como un programa político literal choca con su forma dialogada, en la que él nunca habla en primera persona.",
   "visualizacion": {

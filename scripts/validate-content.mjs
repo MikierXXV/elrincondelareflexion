@@ -11,7 +11,7 @@
  */
 
 import { readFile, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -67,6 +67,79 @@ const ATRIBUCIONES = ['directa', 'tradicional', 'dudosa'];
 
 const contarPalabras = (texto) => texto.trim().split(/\s+/).filter(Boolean).length;
 
+/*
+ * TEXTO EN BLOQUES (DECISIONES.md). Los campos largos pueden ser una cadena —el formato de siempre—
+ * o la misma prosa en párrafos. Los límites de longitud se miden sobre el texto unido, así que partir
+ * no cambia lo que se exige; aparte se acota cuántos párrafos y lo corto que puede ser cada uno.
+ * `analogia` señala uno de esos párrafos y su icono, que tiene que existir en el renderizador.
+ */
+const PARRAFOS = {
+  desarrollo: [2, 4],
+  nivel_2_desarrollo: [2, 4],
+  nivel_3_experto: [2, 5],
+};
+const MIN_PARRAFO = 60;
+/** Campo de cada tipo de ficha del que sale la analogía. */
+const CAMPO_ANALOGIA = { idea: 'desarrollo', autor: 'nivel_2_desarrollo' };
+
+// Los iconos válidos se LEEN del registro del renderizador, como en software-engineer: copiarlos aquí
+// sería tener dos listas que se desincronizan.
+const ICONOS = (() => {
+  const fuente = readFileSync(join(ROOT, 'src/app/bloques.ts'), 'utf8');
+  const i = fuente.indexOf('export const ICONOS_ANALOGIA');
+  const fin = fuente.indexOf('\n};', i);
+  return new Set(i === -1 ? [] : [...fuente.slice(i, fin).matchAll(/^\s{2}([a-z]+):/gm)].map((m) => m[1]));
+})();
+
+/** El texto de un campo largo, unido. Comprueba de paso la forma si va en párrafos. */
+function textoLargo(ficha, campo, donde) {
+  const v = ficha[campo];
+  if (typeof v === 'string') return v;
+  if (!Array.isArray(v)) return undefined;
+  const [min, max] = PARRAFOS[campo];
+  if (v.length < min || v.length > max) err(donde, `"${campo}" tiene ${v.length} párrafos; se esperan entre ${min} y ${max}`);
+  v.forEach((p, i) => {
+    if (typeof p !== 'string') err(donde, `"${campo}"[${i}] no es texto`);
+    else if (p.trim().length < MIN_PARRAFO) err(donde, `"${campo}"[${i}] tiene ${p.trim().length} caracteres; un párrafo no baja de ${MIN_PARRAFO}`);
+    else if (p !== p.trim()) err(donde, `"${campo}"[${i}] empieza o acaba en espacio`);
+  });
+  return v.join(' ');
+}
+
+function validarAnalogia(ficha, tipo, donde) {
+  const a = ficha.analogia;
+  if (a === undefined) return;
+  const campo = CAMPO_ANALOGIA[tipo];
+  if (!Array.isArray(ficha[campo])) {
+    err(donde, `"analogia" señala un párrafo, pero "${campo}" no está en párrafos`);
+    return;
+  }
+  if (!Number.isInteger(a.parrafo) || a.parrafo < 0 || a.parrafo >= ficha[campo].length) {
+    err(donde, `analogia.parrafo (${a.parrafo}) fuera de "${campo}" (0-${ficha[campo].length - 1})`);
+  }
+  if (!ICONOS.has(a.icono)) {
+    err(donde, `analogia.icono "${a.icono}" no está en ICONOS_ANALOGIA de src/app/bloques.ts. Ver docs/iconos.md`);
+  }
+}
+
+/** Markdown mínimo: una marca sin pareja se pintaría como asteriscos sueltos en la página. */
+function validarMarcas(texto, ruta, donde) {
+  if (typeof texto !== 'string') return;
+  const sinCodigo = texto.replace(/`[^`]*`/g, '');
+  const sinNegrita = sinCodigo.replace(/\*\*/g, '');
+  if ((texto.match(/`/g) ?? []).length % 2) err(donde, `${ruta}: acento grave (\`) sin pareja`);
+  if ((sinCodigo.match(/\*\*/g) ?? []).length % 2) err(donde, `${ruta}: negrita (**) sin pareja`);
+  if ((sinNegrita.match(/\*/g) ?? []).length % 2) err(donde, `${ruta}: cursiva (*) sin pareja`);
+}
+
+/** La forma en bloques de una ficha, para compararla entre idiomas: párrafos por campo y analogía. */
+function formaBloques(ficha, campos) {
+  const forma = {};
+  for (const c of campos) forma[c] = Array.isArray(ficha[c]) ? ficha[c].length : 'cadena';
+  forma.analogia = ficha.analogia ? `${ficha.analogia.parrafo}:${ficha.analogia.icono}` : null;
+  return JSON.stringify(forma);
+}
+
 const TIPOS_VIS = ['svg-interactivo', 'canvas-fisica', 'three-js', 'css-animation'];
 
 /** Deben coincidir con MECANICAS y PROPIAS de src/vis/registro.ts. */
@@ -103,8 +176,9 @@ function validarAutor(autor, donde) {
   }
 
   for (const [campo, [min, max]] of Object.entries(LIMITES)) {
-    const texto = autor[campo];
+    const texto = campo in PARRAFOS ? textoLargo(autor, campo, donde) : autor[campo];
     if (typeof texto !== 'string') continue;
+    validarMarcas(texto, campo, donde);
     if (texto.length < min) err(donde, `"${campo}" tiene ${texto.length} caracteres, mínimo ${min}`);
     if (texto.length > max) err(donde, `"${campo}" tiene ${texto.length} caracteres, máximo ${max}`);
   }
@@ -145,6 +219,8 @@ function validarAutor(autor, donde) {
       }
     });
   }
+
+  validarAnalogia(autor, 'autor', donde);
 
   if (autor.visualizacion) {
     err(donde, 'la visualización ya no cuelga del autor sino de la idea (content/<lang>/ideas/)');
@@ -225,8 +301,9 @@ function validarIdea(idea, donde) {
   }
 
   for (const [campo, [min, max]] of Object.entries(LIMITES_IDEA)) {
-    const texto = idea[campo];
+    const texto = campo in PARRAFOS ? textoLargo(idea, campo, donde) : idea[campo];
     if (typeof texto !== 'string') continue;
+    validarMarcas(texto, campo, donde);
     if (texto.length < min) err(donde, `"${campo}" tiene ${texto.length} caracteres, mínimo ${min}`);
     if (texto.length > max) err(donde, `"${campo}" tiene ${texto.length} caracteres, máximo ${max}`);
   }
@@ -258,6 +335,7 @@ function validarIdea(idea, donde) {
     }
   }
 
+  validarAnalogia(idea, 'idea', donde);
   validarVisualizacion(idea.visualizacion, idea, donde);
 }
 
@@ -287,6 +365,8 @@ async function validarIdioma(idioma) {
   const archivos = (await readdir(join(dir, 'autores'))).filter((f) => f.endsWith('.json'));
 
   const autores = new Map();
+  /** Forma en bloques de cada ficha, para la paridad entre idiomas. */
+  const formas = new Map();
   for (const archivo of archivos) {
     const autor = await leerJSON(join(dir, 'autores', archivo));
     const donde = `${idioma}/autores/${archivo}`;
@@ -294,6 +374,7 @@ async function validarIdioma(idioma) {
     if (autores.has(autor.id)) err(donde, `id de autor duplicado: "${autor.id}"`);
     validarAutor(autor, donde);
     autores.set(autor.id, autor);
+    formas.set(`autores/${autor.id}`, formaBloques(autor, ['nivel_2_desarrollo', 'nivel_3_experto']));
   }
 
   // Integridad referencial en ambos sentidos.
@@ -334,6 +415,7 @@ async function validarIdioma(idioma) {
         err(donde, `la cita atribuye a "${idea.cita.autor_id}", que no tiene ficha`);
       }
       ideas.set(idea.id, idea);
+      formas.set(`ideas/${idea.id}`, formaBloques(idea, ['desarrollo']));
     }
   }
 
@@ -436,6 +518,7 @@ async function validarIdioma(idioma) {
     autores: [...autores.keys()].sort(),
     corrientes: [...idsCorriente].sort(),
     rotulos,
+    formas,
     ideasRedactadas: ideas.size,
     ideasMapeadas: ideasDeclaradas.size,
     escenas3d: escenas3d.length,
@@ -471,6 +554,13 @@ for (const idioma of IDIOMAS.slice(1)) {
     const inventadas = otras.filter((k) => !claves.includes(k));
     if (sinTraducir.length) err(`${idioma}/ideas/${id}.json`, `rótulos sin traducir: ${sinTraducir.join(', ')}`);
     if (inventadas.length) err(`${idioma}/ideas/${id}.json`, `rótulos que no existen en es: ${inventadas.join(', ')}`);
+  }
+
+  // Bloques: los dos idiomas se parten igual y señalan la misma analogía con el mismo icono. Si no,
+  // la misma ficha se leería con distinta estructura según el idioma.
+  for (const [ficha, forma] of base.formas) {
+    const otra = otro.formas.get(ficha);
+    if (otra && otra !== forma) err(`${idioma}/${ficha}.json`, `bloques distintos de es: ${otra} frente a ${forma}`);
   }
 }
 

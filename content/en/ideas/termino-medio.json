@@ -18,7 +18,15 @@
     "atribucion": "directa"
   },
   "resumen": "Virtue is not a rule applied identically every time, but a point of balance between two excesses, one that shifts with each situation and is acquired by repeating acts rather than by grasping theories.",
-  "desarrollo": "Aristotle is not trying to define the Good in the abstract, but to describe what makes a human life flourish. His answer is that the virtues are stable dispositions lying between two opposite failings: courage between recklessness and cowardice, generosity between extravagance and meanness. The crucial point is that this mean is neither arithmetical nor fixed. What counts as courage in one situation is imprudence in another, and getting it right in each concrete case is the work of practical wisdom, a know-how that cannot be deduced from principles. Hence the most useful consequence of his whole ethics: the virtues are acquired the way trades are, by practising them. You become just by doing just things, as you become a carpenter by making furniture. Nobody learns to play an instrument by reading about music.",
+  "desarrollo": [
+    "Aristotle is not trying to define the Good in the abstract, but to describe what makes a human life flourish. His answer is that the virtues are stable dispositions lying between two opposite failings: courage between recklessness and cowardice, generosity between extravagance and meanness.",
+    "The crucial point is that this mean is neither arithmetical nor fixed. What counts as courage in one situation is imprudence in another, and getting it right in each concrete case is the work of practical wisdom, a know-how that cannot be deduced from principles.",
+    "Hence the most useful consequence of his whole ethics: the virtues are acquired the way trades are, by practising them. You become just by doing just things, as you become a carpenter by making furniture. Nobody learns to play an instrument by reading about music."
+  ],
+  "analogia": {
+    "parrafo": 2,
+    "icono": "bucle"
+  },
   "ejemplo_real": "Telling someone what you actually think. Always swallowing it is cowardice; blurting everything out unfiltered is not sincerity, it is tactlessness. And the right point moves: it is not the same with your boss, with your partner, or with someone who has just had bad news. Nobody can hand you the rule; it is only tuned by practice.",
   "matiz_experto": "It remains debated whether the Aristotelian good life is 'inclusive' — integrating several goods — or culminates in the contemplative life of Book X, which would leave the mean as something preparatory.",
   "visualizacion": {

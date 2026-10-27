@@ -23,7 +23,11 @@
     "atribucion": "directa"
   },
   "resumen": "It is not the body, which has been entirely renewed, nor a soul that nobody can examine. Locke proposes that what makes you the same is the continuity of your consciousness; Hume replies that not even that is there.",
-  "desarrollo": "Locke moves the question from the ground of substance to that of memory: I am the same person as that child insofar as I can recognise his memories as mine. It is a proposal with immediate practical consequences, because it ties identity to responsibility: punishing someone for something they cannot recognise as their own stops making sense. Hume goes one step further and removes the floor as well. He says that when he looks inside himself for the self, he never finds it: he only stumbles on particular perceptions — a warmth, a discomfort, a memory — following one another without rest. The self would be the name of that succession, not something that owns it. And in the appendix to his own book he admits that he cannot explain what unifies them, a rare piece of honesty.",
+  "desarrollo": [
+    "Locke moves the question from the ground of substance to that of memory: I am the same person as that child insofar as I can recognise his memories as mine. It is a proposal with immediate practical consequences, because it ties identity to responsibility: punishing someone for something they cannot recognise as their own stops making sense.",
+    "Hume goes one step further and removes the floor as well. He says that when he looks inside himself for the self, he never finds it: he only stumbles on particular perceptions — a warmth, a discomfort, a memory — following one another without rest.",
+    "The self would be the name of that succession, not something that owns it. And in the appendix to his own book he admits that he cannot explain what unifies them, a rare piece of honesty."
+  ],
   "ejemplo_real": "You read a message you wrote fifteen years ago and do not recognise the person who wrote it: you do not think that way, that does not worry you, you do not talk like that. And yet it was your name. At the same time, if tomorrow someone had your complete memories and you did not, it is hard to say which of the two would be you.",
   "matiz_experto": "The memory criterion drew Reid's objection: the officer who remembers his childhood and the general who remembers the officer but not the childhood break transitivity. Neo-Lockeans answer with chains of overlapping psychological connections, and the debate remains fully open.",
   "visualizacion": {

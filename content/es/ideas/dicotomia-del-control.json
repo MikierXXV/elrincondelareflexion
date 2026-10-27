@@ -23,7 +23,16 @@
     "atribucion": "directa"
   },
   "resumen": "Nuestras opiniones y decisiones dependen de nosotros; el cuerpo, la reputación y los actos ajenos, no. Casi todo el sufrimiento nace de tratar como propio lo que no lo es.",
-  "desarrollo": "La distinción parece obvia hasta que se aplica en serio. Epicteto, nacido esclavo, sostiene que el juicio que hacemos sobre lo que ocurre sí está en nuestro poder, y que es ahí donde se produce la perturbación: no es el hecho lo que altera, sino la evaluación que le añadimos. Por eso la misma noticia hunde a una persona y no a otra. Lo que propone no es indiferencia, sino un reparto correcto de esfuerzo: dedicar la energía a lo que sí se puede mover, y dejar de exigirle al mundo garantías que no da. Su imagen preferida es la del actor al que se le asigna un papel: no elige cuál, sí cómo lo representa. La ganancia es doble, porque quien deja de pelear con lo inevitable suele actuar mejor sobre lo que sí puede cambiar.",
+  "desarrollo": [
+    "La distinción parece obvia hasta que se aplica en serio. Epicteto, nacido esclavo, sostiene que el juicio que hacemos sobre lo que ocurre sí está en nuestro poder, y que es ahí donde se produce la perturbación: no es el hecho lo que altera, sino la evaluación que le añadimos. Por eso la misma noticia hunde a una persona y no a otra.",
+    "Lo que propone no es indiferencia, sino un reparto correcto de esfuerzo: dedicar la energía a lo que sí se puede mover, y dejar de exigirle al mundo garantías que no da.",
+    "Su imagen preferida es la del actor al que se le asigna un papel: no elige cuál, sí cómo lo representa.",
+    "La ganancia es doble, porque quien deja de pelear con lo inevitable suele actuar mejor sobre lo que sí puede cambiar."
+  ],
+  "analogia": {
+    "parrafo": 2,
+    "icono": "mascara"
+  },
   "ejemplo_real": "Un vuelo cancelado. No depende de ti que se cancele, ni la cola del mostrador, ni el humor del que atiende. Sí depende cómo lo cuentas, qué haces con las horas y si tratas al de al lado como un obstáculo o como alguien que está igual que tú. La mayoría de la gente gasta la tarde entera en la primera lista.",
   "matiz_experto": "La objeción persistente es política: que la 'libertad interior' funcione como resignación y desactive la crítica social, al reubicar en el juicio del sujeto un problema que a veces es estructural.",
   "visualizacion": {

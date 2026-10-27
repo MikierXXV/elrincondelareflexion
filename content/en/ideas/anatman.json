@@ -28,7 +28,15 @@
     "atribucion": "directa"
   },
   "resumen": "Examining experience turns up only sensations, perceptions and thoughts changing ceaselessly, with nobody behind them having them. The self would be the name of a process, as 'cart' is the name of an assembly of parts.",
-  "desarrollo": "The classic argument uses a cart. Look for the cart: it is not the wheels, nor the axle, nor the box, nor the heaped-up sum of all of them. 'Cart' is the name we give to those parts assembled and working; useful, real as a convention, but not a separate thing existing in addition to the parts. The same with a person. Look inside and there is a warmth, a discomfort, a memory, an intention, all changing, none permanent. The self would be that name. What is striking is that Hume, from British empiricism and with no contact whatever with this tradition, describes exactly the same thing: he stumbles only on particular perceptions and never on the one who has them. And what is striking in the other direction is that the Upanishads, within India itself, hold the opposite: that there is an ultimate subject. The argument is not between East and West, it is internal to both.",
+  "desarrollo": [
+    "The classic argument uses a cart. Look for the cart: it is not the wheels, nor the axle, nor the box, nor the heaped-up sum of all of them. 'Cart' is the name we give to those parts assembled and working; useful, real as a convention, but not a separate thing existing in addition to the parts.",
+    "The same with a person. Look inside and there is a warmth, a discomfort, a memory, an intention, all changing, none permanent. The self would be that name.",
+    "What is striking is that Hume, from British empiricism and with no contact whatever with this tradition, describes exactly the same thing: he stumbles only on particular perceptions and never on the one who has them. And what is striking in the other direction is that the Upanishads, within India itself, hold the opposite: that there is an ultimate subject. The argument is not between East and West, it is internal to both."
+  ],
+  "analogia": {
+    "parrafo": 0,
+    "icono": "engranaje"
+  },
   "ejemplo_real": "Think of a football club. Every player changes, the manager, the ground, even the colours, and it is still the same club: nobody doubts that, and it occurs to nobody to hunt for where the club is, apart from its members and its continuity. We do exactly the same with a person all the time, except that there it seems to us there must be something more.",
   "matiz_experto": "The tradition faced the problem immediately: how there can be rebirth and karmic responsibility with no persisting subject. Out of this came the doctrine of dependent origination and contested answers such as the Pudgalavada. In analytic philosophy, Parfit reopened the debate in very close terms.",
   "visualizacion": {

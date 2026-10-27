@@ -18,7 +18,16 @@
     "atribucion": "directa"
   },
   "resumen": "Concrete objects change and are imperfect, yet when we talk about 'a circle' or 'justice' we mean something that does not vary. Plato concludes that those stable realities exist, and that what we see are copies of them.",
-  "desarrollo": "No drawn circle is perfectly circular, and yet we understand what a circle is better than any drawing of one. The same holds for justice: we recognise acts as more or less just because we measure them against something that coincides with none of them. Plato answers that Forms exist — unchanging patterns that things participate in — and that to know is to move from the copy to the pattern. The allegory of the cave turns this into an image: prisoners chained since birth see only shadows cast on a wall and take them for the whole of reality. Whoever manages to turn round and leave discovers the objects and the light that made them visible; on returning to report it, they are not believed and find the whole thing unbearable. The allegory is at once epistemological and political: it explains the degrees of knowledge and why someone who asks too many questions is a nuisance to the city.",
+  "desarrollo": [
+    "No drawn circle is perfectly circular, and yet we understand what a circle is better than any drawing of one. The same holds for justice: we recognise acts as more or less just because we measure them against something that coincides with none of them.",
+    "Plato answers that Forms exist — unchanging patterns that things participate in — and that to know is to move from the copy to the pattern.",
+    "The allegory of the cave turns this into an image: prisoners chained since birth see only shadows cast on a wall and take them for the whole of reality. Whoever manages to turn round and leave discovers the objects and the light that made them visible; on returning to report it, they are not believed and find the whole thing unbearable.",
+    "The allegory is at once epistemological and political: it explains the degrees of knowledge and why someone who asks too many questions is a nuisance to the city."
+  ],
+  "analogia": {
+    "parrafo": 2,
+    "icono": "caverna"
+  },
   "ejemplo_real": "It is what happens when you know someone only through what they post. You are not seeing that person: you are seeing a projection they control, cropped and framed. And if one day you deal with them for real, the first reaction is usually not curiosity but discomfort, because it contradicts the image you had been dealing with all along.",
   "matiz_experto": "Plato himself puts the theory under attack in the Parmenides, where the 'third man argument' threatens an infinite regress. And reading the Republic as a literal political programme sits badly with its dialogue form, in which he never speaks in the first person.",
   "visualizacion": {

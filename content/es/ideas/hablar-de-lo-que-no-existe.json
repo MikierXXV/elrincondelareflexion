@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Parecía que para tener sentido, una frase sobre algo inexistente debía referirse a algo. Russell la desarma en tres afirmaciones y el problema desaparece: simplemente es falsa.",
-  "desarrollo": "El caso es el que hizo escuela. «El actual rey de Francia es calvo» tiene sentido, se entiende perfectamente, y sin embargo no hay ningún rey de Francia. La tentación es concluir que debe existir algún tipo de objeto no real al que la frase se refiere, y hay filósofos que lo defendieron. Russell propone leerla de otro modo: como la conjunción de tres afirmaciones. Existe al menos un rey de Francia; existe como mucho uno; y ese es calvo. Al fallar la primera, la frase entera es sencillamente falsa, sin necesidad de postular nada. El interés no está en el ejemplo, sino en el método: traducir el lenguaje ordinario a una forma lógica explícita revela que la gramática de una frase no siempre coincide con lo que realmente afirma. Ese procedimiento define el estilo de la filosofía analítica.",
+  "desarrollo": [
+    "El caso es el que hizo escuela. «El actual rey de Francia es calvo» tiene sentido, se entiende perfectamente, y sin embargo no hay ningún rey de Francia. La tentación es concluir que debe existir algún tipo de objeto no real al que la frase se refiere, y hay filósofos que lo defendieron.",
+    "Russell propone leerla de otro modo: como la conjunción de tres afirmaciones. Existe al menos un rey de Francia; existe como mucho uno; y ese es calvo. Al fallar la primera, la frase entera es sencillamente falsa, sin necesidad de postular nada.",
+    "El interés no está en el ejemplo, sino en el método: traducir el lenguaje ordinario a una forma lógica explícita revela que la gramática de una frase no siempre coincide con lo que realmente afirma. Ese procedimiento define el estilo de la filosofía analítica."
+  ],
   "ejemplo_real": "«¿Has dejado ya de saltarte las normas?» Cualquier respuesta directa concede algo que no habías aceptado. La trampa está en que la pregunta cuela una afirmación dentro de otra, y responder «sí» o «no» la da por buena. Desarmar la frase en las piezas que realmente afirma es lo que te deja contestar.",
   "matiz_experto": "Strawson objetó que la existencia se presupone y no se afirma, y Donnellan distinguió usos referenciales y atributivos. Kripke reorientó luego todo el campo con su crítica a las teorías descriptivistas del nombre propio, así que el análisis russelliano ya no es la posición estándar.",
   "visualizacion": {

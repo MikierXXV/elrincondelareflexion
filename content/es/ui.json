@@ -50,6 +50,16 @@
     "en_disputa": "En disputa",
     "fuentes": "Fuentes"
   },
+  "bloques": {
+    "en_una_frase": "En una frase",
+    "compruebalo": "Compruébalo tú",
+    "la_idea": "La idea",
+    "piensalo_asi": "Piénsalo así",
+    "matiz": "Matiz",
+    "quien_la_penso": "Quién la pensó",
+    "su_pensamiento": "Su pensamiento",
+    "dialogo_filosofico": "Qué problema filosófico reformula"
+  },
   "widget": {
     "etiqueta": "Posición en el recorrido",
     "ir_a_cromos": "Los pensadores →",

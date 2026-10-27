@@ -2,6 +2,8 @@
 @import './fuentes.css';
 /* El marco de las piezas es el mismo que en la galería y vive en un solo sitio. Ver su cabecera. */
 @import './visualizacion.css';
+/* El texto en bloques de la idea y de la ficha de autor. */
+@import './bloques.css';
 
 /* Estilos del sitio. Todo el color y la tipografía sale de los tokens verificados en la fase 3;
    aquí solo hay composición. */
@@ -314,15 +316,7 @@ body.con-capa { overflow: hidden; }
    empuja todo lo de abajo y los enlaces a una idea concreta acaban cayendo desalineados. */
 .superficie { margin: 0 0 var(--e6); min-height: 440px; }
 
-.desarrollo { margin: 0 0 var(--e6); }
-
-.ejemplo { background: var(--fondo-hundido); border-radius: var(--r-panel); padding: var(--e4) var(--e6); margin: 0 0 var(--e6); }
-.ejemplo h4 { font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin: 0 0 var(--e2); }
-.ejemplo p { margin: 0; }
-
-.matiz { margin: 0 0 var(--e6); font-size: var(--t-pequeno); }
-.matiz summary { color: var(--texto-secundario); cursor: pointer; }
-.matiz p { margin: var(--e2) 0 0; color: var(--texto-secundario); }
+/* La idea en párrafos, la analogía, la escena y el matiz van en bloques.css. */
 
 /* ---- tira de autor: se asoma, no navega ---- */
 .tira-autores { display: grid; gap: var(--e2); margin: 0 0 var(--e6); }
@@ -541,7 +535,7 @@ body.listo .widget.fuera-del-recorrido { display: none; }
 .ficha .nivel2 { margin-top: 0; }
 .ficha h3 { font-size: var(--t-micro); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin: var(--e6) 0 var(--e2); }
 .ficha ul { margin: 0; padding-left: var(--e4); }
-.ficha .sus-ideas p { color: var(--texto-secundario); }
+.ficha .sus-ideas { color: var(--texto-secundario); }
 
 .experto { margin-top: var(--e8); border-top: 1px solid var(--separador); padding-top: var(--e4); }
 .experto summary { cursor: pointer; font-size: var(--t-pequeno); }

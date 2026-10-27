@@ -1,0 +1,84 @@
+/* ---- texto en bloques: la idea del recorrido y la ficha de autor ----
+   Viene de software-engineer (src/estilos/app.css, «texto en bloques») y de mentalista (src/ficha.css),
+   pasado a los tokens de este sitio. Ver DECISIONES.md.
+
+   El color es el de la corriente (--acento-corriente, que pone colores-corriente.ts sobre todo lo que
+   lleva data-corriente) y solo en tres sitios: el icono de cada bloque, el filete de «En una frase» y
+   la caja de la analogía. Nunca en el texto corrido: este sitio se sostiene sobre su austeridad.
+
+   El tinte es poco acento sobre el fondo elevado. Con el 8 % el texto encima no pierde contraste
+   apreciable en ningún tema; el icono, que es un gráfico y no texto, va sobre el 16 %. */
+.parada.idea, .ficha-bloques {
+  --acento-bloque: var(--acento-corriente, var(--texto-secundario));
+  --tinte: color-mix(in oklab, var(--acento-bloque) 8%, var(--fondo-elevado));
+  --tinte-fuerte: color-mix(in oklab, var(--acento-bloque) 16%, var(--fondo-elevado));
+}
+
+/* «En una frase»: la entradilla de la cabecera. */
+.en-una-frase { margin: 0 0 var(--e8); padding: var(--e1) 0 var(--e1) var(--e4); border-left: var(--trazo-enfasis) solid var(--acento-bloque); }
+.en-una-frase small { display: block; font-size: var(--t-micro); font-weight: var(--peso-semibold); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin-bottom: var(--e1); }
+.en-una-frase p { margin: 0; line-height: var(--il-texto); text-wrap: pretty; }
+.cab-idea .pregunta { margin-bottom: var(--e6); }
+
+/* Cada bloque: un rótulo con su icono. El rótulo sigue el estilo de rótulo del sitio —versalitas
+   pequeñas— y no un titular: la jerarquía la llevan el título de la idea y la pregunta. Doble clase
+   para ganar a `.ficha h3`, que en la capa daría otro cuerpo y otros márgenes. */
+.bloque { margin: var(--e12) 0 0; }
+.bloque > .bloque-t {
+  display: flex; align-items: center; gap: var(--e3);
+  margin: 0 0 var(--e4);
+  font-family: var(--fuente-texto); font-size: var(--t-pequeno); font-weight: var(--peso-semibold);
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto);
+}
+.bloque .ico-t { display: grid; place-items: center; width: 32px; height: 32px; flex: none; border-radius: var(--r-panel); background: var(--tinte-fuerte); color: var(--acento-bloque); }
+.ico, .ico-t svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+.bloque strong { font-weight: var(--peso-semibold); }
+.bloque .superficie { margin-bottom: 0; }
+
+.prosa p { margin: 0; line-height: var(--il-texto); }
+.prosa p + p { margin-top: var(--e4); }
+
+/* «Piénsalo así»: el párrafo de la analogía, con su icono (docs/iconos.md). */
+.anal {
+  display: grid; grid-template-columns: auto 1fr; gap: var(--e4); align-items: start;
+  padding: var(--e4) var(--e6); border-radius: var(--r-panel);
+  background: var(--tinte); border: 1px solid color-mix(in oklab, var(--acento-bloque) 30%, var(--separador));
+}
+.anal-ico { width: 48px; height: 48px; display: grid; place-items: center; border-radius: var(--r-panel); background: var(--fondo-elevado); color: var(--acento-bloque); border: 1px solid color-mix(in oklab, var(--acento-bloque) 35%, var(--separador)); }
+.anal-ico .ico { width: 26px; height: 26px; }
+.anal p { margin: 0; font-family: var(--fuente-titulo); font-size: var(--t-medio); line-height: var(--il-titulo); text-wrap: pretty; }
+/* Dentro de «La idea», en su sitio: lleva el rótulo pequeño dentro de la caja y separa de los párrafos vecinos. */
+.prosa > .anal { margin: var(--e6) 0; }
+.prosa .anal p { line-height: var(--il-titulo); }
+.anal-cuerpo small { display: block; font-size: var(--t-micro); font-weight: var(--peso-semibold); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin-bottom: var(--e1); }
+@media (max-width: 480px) { .anal { grid-template-columns: 1fr; gap: var(--e3); padding: var(--e4); } }
+
+/* «En la vida real»: la escena, en el fondo hundido de siempre. */
+.escena { background: var(--fondo-hundido); border-radius: var(--r-panel); padding: var(--e4) var(--e6); }
+.escena p { margin: 0; line-height: var(--il-texto); }
+@media (max-width: 480px) { .escena { padding: var(--e4); } }
+
+/* Plegables: el matiz de la idea y el modo experto de la ficha. El chevron gira al abrir. */
+.plegable, .experto { font-size: var(--t-pequeno); }
+.plegable summary, .experto summary {
+  display: flex; align-items: center; justify-content: space-between; gap: var(--e3);
+  min-height: 44px; cursor: pointer; list-style: none; color: var(--texto-secundario);
+}
+.plegable summary::-webkit-details-marker, .experto summary::-webkit-details-marker { display: none; }
+.plegable summary:hover, .experto summary:hover { color: var(--texto); }
+.plegable summary .ico, .experto summary .ico { flex: none; transition: transform var(--m-rapido) var(--curva-suave); }
+.plegable[open] summary .ico, .experto[open] summary .ico { transform: rotate(180deg); }
+.plegable p { margin: var(--e2) 0 0; color: var(--texto-secundario); line-height: var(--il-texto); }
+.experto .prosa { margin-top: var(--e3); }
+@media (prefers-reduced-motion: reduce) { .plegable summary .ico, .experto summary .ico { transition: none; } }
+
+.bloque .tira-autores { margin-bottom: 0; }
+
+/* ---- ficha de autor ---- */
+.cab-ficha .meta { margin-bottom: var(--e6); }
+.ficha-bloques .cita + .cita { margin-top: calc(var(--e2) * -1); }
+.ficha-bloques .preguntas { list-style: none; padding: 0; margin: 0; display: grid; gap: var(--e2); }
+.ficha-bloques .preguntas li { font-family: var(--fuente-titulo); font-size: var(--t-base); padding: var(--e3) var(--e4); background: var(--fondo-hundido); border-radius: var(--r-card); }
+.ficha-bloques .sus-ideas { margin: 0; }
+/* En móvil la capa no puede gastar 2rem por lado: los bloques se quedaban en una columna de 250 px. */
+@media (max-width: 480px) { .capa-autor .ficha { padding: var(--e6) var(--e4); } }

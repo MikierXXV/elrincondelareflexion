@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Un ejercicio, no una teoría: mirar el propio asunto desde cada vez más lejos —la casa, la ciudad, el siglo— hasta que recupera su tamaño real y deja sitio a lo que importa.",
-  "desarrollo": "Las Meditaciones no son un tratado sino un cuaderno privado que Marco Aurelio no pensaba publicar, escrito en campaña militar. Por eso repite: cada anotación es un ejercicio que hay que rehacer, no una conclusión alcanzada. El más característico consiste en desplazar el punto de observación. Uno empieza absorbido por un agravio concreto y va ampliando el encuadre: la habitación, la ciudad, el continente, los siglos anteriores, los que vendrán. El asunto no desaparece ni se vuelve falso, pero cambia de escala, y con la escala cambia lo que merece. A eso suma el recordatorio constante de la propia mortalidad, no como morbo sino como corrector de prioridades. Lo notable del libro es la tensión que lo recorre: alguien con poder ilimitado que se impone límites por escrito, en privado, todos los días.",
+  "desarrollo": [
+    "Las Meditaciones no son un tratado sino un cuaderno privado que Marco Aurelio no pensaba publicar, escrito en campaña militar. Por eso repite: cada anotación es un ejercicio que hay que rehacer, no una conclusión alcanzada.",
+    "El más característico consiste en desplazar el punto de observación. Uno empieza absorbido por un agravio concreto y va ampliando el encuadre: la habitación, la ciudad, el continente, los siglos anteriores, los que vendrán. El asunto no desaparece ni se vuelve falso, pero cambia de escala, y con la escala cambia lo que merece.",
+    "A eso suma el recordatorio constante de la propia mortalidad, no como morbo sino como corrector de prioridades. Lo notable del libro es la tensión que lo recorre: alguien con poder ilimitado que se impone límites por escrito, en privado, todos los días."
+  ],
   "ejemplo_real": "Un correo de trabajo que te ha revuelto la tarde. Piensa si te acordarás de él dentro de un mes; luego, dentro de cinco años. Casi ninguno sobrevive a la primera pregunta. El ejercicio no consiste en fingir que da igual, sino en comprobar cuánto de la reacción venía del tamaño real del asunto y cuánto de mirarlo demasiado de cerca.",
   "matiz_experto": "Hay una lectura crítica de su figura: la distancia entre el moralista privado y el emperador que sostuvo guerras y persecuciones es un problema historiográfico real, no un detalle.",
   "visualizacion": {
