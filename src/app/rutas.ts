@@ -15,6 +15,9 @@ import { nombreCorriente } from './contenido';
 import { asegurarIdea } from './recorrido';
 import { T } from './textos';
 
+/** Cada reanclaje anula al anterior: un reanclaje largo no debe pelearse con la navegación siguiente. */
+let reanclajeActual = 0;
+
 /**
  * El desplazamiento suave solo se usa en saltos cortos. La página completa mide decenas de miles de
  * píxeles, y animar un salto del hero a los cromos tardaba tanto que el enlace parecía roto: el
@@ -28,26 +31,35 @@ import { T } from './textos';
  * cuanto se estabiliza —o al agotar el plazo, para no perseguir un destino eternamente.
  */
 function reanclar(el: Element, plazo = 1500, estables = 3): void {
+  const mio = ++reanclajeActual;
   const limite = performance.now() + plazo;
   // El destino no es el borde superior de la ventana sino el que deja libre la barra fija. Se lee de
   // la hoja de estilos en vez de repetir el número aquí, para que no puedan discrepar.
   const hueco = parseFloat(getComputedStyle(document.documentElement).scrollPaddingTop) || 0;
   let quietos = 0;
   const paso = (): void => {
+    if (mio !== reanclajeActual) return;
     const desvio = el.getBoundingClientRect().top - hueco;
     if (Math.abs(desvio) < 2) quietos += 1;
     // 'instant' y no el valor por defecto: la hoja de estilos declara `scroll-behavior: smooth`, y
     // sin decirlo explícitamente cada corrección lanzaba una animación que cancelaba la anterior, de
     // modo que el reanclaje no avanzaba nunca.
     else { quietos = 0; window.scrollBy({ top: desvio, behavior: 'instant' }); }
-    if (quietos < estables && performance.now() < limite) requestAnimationFrame(paso);
+    if (mio === reanclajeActual && quietos < estables && performance.now() < limite) requestAnimationFrame(paso);
   };
   requestAnimationFrame(paso);
 }
 
-function irA(selector: string): void {
+function irA(selector: string, anclar = false): void {
   const el = document.querySelector(selector);
   if (!el) return;
+  if (anclar) {
+    // Las corrientes de más arriba siguen con su altura reservada y la cambian por la real al
+    // acercarse: se reancla hasta que el documento deja de moverse.
+    el.scrollIntoView({ behavior: 'auto', block: 'start' });
+    reanclar(el, 3000, 30);
+    return;
+  }
   const distancia = Math.abs(el.getBoundingClientRect().top);
   // El desplazamiento suave solo en saltos cortos; ver la nota de arriba.
   if (distancia < window.innerHeight * 3) {
@@ -86,6 +98,7 @@ export async function reanclarEn(hash: string): Promise<void> {
 }
 
 async function resolver(): Promise<void> {
+  reanclajeActual += 1;
   const hash = location.hash.replace(/^#/, '');
 
   // Anclas simples del recorrido: #corriente-x, #idea-y, #umbral
@@ -93,8 +106,9 @@ async function resolver(): Promise<void> {
     cerrarFicha();
     // Un enlace directo a una idea puede llegar antes de que su corriente se haya cargado por
     // proximidad, así que hay que forzarla o el ancla no existiría todavía.
-    if (hash.startsWith('idea-')) await asegurarIdea(hash.slice(5));
-    irA(`#${CSS.escape(hash)}`);
+    const esIdea = hash.startsWith('idea-');
+    if (esIdea) await asegurarIdea(hash.slice(5));
+    irA(`#${CSS.escape(hash)}`, esIdea);
     return;
   }
 
@@ -103,7 +117,7 @@ async function resolver(): Promise<void> {
   if (partes[0] === 'idea' && partes[2] === 'autor' && partes[3]) {
     const ideaId = partes[1]!;
     await asegurarIdea(ideaId);
-    irA(`#idea-${CSS.escape(ideaId)}`);
+    irA(`#idea-${CSS.escape(ideaId)}`, true);
     await abrirFicha(partes[3], {
       volverA: T.ficha.volver_a_idea,
       ideaActual: ideaId,

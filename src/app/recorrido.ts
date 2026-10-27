@@ -132,6 +132,9 @@ function portada(c: (typeof corrientes)[number], siguienteCorriente: string | nu
   <div class="ideas-de" data-ideas-de="${c.id}" style="min-height:${c.ideas.length * ALTO_IDEA_APROX}px"></div>`;
 }
 
+/** Lo fija `montarRecorrido`: monta las ideas de una corriente sin esperar al observador. */
+let cargarCorrientePorId: (id: string) => Promise<void> = () => Promise.resolve();
+
 export async function montarRecorrido(raiz: HTMLElement): Promise<() => void> {
   raiz.innerHTML = corrientes
     .map((c, i) => portada(c, corrientes[i + 1]?.id ?? null))
@@ -234,27 +237,31 @@ export async function montarRecorrido(raiz: HTMLElement): Promise<() => void> {
     { rootMargin: '300px 0px' },
   );
 
-  // ---- carga de las ideas de una corriente al acercarse su portada ----
-  const observadorIdeas = new IntersectionObserver(
+  // ---- carga de las ideas de una corriente: al acercarse su portada o a demanda ----
+  let observadorIdeas: IntersectionObserver;
+  function cargarCorriente(caja: HTMLElement): Promise<void> {
+    if (caja.dataset.cargado) return Promise.resolve();
+    caja.dataset.cargado = 'si';
+    observadorIdeas.unobserve(caja);
+    return ideasDe(caja.dataset.ideasDe!).then((ideas) => {
+      ideas.forEach((i) => ideasCargadas.set(i.id, i));
+      caja.innerHTML = ideas
+        .map((idea, k) => seccionIdea(idea, k, ideas.length, ideas[k + 1]?.id ?? null))
+        .join('');
+      // El hueco reservado deja de hacer falta en cuanto hay contenido real.
+      caja.style.minHeight = '';
+      caja.querySelectorAll<HTMLElement>('.parada').forEach((p) => observadorEstado.observe(p));
+      caja.querySelectorAll<HTMLElement>('[data-vis]').forEach((h) => observadorVis.observe(h));
+    });
+  }
+  cargarCorrientePorId = (id) => {
+    const caja = raiz.querySelector<HTMLElement>(`[data-ideas-de="${id}"]`);
+    return caja ? cargarCorriente(caja) : Promise.resolve();
+  };
+  observadorIdeas = new IntersectionObserver(
     (entradas) => {
       for (const e of entradas) {
-        if (!e.isIntersecting) continue;
-        const caja = e.target as HTMLElement;
-        const corrienteId = caja.dataset.ideasDe!;
-        if (caja.dataset.cargado) continue;
-        caja.dataset.cargado = 'si';
-        observadorIdeas.unobserve(caja);
-
-        void ideasDe(corrienteId).then((ideas) => {
-          ideas.forEach((i) => ideasCargadas.set(i.id, i));
-          caja.innerHTML = ideas
-            .map((idea, k) => seccionIdea(idea, k, ideas.length, ideas[k + 1]?.id ?? null))
-            .join('');
-          // El hueco reservado deja de hacer falta en cuanto hay contenido real.
-          caja.style.minHeight = '';
-          caja.querySelectorAll<HTMLElement>('.parada').forEach((p) => observadorEstado.observe(p));
-          caja.querySelectorAll<HTMLElement>('[data-vis]').forEach((h) => observadorVis.observe(h));
-        });
+        if (e.isIntersecting) void cargarCorriente(e.target as HTMLElement);
       }
     },
     // Margen amplio: las ideas tienen que estar puestas antes de que el usuario llegue a ellas.
@@ -291,6 +298,7 @@ export async function montarRecorrido(raiz: HTMLElement): Promise<() => void> {
     observadorEstado.disconnect();
     observadorVis.disconnect();
     observadorIdeas.disconnect();
+    cargarCorrientePorId = () => Promise.resolve();
     montadas.forEach((v) => v.destruir());
     montadas.clear();
     quitarVisores.forEach((quitar) => quitar());
@@ -301,19 +309,12 @@ export async function montarRecorrido(raiz: HTMLElement): Promise<() => void> {
 /**
  * Fuerza la carga de la corriente que contiene una idea. Lo necesita el enrutador: un enlace directo
  * a una idea concreta llega antes de que su corriente se haya cargado por proximidad.
+ *
+ * Se monta la corriente directamente, sin saltar hasta ella para que el observador la cargue: con un
+ * salto lejano el observador no llegaba a dispararse y la idea nunca existía.
  */
 export async function asegurarIdea(ideaId: string): Promise<void> {
   const c = corrientes.find((x) => (x.ideas as string[]).includes(ideaId));
   if (!c) return;
-  const caja = document.querySelector<HTMLElement>(`[data-ideas-de="${c.id}"]`);
-  if (!caja || caja.dataset.cargado) return;
-  caja.scrollIntoView({ block: 'start', behavior: 'auto' });
-  // El observador la cargará por proximidad; se espera a que aparezca la sección.
-  await new Promise<void>((resolver) => {
-    const revisar = () => {
-      if (document.getElementById(`idea-${ideaId}`)) resolver();
-      else requestAnimationFrame(revisar);
-    };
-    revisar();
-  });
+  await cargarCorrientePorId(c.id);
 }
