@@ -47,6 +47,10 @@
 .anal-ico { width: 48px; height: 48px; display: grid; place-items: center; border-radius: var(--r-panel); background: var(--fondo-elevado); color: var(--acento-bloque); border: 1px solid color-mix(in oklab, var(--acento-bloque) 35%, var(--separador)); }
 .anal-ico .ico { width: 26px; height: 26px; }
 .anal p { margin: 0; font-family: var(--fuente-titulo); font-size: var(--t-medio); line-height: var(--il-titulo); text-wrap: pretty; }
+/* Dentro de «La idea», en su sitio: lleva el rótulo pequeño dentro de la caja y separa de los párrafos vecinos. */
+.prosa > .anal { margin: var(--e6) 0; }
+.prosa .anal p { line-height: var(--il-titulo); }
+.anal-cuerpo small { display: block; font-size: var(--t-micro); font-weight: var(--peso-semibold); letter-spacing: 0.1em; text-transform: uppercase; color: var(--texto-secundario); margin-bottom: var(--e1); }
 @media (max-width: 480px) { .anal { grid-template-columns: 1fr; gap: var(--e3); padding: var(--e4); } }
 
 /* «En la vida real»: la escena, en el fondo hundido de siempre. */

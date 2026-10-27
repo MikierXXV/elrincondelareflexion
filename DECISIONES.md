@@ -63,12 +63,21 @@ es la «ficha A en bloques» con el texto de antes sin reescribir, y es el model
   el nivel 2») y `dialogo_filosofico` (en la psicología). No es texto nuevo.
 - Los rótulos de bloque son texto de interfaz y van en `ui.json → bloques`, en es y en en.
 
-## Orden de lectura con la analogía (R4)
+## Orden de lectura con la analogía (R4, sustituida por R4b)
 
-El orden del texto original se mantiene siempre. Si la analogía es el párrafo 0 (`analogia.parrafo === 0`),
-«Piénsalo así» va **antes** de «La idea» (o de «Su pensamiento», en el autor). En cualquier otro caso se queda
-después. `repartir()` devuelve `analogiaPrimero` y los dos sitios que pintan (`recorrido.ts`, `ficha-autor.ts`)
-colocan el bloque según eso. Afecta a anatman, libertad-como-comprension y mala-fe; ningún autor la lleva en 0.
+La analogía se pinta siempre en su posición original; el orden del texto no cambia. `repartir()` decide según
+`analogia.parrafo`:
+
+- **Primer párrafo (p0):** «Piénsalo así» va como bloque **antes** de «La idea» (o «Su pensamiento», en el autor).
+  `repartir()` devuelve `analogiaPrimero`.
+- **Intermedio:** la caja va **dentro** del flujo de «La idea», en su índice, entre los párrafos de antes y de
+  después. Mismo aspecto de caja con icono; el rótulo «Piénsalo así» va en pequeño dentro de la caja
+  (`.anal-cuerpo small`), no como cabecera de bloque. Es el caso de mundo-de-las-ideas, platon y
+  dicotomia-del-control.
+- **Último:** bloque aparte **después** de «La idea»; el orden ya se respeta.
+
+`repartir(texto, analogia, rotulo)` recibe el rótulo traducido para la caja intermedia. Lo usan `recorrido.ts` y
+`ficha-autor.ts`.
 
 ## Idiomas
 

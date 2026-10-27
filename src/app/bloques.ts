@@ -113,22 +113,28 @@ export function enUnaFrase(rotulo: string, texto: string): string {
 }
 
 /**
- * Reparte un campo largo: los párrafos de la prosa por un lado y, si la ficha señala uno como
- * analogía, ese párrafo aparte. Nada se reescribe; solo se cambia de sitio.
+ * Reparte un campo largo: la prosa y, si la ficha señala un párrafo como analogía, su caja «Piénsalo así».
+ * Nada se reescribe; la caja se pinta en la posición original del párrafo:
+ *  - primero (p0): `analogia` aparte y `analogiaPrimero`; quien pinta la pone antes de la prosa;
+ *  - intermedio: dentro de `prosa`, en su índice, con el rótulo pequeño dentro de la caja;
+ *  - último: `analogia` aparte, después de la prosa.
  */
 export function repartir(
   texto: string | string[],
-  analogia?: Analogia,
+  analogia: Analogia | undefined,
+  rotulo: string,
 ): { prosa: string; analogia: string; analogiaPrimero: boolean } {
   const parrafos = comoParrafos(texto);
   const i = analogia && Array.isArray(texto) ? analogia.parrafo : -1;
-  const prosa = parrafos.filter((_, k) => k !== i).map((p) => `<p>${md(p)}</p>`).join('');
-  if (i < 0 || !parrafos[i]) return { prosa, analogia: '', analogiaPrimero: false };
+  const parrafo = (p: string): string => `<p>${md(p)}</p>`;
+  if (i < 0 || !parrafos[i]) return { prosa: parrafos.map(parrafo).join(''), analogia: '', analogiaPrimero: false };
   const icono = (analogia!.icono in ICONOS_ANALOGIA ? analogia!.icono : 'idea') as Trazo;
-  return {
-    prosa,
-    analogia: `<div class="anal"><div class="anal-ico">${ico(icono)}</div><p>${md(parrafos[i])}</p></div>`,
-    // Si la analogía abre el texto, «Piénsalo así» va antes de la prosa para no romper el orden de lectura.
-    analogiaPrimero: i === 0,
-  };
+  const caja = (cuerpo: string): string => `<div class="anal"><div class="anal-ico">${ico(icono)}</div>${cuerpo}</div>`;
+  const sola = caja(`<p>${md(parrafos[i])}</p>`);
+  if (i === 0 || i === parrafos.length - 1) {
+    const prosa = parrafos.filter((_, k) => k !== i).map(parrafo).join('');
+    return { prosa, analogia: sola, analogiaPrimero: i === 0 };
+  }
+  const dentro = caja(`<div class="anal-cuerpo"><small>${escapar(rotulo)}</small><p>${md(parrafos[i])}</p></div>`);
+  return { prosa: parrafos.map((p, k) => (k === i ? dentro : parrafo(p))).join(''), analogia: '', analogiaPrimero: false };
 }

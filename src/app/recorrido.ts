@@ -69,7 +69,7 @@ function invitacion(texto: string): HTMLElement {
 function seccionIdea(idea: Idea, indice: number, total: number, siguiente: string | null): string {
   const B = T.bloques;
   const id = (s: string): string => `${idea.id}-${s}`;
-  const { prosa, analogia, analogiaPrimero } = repartir(idea.desarrollo, idea.analogia);
+  const { prosa, analogia, analogiaPrimero } = repartir(idea.desarrollo, idea.analogia, B.piensalo_asi);
   const bloqueAnalogia = analogia ? seccion(id('analogia'), 'idea', B.piensalo_asi, analogia) : '';
   return `
   <section class="parada idea" id="idea-${idea.id}" data-idea="${idea.id}" data-corriente="${idea.corriente_id}">
