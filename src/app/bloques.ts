@@ -67,6 +67,15 @@ export const ICONOS_ANALOGIA = {
   rayo: '<path d="M13 3 5 13.5h6L10 21l8-10.5h-6z"/>',
   trueque: '<path d="M4 8h14M14 4l4 4-4 4M20 16H6M10 12l-4 4 4 4"/>',
   sombrero: '<path d="M6 15c0-6 2.2-9 6-9s6 3 6 9"/><path d="M2.5 15h19M6 15v2.5h12V15"/>',
+  vela: '<rect x="8" y="12" width="8" height="9" rx="1"/><path d="M12 12v-1.5M12 3c2 2.5 2.5 4 2.5 5.2a2.5 2.5 0 0 1-5 0C9.5 7 10 5.5 12 3z"/>',
+  ojo: '<path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="3"/>',
+  espejo: '<ellipse cx="12" cy="9.5" rx="6" ry="7"/><path d="M12 16.5V21M8.5 21h7M9 7.5c.7-1 1.6-1.5 2.6-1.7"/>',
+  mascara: '<path d="M4 5c5 1.5 11 1.5 16 0v6c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9z"/><path d="M8 10.5c.8-.7 1.7-.7 2.5 0M13.5 10.5c.8-.7 1.7-.7 2.5 0M9 15c1.8 1.5 4.2 1.5 6 0"/>',
+  semilla: '<path d="M12 21v-8M7 21h10"/><path d="M12 13C12 9 9.5 7 5 7c0 4 2.5 6 7 6zM12 15c0-3 2-5 6-5 0 3-2 5-6 5z"/>',
+  camino: '<path d="M9 21 11 3h2l2 18"/><path d="M12 6v2.5M12 11.5v3M12 17.5V20"/>',
+  caverna: '<path d="M2.5 20v-7C2.5 7 7 3.5 12 3.5S21.5 7 21.5 13v7zM12 20v-3.5"/><circle cx="12" cy="13.5" r="1.5"/>',
+  cadena: '<rect x="2.5" y="9" width="11" height="6" rx="3"/><rect x="10.5" y="9" width="11" height="6" rx="3"/>',
+  sol: '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/>',
 };
 
 /** Trazos de los títulos de bloque (los de mentalista y software-engineer). */

@@ -185,16 +185,31 @@ Para cada tanda, y para el piloto, antes de darla por hecha:
 - **Una página propia por idea con índice lateral**: rompe el recorrido continuo, que es la decisión de
   fondo del sitio (fase 2).
 
-## Opciones para el humano (no son decisiones)
+## Decidido por el humano (antes eran dudas)
 
-1. **El color del acento en los bloques.** Puede quedarse como está (icono, filete y analogía) o volver a
-   gris.
-2. **El texto que ahora se ve por primera vez**: «En una frase» (`resumen` y `nivel_1_resumen`), la segunda
-   cita y `dialogo_filosofico`. Se puede quitar cualquiera de ellos.
-3. **Bloques con texto nuevo**: un título para cada analogía, «Cómo funciona» en pasos, «Error típico»
-   (por ejemplo, la lectura equivocada más común de la idea) y «Cuándo sí / cuándo no». Exigen redactar
-   y revisar el rigor de 59 ideas en dos idiomas. Encaja con el agente `revisor-de-contenido`.
-4. **Iconos nuevos propios de la filosofía**: vela, ojo, espejo, máscara, semilla. Ahora mismo se usan
-   los 36 de software-engineer.
-5. **Analogías forzadas**: ¿se marcan también las analogías de media frase, partiendo justo en ella? La
-   decisión actual es que no.
+1. **El acento de la corriente en los bloques se queda** (icono, filete y analogía).
+2. **Sí se muestra lo que antes no se veía**: «En una frase» (`resumen` y `nivel_1_resumen`), la segunda
+   cita y `dialogo_filosofico`.
+3. **No se escriben los bloques que piden texto nuevo** de software-engineer (pasos, error típico, cuándo
+   sí/no, título de analogía).
+4. **Sí a iconos propios de filosofía.** Hechos en R2, ver abajo.
+5. **No se marcan analogías de media frase**: solo un párrafo entero que lo sea.
+
+## Iconos propios de filosofía (R2)
+
+Añadidos a `ICONOS_ANALOGIA` (`src/app/bloques.ts`), mismo viewBox 24×24 y mismo trazo que los 36 previos
+(el validador los lee de ahí). Catálogo con ejemplos en `docs/iconos.md`. Ejemplos de uso, para el lote:
+
+| Icono | Uso típico |
+|---|---|
+| `vela` | la razón como luz frágil; la llama que se transmite |
+| `ojo` | contemplación, la mirada del otro |
+| `espejo` | reflexión sobre uno mismo, autoconocimiento |
+| `mascara` | persona/papel, apariencia social |
+| `semilla` | potencia y acto, lo que está en germen |
+| `camino` | la vía, el método, el Tao |
+| `caverna` | la caverna de Platón, lo que se toma por real |
+| `cadena` | causalidad, encadenamiento de razones |
+| `sol` | el Bien, la luz de la razón |
+
+`balanza` (justicia, término medio) y `mapa` ya existían.

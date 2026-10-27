@@ -46,8 +46,21 @@ se añade allí (nombre solo a–z, una línea) y aquí. `idea` es el comodín: 
 | `canal` | pantalla con «play» | espectáculo, representación, caverna |
 | `robot` | robot | máquinas, autómatas, mente artificial |
 
-Iconos que la filosofía pediría y que no existen todavía (vela, ojo, espejo, máscara, semilla): son una
-opción para el humano en DECISIONES.md, no una decisión.
+### Iconos propios de la filosofía (R2, aprobados por el humano)
+
+| Icono | Qué dibuja | Ejemplo de uso |
+|---|---|---|
+| `vela` | vela encendida | la razón como luz frágil, la llama que se pasa de uno a otro |
+| `ojo` | ojo | ver y ser visto, contemplación, la mirada del otro |
+| `espejo` | espejo de mano | reflexión sobre uno mismo, autoconocimiento, el reflejo |
+| `mascara` | máscara | persona y papel, apariencia social, el yo que se muestra |
+| `semilla` | brote | potencia y acto, lo que está en germen, desarrollo |
+| `camino` | camino que se aleja | la vía, el método, el Tao, el sendero de la virtud |
+| `caverna` | boca de cueva con figura | la caverna de Platón, ignorancia, lo que se toma por real |
+| `cadena` | dos eslabones | causalidad, dependencia, encadenamiento de razones |
+| `sol` | sol | el Bien, la verdad que ilumina, la luz de la razón |
+
+(`balanza` y `mapa` ya existían y cubren justicia/equilibrio y orientación.)
 
 ## Asignados
 
