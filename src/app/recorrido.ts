@@ -18,6 +18,7 @@ import {
 } from './contenido';
 import { emitir } from './estado';
 import { T, con } from './textos';
+import { enUnaFrase, ico, md, repartir, seccion } from './bloques';
 import { crearVisualizacion } from '../vis/registro';
 import { habilitarVisor } from './visor';
 import type { Visualizacion } from '../vis/lenguaje';
@@ -58,14 +59,27 @@ function invitacion(texto: string): HTMLElement {
   return p;
 }
 
+/**
+ * La idea en bloques (DECISIONES.md): cabecera con «En una frase», cita, la pieza, la idea en
+ * párrafos, la analogía si la ficha señala una, la escena real, el matiz y quién la pensó.
+ *
+ * Sin índice «En esta página», a diferencia de mentalista: aquí una idea no es una página sino una
+ * parada de un recorrido continuo, y la posición ya la lleva el widget.
+ */
 function seccionIdea(idea: Idea, indice: number, total: number, siguiente: string | null): string {
+  const B = T.bloques;
+  const id = (s: string): string => `${idea.id}-${s}`;
+  const { prosa, analogia } = repartir(idea.desarrollo, idea.analogia);
   return `
   <section class="parada idea" id="idea-${idea.id}" data-idea="${idea.id}" data-corriente="${idea.corriente_id}">
-    <p class="situacion">${con(T.recorrido.situacion_idea, {
-      corriente: nombreCorriente(idea.corriente_id), n: indice + 1, total,
-    })}</p>
-    <h3>${idea.titulo}</h3>
-    <p class="pregunta">${idea.pregunta}</p>
+    <header class="cab-idea">
+      <p class="situacion">${con(T.recorrido.situacion_idea, {
+        corriente: nombreCorriente(idea.corriente_id), n: indice + 1, total,
+      })}</p>
+      <h3>${idea.titulo}</h3>
+      <p class="pregunta">${idea.pregunta}</p>
+      ${enUnaFrase(B.en_una_frase, idea.resumen)}
+    </header>
 
     <blockquote class="cita">
       <p>${idea.cita.texto}</p>
@@ -73,18 +87,17 @@ function seccionIdea(idea: Idea, indice: number, total: number, siguiente: strin
       ${idea.cita.nota ? `<details class="atribucion"><summary>${T.recorrido.atribucion}</summary><p>${idea.cita.nota}</p></details>` : ''}
     </blockquote>
 
-    <div class="superficie" data-vis="${idea.id}"></div>
+    ${seccion(id('vis'), 'vis', B.compruebalo, `<div class="superficie" data-vis="${idea.id}"></div>`)}
 
-    <p class="desarrollo">${idea.desarrollo}</p>
+    ${seccion(id('idea'), 'lista', B.la_idea, `<div class="prosa">${prosa}</div>`)}
 
-    <aside class="ejemplo">
-      <h4>${T.recorrido.en_la_vida_real}</h4>
-      <p>${idea.ejemplo_real}</p>
-    </aside>
+    ${analogia ? seccion(id('analogia'), 'idea', B.piensalo_asi, analogia) : ''}
 
-    ${idea.matiz_experto ? `<details class="matiz"><summary>${T.recorrido.lo_que_simplifica}</summary><p>${idea.matiz_experto}</p></details>` : ''}
+    ${seccion(id('escena'), 'escena', T.recorrido.en_la_vida_real, `<div class="escena"><p>${md(idea.ejemplo_real)}</p></div>`)}
 
-    ${tiraDeAutores(idea)}
+    ${idea.matiz_experto ? seccion(id('matiz'), 'matiz', B.matiz, `<details class="plegable"><summary>${T.recorrido.lo_que_simplifica}${ico('chev')}</summary><p>${md(idea.matiz_experto)}</p></details>`) : ''}
+
+    ${seccion(id('quien'), 'persona', B.quien_la_penso, tiraDeAutores(idea))}
 
     <nav class="paso">${siguiente ? `<a href="#idea-${siguiente}">${T.recorrido.siguiente_idea}</a>` : ''}</nav>
   </section>`;

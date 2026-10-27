@@ -50,6 +50,16 @@
     "en_disputa": "Contested",
     "fuentes": "Sources"
   },
+  "bloques": {
+    "en_una_frase": "In a sentence",
+    "compruebalo": "See for yourself",
+    "la_idea": "The idea",
+    "piensalo_asi": "Think of it this way",
+    "matiz": "Nuance",
+    "quien_la_penso": "Who thought it",
+    "su_pensamiento": "Their thought",
+    "dialogo_filosofico": "Which philosophical problem it reframes"
+  },
   "widget": {
     "etiqueta": "Position in the journey",
     "ir_a_cromos": "The thinkers →",

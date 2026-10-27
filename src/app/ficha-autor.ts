@@ -8,6 +8,7 @@
 
 import { autor, ideasDe, nombreCorriente } from './contenido';
 import { abrirCapa, cerrarCapa } from './capa';
+import { comoParrafos, enUnaFrase, ico, md, repartir, seccion } from './bloques';
 import { emitir } from './estado';
 import { T, con } from './textos';
 
@@ -25,39 +26,54 @@ export async function abrirFicha(
   contexto: { volverA: string; ideaActual?: string; disparador?: HTMLElement },
 ): Promise<void> {
   const a = await autor(autorId);
-  const cita = a.citas[0]!;
   // Los títulos reales, no los identificadores: «Saber Que No Se Sabe» delataba la costura.
   const suyas = await ideasDe(a.corriente_id);
+  const B = T.bloques;
+  const { prosa, analogia } = repartir(a.nivel_2_desarrollo, a.analogia);
+  const experto = comoParrafos(a.nivel_3_experto).map((p) => `<p>${md(p)}</p>`).join('');
 
+  /*
+   * En bloques (DECISIONES.md), con el mismo módulo que la idea. El envoltorio lleva `data-corriente`
+   * para que la capa —que vive fuera del recorrido— reciba el acento de la corriente del autor.
+   * Las dos citas y el resumen del cromo ya estaban en la ficha; antes solo se pintaba la primera
+   * cita y el resumen no aparecía.
+   */
   const contenido = `
-      <h2>${a.nombre}</h2>
-      <p class="meta">${a.periodo} · ${a.region} · ${nombreCorriente(a.corriente_id)}</p>
+    <div class="ficha-bloques" data-corriente="${a.corriente_id}">
+      <div class="cab-ficha">
+        <h2>${a.nombre}</h2>
+        <p class="meta">${a.periodo} · ${a.region} · ${nombreCorriente(a.corriente_id)}</p>
+        ${enUnaFrase(B.en_una_frase, a.nivel_1_resumen)}
+      </div>
 
-      <blockquote class="cita">
-        <p>${cita.texto}</p>
-        <cite>${cita.obra}</cite>
-        ${marcaAtribucion(cita.nota)}
-      </blockquote>
+      ${a.citas.map((c) => `<blockquote class="cita">
+        <p>${c.texto}</p>
+        <cite>${c.obra}</cite>
+        ${marcaAtribucion(c.nota)}
+      </blockquote>`).join('')}
 
-      <p class="nivel2">${a.nivel_2_desarrollo}</p>
+      ${seccion('ficha-pensamiento', 'lista', B.su_pensamiento, `<div class="prosa">${prosa}</div>`, 3)}
 
-      <section class="preguntas">
-        <h3>${T.ficha.preguntas_de_fondo}</h3>
-        <ul>${a.preguntas_filosoficas.map((p) => `<li>${p}</li>`).join('')}</ul>
-      </section>
+      ${analogia ? seccion('ficha-analogia', 'idea', B.piensalo_asi, analogia, 3) : ''}
 
-      ${suyas.length ? `<section class="sus-ideas"><h3>${T.ficha.ideas_de_su_corriente}</h3>
-        <p>${suyas.map((i) => (i.id === contexto.ideaActual ? `<strong>${con(T.ficha.estas_aqui, { titulo: i.titulo })}</strong>` : i.titulo)).join(' · ')}</p></section>` : ''}
+      ${seccion('ficha-preguntas', 'pregunta', T.ficha.preguntas_de_fondo,
+        `<ul class="preguntas">${a.preguntas_filosoficas.map((p) => `<li>${md(p)}</li>`).join('')}</ul>`, 3)}
+
+      ${a.dialogo_filosofico ? seccion('ficha-dialogo', 'puente', B.dialogo_filosofico, `<div class="prosa"><p>${md(a.dialogo_filosofico)}</p></div>`, 3) : ''}
+
+      ${suyas.length ? seccion('ficha-ideas', 'ruta', T.ficha.ideas_de_su_corriente,
+        `<p class="sus-ideas">${suyas.map((i) => (i.id === contexto.ideaActual ? `<strong>${con(T.ficha.estas_aqui, { titulo: i.titulo })}</strong>` : i.titulo)).join(' · ')}</p>`, 3) : ''}
 
       <details class="experto">
-        <summary>${T.ficha.modo_experto}</summary>
-        <p>${a.nivel_3_experto}</p>
+        <summary>${T.ficha.modo_experto}${ico('chev')}</summary>
+        <div class="prosa">${experto}</div>
         ${a.debate_abierto ? `<div class="disputa"><h4>${T.ficha.en_disputa}</h4><p>${a.debate_abierto}</p></div>` : ''}
         <h4>${T.ficha.fuentes}</h4>
         <ul class="fuentes">${a.fuentes
           .map((f) => (f.url ? `<li><a href="${f.url}" target="_blank" rel="noopener">${f.titulo} ↗</a></li>` : `<li>${f.titulo}</li>`))
           .join('')}</ul>
       </details>
+    </div>
   `;
 
   abrirCapa({

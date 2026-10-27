@@ -72,11 +72,13 @@
       "description": "La idea en 1-2 frases, lenguaje llano. Va en el bundle inicial."
     },
     "desarrollo": {
-      "type": "string",
-      "minLength": 400,
-      "maxLength": 1400,
-      "description": "Explicación accesible y precisa de la idea en sí, no del autor."
+      "description": "Explicación accesible y precisa de la idea en sí, no del autor. Una cadena (formato antiguo) o la misma prosa en 2-4 párrafos (bloques, ver DECISIONES.md). La longitud, 400-1400, se mide sobre el texto unido.",
+      "oneOf": [
+        { "type": "string", "minLength": 400, "maxLength": 1400 },
+        { "type": "array", "minItems": 2, "maxItems": 4, "items": { "type": "string", "minLength": 60 } }
+      ]
     },
+    "analogia": { "$ref": "autor.schema.json#/definitions/analogia" },
     "ejemplo_real": {
       "type": "string",
       "minLength": 120,
