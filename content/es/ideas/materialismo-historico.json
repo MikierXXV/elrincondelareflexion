@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Marx invierte a Hegel: no es la conciencia la que determina la vida material, sino la manera de organizar la producción la que condiciona el derecho, la moral y lo que a cada época le parece evidente.",
-  "desarrollo": "La hipótesis es que las grandes transformaciones históricas no empiezan cuando alguien tiene una idea mejor, sino cuando cambia la base material: qué se produce, con qué herramientas y quién controla los medios. Las ideas llegan después, para dar forma y justificación a lo que ya está ocurriendo. No es una tesis de determinismo mecánico —el propio Marx insistió en que los seres humanos hacen su historia, aunque no en las condiciones que eligen— sino una inversión del orden de explicación habitual. La consecuencia metodológica es la que ha durado: al estudiar una época, preguntar primero cómo se ganaba la gente la vida y quién poseía qué, y solo después qué pensaba. Ese enfoque es hoy herramienta corriente en historia y sociología, mucho más allá del marxismo político.",
+  "desarrollo": [
+    "La hipótesis es que las grandes transformaciones históricas no empiezan cuando alguien tiene una idea mejor, sino cuando cambia la base material: qué se produce, con qué herramientas y quién controla los medios. Las ideas llegan después, para dar forma y justificación a lo que ya está ocurriendo.",
+    "No es una tesis de determinismo mecánico —el propio Marx insistió en que los seres humanos hacen su historia, aunque no en las condiciones que eligen— sino una inversión del orden de explicación habitual. La consecuencia metodológica es la que ha durado: al estudiar una época, preguntar primero cómo se ganaba la gente la vida y quién poseía qué, y solo después qué pensaba.",
+    "Ese enfoque es hoy herramienta corriente en historia y sociología, mucho más allá del marxismo político."
+  ],
   "ejemplo_real": "Cambia la forma de trabajar y cambia lo que la gente considera normal. La jornada partida, el fin de semana, la idea de que la infancia es una etapa de estudio y no de trabajo: ninguna de esas cosas se impuso porque alguien argumentara bien, sino porque cambiaron las condiciones productivas y después vinieron las leyes y las razones.",
   "matiz_experto": "Sus predicciones sobre la pauperización creciente y el colapso del capitalismo no se cumplieron como fueron formuladas, y la teoría del valor-trabajo no la sostiene la economía académica dominante. El marxismo analítico de Cohen y Roemer reconstruyó partes del programa prescindiendo de ella.",
   "visualizacion": {

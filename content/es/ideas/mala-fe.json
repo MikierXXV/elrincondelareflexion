@@ -19,7 +19,15 @@
     "nota": "Él mismo aclaró que no significa que la convivencia sea un infierno, sino que lo es depender de la mirada ajena para saber quién se es."
   },
   "resumen": "Como no podemos dejar de elegir —ni siquiera absteniéndonos—, inventamos un mecanismo para no cargar con ello: convencernos de que nuestro papel, nuestro carácter o las circunstancias nos obligaban.",
-  "desarrollo": "La fórmula de que la existencia precede a la esencia se entiende comparándonos con un objeto fabricado: un cuchillo existe porque alguien tenía antes en la cabeza su función. Con las personas ocurre al revés: primero estamos aquí y después, con lo que hacemos, definimos lo que somos. De ahí que Sartre diga que estamos condenados a ser libres: no podemos no elegir, porque abstenerse también es elegir. Eso viene con angustia, porque nadie garantiza que la decisión sea buena, y con desamparo, porque no hay instancia superior que la avale. La mala fe es la salida de emergencia: consiste en tratarse a uno mismo como si fuera una cosa con propiedades fijas —«yo soy así», «es mi trabajo», «no tenía alternativa»— para no reconocer que en cada caso hubo una elección. Lo característico es que no es una mentira a otro, es una mentira que funciona hacia dentro.",
+  "desarrollo": [
+    "La fórmula de que la existencia precede a la esencia se entiende comparándonos con un objeto fabricado: un cuchillo existe porque alguien tenía antes en la cabeza su función. Con las personas ocurre al revés: primero estamos aquí y después, con lo que hacemos, definimos lo que somos.",
+    "De ahí que Sartre diga que estamos condenados a ser libres: no podemos no elegir, porque abstenerse también es elegir. Eso viene con angustia, porque nadie garantiza que la decisión sea buena, y con desamparo, porque no hay instancia superior que la avale.",
+    "La mala fe es la salida de emergencia: consiste en tratarse a uno mismo como si fuera una cosa con propiedades fijas —«yo soy así», «es mi trabajo», «no tenía alternativa»— para no reconocer que en cada caso hubo una elección. Lo característico es que no es una mentira a otro, es una mentira que funciona hacia dentro."
+  ],
+  "analogia": {
+    "parrafo": 0,
+    "icono": "fabrica"
+  },
   "ejemplo_real": "«Yo es que soy muy directo, no puedo evitarlo.» Es una descripción que funciona como coartada: convierte una manera de tratar a la gente en un rasgo de la naturaleza, como la altura. Y se nota que es mala fe porque la misma persona sí lo evita delante de quien le conviene.",
   "matiz_experto": "Merleau-Ponty objetó que una libertad sin grados ignora la inercia del cuerpo y de la situación, y Simone de Beauvoir desarrolló un análisis mucho más fino de cómo la opresión limita el campo real de elección, hoy considerado conceptualmente autónomo y no derivado de Sartre.",
   "visualizacion": {

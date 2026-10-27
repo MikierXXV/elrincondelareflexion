@@ -18,7 +18,11 @@
     "atribucion": "directa"
   },
   "resumen": "Marx inverts Hegel: it is not consciousness that determines material life, but the way production is organised that conditions law, morality and what each age finds self-evident.",
-  "desarrollo": "The hypothesis is that great historical transformations do not begin when someone has a better idea, but when the material base changes: what is produced, with what tools, and who controls the means. The ideas arrive afterwards, to give shape and justification to what is already happening. It is not a thesis of mechanical determinism — Marx himself insisted that human beings make their own history, though not in conditions of their choosing — but an inversion of the usual order of explanation. The methodological consequence is what has lasted: in studying an age, ask first how people earned their living and who owned what, and only then what they thought. That approach is now an ordinary tool in history and sociology, far beyond political Marxism.",
+  "desarrollo": [
+    "The hypothesis is that great historical transformations do not begin when someone has a better idea, but when the material base changes: what is produced, with what tools, and who controls the means. The ideas arrive afterwards, to give shape and justification to what is already happening.",
+    "It is not a thesis of mechanical determinism — Marx himself insisted that human beings make their own history, though not in conditions of their choosing — but an inversion of the usual order of explanation. The methodological consequence is what has lasted: in studying an age, ask first how people earned their living and who owned what, and only then what they thought.",
+    "That approach is now an ordinary tool in history and sociology, far beyond political Marxism."
+  ],
   "ejemplo_real": "Change the way people work and what they consider normal changes. The split shift, the weekend, the idea that childhood is a time for study rather than work: none of these took hold because someone argued well, but because productive conditions changed and the laws and the reasons came afterwards.",
   "matiz_experto": "His predictions about growing immiseration and the collapse of capitalism did not come true as formulated, and mainstream academic economics does not support the labour theory of value. The analytical Marxism of Cohen and Roemer reconstructed parts of the programme while dispensing with it.",
   "visualizacion": {

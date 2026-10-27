@@ -19,7 +19,15 @@
     "nota": "He himself clarified that it does not mean living with others is hell, but that depending on other people's gaze to know who you are is."
   },
   "resumen": "Since we cannot stop choosing — not even by abstaining — we invent a mechanism for not carrying it: convincing ourselves that our role, our character or the circumstances left us no choice.",
-  "desarrollo": "The formula that existence precedes essence is understood by comparing ourselves with a manufactured object: a knife exists because someone had its function in mind beforehand. With people it is the other way round: first we are here, and then, by what we do, we define what we are. Hence Sartre's claim that we are condemned to be free: we cannot not choose, because abstaining is also choosing. This comes with anxiety, because nobody guarantees the decision is a good one, and with abandonment, because there is no higher authority to endorse it. Bad faith is the emergency exit: it consists in treating yourself as a thing with fixed properties — 'that's just how I am', 'it's my job', 'I had no alternative' — so as not to admit that in each case there was a choice. What is characteristic is that it is not a lie to someone else; it is a lie that works inwards.",
+  "desarrollo": [
+    "The formula that existence precedes essence is understood by comparing ourselves with a manufactured object: a knife exists because someone had its function in mind beforehand. With people it is the other way round: first we are here, and then, by what we do, we define what we are.",
+    "Hence Sartre's claim that we are condemned to be free: we cannot not choose, because abstaining is also choosing. This comes with anxiety, because nobody guarantees the decision is a good one, and with abandonment, because there is no higher authority to endorse it.",
+    "Bad faith is the emergency exit: it consists in treating yourself as a thing with fixed properties — 'that's just how I am', 'it's my job', 'I had no alternative' — so as not to admit that in each case there was a choice. What is characteristic is that it is not a lie to someone else; it is a lie that works inwards."
+  ],
+  "analogia": {
+    "parrafo": 0,
+    "icono": "fabrica"
+  },
   "ejemplo_real": "'I'm just very direct, I can't help it.' It is a description that functions as an alibi: it turns a way of treating people into a feature of nature, like height. And you can tell it is bad faith because the same person does help it in front of someone it pays to be careful with.",
   "matiz_experto": "Merleau-Ponty objected that a freedom without degrees ignores the inertia of the body and the situation, and Simone de Beauvoir developed a far finer analysis of how oppression limits the real field of choice, today regarded as conceptually independent rather than derived from Sartre.",
   "visualizacion": {

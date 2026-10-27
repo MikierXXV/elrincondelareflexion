@@ -23,7 +23,11 @@
     "atribucion": "directa"
   },
   "resumen": "Nadie elige su familia, su salud ni sus talentos. Rawls propone diseñar las reglas de la sociedad sin saber qué posición ocuparás en ella: lo que elegirías así es lo justo.",
-  "desarrollo": "El experimento tiene una función precisa: eliminar el sesgo con que cada uno defiende lo que le conviene. Imagina una situación donde los participantes deciden las reglas tras un velo que les oculta su clase, su sexo, su religión, su salud y sus capacidades. Saben cómo funciona una sociedad, pero no cuál será su sitio en ella. Rawls sostiene que en esa situación no se apostaría por maximizar el promedio, porque uno podría caer en el peor lugar y no hay segunda oportunidad. Se elegiría asegurar el suelo. De ahí salen sus dos principios: iguales libertades básicas para todos, y desigualdades aceptables solo si van unidas a igualdad efectiva de oportunidades y si benefician a quienes están peor. Con esto reactivó la filosofía política normativa tras décadas de análisis puramente conceptual.",
+  "desarrollo": [
+    "El experimento tiene una función precisa: eliminar el sesgo con que cada uno defiende lo que le conviene. Imagina una situación donde los participantes deciden las reglas tras un velo que les oculta su clase, su sexo, su religión, su salud y sus capacidades. Saben cómo funciona una sociedad, pero no cuál será su sitio en ella.",
+    "Rawls sostiene que en esa situación no se apostaría por maximizar el promedio, porque uno podría caer en el peor lugar y no hay segunda oportunidad. Se elegiría asegurar el suelo. De ahí salen sus dos principios: iguales libertades básicas para todos, y desigualdades aceptables solo si van unidas a igualdad efectiva de oportunidades y si benefician a quienes están peor.",
+    "Con esto reactivó la filosofía política normativa tras décadas de análisis puramente conceptual."
+  ],
   "ejemplo_real": "El método de partir la tarta: uno corta y el otro elige. Quien corta no sabe qué trozo le tocará, así que se esmera en la igualdad sin necesidad de ser buena persona. El velo es esa misma idea aplicada a las reglas de una sociedad entera, y funciona por la misma razón: elimina la ventaja de saber dónde estás.",
   "matiz_experto": "Harsanyi objetó que un agente racional bajo incertidumbre maximizaría la utilidad esperada, lo que llevaría a un resultado utilitarista y no al maximin de Rawls. Los comunitaristas añaden que el sujeto tras el velo está desvinculado de los fines que lo constituyen.",
   "visualizacion": {
