@@ -116,14 +116,19 @@ export function enUnaFrase(rotulo: string, texto: string): string {
  * Reparte un campo largo: los párrafos de la prosa por un lado y, si la ficha señala uno como
  * analogía, ese párrafo aparte. Nada se reescribe; solo se cambia de sitio.
  */
-export function repartir(texto: string | string[], analogia?: Analogia): { prosa: string; analogia: string } {
+export function repartir(
+  texto: string | string[],
+  analogia?: Analogia,
+): { prosa: string; analogia: string; analogiaPrimero: boolean } {
   const parrafos = comoParrafos(texto);
   const i = analogia && Array.isArray(texto) ? analogia.parrafo : -1;
   const prosa = parrafos.filter((_, k) => k !== i).map((p) => `<p>${md(p)}</p>`).join('');
-  if (i < 0 || !parrafos[i]) return { prosa, analogia: '' };
+  if (i < 0 || !parrafos[i]) return { prosa, analogia: '', analogiaPrimero: false };
   const icono = (analogia!.icono in ICONOS_ANALOGIA ? analogia!.icono : 'idea') as Trazo;
   return {
     prosa,
     analogia: `<div class="anal"><div class="anal-ico">${ico(icono)}</div><p>${md(parrafos[i])}</p></div>`,
+    // Si la analogía abre el texto, «Piénsalo así» va antes de la prosa para no romper el orden de lectura.
+    analogiaPrimero: i === 0,
   };
 }

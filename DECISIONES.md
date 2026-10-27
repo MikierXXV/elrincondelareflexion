@@ -63,6 +63,13 @@ es la «ficha A en bloques» con el texto de antes sin reescribir, y es el model
   el nivel 2») y `dialogo_filosofico` (en la psicología). No es texto nuevo.
 - Los rótulos de bloque son texto de interfaz y van en `ui.json → bloques`, en es y en en.
 
+## Orden de lectura con la analogía (R4)
+
+El orden del texto original se mantiene siempre. Si la analogía es el párrafo 0 (`analogia.parrafo === 0`),
+«Piénsalo así» va **antes** de «La idea» (o de «Su pensamiento», en el autor). En cualquier otro caso se queda
+después. `repartir()` devuelve `analogiaPrimero` y los dos sitios que pintan (`recorrido.ts`, `ficha-autor.ts`)
+colocan el bloque según eso. Afecta a anatman, libertad-como-comprension y mala-fe; ningún autor la lleva en 0.
+
 ## Idiomas
 
 Siempre es y en a la vez. El validador exige la misma forma en los dos idiomas: mismo número de párrafos por

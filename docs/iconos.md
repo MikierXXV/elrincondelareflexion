@@ -73,3 +73,4 @@ se añade allí (nombre solo a–z, una línea) y aquí. `idea` es el comodín: 
 | idea `dicotomia-del-control` | `mascara` | el actor al que se asigna un papel: no elige cuál, sí cómo lo representa (párrafo 2 entero) |
 | autor `epicteto` | `mascara` | la vida como un papel asignado en una obra (párrafo 1 entero de `nivel_2_desarrollo`) |
 | idea `libertad-como-comprension` | `cadena` | la piedra lanzada que se creería libre: causalidad que no se ve (párrafo 0 entero) |
+| idea `mala-fe` | `fabrica` | el cuchillo fabricado, que existe para algo antes de existir: existencia frente a esencia (párrafo 0 entero) |

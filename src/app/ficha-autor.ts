@@ -29,7 +29,8 @@ export async function abrirFicha(
   // Los títulos reales, no los identificadores: «Saber Que No Se Sabe» delataba la costura.
   const suyas = await ideasDe(a.corriente_id);
   const B = T.bloques;
-  const { prosa, analogia } = repartir(a.nivel_2_desarrollo, a.analogia);
+  const { prosa, analogia, analogiaPrimero } = repartir(a.nivel_2_desarrollo, a.analogia);
+  const bloqueAnalogia = analogia ? seccion('ficha-analogia', 'idea', B.piensalo_asi, analogia, 3) : '';
   const experto = comoParrafos(a.nivel_3_experto).map((p) => `<p>${md(p)}</p>`).join('');
 
   /*
@@ -52,9 +53,11 @@ export async function abrirFicha(
         ${marcaAtribucion(c.nota)}
       </blockquote>`).join('')}
 
+      ${analogiaPrimero ? bloqueAnalogia : ''}
+
       ${seccion('ficha-pensamiento', 'lista', B.su_pensamiento, `<div class="prosa">${prosa}</div>`, 3)}
 
-      ${analogia ? seccion('ficha-analogia', 'idea', B.piensalo_asi, analogia, 3) : ''}
+      ${analogiaPrimero ? '' : bloqueAnalogia}
 
       ${seccion('ficha-preguntas', 'pregunta', T.ficha.preguntas_de_fondo,
         `<ul class="preguntas">${a.preguntas_filosoficas.map((p) => `<li>${md(p)}</li>`).join('')}</ul>`, 3)}

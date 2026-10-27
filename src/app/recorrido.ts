@@ -69,7 +69,8 @@ function invitacion(texto: string): HTMLElement {
 function seccionIdea(idea: Idea, indice: number, total: number, siguiente: string | null): string {
   const B = T.bloques;
   const id = (s: string): string => `${idea.id}-${s}`;
-  const { prosa, analogia } = repartir(idea.desarrollo, idea.analogia);
+  const { prosa, analogia, analogiaPrimero } = repartir(idea.desarrollo, idea.analogia);
+  const bloqueAnalogia = analogia ? seccion(id('analogia'), 'idea', B.piensalo_asi, analogia) : '';
   return `
   <section class="parada idea" id="idea-${idea.id}" data-idea="${idea.id}" data-corriente="${idea.corriente_id}">
     <header class="cab-idea">
@@ -89,9 +90,11 @@ function seccionIdea(idea: Idea, indice: number, total: number, siguiente: strin
 
     ${seccion(id('vis'), 'vis', B.compruebalo, `<div class="superficie" data-vis="${idea.id}"></div>`)}
 
+    ${analogiaPrimero ? bloqueAnalogia : ''}
+
     ${seccion(id('idea'), 'lista', B.la_idea, `<div class="prosa">${prosa}</div>`)}
 
-    ${analogia ? seccion(id('analogia'), 'idea', B.piensalo_asi, analogia) : ''}
+    ${analogiaPrimero ? '' : bloqueAnalogia}
 
     ${seccion(id('escena'), 'escena', T.recorrido.en_la_vida_real, `<div class="escena"><p>${md(idea.ejemplo_real)}</p></div>`)}
 
