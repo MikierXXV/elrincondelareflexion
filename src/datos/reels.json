@@ -14,6 +14,54 @@
       "huella": "62a67650615f80d8"
     },
     {
+      "id": "condicionamiento-operante",
+      "idea": "condicionamiento-operante",
+      "titulo": "Casi nunca hay nada nuevo en tu móvil, y justo por eso no dejas de mirarlo.",
+      "duracion": 38,
+      "video": "reels/condicionamiento-operante.mp4",
+      "poster": "reels/condicionamiento-operante.webp",
+      "miniatura": "reels/condicionamiento-operante-mini.webp",
+      "detalle": "reels/condicionamiento-operante.json",
+      "bytes": 2091369,
+      "huella": "a0f5be7518480fa6"
+    },
+    {
+      "id": "wu-wei",
+      "idea": "wu-wei",
+      "titulo": "Cuanto más te esfuerzas en dormirte, más despierto estás.",
+      "duracion": 40,
+      "video": "reels/wu-wei.mp4",
+      "poster": "reels/wu-wei.webp",
+      "miniatura": "reels/wu-wei-mini.webp",
+      "detalle": "reels/wu-wei.json",
+      "bytes": 2393694,
+      "huella": "46f94e051288f845"
+    },
+    {
+      "id": "limite-del-placer",
+      "idea": "limite-del-placer",
+      "titulo": "Sabes cuándo parar de beber agua. ¿Sabes cuándo parar de querer dinero?",
+      "duracion": 40,
+      "video": "reels/limite-del-placer.mp4",
+      "poster": "reels/limite-del-placer.webp",
+      "miniatura": "reels/limite-del-placer-mini.webp",
+      "detalle": "reels/limite-del-placer.json",
+      "bytes": 2302724,
+      "huella": "011a34c6ee7245d7"
+    },
+    {
+      "id": "imperativo-categorico",
+      "idea": "imperativo-categorico",
+      "titulo": "Colarte solo funciona porque nadie más se cuela.",
+      "duracion": 39,
+      "video": "reels/imperativo-categorico.mp4",
+      "poster": "reels/imperativo-categorico.webp",
+      "miniatura": "reels/imperativo-categorico-mini.webp",
+      "detalle": "reels/imperativo-categorico.json",
+      "bytes": 2207723,
+      "huella": "b1e5eec67d040f85"
+    },
+    {
       "id": "mala-fe",
       "idea": "mala-fe",
       "titulo": "«Yo es que soy así.» Sartre tenía un nombre para esto.",
