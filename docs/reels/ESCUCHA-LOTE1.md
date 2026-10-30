@@ -1,13 +1,15 @@
 # Hoja de escucha: lote F5a (4 reels del rincón)
 
-Generada el 2026-10-30 (t-b18d5d). Cambios de esta pasada: condicionamiento-operante (medidor 25 px más abajo, ancla_pausas, vol_musica 0,07 para bajar el pico) e imperativo-categorico (atempo 1,01; F6: texto resincronizado, ver su sección). **PARADA: lo ve y lo escucha el humano.** Voz: Gemini Orus (`gemini-3.8-flash-tts`), una toma por reel, desde caché (0 peticiones nuevas en esta pasada). El «inicio» es el del plan, que va hasta ~0,2 s por delante de la voz.
+Generada el 2026-10-30 (t-b18d5d). Cambios de esta pasada: condicionamiento-operante (F8b: frase 1 resincronizada; antes: medidor 25 px más abajo, ancla_pausas, vol_musica 0,07 para bajar el pico) e imperativo-categorico (atempo 1,01; F6: texto resincronizado, ver su sección). **PARADA: lo ve y lo escucha el humano.** Voz: Gemini Orus (`gemini-3.8-flash-tts`), una toma por reel, desde caché (0 peticiones nuevas en esta pasada). El «inicio» es el del plan, que va hasta ~0,2 s por delante de la voz.
 
 ## condicionamiento-operante
 
 - Vídeo: `C:\Users\migue\videos-cortos\reel\reels\rincon-condicionamiento-operante\salida\rincon-condicionamiento-operante.mp4` (38.18 s, 5.73 MB, -14 LUFS, pico -1.5 dBTP)
 - Portada: `C:\Users\migue\videos-cortos\reel\reels\rincon-condicionamiento-operante\salida\rincon-condicionamiento-operante-portada.png` · hoja de fotogramas: `C:\Users\migue\videos-cortos\reel\reels\rincon-condicionamiento-operante\salida\rincon-condicionamiento-operante-fotogramas.png` · comprobaciones: `C:\Users\migue\videos-cortos\reel\reels\rincon-condicionamiento-operante\salida\rincon-condicionamiento-operante-comprobaciones.json`
 - atempo 1, 118 palabras, ritmo ≈ 3.46 pal/s (cálculo aproximado; prueba-atempo da 3,37 para imperativo-categorico a 1,00 y 3,39 a 1,01)
-- Comprobaciones: **en aviso** → alineado: frase 1: whisper solo cubre el 13 % de sus palabras; el resto va repartido por letras (medido a mano con silencedetect: tras la pausa de 2,18-2,42 s, «no dejas de mirarlo» va ~150 ms por delante de la voz, dentro del margen de −170/+150 ms; whisper no transcribe esa primera frase). ESCUCHAR la frase 1.
+- Comprobaciones: todas en verde (alineado ok, sin avisos)
+- **Retocado en F8b (t-5580d6): frase 1.** Causa: con el guion entero como `--prompt`, whisper se saltaba la frase 1 y transcribía en su lugar la última («No te falta voluntad…»), así que la frase 1 quedaba repartida por letras (cobertura 13 %) y salía una «y» suelta hacia 1,5 s. Arreglado sin tocar la voz (0 peticiones a Gemini): transcripción de la toma rehecha sin prompt, `voz.ancla_frases: true` y la opción nueva `voz.whisper_sin_prompt: true` (lib/alinear.mjs, opcional, apagada por defecto: el alineado pasa whisper sin `--prompt`). Ahora whisper cubre las 118 palabras. Copia de lo anterior: `reel/trabajo/copia-F8b-condop/`.
+- **Dónde fijarse (F8b):** 0,2-2,6 s «Casi nunca hay nada nuevo en tu móvil» palabra a palabra · 1,8-2,2 s la «y» va justo antes de la pausa (2,18-2,42 s) y «justo» entra al acabarla · 3,2-4,3 s «por eso no dejas de mirarlo» · 4,7 s «¿No debería…?»
 
 | # | Inicio | Escena | Frase |
 |---|---|---|---|
