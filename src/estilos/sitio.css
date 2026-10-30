@@ -4,6 +4,8 @@
 @import './visualizacion.css';
 /* El texto en bloques de la idea y de la ficha de autor. */
 @import './bloques.css';
+/* Los reels: fachada, bloque de la idea, carrusel de la portada y página. */
+@import './reels.css';
 
 /* Estilos del sitio. Todo el color y la tipografía sale de los tokens verificados en la fase 3;
    aquí solo hay composición. */

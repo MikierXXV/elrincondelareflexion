@@ -138,6 +138,12 @@ async function resolver(): Promise<void> {
     return;
   }
 
+  if (partes[0] === 'reels') {
+    const { abrirPaginaReels } = await import('./reels-vista');
+    abrirPaginaReels(document.querySelector<HTMLElement>('.reel-carrusel__todos') ?? undefined);
+    return;
+  }
+
   if (partes[0] === 'creditos') {
     abrirCreditos(document.querySelector<HTMLElement>('footer a') ?? undefined);
     return;
