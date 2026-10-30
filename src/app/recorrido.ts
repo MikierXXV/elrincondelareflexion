@@ -21,6 +21,7 @@ import { T, con } from './textos';
 import { enUnaFrase, ico, md, repartir, seccion } from './bloques';
 import { crearVisualizacion } from '../vis/registro';
 import { habilitarVisor } from './visor';
+import { bloqueReel } from './reels';
 import type { Visualizacion } from '../vis/lenguaje';
 
 const rolTexto = (rol: string): string =>
@@ -87,6 +88,8 @@ function seccionIdea(idea: Idea, indice: number, total: number, siguiente: strin
       <cite>${idea.cita.obra}</cite>
       ${idea.cita.nota ? `<details class="atribucion"><summary>${T.recorrido.atribucion}</summary><p>${idea.cita.nota}</p></details>` : ''}
     </blockquote>
+
+    ${bloqueReel(idea.id)}
 
     ${seccion(id('vis'), 'vis', B.compruebalo, `<div class="superficie" data-vis="${idea.id}"></div>`)}
 

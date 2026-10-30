@@ -1,0 +1,125 @@
+{
+  "nota": "Generado por scripts/importar-reels.mjs; no se edita a mano.",
+  "reels": [
+    {
+      "id": "principio-del-dano",
+      "idea": "principio-del-dano",
+      "titulo": "La cabeza es tuya. Entonces, ¿por qué te obligan a llevar casco?",
+      "duracion": 40,
+      "video": "reels/principio-del-dano.mp4",
+      "poster": "reels/principio-del-dano.webp",
+      "miniatura": "reels/principio-del-dano-mini.webp",
+      "detalle": "reels/principio-del-dano.json",
+      "bytes": 2408740,
+      "huella": "62a67650615f80d8"
+    },
+    {
+      "id": "condicionamiento-operante",
+      "idea": "condicionamiento-operante",
+      "titulo": "Casi nunca hay nada nuevo en tu móvil, y justo por eso no dejas de mirarlo.",
+      "duracion": 38,
+      "video": "reels/condicionamiento-operante.mp4",
+      "poster": "reels/condicionamiento-operante.webp",
+      "miniatura": "reels/condicionamiento-operante-mini.webp",
+      "detalle": "reels/condicionamiento-operante.json",
+      "bytes": 2076315,
+      "huella": "97117663247161bc"
+    },
+    {
+      "id": "wu-wei",
+      "idea": "wu-wei",
+      "titulo": "Cuanto más te esfuerzas en dormirte, más despierto estás.",
+      "duracion": 40,
+      "video": "reels/wu-wei.mp4",
+      "poster": "reels/wu-wei.webp",
+      "miniatura": "reels/wu-wei-mini.webp",
+      "detalle": "reels/wu-wei.json",
+      "bytes": 2393694,
+      "huella": "46f94e051288f845"
+    },
+    {
+      "id": "limite-del-placer",
+      "idea": "limite-del-placer",
+      "titulo": "Sabes cuándo parar de beber agua. ¿Sabes cuándo parar de querer dinero?",
+      "duracion": 40,
+      "video": "reels/limite-del-placer.mp4",
+      "poster": "reels/limite-del-placer.webp",
+      "miniatura": "reels/limite-del-placer-mini.webp",
+      "detalle": "reels/limite-del-placer.json",
+      "bytes": 2302724,
+      "huella": "011a34c6ee7245d7"
+    },
+    {
+      "id": "imperativo-categorico",
+      "idea": "imperativo-categorico",
+      "titulo": "Colarte solo funciona porque nadie más se cuela.",
+      "duracion": 39,
+      "video": "reels/imperativo-categorico.mp4",
+      "poster": "reels/imperativo-categorico.webp",
+      "miniatura": "reels/imperativo-categorico-mini.webp",
+      "detalle": "reels/imperativo-categorico.json",
+      "bytes": 2207723,
+      "huella": "b1e5eec67d040f85"
+    },
+    {
+      "id": "mala-fe",
+      "idea": "mala-fe",
+      "titulo": "«Yo es que soy así.» Sartre tenía un nombre para esto.",
+      "duracion": 40,
+      "video": "reels/mala-fe.mp4",
+      "poster": "reels/mala-fe.webp",
+      "miniatura": "reels/mala-fe-mini.webp",
+      "detalle": "reels/mala-fe.json",
+      "bytes": 2172964,
+      "huella": "c8d9df9f11c79bdd"
+    },
+    {
+      "id": "significado-como-uso",
+      "idea": "significado-como-uso",
+      "titulo": "«Ya hablaremos» puede ser una promesa, una despedida o una amenaza.",
+      "duracion": 40,
+      "video": "reels/significado-como-uso.mp4",
+      "poster": "reels/significado-como-uso.webp",
+      "miniatura": "reels/significado-como-uso-mini.webp",
+      "detalle": "reels/significado-como-uso.json",
+      "bytes": 2342151,
+      "huella": "b823f1d6cf4cd9d9"
+    },
+    {
+      "id": "velo-de-la-ignorancia",
+      "idea": "velo-de-la-ignorancia",
+      "titulo": "¿Quieres que alguien parta una tarta en trozos iguales? Que elija el último.",
+      "duracion": 40,
+      "video": "reels/velo-de-la-ignorancia.mp4",
+      "poster": "reels/velo-de-la-ignorancia.webp",
+      "miniatura": "reels/velo-de-la-ignorancia-mini.webp",
+      "detalle": "reels/velo-de-la-ignorancia.json",
+      "bytes": 2120900,
+      "huella": "75403f9c94058096"
+    },
+    {
+      "id": "critica-de-la-causalidad",
+      "idea": "critica-de-la-causalidad",
+      "titulo": "Has visto el fuego quemar mil veces, y nunca has visto por qué quema.",
+      "duracion": 40,
+      "video": "reels/critica-de-la-causalidad.mp4",
+      "poster": "reels/critica-de-la-causalidad.webp",
+      "miniatura": "reels/critica-de-la-causalidad-mini.webp",
+      "detalle": "reels/critica-de-la-causalidad.json",
+      "bytes": 2369104,
+      "huella": "82b81ecab541c101"
+    },
+    {
+      "id": "saber-que-no-se-sabe",
+      "idea": "saber-que-no-se-sabe",
+      "titulo": "Sabes perfectamente qué es un buen amigo. Ahora intenta definirlo.",
+      "duracion": 41,
+      "video": "reels/saber-que-no-se-sabe.mp4",
+      "poster": "reels/saber-que-no-se-sabe.webp",
+      "miniatura": "reels/saber-que-no-se-sabe-mini.webp",
+      "detalle": "reels/saber-que-no-se-sabe.json",
+      "bytes": 2239539,
+      "huella": "bb67a1cb321f6426"
+    }
+  ]
+}

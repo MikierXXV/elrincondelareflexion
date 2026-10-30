@@ -9,6 +9,7 @@
     "build": "npm run validar && npm run generar && tsc --noEmit && vite build",
     "generar": "node scripts/generar-indices.mjs && node scripts/generar-html.mjs",
     "indices": "node scripts/generar-indices.mjs",
+    "importar-reels": "node scripts/importar-reels.mjs",
     "preview": "vite preview",
     "validar": "node scripts/validate-content.mjs --completo && node scripts/check-contraste.mjs",
     "validar:fuentes": "node scripts/check-fuentes.mjs",

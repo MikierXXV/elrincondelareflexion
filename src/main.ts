@@ -34,6 +34,7 @@ import { iniciarRutas, reanclarEn } from './app/rutas';
 import { posicionGuardada, seguirPosicion } from './app/posicion';
 import { emitir } from './app/estado';
 import { cerrarFicha } from './app/ficha-autor';
+import { activarReels } from './app/reels';
 
 /*
  * LA RESTAURACIÓN DE SCROLL SE DECLARA EN LA CABECERA, no aquí. Ver el script en línea de
@@ -120,7 +121,27 @@ async function montarSitio(): Promise<void> {
   const soltarRecorrido = await montarRecorrido(document.querySelector<HTMLElement>('#recorrido')!);
   const soltarCromos = montarCromos(document.querySelector<HTMLElement>('#final')!);
 
+  /*
+   * El carrusel de reels va aparte del arranque: se pide cuando el recorrido ya está montado, para que
+   * ni su código ni sus pósters compitan con el titular. Su hueco no reserva altura, y por eso no
+   * puede mover nada de lo que ya hay pintado: está entre el hero y el recorrido, pero fuera del
+   * primer pliegue.
+   */
+  const huecoReels = document.querySelector<HTMLElement>('#reels');
+  let soltarReels = (): void => {};
+  if (huecoReels) {
+    void import('./app/reels-vista').then((m) => {
+      huecoReels.innerHTML = m.renderCarrusel();
+      // Sin reels importados no hay nada que reservar.
+      huecoReels.style.minHeight = huecoReels.innerHTML ? '' : '0';
+      m.activarCarrusel(huecoReels);
+      soltarReels = m.desmontarCarrusel;
+    });
+  }
+
   desmontarSitio = () => {
+    soltarReels();
+    if (huecoReels) huecoReels.replaceChildren();
     soltarCromos();
     soltarRecorrido();
     soltarWidget();
@@ -197,6 +218,7 @@ async function arrancar(): Promise<void> {
   if (redirigirAPreferencia()) return;
 
   await Promise.all([cargarTextos(), iniciarContenido()]);
+  activarReels();
 
   /*
    * En cuanto hay corrientes cargadas y antes de montar nada: las reglas tienen que estar puestas

@@ -1,0 +1,178 @@
+/* ---- reels ----
+   Tres sitios los pintan: el bloque de la idea (`.bloque--reel`), el carrusel de la portada
+   (`.reel-carrusel`) y la capa con todos (`.reel-rejilla`). Los tres comparten la fachada: un póster con
+   un botón; el <video> no existe hasta que se pulsa. El acento es el de la corriente
+   (--acento-corriente, que pone colores-corriente.ts sobre todo lo que lleva data-corriente).
+   Lo que va sobre el vídeo (duración, play, sonido) lleva colores propios: está sobre una imagen, no
+   sobre el papel del sitio, y no cambia con el tema. */
+
+.reel__pantalla {
+  position: relative; aspect-ratio: 9 / 16; width: 100%; overflow: hidden;
+  border-radius: var(--r-panel); background: #000;
+  border: 1px solid var(--separador);
+}
+.reel__fachada, .reel__video {
+  position: absolute; inset: 0; display: block; width: 100%; height: 100%;
+  margin: 0; padding: 0; border: 0; background: #000; object-fit: cover;
+}
+.reel__fachada { cursor: pointer; }
+.reel__fachada img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform var(--m-medio) var(--curva-suave); }
+.reel__fachada:hover img { transform: scale(1.03); }
+.reel__fachada:focus-visible, .reel__video:focus-visible { outline: 3px solid var(--foco); outline-offset: 2px; }
+.reel__play {
+  position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%);
+  display: grid; place-items: center; width: 56px; height: 56px; border-radius: 50%;
+  color: #fff; background: rgb(11 13 18 / 0.72);
+  transition: background var(--m-rapido) var(--curva-suave);
+}
+.reel__fachada:hover .reel__play { background: rgb(11 13 18 / 0.9); }
+.reel__duracion {
+  position: absolute; left: 8px; top: 8px; padding: 3px 8px; border-radius: 10px;
+  font: 600 0.72rem ui-monospace, Consolas, monospace; color: #f4f1ea; background: rgb(11 13 18 / 0.72);
+}
+
+.reel__gancho { margin: 0 0 var(--e2); font-family: var(--fuente-titulo); font-size: var(--t-medio); line-height: var(--il-apretado); max-width: var(--medida-corta); text-wrap: balance; }
+.reel__idioma { margin: 0 0 var(--e3); font-size: var(--t-micro); color: var(--texto-secundario); }
+.reel__detalles { margin-top: var(--e3); font-size: var(--t-pequeno); }
+.reel__detalles summary { cursor: pointer; display: flex; align-items: center; min-height: 44px; color: var(--texto-secundario); }
+.reel__detalles[open] summary { color: var(--texto); }
+.reel__detalles p { margin: var(--e2) 0 0; color: var(--texto-secundario); }
+.reel__rotulo { font-size: var(--t-micro); letter-spacing: 0.08em; text-transform: uppercase; color: var(--texto-secundario); }
+.reel__detalle-cuerpo .reel__rotulo { display: block; margin-top: var(--e4); }
+.reel__transcripcion { margin: var(--e2) 0 0; padding-left: var(--e6); color: var(--texto-secundario); }
+.reel__transcripcion li { margin-bottom: var(--e1); }
+.reel__fuentes { font-size: var(--t-micro); }
+
+/* ---- el reel dentro de la idea ---- */
+.bloque--reel .reel-ficha { display: grid; grid-template-columns: min(14rem, 38%) 1fr; gap: var(--e8); align-items: start; }
+.bloque--reel .reel__pie { min-width: 0; padding-top: var(--e2); }
+@media (max-width: 640px) {
+  .bloque--reel .reel-ficha { grid-template-columns: 1fr; gap: var(--e4); }
+  .bloque--reel .reel__pantalla { width: min(100%, 15rem, calc(64svh * 9 / 16)); }
+}
+
+/* ---- carrusel de la portada ---- */
+/* El hueco se reserva entero antes de que llegue el carrusel (medido: 890-940 px según el ancho): el
+   recorrido está justo debajo y, sin esto, se desplazaba al insertarlo. */
+#reels:empty { min-height: 59rem; }
+#reels:not(:empty) { border-top: 1px solid var(--separador); border-bottom: 1px solid var(--separador); }
+.reel-carrusel { max-width: 1100px; margin: 0 auto; padding: var(--e12) 0 var(--e8); }
+.reel-carrusel__cab {
+  display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between;
+  gap: var(--e2) var(--e4); margin: 0 var(--e6) var(--e4);
+}
+.reel-carrusel h2 { margin: 0; font-family: var(--fuente-titulo); font-size: var(--t-grande); line-height: var(--il-titulo); }
+.reel-carrusel__sub { margin: var(--e1) 0 0; font-size: var(--t-pequeno); color: var(--texto-secundario); }
+.reel-carrusel__todos, .reel-info__idea, .reel-tarjeta__idea {
+  display: inline-flex; align-items: center; min-height: 44px;
+  font-size: var(--t-pequeno); color: var(--texto); text-underline-offset: 3px;
+}
+.reel-carrusel__cuenta { margin: 0; text-align: center; font-size: var(--t-micro); font-variant-numeric: tabular-nums; color: var(--texto-secundario); min-height: 1.2em; }
+.reel-car { position: relative; }
+
+/* Deslizado nativo: scroll-snap + overflow-x, sin manejadores táctiles. */
+.reel-pista {
+  --w: min(72vw, 280px);
+  display: flex; gap: var(--e4); overflow-x: auto; scroll-snap-type: x mandatory;
+  scrollbar-width: none; overscroll-behavior-x: contain; touch-action: pan-x pan-y;
+  padding: 6px calc(50% - var(--w) / 2) 10px;
+}
+.reel-pista::-webkit-scrollbar { display: none; }
+.reel-pista:focus-visible { outline: 3px solid var(--foco); outline-offset: -3px; }
+.reel-slide {
+  flex: none; width: var(--w); scroll-snap-align: center; scroll-snap-stop: always;
+  opacity: 0.55; transform: scale(0.94);
+  transition: opacity var(--m-medio) var(--curva-suave), transform var(--m-medio) var(--curva-suave);
+}
+.reel-slide.on { opacity: 1; transform: none; }
+
+.reel-marco {
+  position: relative; aspect-ratio: 9 / 16; overflow: hidden; cursor: pointer;
+  border-radius: var(--r-panel); background: #000; border: 1px solid var(--separador);
+}
+.reel-marco img, .reel-marco video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.reel-marco video { opacity: 0; transition: opacity var(--m-rapido) var(--curva-suave); }
+.reel-slide.on .reel-marco video { opacity: 1; }
+.reel-slide__prog { position: absolute; inset: auto 0 0 0; height: 4px; background: rgb(255 255 255 / 0.25); }
+.reel-slide__prog i { display: block; height: 100%; width: 0; background: #e8c85a; }
+.reel-slide__num {
+  position: absolute; left: 10px; top: 10px; z-index: 2; padding: 4px 9px; border-radius: 12px;
+  font: 600 0.72rem ui-monospace, Consolas, monospace; color: #f4f1ea; background: rgb(11 13 18 / 0.72);
+}
+.reel-slide__snd {
+  position: absolute; right: 10px; top: 10px; z-index: 2; display: none; align-items: center; gap: var(--e2);
+  min-height: 44px; padding: 0 14px 0 12px; white-space: nowrap; border: 0; border-radius: 22px; cursor: pointer;
+  font: 600 0.8rem var(--fuente-texto); color: #f4f1ea; background: rgb(11 13 18 / 0.85);
+}
+.reel-slide.on .reel-slide__snd { display: inline-flex; }
+.reel-slide__snd[aria-pressed='true'] { background: #e8c85a; color: #0b0d12; }
+.reel-slide__snd svg, .reel-flecha svg {
+  width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+/* ▶ visible solo si el navegador no deja reproducir solo. */
+.reel-slide__play {
+  position: absolute; inset: 0; z-index: 1; display: none; place-items: center; border: 0;
+  background: rgb(0 0 0 / 0.25); color: #fff; cursor: pointer;
+}
+.reel-slide__play svg { width: 64px; height: 64px; padding: 14px; border-radius: 50%; background: rgb(11 13 18 / 0.78); }
+.reel-slide.on.parado .reel-slide__play { display: grid; }
+.reel-slide.on.parado .reel-marco video { opacity: 0; }
+
+.reel-info { padding: var(--e3) var(--e1) 0; visibility: hidden; }
+.reel-slide.on .reel-info { visibility: visible; }
+.reel-info__corriente {
+  display: inline-flex; align-items: center; gap: 6px; font-size: var(--t-micro); font-weight: var(--peso-semibold);
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--acento-corriente, var(--texto-secundario));
+}
+.reel-info__corriente::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--acento-corriente, var(--texto-secundario)); }
+.reel-info h3 { margin: var(--e1) 0 0; font-family: var(--fuente-titulo); font-size: var(--t-medio); line-height: var(--il-apretado); }
+.reel-info h3 a { color: inherit; text-decoration: none; }
+.reel-info h3 a:hover { text-decoration: underline; }
+.reel-info__gancho { margin: var(--e2) 0 0; font-size: var(--t-pequeno); color: var(--texto-secundario); }
+
+.reel-flecha {
+  position: absolute; top: 210px; z-index: 3; display: none; place-items: center;
+  width: 48px; height: 48px; border-radius: 50%; cursor: pointer;
+  border: 1px solid var(--borde-interactivo); background: var(--fondo-elevado); color: var(--texto);
+}
+.reel-flecha--p { left: calc(50% - 204px); }
+.reel-flecha--n { right: calc(50% - 204px); }
+.reel-flecha:focus-visible, .reel-marco:focus-visible { outline: 3px solid var(--foco); outline-offset: 2px; }
+@media (hover: hover) and (min-width: 720px) {
+  .reel-flecha { display: grid; }
+  .reel-pista { --w: 280px; gap: 72px; }
+  .reel-slide { opacity: 0.45; }
+  .reel-slide.on { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) { .reel-slide { transition: none; } }
+
+/* Móvil en horizontal: el carrusel no puede ocupar más que la pantalla. */
+@media (max-height: 500px) and (orientation: landscape) {
+  .reel-carrusel { padding-block: var(--e4) var(--e2); }
+  .reel-carrusel__sub, .reel-slide__num { display: none; }
+  .reel-pista { --w: min(80vw, 470px); gap: var(--e4); }
+  .reel-slide { display: grid; grid-template-columns: auto 1fr; gap: var(--e4); align-items: center; }
+  .reel-marco { height: min(66vh, 250px); }
+  .reel-info { padding: 0; }
+  .reel-flecha { display: none; }
+}
+
+/* ---- la capa con todos los reels (#/reels) ---- */
+.ficha .reel-nota { margin-top: calc(var(--e4) * -1); }
+.ficha .reel-rejilla {
+  list-style: none; margin: var(--e8) 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: var(--e8) var(--e4);
+}
+.reel-tarjeta { min-width: 0; }
+.reel-tarjeta--activa { grid-column: 1 / -1; display: grid; grid-template-columns: min(17rem, 100%); justify-content: center; }
+.reel-tarjeta__corriente {
+  margin: 0 0 var(--e2); font-size: var(--t-micro); font-weight: var(--peso-semibold);
+  line-height: 1.3; min-height: 3.9em; /* 3 líneas reservadas (la corriente más larga ocupa 3 en la rejilla): el cartel empieza a la misma altura en todas */
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--acento-corriente, var(--texto-secundario));
+}
+.ficha .reel-tarjeta__titulo {
+  margin: var(--e3) 0 var(--e1); font-family: var(--fuente-titulo); font-size: var(--t-base);
+  letter-spacing: normal; text-transform: none; color: var(--texto); line-height: var(--il-apretado);
+}
+.reel-tarjeta .reel__gancho { font-size: var(--t-pequeno); color: var(--texto-secundario); font-family: var(--fuente-texto); }
