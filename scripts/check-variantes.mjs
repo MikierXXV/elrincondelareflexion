@@ -37,6 +37,11 @@ for (const f of (await readdir(carpeta)).sort()) {
   titulos.push({ titulo: d.titulo, clave });
 }
 
+// `SOLO=red/base` limita la pasada a las combinaciones cuya clave lo contiene: para depurar una sola.
+if (process.env.SOLO) {
+  for (let i = titulos.length - 1; i >= 0; i--) if (!titulos[i].clave.includes(process.env.SOLO)) titulos.splice(i, 1);
+}
+
 console.log(`${titulos.length} combinaciones de mecánica y modo, derivadas del contenido.`);
 
 const navegador = await chromium.launch();
@@ -145,6 +150,7 @@ for (const { titulo, clave } of titulos) {
   await pagina.waitForTimeout(400);
 
   // Donde el gesto es mantener pulsado, se mantiene: un clic no tensa nada.
+  const resueltoAntesDeMantener = (await resolucionAhora()).trim().length >= 20;
   const asa = vivos.last();
   if (await asa.count()) {
     const caja = await asa.boundingBox().catch(() => null);
@@ -184,7 +190,15 @@ for (const { titulo, clave } of titulos) {
     await pagina.waitForTimeout(4000);
     resuelto = await resolucionAhora();
   }
-  if (resuelto.trim().length < 20) {
+  if (process.env.SOLO) console.log(`${clave}: resuelta antes de mantener=${resueltoAntesDeMantener}, al final=${resuelto.trim().length >= 20}`);
+  /*
+   * Haber resuelto ANTES de mantener pulsado cuenta. En las piezas de conmutación (`red` cortando)
+   * el mantener pulsado cae sobre un elemento manipulable y actúa como un clic: si ya estaba cortado
+   * lo restituye y retira la conclusión. Que acierte o no el trazo depende de la maquetación, así que
+   * lo medido era el azar del layout —en local pasaba, en el ejecutor de CI no— y no la pieza.
+   * Una pieza que nunca resuelve sigue fallando: ni antes ni después llega a decir nada.
+   */
+  if (resuelto.trim().length < 20 && !resueltoAntesDeMantener) {
     problemas.push(`no llega a resolver: ${titulo} [${clave}]`);
   }
 
