@@ -2,7 +2,9 @@
 
 Tarea t-598ce2 (encargo e-17e430), 2026-10-28. Va con `KIT.md` (las piezas de escena) y `fichas/<id>.md` (un
 reel por ficha). **Revisado en t-df0043 (28-10) con dos decisiones del humano:** las escenas son 3D (§11) y la voz
-es la del reel de la hipnosis (§3). También añade la regla de renders (§12).
+es la del reel de la hipnosis (§3). También añade la regla de renders (§12). **Desde la tanda 3 manda además §13
+(«Tandas siguientes», F10, 30-10)**: ritmo escrito en el guion, opciones de alineado, 2 peticiones por reel como
+mucho, un render a la vez y la lista de QA de las tandas.
 
 **Base.** Es la tubería de los 16 reels de mentalista, en `C:\Users\migue\videos-cortos`. Todo lo que dicen
 `videos-cortos/DECISIONES.md` y `videos-cortos/reel/LEEME.md` vale aquí tal cual: voz, alineado, subtítulo, cola
@@ -357,3 +359,171 @@ de juego». El 3D cuesta poco más en lo medido: render de 115 s frente a 92 s, 
   hecho sale de la caché.
 - Las herramientas del kit que renderizan (`hoja.mjs` y `comprobar-fichas.mjs`) usan la misma cola y siguen
   la misma regla.
+
+## 13. Tandas siguientes [nuevo]
+
+Lo aprendido en el piloto y en las tandas 1 y 2 (F4, F5a, F5b y el QA final de F8). Vale desde la tanda 3
+(`CANDIDATOS-2.md`, fichas de lotes 3a y 3b) y **no se vuelve a discutir**. Donde contradiga a §2, §3, §9 o §12,
+manda esta sección.
+
+### 13.1 El ritmo se escribe en el guion
+
+- Objetivo: **≤ 3,38 pal/s con `atempo` ≥ 1,00** (el piloto aprobado). El humano devolvió reels por rápidos: no
+  se acepta pasar de 3,4. Gemini Orus lee deprisa los guiones con poca puntuación: `saber-que-no-se-sabe` salió a
+  3,68 pal/s sin puntuar y hubo que repetir la toma (2 peticiones); con comas y dos «…», las mismas palabras
+  salieron a 3,28 con `atempo` 1,04.
+- Por eso **el guion de la ficha ya va puntuado** y se graba tal cual, comas «de respiración» incluidas
+  («Anoche, dentro del sueño, también estabas seguro.»). Reglas, que se cuentan antes de entregar la ficha:
+  1. **105-125 palabras** (las separadas por espacio o guion), llamada incluida;
+  2. **una pausa de puntuación cada ≤ 4,5 palabras** (`, . : ; ? ! …`; el objetivo es ~4). La tanda 3 va de 3,3
+     a 4,3;
+  3. frases de **≤ 20 palabras**;
+  4. **≤ 1 «…» cada 40 palabras** (3 como mucho en un guion de 120);
+  5. las demás de §3 (dos puntos para anunciar, pregunta que se contesta enseguida, conectores, números en letras,
+     sin siglas).
+- La ficha da la duración prevista a 3,38 y a 3,2 pal/s (palabras / ritmo + 4,04 s). Las dos tienen que quedar
+  entre 30 y 45 s.
+- Si aun así la toma sale rápida, primero se baja `atempo` desde la caché (13.2). Si con 1,00 sigue por encima de
+  3,38, se puntúa más (solo puntuación, mismas palabras) y eso gasta la 2.ª petición (13.3).
+
+### 13.2 Bloque `voz` de los guiones nuevos
+
+El de §3, con las tres opciones de alineado que pusieron a cero los avisos del lote 1 (`condicionamiento-operante`
+dio aviso de alineado en el QA final sin ellas) y `portada_color`:
+
+```json
+"voz": { "motor": "gemini", "una_toma": true, "voz": "Orus", "modelo": "gemini-3.8-flash-tts",
+         "atempo": 1.04, "inicio_ms": 60, "cola_ms": 400, "max_pausa_ms": 260,
+         "ancla_pausas": true, "ancla_frases": true, "whisper_sin_prompt": true },
+"cta_cola_ms": 3200,
+"portada_color": "<acento de la corriente>"
+```
+
+- `ancla_pausas`: recoloca la palabra que sigue a cada pausa interna.
+- `ancla_frases`: corrige el inicio de cada frase de la toma, que al repartir por letras puede errar 300-400 ms.
+- `whisper_sin_prompt`: whisper sin el guion como `--prompt`; con él, a veces se salta la frase 1 y transcribe la
+  última en su lugar (`reel/lib/alinear.mjs`).
+- El `atempo` de partida da igual (se aplica después de sintetizar). El final se elige con
+  `node reel/prueba-atempo.mjs rincon-<id> 1.00 1.16 0.01` desde la caché, sin gastar: el que deja el ritmo
+  ≤ 3,38 con menos avisos. Si un valor hace fallar el alineado, ±0,01.
+- Whisper es una medida, no el juez del texto: un aviso de palabra cambiada se escucha antes de tocar nada, y los
+  falsos se anotan en «Hecho».
+
+### 13.3 Peticiones a Gemini: 2 por reel como mucho
+
+- Cada reel gasta **1 petición** si sale bien a la primera y **2 como mucho** (una toma más, con texto distinto:
+  puntuación, o el campo `voz` de una frase con un nombre mal dicho).
+- **Nunca se repite una toma con el mismo texto**: sale igual y gasta (pasó en `saber`).
+- Si con 2 peticiones el reel sigue fuera (ritmo, nombre propio), se para y se avisa al jefe.
+- La cuota es de 10 peticiones al día: **un lote de 5 por día** (5 + margen de 5). Si los dos lotes caen el mismo
+  día, el segundo espera o se reparten la cuota por mensaje. Ante un 429 de cuota diaria, se para y se avisa.
+
+### 13.4 Renders: uno a la vez
+
+- En las tandas, **siempre uno a la vez**, por la cola (`node reel/reel.mjs --reel rincon-<id>`), con ≥ 1,2 GB
+  libres. No se usa `--sin-cola` (la excepción de §12 no compensa: 7,8 GB en total y casi nunca hay 2,0 libres).
+- Las vistas (`--vista`), la hoja, `vacios.mjs` y `web.mjs` van después del render, también de uno en uno.
+
+### 13.5 Lista de comprobación del QA (tandas)
+
+La de §9 entera, más esto, que es lo que se escapó o costó en las tandas 1 y 2:
+
+1. **Ritmo** ≤ 3,38 pal/s, `atempo` entre 1,00 y 1,16, anotado en «Hecho» con las peticiones gastadas.
+2. **Alineado**: `comprobaciones.alineado` sin avisos y las tres opciones de 13.2 puestas. Si queda un aviso, se
+   escucha esa frase y se dice en «Hecho» si es falso.
+3. **Portada**: título de 2-3 líneas de ≤ 18 caracteres, `portada_resaltar` sin signos pegados, nada por encima de
+   y = 700 en `portada_t` y `portada_color` con el acento.
+4. **Citas**: `cita` solo con una traducción leída (o «trad. propia» del original enlazado); si no, `parafrasis`.
+   La cita de la ficha se usa solo si trata la idea (la ficha dice cuál no va). `resalta` solo con palabras que la
+   voz dice tal cual.
+5. **Disputas**: ningún `gana` ni `tacha` en un contraste de algo en disputa; la disputa se dice en voz o rótulo y
+   se explica en el post.
+6. **Solapes y huecos**: 0 y 0 (`solapes_de_escena.ok`, `vacios.mjs`). Si hay que mover una pieza más de 80 px o
+   quitarla, se anota en «Hecho» (como `separa` en `critica` o el rótulo de `significado`).
+7. **Pronunciación**: nombres propios y palabras de otra lengua (Nāgārjuna, *li*, *ren*, Heráclito…) se escuchan;
+   si suenan mal, campo `voz` de esa frase (13.3).
+8. **Web**: `web.mjs` (≤ 5 MB, póster de 720 y 360) y, tras el visto bueno del humano, `npm run importar-reels` en
+   el sitio, que copia lo nuevo y lo enseña en `#/reels` y en la ficha de la idea.
+9. **«Hecho»** de la ficha rellenado: medidas, `atempo`, peticiones, cambios de guion o de escena y avisos falsos.
+   Y la hoja de escucha del lote (`ESCUCHA-LOTE3A.md`, `ESCUCHA-LOTE3B.md`) para el humano.
+
+### 13.6 Decisiones de la revisión de la tanda 3 (`REVISION-TANDA3.md`, D1-D6)
+
+- **D1 `alienacion`**: frase 4 pasa a «Karl Marx lo analizó en mil ochocientos cuarenta y cuatro, y lo llamó:
+  alienación.» (Marx no acuñó el término). Lo aplica quien graba el lote 3a, antes de la 1.ª petición.
+- **D2 `duda-metodica`**: se queda «pienso, luego existo» como `cita` «trad. propia»; el post explica «je suis» /
+  «ego sum, ego existo».
+- **D3 Suelo de ritmo**: **3,0 pal/s**. Entre 3,0 y 3,38 vale con `atempo` 1,00; si a 1,00 baja de 3,0, se sube el
+  `atempo` (≤ 1,16) hasta ≥ 3,0. Lento no es defecto; rápido sí.
+- **D4 `placeres-superiores`**: plan A (`cita` «trad. propia» de *Utilitarianism* II, Gutenberg). Quien graba lee
+  el inglés en Gutenberg y lo anota en «Hecho»; solo si no puede, plan B (`parafrasis` + frase 7 indirecta).
+- **D5 `eterno-retorno`**: «cada dolor y cada placer» (§341, «jede Lust»). Lo aplica quien graba el lote 3a.
+- **D6 ficha del sitio `flujo-y-permanencia`**: corregir el `ejemplo_real` de las células de la piel (es y en) en
+  la tarea de importar la tanda 3 a la web.
+
+## 14. Variedad visual [nuevo]
+
+Decisión de F14a (`VARIEDAD.md`), tomada tras el aviso del humano: «lo que se muestra se está reutilizando demasiado». Vale
+desde el lote 3b y **no se vuelve a discutir**. Donde contradiga a §11 en cómo se elige lo que se muestra, manda esta sección; el estilo
+(arcilla, acento, peana con aro, cámara) sigue siendo el de §11.
+
+### 14.1 Elementos propios
+
+- Cada reel lleva **al menos 2 elementos propios de su idea**: un modelo del catálogo, una disposición de `figuras` o una acción/efecto con
+  comportamiento nuevo que cuente algo de esa idea (el río que corre, la arena que se estira, la balanza que cambia de lado).
+- Propio quiere decir que **no sale en los otros 4 reels del lote ni en los 5 del lote anterior**. Pasados dos lotes puede volver.
+- Un icono de `iconos.js` hecho tubo (`modelo: 'icono'`) **no cuenta** como propio: es el comodín.
+- Cada ficha lo declara en su sección «Escena» («Elementos propios») y el QA lo comprueba con el inventario (14.6).
+
+### 14.2 Piezas genéricas: máximo N por lote
+
+Genéricas son las que valen para cualquier idea. En un lote de 5 reels:
+
+| pieza | máximo de reels por lote (N) |
+|---|---:|
+| `contraste` | **2** |
+| `burbuja` | **2** |
+| figuras con peón (`peon`, `peones`, `figuras` salvo las de maniquí) | **2** |
+| `objeto` con `modelo: 'icono'` | **2** |
+| `medidor` | **1** |
+| `linea` (salvo la cronología del autor, que es marca: 14.4) | **1** |
+
+- Un `contraste` es para un contraste **real** (una disputa abierta o dos cosas que de verdad se oponen) y nunca para repartir un titular en dos
+  tarjetas. Va sin `gana` ni `tacha` si es disputa (§13.5.5).
+- **Rótulos: como mucho 6 por reel y ninguna pila de 3 o más en una escena.** Lo que se enumera («pasado, futuro, presente») se rotula con
+  `etiquetas` ancladas a las zonas del modelo, no con una columna de rótulos.
+
+### 14.3 Maniquí en lugar del peón
+
+- Cuando **una persona hace algo humano** (saluda, entra en un río, camina, equilibra, sopesa, duerme, espera) se usa el **maniquí**
+  (`modelos/maniqui.js`, proporciones del durmiente aprobado: grosor 1,3, cabeza 1,15).
+- El **peón** queda para «uno cualquiera», una posición o un grupo anónimo (el velo, la fila, el grupo).
+- El maniquí es el actor, no una pieza genérica: no cuenta en N, pero **cada disposición de maniquí (`vado`, `ritual`, `cuerda`, `juez`,
+  `tumbada`) pertenece a un solo reel por lote** y al menos un reel de cada lote no lo usa.
+
+### 14.4 Marca: lo que puede repetirse siempre
+
+Son la firma del canal y no cuentan contra 14.1 ni 14.2: **medallón de autor, cronología del autor (la `linea` del tiempo que sigue al
+medallón, como en las tandas 1-2: el humano la pidió de vuelta al ver el piloto ren-y-li, 31-10), cierre, cita, golpe de cámara, halo,
+peana con aro y el rótulo titular** (uno por escena a lo sumo, que dice la tesis). Cualquier otra cosa se rige por 14.1 y 14.2.
+
+### 14.5 Seguridad de lo nuevo
+
+- **Parpadeo**: ≤ 3 destellos por segundo y nunca a pantalla completa (el móvil de `escritorio` pulsa a 2 Hz, con cambios de brillo moderados).
+- Las piezas nuevas siguen §11 y `LEEME.md` (geometría en `crear()`, solo transformaciones en `pintar(t)`, texto en DOM) y se comprueban con
+  `hoja.mjs --modelos` y `comprobar-fichas.mjs`; su caja se mide también con el efecto en su extremo.
+- Los costes que se declaran en `VARIEDAD.md` §4 se miden al construirlas; no se acepta una pieza que empeore el criterio de §12
+  (un render ≤ 3 min y un pico ≤ 1,3 GB).
+
+### 14.6 Cómo se comprueba
+
+- Cada ficha nueva (lote 3c en adelante) trae un bloque **«Elementos propios»** con los ≥ 2 y la lista de genéricas que usa. El jefe o quien
+  lleve el QA rellena el inventario del lote (la tabla de `VARIEDAD.md` §2.4) **antes** de grabar, y se rechaza la ficha si algo pasa de N.
+- El QA de §13.5 suma un punto 10: «inventario de variedad: ≥ 2 propios, ninguna genérica por encima de N, sin pila de 3 rótulos».
+- **Actualizado el 31-10 por el humano:** el 3b gustó («me encanta»), así que el **3a se rehace entero** (`VARIEDAD.md` §9) y
+  las **tandas 1-2 llevan la opción «Completo»** de `VARIEDAD.md` §10.4:
+  - las 5 cronologías que faltan;
+  - los retoques de principio-del-dano, significado-como-uso, imperativo-categorico, critica-de-la-causalidad y
+    limite-del-placer;
+  - rehacer condicionamiento-operante (`caja`), mala-fe y saber-que-no-se-sabe (`persona`).
+  Wu-wei, velo y principio solo con lo indicado. Todo con la voz de la caché.
