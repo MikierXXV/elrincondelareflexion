@@ -10,8 +10,8 @@
       "poster": "reels/principio-del-dano.webp",
       "miniatura": "reels/principio-del-dano-mini.webp",
       "detalle": "reels/principio-del-dano.json",
-      "bytes": 2408740,
-      "huella": "62a67650615f80d8"
+      "bytes": 2335707,
+      "huella": "2b1caee00623af43"
     },
     {
       "id": "condicionamiento-operante",
@@ -22,8 +22,8 @@
       "poster": "reels/condicionamiento-operante.webp",
       "miniatura": "reels/condicionamiento-operante-mini.webp",
       "detalle": "reels/condicionamiento-operante.json",
-      "bytes": 2076315,
-      "huella": "97117663247161bc"
+      "bytes": 2090772,
+      "huella": "eba50be8495e87b7"
     },
     {
       "id": "wu-wei",
@@ -34,8 +34,8 @@
       "poster": "reels/wu-wei.webp",
       "miniatura": "reels/wu-wei-mini.webp",
       "detalle": "reels/wu-wei.json",
-      "bytes": 2393694,
-      "huella": "46f94e051288f845"
+      "bytes": 2517340,
+      "huella": "873a4886e14c8771"
     },
     {
       "id": "limite-del-placer",
@@ -46,8 +46,8 @@
       "poster": "reels/limite-del-placer.webp",
       "miniatura": "reels/limite-del-placer-mini.webp",
       "detalle": "reels/limite-del-placer.json",
-      "bytes": 2302724,
-      "huella": "011a34c6ee7245d7"
+      "bytes": 2252488,
+      "huella": "176eb0aefebbe94c"
     },
     {
       "id": "imperativo-categorico",
@@ -58,8 +58,8 @@
       "poster": "reels/imperativo-categorico.webp",
       "miniatura": "reels/imperativo-categorico-mini.webp",
       "detalle": "reels/imperativo-categorico.json",
-      "bytes": 2207723,
-      "huella": "b1e5eec67d040f85"
+      "bytes": 2256978,
+      "huella": "ebafb6ac15031662"
     },
     {
       "id": "mala-fe",
@@ -70,8 +70,8 @@
       "poster": "reels/mala-fe.webp",
       "miniatura": "reels/mala-fe-mini.webp",
       "detalle": "reels/mala-fe.json",
-      "bytes": 2172964,
-      "huella": "c8d9df9f11c79bdd"
+      "bytes": 2240188,
+      "huella": "2d5df5877e60f9f7"
     },
     {
       "id": "significado-como-uso",
@@ -82,8 +82,8 @@
       "poster": "reels/significado-como-uso.webp",
       "miniatura": "reels/significado-como-uso-mini.webp",
       "detalle": "reels/significado-como-uso.json",
-      "bytes": 2342151,
-      "huella": "b823f1d6cf4cd9d9"
+      "bytes": 2320903,
+      "huella": "268fd981ee369f8c"
     },
     {
       "id": "velo-de-la-ignorancia",
@@ -94,8 +94,8 @@
       "poster": "reels/velo-de-la-ignorancia.webp",
       "miniatura": "reels/velo-de-la-ignorancia-mini.webp",
       "detalle": "reels/velo-de-la-ignorancia.json",
-      "bytes": 2120900,
-      "huella": "75403f9c94058096"
+      "bytes": 2166544,
+      "huella": "f6d3d9b0d9eed4ef"
     },
     {
       "id": "critica-de-la-causalidad",
@@ -106,8 +106,8 @@
       "poster": "reels/critica-de-la-causalidad.webp",
       "miniatura": "reels/critica-de-la-causalidad-mini.webp",
       "detalle": "reels/critica-de-la-causalidad.json",
-      "bytes": 2369104,
-      "huella": "82b81ecab541c101"
+      "bytes": 2352429,
+      "huella": "d9521ac0839e9a7d"
     },
     {
       "id": "saber-que-no-se-sabe",
@@ -118,8 +118,128 @@
       "poster": "reels/saber-que-no-se-sabe.webp",
       "miniatura": "reels/saber-que-no-se-sabe-mini.webp",
       "detalle": "reels/saber-que-no-se-sabe.json",
-      "bytes": 2239539,
-      "huella": "bb67a1cb321f6426"
+      "bytes": 2264692,
+      "huella": "f85feeaeed63a5b7"
+    },
+    {
+      "id": "alienacion",
+      "idea": "alienacion",
+      "titulo": "Al final del día, ¿puedes señalar algo y decir: esto lo hice yo?",
+      "duracion": 43,
+      "video": "reels/alienacion.mp4",
+      "poster": "reels/alienacion.webp",
+      "miniatura": "reels/alienacion-mini.webp",
+      "detalle": "reels/alienacion.json",
+      "bytes": 2513108,
+      "huella": "81336ca013e31001"
+    },
+    {
+      "id": "duda-metodica",
+      "idea": "duda-metodica",
+      "titulo": "¿Cómo sabes, ahora mismo, que no estás soñando?",
+      "duracion": 42,
+      "video": "reels/duda-metodica.mp4",
+      "poster": "reels/duda-metodica.webp",
+      "miniatura": "reels/duda-metodica-mini.webp",
+      "detalle": "reels/duda-metodica.json",
+      "bytes": 2418451,
+      "huella": "fd50b1d20944145b"
+    },
+    {
+      "id": "el-tiempo-en-el-alma",
+      "idea": "el-tiempo-en-el-alma",
+      "titulo": "Media hora esperando dura más que dos horas con alguien. Y el reloj dice lo contrario.",
+      "duracion": 41,
+      "video": "reels/el-tiempo-en-el-alma.mp4",
+      "poster": "reels/el-tiempo-en-el-alma.webp",
+      "miniatura": "reels/el-tiempo-en-el-alma-mini.webp",
+      "detalle": "reels/el-tiempo-en-el-alma.json",
+      "bytes": 2895941,
+      "huella": "c85b821fbe666dff"
+    },
+    {
+      "id": "eterno-retorno",
+      "idea": "eterno-retorno",
+      "titulo": "Piensa en esta semana, tal cual. ¿La repetirías?",
+      "duracion": 42,
+      "video": "reels/eterno-retorno.mp4",
+      "poster": "reels/eterno-retorno.webp",
+      "miniatura": "reels/eterno-retorno-mini.webp",
+      "detalle": "reels/eterno-retorno.json",
+      "bytes": 2596073,
+      "huella": "f598a4cb4d90cd9c"
+    },
+    {
+      "id": "flujo-y-permanencia",
+      "idea": "flujo-y-permanencia",
+      "titulo": "Ni una gota de este río estaba aquí ayer. Y es el mismo río.",
+      "duracion": 40,
+      "video": "reels/flujo-y-permanencia.mp4",
+      "poster": "reels/flujo-y-permanencia.webp",
+      "miniatura": "reels/flujo-y-permanencia-mini.webp",
+      "detalle": "reels/flujo-y-permanencia.json",
+      "bytes": 2683632,
+      "huella": "ad036e365cc08304"
+    },
+    {
+      "id": "las-cuatro-verdades",
+      "idea": "las-cuatro-verdades",
+      "titulo": "Llevas meses esperando las vacaciones. Y el primer día… ya cuentas los que quedan.",
+      "duracion": 40,
+      "video": "reels/las-cuatro-verdades.mp4",
+      "poster": "reels/las-cuatro-verdades.webp",
+      "miniatura": "reels/las-cuatro-verdades-mini.webp",
+      "detalle": "reels/las-cuatro-verdades.json",
+      "bytes": 2411995,
+      "huella": "f0b9084728efe52b"
+    },
+    {
+      "id": "placeres-superiores",
+      "idea": "placeres-superiores",
+      "titulo": "Estás viendo un vídeo corto. ¿Lo cambiarías por terminar un libro?",
+      "duracion": 38,
+      "video": "reels/placeres-superiores.mp4",
+      "poster": "reels/placeres-superiores.webp",
+      "miniatura": "reels/placeres-superiores-mini.webp",
+      "detalle": "reels/placeres-superiores.json",
+      "bytes": 2469323,
+      "huella": "e441a9012a597347"
+    },
+    {
+      "id": "ren-y-li",
+      "idea": "ren-y-li",
+      "titulo": "Dar los buenos días a alguien que no te cae bien. ¿Es hipocresía?",
+      "duracion": 43,
+      "video": "reels/ren-y-li.mp4",
+      "poster": "reels/ren-y-li.webp",
+      "miniatura": "reels/ren-y-li-mini.webp",
+      "detalle": "reels/ren-y-li.json",
+      "bytes": 2632572,
+      "huella": "f351c93cb22094ee"
+    },
+    {
+      "id": "tabula-rasa",
+      "idea": "tabula-rasa",
+      "titulo": "Imagina un color que no hayas visto nunca. No una mezcla: uno nuevo.",
+      "duracion": 41,
+      "video": "reels/tabula-rasa.mp4",
+      "poster": "reels/tabula-rasa.webp",
+      "miniatura": "reels/tabula-rasa-mini.webp",
+      "detalle": "reels/tabula-rasa.json",
+      "bytes": 2249027,
+      "huella": "bfa0719497fdb3bc"
+    },
+    {
+      "id": "termino-medio",
+      "idea": "termino-medio",
+      "titulo": "¿Decir lo que piensas?",
+      "duracion": 42,
+      "video": "reels/termino-medio.mp4",
+      "poster": "reels/termino-medio.webp",
+      "miniatura": "reels/termino-medio-mini.webp",
+      "detalle": "reels/termino-medio.json",
+      "bytes": 2763857,
+      "huella": "ee2fdeba61047b36"
     }
   ]
 }

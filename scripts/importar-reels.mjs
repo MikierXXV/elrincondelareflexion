@@ -47,6 +47,17 @@ const REELS = [
   'velo-de-la-ignorancia',
   'critica-de-la-causalidad',
   'saber-que-no-se-sabe',
+  // Tanda 3
+  'alienacion',
+  'duda-metodica',
+  'el-tiempo-en-el-alma',
+  'eterno-retorno',
+  'flujo-y-permanencia',
+  'las-cuatro-verdades',
+  'placeres-superiores',
+  'ren-y-li',
+  'tabula-rasa',
+  'termino-medio',
 ];
 
 function duracion(ruta) {
