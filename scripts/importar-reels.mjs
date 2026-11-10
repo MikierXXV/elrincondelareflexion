@@ -58,6 +58,17 @@ const REELS = [
   'ren-y-li',
   'tabula-rasa',
   'termino-medio',
+  // Tanda 4
+  'identidad-personal',
+  'dicotomia-del-control',
+  'mundo-de-las-ideas',
+  'relatividad-de-las-perspectivas',
+  'el-mal-como-privacion',
+  'libertad-como-comprension',
+  'ley-de-hume',
+  'dialectica-del-reconocimiento',
+  'hablar-de-lo-que-no-existe',
+  'atman-y-brahman',
 ];
 
 function duracion(ruta) {
