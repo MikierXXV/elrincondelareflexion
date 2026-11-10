@@ -240,6 +240,126 @@
       "detalle": "reels/termino-medio.json",
       "bytes": 2763857,
       "huella": "ee2fdeba61047b36"
+    },
+    {
+      "id": "identidad-personal",
+      "idea": "identidad-personal",
+      "titulo": "¿Quién escribió esto?",
+      "duracion": 50,
+      "video": "reels/identidad-personal.mp4",
+      "poster": "reels/identidad-personal.webp",
+      "miniatura": "reels/identidad-personal-mini.webp",
+      "detalle": "reels/identidad-personal.json",
+      "bytes": 2635960,
+      "huella": "72907e07f3429344"
+    },
+    {
+      "id": "dicotomia-del-control",
+      "idea": "dicotomia-del-control",
+      "titulo": "Vuelo cancelado",
+      "duracion": 42,
+      "video": "reels/dicotomia-del-control.mp4",
+      "poster": "reels/dicotomia-del-control.webp",
+      "miniatura": "reels/dicotomia-del-control-mini.webp",
+      "detalle": "reels/dicotomia-del-control.json",
+      "bytes": 2400239,
+      "huella": "4e918e47a5df7302"
+    },
+    {
+      "id": "mundo-de-las-ideas",
+      "idea": "mundo-de-las-ideas",
+      "titulo": "Lo conoces por lo que publica",
+      "duracion": 55,
+      "video": "reels/mundo-de-las-ideas.mp4",
+      "poster": "reels/mundo-de-las-ideas.webp",
+      "miniatura": "reels/mundo-de-las-ideas-mini.webp",
+      "detalle": "reels/mundo-de-las-ideas.json",
+      "bytes": 3046974,
+      "huella": "f2ab696499db1e97"
+    },
+    {
+      "id": "relatividad-de-las-perspectivas",
+      "idea": "relatividad-de-las-perspectivas",
+      "titulo": "La misma escalera",
+      "duracion": 48,
+      "video": "reels/relatividad-de-las-perspectivas.mp4",
+      "poster": "reels/relatividad-de-las-perspectivas.webp",
+      "miniatura": "reels/relatividad-de-las-perspectivas-mini.webp",
+      "detalle": "reels/relatividad-de-las-perspectivas.json",
+      "bytes": 2552974,
+      "huella": "abdb7c0e9c1697ee"
+    },
+    {
+      "id": "el-mal-como-privacion",
+      "idea": "el-mal-como-privacion",
+      "titulo": "Nadie hizo nada malo",
+      "duracion": 45,
+      "video": "reels/el-mal-como-privacion.mp4",
+      "poster": "reels/el-mal-como-privacion.webp",
+      "miniatura": "reels/el-mal-como-privacion-mini.webp",
+      "detalle": "reels/el-mal-como-privacion.json",
+      "bytes": 2462009,
+      "huella": "6f4b910203f2f308"
+    },
+    {
+      "id": "libertad-como-comprension",
+      "idea": "libertad-como-comprension",
+      "titulo": "Lo hice porque quise",
+      "duracion": 46,
+      "video": "reels/libertad-como-comprension.mp4",
+      "poster": "reels/libertad-como-comprension.webp",
+      "miniatura": "reels/libertad-como-comprension-mini.webp",
+      "detalle": "reels/libertad-como-comprension.json",
+      "bytes": 2689095,
+      "huella": "cb5e83c3290dc956"
+    },
+    {
+      "id": "ley-de-hume",
+      "idea": "ley-de-hume",
+      "titulo": "Siempre se ha hecho así",
+      "duracion": 44,
+      "video": "reels/ley-de-hume.mp4",
+      "poster": "reels/ley-de-hume.webp",
+      "miniatura": "reels/ley-de-hume-mini.webp",
+      "detalle": "reels/ley-de-hume.json",
+      "bytes": 2580532,
+      "huella": "e2d9538ffac68a05"
+    },
+    {
+      "id": "dialectica-del-reconocimiento",
+      "idea": "dialectica-del-reconocimiento",
+      "titulo": "Un sí con miedo",
+      "duracion": 44,
+      "video": "reels/dialectica-del-reconocimiento.mp4",
+      "poster": "reels/dialectica-del-reconocimiento.webp",
+      "miniatura": "reels/dialectica-del-reconocimiento-mini.webp",
+      "detalle": "reels/dialectica-del-reconocimiento.json",
+      "bytes": 2480400,
+      "huella": "64813f259511684d"
+    },
+    {
+      "id": "hablar-de-lo-que-no-existe",
+      "idea": "hablar-de-lo-que-no-existe",
+      "titulo": "La pregunta trampa",
+      "duracion": 44,
+      "video": "reels/hablar-de-lo-que-no-existe.mp4",
+      "poster": "reels/hablar-de-lo-que-no-existe.webp",
+      "miniatura": "reels/hablar-de-lo-que-no-existe-mini.webp",
+      "detalle": "reels/hablar-de-lo-que-no-existe.json",
+      "bytes": 2477501,
+      "huella": "4a93acf601155f55"
+    },
+    {
+      "id": "atman-y-brahman",
+      "idea": "atman-y-brahman",
+      "titulo": "¿Quién mira tu enfado?",
+      "duracion": 52,
+      "video": "reels/atman-y-brahman.mp4",
+      "poster": "reels/atman-y-brahman.webp",
+      "miniatura": "reels/atman-y-brahman-mini.webp",
+      "detalle": "reels/atman-y-brahman.json",
+      "bytes": 2604585,
+      "huella": "1399b075fceb3655"
     }
   ]
 }
