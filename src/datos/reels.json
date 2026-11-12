@@ -360,6 +360,66 @@
       "detalle": "reels/atman-y-brahman.json",
       "bytes": 2604585,
       "huella": "1399b075fceb3655"
+    },
+    {
+      "id": "el-numero-como-orden",
+      "idea": "el-numero-como-orden",
+      "titulo": "Afinar es contar",
+      "duracion": 45,
+      "video": "reels/el-numero-como-orden.mp4",
+      "poster": "reels/el-numero-como-orden.webp",
+      "miniatura": "reels/el-numero-como-orden-mini.webp",
+      "detalle": "reels/el-numero-como-orden.json",
+      "bytes": 2465034,
+      "huella": "9c6952339b8353df"
+    },
+    {
+      "id": "voluntad-y-pesimismo",
+      "idea": "voluntad-y-pesimismo",
+      "titulo": "El péndulo del querer",
+      "duracion": 46,
+      "video": "reels/voluntad-y-pesimismo.mp4",
+      "poster": "reels/voluntad-y-pesimismo.webp",
+      "miniatura": "reels/voluntad-y-pesimismo-mini.webp",
+      "detalle": "reels/voluntad-y-pesimismo.json",
+      "bytes": 2491158,
+      "huella": "ab8ac048628c8212"
+    },
+    {
+      "id": "anatman",
+      "idea": "anatman",
+      "titulo": "¿Dónde está la bici?",
+      "duracion": 50,
+      "video": "reels/anatman.mp4",
+      "poster": "reels/anatman.webp",
+      "miniatura": "reels/anatman-mini.webp",
+      "detalle": "reels/anatman.json",
+      "bytes": 2670239,
+      "huella": "3bf6b3310d1c468e"
+    },
+    {
+      "id": "angustia-y-libertad",
+      "idea": "angustia-y-libertad",
+      "titulo": "El vértigo de la libertad",
+      "duracion": 44,
+      "video": "reels/angustia-y-libertad.mp4",
+      "poster": "reels/angustia-y-libertad.webp",
+      "miniatura": "reels/angustia-y-libertad-mini.webp",
+      "detalle": "reels/angustia-y-libertad.json",
+      "bytes": 2555896,
+      "huella": "c96bb0d85aa29564"
+    },
+    {
+      "id": "calculo-de-la-felicidad",
+      "idea": "calculo-de-la-felicidad",
+      "titulo": "¿A quién se las das?",
+      "duracion": 49,
+      "video": "reels/calculo-de-la-felicidad.mp4",
+      "poster": "reels/calculo-de-la-felicidad.webp",
+      "miniatura": "reels/calculo-de-la-felicidad-mini.webp",
+      "detalle": "reels/calculo-de-la-felicidad.json",
+      "bytes": 2966425,
+      "huella": "bdff837d3f1d754a"
     }
   ]
 }

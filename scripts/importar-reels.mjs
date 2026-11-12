@@ -69,6 +69,12 @@ const REELS = [
   'dialectica-del-reconocimiento',
   'hablar-de-lo-que-no-existe',
   'atman-y-brahman',
+  // Tanda 5
+  'el-numero-como-orden',
+  'voluntad-y-pesimismo',
+  'anatman',
+  'angustia-y-libertad',
+  'calculo-de-la-felicidad',
 ];
 
 function duracion(ruta) {
