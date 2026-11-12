@@ -374,18 +374,6 @@
       "huella": "9c6952339b8353df"
     },
     {
-      "id": "problema-mente-cuerpo",
-      "idea": "problema-mente-cuerpo",
-      "titulo": "¿Cómo se mueve el brazo?",
-      "duracion": 50,
-      "video": "reels/problema-mente-cuerpo.mp4",
-      "poster": "reels/problema-mente-cuerpo.webp",
-      "miniatura": "reels/problema-mente-cuerpo-mini.webp",
-      "detalle": "reels/problema-mente-cuerpo.json",
-      "bytes": 2731668,
-      "huella": "73100723ca207f98"
-    },
-    {
       "id": "voluntad-y-pesimismo",
       "idea": "voluntad-y-pesimismo",
       "titulo": "El péndulo del querer",
@@ -420,30 +408,6 @@
       "detalle": "reels/angustia-y-libertad.json",
       "bytes": 2555896,
       "huella": "c96bb0d85aa29564"
-    },
-    {
-      "id": "limites-del-lenguaje",
-      "idea": "limites-del-lenguaje",
-      "titulo": "A qué sabe la sal",
-      "duracion": 48,
-      "video": "reels/limites-del-lenguaje.mp4",
-      "poster": "reels/limites-del-lenguaje.webp",
-      "miniatura": "reels/limites-del-lenguaje-mini.webp",
-      "detalle": "reels/limites-del-lenguaje.json",
-      "bytes": 2634363,
-      "huella": "d17be904dfe0ae5c"
-    },
-    {
-      "id": "condiciones-a-priori",
-      "idea": "condiciones-a-priori",
-      "titulo": "Gafas que no te quitas",
-      "duracion": 50,
-      "video": "reels/condiciones-a-priori.mp4",
-      "poster": "reels/condiciones-a-priori.webp",
-      "miniatura": "reels/condiciones-a-priori-mini.webp",
-      "detalle": "reels/condiciones-a-priori.json",
-      "bytes": 3097718,
-      "huella": "36462bfaea2f79e0"
     },
     {
       "id": "calculo-de-la-felicidad",

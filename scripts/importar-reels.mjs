@@ -71,12 +71,9 @@ const REELS = [
   'atman-y-brahman',
   // Tanda 5
   'el-numero-como-orden',
-  'problema-mente-cuerpo',
   'voluntad-y-pesimismo',
   'anatman',
   'angustia-y-libertad',
-  'limites-del-lenguaje',
-  'condiciones-a-priori',
   'calculo-de-la-felicidad',
 ];
 
