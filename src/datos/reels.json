@@ -360,6 +360,102 @@
       "detalle": "reels/atman-y-brahman.json",
       "bytes": 2604585,
       "huella": "1399b075fceb3655"
+    },
+    {
+      "id": "el-numero-como-orden",
+      "idea": "el-numero-como-orden",
+      "titulo": "Afinar es contar",
+      "duracion": 45,
+      "video": "reels/el-numero-como-orden.mp4",
+      "poster": "reels/el-numero-como-orden.webp",
+      "miniatura": "reels/el-numero-como-orden-mini.webp",
+      "detalle": "reels/el-numero-como-orden.json",
+      "bytes": 2465034,
+      "huella": "9c6952339b8353df"
+    },
+    {
+      "id": "problema-mente-cuerpo",
+      "idea": "problema-mente-cuerpo",
+      "titulo": "¿Cómo se mueve el brazo?",
+      "duracion": 50,
+      "video": "reels/problema-mente-cuerpo.mp4",
+      "poster": "reels/problema-mente-cuerpo.webp",
+      "miniatura": "reels/problema-mente-cuerpo-mini.webp",
+      "detalle": "reels/problema-mente-cuerpo.json",
+      "bytes": 2731668,
+      "huella": "73100723ca207f98"
+    },
+    {
+      "id": "voluntad-y-pesimismo",
+      "idea": "voluntad-y-pesimismo",
+      "titulo": "El péndulo del querer",
+      "duracion": 46,
+      "video": "reels/voluntad-y-pesimismo.mp4",
+      "poster": "reels/voluntad-y-pesimismo.webp",
+      "miniatura": "reels/voluntad-y-pesimismo-mini.webp",
+      "detalle": "reels/voluntad-y-pesimismo.json",
+      "bytes": 2491158,
+      "huella": "ab8ac048628c8212"
+    },
+    {
+      "id": "anatman",
+      "idea": "anatman",
+      "titulo": "¿Dónde está la bici?",
+      "duracion": 50,
+      "video": "reels/anatman.mp4",
+      "poster": "reels/anatman.webp",
+      "miniatura": "reels/anatman-mini.webp",
+      "detalle": "reels/anatman.json",
+      "bytes": 2670239,
+      "huella": "3bf6b3310d1c468e"
+    },
+    {
+      "id": "angustia-y-libertad",
+      "idea": "angustia-y-libertad",
+      "titulo": "El vértigo de la libertad",
+      "duracion": 44,
+      "video": "reels/angustia-y-libertad.mp4",
+      "poster": "reels/angustia-y-libertad.webp",
+      "miniatura": "reels/angustia-y-libertad-mini.webp",
+      "detalle": "reels/angustia-y-libertad.json",
+      "bytes": 2555896,
+      "huella": "c96bb0d85aa29564"
+    },
+    {
+      "id": "limites-del-lenguaje",
+      "idea": "limites-del-lenguaje",
+      "titulo": "A qué sabe la sal",
+      "duracion": 48,
+      "video": "reels/limites-del-lenguaje.mp4",
+      "poster": "reels/limites-del-lenguaje.webp",
+      "miniatura": "reels/limites-del-lenguaje-mini.webp",
+      "detalle": "reels/limites-del-lenguaje.json",
+      "bytes": 2634363,
+      "huella": "d17be904dfe0ae5c"
+    },
+    {
+      "id": "condiciones-a-priori",
+      "idea": "condiciones-a-priori",
+      "titulo": "Gafas que no te quitas",
+      "duracion": 50,
+      "video": "reels/condiciones-a-priori.mp4",
+      "poster": "reels/condiciones-a-priori.webp",
+      "miniatura": "reels/condiciones-a-priori-mini.webp",
+      "detalle": "reels/condiciones-a-priori.json",
+      "bytes": 3097718,
+      "huella": "36462bfaea2f79e0"
+    },
+    {
+      "id": "calculo-de-la-felicidad",
+      "idea": "calculo-de-la-felicidad",
+      "titulo": "¿A quién se las das?",
+      "duracion": 49,
+      "video": "reels/calculo-de-la-felicidad.mp4",
+      "poster": "reels/calculo-de-la-felicidad.webp",
+      "miniatura": "reels/calculo-de-la-felicidad-mini.webp",
+      "detalle": "reels/calculo-de-la-felicidad.json",
+      "bytes": 2966425,
+      "huella": "bdff837d3f1d754a"
     }
   ]
 }
